@@ -1,0 +1,143 @@
+{
+  "as_of": "2026-10-14",
+  "units": "EUR billions unless specified",
+  "status": "Research anchors and illustrative allocation sensitivities; not approved forecasts or reported four-pool expenses",
+  "reported": {
+    "industrial_cost_of_revenues_2025": 152.615,
+    "industrial_cost_of_revenues_2024": 134.924,
+    "industrial_SGA_2025": 8.638,
+    "RD_2025": 11.145,
+    "RD_expensed_plus_amortization_2025": 4.952,
+    "global_direct_material_purchases_2025": {
+      "value": 88,
+      "qualifier": "greater than",
+      "basis": "purchases, not P&L consumption"
+    },
+    "global_personnel_cost_2025_executive_directors_excluded": 16.8,
+    "warranty_additions_2025": 11.645,
+    "warranty_AOI_excluded_estimate_change": 4.13,
+    "Takata_AOI_excluded_2025": 0.622,
+    "NA_shipments_thousands_2025": 1472,
+    "global_shipments_thousands_2025": 5484,
+    "NA_revenue_2025_original_annual_report_scope": 60.962,
+    "NA_AOI_2025_original_annual_report_scope": -1.892,
+    "NA_employees_yearend_consolidated": 80247,
+    "global_employees_yearend_consolidated": 258668,
+    "global_blue_collar_yearend_ESG_broader_scope": 179990,
+    "global_employees_yearend_ESG_broader_scope": 259206
+  },
+  "derived": {
+    "NA_shipments_share": 0.2684172137126185,
+    "NA_employees_share": 0.31023164829047273,
+    "AOI_aligned_warranty_additions_proxy": 6.893,
+    "partially_adjusted_industrial_cost_of_revenues_not_fully_normalized": 137.594,
+    "NA_net_adjusted_operating_cost_residual_not_four_pool_base": 62.854000000000006
+  },
+  "vehicle_allocation_sensitivities": [
+    {
+      "assumed_NA_cost_per_vehicle_relative_to_rest": 1,
+      "NA_allocated_share": 0.2684172137126185,
+      "components_using_88bn_purchase_anchor": 23.620714806710428,
+      "quality_using_6_893bn_proxy": 1.8501998541210793
+    },
+    {
+      "assumed_NA_cost_per_vehicle_relative_to_rest": 1.5,
+      "NA_allocated_share": 0.35498392282958197,
+      "components_using_88bn_purchase_anchor": 31.23858520900321,
+      "quality_using_6_893bn_proxy": 2.4469041800643083
+    },
+    {
+      "assumed_NA_cost_per_vehicle_relative_to_rest": 2,
+      "NA_allocated_share": 0.4232317423806785,
+      "components_using_88bn_purchase_anchor": 37.24439332949971,
+      "quality_using_6_893bn_proxy": 2.917336400230017
+    },
+    {
+      "assumed_NA_cost_per_vehicle_relative_to_rest": 2.5,
+      "NA_allocated_share": 0.4784191367654706,
+      "components_using_88bn_purchase_anchor": 42.10088403536141,
+      "quality_using_6_893bn_proxy": 3.2977431097243888
+    }
+  ],
+  "payroll_sensitivities": [
+    {
+      "assumed_white_to_blue_pay_ratio": 1,
+      "assumed_NA_to_rest_blue_pay_ratio": 1,
+      "global_blue_payroll_proxy": 11.66574847804449,
+      "NA_all_employee_headcount_based_share": 0.31023164829047273,
+      "NA_blue_payroll_proxy": 3.6190843788858156
+    },
+    {
+      "assumed_white_to_blue_pay_ratio": 1,
+      "assumed_NA_to_rest_blue_pay_ratio": 1.25,
+      "global_blue_payroll_proxy": 11.66574847804449,
+      "NA_all_employee_headcount_based_share": 0.35987816155254326,
+      "NA_blue_payroll_proxy": 4.198248115413031
+    },
+    {
+      "assumed_white_to_blue_pay_ratio": 1,
+      "assumed_NA_to_rest_blue_pay_ratio": 1.5,
+      "global_blue_payroll_proxy": 11.66574847804449,
+      "NA_all_employee_headcount_based_share": 0.40285784568838134,
+      "NA_blue_payroll_proxy": 4.699638300207517
+    },
+    {
+      "assumed_white_to_blue_pay_ratio": 1.25,
+      "assumed_NA_to_rest_blue_pay_ratio": 1,
+      "global_blue_payroll_proxy": 10.837719078169242,
+      "NA_all_employee_headcount_based_share": 0.31023164829047273,
+      "NA_blue_payroll_proxy": 3.3622034533295464
+    },
+    {
+      "assumed_white_to_blue_pay_ratio": 1.25,
+      "assumed_NA_to_rest_blue_pay_ratio": 1.25,
+      "global_blue_payroll_proxy": 10.837719078169242,
+      "NA_all_employee_headcount_based_share": 0.35987816155254326,
+      "NA_blue_payroll_proxy": 3.9002584172744705
+    },
+    {
+      "assumed_white_to_blue_pay_ratio": 1.25,
+      "assumed_NA_to_rest_blue_pay_ratio": 1.5,
+      "global_blue_payroll_proxy": 10.837719078169242,
+      "NA_all_employee_headcount_based_share": 0.40285784568838134,
+      "NA_blue_payroll_proxy": 4.366060160007131
+    },
+    {
+      "assumed_white_to_blue_pay_ratio": 1.5,
+      "assumed_NA_to_rest_blue_pay_ratio": 1,
+      "global_blue_payroll_proxy": 10.119445541373564,
+      "NA_all_employee_headcount_based_share": 0.31023164829047273,
+      "NA_blue_payroll_proxy": 3.1393722700859956
+    },
+    {
+      "assumed_white_to_blue_pay_ratio": 1.5,
+      "assumed_NA_to_rest_blue_pay_ratio": 1.25,
+      "global_blue_payroll_proxy": 10.119445541373564,
+      "NA_all_employee_headcount_based_share": 0.35987816155254326,
+      "NA_blue_payroll_proxy": 3.641767457360599
+    },
+    {
+      "assumed_white_to_blue_pay_ratio": 1.5,
+      "assumed_NA_to_rest_blue_pay_ratio": 1.5,
+      "global_blue_payroll_proxy": 10.119445541373564,
+      "NA_all_employee_headcount_based_share": 0.40285784568838134,
+      "NA_blue_payroll_proxy": 4.076698030358649
+    }
+  ],
+  "unknown": {
+    "logistics_indirect_global_addressable_base": null,
+    "logistics_indirect_NA_addressable_base": null,
+    "manufacturing_nonlabor_base": null,
+    "direct_material_purchase_to_expense_reconciliation": null,
+    "NA_actual_material_cost": null,
+    "NA_actual_warranty_expense": null
+  },
+  "rules": [
+    "No costs or savings summed across these proxy pools until scope/overlap resolved.",
+    "No management EUR6bn target used to backsolve cost bases or savings rates.",
+    "Annual modeled savings divided equally by four; no implementation curve.",
+    "Regional allocation ratios are explicit hypothetical sensitivity inputs, not empirically estimated bounds.",
+    "Use warranty provision additions less known AOI exclusions as expense proxy, not closing liability or cash settlements.",
+    "Do not count disappearing AOI-excluded charges as future AOI savings."
+  ]
+}

@@ -28,3 +28,7 @@ The2025 warranty estimate change produced5400m charges;4100m was excluded from A
 ## Next extraction
 
 First establish global recurring accounting totals and their exclusions. Then determine addressable subsets with a non-overlap crosswalk. Regional allocation requires a separate basis: do not assign NA40% merely because of revenue share. For each pool record year, geography, expense versus cash basis, gross cost, exclusions, addressable base, evidence confidence, assumed savings rate and recognized AOI benefit. Annual savings divided by4 remains the user's quarterly simplification.
+
+## Follow-up completed
+
+See [global bases and NA allocation sensitivities](vcp-global-and-na-bases.md) and [reproducible inputs](vcp-cost-bases.json). These supersede the initial unknown-base status where explicitly supported; complete manufacturing/logistics and empirical NA allocations remain unresolved.
