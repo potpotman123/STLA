@@ -46,7 +46,7 @@
         "Planned: additional refresh/SRT during 2030 plan, no separately quantified 2028 uplift."
       ],
       "pricing_mix_view": "Base volume requires competitive financing and affordable configuration availability; lower 4xe share and Laredo mix can lower family average invoice before incentives. Rich L/Summit or SRT mix is an upside, not an automatic offset. No verified OEM realized dollars/unit; no positive price assumption solely from refresh.",
-      "forecast_method": "Partial recovery anchored to H1 2026\u2248203k annualized and 2024 non-4xe 188558, not 2023 total 244594. Q4 scenarios 35/45/55k mean 11.7/15/18.3k per month versus Q3 12.7k and H1 17.0k; the upper end needs restored sellable supply. 2027/28 base 200/200k retains most H1 scale without an unsupported additional 2028 growth increment, downside persistent value/quality friction, upside strong refill and retention. No fitted seasonality.",
+      "forecast_method": "Stabilization scenario: 190k in both2027/28 requires15,833/month, near2026YTDannualized186,352 and below trailingfourquarters195,625. H1annualized203,474 is not assumed sustainable because rental seasonality and support/mix are unresolved. No further growth awarded without post-shutdown conversion evidence. Downside/upside scenarios unchanged; this rounded scenario is not an estimated demand elasticity or a statistically identified sustainable level.",
       "q4_2026_units_down_base_up": [
         35000,
         45000,
@@ -54,12 +54,12 @@
       ],
       "annual_2027_units_down_base_up": [
         155000,
-        200000,
+        190000,
         230000
       ],
       "annual_2028_units_down_base_up": [
         155000,
-        200000,
+        190000,
         240000
       ],
       "revision_from_prior": {
@@ -73,10 +73,10 @@
           215000,
           245000
         ],
-        "base_delta_2027": -5000,
-        "base_delta_2028": -15000
+        "base_delta_2027": -15000,
+        "base_delta_2028": -25000
       },
-      "revision_reason": "Ended 4xe production and Cherokee overlap strengthen the need for gasoline retention; base trimmed modestly. These are judgment revisions, not measured unit losses attributable to cessation. User accepted an additional 5,000-unit reduction on 14 October 2026: remove the unsubstantiated 2028 increment above the 200k recovery anchor.",
+      "revision_reason": "D096: user requested reassessment after causal audit. Reduce2027/28 from200k/200k to190k/190k, removing unverified full-H1-restoration assumption. Retain200k as conditional recovery reference; do not conflate uncertainty with proof of failure.",
       "confidence": "Medium mechanism / low-to-medium forecast",
       "falsifier": "Two quarters above \u224817k monthly at stable effective payments and acceptable fresh-stock turns support upside; continued \u224813k monthly despite available Laredo/Limited supply rejects base. Need sales by powertrain/channel and delivered configuration, not another factory announcement.",
       "historical_sales_units": {
@@ -108,7 +108,7 @@
       ],
       "2027_yoy_pct_down_base_up": [
         -11.31,
-        8.25,
+        2.83,
         18.09
       ],
       "2028_yoy_pct_down_base_up": [
@@ -118,12 +118,12 @@
       ],
       "2027_monthly_units_down_base_up": [
         12916.7,
-        16666.7,
+        15833.3,
         19166.7
       ],
       "2028_monthly_units_down_base_up": [
         12916.7,
-        16666.7,
+        15833.3,
         20000.0
       ]
     },

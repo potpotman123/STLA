@@ -1,0 +1,77 @@
+{
+  "as_of": "2026-10-14",
+  "decision_id": "D096",
+  "method": "Reused allmodeldossiersandhistories; eightqueries acrosspricedproductchanges,operatorinventory,salesandretailavailability. Selectiveprimaryverification. Noagents,bulkscrapingorfit. Modelcoveragecompleteforqualitativeaudit;notallcausesresolved.",
+  "sources": [
+    {
+      "id": "C1",
+      "url": "https://www.prnewswire.com/news-releases/fca-reports-fourth-quarter-and-full-year-2023-sales-results-302025792.html",
+      "status": "reused issuer data rechecked",
+      "finding": "Wrangler2023 total156581;4xe67429."
+    },
+    {
+      "id": "C2",
+      "url": "https://www.prnewswire.com/news-releases/fca-us-reports-fourth-quarter-and-full-year-2024-sales-results-302342164.html",
+      "status": "reused issuer data rechecked",
+      "finding": "Wrangler2024total151163;4xe55554; Q4total+27%,H2retail+4%vsH1. ProMastersecondbestyearbehind2023. CompassandWagoneer grew. H2vsH1changesare not seasonallycontrolled causal evidence."
+    },
+    {
+      "id": "C3",
+      "url": "https://www.prnewswire.com/news-releases/welcome-back-chrysler-voyager-returns-budget-friendly-option-to-chrysler-family-of-minivans-302258650.html",
+      "status": "new targeted primary verification",
+      "date": "2024-09-25",
+      "finding": "Voyager returnsretail;ordersopen,arrivalplannedQ4;Stow nGoandcomfort/safetyequipment. Availabilityannouncementnotmeasureofrealizedincrementaldemand."
+    },
+    {
+      "id": "C4",
+      "url": "https://www.prnewswire.com/news-releases/jeep-brand-announces-starting-prices-for-2024-gladiator-lineup-302065358.html",
+      "status": "new targeted primary verification",
+      "date": "2024-02-20",
+      "finding": "Gladiatorbase37895ex1895destination,1725belowprior;newscreenandsafetycontent,availableatdealers. Salesstillfell2024: actionaloneinsufficient."
+    },
+    {
+      "id": "C5",
+      "url": "https://www.thecarconnection.com/news/1144504_2025-jeep-gladiator-price-slashed-manual-killed",
+      "status": "new secondary product comparison",
+      "date": "2024-09",
+      "finding": "2025automaticstandard;compareequivalenttransmission/content,notbaseMSRP. Existing2024incentivescanoffsetnewMYstickeradvantage."
+    },
+    {
+      "id": "C6",
+      "url": "https://www.autoblog.com/features/2024-jeep-wrangler-prices-up-again-range-runs-from-33890-to-93440",
+      "status": "new secondary datedpricecontext",
+      "finding": "Trim-specificpriceincreases;headlinebrandATPnotconstantmix. Notusedtocalculateelasticity."
+    }
+  ],
+  "calculations": {
+    "wrangler": {
+      "2023_total": 156581,
+      "2024_total": 151163,
+      "2023_4xe": 67429,
+      "2024_4xe": 55554,
+      "2023_non4xe": 89152,
+      "2024_non4xe": 95609,
+      "4xe_change": -11875,
+      "non4xe_change": 6457,
+      "net_change": -5418,
+      "non4xe_growth_pct": 7.242686647523322
+    },
+    "gc_revision": {
+      "previous_2027": 200000,
+      "previous_2028": 200000,
+      "current_2027": 190000,
+      "current_2028": 190000,
+      "anchor_ytd_annualized": 186352,
+      "anchor_trailing": 195625,
+      "required_monthly": 15833.333333333334,
+      "interpretation": "Roundedstabilizationscenario,notidentifiedcausalcoefficient.2027sameas2028removesunsupportedrecoveryinbothyears."
+    }
+  },
+  "limits": [
+    "Lotlinxfailedoriginalsfrompriorpassnotretriedornumericallyadmitted.",
+    "CanadianminivansearchresultsnotusedasUSevidence.",
+    "Manualstop-saleleadnotpromotedtoexplanationofwholeGladiatorlosswithouttake-rate.",
+    "No newcausalweightsornationaldealerprofit estimates."
+  ],
+  "numeric_changes": "OnlyGC2027/28baseschanged;allotherunit scenariosunchanged."
+}

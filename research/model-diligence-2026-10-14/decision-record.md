@@ -47,3 +47,7 @@ User requested the updated forecast file after accepting Grand Cherokee 2028 at 
 ## D095 Historical mechanism before recovery assumptions
 
 User challenged the unproven Grand Cherokee return toH1pace and requested comparable causal stories across models/brands. Recovered prior mix/lender/consumer audits; added dated generation/price evidence,2021retail counterevidence, Coxpricing and targeted latest-call/filing rereads. H1rental seasonality and inventory build-ahead are explicit management disclosures, not GC-specific quantified effects. Documented mixed historical mechanisms and a brand-level coverage map.200kretained as conditional; no forecast/workbook changes. Lotlinx originals inaccessible, indexed numbers excluded.
+
+## D096 Stabilization rather than unverified Grand Cherokee recovery
+
+User asked to reviseGCandthenextendcausaltestsacrossothermodels. GC2027/28bases190k/190k;allotherunitinputsunchanged. Rebuiltderivedtotals. AuditcoversallfamiliesusingexistingdossierswithtargetedWrangler/Gladiator/minivanverification. Distinguishes4xecontractionfromgasolineresilience,alreadyhealthyminivans,launchgapsandunresolvedcommercialcycles. Noagent,workbookorindependentbaselinechanges.

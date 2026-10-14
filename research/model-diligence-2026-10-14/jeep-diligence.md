@@ -12,7 +12,7 @@ All figures below are thousands of US vehicles. Down/base/up are scenarios, not 
 
 |Family|2025 actual|2026 YTD|Q3/month|Q4 2026 D/B/U|2027 D/B/U|2028 D/B/U|Base change vs prior 2027/28|
 |---|---: |---: |---: |---: |---: |---: |---: |
-|Grand Cherokee including L and 4xe|210.082|139.764|12.676|35 / 45 / 55|155 / 200 / 230|155 / 200 / 240|-5 / -15|
+|Grand Cherokee including L and 4xe|210.082|139.764|12.676|35 / 45 / 55|155 / 190 / 230|155 / 190 / 240|-15 / -25|
 |Wrangler including former 4xe|167.322|131.011|14.919|37 / 43 / 48|155 / 180 / 190|150 / 180 / 200|0 / 0|
 |Gladiator|56.790|30.944|3.970|9 / 12 / 17|35 / 43 / 55|30 / 45 / 60|0 / 0|
 |Compass|101.997|47.837|3.604|9 / 15 / 21|40 / 65 / 85|35 / 70 / 90|0 / 0|
@@ -40,7 +40,7 @@ The six quantified continuing/returning families total **598k in 2027 and 628k i
 
 **Actions and status.** Implemented/current: refreshed equipment and turbo four offer, V6 entry retained; 4xe no longer produced. Management explanation: planned downtime; no actual daily plant-output series obtained. Planned: additional refresh/SRT during 2030 plan, no separately quantified 2028 uplift.
 
-**Volume, price and mix.** Partial recovery anchored to H1 2026≈203k annualized and 2024 non-4xe 188558, not 2023 total 244594. Q4 scenarios 35/45/55k mean 11.7/15/18.3k per month versus Q3 12.7k and H1 17.0k; the upper end needs restored sellable supply. 2027/28 base 200/200k retains most H1 scale without an unsupported additional 2028 growth increment, downside persistent value/quality friction, upside strong refill and retention. No fitted seasonality. Base volume requires competitive financing and affordable configuration availability; lower 4xe share and Laredo mix can lower family average invoice before incentives. Rich L/Summit or SRT mix is an upside, not an automatic offset. No verified OEM realized dollars/unit; no positive price assumption solely from refresh.
+**Volume, price and mix.** Stabilization scenario: 190k in both2027/28 requires15,833/month, near2026YTDannualized186,352 and below trailingfourquarters195,625. H1annualized203,474 is not assumed sustainable because rental seasonality and support/mix are unresolved. No further growth awarded without post-shutdown conversion evidence. Downside/upside scenarios unchanged; this rounded scenario is not an estimated demand elasticity or a statistically identified sustainable level. Base volume requires competitive financing and affordable configuration availability; lower 4xe share and Laredo mix can lower family average invoice before incentives. Rich L/Summit or SRT mix is an upside, not an automatic offset. No verified OEM realized dollars/unit; no positive price assumption solely from refresh.
 
 **Revision and test.** Ended 4xe production and Cherokee overlap strengthen the need for gasoline retention; base trimmed modestly. These are judgment revisions, not measured unit losses attributable to cessation. Two quarters above ≈17k monthly at stable effective payments and acceptable fresh-stock turns support upside; continued ≈13k monthly despite available Laredo/Limited supply rejects base. Need sales by powertrain/channel and delivered configuration, not another factory announcement. Confidence: Medium mechanism / low-to-medium forecast.
 
