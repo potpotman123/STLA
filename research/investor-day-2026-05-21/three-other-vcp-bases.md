@@ -2,6 +2,17 @@
 
 14 October2026. User requested the same evidence-plus-judgment approach for the three other VCP drivers. Target2025-reference annual NorthAmerica expense bases. Detailed support stays outside workbook. No savings rates chosen, no workbook populated, no management-target back-solving.
 
+## Working status and rationale
+
+The user accepted these estimates as good enough for now on 14 October 2026 and asked that the reasoning remain documented. They are provisional working assumptions; acceptance does not increase the strength of the underlying evidence. No workbook was changed and no savings rates were approved.
+
+- **Components, €35bn:** anchor to disclosed global direct-material purchases, then assume a larger cost per North American vehicle to reflect its product mix. The regional allocation is the main judgment; engineering evidence supports the direction but not the precise premium.
+- **Quality/warranty, €3bn:** allocate the global expense proxy, separately include the identifiable North American estimate-change cost retained in AOI, and check the scale against GM. Separate any future nonrecurrence of that charge from operational quality savings.
+- **Logistics/indirect, €2.5bn:** use a peer's separately disclosed freight and IT expenses as scale anchors, then allow for additional eligible services. The scope allowances remain judgmental and exclude factory services counted elsewhere.
+- **Manufacturing cash costs, €1.5bn:** the separate [cash-plant-cost estimate](cash-plant-cost-estimate.md) records utility and repair anchors plus the allowance for remaining plant services. This is only a manufacturing subgroup; labor and depreciation remain separate.
+
+Rounded numbers keep the workbook simple. The calculations, sources, counterevidence, uncertainty and double-counting exclusions below preserve the audit trail without implying precise measurement.
+
 ## Decision
 
 | VCP driver | Proposed annual EURbn | Sensitivity EURbn | Confidence |
