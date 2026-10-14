@@ -39,3 +39,7 @@ The three dossiers include original URLs, date/period/scope, observations, limit
 Observed sales, dated prices/specifications, production status and launch milestones can enter the evidence ledger. Proposed units can enter an assumption-review table, but have not entered a workbook. Model-specific actual OEM RPU, nationally realized incentives, dealer margins and unverified launch ramps cannot be represented as observed inputs. Price/mix direction is developed; numerical net realization remains a separately reconciled assumption.
 
 Next step: prioritize Cherokee affordability/availability, Ram fresh-order economics and GC/Compass post-shutdown conversion. Reopen launch sizing only on dated milestones. Avoid another broad general-web search without a specific observation to resolve.
+
+## D094 Accepted Grand Cherokee forecast revision
+
+User requested the updated forecast file after accepting Grand Cherokee 2028 at 200,000 instead of 205,000. All other model scenario unit inputs remain unchanged. Rebuilt derived growth, weights and portfolio totals from the source dossier. Five-core 2028 total is now 990,000; quantified portfolio subtotal 1,426,000. Prior core-five-tests files preserve the pre-decision audit snapshot, not the current forecast. No workbook or independent AI baseline edited.

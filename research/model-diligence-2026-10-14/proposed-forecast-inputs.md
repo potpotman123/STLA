@@ -1,6 +1,6 @@
 # Proposed US model forecasts through 2028
 
-As of 14 October 2026. Units in thousands; D/B/U = downside/base/upside. These are rounded analyst scenarios, not measured demand estimates, management guidance or approved workbook inputs. Null/unallocated is not zero. All actual sales include retail and fleet and exclude Maserati.
+As of 14 October 2026. Updated: Grand Cherokee 2028 base reduced from 205,000 to 200,000; all other scenario unit inputs unchanged. Units in thousands; D/B/U = downside/base/upside. These are rounded analyst scenarios, not measured demand estimates, management guidance or approved workbook inputs. Null/unallocated is not zero. All actual sales include retail and fleet and exclude Maserati.
 
 ## Model scenarios
 
@@ -13,7 +13,7 @@ As of 14 October 2026. Units in thousands; D/B/U = downside/base/upside. These a
 |Ram Dakota North American midsize pickup|—|—|unallocated|unallocated|unallocated|unallocated|—|
 |Ram compact / Rampage-based North American pickup|—|—|unallocated|unallocated|unallocated|unallocated|—|
 |Ram large SUV / Ramcharger on 2030 map|—|—|unallocated|unallocated|unallocated|unallocated|—|
-|Grand Cherokee including L and 4xe|210.1|139.8|35.0 / 45.0 / 55.0|184.8|155.0 / 200.0 / 230.0|155.0 / 205.0 / 240.0|-10.0|
+|Grand Cherokee including L and 4xe|210.1|139.8|35.0 / 45.0 / 55.0|184.8|155.0 / 200.0 / 230.0|155.0 / 200.0 / 240.0|-15.0|
 |Wrangler including former 4xe|167.3|131.0|37.0 / 43.0 / 48.0|174.0|155.0 / 180.0 / 190.0|150.0 / 180.0 / 200.0|0.0|
 |Gladiator|56.8|30.9|9.0 / 12.0 / 17.0|42.9|35.0 / 43.0 / 55.0|30.0 / 45.0 / 60.0|0.0|
 |Compass|102.0|47.8|9.0 / 15.0 / 21.0|62.8|40.0 / 65.0 / 85.0|35.0 / 70.0 / 90.0|0.0|
@@ -36,12 +36,12 @@ The quantified rows cover 99.03% of 2025 and 99.93% of latest 2026 YTD sales. Hi
 
 |Bucket|2026 base|2028 base|Change|
 |---|---:|---:|---:|
-|continuing partial recovery|581.0|645.0|64.0|
+|continuing partial recovery|581.0|640.0|59.0|
 |defend recovered or stable level|685.2|701.0|15.8|
 |returning product ramps|33.9|85.0|51.1|
 |runoff|1.1|0.0|-1.1|
 
-Quantified subtotal: 2026 1,301.1k, 2027 1,391.2k, 2028 1,431.0k. These sums exclude unallocated rows and are not full US forecasts.
+Quantified subtotal: 2026 1,301.1k, 2027 1,391.2k, 2028 1,426.0k. These sums exclude unallocated rows and are not full US forecasts.
 
 ## Growth rates and pricing conditions
 
@@ -50,16 +50,16 @@ Quantified subtotal: 2026 1,301.1k, 2027 1,391.2k, 2028 1,431.0k. These sums exc
 |Ram light-duty pickups including Classic|+35.8%|+8.2%|+0.0%|22.9|21.3% → 21.0%|
 |Ram heavy-duty pickups; 2500/3500, chassis scope unresolved|+0.2%|-0.1%|+0.0%|-0.2|13.1% → 11.9%|
 |Ram ProMaster large van|+2.5%|+1.6%|+0.0%|1.0|4.5% → 4.2%|
-|Ram ProMaster City old runoff and returning midsize van|n.m.|n.m.|+50.0%|15.0|0.0% → 1.0%|
-|Grand Cherokee including L and 4xe|-12.1%|+8.2%|+2.5%|20.2|14.2% → 14.3%|
+|Ram ProMaster City old runoff and returning midsize van|n.m.|n.m.|+50.0%|15.0|0.0% → 1.1%|
+|Grand Cherokee including L and 4xe|-12.1%|+8.2%|+0.0%|15.2|14.2% → 14.0%|
 |Wrangler including former 4xe|+4.0%|+3.4%|+0.0%|6.0|13.4% → 12.6%|
-|Gladiator|-24.4%|+0.1%|+4.7%|2.1|3.3% → 3.1%|
+|Gladiator|-24.4%|+0.1%|+4.7%|2.1|3.3% → 3.2%|
 |Compass|-38.4%|+3.4%|+7.7%|7.2|4.8% → 4.9%|
 |Cherokee / returning HEV|+6335.3%|+62.2%|+27.3%|36.1|2.6% → 4.9%|
 |Wagoneer / Grand Wagoneer combined|+25.8%|-2.9%|+5.5%|1.4|4.4% → 4.1%|
 |Chrysler Pacifica / Voyager / Pacifica LX|+8.6%|+2.5%|+0.0%|3.4|10.5% → 9.8%|
 |Dodge Durango|+5.1%|+5.5%|+0.0%|4.7|6.6% → 6.3%|
-|Dodge Charger gasoline plus Daytona BEV|+39.1%|+50.4%|+25.0%|11.7|1.0% → 1.7%|
+|Dodge Charger gasoline plus Daytona BEV|+39.1%|+50.4%|+25.0%|11.7|1.0% → 1.8%|
 |Dodge Hornet|-90.4%|-88.9%|-100.0%|-0.9|0.1% → 0.0%|
 |Other US brands Fiat and Alfa Romeo|-51.9%|-10.6%|+0.0%|-0.4|0.3% → 0.2%|
 |Dodge legacy runoff only; GLH remains unallocated|-91.3%|-68.6%|-100.0%|-0.2|0.0% → 0.0%|
@@ -156,7 +156,7 @@ Details: [ram-diligence.md](ram-diligence.md).
 
 Recover a competitive gasoline family, not the entire historical plug-in peak. A temporary Q3 factory effect is plausible, but premium-payment pressure, ended PHEV production and internal Cherokee substitution cap restoration.
 
-Partial recovery anchored to H1 2026≈203k annualized and 2024 non-4xe 188558, not 2023 total 244594. Q4 scenarios 35/45/55k mean 11.7/15/18.3k per month versus Q3 12.7k and H1 17.0k; the upper end needs restored sellable supply. 2027/28 base 200/205k retains most H1 scale with modest growth, downside persistent value/quality friction, upside strong refill and retention. No fitted seasonality.
+Partial recovery anchored to H1 2026≈203k annualized and 2024 non-4xe 188558, not 2023 total 244594. Q4 scenarios 35/45/55k mean 11.7/15/18.3k per month versus Q3 12.7k and H1 17.0k; the upper end needs restored sellable supply. 2027/28 base 200/200k retains most H1 scale without an unsupported additional 2028 growth increment, downside persistent value/quality friction, upside strong refill and retention. No fitted seasonality.
 
 Pricing and mix: Base volume requires competitive financing and affordable configuration availability; lower 4xe share and Laredo mix can lower family average invoice before incentives. Rich L/Summit or SRT mix is an upside, not an automatic offset. No verified OEM realized dollars/unit; no positive price assumption solely from refresh.
 

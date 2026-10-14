@@ -1,6 +1,6 @@
 {
   "as_of": "2026-10-14",
-  "status": "Provisional independent research revisions; not approved or workbook-adopted",
+  "status": "Research forecasts updated with user-accepted Grand Cherokee 2028 base of 200000; not workbook-adopted",
   "scope": "US issuer retail plus fleet sales, excluding Maserati. Maserati financial segment/reclassification scope must be handled separately in the regional financial reconciliation.",
   "rows": [
     {
@@ -93,7 +93,7 @@
         "R11"
       ],
       "share_quantified_2026_base_pct": 21.300223034156044,
-      "share_quantified_2028_base_pct": 20.964360587002094
+      "share_quantified_2028_base_pct": 21.037868162692845
     },
     {
       "id": "ram_hd",
@@ -178,7 +178,7 @@
         "R14"
       ],
       "share_quantified_2026_base_pct": 13.080853340055612,
-      "share_quantified_2028_base_pct": 11.87980433263452
+      "share_quantified_2028_base_pct": 11.921458625525947
     },
     {
       "id": "promaster",
@@ -264,7 +264,7 @@
         "R17"
       ],
       "share_quantified_2026_base_pct": 4.5367698936168575,
-      "share_quantified_2028_base_pct": 4.1928721174004195
+      "share_quantified_2028_base_pct": 4.207573632538569
     },
     {
       "id": "promaster_city",
@@ -341,7 +341,7 @@
       ],
       "growth_note": "Returning different product; percentage growth from one runoff unit is not economically useful.",
       "share_quantified_2026_base_pct": 7.685532599723628e-05,
-      "share_quantified_2028_base_pct": 1.0482180293501049
+      "share_quantified_2028_base_pct": 1.0518934081346423
     },
     {
       "id": "ram_dakota",
@@ -472,7 +472,7 @@
       },
       "2028F_units": {
         "downside": 155000,
-        "base": 205000,
+        "base": 200000,
         "upside": 240000
       },
       "2026FY_yoy_pct": {
@@ -487,18 +487,18 @@
       },
       "2028_yoy_pct": {
         "downside": 0.0,
-        "base": 2.499999999999991,
+        "base": 0.0,
         "upside": 4.347826086956519
       },
-      "2028_base_delta_vs_2026_base": 20236,
-      "2028_base_delta_vs_2025": -5082,
+      "2028_base_delta_vs_2026_base": 15236,
+      "2028_base_delta_vs_2025": -10082,
       "prior_2027_base": 205000,
       "prior_2028_base": 215000,
       "revision_2027_base": -5000,
-      "revision_2028_base": -10000,
+      "revision_2028_base": -15000,
       "pricing_incentive_mix": "Base volume requires competitive financing and affordable configuration availability; lower 4xe share and Laredo mix can lower family average invoice before incentives. Rich L/Summit or SRT mix is an upside, not an automatic offset. No verified OEM realized dollars/unit; no positive price assumption solely from refresh.",
       "thesis": "Recover a competitive gasoline family, not the entire historical plug-in peak. A temporary Q3 factory effect is plausible, but premium-payment pressure, ended PHEV production and internal Cherokee substitution cap restoration.",
-      "method": "Partial recovery anchored to H1 2026\u2248203k annualized and 2024 non-4xe 188558, not 2023 total 244594. Q4 scenarios 35/45/55k mean 11.7/15/18.3k per month versus Q3 12.7k and H1 17.0k; the upper end needs restored sellable supply. 2027/28 base 200/205k retains most H1 scale with modest growth, downside persistent value/quality friction, upside strong refill and retention. No fitted seasonality.",
+      "method": "Partial recovery anchored to H1 2026\u2248203k annualized and 2024 non-4xe 188558, not 2023 total 244594. Q4 scenarios 35/45/55k mean 11.7/15/18.3k per month versus Q3 12.7k and H1 17.0k; the upper end needs restored sellable supply. 2027/28 base 200/200k retains most H1 scale without an unsupported additional 2028 growth increment, downside persistent value/quality friction, upside strong refill and retention. No fitted seasonality.",
       "confidence": "Medium mechanism / low-to-medium forecast",
       "falsifier": "Two quarters above \u224817k monthly at stable effective payments and acceptable fresh-stock turns support upside; continued \u224813k monthly despite available Laredo/Limited supply rejects base. Need sales by powertrain/channel and delivered configuration, not another factory announcement.",
       "dossier": "jeep-diligence.md",
@@ -517,7 +517,7 @@
         "J22"
       ],
       "share_quantified_2026_base_pct": 14.200097452553365,
-      "share_quantified_2028_base_pct": 14.3256464011181
+      "share_quantified_2028_base_pct": 14.025245441795231
     },
     {
       "id": "wrangler",
@@ -602,7 +602,7 @@
         "J17"
       ],
       "share_quantified_2026_base_pct": 13.373672132105083,
-      "share_quantified_2028_base_pct": 12.578616352201259
+      "share_quantified_2028_base_pct": 12.622720897615707
     },
     {
       "id": "gladiator",
@@ -686,7 +686,7 @@
         "J17"
       ],
       "share_quantified_2026_base_pct": 3.300475119625315,
-      "share_quantified_2028_base_pct": 3.1446540880503147
+      "share_quantified_2028_base_pct": 3.155680224403927
     },
     {
       "id": "compass",
@@ -772,7 +772,7 @@
         "J22"
       ],
       "share_quantified_2026_base_pct": 4.829358119688337,
-      "share_quantified_2028_base_pct": 4.8916841369671555
+      "share_quantified_2028_base_pct": 4.908835904628331
     },
     {
       "id": "cherokee",
@@ -860,7 +860,7 @@
         "J22"
       ],
       "share_quantified_2026_base_pct": 2.6064715258702713,
-      "share_quantified_2028_base_pct": 4.8916841369671555
+      "share_quantified_2028_base_pct": 4.908835904628331
     },
     {
       "id": "wagoneer_family",
@@ -943,7 +943,7 @@
         "J18"
       ],
       "share_quantified_2026_base_pct": 4.353239375135458,
-      "share_quantified_2028_base_pct": 4.053109713487072
+      "share_quantified_2028_base_pct": 4.067321178120617
     },
     {
       "id": "wagoneer_s",
@@ -1180,7 +1180,7 @@
         "CD16"
       ],
       "share_quantified_2026_base_pct": 10.499282939808447,
-      "share_quantified_2028_base_pct": 9.783368273934311
+      "share_quantified_2028_base_pct": 9.817671809256662
     },
     {
       "id": "durango",
@@ -1263,7 +1263,7 @@
         "CD16"
       ],
       "share_quantified_2026_base_pct": 6.558064967344173,
-      "share_quantified_2028_base_pct": 6.289308176100629
+      "share_quantified_2028_base_pct": 6.311360448807854
     },
     {
       "id": "charger",
@@ -1346,7 +1346,7 @@
         "CD15"
       ],
       "share_quantified_2026_base_pct": 1.0218684144592536,
-      "share_quantified_2028_base_pct": 1.7470300489168415
+      "share_quantified_2028_base_pct": 1.753155680224404
     },
     {
       "id": "hornet",
@@ -1510,7 +1510,7 @@
         "CD15"
       ],
       "share_quantified_2026_base_pct": 0.2580033293727222,
-      "share_quantified_2028_base_pct": 0.20964360587002098
+      "share_quantified_2028_base_pct": 0.21037868162692847
     },
     {
       "id": "chrysler_new",
@@ -1649,7 +1649,7 @@
     },
     "quantified_2028": {
       "downside": 1096500,
-      "base": 1431000,
+      "base": 1426000,
       "upside": 1711200
     },
     "core_13_2026": {
@@ -1664,7 +1664,7 @@
     },
     "core_13_2028": {
       "downside": 1095000,
-      "base": 1428000,
+      "base": 1423000,
       "upside": 1705000
     },
     "quantified_2025_actual": 1248126,
@@ -1686,8 +1686,8 @@
         "charger"
       ],
       "2026_base": 580988,
-      "2028_base": 645000,
-      "change": 64012
+      "2028_base": 640000,
+      "change": 59012
     },
     {
       "bucket": "defend_recovered_or_stable_level",

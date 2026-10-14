@@ -34,7 +34,7 @@ US customer sales in thousands, retail plus fleet. These are rounded operating s
 | Ram HD | 170.2 | 170 | 170 | Preserve current scale; refresh benefits translate into work utility and repeat purchases |
 | ProMaster | 59.0 | 60 | 60 | Stable fleet franchise; no automatic restoration of 2023 batch/peak volume |
 | ProMaster City | 0.0 | 10 | 15 | Deliver the planned launch and convert small-van utility into repeat commercial orders |
-| Grand Cherokee | 184.8 | 200 | 205 | Restore much of H1 pace; retain enough customers as the powertrain offering changes |
+| Grand Cherokee | 184.8 | 200 | 200 | Restore much of H1 pace; retain enough customers as the powertrain offering changes |
 | Wrangler | 174.0 | 180 | 180 | Defend roughly current pace against Bronco, used vehicles and payment pressure |
 | Gladiator | 42.9 | 43 | 45 | Sustainable lifestyle-pickup demand rather than repeating one unusually strong Q4 |
 | Compass | 62.8 | 65 | 70 | Partial recovery in affordable, sellable configurations; preserve a role below Cherokee |
@@ -45,25 +45,25 @@ US customer sales in thousands, retail plus fleet. These are rounded operating s
 | Durango | 85.3 | 90 | 90 | Sustain the recent stronger pace with the improved performance/value offer |
 | Fiat/Alfa | 3.4 | 3 | 3 | Stabilize a small niche footprint |
 | Hornet and Dodge legacy tail | 1.1 | 0.15 | 0 | Finite old-stock runoff; GLH is separately unallocated |
-| **Quantified subtotal** | **1,301.1** | **1,391.2** | **1,431.0** | **Excludes unallocated launches and selected EVs; not a complete US forecast** |
+| **Quantified subtotal** | **1,301.1** | **1,391.2** | **1,426.0** | **Excludes unallocated launches and selected EVs; not a complete US forecast** |
 
 The City 2026 estimate rounds to zero but actually contains one reported legacy unit. The complete table preserves it.
 
-For the prior core 13 families, the 2028 base changes from **1.491m to 1.428m**, with Charger runoff now separately mapped. This is a 63k revision to our own proposal, not a proven shortfall to management. Largest changes: Ram LD −20k, HD −10k, Grand Cherokee −10k, Cherokee −10k; Durango +5k. These adjustments put weight on observed pace and identified economic constraints; they are not measurements of units caused by a specific defect, discount or discontinuation. Prior proposals remain preserved.
+For the prior core 13 families, the 2028 base changes from **1.491m to 1.423m**, with Charger runoff now separately mapped. This is a 68k revision to our own proposal, not a proven shortfall to management. Largest changes: Ram LD −20k, HD −10k, Grand Cherokee −15k, Cherokee −10k; Durango +5k. These adjustments put weight on observed pace and identified economic constraints; they are not measurements of units caused by a specific defect, discount or discontinuation. Prior proposals remain preserved.
 
 The particularly judgment-sensitive numbers are Cherokee's 55k/70k, City's 10k/15k, and Charger's 20k/25k. Their dossiers state the monthly pace required and what would invalidate it. The evidence establishes a plausible route to those outcomes; it does not identify those exact levels uniquely. A user revision here belongs in the assumption-variance record, not disguised as new historical data.
 
 ## Where the incremental sales come from
 
-The quantified base increases **129,854 units, or 10.0%, from our 2026 estimate to 2028**:
+The quantified base increases **124,854 units, or 9.6%, from our 2026 estimate to 2028**:
 
 | Arithmetic grouping | Incremental annual units |
 |---|---:|
-| Existing families partially recovering | +64,012 |
+| Existing families partially recovering | +59,012 |
 | Defending recovered/stable franchises with modest net growth | +15,818 |
 | Cherokee and ProMaster City ramps | +51,085 |
 | Hornet and Dodge legacy runoff | −1,061 |
-| **Total** | **+129,854** |
+| **Total** | **+124,854** |
 
 These are sales-row changes, not independent causal contributions. Cherokee alone adds 36,086 versus the 2026 estimate. The combined Grand Cherokee/Compass/Cherokee base rises to 345k in 2028 versus approximately 281.5k in the 2026 estimate and 330.7k in 2024. Therefore the forecast does require external recapture or segment growth; it cannot all be explained by moving existing Jeep customers to Cherokee.
 
