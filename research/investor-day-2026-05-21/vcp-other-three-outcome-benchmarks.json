@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-14",
+  "status": "Benchmark-transfer scenarios only; not adopted forecast rates",
+  "units": "EURbn unless indicated",
+  "manufacturing": {
+    "cash_base_assumed": 7,
+    "historical_nissan_direct_rate": 0.083,
+    "transfer_saving": 0.5810000000000001,
+    "including_DA_base_assumed": 8.8,
+    "effective_rate_including_DA": 0.06602272727272727,
+    "energy_base_assumed": 0.3,
+    "renault_consumption_reduction": 0.26,
+    "constant_price_energy_transfer": 0.078
+  },
+  "logistics": {
+    "base_assumed": 1.5,
+    "observed_project_rates": [
+      0.17,
+      0.2
+    ],
+    "whole_logistics_transfer": [
+      0.255,
+      0.30000000000000004
+    ],
+    "indirect_base_assumed": 1,
+    "indirect_rate": null
+  },
+  "quality": {
+    "base_assumed": 3,
+    "calibrated_rate": null,
+    "ford_USDm": {
+      "new_2024": 6294,
+      "new_2025": 6707,
+      "existing_2024": 2690,
+      "existing_2025": 2266,
+      "cash_2024": 5831,
+      "cash_2025": 5733
+    },
+    "total_additions_change": -0.0012243989314336678,
+    "sensitivity_only_rates": [
+      0,
+      0.05,
+      0.1
+    ],
+    "sensitivity_only_savings": [
+      0,
+      0.15,
+      0.3
+    ]
+  },
+  "source_note": "vcp-other-three-outcome-benchmarks.md",
+  "workbook_changed": false
+}
