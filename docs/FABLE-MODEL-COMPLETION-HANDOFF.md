@@ -81,6 +81,8 @@ A ratio schedule is the existing implementation. Do not introduce a large invent
 
 ## 6. RPU: populate the existing net-price architecture
 
+**Research update, 14 October:** [First RPU evidence dataset](../research/rpu-evidence-2026-10-14.json) supplies dated brand transaction-price observations, historical model-price and incentive benchmarks, selected government-contract invoice decompositions, source definitions, limitations and proposed modeling treatment. It does **not** fill the missing model-level net RPUs or current brand incentive averages. Read the definitions before using any figure. Procurement assistance is a fleet-channel observation, not the retail incentive assumption. The proposed flat comparable-product net-price retention case starts from a validated latest reference; it does not mean zero cumulative price change versus 2025. Explicitly separate the reference level, prior carryover, future changes, model mix and currency translation.
+
 RPU represents estimated manufacturer revenue per vehicle, not MSRP, dealer asking price, or dealer gross profit. Model-level realized wholesale prices are not directly established in the research. Estimates calibrated to regional revenue remain estimates.
 
 The workbook already implements:

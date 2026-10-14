@@ -1,0 +1,62 @@
+{
+  "as_of": "2026-10-14",
+  "status": "First bounded RPU evidence pass. Observed price anchors and conditional modeling recommendations, not a completed reference-RPU or incentive forecast.",
+  "workbook_modified": false,
+  "sources": {
+    "KBB_DEC25": {"url": "https://www.coxautoinc.com/wp-content/uploads/2026/01/December-2025-Kelley-Blue-Book-Average-Transaction-Price-tables.pdf", "locator": "PDF pages 1-3", "period": "December 2025; comparatives November 2025 and December 2024", "definition": "USD average transaction price BEFORE applied consumer incentives; not manufacturer revenue; monthly mix-dependent estimate"},
+    "COX_Q222": {"url": "https://www.coxautoinc.com/wp-content/uploads/2022/07/Stellantis-U.S.-Market-Performance-for-Second-Quarter-2022.pdf", "locator": "PDF pages 6-10", "period": "Q2 2022 with same-quarter historical incentive comparatives", "definition": "Historical model ATP and brand incentive estimates. Old product mix; do not treat as 2025/26 reference net RPU. Verify exact historic ATP methodology before netting incentives."},
+    "IDAHO_JEEP": {"url": "https://purchasing.idaho.gov/wp-content/uploads/SBPO20268419-Jeep-Pricing.pdf", "locator": "PDF pages 2-3", "period": "MY2026; effective/publication date not established from PDF", "definition": "Young Automotive government procurement schedule: dealer-net invoice, destination, government bid assistance, dealer margin and final buyer cost. Not a representative retail transaction sample or fully reconciled OEM realization."},
+    "MGMT": {"url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events/stellantis-investor-day-2026/transcript/Stellantis-Investor-Day-2026-FaSTLAne2030-Transcript-Q-A-Session.pdf", "locator": "PDF pages 6-7, Goldman question and CFO answer", "period": "2026-05-21", "definition": "Management attributes part of group profit bridge to retained pricing already taken in NA; discusses neutral NA mix versus 2025 in 2028-30. Profit bridge statements, not an exact RPU growth forecast."}
+  },
+  "brand_atp_USD_before_consumer_incentives": [
+    {"brand": "Ram", "dec2024": 64068, "nov2025": 64692, "dec2025": 64607, "reported_yoy_percent": 0.8, "source": "KBB_DEC25"},
+    {"brand": "Jeep", "dec2024": 50757, "nov2025": 52411, "dec2025": 49588, "reported_yoy_percent": -2.3, "source": "KBB_DEC25"},
+    {"brand": "Chrysler", "dec2024": 48019, "nov2025": 47036, "dec2025": 47659, "reported_yoy_percent": -0.7, "source": "KBB_DEC25"},
+    {"brand": "Dodge", "dec2024": 51669, "nov2025": 47881, "dec2025": 48187, "reported_yoy_percent": -6.7, "source": "KBB_DEC25"}
+  ],
+  "historical_model_atp_USD_Q22022": {
+    "source": "COX_Q222",
+    "Ram 1500": 62686,
+    "ProMaster": 46705,
+    "Grand Cherokee": 55009,
+    "Wrangler": 53955,
+    "Gladiator": 54948,
+    "Wagoneer": 79454,
+    "Grand Wagoneer": 93436,
+    "Pacifica": 48336,
+    "Durango": 48835,
+    "Charger": 44702
+  },
+  "historical_brand_incentives_USD": [
+    {"brand": "Ram", "Q22019": 6358, "Q22022": 3403, "source": "COX_Q222"},
+    {"brand": "Jeep", "Q22019": 3083, "Q22022": 972, "source": "COX_Q222"},
+    {"brand": "Chrysler", "Q22019": 6164, "Q22022": 1473, "source": "COX_Q222"},
+    {"brand": "Dodge", "Q22019": 4280, "Q22022": 1374, "source": "COX_Q222"}
+  ],
+  "selected_configuration_anchors_USD": [
+    {"model": "Grand Cherokee Limited 4x4", "code": "WLJP74", "year": 2026, "invoice": 44487, "destination": 1995, "government_assistance": 2500, "dealer_margin": 1000, "final_buyer_cost": 44982, "source": "IDAHO_JEEP"},
+    {"model": "Grand Cherokee L Limited 4x4", "code": "WLJP75", "year": 2026, "invoice": 46447, "destination": 1995, "government_assistance": 2500, "dealer_margin": 1000, "final_buyer_cost": 46942, "source": "IDAHO_JEEP"},
+    {"model": "Wrangler Sport 4 Door 4x4", "code": "JLJL74", "year": 2026, "invoice": 36810, "destination": 1995, "government_assistance": 2000, "dealer_margin": 1000, "final_buyer_cost": 37805, "source": "IDAHO_JEEP"},
+    {"model": "Wrangler Rubicon 4 Door 4x4", "code": "JLJS74", "year": 2026, "invoice": 48134, "destination": 1995, "government_assistance": 2000, "dealer_margin": 1000, "final_buyer_cost": 49129, "source": "IDAHO_JEEP"},
+    {"model": "Compass Limited 4x4", "code": "MPJP74", "year": 2026, "invoice": 31796, "destination": 1995, "government_assistance": 1500, "dealer_margin": 1000, "final_buyer_cost": 33291, "source": "IDAHO_JEEP"},
+    {"model": "Grand Wagoneer 4x4", "code": "WSJM75", "year": 2026, "invoice": 62473, "destination": 2595, "government_assistance": 5500, "dealer_margin": 1000, "final_buyer_cost": 60568, "source": "IDAHO_JEEP"}
+  ],
+  "recommendations": {
+    "retention_case": "Conditionally hold comparable-product net price constant from a validated latest reference through 2027-28. This is a neutral scenario, not evidence that prices will be flat and not a zero cumulative change versus FY2025. Preserve separately evidenced carryover.",
+    "incentives": "Do not choose current brand incentive levels from 2022 numbers or government bid assistance. Current realized averages remain missing. Keep nominal pricing and incentive paths internally consistent with the selected net-price scenario.",
+    "model_mix": "Calculate automatically from volumes and reference relative prices; do not add discretionary mix growth. Within-model configuration mix remains an assumption without observed trim shares.",
+    "new_models": "Use launch-specific reference prices and explicit uncertainty, not historic discontinued-model prices. Aggregate Other/new rows need a weighted price reflecting their individual planned products.",
+    "FX": "USD evidence must be translated with an explicit period-appropriate exchange rate. Do not mix FX movements with real pricing or use spot FX for FY2025 actuals.",
+    "calibration": "Reconcile estimated model/country prices to regional net revenue with an explicit non-vehicle/scope residual. Do not call the calibration factor dealer margin or independently validated OEM prices.",
+    "sensitivity": "Illustrative +/-1000 EUR of incremental manufacturer support per affected shipment changes revenue by -/+1m EUR per 1000 affected units. Apply only to the relevant geography/brand shipment population. Pricing-only AOI passthrough requires an explicit assumption and exclusion of volume/cost responses."
+  },
+  "limitations_and_stopping_rule": [
+    "No current model sales-weighted trim mix or complete FY2025/2026 brand incentive panel recovered in this pass.",
+    "Do not use December-only brand ATP as full-year 2025 actual RPU.",
+    "Price schedules repeat some model codes and prices under multiple trim names; do not equally weight listed rows or assume every option package is priced.",
+    "A Dodge Idaho PDF at SBPO20268374 returned MY2026 prices in search snippets and MY2027 prices in the opened document. Excluded from time-series calculations; undated changing URLs cannot establish price changes.",
+    "ABC association fleet-discount PDF and Alachua contract schedule were blocked on open; indexed snippets not promoted into model inputs.",
+    "Ram/Chrysler Idaho searches did not recover matched schedules; stopped rather than expand into low-yield bulk procurement collection.",
+    "Government schedules are cross-sectional invoice/discount anchors with unverified effective dates, not frozen historical pricing evidence."
+  ]
+}
