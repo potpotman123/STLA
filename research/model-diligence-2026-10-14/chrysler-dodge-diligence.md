@@ -1,3 +1,5 @@
+> **D097 update:** Historical evidence below is retained. Numerical forecast passages below predate the segment-growth revision; use [current forecast inputs](proposed-forecast-inputs.md) and [market/segment assumptions](segment-growth-revision.md) for current volumes and rationale. The companion JSON dossier has been updated.
+
 # Chrysler Dodge and other US model diligence
 
 As of 14 October 2026. Provisional research views; US customer sales include retail and fleet and exclude Maserati. Annual forecasts are scenarios, not approved workbook inputs.

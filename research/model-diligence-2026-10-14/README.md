@@ -1,3 +1,5 @@
+> **Current forecast: D097.** The earlier numerical portfolio discussion below is retained as a dated research snapshot and is superseded by [updated forecast inputs](proposed-forecast-inputs.md) and [market/segment/company revision](segment-growth-revision.md). Current quantified2027/28 bases: **1,386,350 /1,418,100**.
+
 # Stellantis model sales and pricing outlook through 2028
 
 As of 14 October 2026. **The evidence supports selective volume recovery, with much less support for simultaneous recovery in pricing power.** Ram 1500 has regained a substantial selling pace. Durango, Wrangler and minivans need to sustain an existing franchise, rather than receive another large rebound assumption. Grand Cherokee and Compass require different explanations: the former had a better first half before its Q3 break, while Compass was already weak. Cherokee and ProMaster City can fill real product gaps, provided their delivered economics and availability work.

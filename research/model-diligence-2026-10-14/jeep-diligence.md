@@ -1,3 +1,5 @@
+> **D097 update:** Historical evidence below is retained. Numerical forecast passages below predate the segment-growth revision; use [current forecast inputs](proposed-forecast-inputs.md) and [market/segment assumptions](segment-growth-revision.md) for current volumes and rationale. The companion JSON dossier has been updated.
+
 # Jeep product diligence — 14 October 2026
 
 US customer sales include retail and fleet. This is a proposed scenario revision, not management guidance, a calibrated demand model, or an approved workbook change. The companion JSON preserves sources, dates, scope and calculations.

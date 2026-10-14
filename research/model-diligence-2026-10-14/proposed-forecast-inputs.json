@@ -1,6 +1,6 @@
 {
   "as_of": "2026-10-14",
-  "status": "Research forecasts updated with Grand Cherokee stabilization base of 190000 in 2027 and 2028; not workbook-adopted",
+  "status": "D097 research forecasts with explicit market, segment and company assumptions; not workbook-adopted",
   "scope": "US issuer retail plus fleet sales, excluding Maserati. Maserati financial segment/reclassification scope must be handled separately in the regional financial reconciliation.",
   "rows": [
     {
@@ -45,7 +45,7 @@
       },
       "2028F_units": {
         "downside": 240000,
-        "base": 300000,
+        "base": 303000,
         "upside": 350000
       },
       "2026FY_yoy_pct": {
@@ -60,18 +60,18 @@
       },
       "2028_yoy_pct": {
         "downside": -4.0000000000000036,
-        "base": 0.0,
+        "base": 1.0000000000000009,
         "upside": 6.060606060606055
       },
-      "2028_base_delta_vs_2026_base": 22853,
-      "2028_base_delta_vs_2025": 95861,
+      "2028_base_delta_vs_2026_base": 25853,
+      "2028_base_delta_vs_2025": 98861,
       "prior_2027_base": 310000,
       "prior_2028_base": 320000,
       "revision_2027_base": -10000,
-      "revision_2028_base": -20000,
+      "revision_2028_base": -17000,
       "pricing_incentive_mix": "Base assumes ongoing competitive support and no automatic same-configuration net-price improvement. Affordable entry/fleet mix can dilute average realization while performance derivatives enrich it; net balance unknown. The July $14k\u2013$21k figures combine OEM and dealer money and cannot be subtracted wholesale from manufacturer RPU. No manufacturer actual RPU, invoice margin or matched transaction-price trend is established.",
       "thesis": "A genuine level recovery, with engine choice, availability and effective payments working together. Q3 strength does not establish a further structural growth slope or recovered manufacturer pricing power.",
-      "method": "Q4 base75000 closely holds Q3; downside65000 nearQ2, upside85000 requires repeat retail/order conversion. Reject mechanical 2024/25 Q4 multipliers because both years contain launch/mix disruptions. 2027 base300000=25000/month approximates currentQ3 monthly25550, slightly lower to allow comparison normalization. 2028 base holds300000; no calibrated coefficient supports further growth. Downside250000/240000 means some recovered buyers were pulled forward and smaller trucks substitute; upside330000/350000 requires sustained retail share plus viable replenishment. These are judgment scenarios, not intervals.",
+      "method": "D097: Availability/engine-choice recovery supports 2027 relative gains. In2028 maintain relative position; market growth adds units. No second HEMI uplift. Base2027/28 300000/303000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
       "confidence": "high on observed sales; medium on interacting mechanisms; low-medium on level; low on price/mix magnitude",
       "falsifier": "Following HEMI anniversary, comparable retail pace and fresh order completions fall despite available configurations, or stable sales require rising manufacturer support/aged stock. Conversely several quarters of low inventory and matched retail/share gains would justify upward revision.",
       "dossier": "ram-diligence.md",
@@ -93,7 +93,7 @@
         "R11"
       ],
       "share_quantified_2026_base_pct": 21.300223034156044,
-      "share_quantified_2028_base_pct": 21.1864406779661
+      "share_quantified_2028_base_pct": 21.36661730484451
     },
     {
       "id": "ram_hd",
@@ -132,12 +132,12 @@
       },
       "2027F_units": {
         "downside": 155000,
-        "base": 170000,
+        "base": 172000,
         "upside": 185000
       },
       "2028F_units": {
         "downside": 150000,
-        "base": 170000,
+        "base": 174000,
         "upside": 195000
       },
       "2026FY_yoy_pct": {
@@ -147,23 +147,23 @@
       },
       "2027_yoy_pct": {
         "downside": -5.603498151655595,
-        "base": -0.11809566336272725,
+        "base": 1.056985564127122,
         "upside": 5.593004606138097
       },
       "2028_yoy_pct": {
         "downside": -3.2258064516129004,
-        "base": 0.0,
+        "base": 1.1627906976744207,
         "upside": 5.405405405405395
       },
-      "2028_base_delta_vs_2026_base": -201,
-      "2028_base_delta_vs_2025": 80,
+      "2028_base_delta_vs_2026_base": 3799,
+      "2028_base_delta_vs_2025": 4080,
       "prior_2027_base": 175000,
       "prior_2028_base": 180000,
-      "revision_2027_base": -5000,
-      "revision_2028_base": -10000,
+      "revision_2027_base": -3000,
+      "revision_2028_base": -6000,
       "pricing_incentive_mix": "Base requires competitive business purchase/financing support, with no automatic diesel or premium mix uplift. Diesel capability can justify a price premium only for relevant jobs. Manufacturer net realization and actual dealer margin unknown. Treat2500/3500 plus potential chassis-cab coverage consistently with reportedHDPU; no extra4500/5500 volume added without scope confirmation.",
       "thesis": "Hold approximately the current annual level; engineering improvements are relevant, but a persistent post-transition sales gap and selective high-trim clearance do not justify automatic normalization.",
-      "method": "Q4 base47000 uses the mean of observed2024/25 HDQ4:Q3 ratios(1.128,1.162) applied to41107, rounded; both years disrupted, so use only a broad seasonal check. Down41000 holdsQ3, up52000 near2025Q4. 2027/28 base170000=14167/month near2025 level and2026 forecast; downside155000/150000, upside185000/195000 needs stronger post-refresh commercial demand. No empirical demand coefficient.",
+      "method": "D097: Commercial replacement and refresh support stable relative position. Total light-vehicle growth is only a modest cycle proxy for this partly different population; no HD boom assumed. Base2027/28 172000/174000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
       "confidence": "high on totals; medium on supply transition; low on channel mix and forward level",
       "falsifier": "Post-refresh family retail and commercial contract deliveries fail while peerHD recovers; or matched stock/discount data show faster turn and sustained growth, supporting upside.",
       "dossier": "ram-diligence.md",
@@ -178,7 +178,7 @@
         "R14"
       ],
       "share_quantified_2026_base_pct": 13.080853340055612,
-      "share_quantified_2028_base_pct": 12.005649717514125
+      "share_quantified_2028_base_pct": 12.269938650306749
     },
     {
       "id": "promaster",
@@ -222,7 +222,7 @@
       },
       "2028F_units": {
         "downside": 48000,
-        "base": 60000,
+        "base": 61000,
         "upside": 70000
       },
       "2026FY_yoy_pct": {
@@ -237,18 +237,18 @@
       },
       "2028_yoy_pct": {
         "downside": -4.0000000000000036,
-        "base": 0.0,
+        "base": 1.6666666666666607,
         "upside": 2.941176470588225
       },
-      "2028_base_delta_vs_2026_base": 970,
-      "2028_base_delta_vs_2025": 2409,
+      "2028_base_delta_vs_2026_base": 1970,
+      "2028_base_delta_vs_2025": 3409,
       "prior_2027_base": 60000,
       "prior_2028_base": 63000,
       "revision_2027_base": 0,
-      "revision_2028_base": -3000,
+      "revision_2028_base": -2000,
       "pricing_incentive_mix": "Base volume assumes ongoing fleet competitiveness, broadly stable comparable-configuration net realization rather than a pricing recovery. Mix across body sizes, fleet agreements and EV/ICE could dominate familyRPU, currently unknown. Upfit revenue need not accrue toStellantis; do not count third-party body cost as OEMvehicle revenue.",
       "thesis": "Defend roughly60 k annual sales; a functional fleet product, not an automatic return to the 2023 peak.",
-      "method": "Q4base15000 nearYTDquarterly14677; down12000 near2025Q4,up18000 requires currentQ3 improvement to continue. Two highly differentQ4 observations do not establish stable van seasonality. 2027/28base60000=5000/month; downside50000/48000,up68000/70000. Keep combinedProMaster+Citybase75000 in2028 versuslargeProMasteralone81663 in2023 as scale check, not demand proof.",
+      "method": "D097: Modest route/replacement growth; City may divert some marginal smaller-load buyers in2028. Upfit and fleet acceptance remain gates. Base2027/28 60000/61000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
       "confidence": "high on totals; medium on functional fit; low on channel/pricing mechanism",
       "falsifier": "Fleet renewals and upfit completions fall or City cannibalizes more large-van demand; conversely repeat orders with matched turn and net pricing would support growth.",
       "dossier": "ram-diligence.md",
@@ -264,7 +264,7 @@
         "R17"
       ],
       "share_quantified_2026_base_pct": 4.5367698936168575,
-      "share_quantified_2028_base_pct": 4.23728813559322
+      "share_quantified_2028_base_pct": 4.3015302164868485
     },
     {
       "id": "promaster_city",
@@ -341,7 +341,7 @@
       ],
       "growth_note": "Returning different product; percentage growth from one runoff unit is not economically useful.",
       "share_quantified_2026_base_pct": 7.685532599723628e-05,
-      "share_quantified_2028_base_pct": 1.059322033898305
+      "share_quantified_2028_base_pct": 1.0577533319229955
     },
     {
       "id": "ram_dakota",
@@ -498,7 +498,7 @@
       "revision_2028_base": -25000,
       "pricing_incentive_mix": "Base volume requires competitive financing and affordable configuration availability; lower 4xe share and Laredo mix can lower family average invoice before incentives. Rich L/Summit or SRT mix is an upside, not an automatic offset. No verified OEM realized dollars/unit; no positive price assumption solely from refresh.",
       "thesis": "Recover a competitive gasoline family, not the entire historical plug-in peak. A temporary Q3 factory effect is plausible, but premium-payment pressure, ended PHEV production and internal Cherokee substitution cap restoration.",
-      "method": "Stabilization scenario: 190k in both2027/28 requires15,833/month, near2026YTDannualized186,352 and below trailingfourquarters195,625. H1annualized203,474 is not assumed sustainable because rental seasonality and support/mix are unresolved. No further growth awarded without post-shutdown conversion evidence. Downside/upside scenarios unchanged; this rounded scenario is not an estimated demand elasticity or a statistically identified sustainable level.",
+      "method": "D097: Limited2027 stabilization;2028 utility-category growth offset by hybrid competition, product/value concerns and internal Cherokee substitution. These effects share one company factor, not separate deductions. Base2027/28 190000/190000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
       "confidence": "Medium mechanism / low-to-medium forecast",
       "falsifier": "Two quarters above \u224817k monthly at stable effective payments and acceptable fresh-stock turns support upside; continued \u224813k monthly despite available Laredo/Limited supply rejects base. Need sales by powertrain/channel and delivered configuration, not another factory announcement.",
       "dossier": "jeep-diligence.md",
@@ -517,7 +517,7 @@
         "J22"
       ],
       "share_quantified_2026_base_pct": 14.200097452553365,
-      "share_quantified_2028_base_pct": 13.418079096045199
+      "share_quantified_2028_base_pct": 13.398208871024611
     },
     {
       "id": "wrangler",
@@ -556,12 +556,12 @@
       },
       "2027F_units": {
         "downside": 155000,
-        "base": 180000,
+        "base": 179000,
         "upside": 190000
       },
       "2028F_units": {
         "downside": 150000,
-        "base": 180000,
+        "base": 177000,
         "upside": 200000
       },
       "2026FY_yoy_pct": {
@@ -571,23 +571,23 @@
       },
       "2027_yoy_pct": {
         "downside": -7.744135800632101,
-        "base": 3.4417364419490726,
+        "base": 2.8670601283826924,
         "upside": 6.138728904927637
       },
       "2028_yoy_pct": {
         "downside": -3.2258064516129004,
-        "base": 0.0,
+        "base": -1.1173184357541888,
         "upside": 5.263157894736836
       },
-      "2028_base_delta_vs_2026_base": 5989,
-      "2028_base_delta_vs_2025": 12678,
+      "2028_base_delta_vs_2026_base": 2989,
+      "2028_base_delta_vs_2025": 9678,
       "prior_2027_base": 180000,
       "prior_2028_base": 180000,
-      "revision_2027_base": 0,
-      "revision_2028_base": 0,
+      "revision_2027_base": -1000,
+      "revision_2028_base": -3000,
       "pricing_incentive_mix": "Competitive cash/lease support remains necessary. Lower 4xe mix can reduce sticker average while also changing manufacturer support; net margin direction cannot be inferred. Limited editions can aid mix only at real turn, not stock accumulation.",
       "thesis": "An already recovering differentiated franchise; defend about current pace rather than restore 2018\u201319 volumes. Observed 2026 growth coexists with now-ended 4xe production; the undated cessation notice and remaining dealer stock do not establish the sequence or prove post-exit retention.",
-      "method": "Recent pace: 2026 YTD annualized 174681, Q3 annualized 179028. Base 180k both years. Q4 37/43/48k surrounds recent 14.9k/month with seasonal caution: 2024/25 Q4 were 38.1/39.3k; no fixed multiplier fitted. Upside requires retention/conquest; downside payment or reputation erosion.",
+      "method": "D097: Modest near-term retention/recovery; subsequent competition and powertrain-retention risk erode relative performance. No transfer of broad crossover growth to this specialist product. Base2027/28 179000/177000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
       "confidence": "Medium relative to other Jeep rows",
       "falsifier": "Base fails if normal available gasoline stock cannot sustain \u224815k/month without increasing support/age; upside requires durable conquest rather than edition mix or fleet batching.",
       "dossier": "jeep-diligence.md",
@@ -602,7 +602,7 @@
         "J17"
       ],
       "share_quantified_2026_base_pct": 13.373672132105083,
-      "share_quantified_2028_base_pct": 12.711864406779661
+      "share_quantified_2028_base_pct": 12.481489316691349
     },
     {
       "id": "gladiator",
@@ -646,7 +646,7 @@
       },
       "2028F_units": {
         "downside": 30000,
-        "base": 45000,
+        "base": 43000,
         "upside": 60000
       },
       "2026FY_yoy_pct": {
@@ -661,18 +661,18 @@
       },
       "2028_yoy_pct": {
         "downside": -14.28571428571429,
-        "base": 4.651162790697683,
+        "base": 0.0,
         "upside": 9.090909090909083
       },
-      "2028_base_delta_vs_2026_base": 2056,
-      "2028_base_delta_vs_2025": -11790,
+      "2028_base_delta_vs_2026_base": 56,
+      "2028_base_delta_vs_2025": -13790,
       "prior_2027_base": 43000,
       "prior_2028_base": 45000,
       "revision_2027_base": 0,
-      "revision_2028_base": 0,
+      "revision_2028_base": -2000,
       "pricing_incentive_mix": "Base needs continued affordability support; a volume rebound with richer trims and fewer discounts simultaneously is unproven. Lower-priced variants or sustained support could lift units but must be charged once to net realization/cost.",
       "thesis": "Treat as a smaller lifestyle-pickup franchise requiring competitive payments, not a broad midsize-truck share recovery.",
-      "method": "Q3 12k scale and 2026 YTD annualized 41.3k support 43k then 45k bases. Q4 9/12/17k spans recent pace and highly variable prior Q4; upside reaches 55/60k only with effective value and repeat orders. Downside 2028 reduced to 30k for potential internal launch overlap.",
+      "method": "D097: Niche positioning limits benefit from crossover growth; competition/internal launch risk offsets some market expansion. Rounded flat volume is an outcome, not an input. Base2027/28 43000/43000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
       "confidence": "Medium-low",
       "falsifier": "Fresh model-year Gladiators repeatedly selling at \u22484k/month with unchanged support would justify higher base; strong retail discounts plus continued age accumulation reject profitable recovery.",
       "dossier": "jeep-diligence.md",
@@ -686,7 +686,7 @@
         "J17"
       ],
       "share_quantified_2026_base_pct": 3.300475119625315,
-      "share_quantified_2028_base_pct": 3.1779661016949152
+      "share_quantified_2028_base_pct": 3.032226218179254
     },
     {
       "id": "compass",
@@ -725,12 +725,12 @@
       },
       "2027F_units": {
         "downside": 40000,
-        "base": 65000,
+        "base": 63000,
         "upside": 85000
       },
       "2028F_units": {
         "downside": 35000,
-        "base": 70000,
+        "base": 62000,
         "upside": 90000
       },
       "2026FY_yoy_pct": {
@@ -740,23 +740,23 @@
       },
       "2027_yoy_pct": {
         "downside": -29.623308760138645,
-        "base": 3.44223944491302,
+        "base": 0.25940130814647855,
         "upside": 23.480105175995458
       },
       "2028_yoy_pct": {
         "downside": -12.5,
-        "base": 7.692307692307687,
+        "base": -1.5873015873015928,
         "upside": 5.882352941176472
       },
-      "2028_base_delta_vs_2026_base": 7163,
-      "2028_base_delta_vs_2025": -31997,
+      "2028_base_delta_vs_2026_base": -837,
+      "2028_base_delta_vs_2025": -39997,
       "prior_2027_base": 65000,
       "prior_2028_base": 70000,
-      "revision_2027_base": 0,
-      "revision_2028_base": 0,
+      "revision_2027_base": -2000,
+      "revision_2028_base": -8000,
       "pricing_incentive_mix": "Base needs better affordable availability and price separation from Cherokee. Lower mix and/or continuing support are likely conditions of volume, not a simultaneous margin-free gain. No national incentive estimate available.",
       "thesis": "Partial recovery is possible, but summer downtime cannot explain the whole decline; this is also a continuing affordability, availability and portfolio-positioning problem.",
-      "method": "Q4 9/15/21k implies 3/5/7k monthly versus Q3 3.6k and H1 6.2k. Base 65/70k in 2027/28 is a partial normalization near 2026 H1 annualized 74k, materially below 2024/25; downside continued erosion, upside fuller supply with a viable payment gap. Portfolio-check jointly with Cherokee.",
+      "method": "D097: Affordable crossover opportunity is favorable, but cheaper rivals, hybrid alternatives and returning Cherokee pressure its relative position. No unsupported broad restoration toH1pace. Base2027/28 63000/62000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
       "confidence": "Low-to-medium",
       "falsifier": "Base requires \u22485.4k/month 2027 with stable dealer economics. Available stock still selling \u22483.6k/month would reject normalization; confirmed new US generation/low-price availability could lift upside.",
       "dossier": "jeep-diligence.md",
@@ -772,7 +772,7 @@
         "J22"
       ],
       "share_quantified_2026_base_pct": 4.829358119688337,
-      "share_quantified_2028_base_pct": 4.943502824858757
+      "share_quantified_2028_base_pct": 4.372047105281715
     },
     {
       "id": "cherokee",
@@ -860,7 +860,7 @@
         "J22"
       ],
       "share_quantified_2026_base_pct": 2.6064715258702713,
-      "share_quantified_2028_base_pct": 4.943502824858757
+      "share_quantified_2028_base_pct": 4.936182215640645
     },
     {
       "id": "wagoneer_family",
@@ -899,7 +899,7 @@
       },
       "2027F_units": {
         "downside": 40000,
-        "base": 55000,
+        "base": 57000,
         "upside": 65000
       },
       "2028F_units": {
@@ -914,23 +914,23 @@
       },
       "2027_yoy_pct": {
         "downside": -24.015045021085825,
-        "base": -2.8989089368313237,
+        "base": 0.6320398291020712,
         "upside": 7.186438442003884
       },
       "2028_yoy_pct": {
         "downside": 0.0,
-        "base": 5.454545454545445,
+        "base": 1.7543859649122862,
         "upside": 7.692307692307687
       },
       "2028_base_delta_vs_2026_base": 1358,
       "2028_base_delta_vs_2025": 12960,
       "prior_2027_base": 55000,
       "prior_2028_base": 58000,
-      "revision_2027_base": 0,
+      "revision_2027_base": 2000,
       "revision_2028_base": 0,
       "pricing_incentive_mix": "Lower entry configurations may support volume while diluting former Grand-name mix. Forecast combined family price; no apparent mix upgrade solely from transferring Wagoneer labels. Premium and REEV upside needs actual transactions and costs.",
       "thesis": "Hold a rebuilt full-size-SUV base; naming consolidation and more accessible Grand entry cannot justify luxury-mix uplift by themselves.",
-      "method": "Current pace 55k then 58k base, not two additive nameplates. Q4 10/14/18k brackets recent 4.2\u20135.0k monthly and variable prior Q4. Upside 65/70k needs sustained conquest and economics, downside 40k reverts toward pre-recovery scale.",
+      "method": "D097: Utility demand helps; early2026 strength is not fully extrapolated. Stable2028 relative position requires viable entry pricing. No badge-based premium-mix uplift. Base2027/28 57000/58000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
       "confidence": "Medium-low",
       "falsifier": "\u22484.6\u20134.8k monthly at stable support and inventory age supports base. Declining fresh-stock turn despite revised offer rejects recovery; sustained high end transactions, not naming, establish favorable mix.",
       "dossier": "jeep-diligence.md",
@@ -943,7 +943,7 @@
         "J18"
       ],
       "share_quantified_2026_base_pct": 4.353239375135458,
-      "share_quantified_2028_base_pct": 4.096045197740112
+      "share_quantified_2028_base_pct": 4.08997955010225
     },
     {
       "id": "wagoneer_s",
@@ -1134,12 +1134,12 @@
       },
       "2027F_units": {
         "downside": 125000,
-        "base": 140000,
+        "base": 145000,
         "upside": 155000
       },
       "2028F_units": {
         "downside": 120000,
-        "base": 140000,
+        "base": 149000,
         "upside": 160000
       },
       "2026FY_yoy_pct": {
@@ -1149,23 +1149,23 @@
       },
       "2027_yoy_pct": {
         "downside": -5.02313636398174,
-        "base": 2.480766556133829,
+        "base": 6.140793933138622,
         "upside": 9.454773993545707
       },
       "2028_yoy_pct": {
         "downside": -4.0000000000000036,
-        "base": 0.0,
+        "base": 2.758620689655178,
         "upside": 3.2258064516129004
       },
-      "2028_base_delta_vs_2026_base": 3389,
-      "2028_base_delta_vs_2025": 14202,
+      "2028_base_delta_vs_2026_base": 12389,
+      "2028_base_delta_vs_2025": 23202,
       "prior_2027_base": 140000,
       "prior_2028_base": 145000,
-      "revision_2027_base": 0,
-      "revision_2028_base": -5000,
+      "revision_2027_base": 5000,
+      "revision_2028_base": 4000,
       "pricing_incentive_mix": "Entry LX $41,495 plus $1,995 destination = $43,490 MSRP; this is a price anchor, not OEM RPU. Cheaper configurations and PHEV exit may lower family mix; reduced bundling can improve affordability without a nominal base-price cut. Competitive incentives remain in base case; no automatic discount withdrawal or positive net-price uplift.",
       "thesis": "Defend and modestly grow an existing franchise; no large depressed-base rebound. Keep one combined family so renaming cannot create units.",
-      "method": "Q3 annual scale 137,964 and YTD annual scale 135,481 anchor roughly 140k. Base holds that level into 2028, rather than adding growth solely because of a refresh. Q4 base35k near Q3 and prior Q4 combined35,625. Down/up represent ownership-cost pressure versus broader conversion at acceptable offers.",
+      "method": "D097: Recent segment expansion and family utility support above-market growth, decelerating sharply from2025 rival growth. Retail entry/refreshed offer helps2027; Sienna/Carnival hybrid competition andPHEVexit constrain relative2028 performance. Base2027/28 145000/149000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
       "confidence": "Medium on product/status mechanism; low to medium on numerical trajectory",
       "falsifier": "Two normal-stock quarters above38\u201340k with stable incentives and genuine household growth would warrant upside. Persistent sub-30k quarters with aged stock despite refresh would undermine base.",
       "dossier": "chrysler-dodge-diligence.md",
@@ -1180,7 +1180,7 @@
         "CD16"
       ],
       "share_quantified_2026_base_pct": 10.499282939808447,
-      "share_quantified_2028_base_pct": 9.887005649717514
+      "share_quantified_2028_base_pct": 10.507016430435089
     },
     {
       "id": "durango",
@@ -1219,12 +1219,12 @@
       },
       "2027F_units": {
         "downside": 75000,
-        "base": 90000,
+        "base": 89000,
         "upside": 100000
       },
       "2028F_units": {
         "downside": 70000,
-        "base": 90000,
+        "base": 88000,
         "upside": 105000
       },
       "2026FY_yoy_pct": {
@@ -1234,23 +1234,23 @@
       },
       "2027_yoy_pct": {
         "downside": -7.783105864994466,
-        "base": 5.472870033985711,
+        "base": 4.300949255830311,
         "upside": 13.21181931393638
       },
       "2028_yoy_pct": {
         "downside": -6.666666666666665,
-        "base": 0.0,
+        "base": -1.1235955056179803,
         "upside": 5.000000000000004
       },
-      "2028_base_delta_vs_2026_base": 4670,
-      "2028_base_delta_vs_2025": 8832,
+      "2028_base_delta_vs_2026_base": 2670,
+      "2028_base_delta_vs_2025": 6832,
       "prior_2027_base": 85000,
       "prior_2028_base": 85000,
-      "revision_2027_base": 5000,
-      "revision_2028_base": 5000,
+      "revision_2027_base": 4000,
+      "revision_2028_base": 3000,
       "pricing_incentive_mix": "Value improves through content and engine repositioning; do not equate unchanged advertised R/T price with unchanged production cost or net margin. Assume continued competitive support. Mix can favor V8 while per-content economics worsen; no extra aggregate mix uplift on top of model weights.",
       "thesis": "A healthier existing business merits roughly holding the recent better pace, not another huge rebound to make up losses that have already reversed.",
-      "method": "Q3\u00d74=91,020, versus YTD\u00d74/3=81,773. Base90k assumes current quarter can be broadly sustained with new configuration availability; upside100/105k needs repeat evidence, downside75/70k loses the step-up. Q4 base24k lies between Q3 and Q4 2025 26,751.",
+      "method": "D097: Utility and better performance content support2027; aging architecture, fuel-cost exposure and modern alternatives create2028 erosion. Recovery already achieved is not added twice. Base2027/28 89000/88000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
       "confidence": "Medium on product/status mechanism; low to medium on numerical trajectory",
       "falsifier": "If normal availability plus content reset cannot maintain roughly20\u201323k/quarter without ever-deeper support, lower90k. Stable25k+ quarters with healthy dealer economics support upside.",
       "dossier": "chrysler-dodge-diligence.md",
@@ -1263,7 +1263,7 @@
         "CD16"
       ],
       "share_quantified_2026_base_pct": 6.558064967344173,
-      "share_quantified_2028_base_pct": 6.3559322033898304
+      "share_quantified_2028_base_pct": 6.205486213948241
     },
     {
       "id": "charger",
@@ -1346,7 +1346,7 @@
         "CD15"
       ],
       "share_quantified_2026_base_pct": 1.0218684144592536,
-      "share_quantified_2028_base_pct": 1.765536723163842
+      "share_quantified_2028_base_pct": 1.7629222198716592
     },
     {
       "id": "hornet",
@@ -1469,12 +1469,12 @@
       },
       "2027F_units": {
         "downside": 2000,
-        "base": 3000,
+        "base": 3200,
         "upside": 5000
       },
       "2028F_units": {
         "downside": 1500,
-        "base": 3000,
+        "base": 3100,
         "upside": 6000
       },
       "2026FY_yoy_pct": {
@@ -1484,23 +1484,23 @@
       },
       "2027_yoy_pct": {
         "downside": -35.6292243321532,
-        "base": -10.634495084897233,
+        "base": -4.676794757223712,
         "upside": 38.619351261436094
       },
       "2028_yoy_pct": {
         "downside": -25.0,
-        "base": 0.0,
+        "base": -3.125,
         "upside": 19.999999999999996
       },
-      "2028_base_delta_vs_2026_base": -357,
-      "2028_base_delta_vs_2025": -3973,
+      "2028_base_delta_vs_2026_base": -257,
+      "2028_base_delta_vs_2025": -3873,
       "prior_2027_base": null,
       "prior_2028_base": null,
       "revision_2027_base": null,
       "revision_2028_base": null,
       "pricing_incentive_mix": "Promotional pressure likely remains a risk given sales trend; manufacturer netRPU and model-specific transaction series unknown. Do not treat low volume itself as proof of any exact discount.",
       "thesis": "Use a small stabilizing residual, not a turnaround needed to close the company forecast.",
-      "method": "LatestQ3 annualscale2,492 andYTDannualscale3,476 bracket a rounded3k base; scenarios broad relative to small footprint.",
+      "method": "D097: No verified mass-market value/hybrid repositioning sufficient to hold share. Small-footprint erosion; rounding to100units is arithmetic presentation, not high confidence. Base2027/28 3200/3100. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
       "confidence": "Medium on product/status mechanism; low to medium on numerical trajectory",
       "falsifier": "Sustained deliveries above1.25k/quarter from a verified new offer would warrant more than5kannual; further franchise/product exits support downside.",
       "dossier": "chrysler-dodge-diligence.md",
@@ -1510,7 +1510,7 @@
         "CD15"
       ],
       "share_quantified_2026_base_pct": 0.2580033293727222,
-      "share_quantified_2028_base_pct": 0.211864406779661
+      "share_quantified_2028_base_pct": 0.21860235526408575
     },
     {
       "id": "chrysler_new",
@@ -1644,12 +1644,12 @@
     },
     "quantified_2027": {
       "downside": 1129000,
-      "base": 1381150,
+      "base": 1386350,
       "upside": 1593700
     },
     "quantified_2028": {
       "downside": 1096500,
-      "base": 1416000,
+      "base": 1418100,
       "upside": 1711200
     },
     "core_13_2026": {
@@ -1659,12 +1659,12 @@
     },
     "core_13_2027": {
       "downside": 1127000,
-      "base": 1378000,
+      "base": 1383000,
       "upside": 1588000
     },
     "core_13_2028": {
       "downside": 1095000,
-      "base": 1413000,
+      "base": 1415000,
       "upside": 1705000
     },
     "quantified_2025_actual": 1248126,
@@ -1686,8 +1686,8 @@
         "charger"
       ],
       "2026_base": 580988,
-      "2028_base": 630000,
-      "change": 49012
+      "2028_base": 623000,
+      "change": 42012
     },
     {
       "bucket": "defend_recovered_or_stable_level",
@@ -1701,8 +1701,8 @@
         "fiat_alfa"
       ],
       "2026_base": 685182,
-      "2028_base": 701000,
-      "change": 15818
+      "2028_base": 710100,
+      "change": 24918
     },
     {
       "bucket": "returning_product_ramps",

@@ -51,3 +51,7 @@ User challenged the unproven Grand Cherokee return toH1pace and requested compar
 ## D096 Stabilization rather than unverified Grand Cherokee recovery
 
 User asked to reviseGCandthenextendcausaltestsacrossothermodels. GC2027/28bases190k/190k;allotherunitinputsunchanged. Rebuiltderivedtotals. AuditcoversallfamiliesusingexistingdossierswithtargetedWrangler/Gladiator/minivanverification. Distinguishes4xecontractionfromgasolineresilience,alreadyhealthyminivans,launchgapsandunresolvedcommercialcycles. Noagent,workbookorindependentbaselinechanges.
+
+## D097 Incorporate market and segment trends explicitly
+
+User challenged fixed-level assumptions for omitting macro conditions and category preferences. Added a transparent market/relative-segment/company index bridge for established models, preserving separate launch ramps. Verified long-run SUV shift and recent competing minivan growth; did not assume a proven secular minivan boom. Forward1%market and model-specific segment/company rates are explicit judgments, not fitted coefficients. Existing price-support constraints and unallocated launches remain. Rebuilt all totals and checked arithmetic. Earlier prose snapshots are labeled; current JSON dossiers/forecast files updated.

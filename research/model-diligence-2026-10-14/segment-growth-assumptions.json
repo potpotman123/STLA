@@ -1,0 +1,466 @@
+{
+  "as_of": "2026-10-14",
+  "decision_id": "D097",
+  "classification": "Observed source trends; forward rates explicitly assumed; unit bridges derived. Not fitted elasticities, measured segment shares or independent validation.",
+  "method": "Prior base2026 volumes multiplied by total-market index, relative segment index and company index; additive launch ramps kept separate. No invented full segment denominator.",
+  "equation": "next = prior * (1+market growth) * (1+segment relative tilt) * (1+company relative change), then round. Sequential additive contributions exactly reconcile; ordering allocates cross terms.",
+  "market_assumption": {
+    "2026_external_forecast_millions": 16.1,
+    "2027_assumed_growth_pct": 1,
+    "2028_assumed_growth_pct": 1,
+    "2027_implied_millions": 16.261,
+    "2028_implied_millions": 16.42361,
+    "reason": "Mild cyclical growth, no return-to17m assumption or invented rate-cut path. Replacement/credit resilience balanced against affordability. Not independentexternal2027/28guidance."
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://www.epa.gov/automotive-trends/highlights-automotive-trends-report",
+      "date": "2026-02-19",
+      "type": "regulator model-year production data",
+      "finding": "Long-run shift from sedan/wagons toward SUVs; truckSUVclassification is regulatory and not a pickup/full-sizeSUV segment. Stronghybrid adoption contributes to efficiency. Not a2027/28retail forecast or proof of risingminivanshare."
+    },
+    {
+      "id": "S2",
+      "url": "https://www.prnewswire.com/news-releases/cox-automotive-raises-full-year-new-vehicle-sales-forecast-september-sales-expected-to-increase-6-5-year-over-year-as-asian-brands-gain-share-302889501.html",
+      "date": "2026-09",
+      "type": "current industry forecast",
+      "finding": "2026forecastraised15.8mto16.1m. Monthlysegment forecasts diverge; do not extrapolate one month or oldJanuary15.8m. Our+1%2027/28 is an assumption,notCoxguidance."
+    },
+    {
+      "id": "S3",
+      "url": "https://www.prnewswire.com/news-releases/toyota-motor-north-america-reports-2025-us-sales-results-302652746.html",
+      "date": "2026-01-05",
+      "type": "issuer observed sales",
+      "finding": "Sienna modeltable2025 101486vs2024 75037,+35.2%. Usemodeltable,nothybrid subtotal. Toyotaelectrifiedgrowth17.6%includesHEV/PHEV/BEV,notpureHEV."
+    },
+    {
+      "id": "S4",
+      "url": "https://www.kiamedia.com/us/en/media/pressreleases/24209/kia-america-postshighest-ever-annual-sales-in-company-history",
+      "date": "2026-01",
+      "type": "issuersearch-indexonly;fullpage403",
+      "finding": "Carnival2025growth44% fromofficialindexedrelease;notusedtoconstructfullsegmenttotals."
+    },
+    {
+      "id": "S5",
+      "url": "https://worldwide.kia.com/en/newsroom/view/?id=161092",
+      "date": "2026-02",
+      "type": "issuerfinancialrelease searchexcerpt",
+      "finding": "ManagementreportsstrongUShybriddemandandglobalCarnivalHEVincrease. GlobalincrementnotUSsalescount."
+    },
+    {
+      "id": "S6",
+      "url": "https://pressroom.toyota.com/toyota-indiana-celebrates-1-millionth-hybrid/",
+      "date": "2025-06-12",
+      "type": "manufacturerproductionmilestone",
+      "finding": "Siennahybridproductioncontext; growingdeliveriescanreflectavailabilityandnotsolelychangedpreferences."
+    }
+  ],
+  "rows": [
+    {
+      "id": "ram_ld",
+      "segment": "Large pickups",
+      "rationale": "Availability/engine-choice recovery supports 2027 relative gains. In2028 maintain relative position; market growth adds units. No second HEMI uplift.",
+      "2026_anchor": 277147,
+      "bridge": [
+        {
+          "year": 2027,
+          "opening_units": 277147,
+          "market_growth_pct_assumed": 1,
+          "segment_relative_tilt_pct_assumed": 0,
+          "company_relative_change_pct_assumed": 7,
+          "market_units_derived": 2771.4700000000003,
+          "segment_units_derived": 0.0,
+          "company_units_derived": 19594.292899999997,
+          "unrounded_units": 299512.7629,
+          "rounding_units": 487.23710000002757,
+          "base_units": 300000,
+          "previous_forecast_base": 300000
+        },
+        {
+          "year": 2028,
+          "opening_units": 300000,
+          "market_growth_pct_assumed": 1,
+          "segment_relative_tilt_pct_assumed": 0,
+          "company_relative_change_pct_assumed": 0,
+          "market_units_derived": 3000.0,
+          "segment_units_derived": 0.0,
+          "company_units_derived": 0.0,
+          "unrounded_units": 303000.0,
+          "rounding_units": 0.0,
+          "base_units": 303000,
+          "previous_forecast_base": 300000
+        }
+      ]
+    },
+    {
+      "id": "ram_hd",
+      "segment": "Heavy-duty pickups",
+      "rationale": "Commercial replacement and refresh support stable relative position. Total light-vehicle growth is only a modest cycle proxy for this partly different population; no HD boom assumed.",
+      "2026_anchor": 170201,
+      "bridge": [
+        {
+          "year": 2027,
+          "opening_units": 170201,
+          "market_growth_pct_assumed": 1,
+          "segment_relative_tilt_pct_assumed": 0,
+          "company_relative_change_pct_assumed": 0,
+          "market_units_derived": 1702.01,
+          "segment_units_derived": 0.0,
+          "company_units_derived": 0.0,
+          "unrounded_units": 171903.01,
+          "rounding_units": 96.98999999999069,
+          "base_units": 172000,
+          "previous_forecast_base": 170000
+        },
+        {
+          "year": 2028,
+          "opening_units": 172000,
+          "market_growth_pct_assumed": 1,
+          "segment_relative_tilt_pct_assumed": 0,
+          "company_relative_change_pct_assumed": 0,
+          "market_units_derived": 1720.0,
+          "segment_units_derived": 0.0,
+          "company_units_derived": 0.0,
+          "unrounded_units": 173720.0,
+          "rounding_units": 280.0,
+          "base_units": 174000,
+          "previous_forecast_base": 170000
+        }
+      ]
+    },
+    {
+      "id": "promaster",
+      "segment": "Large commercial vans",
+      "rationale": "Modest route/replacement growth; City may divert some marginal smaller-load buyers in2028. Upfit and fleet acceptance remain gates.",
+      "2026_anchor": 59030,
+      "bridge": [
+        {
+          "year": 2027,
+          "opening_units": 59030,
+          "market_growth_pct_assumed": 1,
+          "segment_relative_tilt_pct_assumed": 1,
+          "company_relative_change_pct_assumed": 0,
+          "market_units_derived": 590.3000000000001,
+          "segment_units_derived": 596.203,
+          "company_units_derived": 0.0,
+          "unrounded_units": 60216.503000000004,
+          "rounding_units": -216.50300000000425,
+          "base_units": 60000,
+          "previous_forecast_base": 60000
+        },
+        {
+          "year": 2028,
+          "opening_units": 60000,
+          "market_growth_pct_assumed": 1,
+          "segment_relative_tilt_pct_assumed": 1,
+          "company_relative_change_pct_assumed": -1,
+          "market_units_derived": 600.0,
+          "segment_units_derived": 606.0,
+          "company_units_derived": -612.06,
+          "unrounded_units": 60593.94,
+          "rounding_units": 406.0599999999977,
+          "base_units": 61000,
+          "previous_forecast_base": 60000
+        }
+      ]
+    },
+    {
+      "id": "grand_cherokee",
+      "segment": "Midsize family SUVs",
+      "rationale": "Limited2027 stabilization;2028 utility-category growth offset by hybrid competition, product/value concerns and internal Cherokee substitution. These effects share one company factor, not separate deductions.",
+      "2026_anchor": 184764,
+      "bridge": [
+        {
+          "year": 2027,
+          "opening_units": 184764,
+          "market_growth_pct_assumed": 1,
+          "segment_relative_tilt_pct_assumed": 1,
+          "company_relative_change_pct_assumed": 1,
+          "market_units_derived": 1847.64,
+          "segment_units_derived": 1866.1164,
+          "company_units_derived": 1884.7775640000002,
+          "unrounded_units": 190362.533964,
+          "rounding_units": -362.533964000002,
+          "base_units": 190000,
+          "previous_forecast_base": 190000
+        },
+        {
+          "year": 2028,
+          "opening_units": 190000,
+          "market_growth_pct_assumed": 1,
+          "segment_relative_tilt_pct_assumed": 1,
+          "company_relative_change_pct_assumed": -2,
+          "market_units_derived": 1900.0,
+          "segment_units_derived": 1919.0,
+          "company_units_derived": -3876.38,
+          "unrounded_units": 189942.62,
+          "rounding_units": 57.38000000000466,
+          "base_units": 190000,
+          "previous_forecast_base": 190000
+        }
+      ]
+    },
+    {
+      "id": "wrangler",
+      "segment": "Off-road SUVs",
+      "rationale": "Modest near-term retention/recovery; subsequent competition and powertrain-retention risk erode relative performance. No transfer of broad crossover growth to this specialist product.",
+      "2026_anchor": 174011,
+      "bridge": [
+        {
+          "year": 2027,
+          "opening_units": 174011,
+          "market_growth_pct_assumed": 1,
+          "segment_relative_tilt_pct_assumed": 0,
+          "company_relative_change_pct_assumed": 2,
+          "market_units_derived": 1740.1100000000001,
+          "segment_units_derived": 0.0,
+          "company_units_derived": 3515.0222,
+          "unrounded_units": 179266.1322,
+          "rounding_units": -266.13219999999274,
+          "base_units": 179000,
+          "previous_forecast_base": 180000
+        },
+        {
+          "year": 2028,
+          "opening_units": 179000,
+          "market_growth_pct_assumed": 1,
+          "segment_relative_tilt_pct_assumed": 0,
+          "company_relative_change_pct_assumed": -2,
+          "market_units_derived": 1790.0,
+          "segment_units_derived": 0.0,
+          "company_units_derived": -3615.8,
+          "unrounded_units": 177174.2,
+          "rounding_units": -174.20000000001164,
+          "base_units": 177000,
+          "previous_forecast_base": 180000
+        }
+      ]
+    },
+    {
+      "id": "gladiator",
+      "segment": "Lifestyle midsize pickups",
+      "rationale": "Niche positioning limits benefit from crossover growth; competition/internal launch risk offsets some market expansion. Rounded flat volume is an outcome, not an input.",
+      "2026_anchor": 42944,
+      "bridge": [
+        {
+          "year": 2027,
+          "opening_units": 42944,
+          "market_growth_pct_assumed": 1,
+          "segment_relative_tilt_pct_assumed": 0,
+          "company_relative_change_pct_assumed": 0,
+          "market_units_derived": 429.44,
+          "segment_units_derived": 0.0,
+          "company_units_derived": 0.0,
+          "unrounded_units": 43373.44,
+          "rounding_units": -373.4400000000023,
+          "base_units": 43000,
+          "previous_forecast_base": 43000
+        },
+        {
+          "year": 2028,
+          "opening_units": 43000,
+          "market_growth_pct_assumed": 1,
+          "segment_relative_tilt_pct_assumed": 0,
+          "company_relative_change_pct_assumed": -2,
+          "market_units_derived": 430.0,
+          "segment_units_derived": 0.0,
+          "company_units_derived": -868.6,
+          "unrounded_units": 42561.4,
+          "rounding_units": 438.59999999999854,
+          "base_units": 43000,
+          "previous_forecast_base": 45000
+        }
+      ]
+    },
+    {
+      "id": "compass",
+      "segment": "Compact/value crossovers",
+      "rationale": "Affordable crossover opportunity is favorable, but cheaper rivals, hybrid alternatives and returning Cherokee pressure its relative position. No unsupported broad restoration toH1pace.",
+      "2026_anchor": 62837,
+      "bridge": [
+        {
+          "year": 2027,
+          "opening_units": 62837,
+          "market_growth_pct_assumed": 1,
+          "segment_relative_tilt_pct_assumed": 2,
+          "company_relative_change_pct_assumed": -2,
+          "market_units_derived": 628.37,
+          "segment_units_derived": 1269.3074000000001,
+          "company_units_derived": -1294.693548,
+          "unrounded_units": 63439.983852,
+          "rounding_units": -439.98385199999757,
+          "base_units": 63000,
+          "previous_forecast_base": 65000
+        },
+        {
+          "year": 2028,
+          "opening_units": 63000,
+          "market_growth_pct_assumed": 1,
+          "segment_relative_tilt_pct_assumed": 2,
+          "company_relative_change_pct_assumed": -5,
+          "market_units_derived": 630.0,
+          "segment_units_derived": 1272.6,
+          "company_units_derived": -3245.13,
+          "unrounded_units": 61657.47,
+          "rounding_units": 342.52999999999884,
+          "base_units": 62000,
+          "previous_forecast_base": 70000
+        }
+      ]
+    },
+    {
+      "id": "wagoneer_family",
+      "segment": "Full-size family SUVs",
+      "rationale": "Utility demand helps; early2026 strength is not fully extrapolated. Stable2028 relative position requires viable entry pricing. No badge-based premium-mix uplift.",
+      "2026_anchor": 56642,
+      "bridge": [
+        {
+          "year": 2027,
+          "opening_units": 56642,
+          "market_growth_pct_assumed": 1,
+          "segment_relative_tilt_pct_assumed": 1,
+          "company_relative_change_pct_assumed": -2,
+          "market_units_derived": 566.42,
+          "segment_units_derived": 572.0842,
+          "company_units_derived": -1155.610084,
+          "unrounded_units": 56624.894115999996,
+          "rounding_units": 375.10588400000415,
+          "base_units": 57000,
+          "previous_forecast_base": 55000
+        },
+        {
+          "year": 2028,
+          "opening_units": 57000,
+          "market_growth_pct_assumed": 1,
+          "segment_relative_tilt_pct_assumed": 1,
+          "company_relative_change_pct_assumed": 0,
+          "market_units_derived": 570.0,
+          "segment_units_derived": 575.7,
+          "company_units_derived": 0.0,
+          "unrounded_units": 58145.7,
+          "rounding_units": -145.6999999999971,
+          "base_units": 58000,
+          "previous_forecast_base": 58000
+        }
+      ]
+    },
+    {
+      "id": "minivans",
+      "segment": "Minivans",
+      "rationale": "Recent segment expansion and family utility support above-market growth, decelerating sharply from2025 rival growth. Retail entry/refreshed offer helps2027; Sienna/Carnival hybrid competition andPHEVexit constrain relative2028 performance.",
+      "2026_anchor": 136611,
+      "bridge": [
+        {
+          "year": 2027,
+          "opening_units": 136611,
+          "market_growth_pct_assumed": 1,
+          "segment_relative_tilt_pct_assumed": 4,
+          "company_relative_change_pct_assumed": 1,
+          "market_units_derived": 1366.1100000000001,
+          "segment_units_derived": 5519.0844,
+          "company_units_derived": 1434.9619439999997,
+          "unrounded_units": 144931.156344,
+          "rounding_units": 68.84365600001183,
+          "base_units": 145000,
+          "previous_forecast_base": 140000
+        },
+        {
+          "year": 2028,
+          "opening_units": 145000,
+          "market_growth_pct_assumed": 1,
+          "segment_relative_tilt_pct_assumed": 3,
+          "company_relative_change_pct_assumed": -1,
+          "market_units_derived": 1450.0,
+          "segment_units_derived": 4393.5,
+          "company_units_derived": -1508.435,
+          "unrounded_units": 149335.065,
+          "rounding_units": -335.0650000000023,
+          "base_units": 149000,
+          "previous_forecast_base": 140000
+        }
+      ]
+    },
+    {
+      "id": "durango",
+      "segment": "Performance family SUVs",
+      "rationale": "Utility and better performance content support2027; aging architecture, fuel-cost exposure and modern alternatives create2028 erosion. Recovery already achieved is not added twice.",
+      "2026_anchor": 85330,
+      "bridge": [
+        {
+          "year": 2027,
+          "opening_units": 85330,
+          "market_growth_pct_assumed": 1,
+          "segment_relative_tilt_pct_assumed": 1,
+          "company_relative_change_pct_assumed": 2,
+          "market_units_derived": 853.3000000000001,
+          "segment_units_derived": 861.8330000000001,
+          "company_units_derived": 1740.90266,
+          "unrounded_units": 88786.03566000001,
+          "rounding_units": 213.96433999999135,
+          "base_units": 89000,
+          "previous_forecast_base": 90000
+        },
+        {
+          "year": 2028,
+          "opening_units": 89000,
+          "market_growth_pct_assumed": 1,
+          "segment_relative_tilt_pct_assumed": 1,
+          "company_relative_change_pct_assumed": -3,
+          "market_units_derived": 890.0,
+          "segment_units_derived": 898.9,
+          "company_units_derived": -2723.6669999999995,
+          "unrounded_units": 88065.233,
+          "rounding_units": -65.2329999999929,
+          "base_units": 88000,
+          "previous_forecast_base": 90000
+        }
+      ]
+    },
+    {
+      "id": "fiat_alfa",
+      "segment": "Small residual brands",
+      "rationale": "No verified mass-market value/hybrid repositioning sufficient to hold share. Small-footprint erosion; rounding to100units is arithmetic presentation, not high confidence.",
+      "2026_anchor": 3357,
+      "bridge": [
+        {
+          "year": 2027,
+          "opening_units": 3357,
+          "market_growth_pct_assumed": 1,
+          "segment_relative_tilt_pct_assumed": 0,
+          "company_relative_change_pct_assumed": -5,
+          "market_units_derived": 33.57,
+          "segment_units_derived": 0.0,
+          "company_units_derived": -169.5285,
+          "unrounded_units": 3221.0415000000003,
+          "rounding_units": -21.04150000000027,
+          "base_units": 3200,
+          "previous_forecast_base": 3000
+        },
+        {
+          "year": 2028,
+          "opening_units": 3200,
+          "market_growth_pct_assumed": 1,
+          "segment_relative_tilt_pct_assumed": 0,
+          "company_relative_change_pct_assumed": -5,
+          "market_units_derived": 32.0,
+          "segment_units_derived": 0.0,
+          "company_units_derived": -161.6,
+          "unrounded_units": 3070.4,
+          "rounding_units": 29.59999999999991,
+          "base_units": 3100,
+          "previous_forecast_base": 3000
+        }
+      ]
+    }
+  ],
+  "unchanged_special_rows": [
+    "cherokee:55k/70k; conditional launch scale already embedscategoryopportunity; noextra market uplift",
+    "promaster_city:10k/15k; launch ramp retained",
+    "charger:20k/25k; ramp retained, sedanheadwindconstrains restoration",
+    "hornet/dodge_other:runoff",
+    "futureunallocatedlaunches:notzero"
+  ],
+  "scenario_limits": "Existing downside/upside endpoints retained as broad prior outcome stresses, not recomputed macro confidence intervals. All new base outcomes fall within them.",
+  "pricing": "Volume depends oncompetitivepayments. NoautomaticOEMnetpricegain. Hybridcompetitionmayrequiremore support; relativeaffordabilityisnotanadditionalunitupliftoncecompanyfactorincludesit."
+}

@@ -198,7 +198,7 @@
       "thesis": "Defend and modestly grow an existing franchise; no large depressed-base rebound. Keep one combined family so renaming cannot create units.",
       "counterevidence": "Q2 41,704 shows stronger peaks are possible, but Q1 was only 25,416. Growing 2026 sales coexist with now-ended PHEV production; the undated status page and remaining stock cannot establish growth specifically after the exit. No matched dealer margin or household share series supports a sustained step to the 160k upside.",
       "pricing_mix_view": "Entry LX $41,495 plus $1,995 destination = $43,490 MSRP; this is a price anchor, not OEM RPU. Cheaper configurations and PHEV exit may lower family mix; reduced bundling can improve affordability without a nominal base-price cut. Competitive incentives remain in base case; no automatic discount withdrawal or positive net-price uplift.",
-      "forecast_method": "Q3 annual scale 137,964 and YTD annual scale 135,481 anchor roughly 140k. Base holds that level into 2028, rather than adding growth solely because of a refresh. Q4 base35k near Q3 and prior Q4 combined35,625. Down/up represent ownership-cost pressure versus broader conversion at acceptable offers.",
+      "forecast_method": "D097: Recent segment expansion and family utility support above-market growth, decelerating sharply from2025 rival growth. Retail entry/refreshed offer helps2027; Sienna/Carnival hybrid competition andPHEVexit constrain relative2028 performance. Base2027/28 145000/149000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
       "q4_2026_units_down_base_up": [
         30000,
         35000,
@@ -206,12 +206,12 @@
       ],
       "units_2027_down_base_up": [
         125000,
-        140000,
+        145000,
         155000
       ],
       "units_2028_down_base_up": [
         120000,
-        140000,
+        149000,
         160000
       ],
       "revision": "2027 base140k unchanged; 2028 145k\u2192140k. Removes an unsupported further5k while PHEV withdrawal/competitive response remain unresolved; not a measured5k causal loss.",
@@ -226,7 +226,8 @@
         "CD16"
       ],
       "confidence": "Medium on product/status mechanism; low to medium on numerical trajectory",
-      "assumption_status": "Analyst scenarios, not observed outcomes or statistical intervals"
+      "assumption_status": "Analyst scenarios, not observed outcomes or statistical intervals",
+      "revision_reason": "D097: replace implicit fixed-level forecasts with explicit market, segment and relative-company assumptions; retain prior downside/upside stresses."
     },
     {
       "id": "durango",
@@ -244,7 +245,7 @@
       "thesis": "A healthier existing business merits roughly holding the recent better pace, not another huge rebound to make up losses that have already reversed.",
       "counterevidence": "Platform age and improved competitors limit pricing power; current growth can reflect favorable fleet timing/support. The 392 cannot explain the preceding 2025 recovery.",
       "pricing_mix_view": "Value improves through content and engine repositioning; do not equate unchanged advertised R/T price with unchanged production cost or net margin. Assume continued competitive support. Mix can favor V8 while per-content economics worsen; no extra aggregate mix uplift on top of model weights.",
-      "forecast_method": "Q3\u00d74=91,020, versus YTD\u00d74/3=81,773. Base90k assumes current quarter can be broadly sustained with new configuration availability; upside100/105k needs repeat evidence, downside75/70k loses the step-up. Q4 base24k lies between Q3 and Q4 2025 26,751.",
+      "forecast_method": "D097: Utility and better performance content support2027; aging architecture, fuel-cost exposure and modern alternatives create2028 erosion. Recovery already achieved is not added twice. Base2027/28 89000/88000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
       "q4_2026_units_down_base_up": [
         20000,
         24000,
@@ -252,12 +253,12 @@
       ],
       "units_2027_down_base_up": [
         75000,
-        90000,
+        89000,
         100000
       ],
       "units_2028_down_base_up": [
         70000,
-        90000,
+        88000,
         105000
       ],
       "revision": "2027/28 base85k\u219290k, independently anchored to current selling pace and actual product-value changes; no extra derivative units added.",
@@ -270,7 +271,8 @@
         "CD16"
       ],
       "confidence": "Medium on product/status mechanism; low to medium on numerical trajectory",
-      "assumption_status": "Analyst scenarios, not observed outcomes or statistical intervals"
+      "assumption_status": "Analyst scenarios, not observed outcomes or statistical intervals",
+      "revision_reason": "D097: replace implicit fixed-level forecasts with explicit market, segment and relative-company assumptions; retain prior downside/upside stresses."
     },
     {
       "id": "charger",
@@ -376,7 +378,7 @@
       "thesis": "Use a small stabilizing residual, not a turnaround needed to close the company forecast.",
       "counterevidence": "Low starting units allow large percentage rebounds from modest product changes; numerical uncertainty is high, financial materiality small.",
       "pricing_mix_view": "Promotional pressure likely remains a risk given sales trend; manufacturer netRPU and model-specific transaction series unknown. Do not treat low volume itself as proof of any exact discount.",
-      "forecast_method": "LatestQ3 annualscale2,492 andYTDannualscale3,476 bracket a rounded3k base; scenarios broad relative to small footprint.",
+      "forecast_method": "D097: No verified mass-market value/hybrid repositioning sufficient to hold share. Small-footprint erosion; rounding to100units is arithmetic presentation, not high confidence. Base2027/28 3200/3100. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
       "q4_2026_units_down_base_up": [
         500,
         750,
@@ -384,12 +386,12 @@
       ],
       "units_2027_down_base_up": [
         2000,
-        3000,
+        3200,
         5000
       ],
       "units_2028_down_base_up": [
         1500,
-        3000,
+        3100,
         6000
       ],
       "revision": "Adds explicit niche row formerly outside core13-family forecast.",
@@ -399,7 +401,8 @@
         "CD15"
       ],
       "confidence": "Medium on product/status mechanism; low to medium on numerical trajectory",
-      "assumption_status": "Analyst scenarios, not observed outcomes or statistical intervals"
+      "assumption_status": "Analyst scenarios, not observed outcomes or statistical intervals",
+      "revision_reason": "D097: replace implicit fixed-level forecasts with explicit market, segment and relative-company assumptions; retain prior downside/upside stresses."
     },
     {
       "id": "chrysler_new",

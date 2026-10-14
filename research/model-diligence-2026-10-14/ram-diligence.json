@@ -47,7 +47,7 @@
         "TRX_REEV_next_generation": "retain within family; no separately verified mature delivery pace"
       },
       "pricing_mix_view": "Base assumes ongoing competitive support and no automatic same-configuration net-price improvement. Affordable entry/fleet mix can dilute average realization while performance derivatives enrich it; net balance unknown. The July $14k\u2013$21k figures combine OEM and dealer money and cannot be subtracted wholesale from manufacturer RPU. No manufacturer actual RPU, invoice margin or matched transaction-price trend is established.",
-      "forecast_method": "Q4 base75000 closely holds Q3; downside65000 nearQ2, upside85000 requires repeat retail/order conversion. Reject mechanical 2024/25 Q4 multipliers because both years contain launch/mix disruptions. 2027 base300000=25000/month approximates currentQ3 monthly25550, slightly lower to allow comparison normalization. 2028 base holds300000; no calibrated coefficient supports further growth. Downside250000/240000 means some recovered buyers were pulled forward and smaller trucks substitute; upside330000/350000 requires sustained retail share plus viable replenishment. These are judgment scenarios, not intervals.",
+      "forecast_method": "D097: Availability/engine-choice recovery supports 2027 relative gains. In2028 maintain relative position; market growth adds units. No second HEMI uplift. Base2027/28 300000/303000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
       "q4_2026_units_down_base_up": {
         "downside": 65000,
         "base": 75000,
@@ -60,7 +60,7 @@
       },
       "scenario_2028_units_down_base_up": {
         "downside": 240000,
-        "base": 300000,
+        "base": 303000,
         "upside": 350000
       },
       "changes_from_prior": {
@@ -109,7 +109,8 @@
       "2026_base_yoy_pct": 35.76,
       "2027_base_yoy_pct": 8.25,
       "2028_base_yoy_pct": 0.0,
-      "2028_base_growth_vs_2026_base_units": 22853
+      "2028_base_growth_vs_2026_base_units": 22853,
+      "revision_reason": "D097: replace implicit fixed-level forecasts with explicit market, segment and relative-company assumptions; retain prior downside/upside stresses."
     },
     {
       "id": "ram_hd",
@@ -144,7 +145,7 @@
         "new_generation": "planned within 2030; no exact 2028 customer launch assumed"
       },
       "pricing_mix_view": "Base requires competitive business purchase/financing support, with no automatic diesel or premium mix uplift. Diesel capability can justify a price premium only for relevant jobs. Manufacturer net realization and actual dealer margin unknown. Treat2500/3500 plus potential chassis-cab coverage consistently with reportedHDPU; no extra4500/5500 volume added without scope confirmation.",
-      "forecast_method": "Q4 base47000 uses the mean of observed2024/25 HDQ4:Q3 ratios(1.128,1.162) applied to41107, rounded; both years disrupted, so use only a broad seasonal check. Down41000 holdsQ3, up52000 near2025Q4. 2027/28 base170000=14167/month near2025 level and2026 forecast; downside155000/150000, upside185000/195000 needs stronger post-refresh commercial demand. No empirical demand coefficient.",
+      "forecast_method": "D097: Commercial replacement and refresh support stable relative position. Total light-vehicle growth is only a modest cycle proxy for this partly different population; no HD boom assumed. Base2027/28 172000/174000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
       "q4_2026_units_down_base_up": {
         "downside": 41000,
         "base": 47000,
@@ -152,12 +153,12 @@
       },
       "scenario_2027_units_down_base_up": {
         "downside": 155000,
-        "base": 170000,
+        "base": 172000,
         "upside": 185000
       },
       "scenario_2028_units_down_base_up": {
         "downside": 150000,
-        "base": 170000,
+        "base": 174000,
         "upside": 195000
       },
       "changes_from_prior": {
@@ -206,7 +207,8 @@
       "2026_base_yoy_pct": 0.17,
       "2027_base_yoy_pct": -0.12,
       "2028_base_yoy_pct": 0.0,
-      "2028_base_growth_vs_2026_base_units": -201
+      "2028_base_growth_vs_2026_base_units": -201,
+      "revision_reason": "D097: replace implicit fixed-level forecasts with explicit market, segment and relative-company assumptions; retain prior downside/upside stresses."
     },
     {
       "id": "promaster",
@@ -241,7 +243,7 @@
         "next_generation": "no verified 2028 availability; globallargevan 2029 SOP does not establish NA timing"
       },
       "pricing_mix_view": "Base volume assumes ongoing fleet competitiveness, broadly stable comparable-configuration net realization rather than a pricing recovery. Mix across body sizes, fleet agreements and EV/ICE could dominate familyRPU, currently unknown. Upfit revenue need not accrue toStellantis; do not count third-party body cost as OEMvehicle revenue.",
-      "forecast_method": "Q4base15000 nearYTDquarterly14677; down12000 near2025Q4,up18000 requires currentQ3 improvement to continue. Two highly differentQ4 observations do not establish stable van seasonality. 2027/28base60000=5000/month; downside50000/48000,up68000/70000. Keep combinedProMaster+Citybase75000 in2028 versuslargeProMasteralone81663 in2023 as scale check, not demand proof.",
+      "forecast_method": "D097: Modest route/replacement growth; City may divert some marginal smaller-load buyers in2028. Upfit and fleet acceptance remain gates. Base2027/28 60000/61000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
       "q4_2026_units_down_base_up": {
         "downside": 12000,
         "base": 15000,
@@ -254,7 +256,7 @@
       },
       "scenario_2028_units_down_base_up": {
         "downside": 48000,
-        "base": 60000,
+        "base": 61000,
         "upside": 70000
       },
       "changes_from_prior": {
@@ -303,7 +305,8 @@
       "2026_base_yoy_pct": 2.5,
       "2027_base_yoy_pct": 1.64,
       "2028_base_yoy_pct": 0.0,
-      "2028_base_growth_vs_2026_base_units": 970
+      "2028_base_growth_vs_2026_base_units": 970,
+      "revision_reason": "D097: replace implicit fixed-level forecasts with explicit market, segment and relative-company assumptions; retain prior downside/upside stresses."
     },
     {
       "id": "promaster_city",
