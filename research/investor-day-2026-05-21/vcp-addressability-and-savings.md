@@ -157,6 +157,32 @@ User follow-up, 14 October 2026: explain and substantiate the economic mechanism
 
 The improved method should calculate savings by component family and mechanism, then derive an effective aggregate eligible share and rate. Commodity pass-through, supplier conversion value and technical material-use changes are different economic objects. The same part can support more than one intervention; assign each saving once. Preserve constant performance, volume and mix when attributing benefits to VCP. Independent evidence may support a higher or lower result than the current scenario. This is a research priority, not a retrospective justification of 60% or 7%.
 
+## Historical anchors and simpler proposed method
+
+User direction, 14 October 2026: prefer historical outcomes to unsupported addressability/reduction splits. Keep two factors only where they have distinct evidential support. Otherwise use **one effective savings rate per cost pool**, not a common rate across all pools. The earlier 60% × 7% assumptions imply 4.2% mature gross savings on the entire component pool. Collapsing the formula does not validate that 4.2%.
+
+Five targeted discovery queries covered Renault, GM, Ford and Nissan, followed by selective primary-source checks. Findings:
+
+| Historical case | Company-reported result | Mechanism / relevance | Limitation for STLA calibration |
+|---|---|---|---|
+| Nissan Revival Plan, FY2000–01 | By May 2002, management reported achieving 20% purchasing-cost reduction; the FY2001 portion was 9%, with ¥245bn accounting benefit. | Supplier-base consolidation, global purchasing, Renault-Nissan purchasing cooperation and engineering-led changes. Parts suppliers reduced 40% to about 700. | Exceptional turnaround, old industry structure, broader purchasing perimeter. Not a transferable annual direct-material rate; no assumption STLA retains the same unexploited opportunity. Figures in the May review were preliminary. |
+| Renault, 2024 | €792m cost benefit, attributed primarily to purchasing and partly to favorable raw materials. | Recent procurement execution, useful for gross-to-net and scope reconciliation. | No clean component-purchase denominator or commodity split established in this bounded pass. Do not divide by revenue and label it a purchasing savings rate. |
+| Renault, 2025 | Achieved €400 reduction in variable COGS per vehicle; purchasing and initial Horse Powertrain synergies identified. | Recent per-vehicle outcome with a named operating mechanism. | Variable COGS is broader than components; euros per Renault vehicle cannot be applied directly to a different vehicle mix. Future €400 annual ambition is guidance, not further achieved history. |
+| Ford Model e, Q3 2024 | $500m year-over-year cost improvement was offset by industry pricing pressure. | Demonstrates why realized operational savings do not establish retained margin expansion. | EV segment and mixed cost scope; not a components percentage benchmark. |
+
+These cases establish that meaningful reductions can occur, while differing scope and exceptional starting conditions prevent a pooled average. Nissan is evidence against assuming that a large target is inherently implausible. Renault offers a more recent operating anchor; Ford supplies counterevidence on retention. GM's broad fixed-cost program was not admitted as a material-cost rate.
+
+**Proposed calculation:** reference cost pool × effective cumulative operational savings rate recognized in each forecast year − incremental AOI execution expense. Annual rates already include deployment/recognition timing; do not apply an additional addressability or timing factor afterward. Keep wage/material-price changes, volume/mix, tariffs and selling-price effects separate. This changes the proposed estimation method, not workbook figures.
+
+Before replacing the placeholder rate, establish comparable scope: component or broader variable cost; annual versus multiyear reduction; realized versus targeted; commodity/volume/mix treatment; and remaining improvement opportunity after earlier programs. A usable rate can be based on normalized comparable outcomes and explicit STLA adjustments. Unsupported numerical discounts to Nissan's 20% would merely recreate the original problem. No new empirically calibrated STLA percentage is claimed from this bounded pass, and the prior scenario is not a validated management-target rebuttal.
+
+Primary sources for this update:
+
+- [Nissan FY2001 business review, May 9, 2002](https://www.nissan-global.com/EN/DOCUMENT/HTML/FINANCIAL/SPEECH/2002/fs_speech20020509.html), NRP update and operating-profit bridge. Achieved results as reported by management, with preliminary-results caveat.
+- [Renault 2024 results, February 20, 2025](https://media.renaultgroup.com/2024-results-solid-growth-record-operating-profit-and-net-cash-financial-guidance-exceeded/?lang=eng), Automotive operating-margin bridge.
+- [Renault 2025 financial report](https://events.renaultgroup.com/app/uploads/sites/7/2026/02/RG_2025_FY_Results_Financial-Report_EN.pdf), PDF pp4 and15 for achieved €400/vehicle; p6 separates future ambition.
+- [Ford Q3 2024 results](https://www.fromtheroad.ford.com/us/en/articles/2024/third-quarter-2024-financial-results), Model e discussion. All retrieved 14 October 2026.
+
 ## Source provenance
 
 All accessed/rechecked 14 October 2026. Reported facts are distinguished above from derived arithmetic, peer/supplier observations and analyst assumptions. Original licensed transcripts remain local; no full licensed text is republished.
