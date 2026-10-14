@@ -1,0 +1,379 @@
+{
+  "review_date": "2026-10-14",
+  "event_date": "2026-05-21",
+  "status": "Management plans, not independently verified launches or forecasts",
+  "scope": "North American American-brand launch and renewal initiatives; entries overlap and must not be summed as independent models",
+  "source_key": {
+    "T": "Supplied36-page preliminary event transcript, PDF page",
+    "D": "128-page strategy/regions deck, PDF page; parenthesis=printed section slide",
+    "F": "40-page finance deck"
+  },
+  "brand_targets": [
+    {
+      "brand": "Ram",
+      "base_2025_k": 517,
+      "target_2030_k": 825,
+      "increase_k": 308
+    },
+    {
+      "brand": "Chrysler",
+      "base_2025_k": 143,
+      "target_2030_k": 225,
+      "increase_k": 82
+    },
+    {
+      "brand": "Jeep",
+      "base_2025_k": 645,
+      "target_2030_k": 740,
+      "increase_k": 95
+    },
+    {
+      "brand": "Dodge",
+      "base_2025_k": 126,
+      "target_2030_k": 135,
+      "increase_k": 9
+    }
+  ],
+  "derived": {
+    "total_increase_k": 494,
+    "ram_chrysler_share_increment_pct": 78.94736842105263
+  },
+  "initiatives": [
+    {
+      "id": "NA01",
+      "brand": "Chrysler",
+      "model": "Airflow",
+      "classification": "New crossover/nameplate",
+      "timing_as_of_may_21": "By2030; Q&A associates Chrysler expansion broadly with2028, no individual SOP",
+      "proposed_volume_or_profit_mechanism": "Broaden practical family crossover offering below Pacifica",
+      "source_locator": "D79 (NA29), D66 (NA16); T12–13,35",
+      "modeling_caution": "Spoken STLA One midsize crossover likely corresponds to Airflow, but direct name/platform mapping is not explicit; do not assign full2028 volume automatically.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA02",
+      "brand": "Chrysler",
+      "model": "Arrow",
+      "classification": "New affordable crossover/nameplate",
+      "timing_as_of_may_21": "By2030; individual date undisclosed",
+      "proposed_volume_or_profit_mechanism": "Enter affordable segments; potential new customers rather than minivan-only coverage",
+      "source_locator": "D79 (NA29), D66 (NA16), D80 (NA30); T12–13,28–29,35",
+      "modeling_caution": "Two smaller European-platform variants discussed together; sub$29k refers to two planned Chrysler entry models collectively, not verified transaction prices.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA03",
+      "brand": "Chrysler",
+      "model": "Arrow Cross",
+      "classification": "New affordable crossover/body variant",
+      "timing_as_of_may_21": "By2030; individual date undisclosed",
+      "proposed_volume_or_profit_mechanism": "Companion affordable offering to extend customer reach",
+      "source_locator": "D79 (NA29), D66 (NA16); T13,35",
+      "modeling_caution": "Paired with Arrow; assess sibling substitution. No model-specific unit target.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA04",
+      "brand": "Chrysler",
+      "model": "Pacifica",
+      "classification": "Refresh and variants",
+      "timing_as_of_may_21": "Refresh described as launching May2026; further variants soon, dates unspecified",
+      "proposed_volume_or_profit_mechanism": "Defend minivan franchise and support brand base",
+      "source_locator": "D66 (NA16), D79 (NA29); T12",
+      "modeling_caution": "Existing nameplate: forecast replacement/base growth, not all sales as incremental.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA05",
+      "brand": "Jeep",
+      "model": "Cherokee",
+      "classification": "Returning nameplate / new generation",
+      "timing_as_of_may_21": "In launch offensive at event in2026",
+      "proposed_volume_or_profit_mechanism": "Restore missing SUV coverage and powertrain choice",
+      "source_locator": "D72 (NA22), D79 (NA29); T11–13",
+      "modeling_caution": "Separate from Grand Cherokee; returning after absence is not wholly new to the brand historically. Initial sales may already be in baseline.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA06",
+      "brand": "Jeep",
+      "model": "Recon BEV",
+      "classification": "New nameplate",
+      "timing_as_of_may_21": "Coming in2026 per prepared remarks",
+      "proposed_volume_or_profit_mechanism": "Electric off-road SUV expands portfolio",
+      "source_locator": "D72 (NA22), D79 (NA29); T11,13",
+      "modeling_caution": "Powertrain expansion does not guarantee net conquest; test overlap with Wrangler and other Jeeps.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA07",
+      "brand": "Jeep",
+      "model": "Recon ICE",
+      "classification": "Powertrain addition within Recon",
+      "timing_as_of_may_21": "During plan through2030; exact year undisclosed",
+      "proposed_volume_or_profit_mechanism": "Broaden Recon beyond BEV-only customers",
+      "source_locator": "D79 family context; explicit T13",
+      "modeling_caution": "Not a second independent full-nameplate forecast on top of inclusive Recon units.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA08",
+      "brand": "Jeep",
+      "model": "Wrangler Scrambler",
+      "classification": "Added model on showroom map",
+      "timing_as_of_may_21": "By2030; no precise date",
+      "proposed_volume_or_profit_mechanism": "Extend Wrangler-family coverage; planned SRT marker",
+      "source_locator": "D79 (NA29), visually checked",
+      "modeling_caution": "No body/powertrain/specification or standalone volume disclosure; do not infer details from historic Scrambler name.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA09",
+      "brand": "Jeep",
+      "model": "Compass",
+      "classification": "New generation / replacement",
+      "timing_as_of_may_21": "During plan through2030; exact NA date undisclosed",
+      "proposed_volume_or_profit_mechanism": "Refresh existing compact SUV coverage",
+      "source_locator": "D72 (NA22), D79 (NA29); T13",
+      "modeling_caution": "European Compass timing must not be used as NA timing. Model already exists.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA10",
+      "brand": "Jeep",
+      "model": "Grand Cherokee / L",
+      "classification": "Current and subsequent refresh; SRT planned",
+      "timing_as_of_may_21": "2026 refresh described, another during plan; later date unspecified",
+      "proposed_volume_or_profit_mechanism": "Defend large-SUV volume and premium contribution",
+      "source_locator": "D72 (NA22), D79 (NA29); T13",
+      "modeling_caution": "L and SRT are within family; do not double count refreshes as added nameplates.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA11",
+      "brand": "Jeep",
+      "model": "Grand Wagoneer",
+      "classification": "Refresh and expanded propulsion / SRT planned",
+      "timing_as_of_may_21": "2026 refresh plus another through2030; REEV family platform SOP2026",
+      "proposed_volume_or_profit_mechanism": "Strengthen large-SUV offering and customer choice",
+      "source_locator": "D42 (technology14), D72 (NA22), D79 (NA29); T11,13",
+      "modeling_caution": "REEV slide is family-level, not an individual Grand Wagoneer verified delivery date; account for Wagoneer naming scope changes.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA12",
+      "brand": "Jeep",
+      "model": "Wrangler / Wrangler Unlimited",
+      "classification": "Heritage redesigns and recurring editions",
+      "timing_as_of_may_21": "Monthly editions discussed for2026; redesigns within plan, date unspecified",
+      "proposed_volume_or_profit_mechanism": "Defend iconic off-road base and sustain interest",
+      "source_locator": "D72 (NA22), D79 (NA29); T13",
+      "modeling_caution": "Two/four-door labels and monthly editions do not represent twelve incremental nameplates.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA13",
+      "brand": "Jeep",
+      "model": "Wrangler Gladiator",
+      "classification": "Heritage redesign of existing Gladiator",
+      "timing_as_of_may_21": "Within plan through2030; date unspecified",
+      "proposed_volume_or_profit_mechanism": "Renew existing Jeep pickup",
+      "source_locator": "D72 (NA22), D79 (NA29); T13",
+      "modeling_caution": "Showroom uses Wrangler Gladiator label; reconcile to reported Gladiator model sales.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA14",
+      "brand": "Dodge",
+      "model": "GLH",
+      "classification": "New entry performance offering",
+      "timing_as_of_may_21": "By2030; exact SOP undisclosed",
+      "proposed_volume_or_profit_mechanism": "Lower entry point into performance brand; repair prior Hornet positioning",
+      "source_locator": "D69 (NA19), D79 (NA29); T13",
+      "modeling_caution": "Transcript describes next-generation Hornet approach; GLH label comes from deck. Confirm replacement versus incremental treatment; no per-model units.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA15",
+      "brand": "Dodge",
+      "model": "Charger two-door / four-door ICE",
+      "classification": "Powertrain and body-style expansion of existing family",
+      "timing_as_of_may_21": "Gas420hp/550hp versions described as shipping in2026",
+      "proposed_volume_or_profit_mechanism": "Reach performance buyers not served by BEV-only two-door offer",
+      "source_locator": "D69 (NA19), D79 (NA29); T13",
+      "modeling_caution": "Separate composition only as needed; do not treat every body/powertrain as additive full-model demand.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA16",
+      "brand": "Dodge",
+      "model": "Durango",
+      "classification": "Refresh / continued SRT offering",
+      "timing_as_of_may_21": "Refresh on the way at May2026 event; precise date unspecified",
+      "proposed_volume_or_profit_mechanism": "Defend performance SUV franchise and high-margin variants",
+      "source_locator": "D69 (NA19), D79 (NA29); T13–14",
+      "modeling_caution": "Existing model; Durango Hellcat already in2025 SRT base.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA17",
+      "brand": "Dodge",
+      "model": "Unlabeled covered vehicle on showroom map",
+      "classification": "Unidentified addition; SRT symbol shown",
+      "timing_as_of_may_21": "2030 map only",
+      "proposed_volume_or_profit_mechanism": "Not quantified or identified",
+      "source_locator": "D79 (NA29), lower left Dodge panel, visually checked",
+      "modeling_caution": "Keep unallocated; do not guess name or add independent volumes. Relationship to other programs not established.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA18",
+      "brand": "Ram",
+      "model": "Rampage-based compact pickup",
+      "classification": "New North American segment entry",
+      "timing_as_of_may_21": "SOP2028 on platform slide; Q&A describes2028 ramp",
+      "proposed_volume_or_profit_mechanism": "Offer smaller/lower-price pickup; management targets Maverick segment",
+      "source_locator": "D42 (technology14), D75 (NA25), D79 (NA29); T14,28,31,35",
+      "modeling_caution": "Product proven elsewhere is not US demand validation. Use NA-specific production/regulatory milestones; possible substitution from1500.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA19",
+      "brand": "Ram",
+      "model": "Dakota midsize pickup",
+      "classification": "New/reintroduced North American segment entry",
+      "timing_as_of_may_21": "SOP2028 on platform slide; Q&A mentions late2027–2029 activity",
+      "proposed_volume_or_profit_mechanism": "Compete with Tacoma and broaden truck coverage",
+      "source_locator": "D42 (technology14), D75 (NA25), D79 (NA29); T14,28,31,35",
+      "modeling_caution": "Use explicit2028 SOP as planning anchor; no precise quarter/full-year mature volume. South American launch does not establish NA date.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA20",
+      "brand": "Ram",
+      "model": "Ramcharger large SUV",
+      "classification": "New Ram SUV segment entry",
+      "timing_as_of_may_21": "By2030; date unspecified",
+      "proposed_volume_or_profit_mechanism": "Extend Ram brand into full-size SUV market",
+      "source_locator": "D75 (NA25), D79 (NA29); T14",
+      "modeling_caution": "Transcript explicitly describes full-size SUV. Do not merge with a range-extended pickup based solely on reused name.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA21",
+      "brand": "Ram",
+      "model": "ProMaster City",
+      "classification": "Small-van relaunch",
+      "timing_as_of_may_21": "Near-term/current narrative at event; Q&A date wording garbled",
+      "proposed_volume_or_profit_mechanism": "Address last-mile/commercial small-van customers",
+      "source_locator": "D75 (NA25), D79 (NA29); T14,33",
+      "modeling_caution": "Precise calendar start requires confirmation. May narrative of white space/competitor delay is a claim, not audited market survey.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA22",
+      "brand": "Ram",
+      "model": "1500 HEMI and Express / Black Express",
+      "classification": "Powertrain restoration and entry variants",
+      "timing_as_of_may_21": "Underway at May2026 event",
+      "proposed_volume_or_profit_mechanism": "Recover V8 preference and affordability gap after DS/Classic exit",
+      "source_locator": "D74–75 (NA24–25); T14,28",
+      "modeling_caution": "Included in1500 family; do not add separate units atop inclusive1500 forecast. CEO approximateDS timing not a verified discontinuation date.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA23",
+      "brand": "Ram",
+      "model": "1500 TRX / Rumble Bee muscle trucks",
+      "classification": "Performance derivatives / SRT",
+      "timing_as_of_may_21": "TRX current2026 narrative; Rumble Bee2027 model year",
+      "proposed_volume_or_profit_mechanism": "Performance differentiation, conquest and richer contribution",
+      "source_locator": "D75 (NA25), D77–79 (NA27–29); T14; public NA transcript corrects Rumble Bee name",
+      "modeling_caution": "Model year is not calendar SOP. No separate brand-total addition; SRT target overlaps brand sales.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA24",
+      "brand": "Ram",
+      "model": "All-new light-duty truck",
+      "classification": "Next-generation replacement",
+      "timing_as_of_may_21": "During plan through2030; date unspecified",
+      "proposed_volume_or_profit_mechanism": "Renew1500 competitive position",
+      "source_locator": "D75 (NA25), D79 (NA29); T14",
+      "modeling_caution": "Not a new segment; avoid adding successor volume to unreduced predecessor volume.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA25",
+      "brand": "Ram",
+      "model": "Range-extended full-size pickup",
+      "classification": "New propulsion offering within pickup range",
+      "timing_as_of_may_21": "REEV platform family SOP2026; individual pickup timing not isolated",
+      "proposed_volume_or_profit_mechanism": "Electric driving with range extension; broaden use cases",
+      "source_locator": "D42 (technology14), D75 (NA25); T11,14",
+      "modeling_caution": "Do not conflate with Ramcharger SUV or assume platform SOP dates every derivative.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA26",
+      "brand": "Ram",
+      "model": "2500/3500/4500/5500 heavy-duty range",
+      "classification": "New generation / range renewal",
+      "timing_as_of_may_21": "During plan through2030; date unspecified",
+      "proposed_volume_or_profit_mechanism": "Renew HD and chassis-cab offering",
+      "source_locator": "D75 (NA25), D79 (NA29); T14",
+      "modeling_caution": "4500/5500 coverage may differ from historical pickup table; preserve sales-scope definitions.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA27",
+      "brand": "Ram",
+      "model": "ProMaster large van",
+      "classification": "New generation / replacement",
+      "timing_as_of_may_21": "By2030 in NA narrative; global next-gen large-van platform SOP2029",
+      "proposed_volume_or_profit_mechanism": "Commercial productivity/uptime and refreshed offering",
+      "source_locator": "D41 (technology13), D75 (NA25), D79 (NA29); T9,14",
+      "modeling_caution": "Global2029 platform date is not independently a NA ProMaster launch commitment; do not bring it into2028 automatically.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    },
+    {
+      "id": "NA28",
+      "brand": "Cross-brand",
+      "model": "SRT expansion",
+      "classification": "Overlapping performance variants",
+      "timing_as_of_may_21": "3k2025 to50k2030; eight additional models after2026 additions",
+      "proposed_volume_or_profit_mechanism": "Claimed2–3x donor margin and younger/more affluent customers",
+      "source_locator": "D77–79 (NA27–29); T14",
+      "modeling_caution": "Included in brand volumes. Flags on showroom map denote planned SRT variants, not guaranteed separate models or euro margin targets.",
+      "individual_volume_target": null,
+      "current_october_status": "Not revalidated in this review"
+    }
+  ]
+}
