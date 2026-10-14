@@ -1,0 +1,226 @@
+[
+  {
+    "id": "N01",
+    "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events/stellantis-investor-day-2026/transcript/Stellantis-Investor-Day-2026-FaSTLAne2030-Transcript-Q-A-Session.pdf",
+    "date": "2026-05-21",
+    "locator": "PDF pp6–7 and11",
+    "type": "primary management plan; reread",
+    "finding": "Filosa links Chrysler launch/sales maturation to 2028, and Ram pickup expansion to late2027–2029. CFO describes NA mix as broadly neutral versus2025 during2028–30.",
+    "limit": "No individual Chrysler delivery month or model sales target. Spoken pickup cadence and platform2028 SOP do not establish 2027 deliveries.",
+    "accessed_or_reused": "2026-10-14"
+  },
+  {
+    "id": "N02",
+    "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events/stellantis-investor-day-2026/transcript/Stellantis-Investor-Day-2026-FaSTLAne2030-Transcript-North-America.pdf",
+    "date": "2026-05-21",
+    "locator": "PDF pp3,5",
+    "type": "primary management plan; reread",
+    "finding": "Three crossovers below Pacifica: one STLA One midsize and two related European-platform vehicles. Two Chrysler entry points below$30k planned by2030.",
+    "limit": "Positioning and pricing targets are not tested willingness to buy or final transaction prices.",
+    "accessed_or_reused": "2026-10-14"
+  },
+  {
+    "id": "N03",
+    "url": "https://www.motortrend.com/features/2027-chrysler-lineup-updates-changes",
+    "date": "2026-07-14",
+    "locator": "Airflow and Arrow/Arrow Cross sections",
+    "type": "secondary reporting",
+    "finding": "Lists Airflow and Arrow/Arrow Cross as expected2028 products.",
+    "limit": "Model year is not calendar year; precise SOP, customer arrival, powertrain and price commitments require manufacturer confirmation.",
+    "accessed_or_reused": "2026-10-14"
+  },
+  {
+    "id": "N04",
+    "url": "https://investor.gm.com/static-files/be64d2c4-adee-41e8-9c97-fa478654e9e7",
+    "date": "2024-01-03",
+    "locator": "one-page2023 sales table, Envista/Trax/EncoreGX/Trailblazer",
+    "type": "primary observed US retail+fleet",
+    "finding": "Envista2023 13,302/Q4 7,917; Trax109,382/Q4 44,127; EncoreGX64,149; Trailblazer111,014.",
+    "limit": "Envista new; Trax replaced an existing model. Supply, price and brand reach differ from future Chrysler. Parsed column labels checked; direct download403 prevented local render.",
+    "accessed_or_reused": "2026-10-14"
+  },
+  {
+    "id": "N05",
+    "url": "https://investors.gm.com/static-files/e1bb38a4-aaf9-4141-b44a-4c61c1f2ec54",
+    "date": "2025-01-03",
+    "locator": "one-page2024 sales table",
+    "type": "primary observed US retail+fleet",
+    "finding": "Envista51,316; Trax200,689; EncoreGX58,239; Trailblazer104,398; Colorado98,012; Canyon38,215.",
+    "limit": "Successful affordable launches are selected precedents, not the average outcome. Different vehicles and periods. Direct download403; parsed column labels verified.",
+    "accessed_or_reused": "2026-10-14"
+  },
+  {
+    "id": "N06",
+    "url": "https://news.buick.com/newsroom.detail.html/Pages/news/us/en/2023/apr/0417-envista.html",
+    "date": "2023-04-17",
+    "locator": "availability, pricing and MSRP footnote",
+    "type": "primary launch announcement",
+    "finding": "Envista planned customer arrival summer2023; entry$23,495 includes destination.",
+    "limit": "Announced summer arrival does not reveal exact first selling day. Cheaper than an unspecified future sub$30k Chrysler.",
+    "accessed_or_reused": "2026-10-14"
+  },
+  {
+    "id": "N07",
+    "url": "https://investor.gm.com/static-files/1294f515-0131-4d38-986e-f4d3160e7a68",
+    "date": "2026-10-01",
+    "locator": "one-pageQ3 table, Silverado and Sierra LD/HD rows",
+    "type": "primary observed US retail+fleet",
+    "finding": "Q3 GM combinedHD72,882 vs79,954; LD156,546 vs143,173. YTDHD212,015 vs238,503.",
+    "limit": "GM is a partial peer set, not the entire segment; chassis scope can differ from Ram. No causal attribution. Direct download403; parsed column labels verified.",
+    "accessed_or_reused": "2026-10-14"
+  },
+  {
+    "id": "N08",
+    "url": "https://investor.gm.com/news-releases/news-release-details/gms-winning-portfolio-continues-getting-stronger/",
+    "date": "2026-10-01",
+    "locator": "pickup launch paragraph",
+    "type": "primary competitor plan",
+    "finding": "Next-generation Silverado/Sierra dealer arrivals planned Q42026.",
+    "limit": "A competitive event, not a measured future Ram sales loss. GM reported total sales−6% with EV/portfolio effects, not universal demand growth.",
+    "accessed_or_reused": "2026-10-14"
+  },
+  {
+    "id": "N09",
+    "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000184/exhibit99q32026salesrele.htm",
+    "date": "2026-10-02",
+    "locator": "Explorer/Bronco and SuperDuty passages",
+    "type": "primary issuer sales and production",
+    "finding": "ExplorerYTD189,210,+17.6%; BroncoQ3 38,020,YTD114,956.",
+    "limit": "SuperDuty110,275 is production, not sales. Ford own retail/pricing claims not independent market measurement.",
+    "accessed_or_reused": "2026-10-14"
+  },
+  {
+    "id": "N10",
+    "url": "https://www.prnewswire.com/news-releases/toyota-motor-north-america-reports-september-third-quarter-2026-us-sales-results-302896251.html",
+    "date": "2026-10-01",
+    "locator": "Toyota model table, Sienna row",
+    "type": "primary observed US retail+fleet",
+    "finding": "SiennaYTD84,770 vs75,876,+11.7%.",
+    "limit": "Use model row, not hybrid subtotal. Growing deliveries can reflect capacity; no full minivan segment total derived.",
+    "accessed_or_reused": "2026-10-14"
+  },
+  {
+    "id": "N11",
+    "url": "https://www.prnewswire.com/news-releases/stellantis-reports-q3-sales-302896446.html",
+    "date": "2026-10-01",
+    "locator": "model table and retail highlights",
+    "type": "primary observed US customer sales",
+    "finding": "Latest Q3/YTD totals324,277/958,463. Ram1500 retail+42% versus total+73%; Pacifica retail+7%,Durango+18%.",
+    "limit": "No retail unit levels, fleet shares, incentives or reorder profitability. Latest YTD can differ from sum of earlier quarter publications; preserve reconciliation.",
+    "accessed_or_reused": "2026-10-14"
+  },
+  {
+    "id": "N12",
+    "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events-and-presentations/other-documents/Stellantis-Q2-2026-Financial-Results-Call-Transcript.pdf",
+    "date": "2026-07-30",
+    "locator": "rental seasonality; Ram inventory question; Cherokee answer",
+    "type": "primary management testimony",
+    "finding": "Rental deliveries more concentrated inH1; Cherokee trims/channels restricted for economics, more competitive trims plannedH12027, Belvidere date withheld.",
+    "limit": "No model rental shares or estimated unit response. Funnel interest is management testimony. Transcript page numbering differs from licensed version.",
+    "accessed_or_reused": "2026-10-14"
+  },
+  {
+    "id": "N13",
+    "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events-and-presentations/other-documents/Stellantis-Preliminary-Results-H22025-Transcript-20260206.pdf",
+    "date": "2026-02-06",
+    "locator": "PDFp4 and launch Q&A",
+    "type": "primary management testimony",
+    "finding": "Already refers to certain discontinued US PHEVs byFebruary6; Cherokee/Charger delivery lead times discussed.",
+    "limit": "Does not identify every named model cessation date or date residual dealer stocks sold out. Do not automatically book another full PHEV exit shock in2028.",
+    "accessed_or_reused": "2026-10-14"
+  },
+  {
+    "id": "N14",
+    "url": "https://www.prnewswire.com/news-releases/fca-us-reports-fourth-quarter-and-full-year-2019-sales-300980866.html",
+    "date": "2020-01-03",
+    "locator": "Gladiator launch paragraph/table; City row",
+    "type": "primary historical launch outcome",
+    "finding": "Gladiator May debut,40,047 sales in2019,Q4 16,663; first part of launch year23,384 derived. City2019 12,920.",
+    "limit": "Gladiator enthusiast launch is not a demand forecast for Dakota; price/positioning and May–September window differ.",
+    "accessed_or_reused": "2026-10-14"
+  },
+  {
+    "id": "N15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1144980/000114498026000089/a2026q2ex991.htm",
+    "date": "2026-07-28",
+    "locator": "Asbury Q2 release; full-text Stellantis search",
+    "type": "primary dealer-group disclosure",
+    "finding": "No Stellantis-specific text found in release.",
+    "limit": "Cannot upgrade2025 dealer testimony to2026 profitable replenishment; request detailed call transcript if needed.",
+    "accessed_or_reused": "2026-10-14"
+  },
+  {
+    "id": "N16",
+    "url": "https://www.chrysler.com/news/2027-chrysler-pacifica-debut.html",
+    "date": "2026-04-01",
+    "locator": "LX, orders, dealer-arrival and pricing sections",
+    "type": "primary product announcement",
+    "finding": "MY2027 Pacifica refresh; Voyager becomes LX; planned summer2026 arrival;LX$41,495+$1,995destination.",
+    "limit": "Not a calendar2027 launch; no demonstrated volume uplift.",
+    "accessed_or_reused": "2026-10-14"
+  },
+  {
+    "id": "R_HISTORY",
+    "path": "../volume-recovery-2026-10-14/historical-sales-ledger.json",
+    "type": "reused structured issuer observations",
+    "finding": "US model annual/quarterly actuals. Underlying releases and normalization in adjacent files.",
+    "limit": "Missing LD/HD pre2024 split and revised YTD differences retained.",
+    "accessed_or_reused": "2026-10-14"
+  },
+  {
+    "id": "R_RAM",
+    "path": "../model-diligence-2026-10-14/ram-diligence.json",
+    "type": "reused mechanisms and source registry",
+    "finding": "Launch availability, HEMI, Classic, dealer offers,HD supplier transition, City dated plan.",
+    "limit": "Old forecast paragraphs and derivative metadata superseded; source facts retained.",
+    "accessed_or_reused": "2026-10-14"
+  },
+  {
+    "id": "R_JEEP",
+    "path": "../model-diligence-2026-10-14/jeep-diligence.json",
+    "type": "reused mechanisms and source registry",
+    "finding": "4xe/non4xe split, financing, recalls, supply and product histories.",
+    "limit": "Source facts do not establish causal coefficients.",
+    "accessed_or_reused": "2026-10-14"
+  },
+  {
+    "id": "R_CD",
+    "path": "../model-diligence-2026-10-14/chrysler-dodge-diligence.json",
+    "type": "reused mechanisms and source registry",
+    "finding": "Minivan regrouping, Durango, Charger, Hornet and small-brand histories.",
+    "limit": "Prior forecast magnitudes are not validation.",
+    "accessed_or_reused": "2026-10-14"
+  },
+  {
+    "id": "R_OPERATOR",
+    "path": "../model-diligence-2026-10-14/support/operator-evidence.json",
+    "type": "reused dealer calls and practitioner records",
+    "finding": "Asbury2025 ordering/sales improvement; Lithia still described difficulty.",
+    "limit": "Conflicting selected dealers; no2026 model margin/replenishment series.",
+    "accessed_or_reused": "2026-10-14"
+  },
+  {
+    "id": "R_GC",
+    "path": "../model-diligence-2026-10-14/grand-cherokee-causal-followup/evidence.json",
+    "type": "reused historical causal audit",
+    "finding": "Price/availability,4xe decomposition, allocation and financing hypotheses.",
+    "limit": "2024 decomposition is arithmetic, not estimated driver contributions.",
+    "accessed_or_reused": "2026-10-14"
+  },
+  {
+    "id": "R_LAUNCH",
+    "path": "../investor-day-2026-05-21/north-america-launch-register.json",
+    "type": "reused visually checked investor-day deck register",
+    "finding": "Model identities and platformSOP timing; all2030 models not automatically2028 sales.",
+    "limit": "Read alongside stronger Q&A2028 launch statement N01.",
+    "accessed_or_reused": "2026-10-14"
+  },
+  {
+    "id": "R_SHIP",
+    "path": "/Users/kwu/Downloads/Stellantis N.V._6-K_2026-10-13_English.pdf",
+    "type": "primary preliminary shipments; previously inspected",
+    "finding": "Q3 NAshipments357k vs404k; GC/Compass each about25k lower, primarily downtime.",
+    "limit": "NAwholesale units cannot be assigned directly to US retail losses.",
+    "accessed_or_reused": "2026-10-14"
+  }
+]

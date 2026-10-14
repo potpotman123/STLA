@@ -1,0 +1,38 @@
+{
+  "decision": "D098",
+  "saved_at": "2026-10-14T19:55:33.772624+00:00",
+  "git_head": "ca878f7",
+  "purpose": "Preserve pre-audit research forecast. This is not the independent AI workbook.",
+  "files": [
+    {
+      "source": "stla-repository/research/model-diligence-2026-10-14/proposed-forecast-inputs.json",
+      "snapshot": "stla-repository/research/forecast-audit-2026-10-14/baseline/proposed-forecast-inputs.json",
+      "sha256": "90540df9b273bc5357be0a46404a2c0e484a726ff798168da3770a10505aebac"
+    },
+    {
+      "source": "stla-repository/research/model-diligence-2026-10-14/proposed-forecast-inputs.md",
+      "snapshot": "stla-repository/research/forecast-audit-2026-10-14/baseline/proposed-forecast-inputs.md",
+      "sha256": "feedd827faf71149e7179a80ce93148e879f97871ee0530f49d77661397b8308"
+    },
+    {
+      "source": "stla-repository/research/model-diligence-2026-10-14/segment-growth-assumptions.json",
+      "snapshot": "stla-repository/research/forecast-audit-2026-10-14/baseline/segment-growth-assumptions.json",
+      "sha256": "916c2e154d0c48c80e642836426a6d851ecdd16d6d399e1710e3c8eef83a1016"
+    },
+    {
+      "source": "stla-repository/research/model-diligence-2026-10-14/ram-diligence.json",
+      "snapshot": "stla-repository/research/forecast-audit-2026-10-14/baseline/ram-diligence.json",
+      "sha256": "b418a27bbf37b0de033fb7ada54c6d4209994f18e0002639217c82cbd33cb961"
+    },
+    {
+      "source": "stla-repository/research/model-diligence-2026-10-14/jeep-diligence.json",
+      "snapshot": "stla-repository/research/forecast-audit-2026-10-14/baseline/jeep-diligence.json",
+      "sha256": "3ea16b7bce3aa1bf83171117bae318765116cbaac2ffa144f30ca4dccfd9271d"
+    },
+    {
+      "source": "stla-repository/research/model-diligence-2026-10-14/chrysler-dodge-diligence.json",
+      "snapshot": "stla-repository/research/forecast-audit-2026-10-14/baseline/chrysler-dodge-diligence.json",
+      "sha256": "629058abe482b000fb42316e465351a5ce6a5059c0acf7abbb2ce17cd636d4d7"
+    }
+  ]
+}

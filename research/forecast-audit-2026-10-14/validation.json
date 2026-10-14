@@ -1,0 +1,15 @@
+{
+  "baseline_hashes_unchanged": true,
+  "actual_ytd_sum": 958463,
+  "reported_ytd": 958463,
+  "actual_q3_sum": 324277,
+  "reported_q3": 324277,
+  "actual_2025_sum": 1260344,
+  "reported_2025": 1260344,
+  "all_scenario_bounds_ordered": true,
+  "unique_ids": true,
+  "quarterly_reconciles": true,
+  "old_explicit_rows_accounted": true,
+  "workbook_modified": false,
+  "independent_validation": "Not claimed. Actual arithmetic and peer comparisons are distinct from judgmental forecast calibration."
+}

@@ -1,5 +1,7 @@
 # Proposed US model forecasts through 2028
 
+> **Superseded forecast methodology:** D098 is the current research proposal. See [the forecast audit](../forecast-audit-2026-10-14/README.md). This file preserves D097 and must not be imported as the current forecast.
+
 As of 14 October 2026. Updated D097: annual bases now include explicit market, relative segment and company changes; see segment-growth-assumptions.json. Special launch ramps remain separately modeled. Units in thousands; D/B/U = downside/base/upside. These are rounded analyst scenarios, not measured demand estimates, management guidance or approved workbook inputs. Null/unallocated is not zero. All actual sales include retail and fleet and exclude Maserati.
 
 ## Model scenarios

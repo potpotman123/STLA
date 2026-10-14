@@ -1,0 +1,31 @@
+{
+  "as_of": "2026-10-14",
+  "request_attachment": "/Users/kwu/.codex/attachments/6d81feaf-dcff-4c6f-b512-34c81d6fef50/Pasted text.txt",
+  "inputs": [
+    {
+      "path": "stla-repository/research/volume-recovery-2026-10-14/historical-sales-ledger.json",
+      "sha256": "4770bdacf764fddcc76cce95adb4f31b2d3adeff94d16e8a8ab53773c004c8e8"
+    },
+    {
+      "path": "stla-repository/research/volume-recovery-2026-10-14/normalized-source-observations.json",
+      "sha256": "46dc9d2bed0c8d54ac9412561bca05c8115afc39700fd1e633ff6a772be3704c"
+    },
+    {
+      "path": "stla-repository/research/model-diligence-2026-10-14/support/operator-evidence.json",
+      "sha256": "729e0a3c4dc2043677d1648db979fa82946aac2f2c5b2a7276751d749611cc3a"
+    },
+    {
+      "path": "stla-repository/research/forecast-audit-2026-10-14/sources.json",
+      "sha256": "3bfdc3ce7aa0b3be539c1186296fe6e80439b336f8c9310ae3cbe0a95974ead4"
+    }
+  ],
+  "baseline_manifest": "baseline/manifest.json",
+  "public_web_claims": "sources.json gives accessed URLs, dates, locators, admitted facts and limitations; no full licensed texts copied.",
+  "source_independence": "Issuer releases repeated across other sites count as one source. Multiple pace calculations reuse the same sales observations.",
+  "failed_access": [
+    "GM direct PDFs403; web parsed column labels checked but local table render unavailable.",
+    "Old Ford media link redirected; Hyundai full page inaccessible; neither used as numerical launch benchmark.",
+    "Current Cox model inventory not recovered;2025 values not relabeled2026."
+  ],
+  "stopping_rule": "Further unit precision requires model channel/stock/ordering data and launch milestones. Additional broad commentary will not identify future demand or substitution."
+}

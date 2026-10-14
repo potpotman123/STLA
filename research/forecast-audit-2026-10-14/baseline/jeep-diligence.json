@@ -1,0 +1,1249 @@
+{
+  "as_of": "2026-10-14",
+  "scope": "US retail-plus-fleet Jeep families;2026Q4 and2027\u20132028 analyst scenarios; no forecast workbook changes",
+  "pipeline": [
+    "Recover architecture, volume ledger, launch register and prior mechanism audits.",
+    "Six first-pass queries across product/pricing, manufacturing, comparative customer evidence and dealer economics; targeted follow-ups only for concrete 4xe/EV and recall leads.",
+    "Extract primary status/specifications and scoped operator economics; distinguish reused evidence, plans, observed sales and judgment.",
+    "Use recent pace/partial recovery and constrained launch scenarios; no national dealer-profit fit or unsupported quarter curve."
+  ],
+  "why_this_route": "Primary status and scoped operator records resolve discontinuation, specification and economic constraints at low collection cost. Public listings and forum anecdotes cannot identify national actual OEM net realization or model-level reorder margins; no bulk scrape or repeated failed lender/inventory search.",
+  "models": [
+    {
+      "id": "grand_cherokee",
+      "family": "Grand Cherokee including L and 4xe",
+      "thesis": "Recover a competitive gasoline family, not the entire historical plug-in peak. A temporary Q3 factory effect is plausible, but premium-payment pressure, ended PHEV production and internal Cherokee substitution cap restoration.",
+      "historical_sequence": [
+        "2018\u201319: 224908 to 242969 sales; established two-row franchise, before L broadened family coverage. Peak is not a fixed demand entitlement.",
+        "2021\u201323: L/new generation and 4xe broaden offer during supply disruption. 2023 family 244594; powertrain promotion and geographic allocation shaped mix.",
+        "2024: 216148 total; 4xe explains 18094 of 28446 lost units arithmetically. Non-4xe recovered in H2 while 4xe fell sharply. Retail/fleet divergence prevents calling all loss household abandonment.",
+        "2025: 210082. 2026 Q1/Q2/Q3: 53482/48255/38027. H1+2.1% YoY versus Q3-30.3% supports a new quarterly disruption; magnitude attribution remains open.",
+        "Current: 4xe production ended. 2026 refresh preserves V6 entry choice and adds turbo four above it; later SRT/refresh dates not firm."
+      ],
+      "customer_mechanism": "For buyers who need two or three rows, towing, winter traction and a more premium cabin, GC/L competes with Explorer, Pilot/Telluride-class family SUVs and used premium SUVs. L expands utility but cannot be treated as entirely new demand. The turbo four adds torque and equipment on regular gasoline, while retained V6 reduces forced-engine-switch risk. A shopper without towing/off-road needs can obtain family space or hybrid economy elsewhere, including Cherokee. Used GC prices and trade-in equity compete with new payments. Former 4xe subsidized lessees may convert to ICE, competitors or delay; conversion is not 100%.",
+      "dealer_mechanism": "A dealer can replenish broadly useful Laredo/Limited and L configurations if customer payment and fresh-stock turn cover acquisition, support and carrying cost. Old 4xe clearance is a separate decision: ended production and recall/repair status affect saleability and residual exposure. Simplifying trims can lower wrong-configuration inventory but cannot cure a too-high payment. Government-bid support demonstrates channel-specific economics, not retail margin. Summer stocking and elevated brand inventory mean a factory restart alone cannot justify unrestricted receipts.",
+      "evidence_ids": [
+        "J01",
+        "J02",
+        "J03",
+        "J05",
+        "J07",
+        "J09",
+        "J10",
+        "J11",
+        "J14",
+        "J15",
+        "J22"
+      ],
+      "counterevidence": [
+        "H1 2026 already about 203474 annualized; this supports a viable franchise despite Q3 weakness.",
+        "Q3 NA shipment loss is not the same geography or population as US sales loss 16526.",
+        "Some prior 4xe buyers were incentive-driven; a cheaper gasoline offer may retain them, so ended 4xe production is not a one-for-one family loss."
+      ],
+      "action_status": [
+        "Implemented/current: refreshed equipment and turbo four offer, V6 entry retained; 4xe no longer produced.",
+        "Management explanation: planned downtime; no actual daily plant-output series obtained.",
+        "Planned: additional refresh/SRT during 2030 plan, no separately quantified 2028 uplift."
+      ],
+      "pricing_mix_view": "Base volume requires competitive financing and affordable configuration availability; lower 4xe share and Laredo mix can lower family average invoice before incentives. Rich L/Summit or SRT mix is an upside, not an automatic offset. No verified OEM realized dollars/unit; no positive price assumption solely from refresh.",
+      "forecast_method": "D097: Limited2027 stabilization;2028 utility-category growth offset by hybrid competition, product/value concerns and internal Cherokee substitution. These effects share one company factor, not separate deductions. Base2027/28 190000/190000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
+      "q4_2026_units_down_base_up": [
+        35000,
+        45000,
+        55000
+      ],
+      "annual_2027_units_down_base_up": [
+        155000,
+        190000,
+        230000
+      ],
+      "annual_2028_units_down_base_up": [
+        155000,
+        190000,
+        240000
+      ],
+      "revision_from_prior": {
+        "prior_2027": [
+          155000,
+          205000,
+          230000
+        ],
+        "prior_2028": [
+          160000,
+          215000,
+          245000
+        ],
+        "base_delta_2027": -15000,
+        "base_delta_2028": -25000
+      },
+      "revision_reason": "D097: replace implicit fixed-level forecasts with explicit market, segment and relative-company assumptions; retain prior downside/upside stresses.",
+      "confidence": "Medium mechanism / low-to-medium forecast",
+      "falsifier": "Two quarters above \u224817k monthly at stable effective payments and acceptable fresh-stock turns support upside; continued \u224813k monthly despite available Laredo/Limited supply rejects base. Need sales by powertrain/channel and delivered configuration, not another factory announcement.",
+      "historical_sales_units": {
+        "2018A": 224908,
+        "2019A": 242969,
+        "2025A": 210082,
+        "2024Q4A": 55209,
+        "2025Q4A": 55861,
+        "2025Q1A": 48465,
+        "2026Q1A": 53482,
+        "2025Q2A": 51203,
+        "2026Q2A": 48255,
+        "2025Q3A": 54553,
+        "2026Q3A": 38027,
+        "2025YTDQ3A": 154221,
+        "2026YTDQ3A": 139764,
+        "2023A": 244594,
+        "2024A": 216148,
+        "2022A_partial": 223345,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "classification": "Observed history; forecast endpoints are rounded analyst scenarios, not probabilities or estimated causal response",
+      "fy2026_units_down_base_up": [
+        174764,
+        184764,
+        194764
+      ],
+      "2027_yoy_pct_down_base_up": [
+        -11.31,
+        2.83,
+        18.09
+      ],
+      "2028_yoy_pct_down_base_up": [
+        0.0,
+        0.0,
+        4.35
+      ],
+      "2027_monthly_units_down_base_up": [
+        12916.7,
+        15833.3,
+        19166.7
+      ],
+      "2028_monthly_units_down_base_up": [
+        12916.7,
+        15833.3,
+        20000.0
+      ]
+    },
+    {
+      "id": "wrangler",
+      "family": "Wrangler including former 4xe",
+      "thesis": "An already recovering differentiated franchise; defend about current pace rather than restore 2018\u201319 volumes. Observed 2026 growth coexists with now-ended 4xe production; the undated cessation notice and remaining dealer stock do not establish the sequence or prove post-exit retention.",
+      "historical_sequence": [
+        "2018\u201319: 240032/228032; JL transition-era scale precedes Bronco re-entry and later high-price mix.",
+        "2022\u201324: 181409/156581/151163; 4xe and trims changed the proposition while direct off-road competition broadened. No causal lost-unit split established.",
+        "2025: 167322, already+10.7%; 2026 YTD 131011, +2.3%, Q3 44757. Recovery is not a future initiative to add again.",
+        "Current: 4xe production ended; 2026 monthly editions/performance variants defend interest within the same family."
+      ],
+      "customer_mechanism": "Open-air body, trail capability, personalization and enthusiast identity distinguish Wrangler from ordinary crossovers. Bronco is the direct new-vehicle alternative; used Wranglers can supply similar recreation at lower upfront cost, while practical SUVs win on daily comfort and payments. The discontinued 4xe offer removes the subsidized electric-commute path; gasoline familiarity and engine choice can retain enthusiasts but do not replicate every former lease payment. Edition demand may be substitution from standard trims.",
+      "dealer_mechanism": "Dealers benefit from a recognizable enthusiast franchise and targeted configurations, but expensive customized stock ties up capital when buyers negotiate against used vehicles and Bronco. Reordering requires actual contribution after finance/cash support, not headline MSRP premium. 4xe residual stock and older recalled vehicles must be tracked separately from new gasoline replenishment. Accessory/service opportunities are plausible but not quantified.",
+      "evidence_ids": [
+        "J01",
+        "J05",
+        "J08",
+        "J09",
+        "J10",
+        "J16",
+        "J17"
+      ],
+      "counterevidence": [
+        "2026 YTD growth argues against broad nameplate rejection. Exact production-end timing and old-stock sell-through overlap are unresolved, so it does not establish growth after the exit.",
+        "June 2026 steering recall concerns vehicles built through Dec 2024; it does not establish a 2026 assembly shortage.",
+        "No matched Bronco versus Wrangler current payments or national order-profit panel recovered."
+      ],
+      "action_status": [
+        "Current: gasoline lineup and limited editions; 4xe production ended.",
+        "Recall: battery issue specific to PHEV; separate steering connection campaign covers older Wrangler/Gladiator.",
+        "Heritage redesign/Scrambler and SRT plans lack a verified incremental 2028 delivery calendar."
+      ],
+      "pricing_mix_view": "Competitive cash/lease support remains necessary. Lower 4xe mix can reduce sticker average while also changing manufacturer support; net margin direction cannot be inferred. Limited editions can aid mix only at real turn, not stock accumulation.",
+      "forecast_method": "D097: Modest near-term retention/recovery; subsequent competition and powertrain-retention risk erode relative performance. No transfer of broad crossover growth to this specialist product. Base2027/28 179000/177000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
+      "q4_2026_units_down_base_up": [
+        37000,
+        43000,
+        48000
+      ],
+      "annual_2027_units_down_base_up": [
+        155000,
+        179000,
+        190000
+      ],
+      "annual_2028_units_down_base_up": [
+        150000,
+        177000,
+        200000
+      ],
+      "revision_from_prior": {
+        "prior_2027": [
+          155000,
+          180000,
+          190000
+        ],
+        "prior_2028": [
+          155000,
+          180000,
+          200000
+        ],
+        "base_delta_2027": -1000,
+        "base_delta_2028": -3000
+      },
+      "revision_reason": "D097: replace implicit fixed-level forecasts with explicit market, segment and relative-company assumptions; retain prior downside/upside stresses.",
+      "confidence": "Medium relative to other Jeep rows",
+      "falsifier": "Base fails if normal available gasoline stock cannot sustain \u224815k/month without increasing support/age; upside requires durable conquest rather than edition mix or fleet batching.",
+      "historical_sales_units": {
+        "2018A": 240032,
+        "2019A": 228032,
+        "2025A": 167322,
+        "2024Q4A": 38085,
+        "2025Q4A": 39268,
+        "2025Q1A": 37944,
+        "2026Q1A": 44461,
+        "2025Q2A": 47660,
+        "2026Q2A": 41793,
+        "2025Q3A": 42450,
+        "2026Q3A": 44757,
+        "2025YTDQ3A": 128054,
+        "2026YTDQ3A": 131011,
+        "2023A": 156581,
+        "2024A": 151163,
+        "2022A_partial": 181409,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "classification": "Observed history; forecast endpoints are rounded analyst scenarios, not probabilities or estimated causal response",
+      "fy2026_units_down_base_up": [
+        168011,
+        174011,
+        179011
+      ],
+      "2027_yoy_pct_down_base_up": [
+        -7.74,
+        2.87,
+        6.14
+      ],
+      "2028_yoy_pct_down_base_up": [
+        -3.23,
+        -1.12,
+        5.26
+      ],
+      "2027_monthly_units_down_base_up": [
+        12916.7,
+        14916.7,
+        15833.3
+      ],
+      "2028_monthly_units_down_base_up": [
+        12500.0,
+        14750.0,
+        16666.7
+      ]
+    },
+    {
+      "id": "gladiator",
+      "family": "Gladiator",
+      "thesis": "Treat as a smaller lifestyle-pickup franchise requiring competitive payments, not a broad midsize-truck share recovery.",
+      "historical_sequence": [
+        "2019 launch-year 40047 is partial-year and not mature capacity.",
+        "2023: 55188; 2024: 42123 after product/price/competitive pressure; no evidence assigns the decline to one cause.",
+        "2025: 56790 with unusually strong Q4 18277; 2026 Q1/Q2/Q3: 10087/8946/11911, YTD-19.7%.2025 rebound did not establish a durable annual level."
+      ],
+      "customer_mechanism": "Open-air Jeep utility and pickup bed distinguish Gladiator for recreation; Wrangler substitutes when a bed is unnecessary. Tacoma, Ranger and Colorado are alternative utility purchases; discounted Ram 1500 can also compete at similar payment. Buyers prioritizing quiet highway use, fuel economy or work hauling may not pay a Jeep-lifestyle premium. Current advertised 3.6 V6/automatic and 19 mpg combined put fuel/payment costs into the choice; absence of a new powertrain is not evidence of rejection of an unavailable alternative.",
+      "dealer_mechanism": "Expensive off-road trims need customer-specific stocking. Dealers can make an old-stock bargain attractive without that proving they can reorder fresh vehicles at the same net cost. The Idaho bid illustrates acquisition/support arithmetic: invoice 38479+destination 1995-government support 3000+1000 margin=38474; that 1000 is quoted gross markup before holding/selling costs, for government buyers only. A broad retail forecast cannot borrow it.",
+      "evidence_ids": [
+        "J01",
+        "J05",
+        "J08",
+        "J14",
+        "J16",
+        "J17"
+      ],
+      "counterevidence": [
+        "Q3 sequential increase shows some demand; no reason to project permanent collapse.",
+        "One government quote and unverified dealer website promotions cannot establish national replenishment margin.",
+        "Recall on older production does not establish current new-unit stop-sale."
+      ],
+      "action_status": [
+        "Current: automatic/V6 lineup and limited editions.",
+        "Refresh/redesign within 2030 plan, undated; no independent 2027\u201328 lift assigned.",
+        "Possible Dakota arrival in 2028 increases internal midsize-pickup overlap; no percentage cannibalization invented."
+      ],
+      "pricing_mix_view": "Base needs continued affordability support; a volume rebound with richer trims and fewer discounts simultaneously is unproven. Lower-priced variants or sustained support could lift units but must be charged once to net realization/cost.",
+      "forecast_method": "D097: Niche positioning limits benefit from crossover growth; competition/internal launch risk offsets some market expansion. Rounded flat volume is an outcome, not an input. Base2027/28 43000/43000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
+      "q4_2026_units_down_base_up": [
+        9000,
+        12000,
+        17000
+      ],
+      "annual_2027_units_down_base_up": [
+        35000,
+        43000,
+        55000
+      ],
+      "annual_2028_units_down_base_up": [
+        30000,
+        43000,
+        60000
+      ],
+      "revision_from_prior": {
+        "prior_2027": [
+          35000,
+          43000,
+          55000
+        ],
+        "prior_2028": [
+          35000,
+          45000,
+          60000
+        ],
+        "base_delta_2027": 0,
+        "base_delta_2028": -2000
+      },
+      "revision_reason": "D097: replace implicit fixed-level forecasts with explicit market, segment and relative-company assumptions; retain prior downside/upside stresses.",
+      "confidence": "Medium-low",
+      "falsifier": "Fresh model-year Gladiators repeatedly selling at \u22484k/month with unchanged support would justify higher base; strong retail discounts plus continued age accumulation reject profitable recovery.",
+      "historical_sales_units": {
+        "2018A": 0,
+        "2019A": 40047,
+        "2025A": 56790,
+        "2024Q4A": 9453,
+        "2025Q4A": 18277,
+        "2025Q1A": 12057,
+        "2026Q1A": 10087,
+        "2025Q2A": 13343,
+        "2026Q2A": 8946,
+        "2025Q3A": 13113,
+        "2026Q3A": 11911,
+        "2025YTDQ3A": 38513,
+        "2026YTDQ3A": 30944,
+        "2023A": 55188,
+        "2024A": 42123,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "classification": "Observed history; forecast endpoints are rounded analyst scenarios, not probabilities or estimated causal response",
+      "fy2026_units_down_base_up": [
+        39944,
+        42944,
+        47944
+      ],
+      "2027_yoy_pct_down_base_up": [
+        -12.38,
+        0.13,
+        14.72
+      ],
+      "2028_yoy_pct_down_base_up": [
+        -14.29,
+        0.0,
+        9.09
+      ],
+      "2027_monthly_units_down_base_up": [
+        2916.7,
+        3583.3,
+        4583.3
+      ],
+      "2028_monthly_units_down_base_up": [
+        2500.0,
+        3583.3,
+        5000.0
+      ]
+    },
+    {
+      "id": "compass",
+      "family": "Compass",
+      "thesis": "Partial recovery is possible, but summer downtime cannot explain the whole decline; this is also a continuing affordability, availability and portfolio-positioning problem.",
+      "historical_sequence": [
+        "2018\u201319: 171167/143934; pre-pandemic erosion already existed.",
+        "2022\u201324: 86175/96173/111697: growth during a period of wider Jeep contraction, so not every unit is a recoverable shortage.",
+        "2025: 101997.2026 Q1-41.5%, Q2-20.1%, Q3-61.5%; H1 lost 17808 before Q3 planned downtime.",
+        "2026 YTD 47837, Q3 10811. Returning Cherokee adds a larger hybrid choice above Compass and potential internal substitution."
+      ],
+      "customer_mechanism": "Compact size, AWD/off-road image and a lower ticket than Cherokee/GC provide a role. Budget shoppers can instead buy a Trax/Envista-class lower-cost crossover, used SUV or mainstream compact. Those products are not capability equivalents, but buyers who rarely use Jeep capability may prefer space/equipment/payment. A Cherokee hybrid can look better for fuel economy and room if the payment gap narrows. The new European Compass is not a verified near-term US product improvement.",
+      "dealer_mechanism": "Dealers need a meaningful payment step below Cherokee and sufficient desirable entry inventory; a costly well-optioned Compass next to a more efficient Cherokee is harder to stock. Planned supply reductions can protect dealer capital, but weak retail can also cause them. A subsequent factory restart adds value only if fresh units turn at an economic price. Fleet contract lists some 2026 Compass variants as limited availability, but that is order/bid language, not a national shortage count.",
+      "evidence_ids": [
+        "J01",
+        "J05",
+        "J06",
+        "J07",
+        "J08",
+        "J14",
+        "J15",
+        "J22"
+      ],
+      "counterevidence": [
+        "2024 sales grew 16.1%; the family retained customers when product/offer fit worked.",
+        "H1 weakness disproves Q3 downtime as a sufficient explanation of YTD decline, but not a contribution in Q3.",
+        "High brand days supply can coexist with shortages of specific affordable Compass configurations."
+      ],
+      "action_status": [
+        "Current: existing US product; company cites Q3 planned downtime.",
+        "Dealer estimated model-year dates do not independently establish restart or volume.",
+        "North American next-generation timing not established; do not import Europe launch date."
+      ],
+      "pricing_mix_view": "Base needs better affordable availability and price separation from Cherokee. Lower mix and/or continuing support are likely conditions of volume, not a simultaneous margin-free gain. No national incentive estimate available.",
+      "forecast_method": "D097: Affordable crossover opportunity is favorable, but cheaper rivals, hybrid alternatives and returning Cherokee pressure its relative position. No unsupported broad restoration toH1pace. Base2027/28 63000/62000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
+      "q4_2026_units_down_base_up": [
+        9000,
+        15000,
+        21000
+      ],
+      "annual_2027_units_down_base_up": [
+        40000,
+        63000,
+        85000
+      ],
+      "annual_2028_units_down_base_up": [
+        35000,
+        62000,
+        90000
+      ],
+      "revision_from_prior": {
+        "prior_2027": [
+          40000,
+          65000,
+          85000
+        ],
+        "prior_2028": [
+          40000,
+          70000,
+          90000
+        ],
+        "base_delta_2027": -2000,
+        "base_delta_2028": -8000
+      },
+      "revision_reason": "D097: replace implicit fixed-level forecasts with explicit market, segment and relative-company assumptions; retain prior downside/upside stresses.",
+      "confidence": "Low-to-medium",
+      "falsifier": "Base requires \u22485.4k/month 2027 with stable dealer economics. Available stock still selling \u22483.6k/month would reject normalization; confirmed new US generation/low-price availability could lift upside.",
+      "historical_sales_units": {
+        "2018A": 171167,
+        "2019A": 143934,
+        "2025A": 101997,
+        "2024Q4A": 27223,
+        "2025Q4A": 19077,
+        "2025Q1A": 31730,
+        "2026Q1A": 18573,
+        "2025Q2A": 23104,
+        "2026Q2A": 18453,
+        "2025Q3A": 28086,
+        "2026Q3A": 10811,
+        "2025YTDQ3A": 82920,
+        "2026YTDQ3A": 47837,
+        "2023A": 96173,
+        "2024A": 111697,
+        "2022A_partial": 86175,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "classification": "Observed history; forecast endpoints are rounded analyst scenarios, not probabilities or estimated causal response",
+      "fy2026_units_down_base_up": [
+        56837,
+        62837,
+        68837
+      ],
+      "2027_yoy_pct_down_base_up": [
+        -29.62,
+        0.26,
+        23.48
+      ],
+      "2028_yoy_pct_down_base_up": [
+        -12.5,
+        -1.59,
+        5.88
+      ],
+      "2027_monthly_units_down_base_up": [
+        3333.3,
+        5250.0,
+        7083.3
+      ],
+      "2028_monthly_units_down_base_up": [
+        2916.7,
+        5166.7,
+        7500.0
+      ]
+    },
+    {
+      "id": "cherokee",
+      "family": "Cherokee / returning HEV",
+      "thesis": "A real segment re-entry with useful hybrid utility; profitable affordable configurations and dealer conversion, rather than nameplate nostalgia, determine scale.",
+      "historical_sequence": [
+        "2018: 239437; 2019: 191397. Pre-chip inventory imbalance and capacity adjustment already present.",
+        "2021 chips interrupted production; 2021 relative listing turn was slow. 2022/23 cheaper-configuration availability narrowed, then production ended. Do not claim chips caused trim withdrawal.",
+        "2023: 24609, 2024: 2839, 2025: 527 runoff. New HEV launches into a product gap; no automatic restoration of old 191k.",
+        "2026 HEV Q3 10344 units, YTD 20914. Q2 raw table distinguishes old Cherokee 11 from HEV 8101; latest labels/vintages differ.",
+        "Launch promised early 2026 lower trims; July 2026 management still restricts trims/channels for landed economics and promises competitive trims H1 2027."
+      ],
+      "customer_mechanism": "Hybrid economy without plugging in, standard AWD and useful family space suit buyers choosing RAV4/CR-V/Forester/Sportage hybrids, or upgrading from Compass. Independent comparison finds a competitive drivetrain; Subaru offers more standard comfort features and better utility/value at a slightly lower entry price. Cherokee must win an actual equipped payment, not merely advertise 35000 before destination. Buyers can stay with an older Jeep or purchase used; a remembered brand name does not erase a multiyear absence.",
+      "dealer_mechanism": "Dealers need enough affordable sellable trims to convert inquiries and replenish them without uneconomic acquisition cost. Toluca tariffs and limited channels can make a theoretically popular entry price impossible to supply profitably. Trailhawk may offer attractive gross dollars to enthusiasts but does not solve the entry-price problem. Initial allocation and inquiry counts are weaker than repeat fresh unit orders. Government catalog availability cannot override July management testimony about economics.",
+      "evidence_ids": [
+        "J01",
+        "J04",
+        "J05",
+        "J06",
+        "J08",
+        "J12",
+        "J13",
+        "J14",
+        "J21",
+        "J22"
+      ],
+      "counterevidence": [
+        "Actual sales ramp from Q1 to Q3 and favorable drivetrain comparison support genuine demand; no zero-demand inference.",
+        "Forester comparison favors competitor overall, limiting confident conquest assumptions.",
+        "Original early 2026 availability promise versus July economic restrictions shows announcement is not broad availability."
+      ],
+      "action_status": [
+        "Delivered: HEV sales; primary launch offer 36995 including destination.",
+        "Orders: Trailhawk at 44625 including destination; production planned later 2026.",
+        "Planned: more competitive trims H1 2027; localization date unspecified in July call. No automatic 2028 cost localization benefit."
+      ],
+      "pricing_mix_view": "Volume acceleration must accompany lower average trim/payment or cost improvement. Lower-priced trims can dilute family price while adding contribution; tariff/production savings spent on affordability cannot also be fully retained in AOI. No verified OEM landed cost or net revenue per unit.",
+      "forecast_method": "Constrained ramp: Q4 9/13/17k; base 4.3k/month versus Q3 3.45k, before promised H1 2027 value actions. 2027 35/55/75k and 2028 40/70/100k require base 4.6k then 5.8k monthly, not old 191k. Downside trims stay uneconomic; upside timely broad offer and conquest. No mechanically borrowed Trax ramp.",
+      "q4_2026_units_down_base_up": [
+        9000,
+        13000,
+        17000
+      ],
+      "annual_2027_units_down_base_up": [
+        35000,
+        55000,
+        75000
+      ],
+      "annual_2028_units_down_base_up": [
+        40000,
+        70000,
+        100000
+      ],
+      "revision_from_prior": {
+        "prior_2027": [
+          30000,
+          60000,
+          80000
+        ],
+        "prior_2028": [
+          40000,
+          80000,
+          110000
+        ],
+        "base_delta_2027": -5000,
+        "base_delta_2028": -10000
+      },
+      "revision_reason": "Modestly lower base for partial-year competitive-trim availability and concrete rival value; still well above current pace if constraints ease. No measured elasticity implied.",
+      "confidence": "Medium product mechanism / low forecast",
+      "falsifier": "Profitable delivered entry/Laredo inventory plus \u22485k monthly through 2027 supports base; persistent \u22483.5k despite inventory, rising incentives or delayed H1 2027 offer rejects it. Need actual trim deliveries and earned dealer support, not website starting price.",
+      "historical_sales_units": {
+        "2018A": 239437,
+        "2019A": 191397,
+        "2025A": 527,
+        "2024Q4A": 239,
+        "2025Q4A": 90,
+        "2025Q1A": 156,
+        "2026Q1A": 2489,
+        "2025Q2A": 101,
+        "2026Q2A": 8112,
+        "2025Q3A": 131,
+        "2026Q3A": 10344,
+        "2025YTDQ3A": 131,
+        "2026YTDQ3A": 20914,
+        "2023A": 24609,
+        "2024A": 2839,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "classification": "Observed history; forecast endpoints are rounded analyst scenarios, not probabilities or estimated causal response",
+      "fy2026_units_down_base_up": [
+        29914,
+        33914,
+        37914
+      ],
+      "2027_yoy_pct_down_base_up": [
+        17.0,
+        62.17,
+        97.82
+      ],
+      "2028_yoy_pct_down_base_up": [
+        14.29,
+        27.27,
+        33.33
+      ],
+      "2027_monthly_units_down_base_up": [
+        2916.7,
+        4583.3,
+        6250.0
+      ],
+      "2028_monthly_units_down_base_up": [
+        3333.3,
+        5833.3,
+        8333.3
+      ]
+    },
+    {
+      "id": "wagoneer_family",
+      "family": "Wagoneer / Grand Wagoneer combined",
+      "thesis": "Hold a rebuilt full-size-SUV base; naming consolidation and more accessible Grand entry cannot justify luxury-mix uplift by themselves.",
+      "historical_sequence": [
+        "Absent in 2018/19; current franchise launched 2021/2022 into full-size three-row luxury/utility segment.",
+        "2023 combined 39767; 2024 rose to 55084 while Jeep weakened; 2025 fell to 45040. Growth was not a universal brand recovery.",
+        "2026 Q1/Q2/Q3: 15242/14905/12495. YTD 42642, +23%, but Q3-30%; early growth and later pullback coexist.",
+        "Wagoneer/Grand Wagoneer naming now combined in sales. 2026 Grand current offer begins 63995; retain one stable family."
+      ],
+      "customer_mechanism": "Large families and towing buyers need third-row space plus cargo and towing together; Expedition/Tahoe/Yukon and used full-size SUVs are direct alternatives. Premium appointments can compete higher in price, but a Grand badge does not make every sale a luxury transaction. The 420 hp engine and advertised 10000 lb tow support a specific utility proposition; buyers not requiring it can choose GCL or a minivan at lower running costs.",
+      "dealer_mechanism": "High acquisition dollars make time in stock costly. A simplified family and more accessible entry offer can broaden turn, but dealer willingness needs repeat sales with net gross after support, not a cheap older unit sold once. Government assistance shows channel support is meaningful and differs from other Jeeps; national retail gross remains unknown. High-end Summit stock must be justified separately from volume entry configurations.",
+      "evidence_ids": [
+        "J01",
+        "J05",
+        "J08",
+        "J14",
+        "J18"
+      ],
+      "counterevidence": [
+        "2024 was already a growth year; restoring 2024 scale is less speculative than assuming steady share gains.",
+        "2026 YTD pace \u224856.9k supports 55k base, but Q3 pace \u224850k and high-brand stock limit optimism.",
+        "No clean channel/trim series establishes that refresh, renaming or price caused growth."
+      ],
+      "action_status": [
+        "Current: refreshed 2026 family and broad Grand trim ladder.",
+        "Planned: REEV/SRT and later refresh within broader strategy; family platform dates are not verified customer-delivery dates."
+      ],
+      "pricing_mix_view": "Lower entry configurations may support volume while diluting former Grand-name mix. Forecast combined family price; no apparent mix upgrade solely from transferring Wagoneer labels. Premium and REEV upside needs actual transactions and costs.",
+      "forecast_method": "D097: Utility demand helps; early2026 strength is not fully extrapolated. Stable2028 relative position requires viable entry pricing. No badge-based premium-mix uplift. Base2027/28 57000/58000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
+      "q4_2026_units_down_base_up": [
+        10000,
+        14000,
+        18000
+      ],
+      "annual_2027_units_down_base_up": [
+        40000,
+        57000,
+        65000
+      ],
+      "annual_2028_units_down_base_up": [
+        40000,
+        58000,
+        70000
+      ],
+      "revision_from_prior": {
+        "prior_2027": [
+          40000,
+          55000,
+          65000
+        ],
+        "prior_2028": [
+          40000,
+          58000,
+          70000
+        ],
+        "base_delta_2027": 2000,
+        "base_delta_2028": 0
+      },
+      "revision_reason": "D097: replace implicit fixed-level forecasts with explicit market, segment and relative-company assumptions; retain prior downside/upside stresses.",
+      "confidence": "Medium-low",
+      "falsifier": "\u22484.6\u20134.8k monthly at stable support and inventory age supports base. Declining fresh-stock turn despite revised offer rejects recovery; sustained high end transactions, not naming, establish favorable mix.",
+      "historical_sales_units": {
+        "2018A": null,
+        "2019A": null,
+        "2025A": 45040,
+        "2024Q4A": 7570,
+        "2025Q4A": 10368,
+        "2025Q1A": 7249,
+        "2026Q1A": 15242,
+        "2025Q2A": 9523,
+        "2026Q2A": 14905,
+        "2025Q3A": 17900,
+        "2026Q3A": 12495,
+        "2025YTDQ3A": 34672,
+        "2026YTDQ3A": 42642,
+        "2023A": 39767,
+        "2024A": 55084,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "classification": "Observed history; forecast endpoints are rounded analyst scenarios, not probabilities or estimated causal response",
+      "fy2026_units_down_base_up": [
+        52642,
+        56642,
+        60642
+      ],
+      "2027_yoy_pct_down_base_up": [
+        -24.02,
+        0.63,
+        7.19
+      ],
+      "2028_yoy_pct_down_base_up": [
+        0.0,
+        1.75,
+        7.69
+      ],
+      "2027_monthly_units_down_base_up": [
+        3333.3,
+        4750.0,
+        5416.7
+      ],
+      "2028_monthly_units_down_base_up": [
+        3333.3,
+        4833.3,
+        5833.3
+      ]
+    },
+    {
+      "id": "wagoneer_s",
+      "family": "Wagoneer S BEV",
+      "thesis": "An interrupted, expensive launch with product and payment constraints; evidence does not support either a mature zero-demand verdict or an automatic 2027 recovery.",
+      "historical_sequence": [
+        "2024 reported 231; 2025 10864, of which Q3 4163 and Q4 only 438.",
+        "2026Q1/Q2/Q3:175/198/146;YTD519.",
+        "April 2026 report conveys OEM decision to skip MY2026, improve battery/software/capability and add NACS for 2027. Current MY2025 stock continued to be advertised."
+      ],
+      "customer_mechanism": "Premium electric performance competes with Model Y, Mach-E, EV6/Ioniq 5 and premium used EVs; it does not supply full-size Wagoneer seating/towing just because of the name. NACS can improve charging convenience but does not alone fix purchase payment, software confidence, service or depreciation. Existing stock means low sales are not explained solely by absent production; exact sellable quantity/trim/payment remains unknown.",
+      "dealer_mechanism": "Aged EV inventory needs clearance economics and software/remedy readiness. A dealer should reorder a 2027 revision only after improved specification and payment produce repeat fresh sales; production restart is not an order-profit signal. April promotional maxima are neither October offers nor inferred manufacturer net-price loss.",
+      "evidence_ids": [
+        "J01",
+        "J05",
+        "J19"
+      ],
+      "counterevidence": [
+        "2025 >10k proves some sales at prior offer/policy conditions; not proof of profitable mature demand.",
+        "Skipped model year and unknown restart restrict interpretation of 2026 units; old stock remains a counterweight to a pure supply-shortage explanation."
+      ],
+      "action_status": [
+        "Reported OEM plan: skip 2026 MY, return 2027 with NACS and improvements; precise production/dealer timing unverified."
+      ],
+      "pricing_mix_view": "Likely support-intensive relaunch; do not use MSRP as net realization. No baseline high-margin EV mix contribution.",
+      "forecast_method": "Leave annual and Q4 units unallocated pending dated restart, supply and payment evidence. Tiny Q3 pace is not mature potential; no fabricated ramp.",
+      "q4_2026_units_down_base_up": null,
+      "annual_2027_units_down_base_up": null,
+      "annual_2028_units_down_base_up": null,
+      "revision_from_prior": {
+        "prior": "unallocated",
+        "new": "unallocated"
+      },
+      "revision_reason": "Status is now an explicitly interrupted program, not merely missing research.",
+      "confidence": "Low",
+      "falsifier": "Confirmed broad 2027 deliveries and several economically viable reorder cycles can admit a ramp; continued old-stock discounting without new configuration supply cannot.",
+      "historical_sales_units": {
+        "2018A": null,
+        "2019A": null,
+        "2025A": 10864,
+        "2024Q4A": 133,
+        "2025Q4A": 438,
+        "2025Q1A": 2595,
+        "2026Q1A": 175,
+        "2025Q2A": 3668,
+        "2026Q2A": 198,
+        "2025Q3A": 4163,
+        "2026Q3A": 146,
+        "2025YTDQ3A": 10426,
+        "2026YTDQ3A": 519,
+        "2023A": 0,
+        "2024A": 231,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "classification": "Observed history; forecast endpoints are rounded analyst scenarios, not probabilities or estimated causal response"
+    },
+    {
+      "id": "recon",
+      "family": "Recon BEV / possible later ICE",
+      "thesis": "Early limited supply in a differentiated niche; demand and timing are too unobserved for a defensible numeric ramp.",
+      "historical_sequence": [
+        "2025 reported 56; 2026 YTD 82 including Q3 35. These tiny sales are not evidence of a mature retail rollout.",
+        "May 2026 plan names BEV and eventual ICE. Current official page advertises limited quantities and 66995 starting MSRP."
+      ],
+      "customer_mechanism": "Open-air electric off-roading differentiates it from conventional electric crossovers but narrows the audience at its price. Wrangler is an internal choice for off-road identity without charging needs; Rivian and premium EVs compete for adventurous buyers. Charging away from cities, range and service matter as much as horsepower. No direct comparable justifies extrapolating a successful launch curve.",
+      "dealer_mechanism": "Dealers need saleable demonstrators, service readiness and visible local interest before taking costly EV stock. Small early allocations may be marketing or constrained availability, not evidence of voluntary scaled replenishment.",
+      "evidence_ids": [
+        "J01",
+        "J08",
+        "J20"
+      ],
+      "counterevidence": [
+        "Limited availability is explicit; tiny units cannot prove permanent consumer rejection.",
+        "Distinct capability is not evidence of sufficient buyers at the advertised price."
+      ],
+      "action_status": [
+        "Current marketed BEV, limited quantities. ICE announced within plan but date unverified."
+      ],
+      "pricing_mix_view": "Premium sticker and potential finance support; no margin or transaction calibration. BEV/ICE must share one family; Wrangler substitution belongs in portfolio scenarios.",
+      "forecast_method": "Unallocated through 2028 until production/delivered-stock and payment evidence establish a ramp; do not silently treat as zero potential.",
+      "q4_2026_units_down_base_up": null,
+      "annual_2027_units_down_base_up": null,
+      "annual_2028_units_down_base_up": null,
+      "revision_from_prior": {
+        "prior": "unallocated",
+        "new": "unallocated"
+      },
+      "revision_reason": "Current official offer sharpens positioning and supply limitation but not unit sizing.",
+      "confidence": "Low",
+      "falsifier": "Broad available dealer stock, sustained qualified conversions and voluntary orders would permit numerical ramp; absence of these is uncertainty, not cancellation.",
+      "historical_sales_units": {
+        "2018A": null,
+        "2019A": null,
+        "2025A": 56,
+        "2024Q4A": 0,
+        "2025Q4A": 22,
+        "2025Q1A": null,
+        "2026Q1A": null,
+        "2025Q2A": 3,
+        "2026Q2A": 27,
+        "2025Q3A": 14,
+        "2026Q3A": 35,
+        "2025YTDQ3A": 34,
+        "2026YTDQ3A": 82,
+        "2023A": null,
+        "2024A": null,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "classification": "Observed history; forecast endpoints are rounded analyst scenarios, not probabilities or estimated causal response"
+    },
+    {
+      "id": "renegade",
+      "family": "Jeep discontinued runoff / Renegade",
+      "thesis": "Runoff should fade, with unlisted legacy sales retained in reconciliation rather than falsely set to zero.",
+      "historical_sequence": [
+        "Renegade2018/19:97062/76885;2023:26011;2024:8440;2025:721.",
+        "2026 Q1/Q2: 23/10; no separate Q3 row."
+      ],
+      "customer_mechanism": "Remaining inexpensive inventory may attract price-led buyers; this does not establish ongoing factory replenishment or a new US entry product.",
+      "dealer_mechanism": "Old-stock clearance can release capital; no recurring acquisition decision after cessation. Net discounts and age are transaction-specific.",
+      "evidence_ids": [
+        "J01",
+        "J08"
+      ],
+      "counterevidence": [
+        "A missing Q3 named row is not zero sales; Jeep brand residual must remain."
+      ],
+      "action_status": [
+        "Runoff; no verified new US replacement with 2028 individual milestones in this pass."
+      ],
+      "pricing_mix_view": "Clearance may be heavily discounted but is financially immaterial at current units; do not apply discount rate nationally.",
+      "forecast_method": "No standalone forecast assigned; preserve Jeep other/unlisted residual. Operational runoff approaches zero, but numeric zero is not an observed value.",
+      "q4_2026_units_down_base_up": null,
+      "annual_2027_units_down_base_up": null,
+      "annual_2028_units_down_base_up": null,
+      "revision_from_prior": {
+        "prior": "unallocated/runoff",
+        "new": "unallocated/runoff"
+      },
+      "revision_reason": "Explicit scope/residual treatment.",
+      "confidence": "High direction / low exact units",
+      "falsifier": "A newly dated US product or material reported sales changes treatment.",
+      "historical_sales_units": {
+        "2018A": 97062,
+        "2019A": 76885,
+        "2025A": 721,
+        "2024Q4A": 664,
+        "2025Q4A": 27,
+        "2025Q1A": 370,
+        "2026Q1A": 23,
+        "2025Q2A": 220,
+        "2026Q2A": 10,
+        "2025Q3A": null,
+        "2026Q3A": null,
+        "2025YTDQ3A": null,
+        "2026YTDQ3A": null,
+        "2023A": 26011,
+        "2024A": 8440,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "classification": "Observed history; forecast endpoints are rounded analyst scenarios, not probabilities or estimated causal response"
+    }
+  ],
+  "source_registry": [
+    {
+      "id": "J01",
+      "title": "US sales ledger and underlying issuer releases",
+      "url": "../volume-recovery-2026-10-14/historical-sales-ledger.json",
+      "publication_date": null,
+      "observation_period": "2018\u20132019, 2022\u20132026 Q3",
+      "geography": "US unless noted",
+      "population": "Reported retail plus fleet vehicles; not wholesale",
+      "locator": "Jeep rows; raw tables in sales-source-tables.json",
+      "finding": "Observed history carried forward; latest YTD preserved separately from earlier quarterly releases.",
+      "limitations": "Missing years not interpolated. Cherokee labels change; some YTD values do not sum earlier published quarters.",
+      "novelty": "reused",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "J02",
+      "title": "Grand Cherokee powertrain and channel audits",
+      "url": "support/jeep-prior-mechanism-excerpts.json",
+      "publication_date": "2026-10-13",
+      "observation_period": "2023\u20132024",
+      "geography": "US unless noted",
+      "population": "Authored arithmetic and primary source register",
+      "locator": "excerpts.grand_cherokee_mechanisms; half_year, annual_decomposition and q4_channel_followup_2026_10_13",
+      "finding": "2024 non-4xe 188558; H2 non-4xe +9.78% while 4xe -69.42%. Q4 whole-family retail +17% while total -10.55%, so fleet contracted conditional on matching definitions.",
+      "limitations": "Non-4xe residual includes two/three rows and is not a matched gasoline equivalent. No measured customer substitution.",
+      "novelty": "reused",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "J03",
+      "title": "Grand Cherokee financing and allocation audit",
+      "url": "../volume-recovery-2026-10-14/support/prior/grand-cherokee-mix-drivers-audit.json",
+      "publication_date": "2026-10-13",
+      "observation_period": "2023\u20132024",
+      "geography": "US unless noted",
+      "population": "Original issuer/regulator documents plus dated buyer and finance quotations",
+      "locator": "sources and hypothesis_updates",
+      "finding": "Regional ICE allocation restrictions in 2023, gas MSRP cuts Jan 2024, quoted CCAP PHEV lease-credit change March\u2013April 2024; SFS terms differed.",
+      "limitations": "Cannot assign causal percentages, infer nationwide financing loss, or equate MSRP changes with net realization.",
+      "novelty": "reused",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "J04",
+      "title": "Historical Cherokee constraint audit",
+      "url": "../volume-recovery-2026-10-14/support/prior/cherokee-supply-timeline.json",
+      "publication_date": "2026-10-09",
+      "observation_period": "2019\u20132023",
+      "geography": "US unless noted",
+      "population": "Prior operational, marketplace and price evidence",
+      "locator": "causal_link_test; sell_through_followup",
+      "finding": "Inventory imbalance predates chips; production interruptions and later narrow expensive trims coexist; late 2021 listing turn relatively slow.",
+      "limitations": "2022 Altitude cessation cause unresolved; previous broad searches closed as low yield.",
+      "novelty": "reused",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "J05",
+      "title": "Dealer and affordability evidence",
+      "url": "../volume-recovery-2026-10-14/dealer-demand-check.md",
+      "publication_date": "2026-10-14",
+      "observation_period": "2024\u2013August2026",
+      "geography": "US unless noted",
+      "population": "Mixed primary operator testimony, Cox proxy, issuer testimony",
+      "locator": "evidence table; linked source register",
+      "finding": "Configuration-order repair and some operator retail improvement; August Jeep days supply at least 146 including pipeline versus industry 73.",
+      "limitations": "No nationally matched model fresh-stock turns, earned support or dealer profit.",
+      "novelty": "reused",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "J06",
+      "title": "Q2 2026 results call",
+      "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events-and-presentations/other-documents/Stellantis-Q2-2026-Financial-Results-Call-Transcript.pdf",
+      "publication_date": "2026-07-30",
+      "observation_period": "Q2 2026 and management plans",
+      "geography": "US unless noted",
+      "population": "Management testimony; North America/US",
+      "locator": "pp12\u201314",
+      "finding": "Cherokee trims/channels restricted for economics and tariffs; competitive trims planned H1 2027; Belvidere date not disclosed. US stock increase largely described as new-product inventory and shutdown preparation.",
+      "limitations": "Funnel interest unquantified; cost localization and profitable conversion not proved.",
+      "novelty": "reused",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "J07",
+      "title": "Q3 2026 estimated shipments",
+      "url": "https://www.stellantis.com/en/news/press-releases/2026/october/stellantis-reports-q3-2026-estimated-consolidated-shipments-of-1-3-million-units-down-1-percent-year-over-year",
+      "publication_date": "2026-10-13",
+      "observation_period": "Q3 2026",
+      "geography": "US unless noted",
+      "population": "Company preliminary North American wholesale units and explanation",
+      "locator": "North America paragraph",
+      "finding": "Grand Cherokee and Compass approximately 25000 fewer shipments each; planned downtime cited.",
+      "limitations": "These are NA shipment deltas, not US lost retail units. Planned downtime does not establish underlying demand.",
+      "novelty": "reused",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "J08",
+      "title": "May launch register",
+      "url": "../investor-day-2026-05-21/north-america-launch-register.md",
+      "publication_date": "2026-05-21",
+      "observation_period": "Plans through 2030",
+      "geography": "US unless noted",
+      "population": "Management launch commitments; North America",
+      "locator": "NA05\u2013NA13",
+      "finding": "Cherokee, Recon, GC and Wagoneer initiatives; no model-specific units. European Compass is not verified North American replacement timing.",
+      "limitations": "2030 showroom is not a 2028 delivery calendar.",
+      "novelty": "reused",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "J09",
+      "title": "Jeep 4xe current status",
+      "url": "https://www.jeep.com/4xe.html",
+      "publication_date": null,
+      "observation_period": "Current page observed 2026-10-14",
+      "geography": "US unless noted",
+      "population": "Primary OEM product status",
+      "locator": "intro and discontinued FAQ",
+      "finding": "Grand Cherokee 4xe and Wrangler 4xe are no longer in production; limited dealer stock may remain.",
+      "limitations": "Undated page: exact end-of-production day not established. Supersedes old launch-plan language. Do not equate absent production with permanent buyer rejection.",
+      "novelty": "new",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "J10",
+      "title": "Expanded 4xe battery recall",
+      "url": "https://www.nhtsa.gov/press-releases/park-outside-recall-jeep-wrangler-phev",
+      "publication_date": "2025-11-04",
+      "observation_period": "2020\u20132025 Wrangler /2022\u20132026 GC PHEVs",
+      "geography": "US unless noted",
+      "population": "Primary US regulator recall",
+      "locator": "25V741 alert",
+      "finding": "320065 affected vehicles: 228221 Wrangler, 91844 GC. Prior remedy ineffective for certain abnormalities; 19 battery fires reported, 9 in remedied vehicles.",
+      "limitations": "Recall population is not failure count or lost sales; alert remedy-not-available wording is dated Nov 2025, not a claim about Oct 2026 repair status.",
+      "novelty": "new",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "J11",
+      "title": "Grand Cherokee 2026 product announcement",
+      "url": "https://www.stellantisfleet.com/content/dam/fca-fleet/na/fleet/en_us/news-and-events/fca-news/2026_Jeep%C2%AE_Grand_Cherokee_Brings_the_Hurricane_4_Turbo__All-New_Propulsion_Drives_America_s_Most_Awarded_SUV.pdf",
+      "publication_date": "2025-10-28",
+      "observation_period": "MY2026",
+      "geography": "US unless noted",
+      "population": "Primary OEM announced specifications",
+      "locator": "pp1\u20133",
+      "finding": "324 hp/332 lb-ft Hurricane 4 regular-gas engine, advertised 6200 lb towing; 12.3-inch screen; base Laredo and Laredo X retain 3.6 V6; two/three-row family.",
+      "limitations": "Advertised specifications not independent reliability or fuel-cost validation. PHEV continuation statement superseded by J09; no automatic extra family volume.",
+      "novelty": "new",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "J12",
+      "title": "Cherokee launch prices and availability plan",
+      "url": "https://www.jeep.com/news/2026-jeep-cherokee-adventure.html",
+      "publication_date": null,
+      "observation_period": "MY2026 launch plan announced 2025",
+      "geography": "US unless noted",
+      "population": "Primary OEM specification and timing plan",
+      "locator": "Availability, Production and Pricing",
+      "finding": "Base 36995 and Laredo 39995 including 1995 destination; Limited 41995 and Overland 44995. Initial higher trims planned late 2025, lower trims early 2026; Toluca production.",
+      "limitations": "Original lower trim timing is a plan; July 2026 restricted-economics testimony is newer. Undated mirror; search relative timestamp not used as publication date.",
+      "novelty": "new",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "J13",
+      "title": "Edmunds Cherokee versus Forester original comparison via AP",
+      "url": "https://apnews.com/article/cherokee-forester-hybrid-suv-ac1a92cc4962e7c7e59140e128c48ed3",
+      "publication_date": "2026-06-24",
+      "observation_period": "MY2026 Cherokee /Forester hybrid",
+      "geography": "US unless noted",
+      "population": "First-hand comparative road testing, not consumer panel",
+      "locator": "Fuel economy/performance; comfort; price/value",
+      "finding": "Cherokee 37 mpg vs Forester 35, similar measured acceleration, quieter powertrain; Forester ride/utility/value advantage. Entry prices 36995 vs 36180 including destination, more standard comfort equipment on Subaru.",
+      "limitations": "One test, not conquest/share measurement; trim availability and transaction payments not established.",
+      "novelty": "new",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "J14",
+      "title": "Idaho statewide Jeep bid sheet, Young Automotive",
+      "url": "https://purchasing.idaho.gov/wp-content/uploads/SBPO20268419-Jeep-Pricing.pdf",
+      "publication_date": null,
+      "observation_period": "MY2026 contract offers",
+      "geography": "US unless noted",
+      "population": "Primary state procurement exhibit for one dealer and government customers",
+      "locator": "PDF pp 2\u20133",
+      "finding": "Gladiator Sport: dealer-net invoice 38479 +destination 1995 -government assistance 3000 +dealer margin 1000 =bid 38474. Different support on Cherokee 1 and GC 2500.",
+      "limitations": "Contract-specific offered economics, not national retail invoice, realized profit or OEM net revenue. Duplicate trim/model codes suggest base vehicles/options; AVAILABLE is bid status, not verified physical stock. Document date absent.",
+      "novelty": "new",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "J15",
+      "title": "Napleton model-year production schedules",
+      "url": "https://napletonfleet.com/2027-my-start-up-and-final-order-dates/",
+      "publication_date": "2026-05-15",
+      "observation_period": "MY2027 estimates",
+      "geography": "US unless noted",
+      "population": "Fleet dealer planned order/build dates",
+      "locator": "Jeep table",
+      "finding": "Estimated MY2027 start GC WL74 Aug 10, Compass Aug 24; MY2026 sheet dated Apr 9 lists build-outs Aug 7/Aug 22 respectively.",
+      "limitations": "Plans do not corroborate actual shutdown duration or output; anomalous WL75/PHEV labeling and superseded Wagoneer S schedule reduce evidentiary weight. No production-volume inference.",
+      "novelty": "new",
+      "accessed": "2026-10-14",
+      "secondary_url": "https://www.napletonfleet.com/run_static.php?htm=2026_startup_dates_final_order_dates.htm"
+    },
+    {
+      "id": "J16",
+      "title": "Wrangler/Gladiator steering-connection recall",
+      "url": "https://static.nhtsa.gov/odi/rcl/2026/RCLRPT-26V363-5757.pdf",
+      "publication_date": "2026-06-04",
+      "observation_period": "Certain 2021\u20132025 vehicles built through 2024-12-02",
+      "geography": "US unless noted",
+      "population": "Primary manufacturer Part 573 filed with NHTSA",
+      "locator": "pp 1\u20134 recall 26V363/21D",
+      "finding": "1076999 potentially involved; estimated defect incidence 0.1%; older production connection can overheat.",
+      "limitations": "Not a MY2026 production stop and not one million failed vehicles; no lost-purchase estimate.",
+      "novelty": "new",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "J17",
+      "title": "Current Wrangler and Gladiator official offer/specification pages",
+      "url": "https://www.jeep.com/wrangler.html",
+      "publication_date": null,
+      "observation_period": "Current MY2026 observed Oct 14",
+      "geography": "US unless noted",
+      "population": "Primary OEM advertised offer",
+      "locator": "starting MSRP and open-air proposition; linked Gladiator specs",
+      "finding": "Wrangler advertised starting MSRP 36035; Gladiator specs base 39820 plus 1995 destination, 3.6 V6/8-speed automatic, 19 mpg combined.",
+      "limitations": "Current website entry values are not matched historical transactions; model/options/fees must match for payment comparison.",
+      "novelty": "new",
+      "accessed": "2026-10-14",
+      "secondary_url": "https://www.jeep.com/gladiator/specs.html"
+    },
+    {
+      "id": "J18",
+      "title": "Current Grand Wagoneer page and FAQ",
+      "url": "https://www.jeep.com/grand-wagoneer.html",
+      "publication_date": null,
+      "observation_period": "MY2026 observed Oct 14",
+      "geography": "US unless noted",
+      "population": "Primary OEM marketed specification",
+      "locator": "entry MSRP; capability; FAQ",
+      "finding": "Starting MSRP 63995; up to 8 seats and 10000 lb towing; 420 hp twin-turbo engine.",
+      "limitations": "Maximum tow needs appropriate configuration; cannot treat reduced Grand-name entry as same-trim MSRP cut.",
+      "novelty": "new",
+      "accessed": "2026-10-14",
+      "secondary_url": "https://www.jeep.com/grand-wagoneer/faq.html"
+    },
+    {
+      "id": "J19",
+      "title": "Wagoneer S skips 2026, plans 2027",
+      "url": "https://www.kbb.com/car-news/jeep-pauses-wagoneer-s-production-for-2026-model-year/",
+      "publication_date": "2026-04-21",
+      "observation_period": "MY2026/2027 plans and April offers",
+      "geography": "US unless noted",
+      "population": "Contemporaneous report quoting OEM statement to Automotive News",
+      "locator": "production and pricing paragraphs",
+      "finding": "OEM said production paced for battery/software/capability improvements; 2027 NACS planned. Remaining 2025 stock offered; restart date undisclosed.",
+      "limitations": "Secondary conduit for OEM statement, not independent capacity data. April finance/loyalty maxima not current October terms or stackable observed transaction prices.",
+      "novelty": "new",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "J20",
+      "title": "Recon current official offer",
+      "url": "https://www.jeep.com/recon.html",
+      "publication_date": null,
+      "observation_period": "MY2026 observed Oct 14",
+      "geography": "US unless noted",
+      "population": "Primary OEM product page",
+      "locator": "intro, MSRP and availability qualifier",
+      "finding": "Limited quantities advertised; 66995 starting MSRP; electric/open-air/off-road positioning.",
+      "limitations": "Does not prove broad dealership supply, deliveries or mature demand. ICE timing remains unverified.",
+      "novelty": "new",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "J21",
+      "title": "Trailhawk launch milestone",
+      "url": "../volume-recovery-2026-10-14/launch-check.md",
+      "publication_date": "2026-09-30",
+      "observation_period": "MY2027",
+      "geography": "US unless noted",
+      "population": "Prior verified OEM announcement",
+      "locator": "Cherokee entry",
+      "finding": "Orders open; Toluca production planned later 2026; 44625 including 1995 destination.",
+      "limitations": "Premium derivative is not proof of affordable-trim rollout.",
+      "novelty": "reused",
+      "accessed": "2026-10-14"
+    },
+    {
+      "id": "J22",
+      "title": "Household and comparable-launch audits",
+      "url": "support/jeep-prior-mechanism-excerpts.json",
+      "publication_date": "2026-10-13",
+      "observation_period": "2019\u20132025",
+      "geography": "US unless noted",
+      "population": "Existing source-backed mechanism audit",
+      "locator": "excerpts.household_relative_value and excerpts.comparative_launches; source URLs, scope, observations and limitations",
+      "finding": "Historical Jeep consideration and variant recoveries reject blanket permanent inferiority; Trax/Envista affordable success motivates testing practical value.",
+      "limitations": "No measured elasticity; do not copy unrelated launch trajectories.",
+      "novelty": "reused",
+      "accessed": "2026-10-14",
+      "secondary_path": "support/jeep-prior-mechanism-excerpts.json"
+    }
+  ],
+  "portfolio_checks": {
+    "covered_six_family_2026_ytd_units": 413112,
+    "covered_six_family_2027_down_base_up": [
+      460000,
+      598000,
+      700000
+    ],
+    "covered_six_family_2028_down_base_up": [
+      450000,
+      628000,
+      760000
+    ],
+    "q3_named_jeep_models_sum": 128526,
+    "q3_jeep_brand_total": 128542,
+    "q3_unlisted_residual": 16,
+    "ytd_named_jeep_models_sum": 413713,
+    "ytd_jeep_brand_total": 413793,
+    "ytd_unlisted_residual": 80,
+    "gc_compass_cherokee_2028_base": 345000,
+    "cherokee_raw_2026_quarters_sum": 20945,
+    "cherokee_latest_ytd": 20914,
+    "cherokee_reporting_vintage_difference": -31
+  },
+  "scenario_conventions": {
+    "ordering": [
+      "downside",
+      "base",
+      "upside"
+    ],
+    "units": "vehicles",
+    "probabilities": "none assigned",
+    "q4": "Rounded near-term bounded scenarios using current selling pace and known availability; no statistical seasonality claim. Future quarters left unallocated.",
+    "price": "All values in USD unless noted. MSRP, contract invoice, dealer markup, consumer offers and OEM revenue remain distinct.",
+    "same_scenario_yoy": "2027 scenario YoY computed against corresponding modeled 2026 YTD+Q4 scenario, not flat Q4 reference; 2028 against same 2027 scenario.",
+    "unallocated": "null means evidence insufficient, never zero economicpotential; EV/runoff/brand residual excluded from covered subtotal.",
+    "no_double_count": "GC includes L/4xe; Wrangler editions/SRT within family; Trailhawk inside Cherokee; Wagoneer combined; Recon propulsions within family. No autonomous additive derivative volume."
+  },
+  "new_vs_reused": {
+    "new": [
+      "Official 4xe ended-production confirmation supersedes 2025 launch release",
+      "2026 Grand Cherokee V6 entry retention andturbo four mechanism",
+      "First-hand Cherokee/Forester valuecomparison",
+      "One state procurement schedule separatesinvoice/support/markup",
+      "Recall 26V363 affectsolderproduction, not proof 2026 stop",
+      "Wagoneer S interruptedprogram and Reconlimitedsupply status"
+    ],
+    "reused": [
+      "All historicalsales",
+      "2024GC4xeleasing/allocation/channelwork",
+      "2019\u20132023Cherokeeconstraints",
+      "Currentdealerstock/JulyCherokeeeconomicrestriction",
+      "MaystrategyandSeptemberTrailhawkregister"
+    ]
+  },
+  "remaining_gaps": [
+    "Actual GC/Compass dailyoutput/shutdown dates plus saleable entry-trim stock and retail turn; public model-year schedules cannot distinguish inventorymatching from lostproduction.",
+    "Cherokee actual lower trim delivered volumes, current landed cost andsupport; exact H1 2027 competitive offer/localization milestones.",
+    "Matched fresh-versus-aged Jeep dealer receipts, sales, earned support and contribution through repeatedreorders; government bid not national retail panel.",
+    "Dated Wagoneer S/Recon broad production anddealer arrival plus actual payment/service outcomes before admitting numericramps."
+  ],
+  "limitations": [
+    "Historical 2020\u20132021 annualsales and national retail/fleet/trim series not reconstructed; no interpolated observations.",
+    "No matched national effectivepayment or manufacturer net revenue/unit estimate; advertised MSRP is descriptive only.",
+    "Source publicationdates absent are null, not inferred fromsearch crawl dates.",
+    "Current OEM webpages maychange; exact extracted status and accessdate preserved here.",
+    "Dealerwebpage fetchesfailed for Clovis/Rainbow; indexeddiscounts not admitted. Yahoo EV article 429; KBBreported OEMstatement used transparently.",
+    "Napleton schedule isdatedplan andcontains anomalies; not independent confirmation ofactualfactory restart.",
+    "No numerical cannibalizationpercentage, elasticity or causal allocation of lost units estimated."
+  ]
+}

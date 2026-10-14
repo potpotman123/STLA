@@ -1,0 +1,10 @@
+{
+  "as_of": "2026-10-14",
+  "decision": "D098",
+  "overview": "forecast-audit-2026-10-14/README.md",
+  "inputs": "forecast-audit-2026-10-14/proposed-forecast-inputs.json",
+  "audit": "forecast-audit-2026-10-14/audit.md",
+  "supersedes": "model-diligence-2026-10-14/proposed-forecast-inputs.json",
+  "status": "Current research proposal, conditional operating and launch scenarios. Gross portfolio total before unselected internal-substitution deduction. Not approved workbook inputs.",
+  "independent_ai_workbook_changed": false
+}

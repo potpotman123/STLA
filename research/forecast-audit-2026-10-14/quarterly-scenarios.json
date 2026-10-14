@@ -1,0 +1,329 @@
+{
+  "rows": [
+    {
+      "id": "ram_hd",
+      "year": 2027,
+      "quarter_units": [
+        31796,
+        43645,
+        43738,
+        50821
+      ],
+      "method": "2025 observed quarterly distribution, normalized to its four-quarter sum; explicit repeat-seasonality convention, not a separate forecast.",
+      "source_quarters": [
+        31781,
+        43624,
+        43717,
+        50798
+      ],
+      "source_annual": 169920,
+      "source_sum_minus_reported_annual": 0,
+      "limitation": "Only one recent annual cycle; product/channel changes can alter seasonality. Not independently validated quarterly demand."
+    },
+    {
+      "id": "ram_hd",
+      "year": 2028,
+      "quarter_units": [
+        31796,
+        43645,
+        43738,
+        50821
+      ],
+      "method": "2025 observed quarterly distribution, normalized to its four-quarter sum; explicit repeat-seasonality convention, not a separate forecast.",
+      "source_quarters": [
+        31781,
+        43624,
+        43717,
+        50798
+      ],
+      "source_annual": 169920,
+      "source_sum_minus_reported_annual": 0,
+      "limitation": "Only one recent annual cycle; product/channel changes can alter seasonality. Not independently validated quarterly demand."
+    },
+    {
+      "id": "wrangler",
+      "year": 2027,
+      "quarter_units": [
+        39685,
+        49847,
+        44398,
+        41070
+      ],
+      "method": "2025 observed quarterly distribution, normalized to its four-quarter sum; explicit repeat-seasonality convention, not a separate forecast.",
+      "source_quarters": [
+        37944,
+        47660,
+        42450,
+        39268
+      ],
+      "source_annual": 167322,
+      "source_sum_minus_reported_annual": 0,
+      "limitation": "Only one recent annual cycle; product/channel changes can alter seasonality. Not independently validated quarterly demand."
+    },
+    {
+      "id": "wrangler",
+      "year": 2028,
+      "quarter_units": [
+        39685,
+        49847,
+        44398,
+        41070
+      ],
+      "method": "2025 observed quarterly distribution, normalized to its four-quarter sum; explicit repeat-seasonality convention, not a separate forecast.",
+      "source_quarters": [
+        37944,
+        47660,
+        42450,
+        39268
+      ],
+      "source_annual": 167322,
+      "source_sum_minus_reported_annual": 0,
+      "limitation": "Only one recent annual cycle; product/channel changes can alter seasonality. Not independently validated quarterly demand."
+    },
+    {
+      "id": "minivans",
+      "year": 2027,
+      "quarter_units": [
+        38649,
+        25628,
+        36077,
+        39646
+      ],
+      "method": "2025 observed quarterly distribution, normalized to its four-quarter sum; explicit repeat-seasonality convention, not a separate forecast.",
+      "source_quarters": [
+        34728,
+        23028,
+        32417,
+        35625
+      ],
+      "source_annual": 125798,
+      "source_sum_minus_reported_annual": 0,
+      "limitation": "Only one recent annual cycle; product/channel changes can alter seasonality. Not independently validated quarterly demand."
+    },
+    {
+      "id": "minivans",
+      "year": 2028,
+      "quarter_units": [
+        38649,
+        25628,
+        36077,
+        39646
+      ],
+      "method": "2025 observed quarterly distribution, normalized to its four-quarter sum; explicit repeat-seasonality convention, not a separate forecast.",
+      "source_quarters": [
+        34728,
+        23028,
+        32417,
+        35625
+      ],
+      "source_annual": 125798,
+      "source_sum_minus_reported_annual": 0,
+      "limitation": "Only one recent annual cycle; product/channel changes can alter seasonality. Not independently validated quarterly demand."
+    },
+    {
+      "id": "promaster",
+      "year": 2027,
+      "quarter_units": [
+        14622,
+        15252,
+        15744,
+        12382
+      ],
+      "method": "2025 observed quarterly distribution, normalized to its four-quarter sum; explicit repeat-seasonality convention, not a separate forecast.",
+      "source_quarters": [
+        14519,
+        15144,
+        15633,
+        12295
+      ],
+      "source_annual": 57591,
+      "source_sum_minus_reported_annual": 0,
+      "limitation": "Only one recent annual cycle; product/channel changes can alter seasonality. Not independently validated quarterly demand."
+    },
+    {
+      "id": "promaster",
+      "year": 2028,
+      "quarter_units": [
+        14622,
+        15252,
+        15744,
+        12382
+      ],
+      "method": "2025 observed quarterly distribution, normalized to its four-quarter sum; explicit repeat-seasonality convention, not a separate forecast.",
+      "source_quarters": [
+        14519,
+        15144,
+        15633,
+        12295
+      ],
+      "source_annual": 57591,
+      "source_sum_minus_reported_annual": 0,
+      "limitation": "Only one recent annual cycle; product/channel changes can alter seasonality. Not independently validated quarterly demand."
+    },
+    {
+      "id": "wagoneer_family",
+      "year": 2027,
+      "quarter_units": [
+        8852,
+        11629,
+        21858,
+        12661
+      ],
+      "method": "2025 observed quarterly distribution, normalized to its four-quarter sum; explicit repeat-seasonality convention, not a separate forecast.",
+      "source_quarters": [
+        7249,
+        9523,
+        17900,
+        10368
+      ],
+      "source_annual": 45040,
+      "source_sum_minus_reported_annual": 0,
+      "limitation": "Only one recent annual cycle; product/channel changes can alter seasonality. Not independently validated quarterly demand."
+    },
+    {
+      "id": "wagoneer_family",
+      "year": 2028,
+      "quarter_units": [
+        8852,
+        11629,
+        21858,
+        12661
+      ],
+      "method": "2025 observed quarterly distribution, normalized to its four-quarter sum; explicit repeat-seasonality convention, not a separate forecast.",
+      "source_quarters": [
+        7249,
+        9523,
+        17900,
+        10368
+      ],
+      "source_annual": 45040,
+      "source_sum_minus_reported_annual": 0,
+      "limitation": "Only one recent annual cycle; product/channel changes can alter seasonality. Not independently validated quarterly demand."
+    },
+    {
+      "id": "durango",
+      "year": 2027,
+      "quarter_units": [
+        14854,
+        22440,
+        21703,
+        29003
+      ],
+      "method": "2025 observed quarterly distribution, normalized to its four-quarter sum; explicit repeat-seasonality convention, not a separate forecast.",
+      "source_quarters": [
+        13701,
+        20698,
+        20018,
+        26751
+      ],
+      "source_annual": 81168,
+      "source_sum_minus_reported_annual": 0,
+      "limitation": "Only one recent annual cycle; product/channel changes can alter seasonality. Not independently validated quarterly demand."
+    },
+    {
+      "id": "durango",
+      "year": 2028,
+      "quarter_units": [
+        14854,
+        22440,
+        21703,
+        29003
+      ],
+      "method": "2025 observed quarterly distribution, normalized to its four-quarter sum; explicit repeat-seasonality convention, not a separate forecast.",
+      "source_quarters": [
+        13701,
+        20698,
+        20018,
+        26751
+      ],
+      "source_annual": 81168,
+      "source_sum_minus_reported_annual": 0,
+      "limitation": "Only one recent annual cycle; product/channel changes can alter seasonality. Not independently validated quarterly demand."
+    },
+    {
+      "id": "cherokee",
+      "year": 2027,
+      "quarter_units": [
+        10500,
+        10500,
+        12000,
+        12000
+      ],
+      "method": "Explicit conditional launch/trim ramp. Quarter of arrival and intra-year distribution are assumptions; annual benchmarks do not verify each quarter.",
+      "limitation": "Scenario-only phasing; move quarters when milestones change."
+    },
+    {
+      "id": "cherokee",
+      "year": 2028,
+      "quarter_units": [
+        12000,
+        12000,
+        12000,
+        12000
+      ],
+      "method": "Explicit conditional launch/trim ramp. Quarter of arrival and intra-year distribution are assumptions; annual benchmarks do not verify each quarter.",
+      "limitation": "Scenario-only phasing; move quarters when milestones change."
+    },
+    {
+      "id": "chrysler_new",
+      "year": 2027,
+      "quarter_units": [
+        0,
+        0,
+        3000,
+        7000
+      ],
+      "method": "Explicit conditional launch/trim ramp. Quarter of arrival and intra-year distribution are assumptions; annual benchmarks do not verify each quarter.",
+      "limitation": "Scenario-only phasing; move quarters when milestones change."
+    },
+    {
+      "id": "chrysler_new",
+      "year": 2028,
+      "quarter_units": [
+        8000,
+        12000,
+        14000,
+        16000
+      ],
+      "method": "Explicit conditional launch/trim ramp. Quarter of arrival and intra-year distribution are assumptions; annual benchmarks do not verify each quarter.",
+      "limitation": "Scenario-only phasing; move quarters when milestones change."
+    },
+    {
+      "id": "ram_dakota",
+      "year": 2028,
+      "quarter_units": [
+        0,
+        0,
+        5000,
+        15000
+      ],
+      "method": "Explicit conditional launch/trim ramp. Quarter of arrival and intra-year distribution are assumptions; annual benchmarks do not verify each quarter.",
+      "limitation": "Scenario-only phasing; move quarters when milestones change."
+    },
+    {
+      "id": "ram_compact",
+      "year": 2028,
+      "quarter_units": [
+        0,
+        0,
+        3000,
+        7000
+      ],
+      "method": "Explicit conditional launch/trim ramp. Quarter of arrival and intra-year distribution are assumptions; annual benchmarks do not verify each quarter.",
+      "limitation": "Scenario-only phasing; move quarters when milestones change."
+    },
+    {
+      "id": "promaster_city",
+      "year": 2027,
+      "quarter_units": [
+        1000,
+        2000,
+        3000,
+        4000
+      ],
+      "method": "Explicit conditional launch/trim ramp. Quarter of arrival and intra-year distribution are assumptions; annual benchmarks do not verify each quarter.",
+      "limitation": "Scenario-only phasing; move quarters when milestones change."
+    }
+  ],
+  "other_rows": "Quarterly inputs not populated where stable seasonality or a stated launch scenario is not established. Annual model does not require fabricating quarterly precision."
+}

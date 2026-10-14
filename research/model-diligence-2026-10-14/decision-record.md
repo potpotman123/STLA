@@ -55,3 +55,13 @@ User asked to reviseGCandthenextendcausaltestsacrossothermodels. GC2027/28bases1
 ## D097 Incorporate market and segment trends explicitly
 
 User challenged fixed-level assumptions for omitting macro conditions and category preferences. Added a transparent market/relative-segment/company index bridge for established models, preserving separate launch ramps. Verified long-run SUV shift and recent competing minivan growth; did not assume a proven secular minivan boom. Forward1%market and model-specific segment/company rates are explicit judgments, not fitted coefficients. Existing price-support constraints and unallocated launches remain. Rebuilt all totals and checked arithmetic. Earlier prose snapshots are labeled; current JSON dossiers/forecast files updated.
+
+## D098 Audit unsupported coefficients and missing launches
+
+The user challenged both unsupported model growth percentages and omission of planned launches, then supplied the full audit assignment. Preserved D097 source forecasts and dossier hashes in `../forecast-audit-2026-10-14/baseline/`. The independent AI workbook and the existing modified architecture file remain untouched.
+
+The current research proposal is now [the forecast audit](../forecast-audit-2026-10-14/README.md). Existing-product percentages are replaced by explicitly conditional operating levels with source-based scale comparisons and wider alternatives. New Chrysler/Ram products receive launch scenarios; precise unit magnitudes remain assumptions. Rereading the Investor Day Q&A strengthened the primary evidence for Chrysler activity by 2028. New GM HD sales and pickup-launch evidence change the comparative interpretation of Ram. No claim of fully identified consumer demand or independent forecast validation is made.
+
+The 2028 gross case is 1,430,700 US customer sales: old incomplete subtotal 1,418,100 minus 68,100 of revisions plus 80,700 from previously unallocated rows. Internal substitution is explicitly unresolved; 20%/40% sensitivities are not selected coefficients. A narrow net company forecast is not asserted. Current and historical coverage reconciles to published totals. Small retrospective Ram checks demonstrate that annualized quarterly anchors themselves can miss future annual results materially.
+
+No subagents, bulk scraping, paid data or workbook edits. One bounded discovery pass followed concrete leads into competitor sales tables, product announcements and management timing. Failed direct GM downloads and inaccessible/redirected sources were recorded. Evidence still needed is specific 2026 dealer follow-through, channel splits, launch milestones and customer substitution—not another broad source list.

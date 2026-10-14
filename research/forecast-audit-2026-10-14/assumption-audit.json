@@ -1,0 +1,824 @@
+{
+  "as_of": "2026-10-14",
+  "decision": "D098",
+  "core_five_ytd_units": 697734,
+  "core_five_ytd_share_pct": 72.79717631249197,
+  "common_assumptions": [
+    {
+      "assumption": "market+1%annually",
+      "verdict": "Not a source-derived2027/28 forecast; removed from point construction. Neutral common market maintained as an explicit scenario condition; macro upside/downside remains unestimated."
+    },
+    {
+      "assumption": "segment/company tilts",
+      "verdict": "Sources describe direction but do not estimate the individual1–7%coefficients. Replaced with observable-level or explicit launch scenarios."
+    },
+    {
+      "assumption": "newproducts need exact dates or remain unallocated",
+      "verdict": "Rejected. Include transparent timing cases, including delays, without claiming point certainty."
+    },
+    {
+      "assumption": "flat2028 means no analysis",
+      "verdict": "Flat central levels now mean maintained observed franchise with no proven incremental gain. Scenario bounds, competitor events and separate substitution sensitivities capture uncertainty; not disguised offsetting point adjustments."
+    },
+    {
+      "assumption": "all gross launches are incremental",
+      "verdict": "Rejected. No selected nettotal until internal substitution is chosen/evidenced."
+    }
+  ],
+  "rows": [
+    {
+      "id": "ram_ld",
+      "old_2027": {
+        "downside": 250000,
+        "base": 300000,
+        "upside": 330000
+      },
+      "old_2028": {
+        "downside": 240000,
+        "base": 303000,
+        "upside": 350000
+      },
+      "old_method": "D097: Availability/engine-choice recovery supports 2027 relative gains. In2028 maintain relative position; market growth adds units. No second HEMI uplift. Base2027/28 300000/303000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
+      "old_method_evidence_verdict": "Descriptive source evidence may support direction or operating level; D097 forward coefficients were assumed and not independently calibrated.",
+      "action": "Replace the unsupported+7% company/+1% market construction with a recent two-quarter operating level.",
+      "2027": {
+        "downside": 270000,
+        "base": 285000,
+        "upside": 307000
+      },
+      "2028": {
+        "downside": 260000,
+        "base": 285000,
+        "upside": 320000
+      },
+      "delta_2027_versus_old_base": -15000,
+      "delta_2028_versus_old_base": -18000,
+      "construction": "Q2+Q3 actual sales of142,319 imply284,638 over twelve months; round to285k. This uses both quarters rather than carrying peak Q3 alone. YTD annualized269.5k and Q3 annualized306.6k bracket the2027 level. It assumes broadly normal annual seasonality, not a statistical seasonal adjustment.2028 maintenance at285k requires defending the recovered position against new GM pickups; there is no second HEMI uplift.",
+      "sources": [
+        "N07",
+        "N08",
+        "N11",
+        "R_RAM"
+      ],
+      "magnitude_status": "Conditional judgment anchored to observed volumes; no fitted elasticity or independently validated2028 point estimate."
+    },
+    {
+      "id": "ram_hd",
+      "old_2027": {
+        "downside": 155000,
+        "base": 172000,
+        "upside": 185000
+      },
+      "old_2028": {
+        "downside": 150000,
+        "base": 174000,
+        "upside": 195000
+      },
+      "old_method": "D097: Commercial replacement and refresh support stable relative position. Total light-vehicle growth is only a modest cycle proxy for this partly different population; no HD boom assumed. Base2027/28 172000/174000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
+      "old_method_evidence_verdict": "Descriptive source evidence may support direction or operating level; D097 forward coefficients were assumed and not independently calibrated.",
+      "action": "Remove generic light-vehicle market growth; use commercial/pickup operating benchmarks.",
+      "2027": {
+        "downside": 164000,
+        "base": 170000,
+        "upside": 186000
+      },
+      "2028": {
+        "downside": 160000,
+        "base": 170000,
+        "upside": 186000
+      },
+      "delta_2027_versus_old_base": -2000,
+      "delta_2028_versus_old_base": -4000,
+      "construction": "170k rounds2025 actual169,920 and sits between current YTD/Q3 pace164k and trailing174k. Restoring186k would recover the2024 level; it is an upside scenario, not a presumed outcome of the refresh. Hold170k in2028 because neither the supplier improvement nor current commercial data quantifies further gains.",
+      "sources": [
+        "N07",
+        "N09",
+        "R_RAM"
+      ],
+      "magnitude_status": "Conditional judgment anchored to observed volumes; no fitted elasticity or independently validated2028 point estimate."
+    },
+    {
+      "id": "grand_cherokee",
+      "old_2027": {
+        "downside": 155000,
+        "base": 190000,
+        "upside": 230000
+      },
+      "old_2028": {
+        "downside": 155000,
+        "base": 190000,
+        "upside": 240000
+      },
+      "old_method": "D097: Limited2027 stabilization;2028 utility-category growth offset by hybrid competition, product/value concerns and internal Cherokee substitution. These effects share one company factor, not separate deductions. Base2027/28 190000/190000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
+      "old_method_evidence_verdict": "Descriptive source evidence may support direction or operating level; D097 forward coefficients were assumed and not independently calibrated.",
+      "action": "Retain190k as an explicitly conditional level; reject the offsetting generic growth factors.",
+      "2027": {
+        "downside": 152000,
+        "base": 190000,
+        "upside": 210000
+      },
+      "2028": {
+        "downside": 150000,
+        "base": 190000,
+        "upside": 216000
+      },
+      "delta_2027_versus_old_base": 0,
+      "delta_2028_versus_old_base": 0,
+      "construction": "2026 YTD adjusted only by the2025 Q4 share gives190,388; trailing sales195,625 and unadjustedYTD186,352 surround190k. H1 pace203,474 is an upside check, not the base.2025 seasonality itself includes channel effects and the choice to reuse it is an assumption. Maintain190k in2028 before the separately displayed launch-substitution sensitivity; do not assume a second shutdown rebound or recovery to244.6k.",
+      "sources": [
+        "N09",
+        "N12",
+        "R_GC",
+        "R_SHIP"
+      ],
+      "magnitude_status": "Conditional judgment anchored to observed volumes; no fitted elasticity or independently validated2028 point estimate."
+    },
+    {
+      "id": "wrangler",
+      "old_2027": {
+        "downside": 155000,
+        "base": 179000,
+        "upside": 190000
+      },
+      "old_2028": {
+        "downside": 150000,
+        "base": 177000,
+        "upside": 200000
+      },
+      "old_method": "D097: Modest near-term retention/recovery; subsequent competition and powertrain-retention risk erode relative performance. No transfer of broad crossover growth to this specialist product. Base2027/28 179000/177000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
+      "old_method_evidence_verdict": "Descriptive source evidence may support direction or operating level; D097 forward coefficients were assumed and not independently calibrated.",
+      "action": "Replace market/category/company percentages with an observed current operating level.",
+      "2027": {
+        "downside": 167000,
+        "base": 175000,
+        "upside": 179000
+      },
+      "2028": {
+        "downside": 155000,
+        "base": 175000,
+        "upside": 190000
+      },
+      "delta_2027_versus_old_base": -4000,
+      "delta_2028_versus_old_base": -2000,
+      "construction": "2026 YTD annualized174,681 supports175k; H1 pace172,508 and Q3 pace179,028 are nearby.2025 actual167,322 provides the lower recent annual comparison.175k in2028 means maintaining this franchise despite Bronco competition, not assuming share recapture or a halo-edition multiplier.",
+      "sources": [
+        "N09",
+        "N13",
+        "R_JEEP"
+      ],
+      "magnitude_status": "Conditional judgment anchored to observed volumes; no fitted elasticity or independently validated2028 point estimate."
+    },
+    {
+      "id": "minivans",
+      "old_2027": {
+        "downside": 125000,
+        "base": 145000,
+        "upside": 155000
+      },
+      "old_2028": {
+        "downside": 120000,
+        "base": 149000,
+        "upside": 160000
+      },
+      "old_method": "D097: Recent segment expansion and family utility support above-market growth, decelerating sharply from2025 rival growth. Retail entry/refreshed offer helps2027; Sienna/Carnival hybrid competition andPHEVexit constrain relative2028 performance. Base2027/28 145000/149000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
+      "old_method_evidence_verdict": "Descriptive source evidence may support direction or operating level; D097 forward coefficients were assumed and not independently calibrated.",
+      "action": "Remove unsupported category-growth and company-share coefficients; treat family sales consistently.",
+      "2027": {
+        "downside": 126000,
+        "base": 140000,
+        "upside": 150000
+      },
+      "2028": {
+        "downside": 120000,
+        "base": 140000,
+        "upside": 160000
+      },
+      "delta_2027_versus_old_base": -5000,
+      "delta_2028_versus_old_base": -9000,
+      "construction": "Trailing137,236,Q3x4 137,964 and2025-seasonality-adjustedYTD141,755 support a rounded140k level. The MY2027 refresh was scheduled for summer2026 and is already partly in the observation window; it is not another full new-product event in2027. Hold140k in2028 before crossover-substitution sensitivity: utility differentiation supports retention, but hybrid competition and unknown fleet exposure prevent underwriting an extra9k.",
+      "sources": [
+        "N10",
+        "N11",
+        "N12",
+        "N16",
+        "R_CD"
+      ],
+      "magnitude_status": "Conditional judgment anchored to observed volumes; no fitted elasticity or independently validated2028 point estimate."
+    },
+    {
+      "id": "promaster",
+      "old_2027": {
+        "downside": 50000,
+        "base": 60000,
+        "upside": 68000
+      },
+      "old_2028": {
+        "downside": 48000,
+        "base": 61000,
+        "upside": 70000
+      },
+      "old_method": "D097: Modest route/replacement growth; City may divert some marginal smaller-load buyers in2028. Upfit and fleet acceptance remain gates. Base2027/28 60000/61000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
+      "old_method_evidence_verdict": "Descriptive source evidence may support direction or operating level; D097 forward coefficients were assumed and not independently calibrated.",
+      "action": "Replace automatic growth with a fleet-replacement level.",
+      "2027": {
+        "downside": 55000,
+        "base": 58000,
+        "upside": 65000
+      },
+      "2028": {
+        "downside": 50000,
+        "base": 58000,
+        "upside": 66000
+      },
+      "delta_2027_versus_old_base": -2000,
+      "delta_2028_versus_old_base": -3000,
+      "construction": "YTDannualized58,707,TTM56,325 and2019 56,409 support58k;Q3x4 65,256 is the stronger case.2023 81,663 did not persist and has no verified backlog mechanism for restoration. City-related substitution is in the separate portfolio sensitivity, not another hidden negative factor.",
+      "sources": [
+        "R_RAM",
+        "N09"
+      ],
+      "magnitude_status": "Conditional judgment anchored to observed volumes; no fitted elasticity or independently validated2028 point estimate."
+    },
+    {
+      "id": "gladiator",
+      "old_2027": {
+        "downside": 35000,
+        "base": 43000,
+        "upside": 55000
+      },
+      "old_2028": {
+        "downside": 30000,
+        "base": 43000,
+        "upside": 60000
+      },
+      "old_method": "D097: Niche positioning limits benefit from crossover growth; competition/internal launch risk offsets some market expansion. Rounded flat volume is an outcome, not an input. Base2027/28 43000/43000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
+      "old_method_evidence_verdict": "Descriptive source evidence may support direction or operating level; D097 forward coefficients were assumed and not independently calibrated.",
+      "action": "Use observed product-cycle and seasonal ranges; no generic pickup uplift.",
+      "2027": {
+        "downside": 38000,
+        "base": 45000,
+        "upside": 57000
+      },
+      "2028": {
+        "downside": 35000,
+        "base": 45000,
+        "upside": 57000
+      },
+      "delta_2027_versus_old_base": 2000,
+      "delta_2028_versus_old_base": 2000,
+      "construction": "2025-seasonality-adjustedYTD45,629 andQ3pace47,644 support45k, balanced byH1pace38,066.2024actual42,123 is corroborating scale, not evidence the same causes recur.2028 central45k is before explicit Dakota-substitution sensitivity; it is not an assertion that new competition has no effect.",
+      "sources": [
+        "N14",
+        "R_JEEP"
+      ],
+      "magnitude_status": "Conditional judgment anchored to observed volumes; no fitted elasticity or independently validated2028 point estimate."
+    },
+    {
+      "id": "compass",
+      "old_2027": {
+        "downside": 40000,
+        "base": 63000,
+        "upside": 85000
+      },
+      "old_2028": {
+        "downside": 35000,
+        "base": 62000,
+        "upside": 90000
+      },
+      "old_method": "D097: Affordable crossover opportunity is favorable, but cheaper rivals, hybrid alternatives and returning Cherokee pressure its relative position. No unsupported broad restoration toH1pace. Base2027/28 63000/62000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
+      "old_method_evidence_verdict": "Descriptive source evidence may support direction or operating level; D097 forward coefficients were assumed and not independently calibrated.",
+      "action": "Separate partial supply repair from longstanding product/competitive weakness.",
+      "2027": {
+        "downside": 43000,
+        "base": 65000,
+        "upside": 74000
+      },
+      "2028": {
+        "downside": 40000,
+        "base": 65000,
+        "upside": 80000
+      },
+      "delta_2027_versus_old_base": 2000,
+      "delta_2028_versus_old_base": 3000,
+      "construction": "CurrentYTDpace63,783 andTTM66,914 support65k. H1pace74,052 predates theQ3 interruption but already reflected majorYoY losses. Neither the25k NAwholesale reduction nor European new-generation timing supports restoration to102k USsales.2028 central65k is before launch-substitution sensitivity; exact US replacement timing remains unresolved.",
+      "sources": [
+        "R_JEEP",
+        "R_SHIP"
+      ],
+      "magnitude_status": "Conditional judgment anchored to observed volumes; no fitted elasticity or independently validated2028 point estimate."
+    },
+    {
+      "id": "cherokee",
+      "old_2027": {
+        "downside": 35000,
+        "base": 55000,
+        "upside": 75000
+      },
+      "old_2028": {
+        "downside": 40000,
+        "base": 70000,
+        "upside": 100000
+      },
+      "old_method": "Constrained ramp: Q4 9/13/17k; base 4.3k/month versus Q3 3.45k, before promised H1 2027 value actions. 2027 35/55/75k and 2028 40/70/100k require base 4.6k then 5.8k monthly, not old 191k. Downside trims stay uneconomic; upside timely broad offer and conquest. No mechanically borrowed Trax ramp.",
+      "old_method_evidence_verdict": "Descriptive source evidence may support direction or operating level; D097 forward coefficients were assumed and not independently calibrated.",
+      "action": "Replace55k/70k with an explicit, conditional trim-availability ramp.",
+      "2027": {
+        "downside": 33000,
+        "base": 45000,
+        "upside": 60000
+      },
+      "2028": {
+        "downside": 35000,
+        "base": 48000,
+        "upside": 70000
+      },
+      "delta_2027_versus_old_base": -10000,
+      "delta_2028_versus_old_base": -22000,
+      "construction": "ObservedQ3rate is3,448/month. Central2027 assumes3,500/month inH1 and4,000 inH2 after the promised more competitive trims:21k+24k=45k.2028 carries that4,000 exit pace for12months=48k, with no further rate acceleration. The extra552/month overQ3 is an assumed response, not a measured price elasticity; delivery economics and conversion must validate it.",
+      "sources": [
+        "N11",
+        "N12",
+        "R_JEEP"
+      ],
+      "magnitude_status": "Conditional judgment anchored to observed volumes; no fitted elasticity or independently validated2028 point estimate."
+    },
+    {
+      "id": "wagoneer_family",
+      "old_2027": {
+        "downside": 40000,
+        "base": 57000,
+        "upside": 65000
+      },
+      "old_2028": {
+        "downside": 40000,
+        "base": 58000,
+        "upside": 70000
+      },
+      "old_method": "D097: Utility demand helps; early2026 strength is not fully extrapolated. Stable2028 relative position requires viable entry pricing. No badge-based premium-mix uplift. Base2027/28 57000/58000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
+      "old_method_evidence_verdict": "Descriptive source evidence may support direction or operating level; D097 forward coefficients were assumed and not independently calibrated.",
+      "action": "Maintain the regrouped family at a defensible recent pace.",
+      "2027": {
+        "downside": 45000,
+        "base": 55000,
+        "upside": 60000
+      },
+      "2028": {
+        "downside": 45000,
+        "base": 55000,
+        "upside": 65000
+      },
+      "delta_2027_versus_old_base": -2000,
+      "delta_2028_versus_old_base": -3000,
+      "construction": "CurrentYTDpace56,856,TTM53,010 and2025-seasonality-adjustedYTD55,393 anchor55k. Q3pace49,980 is belowH1pace60,294, so no automatic continuation of early rebound. Wagoneer/Grand Wagoneer naming changes create no sales.2028 upside requires retaining a stronger luxury-family offering; central55k assumes no further proven rate gain.",
+      "sources": [
+        "N11",
+        "R_JEEP"
+      ],
+      "magnitude_status": "Conditional judgment anchored to observed volumes; no fitted elasticity or independently validated2028 point estimate."
+    },
+    {
+      "id": "durango",
+      "old_2027": {
+        "downside": 75000,
+        "base": 89000,
+        "upside": 100000
+      },
+      "old_2028": {
+        "downside": 70000,
+        "base": 88000,
+        "upside": 105000
+      },
+      "old_method": "D097: Utility and better performance content support2027; aging architecture, fuel-cost exposure and modern alternatives create2028 erosion. Recovery already achieved is not added twice. Base2027/28 89000/88000. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
+      "old_method_evidence_verdict": "Descriptive source evidence may support direction or operating level; D097 forward coefficients were assumed and not independently calibrated.",
+      "action": "Anchor to an already recovered product, not a depressed2024 base.",
+      "2027": {
+        "downside": 77000,
+        "base": 88000,
+        "upside": 91000
+      },
+      "2028": {
+        "downside": 70000,
+        "base": 88000,
+        "upside": 100000
+      },
+      "delta_2027_versus_old_base": -1000,
+      "delta_2028_versus_old_base": 0,
+      "construction": "TTM88,081 andQ3pace91,020 support88k;H1pace77,150 is weaker. Recent retail growth supports real customer activity, but recovery started before the2026 R/T392 production milestone. Central88k in2028 requires retention of its differentiated performance/utility niche and does not assume an undated full replacement.",
+      "sources": [
+        "N11",
+        "R_CD"
+      ],
+      "magnitude_status": "Conditional judgment anchored to observed volumes; no fitted elasticity or independently validated2028 point estimate."
+    },
+    {
+      "id": "charger",
+      "old_2027": {
+        "downside": 12000,
+        "base": 20000,
+        "upside": 30000
+      },
+      "old_2028": {
+        "downside": 12000,
+        "base": 25000,
+        "upside": 40000
+      },
+      "old_method": "Q3×4=14,716. 2027 base20k requires5k/quarter (+36% versusQ3), 2028 base25k requires6.25k/quarter. These are explicit execution assumptions, not fitted elasticities. Downcase12/12k stagnates; up30/40k requires materially faster conversion and broader appealing variants.",
+      "old_method_evidence_verdict": "Descriptive source evidence may support direction or operating level; D097 forward coefficients were assumed and not independently calibrated.",
+      "action": "Remove an unmeasured50%/25% ramp; keep observed demand scale and explicit upside.",
+      "2027": {
+        "downside": 12000,
+        "base": 15000,
+        "upside": 25000
+      },
+      "2028": {
+        "downside": 10000,
+        "base": 15000,
+        "upside": 30000
+      },
+      "delta_2027_versus_old_base": -5000,
+      "delta_2028_versus_old_base": -10000,
+      "construction": "CombinedICE+BEVQ3 3,679 implies14,716 annual units, rounding15k.2026 YTDpace11,728 is lower but includes the delivery ramp. Central15k assumes the current quarterly pace persists. The return of gasoline/two- and four-door choice creates upside; without orders or retail conversion evidence it does not itself establish20k/25k. This is a no-further-share-gain planning case, not proof demand is capped at15k.",
+      "sources": [
+        "N11",
+        "N13",
+        "R_CD"
+      ],
+      "magnitude_status": "Conditional judgment anchored to observed volumes; no fitted elasticity or independently validated2028 point estimate."
+    },
+    {
+      "id": "fiat_alfa",
+      "old_2027": {
+        "downside": 2000,
+        "base": 3200,
+        "upside": 5000
+      },
+      "old_2028": {
+        "downside": 1500,
+        "base": 3100,
+        "upside": 6000
+      },
+      "old_method": "D097: No verified mass-market value/hybrid repositioning sufficient to hold share. Small-footprint erosion; rounding to100units is arithmetic presentation, not high confidence. Base2027/28 3200/3100. Explicit market/segment/company assumptions and exact rounding bridge in segment-growth-assumptions.json. Forward percentages are judgments, not observed growth or fitted causal coefficients. No separate duplicate mix, incentive or cannibalization uplift.",
+      "old_method_evidence_verdict": "Descriptive source evidence may support direction or operating level; D097 forward coefficients were assumed and not independently calibrated.",
+      "action": "Replace arbitrary percentage losses with small-brand current-rate cases.",
+      "2027": {
+        "downside": 2500,
+        "base": 3000,
+        "upside": 4000
+      },
+      "2028": {
+        "downside": 2000,
+        "base": 3000,
+        "upside": 5000
+      },
+      "delta_2027_versus_old_base": -200,
+      "delta_2028_versus_old_base": -100,
+      "construction": "CurrentQ3pace2,492,TTM3,565 and2025-seasonality-adjustedYTD3,022 support3k. No separately underwritten majorUSlaunch is assumed through2028. This aggregation is proportionate to less than0.3% ofUSYTDsales.",
+      "sources": [
+        "R_CD"
+      ],
+      "magnitude_status": "Conditional judgment anchored to observed volumes; no fitted elasticity or independently validated2028 point estimate."
+    },
+    {
+      "id": "hornet",
+      "old_2027": {
+        "downside": 0,
+        "base": 100,
+        "upside": 500
+      },
+      "old_2028": {
+        "downside": 0,
+        "base": 0,
+        "upside": 100
+      },
+      "old_method": "Q4 base100 close to latest85. 2027 base100 residual stock;2028 base0 explicitly assumes no production restart, not observed future zero. Upper cases allow a small stock tail only; a verified restart requires a new forecast.",
+      "old_method_evidence_verdict": "Descriptive source evidence may support direction or operating level; D097 forward coefficients were assumed and not independently calibrated.",
+      "action": "Retain small runoff, not a recovery.",
+      "2027": {
+        "downside": 0,
+        "base": 100,
+        "upside": 300
+      },
+      "2028": {
+        "downside": 0,
+        "base": 0,
+        "upside": 200
+      },
+      "delta_2027_versus_old_base": 0,
+      "delta_2028_versus_old_base": 0,
+      "construction": "Q3only85units and official indefinite production pause support a small2027 stock tail, then zero central2028. GLH is tracked separately; it cannot be credited as Hornet retention without a dated replacement.",
+      "sources": [
+        "R_CD"
+      ],
+      "magnitude_status": "Conditional judgment anchored to observed volumes; no fitted elasticity or independently validated2028 point estimate."
+    },
+    {
+      "id": "dodge_other",
+      "old_2027": {
+        "downside": 0,
+        "base": 50,
+        "upside": 200
+      },
+      "old_2028": {
+        "downside": 0,
+        "base": 0,
+        "upside": 100
+      },
+      "old_method": "Residual numerical row models onlysmalllegacy tail; new GLHnull until milestones. No resurrection of the old 157kcombinedmuscle-carpeak.",
+      "old_method_evidence_verdict": "Descriptive source evidence may support direction or operating level; D097 forward coefficients were assumed and not independently calibrated.",
+      "action": "Retain explicit legacy tail.",
+      "2027": {
+        "downside": 0,
+        "base": 50,
+        "upside": 200
+      },
+      "2028": {
+        "downside": 0,
+        "base": 0,
+        "upside": 100
+      },
+      "delta_2027_versus_old_base": 0,
+      "delta_2028_versus_old_base": 0,
+      "construction": "Latest Dodge brand less named models leaves159YTDvehicles and27Q3;50vehicles in2027 is an immaterial rundown convention. Zero2028 is an assumption about stock exhaustion, not reported inventory.",
+      "sources": [
+        "N11",
+        "R_CD"
+      ],
+      "magnitude_status": "Conditional judgment anchored to observed volumes; no fitted elasticity or independently validated2028 point estimate."
+    },
+    {
+      "id": "promaster_city",
+      "old_2027": {
+        "downside": 0,
+        "base": 10000,
+        "upside": 20000
+      },
+      "old_2028": {
+        "downside": 5000,
+        "base": 15000,
+        "upside": 25000
+      },
+      "old_method": "Q4zero new-generation sales undercurrentarrivalplan; oldrunoff0–2scenario.2027base10000=833/month averagedyear,2028base15000=1250/month; requiresQ1arrival, functioningupfitprocess andrepeatcommercialorders. Down0/5000allowsdelay orweakconversion;up20000/25000needsdemonstratedconquest. Noempirical launchcoefficient supports these rates; explicit scenario sizes only.",
+      "old_method_evidence_verdict": "Product plan is evidenced; exact delivery dates, attainable volumes and substitution are not measured.",
+      "action": "Replace missing allocation or unsupported ramp with explicitly conditional timing/uptake cases.",
+      "2027": {
+        "downside": 0,
+        "base": 10000,
+        "upside": 20000
+      },
+      "2028": {
+        "downside": 5000,
+        "base": 13000,
+        "upside": 25000
+      },
+      "delta_2027_versus_old_base": 0,
+      "delta_2028_versus_old_base": -2000,
+      "construction": "OldCity2018/19 sales13.8k/12.9k support a roughly13k established-franchise reference, not a guarantee for the larger/pricier replacement.2027 10k allows ramping;2028 13k represents recovery of that historical scale. Quarterly2027 1/2/3/4k is a scenario totaling10k, not sourced quarterly timing.",
+      "sources": [
+        "R_RAM",
+        "N14"
+      ],
+      "magnitude_status": "Analogy or stated scenario, not management guidance or statistical expected value."
+    },
+    {
+      "id": "chrysler_new",
+      "old_2027": null,
+      "old_2028": null,
+      "old_method": "Launch equation requires verified months-on-sale, achievable selling pace and ramp. Missing inputs remainnull; legacy residual separately approacheszero. Do not insert2030matureunits in 2028.",
+      "old_method_evidence_verdict": "Product plan is evidenced; exact delivery dates, attainable volumes and substitution are not measured.",
+      "action": "Replace missing allocation or unsupported ramp with explicitly conditional timing/uptake cases.",
+      "2027": {
+        "downside": 0,
+        "base": 10000,
+        "upside": 20000
+      },
+      "2028": {
+        "downside": 0,
+        "base": 50000,
+        "upside": 90000
+      },
+      "delta_2027_versus_old_base": null,
+      "delta_2028_versus_old_base": null,
+      "construction": "Central assumes limitedH22027 sales totaling10k, then50k across ALL THREE crossovers in2028. Scale benchmark: Envista13,302 in its2023 launch year and51,316 in2024. We allocate one Envista-sized annual franchise across the Chrysler family, not three successes. Hornet9,336→20,559→9,365 is the internal failed-launch counterexample.50k is an analogy-based planning case, not a statistically estimated Chrysler outcome; its affordability, tariff and branding differences remain uncalibrated.",
+      "sources": [
+        "N01",
+        "N02",
+        "N03",
+        "N04",
+        "N05",
+        "N06",
+        "R_CD"
+      ],
+      "magnitude_status": "Analogy or stated scenario, not management guidance or statistical expected value."
+    },
+    {
+      "id": "ram_dakota",
+      "old_2027": null,
+      "old_2028": null,
+      "old_method": "Leave units null and unallocated. No identified 2027 customer launch; only partial-year potential in 2028. A dated delivery window and US price are needed for a unit ramp. Missing information is not numerical zero.",
+      "old_method_evidence_verdict": "Product plan is evidenced; exact delivery dates, attainable volumes and substitution are not measured.",
+      "action": "Replace missing allocation or unsupported ramp with explicitly conditional timing/uptake cases.",
+      "2027": {
+        "downside": 0,
+        "base": 0,
+        "upside": 5000
+      },
+      "2028": {
+        "downside": 0,
+        "base": 20000,
+        "upside": 40000
+      },
+      "delta_2027_versus_old_base": null,
+      "delta_2028_versus_old_base": null,
+      "construction": "Central assumesH22028 UScustomer arrival with5k then15k quarter sales=20k. Comparison: Gladiator sold23,384 between itsMay2019 debut andSeptember, and40,047 throughDecember. Dakota20k over an assumed six-month window is below that enthusiast-launch scale; different price, competitive set and brand appeal make this a capacity/uptake scenario, not a transferable demand coefficient.",
+      "sources": [
+        "N01",
+        "N14",
+        "R_LAUNCH"
+      ],
+      "magnitude_status": "Analogy or stated scenario, not management guidance or statistical expected value."
+    },
+    {
+      "id": "ram_compact",
+      "old_2027": null,
+      "old_2028": null,
+      "old_method": "Leave units null and unallocated. No identified 2027 customer launch; only partial-year potential in 2028. A dated delivery window and US price are needed for a unit ramp. Missing information is not numerical zero.",
+      "old_method_evidence_verdict": "Product plan is evidenced; exact delivery dates, attainable volumes and substitution are not measured.",
+      "action": "Replace missing allocation or unsupported ramp with explicitly conditional timing/uptake cases.",
+      "2027": {
+        "downside": 0,
+        "base": 0,
+        "upside": 5000
+      },
+      "2028": {
+        "downside": 0,
+        "base": 10000,
+        "upside": 35000
+      },
+      "delta_2027_versus_old_base": null,
+      "delta_2028_versus_old_base": null,
+      "construction": "Central10k assumes laterH22028 entry with3k then7k quarterly. It is a weaker planning input than Dakota: no matched USlaunch benchmark was recovered in this pass. The truck addresses a different use case; Maverick hybrid success demonstrates the relevance of price/powertrain, not transferability to Rampage-based Ram. Treat the10k as explicitly low-confidence and removable, not a sourced estimate.",
+      "sources": [
+        "N01",
+        "N09",
+        "R_LAUNCH"
+      ],
+      "magnitude_status": "Analogy or stated scenario, not management guidance or statistical expected value."
+    },
+    {
+      "id": "ram_suv",
+      "old_2027": null,
+      "old_2028": null,
+      "old_method": "Leave units null and unallocated. No identified 2027 customer launch; only partial-year potential in 2028. A dated delivery window and US price are needed for a unit ramp. Missing information is not numerical zero.",
+      "old_method_evidence_verdict": "Product plan is evidenced; exact delivery dates, attainable volumes and substitution are not measured.",
+      "action": "Replace missing allocation or unsupported ramp with explicitly conditional timing/uptake cases.",
+      "2027": {
+        "downside": 0,
+        "base": 0,
+        "upside": 0
+      },
+      "2028": {
+        "downside": 0,
+        "base": 0,
+        "upside": 10000
+      },
+      "delta_2027_versus_old_base": null,
+      "delta_2028_versus_old_base": null,
+      "construction": "Explicit zero central through2028 is a timing decision, not cancellation or zero demand. Optional10k2028 sensitivity is an illustrative partial launch, not a model forecast calibrated from demand.",
+      "sources": [
+        "R_LAUNCH"
+      ],
+      "magnitude_status": "Analogy or stated scenario, not management guidance or statistical expected value."
+    },
+    {
+      "id": "wagoneer_s",
+      "old_2027": null,
+      "old_2028": null,
+      "old_method": "Leave annual and Q4 units unallocated pending dated restart, supply and payment evidence. Tiny Q3 pace is not mature potential; no fabricated ramp.",
+      "old_method_evidence_verdict": "Product plan is evidenced; exact delivery dates, attainable volumes and substitution are not measured.",
+      "action": "Replace missing allocation or unsupported ramp with explicitly conditional timing/uptake cases.",
+      "2027": {
+        "downside": 500,
+        "base": 600,
+        "upside": 3000
+      },
+      "2028": {
+        "downside": 0,
+        "base": 600,
+        "upside": 5000
+      },
+      "delta_2027_versus_old_base": null,
+      "delta_2028_versus_old_base": null,
+      "construction": "Q3 146 implies584annual units; round600 rather than leave blank. Prior2025 10,864 was not sustained. Central600 is a current-scale continuation; substantial restart remains upside, not another restored2025 cohort.",
+      "sources": [
+        "N11",
+        "R_JEEP"
+      ],
+      "magnitude_status": "Analogy or stated scenario, not management guidance or statistical expected value."
+    },
+    {
+      "id": "recon",
+      "old_2027": null,
+      "old_2028": null,
+      "old_method": "Unallocated through 2028 until production/delivered-stock and payment evidence establish a ramp; do not silently treat as zero potential.",
+      "old_method_evidence_verdict": "Product plan is evidenced; exact delivery dates, attainable volumes and substitution are not measured.",
+      "action": "Replace missing allocation or unsupported ramp with explicitly conditional timing/uptake cases.",
+      "2027": {
+        "downside": 0,
+        "base": 100,
+        "upside": 5000
+      },
+      "2028": {
+        "downside": 0,
+        "base": 100,
+        "upside": 10000
+      },
+      "delta_2027_versus_old_base": null,
+      "delta_2028_versus_old_base": null,
+      "construction": "Current annual pace109–140 supports only a100vehicle maintenance case. This is not a forecast of mature Recon demand.5k/10k upside is a broad launch sensitivity requiring evidence of scaled production and funded orders; no automatic Wrangler cannibalization rate.",
+      "sources": [
+        "N11",
+        "R_JEEP",
+        "R_LAUNCH"
+      ],
+      "magnitude_status": "Analogy or stated scenario, not management guidance or statistical expected value."
+    },
+    {
+      "id": "dodge_glh",
+      "old_2027": null,
+      "old_2028": null,
+      "old_method": "Not a distinct numerical forecast row.",
+      "old_method_evidence_verdict": "Product plan is evidenced; exact delivery dates, attainable volumes and substitution are not measured.",
+      "action": "Replace missing allocation or unsupported ramp with explicitly conditional timing/uptake cases.",
+      "2027": {
+        "downside": 0,
+        "base": 0,
+        "upside": 0
+      },
+      "2028": {
+        "downside": 0,
+        "base": 0,
+        "upside": 15000
+      },
+      "delta_2027_versus_old_base": null,
+      "delta_2028_versus_old_base": null,
+      "construction": "Zero central is a timing assumption.15k partial-year2028 upside is a scenario of a modest launch, smaller than Hornet firstfull-year20,559; not proofGLHshares its demand. Track separately from Hornet and legacy runoff.",
+      "sources": [
+        "R_LAUNCH",
+        "R_CD"
+      ],
+      "magnitude_status": "Analogy or stated scenario, not management guidance or statistical expected value."
+    },
+    {
+      "id": "renegade",
+      "old_2027": null,
+      "old_2028": null,
+      "old_method": null,
+      "old_method_evidence_verdict": null,
+      "action": "Explicit immaterial legacy tail; no historical residual dropped.",
+      "2027": {
+        "downside": 0,
+        "base": 50,
+        "upside": 200
+      },
+      "2028": {
+        "downside": 0,
+        "base": 0,
+        "upside": 100
+      },
+      "delta_2027_versus_old_base": null,
+      "delta_2028_versus_old_base": null,
+      "construction": "50units in2027,zero2028 is a rundown convention. Actual residual inventory unavailable.",
+      "sources": [
+        "N11",
+        "R_HISTORY"
+      ],
+      "magnitude_status": "Assumed immaterial runoff."
+    },
+    {
+      "id": "chrysler_runoff",
+      "old_2027": null,
+      "old_2028": null,
+      "old_method": null,
+      "old_method_evidence_verdict": null,
+      "action": "Explicit immaterial legacy tail; no historical residual dropped.",
+      "2027": {
+        "downside": 0,
+        "base": 50,
+        "upside": 200
+      },
+      "2028": {
+        "downside": 0,
+        "base": 0,
+        "upside": 100
+      },
+      "delta_2027_versus_old_base": null,
+      "delta_2028_versus_old_base": null,
+      "construction": "50units in2027,zero2028 is a rundown convention. Actual residual inventory unavailable.",
+      "sources": [
+        "N11",
+        "R_HISTORY"
+      ],
+      "magnitude_status": "Assumed immaterial runoff."
+    }
+  ]
+}
