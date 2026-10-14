@@ -30,5 +30,17 @@
     "STLA_vs_peer_adjusted_component_cost_gap": null,
     "new_calibrated_driver_savings_rates": null
   },
-  "source_register": "vcp-historical-benchmark-replacement.md"
+  "source_register": "vcp-historical-benchmark-replacement.md",
+  "user_update_2026_10_14": {
+    "instruction": "Use Renault EUR400 per vehicle anchor instead of unsupported components4.2%; verify delivery periods.",
+    "treatment": "Selected components-led proxy, broader variable COGS scope retained; no clean additive VCP total until overlap reconciled.",
+    "warranty_5_10_percent": "Withdrawn as base-case recommendation; illustrative sensitivity only, no empirical calibration.",
+    "two_full_delivery_cycles": {
+      "annual_saving_after_first_EURbn": 0.5888,
+      "annual_saving_after_second_EURbn": 1.1776,
+      "sum_of_two_full_year_benefits_if_recognized_throughout_each_year_EURbn": 1.7664
+    },
+    "calendar_warning": "Two prospective full cycles are not automatically three cycles vs2025. 2026 recognized benefit and 2028 average vs exit rate remain to be established.",
+    "workbook_changed": false
+  }
 }
