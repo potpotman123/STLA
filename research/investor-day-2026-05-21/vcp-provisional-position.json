@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-14",
+  "status": "Provisional analyst position; no approved final forecast or workbook edits",
+  "basis": "Annual recurring operational opportunity at reference volume, not annual incremental saving",
+  "components": {
+    "assumed_base_EURbn": 35,
+    "selected_cumulative_rate": 0.03,
+    "annual_opportunity_EURbn": 1.05,
+    "rate_scenarios": [
+      0.02,
+      0.03,
+      0.05
+    ],
+    "classification": "Judgment informed by Nissan purchasing precedent and Renault broad cross-check, not empirically calibrated"
+  },
+  "manufacturing": {
+    "assumed_cash_base_EURbn": 7,
+    "benchmark_rate": 0.083,
+    "annual_opportunity_EURbn": 0.581
+  },
+  "logistics": {
+    "assumed_base_EURbn": 1.5,
+    "benchmark_rate": 0.17,
+    "annual_opportunity_EURbn": 0.255
+  },
+  "warranty": {
+    "annual_opportunity_EURbn": null
+  },
+  "indirect": {
+    "annual_opportunity_EURbn": null
+  },
+  "depreciation": {
+    "credited_savings_EURbn": 0
+  },
+  "quantified_subtotal_EURbn": 1.886,
+  "component_scenario_subtotals_EURbn": [
+    1.536,
+    1.886,
+    2.586
+  ],
+  "calendar_timing_selected": false,
+  "flat_full_delivery_illustration_only": {
+    "2027": 1.886,
+    "2028": 1.886,
+    "quarter": 0.4715,
+    "two_year_total": 3.772
+  },
+  "limitations": [
+    "Manufacturing utilization double counting unresolved",
+    "Logistics whole-network applicability assumed",
+    "Warranty/indirect unestimated, not expected zero",
+    "Renault is cross-check only, not additional savings",
+    "Execution, inflation and pricing offsets not deducted"
+  ],
+  "note": "vcp-provisional-position.md"
+}
