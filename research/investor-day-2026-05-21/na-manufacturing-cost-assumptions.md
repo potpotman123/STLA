@@ -2,13 +2,15 @@
 
 14 October 2026. North America only. 2025-reference annual EUR costs; NOT a verified actual, 2026 run rate or forecast savings. The country breakdown below is supporting research, not new Canada/Mexico revenue tabs. No workbook changed.
 
+> Validation update: see [manufacturing-input-validation.md](manufacturing-input-validation.md). The EUR5.5bn labor proposal is an unvalidated scenario; current evidence does not justify it as a central estimate.
+
 ## Proposed working inputs
 
 - Plant labor: 5.5bn rounded central case; explicit joint low/high assumptions produce 4.195–6.825bn. This supersedes using the old 3.9bn blue-collar-only allocation as a complete labor denominator. Neither estimate is reported expense.
 - Maintenance/energy/other cash plant costs: full total remains unknown. Energy-only working estimate approximately 0.3bn; cannot pretend this is the whole subgroup.
 - Depreciation: 1.8bn rounded central allocation case, with 1.38–2.18bn sensitivity. Weakest element is regional allocation; no regional manufacturing D&A disclosure established.
 
-These are transparent provisional model assumptions, not empirically estimated ranges. Labor can be used provisionally with sensitivity; D&A is a placeholder allocation only. Do not sum to a complete transformation base or choose a savings rate yet.
+These are transparent provisional model assumptions, not empirically estimated ranges. Labor is retained for sensitivity only, pending input validation; D&A is a placeholder allocation only. Do not sum to a complete transformation base or choose a savings rate yet.
 
 ## Labor reconstruction
 

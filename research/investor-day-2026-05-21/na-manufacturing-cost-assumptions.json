@@ -83,7 +83,7 @@
       6.825000000000001
     ],
     "rounded_working_central_EURbn": 5.5,
-    "confidence": "Low-to-moderate; historical observed anchors, assumed current scope/headcount and loaded pay",
+    "confidence": "Low; user challenge identified unvalidated country staffing and loaded pay. Scenario only, not validated central estimate.",
     "replaces": "Prior 3.9bn top-down blue-collar sensitivity was not a full NA labor estimate"
   },
   "cash_plant_costs": {
@@ -134,5 +134,6 @@
     "Fixed-volume efficiency separate from higher-volume absorption.",
     "2025-reference bases require volume/pay/FX/asset adjustments for later years.",
     "Quarterly savings remain annual recognized savings divided by four."
-  ]
+  ],
+  "validation_follow_up": "manufacturing-input-validation.md"
 }
