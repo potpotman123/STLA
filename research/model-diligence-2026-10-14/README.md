@@ -97,3 +97,7 @@ Management's 2025–2030 American-brand NA target remains 1.431m to 1.925m. Our 
 4. **Firm customer-arrival dates for 2028 launches.** Individual SOP, dealer arrival, prices and initial funded orders for Dakota/compact Ram/Chrysler crossovers determine whether meaningful 2028 units belong in the model.
 
 If AlphaSense is used again, the highest-value request is one late-Q3/Q4 2026 US CDJR dealer principal or inventory manager interview discussing completed fresh Ram/Jeep orders, actual earned support and model-specific turn. For public dealer calls, Asbury Q2 2026 and its Q3 2026 call when published are the targeted next pair; group-wide GPU alone will not resolve the question. No broad transcript bundle is needed.
+
+### Grand Cherokee interpretation update (D095)
+
+The 200k2028 scenario remains numerically unchanged but is conditional, not a validated sustainable-demand estimate. Historical product/price and4xemix changes, plus management’s H1rental-seasonality disclosure, weaken a supply-only recovery story. See [causal follow-up](grand-cherokee-causal-followup/findings.md).

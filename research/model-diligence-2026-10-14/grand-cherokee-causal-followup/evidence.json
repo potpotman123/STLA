@@ -1,0 +1,158 @@
+{
+  "as_of": "2026-10-14",
+  "decision_id": "D095",
+  "scope": "Grand Cherokee family; separate smaller Cherokee. USretail+fleet except explicitNAshipment/callcontext.",
+  "method": "Recover three prior audits and current dossiers; eight targeted discovery queries (six initial plus two concrete history/currentproduct followups); selective reads of issuer history, dated product prices, marketplace inventory and consumer discussion; reread two suppliedPDFs. Noagents,bulkcollectionorfit.",
+  "sources": [
+    {
+      "id": "N1",
+      "url": "https://www.prnewswire.com/news-releases/fca-us-reports-fourth-quarter-and-full-year-2021-sales-results-301454067.html",
+      "date": "2022-01-04",
+      "classification": "issuer observations and claims",
+      "new_to_this_followup": true,
+      "finding": "2020/2021 GC209786/264444. Company calls2021 best total and retail GC year since2000. New L entered dealers June2021 per Q2release. Family expansion limits same-product comparability."
+    },
+    {
+      "id": "N2",
+      "url": "https://www.cars.com/articles/what-is-the-2022-jeep-grand-cherokee-wk-449753/",
+      "date": "2022-05-02",
+      "classification": "contemporaneous product reporting with company interview",
+      "finding": "WK and new WL sold together. WK LaredoE4WD40500 incldestination; limited trims. Company described building WK to match demand. Not a reliable old/new sales split."
+    },
+    {
+      "id": "N3",
+      "url": "https://www.cars.com/articles/jeep-grand-cherokee-which-should-you-buy-2022-or-2023-459837/",
+      "date": "2022-11-24",
+      "classification": "contemporaneous posted prices/configurations; not transaction data",
+      "finding": "2023 gasoline Laredo42830RWD incldestination,2710above2022 newgeneration;4WD+2000. Limited49650RWD,+3210. Trailhawk now4xeonly67055. Few other2023changes;4xe base61660 unchanged."
+    },
+    {
+      "id": "N4",
+      "url": "https://www.cars.com/articles/jeep-grand-cherokee-which-should-you-buy-2023-or-2024-472036/",
+      "date": "2023 article",
+      "classification": "product/availability reporting; not measured inventory panel",
+      "finding": "Most2024prices initiallysteady versus then-current2023; popularversionsinventorylimited;old2023incentives offered. Overland/SummitRWD no longer available. Price vintages differ from November2022article; do not label every crossarticle difference a model-year action."
+    },
+    {
+      "id": "N5",
+      "url": "https://www.coxautoinc.com/wp-content/uploads/2024/02/Q4-2023-Stellantis-Market-Performance-Report.pdf",
+      "date": "2024-02 URL archive",
+      "classification": "marketplace pricing estimate and issuer sales",
+      "locator": "PDF page6 visually verified; pages8\u20139 text",
+      "finding": "GCQ42023 ATP57291,-0.4%YoY; sales61723,+22%. Jeepbrandincentives3657vs1036Q42022. Brand incentives cannot be assigned to GC. ATP not OEMRPU or constantmix index. Other table inconsistencies not used."
+    },
+    {
+      "id": "N6",
+      "url": "https://www.coxautoinc.com/insights/new-vehicle-inventory-december-2023/",
+      "date": "2024-01-18",
+      "classification": "marketplace inventory observation plus reported plant actions",
+      "finding": "Stellantis brands oversupplied entering2024; Mack temporarylayoffs effectiveFeb5. Brand stock does not prove particular GCtrim availability; production cuts may respond to weak sell-through."
+    },
+    {
+      "id": "R1",
+      "url": "https://www.carsdirect.com/automotive-news/2024-jeep-grand-cherokee-prices-cut-by-up-to-4-000",
+      "date": "2024-02-09",
+      "classification": "reused original pricing reporting, rechecked",
+      "finding": "Jan31 gasoline MSRPcuts2000\u20134000;4xeexcluded. Some10%rebatesremoved,netpricebenefitunestablished. Article61723annual-salesstatement erroneous:Q4count,excluded."
+    },
+    {
+      "id": "R2",
+      "path": "outputs/grand-cherokee-mix-drivers-audit.json",
+      "classification": "reused dated forum/lender, company/regulator evidence",
+      "finding": "March/April2024 CCAPquotedPHEVcredit7500to3750;SFSreportedlyretained7500. ZIP/trim/termsnotmatched.2023regionalallocationconstraints andMarch2024agreement observed,GCactualreallocationnotverified."
+    },
+    {
+      "id": "R3",
+      "path": "outputs/grand-cherokee-consumer-forum-audit.json",
+      "classification": "reused nonrepresentative buyer anecdotes",
+      "finding": "ActualclaimedMay2024buyerincentive-driven4xechoice;Augustshopperhesitatesbecausebuybacks/repairrisk;positiveownersalso present. Nofrequency/causalweight."
+    },
+    {
+      "id": "L1",
+      "path": "/Users/kwu/Downloads/Stellantis N.V._Earnings Call_2026-07-30_English.pdf",
+      "locator": "pp5\u20136,11,14; p11 rendered",
+      "classification": "management explanation; preliminary transcript has transcription errors",
+      "finding": "Inventorybuilt ahead ofsummerdowntime. CFOsaysrental salesmoreheavilyH1 inNAandEurope. NoGCspecificrentalshare orstockseries. These statements weaken unadjustedH1annualization but do not quantifyseasonality."
+    },
+    {
+      "id": "L2",
+      "path": "/Users/kwu/Downloads/Stellantis N.V._6-K_2026-10-13_English.pdf",
+      "locator": "p3 EX99.1 visually verified",
+      "classification": "issuer estimated shipments and management attribution",
+      "finding": "NAQ3shipments357kvs404k;GCandCompasseachdownabout25k attributedprimarilyplanned downtime. DifferentgeographyandmeasurefromUSGCsalesdecline16526;cannotdivide/subtractasallocation."
+    }
+  ],
+  "calculations": {
+    "history_units": {
+      "2019": 242969,
+      "2020": 209786,
+      "2021": 264444,
+      "2022": 223345,
+      "2023": 244594,
+      "2024": 216148,
+      "2025": 210082
+    },
+    "2023_non4xe": 198910,
+    "2023_family_change_vs_2019_pct": 0.6688096012248401,
+    "2023_non4xe_vs_2019_pct": -18.133589058686496,
+    "same_new_generation_laredo_MY2023_increase_pct": 6.754735792622133,
+    "half_year_2024_vs_2023": [
+      {
+        "period": "H1",
+        "series": "GC_4xe",
+        "2023": 17983,
+        "2024": 19120,
+        "delta": 1137,
+        "yoy_pct": 6.322638047044427,
+        "status": "derived"
+      },
+      {
+        "period": "H1",
+        "series": "GC_other",
+        "2023": 106973,
+        "2024": 87631,
+        "delta": -19342,
+        "yoy_pct": -18.081198059323377,
+        "status": "derived"
+      },
+      {
+        "period": "H2",
+        "series": "GC_4xe",
+        "2023": 27701,
+        "2024": 8470,
+        "delta": -19231,
+        "yoy_pct": -69.42348651673225,
+        "status": "derived"
+      },
+      {
+        "period": "H2",
+        "series": "GC_other",
+        "2023": 91937,
+        "2024": 100927,
+        "delta": 8990,
+        "yoy_pct": 9.778435232822469,
+        "status": "derived"
+      }
+    ],
+    "annual_2024_decomposition": {
+      "GC_total_loss_units": 28446,
+      "GC_4xe_loss_units": 18094,
+      "GC_other_loss_units": 10352,
+      "4xe_share_total_unit_loss_pct": 63.60824017436546,
+      "limit": "Arithmetic allocation, not causal attribution or revenue contribution."
+    },
+    "price_bridge_WK2022_to_WL2023_4WD": {
+      "old_WK_2022": 40500,
+      "new_WL_2023": 44830,
+      "difference": 4330,
+      "note": "Differentgeneration/equipment and datedpricevintages; not constantquality inflation or realizedpayment."
+    }
+  },
+  "access_limits": [
+    "LotlinxQ1andApril2024reports surfaced modelinventory values insearchindex; fullPDFreturned404afterdirectattempt. Values excluded from established findings; priorfailedaccess acknowledged.",
+    "OneRedditnewthreadopenfailed; searchsnippetsnotusedtoinferbuyerprevalence.",
+    "CoxPDFwebscreenshotfailed; directdownloadandlocalrenderverifiedpage6."
+  ],
+  "model_decision": "200000remains numerically unchanged but conditional/unvalidated; not mechanically downgrade toQ3annualization. Require postshutdownsellthrough at competitivepayments and separatechannel/seasonality.",
+  "brand_extension": "Use cause/action/outcome tests per family; existing brand dossiers summarized, not freshly validated allmodels."
+}

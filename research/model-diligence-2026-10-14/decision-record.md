@@ -43,3 +43,7 @@ Next step: prioritize Cherokee affordability/availability, Ram fresh-order econo
 ## D094 Accepted Grand Cherokee forecast revision
 
 User requested the updated forecast file after accepting Grand Cherokee 2028 at 200,000 instead of 205,000. All other model scenario unit inputs remain unchanged. Rebuilt derived growth, weights and portfolio totals from the source dossier. Five-core 2028 total is now 990,000; quantified portfolio subtotal 1,426,000. Prior core-five-tests files preserve the pre-decision audit snapshot, not the current forecast. No workbook or independent AI baseline edited.
+
+## D095 Historical mechanism before recovery assumptions
+
+User challenged the unproven Grand Cherokee return toH1pace and requested comparable causal stories across models/brands. Recovered prior mix/lender/consumer audits; added dated generation/price evidence,2021retail counterevidence, Coxpricing and targeted latest-call/filing rereads. H1rental seasonality and inventory build-ahead are explicit management disclosures, not GC-specific quantified effects. Documented mixed historical mechanisms and a brand-level coverage map.200kretained as conditional; no forecast/workbook changes. Lotlinx originals inaccessible, indexed numbers excluded.
