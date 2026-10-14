@@ -47,3 +47,7 @@ PDF pp28–29 also corroborate broad transformation scope: energy, headcount, pr
 Source: https://www.stellantis.com/content/dam/stellantis-corporate/investors/events/stellantis-investor-day-2024/presentation/STLA-Investor_Day-2024-Tech-and-Operations.pdf
 
 Next useful component route: weight matched vehicle-family material-cost estimates across actual production mix, explicitly accounting for engines/transmissions made internally and purchased electrified systems. Weighting selling prices alone would import margin/incentive differences into component costs. A supplier-location chart or cumulative contract award cannot substitute for this. No bulk teardown collection started.
+
+## NA numerical follow-up
+
+See [NA cost-base proposal](na-manufacturing-cost-assumptions.md) and its JSON for the provisional labor/depreciation cases and energy-only estimate. The full cash-cost subgroup remains unresolved; the prior 3.9bn labor sensitivity is not the current proposed complete plant-labor base.

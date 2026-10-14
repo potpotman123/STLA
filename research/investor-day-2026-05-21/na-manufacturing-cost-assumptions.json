@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-14",
+  "scope": "NA manufacturing; proposed 2025-reference cost-base scenarios, not reported 2025 actuals or 2026 run rate",
+  "approval": "Research proposal only",
+  "labor": {
+    "country_staff_scenarios": [
+      {
+        "category": "US hourly plant workforce",
+        "headcount_assumed_low_central_high": [
+          33000,
+          36000,
+          39000
+        ],
+        "annual_loaded_EUR_per_employee_assumed_low_central_high": [
+          100000,
+          115000,
+          130000
+        ],
+        "cost_EURbn_low_central_high": [
+          3.3,
+          4.14,
+          5.07
+        ]
+      },
+      {
+        "category": "Canada hourly plant workforce",
+        "headcount_assumed_low_central_high": [
+          7000,
+          8000,
+          9000
+        ],
+        "annual_loaded_EUR_per_employee_assumed_low_central_high": [
+          70000,
+          80000,
+          90000
+        ],
+        "cost_EURbn_low_central_high": [
+          0.49,
+          0.64,
+          0.81
+        ]
+      },
+      {
+        "category": "Mexico hourly plant workforce",
+        "headcount_assumed_low_central_high": [
+          15000,
+          16000,
+          17000
+        ],
+        "annual_loaded_EUR_per_employee_assumed_low_central_high": [
+          15000,
+          20000,
+          25000
+        ],
+        "cost_EURbn_low_central_high": [
+          0.225,
+          0.32,
+          0.425
+        ]
+      },
+      {
+        "category": "NA salaried plant staff",
+        "headcount_assumed_low_central_high": [
+          2000,
+          3000,
+          4000
+        ],
+        "annual_loaded_EUR_per_employee_assumed_low_central_high": [
+          90000,
+          110000,
+          130000
+        ],
+        "cost_EURbn_low_central_high": [
+          0.18,
+          0.33,
+          0.52
+        ]
+      }
+    ],
+    "totals_EURbn_low_central_high": [
+      4.194999999999999,
+      5.43,
+      6.825000000000001
+    ],
+    "rounded_working_central_EURbn": 5.5,
+    "confidence": "Low-to-moderate; historical observed anchors, assumed current scope/headcount and loaded pay",
+    "replaces": "Prior 3.9bn top-down blue-collar sensitivity was not a full NA labor estimate"
+  },
+  "cash_plant_costs": {
+    "total": null,
+    "energy_subpool_cases": [
+      {
+        "2023_volume_retention_assumed": 0.7,
+        "electricity_USD_MWh_assumed": 70,
+        "gas_USD_MWh_assumed": 15,
+        "EURbn_derived": 0.13482150530973452
+      },
+      {
+        "2023_volume_retention_assumed": 0.85,
+        "electricity_USD_MWh_assumed": 86.2,
+        "gas_USD_MWh_assumed": 22,
+        "EURbn_derived": 0.21063674794690268
+      },
+      {
+        "2023_volume_retention_assumed": 1,
+        "electricity_USD_MWh_assumed": 120,
+        "gas_USD_MWh_assumed": 35,
+        "EURbn_derived": 0.3581544513274336
+      }
+    ],
+    "rounded_energy_working_central_EURbn": 0.3,
+    "maintenance_purchased_services_and_other_overhead": null,
+    "confidence": "Energy estimate low; full subgroup not estimated"
+  },
+  "depreciation": {
+    "observed_global_machinery_plus_buildings_EURbn": 3.955,
+    "assumed_NA_shares": [
+      0.35,
+      0.45,
+      0.55
+    ],
+    "derived_EURbn": [
+      1.38425,
+      1.7797500000000002,
+      2.17525
+    ],
+    "rounded_working_central_EURbn": 1.8,
+    "confidence": "Low; regional shares judgmental, global asset categories not plant-only"
+  },
+  "rules": [
+    "No combined transformation total while cash subgroup is unknown.",
+    "No savings rates selected.",
+    "Do not treat all included costs as addressable.",
+    "Fixed-volume efficiency separate from higher-volume absorption.",
+    "2025-reference bases require volume/pay/FX/asset adjustments for later years.",
+    "Quarterly savings remain annual recognized savings divided by four."
+  ]
+}
