@@ -1,0 +1,173 @@
+{
+  "as_of": "2026-10-13",
+  "question": "What supportedlate2023/early2024GrandCherokee4xesalesmix,andwhatchangedattheQ22024reversal?",
+  "method": "ReusedquarterlyseriesandpriorfailedlenderPDFattempts;6discoveryqueriesplus5targetedfollowups;selectivereadingofdatedfinanceforums,buyeraccount,pricereporting,andcompany/regulatorydocuments.TwosmallPDFsdownloadedandonlyrelevantparagraphsextracted.Noagents,bulkcollectionorpaiddata.",
+  "sources": {
+    "dec_lease": {
+      "url": "https://forum.leasehackr.com/t/signed-2023-jeep-grand-cherokee-4xe-summit-4x4-msrp-80-910-1kdas-39-10-746-eff-michigan/532930",
+      "published": "2024-02-26",
+      "event": "December2023, retrospectively reported",
+      "type": "Self-reported completed lease",
+      "finding": "Michigan buyer preferred gasoline5.7Hemi but chose4xe after10500incentive and negotiated discount; MSRP80910; reports7500federal plus3000stateleasecash.",
+      "limit": "One unverified transaction; stateleasecash is poster terminology, not verified government subsidy. Supports motivation, not aggregate prevalence."
+    },
+    "dec_program": {
+      "url": "https://forums.edmunds.com/discussion/68421/jeep/grand-cherokee/2023-jeep-grand-cherokee-lease-deals-and-prices/p60",
+      "period": "December2023",
+      "type": "Edmunds moderator program quotations",
+      "finding": "MY2023GC4xe base ZIP07041:4000incentives+7500PHEVbonus,36/10MF.00238,RV57%. Non4xeLimited4x4 sameZIP/month:2500incentive,36/10MF.00100,RV54%.",
+      "limit": "DifferentMSRP/equipment and financeparameters; cashadvantage not equal monthlypaymentadvantage. No executedtransaction or primarylenderbulletin."
+    },
+    "mar_apr_24": {
+      "url": "https://forums.edmunds.com/discussion/70061/jeep/grand-cherokee/2024-jeep-grand-cherokee-lease-deals-incentives-rebates-and-prices/p15",
+      "period": "March-April2024",
+      "type": "Edmunds moderator program quotations",
+      "finding": "MarchMY2024Overland4xe ZIP33027 explicitlyCCAP:3000incentives+7500PHEVbonus;36/10MF.00197,RV54%;39/10MF.00183,RV52%. AprilMY2024base/limited4xe ZIP07504 explicitlyCCAP39/12MF.00312,RV55%;7750total=1000CCAPleasebonusNELRE+3000nationalleasebonus38LRA+3750hybrid-electriccredit.",
+      "limit": "Month,trim,ZIP,term/mileage not fullymatched. Strongdatedevidence of quotedcreditcomponent difference, not a matched totalpayment change. Sameforum is not independent corroboration."
+    },
+    "mar_apr_23": {
+      "url": "https://forums.edmunds.com/discussion/68421/jeep/grand-cherokee/2023-jeep-grand-cherokee-lease-deals-and-prices/p67",
+      "period": "March-April2024,MY2023vehicles",
+      "type": "Edmunds moderator program quotations",
+      "finding": "MarchbaseZIP50321:36/15MF.00238,RV53%,3000+7500bonus. AprilbaseZIP40475:36/15MF.00222,RV53%,6750total; moderator clarifies credit3750thismonth. AprilTrailhawkZIP89141 breakdown:1000regionalWECPA+1000bonus23CPA+3000nationallease38LPA+3750CCAPcredit.",
+      "limit": "DifferentZIPprevents treating totals as matchednational payment change; source reflects quotations not actualleasevolume. Lender identity explicitinAprilbreakdown. No claim IRS statutorycreditchangedinApril2024."
+    },
+    "apr_lenders": {
+      "url": "https://forum.leasehackr.com/t/2024-jeep-grand-cherokee-4xe-anniversary-edition/550294",
+      "period": "2024-04-25",
+      "type": "Previously read consumerquote",
+      "finding": "Shopper reportsSFS7500versusCCAP3750leaseincentive.",
+      "limit": "Unverified but disconfirms assuming universal7500benefitdisappearance. Actuallenderpenetration unknown."
+    },
+    "jan_prices": {
+      "url": "https://www.carsdirect.com/automotive-news/2024-jeep-grand-cherokee-prices-cut-by-up-to-4-000",
+      "published": "2024-02-09",
+      "event": "2024-01-31",
+      "type": "Original reporting with dealerletter and Jeep spokespersonconfirmation",
+      "finding": "MY2024non4xeLaredoMSRP-2000,Limited-3500,Overland/Summit-4000; twoandthreerow.4xeunaffected. Reporter alsoobservesprior10percentrebatesremovedonsomevehicles.",
+      "limit": "LowerMSRPdoesnotnecessarilymeannettransactionpricecut. Article erroneouslylabels61723aslastyearsales; thatisQ42023andnotused."
+    },
+    "nov_price_memo": {
+      "url": "https://www.jlwranglerforums.com/forum/attachments/11_08_23-2024my-jeep-pricing-action-dmail-pdf.813513/",
+      "document_date": "2023-11-06",
+      "effective": "2023-11-08 shipments",
+      "type": "PurportedOEMdealerbulletin mirroredonforum; authenticitynotindependentlyverified",
+      "finding": "MY2024GCbase4xe+625to60490;Trailhawk4xe+3000to66185;Overland4xe+625to73480;Summit4xe+625to74670. GasLimited4x4+3000to51405.",
+      "limit": "Excludesdestination; modelyear/trimnotweighted; affectsnewshipments withpriceprotectionprovisions,notimmediateallstockpricechange."
+    },
+    "allocation_2023": {
+      "url": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/attachments/FCA_US_LLC_OAL_Petition_2023-12-06df4upoa5ovcuieor1d2hb80p8k.pdf",
+      "date": "2023-12-06",
+      "location": "PDFp13",
+      "type": "FCAlegalpetition hostedoncompanymediadomain",
+      "finding": "CompanysaysallocationstrategyannouncedApril2023meantcertainICEvehiclesweresenttoCaliforniaonlyforsoldordersforperiods,insteadofdealerstock.",
+      "limit": "Operationaladmissionuseful;legalargumentsaboutretroactivity/fairnessarecompanyposition,notadjudicatedfact.NoGCspecificquantifiedallocationorenddate."
+    },
+    "allocation_context": {
+      "url": "https://www.autoblog.com/features/stellantis-makes-gas-models-order-only-for-dealers-in-non-carb-states",
+      "date": "2023-06-20",
+      "type": "SecondaryreportingcitingdealerinterviewsandAutomotiveNews",
+      "finding": "DealerexpectedWrangler4xeandGC4xeallocation;regionalPHEV/ICEallocationasymmetryreported.",
+      "limit": "TitlemisstatesnonCARBversusCARB;bodycarefullyread.80versus15numericexampleisWrangler,notGrandCherokee;nottransferred.OriginalDelawarelinkfailed."
+    },
+    "carb_agreement": {
+      "url": "https://ww2.arb.ca.gov/sites/default/files/2024-03/CARB-Stellantis_Settlement%20Agreement_FINAL_Signed_Public.pdf",
+      "announced": "2024-03-19",
+      "location": "PDFp6paragraph29",
+      "type": "Signedregulator-companyagreement",
+      "finding": "GHGcommitmentsbasedonStellantisfleetsoldnationwideforMY2021-2026.",
+      "limit": "Confirmsframeworkchange,notactualdealerallocationreversalorrelaxationofallPHEVrequirements. NationalaccountingcouldredistributePHEVswithoutreducingUSunits.",
+      "local": "work/grand-cherokee-q2-2024/carb-stellantis-march2024.pdf"
+    },
+    "carb_company": {
+      "url": "https://www.stellantis.com/en/news/press-releases/2024/march/stellantis-and-california-partner-to-drive-carbon-emissions-reduction-efforts",
+      "date": "2024-03-19",
+      "type": "OEMannouncement",
+      "finding": "Confirmsagreementdateandongoingelectrificationcommitments.",
+      "limit": "NoquantifiedGCmiximpact."
+    },
+    "carb_reuters": {
+      "url": "https://www.investing.com/news/stock-market-news/california-stellantis-strike-vehicle-emissions-deal-3344830",
+      "date": "2024-03-19,updatedMarch20",
+      "type": "Reutersreport",
+      "finding": "Agreementpermitsnational-salescompliance;previouslycompanylimitedgasolinestockinCalifornia-rulestatesandPHEVavailabilityelsewhere.",
+      "limit": "NotindependentproofthatGCallocationchangedimmediatelyinApril."
+    },
+    "sec_h124": {
+      "url": "https://www.sec.gov/Archives/edgar/data/1605484/000160548424000106/stellantisnv20240630semi-a.htm",
+      "period": "H12024",
+      "location": "GreenhouseGasStandards,p59",
+      "type": "Companyregulatoryfiling",
+      "finding": "CompanydisclosesmissingCaliforniaGHGtargetsMY2021,2022,2023andMarch2024alternativestandardsagreement.",
+      "limit": "Fleetinthiscontextmeansmanufacturervehicleportfolio,notrental/commercialfleetcustomers."
+    }
+  },
+  "timeline": [
+    {
+      "period": "April2023onward",
+      "observed": "Companyregionallyrestrictedstockingofsomegasolinevehiclesforcompliance;PHEVallocationsreportedconcentratedinCARBmarkets.",
+      "inference": "Earlysalesmixneednotreflectunconstrainedconsumerpowertrainpreferences."
+    },
+    {
+      "period": "Late2023",
+      "observed": "LargePHEVleasebenefitsquoted;DecemberbuyerexplicitlyswitchesfromdesiredgasHemitoleased4xe.",
+      "inference": "Incentivescouldsupportsurgeandinternalmixshift;cannotquantifyorsayunnaturalpeak."
+    },
+    {
+      "period": "January31,2024",
+      "observed": "GasolineGCMSRPcuts;4xeexcluded;possibleoffsettingrebateremoval.",
+      "inference": "Relativepositioningchanged;netaffordabilityeffectnotestablished."
+    },
+    {
+      "period": "March19,2024",
+      "observed": "SignednationwideGHGframework.",
+      "inference": "Potentialregionalallocationconstraintchangeclosetoreversal;actualshipmentsanddealerordersnotverified."
+    },
+    {
+      "period": "MarchtoApril2024",
+      "observed": "Datedleaseforumshows7500PHEVbenefitinMarchand3750CCAPcreditinApril;anotherlenderreportedlyretains7500.",
+      "inference": "Lender-specificsupportdeteriorationplausiblyweakens4xepriceadvantageatQ2onset;unknownlendershareandnetterms."
+    }
+  ],
+  "illustrative_calculation": {
+    "status": "hypothetical,notobservedmonthlypaymentchange",
+    "benefit_loss_usd": 3750,
+    "lease_months": 36,
+    "depreciation_component_per_month_usd": 104.16666666666667,
+    "assumptions": "Fixedsellingprice,residual,term,andotherincentives.3750/36excludesfinancechargeandtaxchanges;financeparameterscouldoffsetorcompound."
+  },
+  "hypothesis_updates": {
+    "incentive_driven_early_mix": "Strengthened:datedprogramtermsplusself-reportedcompletedchoice.",
+    "q2_lender_support_change": "Strengthened:explicitcomponentquotesatMarch-Aprilboundary;notuniversaltaxcreditcutorverifiedtotalpaymentchange.",
+    "gas_price_positioning": "DocumentedMSRPaction;neteffectqualifiedbyrebates.",
+    "regional_allocation": "Documented2023companypolicyandMarch2024frameworkchange;GCspecificreversalnotproved.",
+    "fleet_batching": "Unresolved:noGC4xequarterlyretail/rental/commercialsplitrecovered.",
+    "nationwide_4xe_supply_shortage": "Notestablished;do nottreatregionalstockrestrictionsasnationalshortage.",
+    "reliability": "Priorqualitativeevidencestillrelevant;doesnotestablishonsetorthefull70percentdecline."
+  },
+  "synthesis": "Themixwaspotentiallyshapedbycompanyallocationandfinancingprogramsaswellasconsumerpreference.Newtimedcommercialchangesmakeacompetitive-dealmechanismmoreconcretethangenericcomplaints.ButnoevidenceyetidentifieshowmuchoftheUSdeclinefollowedthesechanges,orprovesMarchregulatorysettlementcausedreallocation.",
+  "disconfirming_evidence": [
+    "SFSreportedlystill7500inApril;CCAPchangedoesnotimplyallbuyerslostsubsidy.",
+    "GasMSRPcutcouldbeoffsetbyrebatewithdrawal.",
+    "Non4xealsodeclinedinQ2;relativepriceexplanationdoesnotexplainthewholemodeldecline.",
+    "NationwidecompliancecouldexpandPHEVavailabilityinnonCARBstatesratherthancutnationalsales.",
+    "2023peakcouldincludeproductrampandfleet;largeincentivesalonecannotlabelallvolumeunsustainable."
+  ],
+  "model_use": "Admitdocumentedeventdatesandlender-sensitivityscenario;donotassigncausalweightsorforecastlost4xeunitsasrecoverable.",
+  "next_step": "HighestvalueisdatedCCAP/SFSprogrambulletinsandpenetrationforMarch-June2024orGC-specificdealerallocationcommunicationsaroundMarchsettlement;publicforumtermsnowsupplyconcreteperiodsandprogramcodesforverification.",
+  "fuel_price_macro_check": {
+    "question": "Was the 4xe reversal mainly emissions policy, or broader gasoline/powertrain economics?",
+    "sources": [
+      {
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=64164",
+        "observed": "2024 regular gasoline averaged $3.30/gal; H1 down $0.08/gal (2%) YoY, H2 down $0.34/gal (10%). Annual weekly peak $3.67 in late April."
+      },
+      {
+        "url": "https://www.eia.gov/todayinenergy/detail.php?id=62924",
+        "observed": "US PHEV share rose from 1.7% in Q2 2023 to 2.0% in Q2 2024."
+      }
+    ],
+    "interpretation": "Cheaper gasoline plausibly reduced fuel-saving value, especially H2, but April annual peak and growing Q2 PHEV market share weaken a broad gasoline-price explanation of the Q2 onset. Aggregate share is not a matched premium-SUV control. Neither emissions-policy dominance nor financing dominance quantified. Financing change is distinct from statutory tax-credit change.",
+    "model_use": "Context and competing mechanism only; no causal weights."
+  }
+}

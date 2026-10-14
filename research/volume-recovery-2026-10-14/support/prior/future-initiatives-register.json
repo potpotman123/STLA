@@ -1,0 +1,489 @@
+{
+  "as_of": "2026-10-13",
+  "status": "Initial reasoned positions on material initiatives, not final probability-weighted forecasts; announcement is not delivery. Product dates are planning assumptions.",
+  "scope": "Material product families and economic levers relevant to the2025\u201328 case; longer-term initiatives flagged. Not every global trim or program.",
+  "sources": {
+    "NA": {
+      "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events/stellantis-investor-day-2026/transcript/Stellantis-Investor-Day-2026-FaSTLAne2030-Transcript-North-America.pdf",
+      "locator": "Full five-page transcript; market coverage, product roadmap, NA cost savings",
+      "accessed": "2026-10-13",
+      "type": "Public primary; management statements are not independent validation"
+    },
+    "FIN": {
+      "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events/stellantis-investor-day-2026/transcript/Stellantis-Investor-Day-2026-FaSTLAne2030-Transcript-Financial-Overview.pdf",
+      "locator": "pp1\u20133; 2028 margin bridge; transcript transcription errors flagged below",
+      "accessed": "2026-10-13",
+      "type": "Public primary; management statements are not independent validation"
+    },
+    "QA": {
+      "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events/stellantis-investor-day-2026/transcript/Stellantis-Investor-Day-2026-FaSTLAne2030-Transcript-Q-A-Session.pdf",
+      "locator": "Full Q&A; pricing assumptions, mix, VCP retention and product timing",
+      "accessed": "2026-10-13",
+      "type": "Public primary; management statements are not independent validation"
+    },
+    "TECH": {
+      "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events/stellantis-investor-day-2026/transcript/Stellantis-Investor-Day-2026-FaSTLAne2030-Transcript-Product-and-Technology.pdf",
+      "locator": "Full four-page transcript; platforms, software and commonality",
+      "accessed": "2026-10-13",
+      "type": "Public primary; management statements are not independent validation"
+    },
+    "SFS": {
+      "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events/stellantis-investor-day-2026/transcript/Stellantis-Investor-Day-2026-FaSTLAne2030-Transcript-Financial-Services.pdf",
+      "locator": "Full two-page transcript; captive finance economics",
+      "accessed": "2026-10-13",
+      "type": "Public primary; management statements are not independent validation"
+    },
+    "PLAN": {
+      "url": "https://www.stellantis.com/en/news/press-releases/2026/may/stellantis-presents-fastlane-2030-financial-framework-and-targets-at-investor-day-2026",
+      "locator": "May21 financial framework; targets and partnership qualifications",
+      "accessed": "2026-10-13",
+      "type": "Public primary; management statements are not independent validation"
+    },
+    "Q2": {
+      "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events-and-presentations/other-documents/Stellantis-Q2-2026-Financial-Results-Call-Transcript.pdf",
+      "locator": "pp7\u201315 including final Q&A; VCP, pricing, mix and Cherokee",
+      "accessed": "2026-10-13",
+      "type": "Public primary; management statements are not independent validation"
+    },
+    "FY25": {
+      "url": "https://www.stellantis.com/en/news/press-releases/2026/february/full-year-2025-results",
+      "locator": "Financial table; consolidated versus attributable income definitions matter",
+      "accessed": "2026-10-13",
+      "type": "Public primary; management statements are not independent validation"
+    },
+    "US26Q3": {
+      "url": "https://www.prnewswire.com/news-releases/stellantis-reports-q3-sales-302896446.html",
+      "locator": "October1 full model table, Q3 current and prior year",
+      "accessed": "2026-10-13",
+      "type": "Public primary; management statements are not independent validation"
+    },
+    "NA26Q3": {
+      "url": "https://www.stellantis.com/en/news/press-releases/2026/october/stellantis-reports-q3-2026-estimated-consolidated-shipments-of-1-3-million-units-down-1-percent-year-over-year",
+      "locator": "October13 estimated shipments; regional scope and Maserati restatement",
+      "accessed": "2026-10-13",
+      "type": "Public primary; management statements are not independent validation"
+    },
+    "US24": {
+      "url": "https://www.prnewswire.com/news-releases/fca-us-reports-fourth-quarter-and-full-year-2024-sales-results-302342164.html",
+      "locator": "Full calendar-year model sales table",
+      "accessed": "2026-10-13",
+      "type": "Public primary; management statements are not independent validation"
+    },
+    "GM24": {
+      "url": "https://investor.gm.com/static-files/e1bb38a4-aaf9-4141-b44a-4c61c1f2ec54",
+      "locator": "2024 deliveries; LD, HD, MD and EV lines",
+      "accessed": "2026-10-13",
+      "type": "Public primary; management statements are not independent validation"
+    },
+    "FORD24": {
+      "url": "https://s205.q4cdn.com/882619693/files/doc_news/2025/Jan/03/Ford-U-S-Q4-2024-Sales-Release.pdf",
+      "locator": "F-Series aggregate includes electric pickup",
+      "accessed": "2026-10-13",
+      "type": "Public primary; management statements are not independent validation"
+    },
+    "CITY": {
+      "url": "https://www.ramtrucks.com/news/2027-ram-promaster-city.html",
+      "locator": "2027 US return, target price and sourcing",
+      "accessed": "2026-10-13",
+      "type": "Public primary; management statements are not independent validation"
+    }
+  },
+  "management_2028_group_targets": {
+    "revenue_eur_bn": 175,
+    "AOI_margin_pct": 5,
+    "AOI_eur_bn_derived": 8.75,
+    "industrial_FCF_eur_bn": 3
+  },
+  "management_2030_NA_targets": {
+    "revenue_growth_vs_2025_pct": 25,
+    "AOI_margin_range_pct": [
+      8,
+      10
+    ],
+    "warning": "Not2028 guidance."
+  },
+  "management_margin_bridge": {
+    "unit": "percentage points of group AOI margin; management description, not our independent estimate",
+    "topline": 2.1,
+    "VCP": 3.6,
+    "other_industrial_including_utilization": 0.9,
+    "nonrepeat_2025_adjustments": 0.5,
+    "financial_services": 0.5,
+    "raw_materials": -1.4,
+    "SGA": -0.6,
+    "net_change": 5.6,
+    "target_2028_margin_pct": 5,
+    "reconciliation_status": "Recovered localfinance slidep15 on2026-10-14:explicitapproximately5% target;\u22120.5%+5.6pp=5.1%,consistentwithrounding. No exact balancingplug.",
+    "scope_warning": "Group bridge is not an NA bridge. \u20ac6bn/\u20ac175bn=3.43pp is a sensitivity, not the stated3.6pp normalization."
+  },
+  "VCP": {
+    "group_2028_run_rate_eur_bn": 6,
+    "NA_2028_run_rate_eur_bn_greater_than": 3,
+    "group_2027_benefit_eur_bn": 2.4,
+    "baseline": 2025,
+    "model_warning": "Net flow-through as described by management, with separately modeled headwinds; not a promise that future pricing and all costs remain unchanged. Do not double count utilization, quality or nonrepeat adjustments."
+  },
+  "initiatives": [
+    {
+      "id": "I01",
+      "initiative": "VCP \u2014 component, manufacturing, quality and logistics costs",
+      "management_plan_or_observation": "Group\u20ac6bn annual run rate by2028; NA >\u20ac3bn.",
+      "our_position": "Conditional positive; central profit driver",
+      "reasoning": "Benchmarking, redesign and commonality can remove real cost. The unresolved issue is realized savings retained after competitive offers, not whether an initiative list exists.",
+      "forecast_treatment": "Build a phased regional cost bridge. Never add\u20ac6bn to profit targets that already include it. Project coverage is not booked savings.",
+      "test_or_disconfirming_evidence": "Reported industrial savings with baseline and recurring/nonrecurring split; adverse quality outcomes or price giveback weaken the case.",
+      "source_ids": [
+        "FIN",
+        "NA",
+        "Q2"
+      ],
+      "priority": "High"
+    },
+    {
+      "id": "I02",
+      "initiative": "Pricing and mix discipline",
+      "management_plan_or_observation": "Plan assumes carryover pricing, rather than additional future increases; NA mix broadly neutral.",
+      "our_position": "More demanding than the headline implies",
+      "reasoning": "Holding economics while adding affordable products requires cost competitiveness. Persistent net-price erosion can consume otherwise successful VCP.",
+      "forecast_treatment": "Explicit net-pricing and model/channel-mix lines. Do not infer stable realized price from unchanged MSRP.",
+      "test_or_disconfirming_evidence": "Matched offers and reported net-price bridge; rising discounts without share gains is negative.",
+      "source_ids": [
+        "QA",
+        "Q2"
+      ],
+      "priority": "High"
+    },
+    {
+      "id": "I03",
+      "initiative": "Ram1500 HEMI/Express and mainstream configurations",
+      "management_plan_or_observation": "Restored choice; latest LD units grew strongly.",
+      "our_position": "Most credible near-term demand recovery, attribution incomplete",
+      "reasoning": "Actual family growth is stronger evidence than model announcements. HEMI alone does not explain it, and fleet, promotions and prior shortages matter.",
+      "forecast_treatment": "Credit observed units; phase future growth against normal comparable periods. Separate LD from HD.",
+      "test_or_disconfirming_evidence": "Retail share, net payment, sellable stock and margins after anniversary of relaunch.",
+      "source_ids": [
+        "US26Q3",
+        "Q2",
+        "NA"
+      ],
+      "priority": "High"
+    },
+    {
+      "id": "I04",
+      "initiative": "Ram HD renewal",
+      "management_plan_or_observation": "Heavy-duty family remains a separate recovery test.",
+      "our_position": "Cautious",
+      "reasoning": "The2025 HD decline offset most LD gains; headline Ram strength can mask this. Commercial replacement economics differ from household pickup demand.",
+      "forecast_treatment": "Independent HD unit and margin assumptions; no automatic LD-growth carryover.",
+      "test_or_disconfirming_evidence": "Quarterly2500/3500 or officialHD sales, retail/fleet where available, availability and commercial demand.",
+      "source_ids": [
+        "US26Q3",
+        "NA"
+      ],
+      "priority": "High"
+    },
+    {
+      "id": "I05",
+      "initiative": "Dakota and Rampage / smaller pickup entry",
+      "management_plan_or_observation": "Compact and midsize NA pickup platform SOP explicitly2028 inID PDFp42.",
+      "our_position": "Strategically attractive; timing-sensitive",
+      "reasoning": "A lower payment and different use case can reach buyers outside full-size trucks. New entrants still need distribution, supply and competitive total ownership cost.",
+      "forecast_treatment": "Partial-year ramps only after confirmed US timing; deduct cannibalization. Do not count foreign success as US demand.",
+      "test_or_disconfirming_evidence": "Production/start-of-sales, actual price/payment versus relevant rivals, dealer turn and incremental buyers.",
+      "source_ids": [
+        "NA",
+        "QA"
+      ],
+      "priority": "High"
+    },
+    {
+      "id": "I06",
+      "initiative": "Ram SUV, performance and next-generation full-size products",
+      "management_plan_or_observation": "SUV and halo/performance expansion; later core renewal.",
+      "our_position": "Selective upside; limited base-case halo credit",
+      "reasoning": "Specialty margins may help but cannot substitute for broad affordable volume. Product names can overlap earlier range-extender branding.",
+      "forecast_treatment": "Separate SUV, pickup and powertrain; no double counting Ramcharger-related labels. Later launches do not earn full2028 volume.",
+      "test_or_disconfirming_evidence": "Firm product identity, calendar and measured contribution margin rather than allocation sell-outs.",
+      "source_ids": [
+        "NA",
+        "QA"
+      ],
+      "priority": "Medium"
+    },
+    {
+      "id": "I07",
+      "initiative": "ProMaster City return and commercial vans",
+      "management_plan_or_observation": "US return targetedQ1 2027, below$40k; different-size van from predecessor.",
+      "our_position": "Positive opportunity; fleet economics must be analyzed",
+      "reasoning": "This fills a genuine portfolio hole. It is not a direct restoration of the old small van; configuration, upfitting and import costs influence competitiveness.",
+      "forecast_treatment": "Separate commercial model, fleet buyers, sourcing/tariff scenario and launch ramp.",
+      "test_or_disconfirming_evidence": "Comparable cargo/ownership cost, orders converting to deliveries, replenishment and net fleet price.",
+      "source_ids": [
+        "CITY"
+      ],
+      "priority": "High"
+    },
+    {
+      "id": "I08",
+      "initiative": "New Cherokee hybrid and affordable configurations",
+      "management_plan_or_observation": "Returned hybrid; further trim expansion discussed for2027.",
+      "our_position": "Promising but availability and economics constrain the thesis",
+      "reasoning": "The offer addresses a missing segment. Higher initial trims or sourcing costs can prevent the intended affordability benefit.",
+      "forecast_treatment": "New-model ramp, not recovery to oldCherokee peak. Distinguish it from Grand Cherokee and4xe.",
+      "test_or_disconfirming_evidence": "Accessible trims actually stocked, effective payment versus peers, turn and retail share after initial launch.",
+      "source_ids": [
+        "NA",
+        "Q2",
+        "US26Q3"
+      ],
+      "priority": "High"
+    },
+    {
+      "id": "I09",
+      "initiative": "Grand Cherokee renewal",
+      "management_plan_or_observation": "Refresh and technology improvements; latest shipments/sales weak.",
+      "our_position": "Cautious until temporary disruption separates from demand",
+      "reasoning": "Historical powertrain/channel reversal remains unresolved. Production downtime is a plausible explanation for some weakness, not proof of a healthy order book.",
+      "forecast_treatment": "Separate current recovery from future refresh, retail/fleet and4xe/other when disclosed. No peak-volume assumption.",
+      "test_or_disconfirming_evidence": "Post-downtime sellable supply, retail share and pricing; shipments alone insufficient.",
+      "source_ids": [
+        "NA",
+        "TECH",
+        "NA26Q3",
+        "US26Q3"
+      ],
+      "priority": "High"
+    },
+    {
+      "id": "I10",
+      "initiative": "Compass, Wrangler and Gladiator renewal",
+      "management_plan_or_observation": "Mainstream and heritage Jeep product renewal.",
+      "our_position": "Differentiated views; no blanket Jeep rebound",
+      "reasoning": "Affordable mainstream SUVs compete differently from specialty off-road vehicles. Refreshes must improve the value proposition, not merely lift sticker price.",
+      "forecast_treatment": "Separate families, launch dates and replacement effects; track low-price availability.",
+      "test_or_disconfirming_evidence": "Peer-relative unit/share changes, trims and payments; backlog and stock turn after supply normalizes.",
+      "source_ids": [
+        "NA",
+        "US26Q3"
+      ],
+      "priority": "High"
+    },
+    {
+      "id": "I11",
+      "initiative": "Recon, Wagoneer and electrified Jeep variants",
+      "management_plan_or_observation": "Expanded powertrain and SUV choice.",
+      "our_position": "Optionality; conservative demand credit",
+      "reasoning": "Flexibility reduces dependence on one propulsion bet, but size, price and charging/use case still matter. More variants can also raise complexity.",
+      "forecast_treatment": "Independent uptake assumptions; internal substitution deducted. Avoid assigning one hybrid/EV adoption curve to all products.",
+      "test_or_disconfirming_evidence": "Orders converting to repeatable retail sales at acceptable net prices and warranty cost.",
+      "source_ids": [
+        "NA",
+        "TECH"
+      ],
+      "priority": "Medium"
+    },
+    {
+      "id": "I12",
+      "initiative": "Dodge Charger ICE, Durango and entry offer",
+      "management_plan_or_observation": "ICE Charger restores an offer; further performance/entry plans.",
+      "our_position": "ICE return sensible; net recovery remains the test",
+      "reasoning": "Rapid percentage growth from a tiny base can coincide with losses in another powertrain. Performance identity is not evidence of mass-market demand.",
+      "forecast_treatment": "Aggregate Charger powertrains first, then split; later concepts get no firm near-term unit forecast.",
+      "test_or_disconfirming_evidence": "Combined nameplate volumes and contribution, model-year availability and pricing versus alternatives.",
+      "source_ids": [
+        "NA",
+        "US26Q3"
+      ],
+      "priority": "High"
+    },
+    {
+      "id": "I13",
+      "initiative": "Chrysler minivans and crossover expansion",
+      "management_plan_or_observation": "Chrysler143k2025\u2192~225k2030; threevaluecrossovers, namedAirflow andArrow/ArrowCross inroadmap, datesnotquantifiedhere.",
+      "our_position": "Affordability logic attractive; crossover execution unproven",
+      "reasoning": "Existing family/utility positioning is a useful starting point. New segments require conquest, brand relevance and suitable dealer inventory, not just coverage on a slide.",
+      "forecast_treatment": "Combine Pacifica/Voyager consistently; phase new crossovers by confirmed start, price and cannibalization.",
+      "test_or_disconfirming_evidence": "Actual entry pricing, quality and launch timing; net brand growth rather than transfer between nameplates.",
+      "source_ids": [
+        "NA",
+        "QA"
+      ],
+      "priority": "High"
+    },
+    {
+      "id": "I14",
+      "initiative": "Quality and warranty repair",
+      "management_plan_or_observation": "Early-service defect improvement is reported.",
+      "our_position": "Necessary, but long-run durability not yet demonstrated",
+      "reasoning": "Early claims can improve before mature reliability, warranty cash or resale value improves. Lower provisioning or nonrepeat charges are not the same as fewer failures.",
+      "forecast_treatment": "Separate reserve/reset effects and recurring quality savings; ensure VCP quality is counted once.",
+      "test_or_disconfirming_evidence": "Claims per cohort over time, recalls, warranty spending and owner retention; compare equivalent age/mileage.",
+      "source_ids": [
+        "Q2",
+        "FY25",
+        "FIN"
+      ],
+      "priority": "High"
+    },
+    {
+      "id": "I15",
+      "initiative": "STLA One, shared components and engineering simplification",
+      "management_plan_or_observation": "Platform rollout begins2027; benefits extend well beyond2028.",
+      "our_position": "Credible efficiency mechanism, limited early ramp credit",
+      "reasoning": "Common designs can reduce engineering and procurement cost. Broad conversion creates launch coordination risk and product differentiation tradeoffs.",
+      "forecast_treatment": "Savings only on relevant production volumes and timing, inside VCP where overlapping; no whole-fleet percentage cut.",
+      "test_or_disconfirming_evidence": "Actual launch cost, shared-component penetration, cycle times and defects rather than design targets.",
+      "source_ids": [
+        "TECH"
+      ],
+      "priority": "High"
+    },
+    {
+      "id": "I16",
+      "initiative": "Software, cockpit and assisted-driving rollout",
+      "management_plan_or_observation": "Staged regional software features/platform launches.",
+      "our_position": "Primarily execution and product relevance; monetization speculative",
+      "reasoning": "Better software may remove a purchase objection. Adoption and willingness to pay are separate from technical deployment.",
+      "forecast_treatment": "Include development/ramp costs; no standalone subscription windfall without paying-user evidence.",
+      "test_or_disconfirming_evidence": "Reliable deployment, customer use, paid conversion and recurring margin.",
+      "source_ids": [
+        "TECH"
+      ],
+      "priority": "Medium"
+    },
+    {
+      "id": "I17",
+      "initiative": "Captive finance expansion",
+      "management_plan_or_observation": "SFS targets >\u20ac1.5bn AOI contribution in2030.",
+      "our_position": "Useful competitive capability, not free subsidized demand",
+      "reasoning": "Funding access can improve offers and retain economics, but subsidies, credit losses and residual-value risk remain. Higher customer loyalty among captive users may reflect selection.",
+      "forecast_treatment": "Use total contribution pending transcript reconciliation; distinguish captive AOI, industrial cash and consumer incentives.",
+      "test_or_disconfirming_evidence": "Funding spread, penetration, losses and lease residuals; consolidated profit after subsidy costs.",
+      "source_ids": [
+        "SFS",
+        "PLAN"
+      ],
+      "priority": "High"
+    },
+    {
+      "id": "I18",
+      "initiative": "Dealer order flexibility and retail-linked rewards",
+      "management_plan_or_observation": "Evidence of easing restrictions and particular sales-linked programs.",
+      "our_position": "Constructive but no independent earnings credit yet",
+      "reasoning": "Better alignment can reduce forced stocking incentives. Stair-step bonuses can still cause month-end distortions and transfers between dealers.",
+      "forecast_treatment": "Model benefit through turns, sell-through and net pricing; no separate dealer-repair profit plug.",
+      "test_or_disconfirming_evidence": "Same-store GPU/stock/order trends and actual rule coverage across brands; sustainable replenishment.",
+      "source_ids": [
+        "Q2"
+      ],
+      "priority": "High"
+    },
+    {
+      "id": "I19",
+      "initiative": "Localization, capacity and tariff mitigation",
+      "management_plan_or_observation": "Regional footprint changes and higher utilization ambitions.",
+      "our_position": "Important, execution-dependent",
+      "reasoning": "Avoided tariffs and better absorption can help, but imported components, relocation costs and timing matter. Capacity utilization rising on dealer stock build is not sustainable.",
+      "forecast_treatment": "Separate tariffs, fixed-cost absorption, capital spending and VCP. Use geographically consistent output assumptions.",
+      "test_or_disconfirming_evidence": "Local sourcing share, plant output/end-sales balance, actual landed cost and transition spending.",
+      "source_ids": [
+        "NA",
+        "FIN",
+        "Q2"
+      ],
+      "priority": "High"
+    },
+    {
+      "id": "I20",
+      "initiative": "Leapmotor and other industrial partnerships",
+      "management_plan_or_observation": "Technology, manufacturing and market-access partnerships; some conditional.",
+      "our_position": "Potential group benefit; not evidence of NA household recovery",
+      "reasoning": "Partners can lower development cost and widen offerings. Cannibalization, governance, final agreements and economic ownership determine value retained.",
+      "forecast_treatment": "Regional treatment; distinguish controlled-JV consolidation from minority profit claims. Do not cut consolidated revenue by the minority percentage mechanically.",
+      "test_or_disconfirming_evidence": "Definitive contracts, actual production economics and incremental consolidated profit/cash after partner interests.",
+      "source_ids": [
+        "PLAN",
+        "TECH"
+      ],
+      "priority": "Medium"
+    },
+    {
+      "id": "I21",
+      "initiative": "Europe and other regional product/cost initiatives",
+      "management_plan_or_observation": "Regional growth and profitability plans beyond NA.",
+      "our_position": "Necessary for the consolidated model; assess independently",
+      "reasoning": "NA evidence cannot establish European low-emission demand or emerging-market margins. Affordable mix can raise units while lowering revenue per unit.",
+      "forecast_treatment": "Separate regional units, price, costs and FX; do not spread NA assumptions across the group.",
+      "test_or_disconfirming_evidence": "Regional launches, utilization, mix and pricing; cross-check intercompany/JV scope.",
+      "source_ids": [
+        "FIN",
+        "PLAN"
+      ],
+      "priority": "Medium"
+    },
+    {
+      "id": "I22",
+      "initiative": "Investment, restructuring cash and balance-sheet repair",
+      "management_plan_or_observation": "\u20ac60bn five-year investment plan; positive industrial FCF targeted2027.",
+      "our_position": "Cash conversion is a separate hurdle",
+      "reasoning": "Product repair needs cash before mature profits. Restructuring payments, working capital and captive funding can separate AOI from cash.",
+      "forecast_treatment": "Explicit cash bridge, launch capital and reset payments; financing proceeds are not operating recovery.",
+      "test_or_disconfirming_evidence": "FCF after investment, inventory quality and restructuring cash versus plan, with consistent industrial/consolidated scope.",
+      "source_ids": [
+        "PLAN",
+        "FIN",
+        "FY25"
+      ],
+      "priority": "High"
+    }
+  ],
+  "decision_order": [
+    "NA VCP savings retained after price/mix and cost headwinds",
+    "Ram LD sustainability and HD divergence",
+    "Cherokee/other affordable launches: date, price, sourcing, cannibalization",
+    "Grand Cherokee/Compass recovery and broader family coverage",
+    "Dealer replenishment and profit evidence",
+    "Group/regional reconciliation and cash conversion"
+  ],
+  "recommended_research_question": "Can Stellantis restore competitive affordable products while retaining enough cost savings to improve North American profit, rather than spending the entire saving to sustain volume?",
+  "next_deliverable": "Family-level2026\u201328 unit scenarios plus separate net-price, VCP, utilization, tariffs, warranty and launch-cost bridge; mapped against the assignment\u2019s illustrative AI forecast.",
+  "detailed_review_update": {
+    "as_of": "2026-10-14",
+    "file": "management-driver-review-2026-10-14.json",
+    "brand_targets": [
+      {
+        "brand": "Ram",
+        "sales_2025_k": 517,
+        "sales_2030_target_k": 825,
+        "pdf_page": 75,
+        "increment_k": 308,
+        "share_of_brand_target_increase_pct": 62.34817813765182
+      },
+      {
+        "brand": "Jeep",
+        "sales_2025_k": 645,
+        "sales_2030_target_k": 740,
+        "pdf_page": 72,
+        "increment_k": 95,
+        "share_of_brand_target_increase_pct": 19.23076923076923
+      },
+      {
+        "brand": "Chrysler",
+        "sales_2025_k": 143,
+        "sales_2030_target_k": 225,
+        "pdf_page": 66,
+        "increment_k": 82,
+        "share_of_brand_target_increase_pct": 16.59919028340081
+      },
+      {
+        "brand": "Dodge",
+        "sales_2025_k": 126,
+        "sales_2030_target_k": 135,
+        "pdf_page": 69,
+        "increment_k": 9,
+        "share_of_brand_target_increase_pct": 1.8218623481781377
+      }
+    ],
+    "new_evidence": "Explicit brand volume targets,2028small-pickupSOP, price/industrial bridges, Cherokee restrictions, investment reconciliation."
+  }
+}

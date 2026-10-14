@@ -1,0 +1,146 @@
+{
+  "as_of": "2026-10-13",
+  "question": "Separate Ram newer1500,Classic andHD before attributing totalUSpickup decline to consumer demand.",
+  "scope": "Bounded public search; no full US2023\u201324 counts split recovered. Canada separate actuals; USselectivegrowth disclosures. No Canadian proportions extrapolated to US.",
+  "sources": {
+    "canada2024": "https://a4.myautoworld.com/stellantis-reports-2024-sales/",
+    "canada2024_crosscheck": "https://moparinsiders.com/stellantis-post-its-sales-numbers-for-canada-in-q4-2024/",
+    "canada_h1": "https://moparinsiders.com/stellantis-canada-has-a-dismal-q2-2024-sales-period/",
+    "canada2025": "https://www.autoevolution.com/pdf/news_attachements/the-new-charger-is-a-game-changer-for-dodge-but-boy-do-i-miss-the-challenger-264235.pdf",
+    "us_q225": "https://www.prnewswire.com/news-releases/fca-us-reports-second-quarter-2025-us-sales-results-302496258.html",
+    "us_q125": "https://www.stellantis.com/content/dam/stellantis-corporate/news/press-releases/2025/april/11-04-25/en/EN-20250411-Stellantis-Q1-2025-Shipments-Estimates-Release.pdf",
+    "hd_launch": "https://blog.stellantisnorthamerica.com/2025/01/07/2025-ram-2500-and-3500-heavy-duty-unveiled-with-exceptional-capability-enhanced-towing-features-and-leading-edge-technology/",
+    "lotlinx_failed": "https://lotlinx.com/wp-content/uploads/Vincensus-April-2024.pdf"
+  },
+  "canada_rows": [
+    {
+      "model": "1500 Classic (DS)",
+      "2023": 33149,
+      "2024": 18499,
+      "2025": 3256,
+      "h1_2023": 17467,
+      "h1_2024": 13424,
+      "change_2024": -14650,
+      "change_2025": -15243,
+      "growth_2024_pct": -44.194395004374186,
+      "growth_2025_pct": -82.39904859722147
+    },
+    {
+      "model": "1500 newer generation (DT)",
+      "2023": 28863,
+      "2024": 22667,
+      "2025": 24351,
+      "h1_2023": 16640,
+      "h1_2024": 10187,
+      "change_2024": -6196,
+      "change_2025": 1684,
+      "growth_2024_pct": -21.466929979558603,
+      "growth_2025_pct": 7.429302510257196
+    },
+    {
+      "model": "2500/3500 Heavy Duty",
+      "2023": 11961,
+      "2024": 13904,
+      "2025": 13914,
+      "h1_2023": 6951,
+      "h1_2024": 7224,
+      "change_2024": 1943,
+      "change_2025": 10,
+      "growth_2024_pct": 16.244461165454393,
+      "growth_2025_pct": 0.07192174913694949
+    }
+  ],
+  "canada_derived": {
+    "three_family_net_change_2024": -18903,
+    "classic_share_net_decline_pct": 77.50092577897688,
+    "new1500_2025_vs2023_pct": -15.632470637147911
+  },
+  "source_quality": "Canada2023/24 from reproduced OEMtables in two publishers, same underlying source not independent datasets;2024values matched2025originalcompanyrelease mirrored byautoevolution. H1table secondaryreport not independentlyauthenticated. No retail/fleet split.",
+  "us_disclosures": {
+    "q2_2025_yoy_1500_total_pct": 17,
+    "q2_2025_yoy_1500_retail_pct": 68,
+    "q2_2025_yoy_2500_retail_pct": 1,
+    "q1_2025": "OEM says1500/2500 retail each rose >10%; regional shipments fell20% withlowerJanuaryproduction andHDlaunchramp."
+  },
+  "family_assessment": {
+    "classic": "Canada loss14650 in2024 explains77.5%ofnetloss across3families. H1sales already-23.1%beforeannouncedlate2024productionend; discontinuationalone cannotexplainall.2025furtherstockrunoff isnot ongoingmodeldemandtest. Needretention/substitution proof beforeassumingcustomersmovedtoDT.",
+    "dt": "Canada2024-21.5%,2025+7.4%butstill15.6%below2023. ExistingJuly2024managementtrimavailabilityaccount andMY2025powertraintransition relevant. USQ22025retailrecoverypredatesannouncedsummerHEMIarrival; HEMIcannotexplainwholeearlyrebound. Noprovencausalweight fordiscounts,lowbase,availabilityorClassicmigration.",
+    "hd": "Canada2024+16.2%,2025roughlyflat; USQ22025Ram2500retail+1%,notallHD. HEMI5.7removalfrom1500mustnotapplytoHD6.4gas/Cumminsdiesel. Jan2025refreshnewdiesel/transmission andQ1ramp documented;availabilitymaydistortwholesale. NoevidencehereallHDbuyersarecommercial orallHDdemandwashealthy."
+  },
+  "limitations": [
+    "FullUSfamilycountsplitnotrecovered;USheadline71,806loss remains unallocated.",
+    "4500/5500 chassis cabs excludedfromCanada3familytable; verifyUSaggregatecoverage beforeexactgeographicreconciliation.",
+    "LotlinxPDFinitialindexthenfetchfailed;alternateApril2024-1searchsnippetcontradictsfirstmonthlygrowthsnippet. Excludefigurespendingfullpages/methodology;notreliablebasisforannualunits.",
+    "AnnouncedsummerHEMIarrival is timingconstraint,notVIN-leveldeliveryaudit.",
+    "No exactUSClassicannualvolume,retailfleetbreakdown,matchedprices,ortrimstockturn."
+  ],
+  "decision": "Distinctfamilymechanisms supported; Canada comparison doesnotidentifyUSlossallocation. PreserveUSunknowns.",
+  "next_step": "Mostusefuladditional evidence wouldbe public US1500/Classic/HDannualregistration/salesexhibit; otherwiseproceedwithUSquarterlyretailgrowth/launchchronologyratherthanexpensivecollection.",
+  "us_allocation_followup": {
+    "date": "2026-10-13",
+    "result": "Exact US DT/DS/HD annual allocation remains unidentified after targeted public searches. Do not use Canada shares or ambiguous interview percentage as annual family counts.",
+    "annual_totals": {
+      "2023": 444926,
+      "2024": 373120,
+      "lost_units": 71806
+    },
+    "quarterly_rows": [
+      {
+        "quarter": "Q1",
+        "2023": 105350,
+        "2024": 89417,
+        "lost_units": 15933,
+        "share_annual_decline_pct": 22.18895356933961
+      },
+      {
+        "quarter": "Q2",
+        "2023": 117699,
+        "2024": 90109,
+        "lost_units": 27590,
+        "share_annual_decline_pct": 38.422973010611926
+      },
+      {
+        "quarter": "Q3",
+        "2023": 109391,
+        "2024": 89140,
+        "lost_units": 20251,
+        "share_annual_decline_pct": 28.202378631312147
+      },
+      {
+        "quarter": "Q4",
+        "2023": 112486,
+        "2024": 104454,
+        "lost_units": 8032,
+        "share_annual_decline_pct": 11.185694788736317
+      }
+    ],
+    "quarter_method": "Q1 derived as H1 minus Q2; other quarters directly reported. Quarterly and annual totals reconcile exactly. Retail plus fleet, not wholesale.",
+    "h1_share_loss_pct": 60.611926579951536,
+    "sources": {
+      "q2": "https://www.prnewswire.com/news-releases/fca-reports-second-quarter-2024-us-sales-results-302188464.html",
+      "q3": "https://www.prnewswire.com/news-releases/fca-reports-q3-2024-total-us-sales-302265584.html",
+      "q4": "https://www.prnewswire.com/news-releases/fca-us-reports-fourth-quarter-and-full-year-2024-sales-results-302342164.html",
+      "interview": "https://www.motortrend.com/features/ram-ceo-tim-kuniskis-interview-hemi-v8"
+    },
+    "disclosures": [
+      {
+        "claim": "Q2 2024 2500 +28%, 3500 +33%",
+        "denominator": "versus Q1 2024, not year over year"
+      },
+      {
+        "claim": "Q3 2024 HD +4%",
+        "denominator": "versus Q2 2024, not year over year"
+      },
+      {
+        "claim": "Q3 2024 HD commercial fleet +26%",
+        "denominator": "year over year; commercial fleet subset only"
+      },
+      {
+        "claim": "Jan23 2025 MotorTrend interview says light-duty sales down30%; CEO says missing trims and incomplete ramp prevent isolating HEMI effect",
+        "limitation": "Article does not specify sales comparison window or Classic inclusion. No annual allocation from percentage."
+      }
+    ],
+    "inference": "60.6% of annual net loss occurred in H1. Late-year Classic production cessation cannot alone explain earlier declines; earlier wind-down, launch disruption and demand weakness remain possible. Timing does not identify causal weights.",
+    "targeted_data_request": "US calendar-year 2023 and 2024 sales/registrations split into Ram 1500 DT, 1500 Classic DS, 2500 and 3500; specify total versus retail, chassis-cab coverage, and reconcile to 444926/373120. Look for an existing Wards/S&P Global Mobility/Experian exhibit via AlphaSense; access not assumed."
+  }
+}

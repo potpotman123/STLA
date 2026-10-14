@@ -1,0 +1,199 @@
+{
+  "as_of": "2026-10-08",
+  "scope": "Bounded Cherokee/Belvidere follow-up; historical supply, offer and sell-through evidence, not a complete monthly panel.",
+  "sources": {
+    "pre_chip_shift": "https://www.northernpublicradio.org/illinois/2019-03-08/laid-off-chrysler-workers-expected-to-be-in-high-demand",
+    "shutdown2021": "https://www.assemblymag.com/articles/96660-jeep-assembly-plant-in-illinois-to-be-down-through-rest-of-october",
+    "local_restart_delay": "https://www.wifr.com/2021/05/20/belvidere-businesses-feel-impact-of-shift-changes-pending-layoffs-at-assembly-plant/",
+    "afs_estimate": "https://s3-prod.autonews.com/2021-12/AutoForecast-Solutions-microchip-shortage-impact-new.pdf",
+    "price_trim": "https://www.motortrend.com/news/2022-jeep-cherokee-first-look-review",
+    "brand_inventory": "https://www.coxautoinc.com/insights/2022-new-vehicle-inventory/",
+    "listing_age_secondary": "https://247wallst.com/cars-and-drivers/2023/08/23/the-american-car-no-one-wants-is-jeep-cherokee/",
+    "listing_age_same_underlying": "https://www.autoblog.com/carbuying/these-are-the-slowest-selling-new-and-used-vehicles-on-the-market",
+    "fed_mechanism": "https://www.federalreserve.gov/econres/notes/feds-notes/when-the-chips-went-down-motor-vehicle-production-and-the-2021-2022-semiconductor-shortages-20260928.html"
+  },
+  "timeline": [
+    {
+      "period": "2019",
+      "finding": "Third shift removal announced for May2019, before pandemic chip shortage.",
+      "status": "Dated local reporting. Not proof of US consumer rejection; plant output includes exports.",
+      "source": "pre_chip_shift"
+    },
+    {
+      "period": "2021",
+      "finding": "May19 report delays worker return until June1; Oct13 report says shutdown continues through October due to global semiconductor shortage.",
+      "status": "Dated reports establish repeated disruptions; not a complete shutdown-day count. Conflicting descriptions of shift timing not resolved.",
+      "sources": [
+        "local_restart_delay",
+        "shutdown2021"
+      ]
+    },
+    {
+      "period": "2021-12-17 estimate",
+      "finding": "AFS projected potential lost production: Cherokee151155, Charger27076, Challenger15316.",
+      "status": "Potential production cutback estimate on NAassembly lines, not US retail counterfactual; baseline and eventual catch-up unknown. Cannot add to actual sales or compare causal shares.",
+      "source": "afs_estimate"
+    },
+    {
+      "period": "MY2022",
+      "finding": "MotorTrend reports entry price35590 versus29730MY2021, up5860 or19.71%; trim offerings reduced and equipment/drivetrains changed.",
+      "status": "Secondary contemporary product report; not same-trim inflation, transaction price or incentive-adjusted affordability.",
+      "source": "price_trim",
+      "qualification_added": "Superseded as full-model-year pricing claim: cheaper Altitude listed by other sources, Edmunds production-end04/22. See causal_link_test."
+    },
+    {
+      "period": "End2022",
+      "finding": "Cox says Jeep/Ram among highest inventory brands as industry supply recovered.",
+      "status": "Brand-level context only, not Cherokee stock observation.",
+      "source": "brand_inventory"
+    },
+    {
+      "period": "July2023",
+      "finding": "Contemporary secondary report of iSeeCars: Cherokee average days on market128.7 versus all-new-car48.2, ratio2.67.",
+      "status": "Primary historical model table not retrieved; multiple publishers share one dataset. Metric is not days supply. Post-production-stop survivor/trim/pricing/discontinued-model effects limit generalization.",
+      "sources": [
+        "listing_age_secondary",
+        "listing_age_same_underlying"
+      ]
+    }
+  ],
+  "interpretation": "Best current working explanation is layered: earlier capacity adjustment, substantial supply shock, narrower/more expensive offering, and later slow liquidation of remaining stock. No causal percentages assigned.",
+  "counterfactual_test": "Not yet possible to show sales recovery after supply normalization: lack matched model inventory and production timeline; brand normalization insufficient.",
+  "macro_mechanism": "Fed2026 retrospective documents industry shift toward higher-priced/margin output during shortage. Supports allocation mechanism generally, not proof Stellantis intentionally deprived Cherokee of chips.",
+  "missing": [
+    "Historical Cherokee inventory-unit series",
+    "Quarterly plant output and allocation/export split",
+    "Matched trim effective prices/incentives",
+    "Historical model-level shopping interest",
+    "Direct owner migration"
+  ],
+  "next_step": "Triangulate Cherokee 2021\u201322 inventory and offer changes; separately check Dodge supply/offer chronology. Stop broad keyword loops; targeted archived exhibits via existing subscription may be more efficient.",
+  "sell_through_followup": {
+    "as_of": "2026-10-08",
+    "question": "Was July2023 128.7-day reading new deterioration or persistent relative slowness?",
+    "observations": [
+      {
+        "period": "2021-10",
+        "provider": "iSeeCars via24/7WallSt",
+        "scope": "US new vehicles; reported model and market average",
+        "cherokee_days": 84.7,
+        "market_days_rounded": 32,
+        "ratio": 2.646875,
+        "rank_slowest": 5,
+        "average_price_reported": 34366,
+        "url": "https://247wallst.com/special-report/2021/11/28/this-is-the-slowest-selling-car-in-america-6/5/",
+        "status": "Secondary report; original historical iSeeCars table not retrieved, market baseline rounded."
+      },
+      {
+        "period": "2021-11",
+        "provider": "Cars.com",
+        "scope": "MY2021 Cherokee vs current MY2021/22 new-vehicle market on platform",
+        "cherokee_days": 42,
+        "market_days": 24,
+        "ratio": 1.75,
+        "availability_screen": "Current listings at publication at least as numerous as estimated November platform sales; above-average days and popular model screen. Not exact same-date inventory/sales reconciliation.",
+        "peer_days": {
+          "Ford Escape": 42,
+          "Ford Edge": 48,
+          "Honda Passport": 31,
+          "Dodge Challenger": 40,
+          "Dodge Charger": 38
+        },
+        "url": "https://www.cars.com/articles/inventory-pinch-new-models-you-might-find-at-a-price-445157/",
+        "status": "Primary platform observation; presumed sale, not verified registration. No inventory count disclosed."
+      },
+      {
+        "period": "2023-07",
+        "provider": "iSeeCars via contemporary secondary publications",
+        "cherokee_days": 128.7,
+        "market_days": 48.2,
+        "ratio": 2.6701244813278002,
+        "url": "https://247wallst.com/cars-and-drivers/2023/08/23/the-american-car-no-one-wants-is-jeep-cherokee/",
+        "status": "Previously recorded. Post-withdrawal selection effects."
+      }
+    ],
+    "derived": {
+      "cherokee_oct2021_jul2023_days_change_pct": 51.94805194805192,
+      "market_same_snapshots_change_pct_approx": 50.62500000000001
+    },
+    "conclusion": "Slow relative selling predates discontinuation and MY2022 trim changes. Two iSeeCars snapshots both roughly2.6\u20132.7x market, so raw128.7 alone not evidence of uniquely new deterioration. No continuous time series, no pre2019 baseline; cannot claim always slow or unwanted.",
+    "noncomparability": "Do not splice84.7 to42 as monthly improvement: different provider, sample and MYmix. Retain within-source ratios.",
+    "censoring": "Sold or presumed-sold cohorts omit vehicles still unsold. Supply interruptions change stock age and available trim mix; aged leftovers can coexist with shortage of desired configurations.",
+    "counterevidence": "Search located June2022 Alaska new Cherokee13.3 days, January2021 local used Cherokee fast sale. Excluded from national-new trend due geography/used scope; regional heterogeneity possible.",
+    "remaining_gaps": [
+      "National2022model-level inventory counts and comparable days history",
+      "2018\u201320 comparable listing-turn baseline",
+      "Matched trim incentives/transaction prices",
+      "Historical shopper interest series"
+    ],
+    "stopping_rule": "Broad public queries becoming low yield; do not scrape or fabricate missing panel. Target archived model-inventory/pricing exhibits in existing research subscriptions."
+  },
+  "integrated_working_hypothesis": {
+    "recorded_date": "2026-10-08",
+    "user_synthesis": "Cherokee already had underlying retail weakness; supply constraints exacerbated the problem and contributed to removal of more affordable configurations, further weakening sales.",
+    "research_formulation": "Pre-shortage stock/sell-through weakness is now better supported; subsequent chip disruptions and later offer narrowing both documented. Their causal relationship and contribution to household demand remain unproven.",
+    "evidence_supported": [
+      "Late2021 relative selling-speed weakness: reported iSeeCars84.7days vs~32market; Cars.com42vs24 and availability-screen qualification.",
+      "Repeated2021 chip-related production disruptions.",
+      "MY2022 entry-price increase and changes to trims/equipment/drivetrain offerings.",
+      "July2023 reported slow sell-through of remaining stock.",
+      "Jan2020 secondary report of97days Cherokeeinventory and planned corrective shutdown; see causal_link_test for limitations and corrected2022trim chronology."
+    ],
+    "causal_links_not_yet_proven": [
+      "Chip constraints caused cheaper configuration cessation.",
+      "Trim/price changes caused additional retail losses.",
+      "Exact pre-shortage household demand versus fleet/overproduction effects."
+    ],
+    "alternative_explanations": [
+      "Trim simplification may reflect independent margin targets, product aging or planned withdrawal.",
+      "Slow listing turn may reflect regional or trim mismatch and aged remaining stock rather than uniformly weak model preference."
+    ],
+    "decision_implication": "Do not model recovery as supply normalization alone. Test whether replacement offer restores affordability and competitiveness, as well as availability.",
+    "attribution": "User explicitly articulated combined mechanism; AI maintains evidence boundaries and proposed discriminating tests.",
+    "model_status": "Leading integrated hypothesis, not established causal conclusion; no causal weights assigned."
+  },
+  "causal_link_test": {
+    "as_of": "2026-10-08",
+    "link1_pre_shortage_weakness": {
+      "finding": "Stronger support for pre-shortage inventory/sell-through imbalance, but exact household-retail demand still unidentified.",
+      "evidence": "January14 2020 contemporary report: Cherokee97days inventory as ofJanuary1; Belvidere planned two-week idling to match inventory to demand.",
+      "source": "https://www.fool.com/investing/2020/01/14/fiat-chrysler-q4-2019-us-sales.aspx",
+      "status": "Secondary dated report. Days supply not listing days; no same-date peer benchmark, inventory-unit count or retail/fleet split. Cannot identify root cause or exact demand magnitude."
+    },
+    "link2_chips_to_cheap_trim_removal": {
+      "finding": "Not established. New evidence requires correcting a blanket MY2022 cheapest-price claim.",
+      "evidence": [
+        {
+          "source": "https://www.edmunds.com/jeep/cherokee/2022/",
+          "finding": "Lists Altitude FWD and4WD with production end04/22. Database evidence of cheaper MY2022 configurations and end timing; no stated cause."
+        },
+        {
+          "source": "https://www.thecarconnection.com/overview/jeep_cherokee_2022",
+          "finding": "States Altitude with2.4L was not offered at time of publication, supporting time-specific availability."
+        },
+        {
+          "source": "https://www.autotrader.com/comparisons/2022-jeep-cherokee-choosing-the-right-trim",
+          "finding": "Lists Altitude starting27995 plus1595destination=29590; current page may be revised."
+        },
+        {
+          "source": "https://www.caranddriver.com/news/a42362030/2023-jeep-cherokee-lineup-reduced/",
+          "finding": "January11 2023 report: MY2023 onlyAltitudeLux andTrailhawk, both4WD; entry39290 vsMY2022Altitude31590. Equipment/drivetrain differ."
+        }
+      ],
+      "correction": "Earlier35590MY2022entry-price statement describes some contemporaneous coverage, not proven model-year-wide minimum. Price vintages and destination treatment differ; do not infer uniform20%increase or permanent all-year absence of affordable trims.",
+      "alternatives": [
+        "Chip-driven allocation",
+        "Product/end-of-life simplification",
+        "Engine availability or economics",
+        "Independent margin/mix strategy"
+      ],
+      "missing": "Dated USorder-guide changes or contemporaneous company/dealer bulletin explaining Altitude cessation; no explicit shortage-to-trim causal statement located."
+    },
+    "revised_hypothesis": "Pre-shortage stock/sell-through weakness is now better supported; subsequent chip disruptions and later offer narrowing both documented. Their causal relationship and contribution to household demand remain unproven."
+  },
+  "bounded_closure_2026_10_09": {
+    "result": "No direct documentary explanation for MY2022 Altitude cessation found. Preserve production-end04/22 catalog evidence; do not infer chips caused withdrawal.",
+    "prior_evidence": "See cherokee-supply-timeline.json, especially D030 correction.",
+    "status": "Unresolved; stop repeated low-yield historical search."
+  }
+}

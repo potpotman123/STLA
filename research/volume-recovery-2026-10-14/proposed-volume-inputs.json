@@ -1,0 +1,370 @@
+{
+  "as_of": "2026-10-14",
+  "status": "research scenarios only; no workbook/baseline edits; no user-approved forecast",
+  "scope": "13 US model families, customer retail plus fleet sales. Operating-lineup subtotal, not complete US/NA volume or shipments.",
+  "rows": [
+    {
+      "id": "ram_ld",
+      "family": "Ram light-duty pickups",
+      "classification": "assumed / provisional analyst judgment",
+      "method": "Recent pace",
+      "rationale": "Q3 76,650 x4 = 306,600; YTD annualized 269,529. Base holds the better Q3 pace, then adds only 3% in 2028. Downside loses part of the ramp; upside needs sustained retail growth and mix availability. No separate HEMI or dealer-bonus additive uplift.",
+      "2025A_units": 204139,
+      "2026_flat_q4_reference_units": 278797,
+      "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+      "2027_units": {
+        "downside": 250000,
+        "base": 310000,
+        "upside": 350000
+      },
+      "2028_units": {
+        "downside": 260000,
+        "base": 320000,
+        "upside": 370000
+      },
+      "2028_base_growth_vs_2025_units": 115861,
+      "2028_base_growth_vs_2026_reference_units": 41203,
+      "2028_base_growth_vs_2027_units": 10000,
+      "share_2028_base_growth_from_2026_reference_pct": 19.30515860000937
+    },
+    {
+      "id": "ram_hd",
+      "family": "Ram heavy-duty pickups",
+      "classification": "assumed / provisional analyst judgment",
+      "method": "Partial normalization",
+      "rationale": "2025 169,920; Q3 annualized 164,428; 2024 186,107. Base modestly exceeds the 2025 level and stays below 2024 through 2028. Recovery from the 2025 transition is not already proved by a weak Q3.",
+      "2025A_units": 169920,
+      "2026_flat_q4_reference_units": 164308,
+      "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+      "2027_units": {
+        "downside": 155000,
+        "base": 175000,
+        "upside": 190000
+      },
+      "2028_units": {
+        "downside": 155000,
+        "base": 180000,
+        "upside": 200000
+      },
+      "2028_base_growth_vs_2025_units": 10080,
+      "2028_base_growth_vs_2026_reference_units": 15692,
+      "2028_base_growth_vs_2027_units": 5000,
+      "share_2028_base_growth_from_2026_reference_pct": 7.352293492011433
+    },
+    {
+      "id": "promaster",
+      "family": "Ram ProMaster",
+      "classification": "assumed / provisional analyst judgment",
+      "method": "Recent pace",
+      "rationale": "YTD annualized 58,707; Q3 annualized 65,256; 2025 57,591. Base lies inside current annualized paces; old 2023 81,663 is not mechanically restored. Commercial fleet demand matters.",
+      "2025A_units": 57591,
+      "2026_flat_q4_reference_units": 60344,
+      "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+      "2027_units": {
+        "downside": 50000,
+        "base": 60000,
+        "upside": 70000
+      },
+      "2028_units": {
+        "downside": 50000,
+        "base": 63000,
+        "upside": 75000
+      },
+      "2028_base_growth_vs_2025_units": 5409,
+      "2028_base_growth_vs_2026_reference_units": 2656,
+      "2028_base_growth_vs_2027_units": 3000,
+      "share_2028_base_growth_from_2026_reference_pct": 1.2444361148854424
+    },
+    {
+      "id": "grand_cherokee",
+      "family": "Jeep Grand Cherokee",
+      "classification": "assumed / provisional analyst judgment",
+      "method": "Partial normalization",
+      "rationale": "2025 210,082; 2024 216,148; current YTD annualized 186,352 and Q3 annualized 152,108. Base assumes planned shutdown/availability effects ease, returning near 2025–24 rather than the 2023 peak. Largest continuing-Jeep supply-versus-demand risk.",
+      "2025A_units": 210082,
+      "2026_flat_q4_reference_units": 177791,
+      "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+      "2027_units": {
+        "downside": 155000,
+        "base": 205000,
+        "upside": 230000
+      },
+      "2028_units": {
+        "downside": 160000,
+        "base": 215000,
+        "upside": 245000
+      },
+      "2028_base_growth_vs_2025_units": 4918,
+      "2028_base_growth_vs_2026_reference_units": 37209,
+      "2028_base_growth_vs_2027_units": 10000,
+      "share_2028_base_growth_from_2026_reference_pct": 17.43381905074263
+    },
+    {
+      "id": "wrangler",
+      "family": "Jeep Wrangler",
+      "classification": "assumed / provisional analyst judgment",
+      "method": "Recent pace",
+      "rationale": "YTD annualized 174,681; Q3 annualized 179,028; 2025 167,322. Base holds about current pace for both years; no restoration of 2019 228,032. Bronco and aging/mix competition cap assumed gains.",
+      "2025A_units": 167322,
+      "2026_flat_q4_reference_units": 175768,
+      "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+      "2027_units": {
+        "downside": 155000,
+        "base": 180000,
+        "upside": 190000
+      },
+      "2028_units": {
+        "downside": 155000,
+        "base": 180000,
+        "upside": 200000
+      },
+      "2028_base_growth_vs_2025_units": 12678,
+      "2028_base_growth_vs_2026_reference_units": 4232,
+      "2028_base_growth_vs_2027_units": 0,
+      "share_2028_base_growth_from_2026_reference_pct": 1.9828515204048165
+    },
+    {
+      "id": "compass",
+      "family": "Jeep Compass",
+      "classification": "assumed / provisional analyst judgment",
+      "method": "Constrained partial recovery",
+      "rationale": "YTD annualized 63,783; Q3 annualized 43,244; 2025 101,997. Base starts near the YTD pace, with only limited 2028 recovery. Cherokee expansion and overlapping customers prevent simultaneous full restoration of both nameplates.",
+      "2025A_units": 101997,
+      "2026_flat_q4_reference_units": 58648,
+      "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+      "2027_units": {
+        "downside": 40000,
+        "base": 65000,
+        "upside": 85000
+      },
+      "2028_units": {
+        "downside": 40000,
+        "base": 70000,
+        "upside": 90000
+      },
+      "2028_base_growth_vs_2025_units": -31997,
+      "2028_base_growth_vs_2026_reference_units": 11352,
+      "2028_base_growth_vs_2027_units": 5000,
+      "share_2028_base_growth_from_2026_reference_pct": 5.318839900670009
+    },
+    {
+      "id": "gladiator",
+      "family": "Jeep Gladiator",
+      "classification": "assumed / provisional analyst judgment",
+      "method": "Recent pace",
+      "rationale": "YTD annualized 41,259; Q3 annualized 47,644; 2025 56,790. Base lies within current paces; 2025 rebound is not a reliable full-year new baseline after renewed 2026 decline.",
+      "2025A_units": 56790,
+      "2026_flat_q4_reference_units": 42855,
+      "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+      "2027_units": {
+        "downside": 35000,
+        "base": 43000,
+        "upside": 55000
+      },
+      "2028_units": {
+        "downside": 35000,
+        "base": 45000,
+        "upside": 60000
+      },
+      "2028_base_growth_vs_2025_units": -11790,
+      "2028_base_growth_vs_2026_reference_units": 2145,
+      "2028_base_growth_vs_2027_units": 2000,
+      "share_2028_base_growth_from_2026_reference_pct": 1.0050133533242749
+    },
+    {
+      "id": "wagoneer_family",
+      "family": "Jeep Wagoneer / Grand Wagoneer",
+      "classification": "assumed / provisional analyst judgment",
+      "method": "Recent pace",
+      "rationale": "YTD annualized 56,856; Q3 annualized 49,980; 2025 combined 45,040. Base broadly holds YTD scale with small additional growth. Label consolidation and high-price demand/incentives remain risks.",
+      "2025A_units": 45040,
+      "2026_flat_q4_reference_units": 55137,
+      "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+      "2027_units": {
+        "downside": 40000,
+        "base": 55000,
+        "upside": 65000
+      },
+      "2028_units": {
+        "downside": 40000,
+        "base": 58000,
+        "upside": 70000
+      },
+      "2028_base_growth_vs_2025_units": 12960,
+      "2028_base_growth_vs_2026_reference_units": 2863,
+      "2028_base_growth_vs_2027_units": 3000,
+      "share_2028_base_growth_from_2026_reference_pct": 1.341423417513939
+    },
+    {
+      "id": "cherokee",
+      "family": "Jeep Cherokee / returning HEV",
+      "classification": "assumed / provisional analyst judgment",
+      "method": "Conditional launch judgment",
+      "rationale": "Q3 HEV 10,344 = 3,448/month; base requires 5,000/month in 2027 and 6,667 in 2028. H1 2027 competitive trims are a management plan, not measured conversion. Base is conditional on broader profitable availability. Not an independently calibrated launch curve; never restore old 191k peak automatically.",
+      "2025A_units": 527,
+      "2026_flat_q4_reference_units": 31258,
+      "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+      "2027_units": {
+        "downside": 30000,
+        "base": 60000,
+        "upside": 80000
+      },
+      "2028_units": {
+        "downside": 40000,
+        "base": 80000,
+        "upside": 110000
+      },
+      "2028_base_growth_vs_2025_units": 79473,
+      "2028_base_growth_vs_2026_reference_units": 48742,
+      "2028_base_growth_vs_2027_units": 20000,
+      "share_2028_base_growth_from_2026_reference_pct": 22.837464274000844
+    },
+    {
+      "id": "charger_family",
+      "family": "Dodge Charger / Challenger transition family",
+      "classification": "assumed / provisional analyst judgment",
+      "method": "Conditional launch judgment",
+      "rationale": "Q3 new ICE+BEV 3,679 = 1,226/month. Base requires about 1,667/month then 2,500/month, supported directionally by ICE rollout but not by order data. Gasoline growth currently offsets BEV decline; old Charger+Challenger 120,858 in 2023 is not assumed recoverable.",
+      "2025A_units": 11362,
+      "2026_flat_q4_reference_units": 12475,
+      "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+      "2027_units": {
+        "downside": 10000,
+        "base": 20000,
+        "upside": 30000
+      },
+      "2028_units": {
+        "downside": 12000,
+        "base": 30000,
+        "upside": 45000
+      },
+      "2028_base_growth_vs_2025_units": 18638,
+      "2028_base_growth_vs_2026_reference_units": 17525,
+      "2028_base_growth_vs_2027_units": 10000,
+      "share_2028_base_growth_from_2026_reference_pct": 8.211123084852176
+    },
+    {
+      "id": "durango",
+      "family": "Dodge Durango",
+      "classification": "assumed / provisional analyst judgment",
+      "method": "Recent pace",
+      "rationale": "2025 81,168; YTD annualized 81,773; Q3 annualized 91,020. Base is near current scale in both years. New V8 derivatives sit inside this family, not additive launch forecasts; age and price constrain sustained gains.",
+      "2025A_units": 81168,
+      "2026_flat_q4_reference_units": 84085,
+      "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+      "2027_units": {
+        "downside": 70000,
+        "base": 85000,
+        "upside": 100000
+      },
+      "2028_units": {
+        "downside": 70000,
+        "base": 85000,
+        "upside": 105000
+      },
+      "2028_base_growth_vs_2025_units": 3832,
+      "2028_base_growth_vs_2026_reference_units": 915,
+      "2028_base_growth_vs_2027_units": 0,
+      "share_2028_base_growth_from_2026_reference_pct": 0.4287119898795858
+    },
+    {
+      "id": "minivans",
+      "family": "Chrysler Pacifica / Voyager",
+      "classification": "assumed / provisional analyst judgment",
+      "method": "Recent pace",
+      "rationale": "2025 Pacifica+Voyager 125,798; current YTD annualized 135,481 and Q3 annualized 137,964. Base stays close to current pace, then grows modestly. This includes fleet and depends on the apparent Voyager reporting consolidation.",
+      "2025A_units": 125798,
+      "2026_flat_q4_reference_units": 136102,
+      "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+      "2027_units": {
+        "downside": 115000,
+        "base": 140000,
+        "upside": 150000
+      },
+      "2028_units": {
+        "downside": 115000,
+        "base": 145000,
+        "upside": 160000
+      },
+      "2028_base_growth_vs_2025_units": 19202,
+      "2028_base_growth_vs_2026_reference_units": 8898,
+      "2028_base_growth_vs_2027_units": 5000,
+      "share_2028_base_growth_from_2026_reference_pct": 4.169048399943776
+    },
+    {
+      "id": "promaster_city",
+      "family": "Ram ProMaster City",
+      "classification": "assumed / provisional analyst judgment",
+      "method": "Conditional launch judgment",
+      "rationale": "Dealer arrival is planned Q1 2027; old 2019 nameplate sold 12,920. Base requires 833/month then 1,667/month. Different product/use and launch risks make old sales a scale check, not a causal calibration. This is the least secure included base input.",
+      "2025A_units": 20,
+      "2026_flat_q4_reference_units": 2,
+      "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+      "2027_units": {
+        "downside": 5000,
+        "base": 10000,
+        "upside": 20000
+      },
+      "2028_units": {
+        "downside": 10000,
+        "base": 20000,
+        "upside": 30000
+      },
+      "2028_base_growth_vs_2025_units": 19980,
+      "2028_base_growth_vs_2026_reference_units": 19998,
+      "2028_base_growth_vs_2027_units": 10000,
+      "share_2028_base_growth_from_2026_reference_pct": 9.369816801761703
+    }
+  ],
+  "totals": {
+    "2027": {
+      "downside": 1110000,
+      "base": 1408000,
+      "upside": 1615000
+    },
+    "2028": {
+      "downside": 1142000,
+      "base": 1491000,
+      "upside": 1760000
+    },
+    "2025_comparable_actual": 1231756,
+    "2026_comparable_flat_q4_reference": 1277570,
+    "2025_us_sales_coverage_pct": 97.73173038472036,
+    "2026_ytd_us_sales_coverage_pct": 99.55814674118876
+  },
+  "unallocated": [
+    "Dakota and compact/Rampage North American 2028 launches: month of customer availability and mature sales scale unverified",
+    "Chrysler new crossovers: no individual verified customer launch dates",
+    "Recon, Wagoneer S, Hornet, Fiat/Alfa and legacy residual: retain actuals; no numerical recovery assumption supported"
+  ],
+  "country_rows": [
+    {
+      "country": "Canada",
+      "2023A_rounded": 158000,
+      "2024A_rounded": 130000,
+      "2025A_rounded": 115000,
+      "2027_base_placeholder": 115000,
+      "2028_base_placeholder": 115000,
+      "assumption": "0% versus last verified FY country baseline; flat convention only, replace with 2026 country exit before workbook admission"
+    },
+    {
+      "country": "Mexico",
+      "2023A_rounded": 97000,
+      "2024A_rounded": 94000,
+      "2025A_rounded": 91000,
+      "2027_base_placeholder": 91000,
+      "2028_base_placeholder": 91000,
+      "assumption": "same flat convention; full reported country scope, not US-brand-only Mexico sales"
+    }
+  ],
+  "country_source": "FY2025 Stellantis Annual Report p17, country sales in thousands, excludes Maserati; sources.json AR25",
+  "quarterly_translation": "No fabricated seasonality curve. Hold annual totals as research assumptions; allocate only after settling current-product seasonality and dated customer availability. New 2028 launches need month-specific eligibility; no full-year mature volumes at SOP.",
+  "new_launch_accounting": "No separate add-on for HEMI, Rumble Bee, Durango R/T, Trailhawk or Charger ICE; they sit within family forecasts. Cherokee/ProMaster City are gross family sales; replacing outgoing products and cannibalization must be evaluated through the combined portfolio, not deducted again without evidence.",
+  "limits": [
+    "Scenario bounds are judgments, not calibrated confidence intervals. A base label does not imply a quantified probability.",
+    "Flat Q4 reference only makes current exit comparisons visible; growth versus 2025 includes recovery already achieved in 2026.",
+    "Jeep Cherokee+Compass+Grand Cherokee base is assessed jointly; no measured customer-transfer coefficient is claimed.",
+    "No macro recession/SAAR forecast or price elasticity estimated. Downside/upside are coherent directional operating scenarios, not exhaustive stress cases.",
+    "Canada/Mexico flat placeholders are not fresh country forecasts. Adding them to a partial US subtotal does not produce complete North America shipments or financial revenue."
+  ]
+}

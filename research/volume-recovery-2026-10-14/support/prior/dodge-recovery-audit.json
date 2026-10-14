@@ -1,0 +1,117 @@
+{
+  "as_of": "2026-10-09",
+  "question": "Do restored product offerings demonstrate sustainable incremental US retail demand?",
+  "scope": "Bounded public searches and selected pages; no agents, bulk extraction, paid data or causal fitting. US is not all North America.",
+  "sources": {
+    "q3_2026": "https://www.prnewswire.com/news-releases/stellantis-reports-q3-sales-302896446.html",
+    "cars_2021": "https://www.cars.com/articles/inventory-pinch-new-models-you-might-find-at-a-price-445157/",
+    "power_dollars_2024": "https://blog.stellantisnorthamerica.com/2024/08/06/dodge-srt-expands-dodge-power-dollars-rewards-enthusiasts-who-crave-more-power/",
+    "cherokee_finance": "https://www.carsdirect.com/deals-articles/2026-jeep-cherokee-hybrid-just-got-its-best-deal-ever",
+    "charger_finance": "https://moparinsiders.com/dodge-relaunches-power-dollars-for-2026-charger-sixpack/",
+    "charger_inventory": "https://moparinsiders.com/slow-selling-stellantis-models-could-mean-big-deals-for-buyers/",
+    "cherokee_inventory": "https://caredge.com/guides/zero-percent-financing-car-deals-september-2026"
+  },
+  "cherokee_closure": {
+    "result": "No direct documentary explanation for MY2022 Altitude cessation found. Preserve production-end04/22 catalog evidence; do not infer chips caused withdrawal.",
+    "prior_evidence": "See cherokee-supply-timeline.json, especially D030 correction.",
+    "status": "Unresolved; stop repeated low-yield historical search."
+  },
+  "dodge_pre_exit": {
+    "sales_source_file": "discontinuation-powertrain-audit.json",
+    "sales_pattern": "2020 to2022 Charger+3.4%, Challenger+4.0%; both declined2023. Does not prove economic health.",
+    "cars_nov2021_days": {
+      "Charger": 38,
+      "Challenger": 40,
+      "Mustang": 32,
+      "market": 24
+    },
+    "definition": "Cars.com listing time before presumed purchase, model-year2021 versus market2021/22; platform sample, not consumer search interest or days supply.",
+    "incentives_aug2024_usd": {
+      "ChargerSXT": 2920,
+      "ChargerGT": 3000,
+      "ChargerRT": 3700,
+      "ChallengerSXT_GT": 3030,
+      "ChallengerRT": 3750
+    },
+    "interpretation": "Old cars remained available and received cash support after production ended; pure empty-showroom explanation insufficient. Deliberate bridge inventory confounds excess-stock interpretation. No model margin or retail mix series.",
+    "replacement_timing": "Prior audit documents March2024 plan for ICE productionQ12025 versus October2025 call still forthcoming; no permanent EV-only claim."
+  },
+  "observed_company_reported": {
+    "period": "Q32026 and first9months2026",
+    "units_total_include_fleet": {
+      "CherokeeHEV": {
+        "q3": 10344,
+        "ytd": 20914
+      },
+      "ChargerICE": {
+        "q3": 3446,
+        "q3prior": 238,
+        "ytd": 8029,
+        "ytdprior": 1868
+      },
+      "ChargerBEV": {
+        "q3": 233,
+        "q3prior": 2776,
+        "ytd": 767,
+        "ytdprior": 7075
+      },
+      "Compass": {
+        "q3": 10811,
+        "q3prior": 28086
+      },
+      "GrandCherokee": {
+        "q3": 38027,
+        "q3prior": 54553
+      }
+    },
+    "retail_disclosures": {
+      "CherokeeHEV_qoq_pct": 53,
+      "Charger_yoy_pct": 22,
+      "Ram1500_yoy_pct": 42
+    },
+    "retail_limitation": "Percentage disclosures without absolute retail units; cannot apply common retail fraction."
+  },
+  "derived": {
+    "Charger_combined_ytd2026": 8796,
+    "Charger_combined_ytd2025": 8943,
+    "Charger_combined_ytd_pct": -1.6437437101643693,
+    "Compass_Cherokee_GrandCherokee_q32026": 59182,
+    "same_q32025": 82770,
+    "change_pct": -28.498248157545003,
+    "interpretation": "Descriptive netting, not evidence of owner-level cannibalization. Legacy ICE comparatives differ from new SIXPACK; do not equate YoY growth with like-product demand."
+  },
+  "offer_evidence": [
+    {
+      "model": "Cherokee",
+      "date": "2026-09-04",
+      "source": "cherokee_finance",
+      "status": "Journalist reports dealer bulletin, original bulletin not obtained",
+      "terms": "Most trims0%72months vs prior5.9%; base excluded; cannot stack with reported4500 alternative incentives.",
+      "inference": "Q3 retail growth coincides with greater finance support; elasticity and causation not estimated. Advertised offer not realized average incentive or manufacturer expense."
+    },
+    {
+      "model": "ChargerSIXPACK",
+      "date": "2026-07-09",
+      "source": "charger_finance",
+      "status": "Secondary report citing dealer communication/configurator",
+      "terms": "RT4200 and ScatPack5500 retail cash; scheduled through2026-08-03; not asserted currentOctoffer."
+    }
+  ],
+  "inventory_leads_excluded_from_model": [
+    {
+      "source": "charger_inventory",
+      "reported": "July8 CarEdge-derived385days supply,10796forsale1261sold",
+      "reason": "Powertrain split and sales-window denominator unresolved; snapshot not sustained trajectory."
+    },
+    {
+      "source": "cherokee_inventory",
+      "reported": "September180days labeled days on lot",
+      "reason": "Underlying cohort and calculation unverified; do not relabel as days supply or join historical series."
+    }
+  ],
+  "failed_access": [
+    "LotlinxQ12024 PDF web open internal error; search snippets not adopted as numerical evidence."
+  ],
+  "decision": "Observed sales and advertised offers may enter descriptive dashboard; sustainable demand forecast, profit forecast and causal weights remain unproven.",
+  "next_step": "Highest value: matched monthly model retail sales, comparable inventory metric and effective incentives around July Charger and September Cherokee offer changes, benchmark peer models and stable trims. Use small published/subscription excerpts already available; ask before paid or bulk data. Test within-Jeep substitution with owner transitions only if available."
+}

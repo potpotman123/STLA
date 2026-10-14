@@ -1,0 +1,517 @@
+{
+  "as_of": "2026-10-14",
+  "purpose": "Close reading requested by user; no bulk outside research and no final forecast built.",
+  "framework_file": "forecast-driver-framework.json",
+  "sources": {
+    "ID": {
+      "path": "/Users/kwu/Downloads/Stellantis N.V._IP_2026-05-22_English.pdf",
+      "pages": 128,
+      "scope": "Strategy, technology and regional presentation sections; filename date is not evidence of a new strategy after the May21 event.",
+      "cache": "work/management-review/investor-day.json",
+      "accessed": "2026-10-14",
+      "sha256_extracted_pages": "b16ccba2b51a8dedc36ae8438406b6af4f910160ed110ceb302f3adef12e7bf0"
+    },
+    "FIN": {
+      "path": "/Users/kwu/Downloads/Stellantis N.V._IP_2026-05-21_English.pdf",
+      "pages": 40,
+      "scope": "Complementary Investor Day financial-services, finance and appendix sections, found locally to complete the review.",
+      "cache": "work/management-review/investor-day-may21.json",
+      "accessed": "2026-10-14",
+      "sha256_extracted_pages": "8b08306ff869ebccfe845afac942d62bce0bf21041c4700daf2685414f5bcf93"
+    },
+    "Q2": {
+      "path": "/Users/kwu/Downloads/Stellantis N.V._EP_2026-06-30_English.pdf",
+      "pages": 40,
+      "scope": "July30 Q2/H1 results presentation, including regional bridges and accounting appendices.",
+      "cache": "work/management-review/q2-deck.json",
+      "accessed": "2026-10-14",
+      "sha256_extracted_pages": "137fd4e454e3ee7f881d92706ad03de4a53d250463c6932a0c972c2affc16c1c"
+    },
+    "CALL": {
+      "path": "/Users/kwu/Downloads/Stellantis N.V._Earnings Call_2026-07-30_English.pdf",
+      "pages": 16,
+      "scope": "Full substantive prepared remarks and Q&A pp4\u201315; preliminary transcription has garbled names and some numbers. Prefer charts and repeated clear statements.",
+      "cache": "work/management-review/q2-call.json",
+      "public_original": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events-and-presentations/other-documents/Stellantis-Q2-2026-Financial-Results-Call-Transcript.pdf",
+      "accessed": "2026-10-14",
+      "sha256_extracted_pages": "74387e6e0661ef3fa140b2dc06c70141acabbabc587529b6ecf78627811d799e"
+    }
+  },
+  "reading_scope": "All substantive text in128-page strategy/regions deck,40-page complementary finance deck,40-page Q2 deck and full substantive12-page Q2 call discussion reviewed.18 material charts rendered and visually checked. Cover/blank/boilerplate pages screened; no bulk OCR.",
+  "status": "Management claims and own analysis separated; not independent validation of execution. July statements are historical expectations, not current October outcomes.",
+  "target_ledger": [
+    {
+      "metric": "VCP actions implemented by end2026",
+      "value": "40% of planned initiatives/package; management maps this to\u20ac2.4bn",
+      "scope": "Group",
+      "timing": "Implementation by end2026, benefits in2027",
+      "status": "Management target",
+      "source": "CALL pp6,8,10,12",
+      "model_rule": "Do not book\u20ac2.4bn as FY2026 realized savings or interpret initiative count as independently measured savings."
+    },
+    {
+      "metric": "VCP AOI benefit in2027",
+      "value": "\u20ac2.4bn plus partial benefits from additional2027 actions",
+      "scope": "Group",
+      "timing": "2027",
+      "status": "Management target; CFO says all\u20ac2.4bn flows to AOI",
+      "source": "CALL pp6,8,10,12",
+      "model_rule": "No separately verified\u20ac3bn2026\u201327 target. Establish2026 realized baseline before calculating YoY incremental2027 benefit; do not add\u20ac2.4bn again on top of savings already in the run rate."
+    },
+    {
+      "metric": "VCP2028",
+      "value": "\u20ac6bn annual cost-reduction run rate versus2025",
+      "scope": "Group",
+      "timing": "By2028",
+      "status": "Management target",
+      "source": "FIN pp13,18; CALL pp6,8",
+      "model_rule": "Not\u20ac6bn each year of incremental savings and not\u20ac6bn solely in NA. Finance plan assumes full benefits in2028; still phase realized savings and execution risk."
+    },
+    {
+      "metric": "NA VCP2028",
+      "value": ">\u20ac3bn",
+      "scope": "North America",
+      "timing": "By2028",
+      "status": "Management target",
+      "source": "ID pp58,83",
+      "model_rule": "Part of group\u20ac6bn, not additive; not a2026\u201327 commitment."
+    },
+    {
+      "metric": "Revenue/AOI/IFCF2028",
+      "value": "\u20ac175bn /5% /\u20ac3bn",
+      "scope": "Group",
+      "timing": "2028",
+      "status": "Management target",
+      "source": "Q2 pp5,18; FIN pp13,22",
+      "model_rule": "\u20ac175bn is net revenue, not net income.\u20ac8.75bn implied AOI; tax/finance/adjustments still required for net income."
+    },
+    {
+      "metric": "NA margin/revenue ambition",
+      "value": "8\u201310% AOI margin;25% revenue growth versus2025",
+      "scope": "North America",
+      "timing": "2030",
+      "status": "Management target",
+      "source": "ID p84; FIN p17",
+      "model_rule": "Do not relabel as2028 guidance; no separate2028 regional volume/margin point disclosed here."
+    },
+    {
+      "metric": "American-brand sales",
+      "value": "~1.4m\u2192~1.9m;~35% growth",
+      "scope": "American brands in North America",
+      "timing": "2025\u21922030",
+      "status": "Management target",
+      "source": "ID pp62,66,69,72,75,81",
+      "model_rule": "Use explicit chart, superseding our rough~2m extrapolation from total NA baseline. Rounded brand sums1.431m\u21921.925m."
+    },
+    {
+      "metric": "Affordable models",
+      "value": "2 below$39k\u21929 below$39k, including2 below$29k",
+      "scope": "American brands, starting MSRP",
+      "timing": "2025\u21922030",
+      "status": "Management target",
+      "source": "ID p80",
+      "model_rule": "Earlier transcript rounded to$40k/$30k. MSRP entry availability is not achieved transaction price or trim mix."
+    },
+    {
+      "metric": "Compact and midsize pickups",
+      "value": "Both show start of production2028",
+      "scope": "North America",
+      "timing": "2028",
+      "status": "Planning assumption",
+      "source": "ID p42",
+      "model_rule": "Generic late2027/2028 commentary does not establish earlier start for these specific pickups; no mature full-year2028 volumes."
+    },
+    {
+      "metric": "SRT",
+      "value": "~3k\u2192~50k units;2\u20133\u00d7margin of core models",
+      "scope": "Across existing brands",
+      "timing": "2025\u21922030",
+      "status": "Management target",
+      "source": "ID pp77\u201379; CALL p5",
+      "model_rule": "Subset, not50k extra on top of brand totals; margin multiple definition not enough to assign per-unit euro profit."
+    },
+    {
+      "metric": "STLA One",
+      "value": "Starts2027;20% lower-cost target;30+models2027\u201335",
+      "scope": "Applicable new architecture, not entire group cost base",
+      "timing": "From2027",
+      "status": "Management target",
+      "source": "ID pp39,97",
+      "model_rule": "Applicable ramp only; savings may be embedded in VCP. Do not multiply all company costs by20%."
+    },
+    {
+      "metric": "Financial services",
+      "value": ">\u20ac1.5bn AOI; parent dividends from2028,\u20ac500m by2030",
+      "scope": "Consolidated finance plus share of JV net income per definition",
+      "timing": "2030 target",
+      "status": "Management target with terminology mismatch",
+      "source": "FIN pp9,12",
+      "model_rule": "Dedicated slide calls total AOI; finance priorities call incremental. Use total pending reconciliation, not extra\u20ac1.5bn on top of total."
+    },
+    {
+      "metric": "2026 investment",
+      "value": "6.5\u20137% of revenue; H1~6.3%",
+      "scope": "Capex and R&D spending",
+      "timing": "FY2026",
+      "status": "Guidance/observed CFO ratio",
+      "source": "Q2 pp13,17,38; CALL pp14\u201315",
+      "model_rule": "Separate expensed R&D, capitalized R&D, amortization, impairment and cash payments."
+    },
+    {
+      "metric": "2026 net tariff costs",
+      "value": "\u20ac1.0\u20131.2bn; H1\u20ac0.3bn including\u20ac0.4bn IEEPA refund",
+      "scope": "Group",
+      "timing": "FY/H12026",
+      "status": "Guidance/reported",
+      "source": "Q2 p17",
+      "model_rule": "Do not annualize refund or confuse excluded compliance gains with recurring regulatory cost reduction."
+    }
+  ],
+  "calculations": {
+    "brand_scope": "Management American-brand North American sales chart; rounded targets, not consolidated wholesale shipments or US-only sales. SRT is contained in brands, not an extra brand to add.",
+    "brands": [
+      {
+        "brand": "Ram",
+        "sales_2025_k": 517,
+        "sales_2030_target_k": 825,
+        "pdf_page": 75,
+        "increment_k": 308,
+        "share_of_brand_target_increase_pct": 62.34817813765182
+      },
+      {
+        "brand": "Jeep",
+        "sales_2025_k": 645,
+        "sales_2030_target_k": 740,
+        "pdf_page": 72,
+        "increment_k": 95,
+        "share_of_brand_target_increase_pct": 19.23076923076923
+      },
+      {
+        "brand": "Chrysler",
+        "sales_2025_k": 143,
+        "sales_2030_target_k": 225,
+        "pdf_page": 66,
+        "increment_k": 82,
+        "share_of_brand_target_increase_pct": 16.59919028340081
+      },
+      {
+        "brand": "Dodge",
+        "sales_2025_k": 126,
+        "sales_2030_target_k": 135,
+        "pdf_page": 69,
+        "increment_k": 9,
+        "share_of_brand_target_increase_pct": 1.8218623481781377
+      }
+    ],
+    "brand_2025_sum_k": 1431,
+    "brand_2030_sum_k": 1925,
+    "brand_increment_k": 494,
+    "Ram_Chrysler_share_pct": 78.94736842105263,
+    "NA_Q2": {
+      "shipments_2025_k": 323,
+      "shipments_2026_k": 445,
+      "shipment_growth_pct": 37.770897832817326,
+      "combined_sales_2025_k": 364,
+      "combined_sales_2026_k": 385,
+      "sales_growth_pct": 5.769230769230771,
+      "revenue_2025_eur_m": 13834,
+      "revenue_2026_eur_m": 18193,
+      "revenue_growth_pct": 31.50932485181437,
+      "AOI_2025_eur_m": -440,
+      "AOI_2026_eur_m": 284,
+      "margin_2026_pct": 1.561039960424339,
+      "sales_shipments_warning": "Both are NA, but published combined-sales versus consolidated-shipment and registration/recognition timing definitions differ. The gap is diagnostic, not an exact inventory roll-forward."
+    },
+    "NA_Q2_AOI_bridge_eur_m": {
+      "start": -440,
+      "volume_mix": 409,
+      "net_price": -59,
+      "industrial": 603,
+      "SGA": -158,
+      "RD": -101,
+      "FX_other": 30,
+      "end": 284,
+      "rounding_residual_eur_m": 0
+    },
+    "NA_H1_AOI_bridge_eur_m": {
+      "start": -982,
+      "volume_mix": 1049,
+      "net_price": 123,
+      "industrial": 745,
+      "SGA": -229,
+      "RD": -172,
+      "FX_other": 13,
+      "end": 547,
+      "rounding_residual_eur_m": 0
+    },
+    "group_Q2_AOI_bridge_eur_m": {
+      "start": 213,
+      "volume_mix": 376,
+      "net_price": -456,
+      "industrial": 1917,
+      "SGA": -317,
+      "RD": -99,
+      "FX_other": -861,
+      "end": 773,
+      "rounding_residual_eur_m": 0
+    },
+    "NA_Q1_derived": {
+      "AOI_eur_m": 263,
+      "net_price_bridge_eur_m": 182,
+      "volume_mix_bridge_eur_m": 640,
+      "industrial_bridge_eur_m": 142,
+      "revenue_eur_m": 16114,
+      "prior_revenue_eur_m": 14469,
+      "note": "H1 minusQ2, same restated presentation; bridges are YoY changes within each quarter, not sequential changes."
+    },
+    "NA_diagnostic_revenue_per_shipment": {
+      "Q2_2025_eur": 42829.7213622291,
+      "Q2_2026_eur": 40883.14606741573,
+      "change_pct": -4.544917017671812,
+      "note": "Aggregate proxy includes mix, FX and other revenue. Not a matched transaction price or price-bridge estimate."
+    },
+    "Q2_IFCF_bridge_changes_eur_m": {
+      "industrial_AOI": 591,
+      "DA": -107,
+      "capital_investment": 814,
+      "working_capital": 549,
+      "financial_charges_taxes": 321,
+      "provisions_other": -1199,
+      "total": 969
+    },
+    "H1_investment_reconciliation": {
+      "capital_investment_eur_m": 3497,
+      "expensed_RD_eur_m": 1669,
+      "sum_eur_m": 5166,
+      "revenue_eur_m": 81614,
+      "ratio_pct": 6.32979635846791,
+      "note": "Approximately reconciles CFO6.3% investment ratio. Investment cash line includes capitalized R&D and other investments; do not add all R&D expenditure again."
+    },
+    "2028_group_target": {
+      "revenue_eur_bn": 175,
+      "AOI_margin_pct": 5,
+      "implied_AOI_eur_bn": 8.75,
+      "IFCF_eur_bn": 3,
+      "status": "management target, implied AOI derived"
+    },
+    "2028_margin_bridge_pp": {
+      "starting_margin": -0.5,
+      "volume_mix_price": 2.1,
+      "industrial": 5,
+      "cost_headwinds": -1.4,
+      "financial_services": 0.5,
+      "SGA": -0.6,
+      "calculated_ending_margin": 5.1,
+      "slide_ending_margin": "approximately5%",
+      "note": "Visual inspection confirms ~5% label. 0.1pp difference is consistent with displayed rounding; no missing baseline needs to be invented."
+    }
+  },
+  "debates": [
+    {
+      "id": "M01",
+      "title": "Shipments recovered much faster than end-sales",
+      "driver": "Volume",
+      "source": "Q2 pp7,14,23,25; CALL pp5,13\u201314",
+      "analyst_question": "TD Cowen: What inventory level is intended? Wolfe: why high Ram stock and discounts?",
+      "management_answer": "Inventory was built for launches, expected demand and summer shutdowns; June US stock~390k, July expectation~365k.",
+      "our_read": "NA shipments+38% versus sales+6% is not38% household-demand growth. US stock92days and+43%YoY make inventory a core debate. Build explanation is plausible but does not establish subsequent sell-through.",
+      "next_discriminating_evidence": "Actual stock reduction by family/age with retail sales and net pricing; match stock scope before exact reconciliation.",
+      "forecast_line": "Retail/fleet\u2192wholesale volume and working capital"
+    },
+    {
+      "id": "M02",
+      "title": "Operating leverage is much weaker than the shipment headline",
+      "driver": "Volume / cost",
+      "source": "Q2 pp25,27; CALL pp8\u201310,14",
+      "analyst_question": "Oxcap, Kepler and Goldman: why only1.6% NA margin with strong shipments/truck mix? Goldman cites27%\u21928% volume/mix drop-through.",
+      "management_answer": "Cost and quality gaps; final answer acknowledges nameplate mix and more Mexico-built shipments.",
+      "our_read": "Q2 NA volume/mix+409m and industrial+603m were partly absorbed by pricing\u221259m,SG&A\u2212158m,R&D\u2212101m. Earlier answers do not fully quantify the weak contribution. Do not treat analyst drop-through as a clean marginal plant-profit coefficient.",
+      "next_discriminating_evidence": "Contribution by nameplate/channel; detailed industrial bridge and comparable-quarter mix.",
+      "forecast_line": "Incremental unit contribution, mix, recurring costs and overhead"
+    },
+    {
+      "id": "M03",
+      "title": "VCP delivery versus savings retained",
+      "driver": "Cost",
+      "source": "CALL pp6,8\u201312; FIN p18",
+      "analyst_question": "ODDO: how much of\u20ac2.4bn is reinvested in pricing? What depends on utilization?",
+      "management_answer": "CFO expects all\u20ac2.4bn to flow to AOI; purchasing/materials and warranty opportunity much larger than utilization.",
+      "our_read": "This is a meaningful testable commitment, not evidence already earned. Competitive pressure, validation, supplier capacity and implementation costs can reduce realized benefit.",
+      "next_discriminating_evidence": "Identified implemented projects, recurring euros by region, net price and warranty outcomes; no cost-review count as profit.",
+      "forecast_line": "2027/28 phased VCP; separate headwinds and utilization"
+    },
+    {
+      "id": "M04",
+      "title": "The\u20ac1.917bn Q2 industrial benefit is not a clean VCP number",
+      "driver": "Cost / normalization",
+      "source": "Q2 pp12,25; CALL pp5\u20136,8\u20139",
+      "analyst_question": "Oxcap: can the H1 industrial cost run rate be extrapolated?",
+      "management_answer": "About\u20ac1.4bn combines purchasing savings and warranty; warranty mainly benefits from nonrepeat European recall costs. Also manufacturing/logistics and regulatory effects.",
+      "our_read": "Europe had\u20ac474m nonrepeat recall cost in the comparison. Exact purchasing-versus-warranty split is not disclosed. Repeating\u20ac1.917bn\u00d74 as recurring annual VCP is invalid.",
+      "next_discriminating_evidence": "Bridge recurring procurement/technical savings, comparison effects, actual claim costs and regulations separately.",
+      "forecast_line": "Cost normalization versus true recurring savings"
+    },
+    {
+      "id": "M05",
+      "title": "2027 earnings must improve before the major volume launches mature",
+      "driver": "Volume / cost",
+      "source": "CALL pp10\u201311,14; ID p42",
+      "analyst_question": "JPMorgan: which new products lift utilization? TD Cowen: what growth is needed for2027 positive cash flow?",
+      "management_answer": "High-volume products arrive late2027/2028;2027 cash recovery mainly earnings from industrial efficiencies, with reasonable volume growth.",
+      "our_read": "2027 cannot rely on mature2028 pickup volumes. More of its burden falls on existing products and cost execution; new launches require cash before steady production.",
+      "next_discriminating_evidence": "Model-specific starts, salable dealer arrivals, ramp volumes and implementation timing.",
+      "forecast_line": "2027 bridge versus2028 launch-year ramp"
+    },
+    {
+      "id": "M06",
+      "title": "Ram and Chrysler account for most planned brand growth",
+      "driver": "Volume / mix",
+      "source": "ID pp62,66,69,72,75,79\u201381",
+      "analyst_question": "What is the product-level source of the35% ambition?",
+      "management_answer": "Brand charts imply Ram517k\u2192825k,Chrysler143k\u2192225k,Jeep645k\u2192740k,Dodge126k\u2192135k.",
+      "our_read": "Derived: Ram+Chrysler supply about79% of the increase. This is expansion into new offers, not merely restoring old Jeep sales. Chrysler has less proven new-segment execution.",
+      "next_discriminating_evidence": "Pickups/SUV/van and affordable crossover launch economics; segment capture and cannibalization.",
+      "forecast_line": "Brand/family2028 volumes; use2030 endpoints only as constraints"
+    },
+    {
+      "id": "M07",
+      "title": "Affordable volume and profitable mix can conflict",
+      "driver": "Mix / net price",
+      "source": "ID pp77\u201380; Q2 pp25,27; CALL pp11\u201312,14",
+      "analyst_question": "Wolfe and Goldman: what improves mix/pricing when current discounts and negative pricing are evident?",
+      "management_answer": "H2 rental mix improves seasonally, SRT helps, and industry inflation supports pricing; Q2 Mexico nameplate mix affected profit conversion.",
+      "our_read": "NA net-price bridge was+182m inQ1 derived fromH1 minusQ2, then\u221259m inQ2. Cheaper products can add profitable units but lower average revenue/margin; halo products cannot simply offset this without volumes and euro contribution.",
+      "next_discriminating_evidence": "Same-model net price, finance support, fleet share and achieved SRT/affordable trim mix.",
+      "forecast_line": "Keep price, model mix, channel mix and country/FX separate"
+    },
+    {
+      "id": "M08",
+      "title": "Cherokee is a concrete cost\u2192mix\u2192volume bottleneck",
+      "driver": "All three",
+      "source": "CALL pp12\u201313",
+      "analyst_question": "Jefferies: production problem, poor economics or Mexico tariffs? When Belvidere?",
+      "management_answer": "Management claims strong funnel interest, restricts trims/channels to protect profitability, applies VCP, plans more competitive trims inH12027 and localization; no plant date provided.",
+      "our_read": "Strong mechanism evidence that restricted offers need not equal absence of interest. But funnel interest is an unquantified management claim, not independently proven deposits or demand. This is newCherokee, not Grand Cherokee4xe.",
+      "next_discriminating_evidence": "Achieved price/cost and stocked trims, dated localization, conversion/deposits/cancellations and net retail growth.",
+      "forecast_line": "Cherokee units, net price, landed cost and tariff exposure"
+    },
+    {
+      "id": "M09",
+      "title": "Quality improvement must become lower economic cost",
+      "driver": "Cost / demand",
+      "source": "ID p9; Q2 pp5,29\u201332; FIN p34; CALL pp8\u201310",
+      "analyst_question": "Kepler: how much margin weakness is quality versus cost and channel?",
+      "management_answer": "Early-service quality improving; warranty and campaign costs remain a key opportunity.",
+      "our_read": "ID44% NA3MIS improvement usesJan\u2013Oct2025 production; Q2 figure38% usesJan\u2013Dec2025. Cannot call this six-point deterioration without comparable cohorts. Warranty reset/reserve effects and new defects differ.",
+      "next_discriminating_evidence": "Absolute claim rates, comparable cohorts/repair severity, mature warranty cash, recall costs included/excluded fromAOI.",
+      "forecast_line": "Warranty benefit counted once within VCP; no proportional44% expense haircut"
+    },
+    {
+      "id": "M10",
+      "title": "European growth can dilute mix and still add profit",
+      "driver": "Mix / group scope",
+      "source": "Q2 pp8,23,25; CALL pp12\u201313",
+      "analyst_question": "Jefferies: why negative mix with Leapmotor growth; can lower-priced cars still add earnings?",
+      "management_answer": "Leapmotor vehicles profitable but mix-dilutive; new products expected to raise contribution.",
+      "our_read": "European regional shipments+5% with nearly flat revenue, pricing bridge\u2212617m and AOI\u221294m show volume alone is insufficient. US-focused work cannot explain the consolidated profit target by itself.",
+      "next_discriminating_evidence": "European net pricing, powertrain and distribution margins, JV/minority scope; total AOI and per-unit economics.",
+      "forecast_line": "Separate EE revenue/mix/cost forecast; avoid double counting partner sales and ownership"
+    },
+    {
+      "id": "M11",
+      "title": "Cash improvement partly reflects investment timing",
+      "driver": "Cost / cash",
+      "source": "Q2 pp13,17,34,38; CALL pp13\u201315",
+      "analyst_question": "Deutsche/Goldman: Q3 working capital and apparent hugeH2 investment increase?",
+      "management_answer": "Capex rises inH2; CFO saysH1 total investment6.3% of revenue and analyst missed spending scope.",
+      "our_read": "Q2 IFCF+969mYoY alongside+814m lower capital outflow and+549m working-capital benefit. These are bridge components, not causalshares; other items offset.3497+1669\u22485166m reconciles6.3%H1.",
+      "next_discriminating_evidence": "Cash investment schedule and R&D accounting; repeating cash benefits and inventory quality.",
+      "forecast_line": "Capex/R&D/D&A, cash conversion and debt financing"
+    },
+    {
+      "id": "M12",
+      "title": "Trade and regulatory assumptions are part of the plan",
+      "driver": "Cost / scenario",
+      "source": "FIN pp15,24; Q2 pp17,29\u201332; CALL pp9\u201313",
+      "analyst_question": "What happens if inflation, tariffs or regulation changes?",
+      "management_answer": "2026net tariff cost\u20ac1.0\u20131.2bn; plan assumes favorable/stable framework and regulatory savings offset tariff increases within2028 bridge.",
+      "our_read": "This is not entirely controllable execution.\u20ac317m regulatory commitment gain is excluded fromQ2AOI; do not count it again as VCP or assume all regulatory gains are treated alike.",
+      "next_discriminating_evidence": "Actual tariff/refund treatment, sourcing, input contracts and enacted policies; forecasts labeled scenarios.",
+      "forecast_line": "Separate raw-material, tariff, regulatory and FX lines"
+    },
+    {
+      "id": "M13",
+      "title": "AOI recovery is not equivalent to EPS recovery",
+      "driver": "Full IS",
+      "source": "Q2 pp16,29\u201333,38",
+      "analyst_question": "What must be modeled below operating performance?",
+      "management_answer": "Deck reports AOI+263% but adjustedEPS\u20ac0.12 versus\u20ac0.15; hybrid coupons/tax effects enter EPS deduction.",
+      "our_read": "Need interest, tax, minorities and hybrid claims; historical impairments may lower future D&A but size attributable to resets is not isolated here. Do not credit all accounting change as operational VCP.",
+      "next_discriminating_evidence": "Consistent industrial/finance perimeter, tax normalization, debt/hybrid costs, depreciation schedules and adjustments.",
+      "forecast_line": "Consolidated operating income\u2192net income\u2192EPS"
+    },
+    {
+      "id": "M14",
+      "title": "Platform and finance initiatives add opportunities and overlap",
+      "driver": "Cost / mix / group",
+      "source": "ID pp39\u201351,97\u2013100; FIN pp7\u20139,18\u201324",
+      "analyst_question": "Which additional initiatives deserve an independent forecast assumption?",
+      "management_answer": "STLAOne cost reduction, e-car2028, capacity changes, captive funding/penetration, software and partnerships.",
+      "our_read": "Component commonality may already beVCP. E-car and vans need individual ramp/cost tests. Captive finance is a separate credit/funding business. Robotaxi/software announcements do not yet justify material2028 standalone profit.",
+      "next_discriminating_evidence": "Per-platform applied volumes and unit cost; finance spread/losses and realized distributions; contracted tech revenue.",
+      "forecast_line": "Initiative-specific allocation; no overlapping savings or speculative profit plugs"
+    }
+  ],
+  "corrections_to_prior_work": [
+    "Use American-brand1.4m\u21921.9m chart; prior~2m calculation used the rounded broader NA baseline. Ram chart825k supersedes imprecise near-million narration for this dataset.",
+    "Both smaller pickup platform slides explicitly show2028 SOP. Do not assign these launches to2027 from generic call language.",
+    "Financial slide recovered locally:\u22120.5+2.1+5.0\u22121.4+0.5\u22120.6=5.1%, consistent with slide~5%. Previous source-access obstacle is resolved; fine-grained VCP3.6pp normalization remains separate.",
+    "Q2 VCP2027 target\u20ac2.4bn plus new actions; no verified\u20ac3bn2026\u201327 amount. NA>\u20ac3bn is2028 and part of total\u20ac6bn.",
+    "\u20ac175bn means revenue, not net income;\u20ac6bnVCP is already included in targeted profit.",
+    "OPE and plant utilization have different denominators: OPE uses scheduled running time; utilization uses three-shift straight-time capacity.89%OPE and~80%future utilization can coexist.",
+    "Q2 appendix adds European used-car reclassification as well as Maserati regional restatement; historical regional series must match.",
+    "Q2 deck saysEuropeanBEV+28% whereas preliminarycall text says20%; prefer deck. Transcription errors include product names and an isolated malformedVCP year/amount.",
+    "Some program gains are excluded fromAOI; the regular industrial bridge and IFRS adjustment table cannot be combined without checking classification."
+  ],
+  "research_priority": [
+    {
+      "rank": 1,
+      "topic": "NA VCP delivery and retention",
+      "why": "Management itself says material/warranty savings dominate utilization;2027 relies on costs before major launches.",
+      "deliverable": "2026 realized base\u21922027 incremental savings\u21922028 run rate by recurring/nonrepeat bucket and region."
+    },
+    {
+      "rank": 2,
+      "topic": "Ram and Chrysler launch/affordability plan",
+      "why": "About79% of the four-brand2030 target increase; Rampage/Dakota2028 starts constrain2028 revenue.",
+      "deliverable": "Model calendar, starting versus realized price, ramp volumes, unit contribution and substitution."
+    },
+    {
+      "rank": 3,
+      "topic": "Cherokee trim-cost-tariff test",
+      "why": "Most concrete interaction among all three pillars.",
+      "deliverable": "H12027 competitive-trim milestone and separately dated localization; measure actual offers and sell-through."
+    },
+    {
+      "rank": 4,
+      "topic": "Replenishment and mix sustainability",
+      "why": "Q2 shipments outpaced sales while inventory and Ram discount questions rose.",
+      "deliverable": "Matching monthly/quarterly family stock, sales, net price and dealer margin panel using available public data."
+    },
+    {
+      "rank": 5,
+      "topic": "Group IS/cash reconciliation",
+      "why": "Europe, funding/tax/hybrid claims and investment accounting can offset NA progress.",
+      "deliverable": "Regional AOI\u2192groupIS\u2192cash bridge with consistent reporting perimeter."
+    }
+  ],
+  "model_sensitivity_rules": [
+    "Calculate savings delivered and retained explicitly rather than assign an unexplained haircut to\u20ac6bn.",
+    "A2027 benefit relative to2025 cannot automatically be added in full to2026 earnings: subtract the recurring benefit already present.",
+    "Use launch-year sales ramps, not2030maturevolume scaled linearly.",
+    "Price concessions that enable more units must affect net price and margin consistently.",
+    "Do not subtract competitive giveback both from retainedVCP and again from net-price line.",
+    "Use downside/base/upside timing/volume/cost assumptions only after specifying the evidence for each."
+  ],
+  "public_source_policy": "Attachments are company materials/transcripts obtained through research platforms; final case should link public company originals listed on the official Investor Day page. Do not cite a proprietary summary as independent corroboration."
+}

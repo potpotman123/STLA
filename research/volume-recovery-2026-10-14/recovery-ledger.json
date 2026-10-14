@@ -1,0 +1,1726 @@
+{
+  "as_of": "2026-10-14",
+  "scope": [
+    "All counts are US customer sales (retail plus fleet), excluding Maserati; they are not wholesale shipments or model revenue.",
+    "Null means not separately observed in that source vintage, not zero. Unlisted/reporting residual preserves coverage; it is not a new model or a causal bucket.",
+    "2018/2019 and 2023 pickups remain unsplit; do not add the historical unsplit line to LD/HD in other years.",
+    "Only selected 2022 models and 2024 quarterly Ram data are populated. Quarterly reporting vintages are retained rather than forced to sum.",
+    "Pacifica/Voyager are combined because later 2026 comparative Pacifica figures appear to include Voyager. The exact published classification policy was not obtained.",
+    "Charger/Challenger historical family compares the combined outgoing customer footprint with new Charger ICE/BEV and residual Challenger. It is not a claim that all customers transfer.",
+    "2026 Q1 Cherokee is a mixed legacy/returning nameplate line; Q2 separates HEV; Q3 lists HEV only. No spurious precise HEV Q1 reconstruction.",
+    "Wagoneer and Grand Wagoneer are combined to avoid a misleading label/mix shift. Wagoneer S stays separate.",
+    "Fiat/Alfa brand totals are used; all their published models remain accessible in normalized source observations. Historical Grand Caravan stays in other legacy, not current Chrysler minivans.",
+    "2023–24 loss weights describe model composition, not causal attribution or revenue contribution."
+  ],
+  "rows": [
+    {
+      "id": "ram_ld",
+      "family": "Ram light-duty pickups",
+      "source_names": [
+        "Ram LD PU"
+      ],
+      "annual_and_quarterly_sales_units": {
+        "2018A": null,
+        "2019A": null,
+        "2025A": 204139,
+        "2024Q4A": 49312,
+        "2025Q4A": 60875,
+        "2025Q1A": 47067,
+        "2026Q1A": 59828,
+        "2025Q2A": 51848,
+        "2026Q2A": 65669,
+        "2025Q3A": 44349,
+        "2026Q3A": 76650,
+        "2025YTDQ3A": 143264,
+        "2026YTDQ3A": 202147,
+        "2023A": null,
+        "2024A": 187013,
+        "2022A_partial": null,
+        "2024Q1A": 53031,
+        "2024Q2A": 44405,
+        "2024Q3A": 40265
+      },
+      "share_2025_us_pct": 16.197085874967467,
+      "share_2026_ytd_us_pct": 21.09074633032261,
+      "2023_to_2024_loss_units": null,
+      "share_net_us_decline_2024_pct": null,
+      "qualitative_evidence": {
+        "family": "Ram LD / 1500 including Classic",
+        "pre_disruption_trajectory": "Pooled pickups weakened before 2024; US pre-2024 LD/HD allocation remains incomplete.",
+        "causal_hypotheses": [
+          "Transition and trim mismatch",
+          "Classic affordability gap",
+          "Engine preference and competitive payments"
+        ],
+        "strongest_support": "Official LD growth and retail improvement; management documents launch/trim constraints.",
+        "counterevidence": "Recovery began before HEMI return; elevated brand inventory and incentives complicate attribution.",
+        "operational_change_status": "HEMI and entry variants restored; sustained profitable replenishment unproved.",
+        "forward_milestone": "Sell-through after relaunch anniversary and repeated availability of desired trims.",
+        "pricing_cannibalization_dependency": "Separate support costs, Classic migration and future smaller-pickup substitution.",
+        "confidence": "High on sales; medium on mechanisms; low on causal shares.",
+        "next_falsifier": "Retail share stalls despite normal trim availability, or stock builds as concessions rise.",
+        "source_refs": [
+          "ram_split",
+          "ram_transition",
+          "ram_demand",
+          "offer",
+          "current_sales",
+          "dealer"
+        ]
+      },
+      "proposed_forecast": {
+        "id": "ram_ld",
+        "family": "Ram light-duty pickups",
+        "classification": "assumed / provisional analyst judgment",
+        "method": "Recent pace",
+        "rationale": "Q3 76,650 x4 = 306,600; YTD annualized 269,529. Base holds the better Q3 pace, then adds only 3% in 2028. Downside loses part of the ramp; upside needs sustained retail growth and mix availability. No separate HEMI or dealer-bonus additive uplift.",
+        "2025A_units": 204139,
+        "2026_flat_q4_reference_units": 278797,
+        "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+        "2027_units": {
+          "downside": 250000,
+          "base": 310000,
+          "upside": 350000
+        },
+        "2028_units": {
+          "downside": 260000,
+          "base": 320000,
+          "upside": 370000
+        },
+        "2028_base_growth_vs_2025_units": 115861,
+        "2028_base_growth_vs_2026_reference_units": 41203,
+        "2028_base_growth_vs_2027_units": 10000,
+        "share_2028_base_growth_from_2026_reference_pct": 19.30515860000937
+      },
+      "new_product_net_incremental_units": null,
+      "net_incremental_limitation": "No measured owner migration/cannibalization matrix. Family portfolio scenarios incorporate overlap qualitatively; gross launch sales are not independent additive company uplift."
+    },
+    {
+      "id": "ram_hd",
+      "family": "Ram heavy-duty pickups",
+      "source_names": [
+        "Ram HD PU"
+      ],
+      "annual_and_quarterly_sales_units": {
+        "2018A": null,
+        "2019A": null,
+        "2025A": 169920,
+        "2024Q4A": 55142,
+        "2025Q4A": 50798,
+        "2025Q1A": 31781,
+        "2026Q1A": 38597,
+        "2025Q2A": 43624,
+        "2026Q2A": 43497,
+        "2025Q3A": 43717,
+        "2026Q3A": 41107,
+        "2025YTDQ3A": 119122,
+        "2026YTDQ3A": 123201,
+        "2023A": null,
+        "2024A": 186107,
+        "2022A_partial": null,
+        "2024Q1A": 36386,
+        "2024Q2A": 45704,
+        "2024Q3A": 48875
+      },
+      "share_2025_us_pct": 13.482033476574651,
+      "share_2026_ytd_us_pct": 12.854017317309067,
+      "2023_to_2024_loss_units": null,
+      "share_net_us_decline_2024_pct": null,
+      "qualitative_evidence": {
+        "family": "Ram HD",
+        "pre_disruption_trajectory": "Earlier US family trend unresolved; official 2025 HD decline offset LD recovery.",
+        "causal_hypotheses": [
+          "Refresh disruption",
+          "Commercial and household replacement demand",
+          "Payment/competitive-position pressure"
+        ],
+        "strongest_support": "Official family split demonstrates divergence from LD.",
+        "counterevidence": "Canadian stability cannot establish US health; modest 2026 YTD total growth is not retail normalization.",
+        "operational_change_status": "2025 diesel/transmission refresh documented; availability impact not quantified.",
+        "forward_milestone": "Sustained post-refresh deliveries with matched stock and retail/fleet mix.",
+        "pricing_cannibalization_dependency": "Finance and business ownership costs matter; do not transfer 1500 HEMI explanation.",
+        "confidence": "High on reported split; low on dominant cause.",
+        "next_falsifier": "HD remains weak after availability normalizes while relevant peers improve.",
+        "source_refs": [
+          "ram_split",
+          "ram_transition",
+          "current_sales",
+          "initiatives"
+        ]
+      },
+      "proposed_forecast": {
+        "id": "ram_hd",
+        "family": "Ram heavy-duty pickups",
+        "classification": "assumed / provisional analyst judgment",
+        "method": "Partial normalization",
+        "rationale": "2025 169,920; Q3 annualized 164,428; 2024 186,107. Base modestly exceeds the 2025 level and stays below 2024 through 2028. Recovery from the 2025 transition is not already proved by a weak Q3.",
+        "2025A_units": 169920,
+        "2026_flat_q4_reference_units": 164308,
+        "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+        "2027_units": {
+          "downside": 155000,
+          "base": 175000,
+          "upside": 190000
+        },
+        "2028_units": {
+          "downside": 155000,
+          "base": 180000,
+          "upside": 200000
+        },
+        "2028_base_growth_vs_2025_units": 10080,
+        "2028_base_growth_vs_2026_reference_units": 15692,
+        "2028_base_growth_vs_2027_units": 5000,
+        "share_2028_base_growth_from_2026_reference_pct": 7.352293492011433
+      },
+      "new_product_net_incremental_units": null,
+      "net_incremental_limitation": "No measured owner migration/cannibalization matrix. Family portfolio scenarios incorporate overlap qualitatively; gross launch sales are not independent additive company uplift."
+    },
+    {
+      "id": "ram_pickups_unallocated",
+      "family": "Ram pickups, historical unsplit",
+      "source_names": [
+        "Ram P/U",
+        "Ram pickups"
+      ],
+      "annual_and_quarterly_sales_units": {
+        "2018A": 536980,
+        "2019A": 633694,
+        "2025A": null,
+        "2024Q4A": null,
+        "2025Q4A": null,
+        "2025Q1A": null,
+        "2026Q1A": null,
+        "2025Q2A": null,
+        "2026Q2A": null,
+        "2025Q3A": null,
+        "2026Q3A": null,
+        "2025YTDQ3A": null,
+        "2026YTDQ3A": null,
+        "2023A": 444926,
+        "2024A": null,
+        "2022A_partial": 468344,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "share_2025_us_pct": null,
+      "share_2026_ytd_us_pct": null,
+      "2023_to_2024_loss_units": null,
+      "share_net_us_decline_2024_pct": null,
+      "qualitative_evidence": {
+        "family": "Ram LD / 1500 including Classic",
+        "pre_disruption_trajectory": "Pooled pickups weakened before 2024; US pre-2024 LD/HD allocation remains incomplete.",
+        "causal_hypotheses": [
+          "Transition and trim mismatch",
+          "Classic affordability gap",
+          "Engine preference and competitive payments"
+        ],
+        "strongest_support": "Official LD growth and retail improvement; management documents launch/trim constraints.",
+        "counterevidence": "Recovery began before HEMI return; elevated brand inventory and incentives complicate attribution.",
+        "operational_change_status": "HEMI and entry variants restored; sustained profitable replenishment unproved.",
+        "forward_milestone": "Sell-through after relaunch anniversary and repeated availability of desired trims.",
+        "pricing_cannibalization_dependency": "Separate support costs, Classic migration and future smaller-pickup substitution.",
+        "confidence": "High on sales; medium on mechanisms; low on causal shares.",
+        "next_falsifier": "Retail share stalls despite normal trim availability, or stock builds as concessions rise.",
+        "source_refs": [
+          "ram_split",
+          "ram_transition",
+          "ram_demand",
+          "offer",
+          "current_sales",
+          "dealer"
+        ]
+      },
+      "proposed_forecast": null,
+      "new_product_net_incremental_units": null,
+      "net_incremental_limitation": "No measured owner migration/cannibalization matrix. Family portfolio scenarios incorporate overlap qualitatively; gross launch sales are not independent additive company uplift."
+    },
+    {
+      "id": "promaster",
+      "family": "Ram ProMaster",
+      "source_names": [
+        "ProMaster Van",
+        "ProMaster"
+      ],
+      "annual_and_quarterly_sales_units": {
+        "2018A": 46600,
+        "2019A": 56409,
+        "2025A": 57591,
+        "2024Q4A": 24866,
+        "2025Q4A": 12295,
+        "2025Q1A": 14519,
+        "2026Q1A": 13735,
+        "2025Q2A": 15144,
+        "2026Q2A": 13981,
+        "2025Q3A": 15633,
+        "2026Q3A": 16314,
+        "2025YTDQ3A": 45296,
+        "2026YTDQ3A": 44030,
+        "2023A": 81663,
+        "2024A": 65869,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "share_2025_us_pct": 4.569466748760656,
+      "share_2026_ytd_us_pct": 4.593813219706969,
+      "2023_to_2024_loss_units": 15794,
+      "share_net_us_decline_2024_pct": 7.066034359341446,
+      "qualitative_evidence": {
+        "family": "ProMaster",
+        "pre_disruption_trajectory": "2019 exceeded 2018; 2023 was higher still, followed by 2024–25 declines.",
+        "causal_hypotheses": [
+          "Fleet replacement/batching",
+          "Supply or upfit constraints",
+          "Commercial ownership economics"
+        ],
+        "strongest_support": "Official sales establish a continuing-family decline, not merely discontinued-product loss.",
+        "counterevidence": "No fleet order, upfit backlog or matched competitor evidence identifies the cause.",
+        "operational_change_status": "Future renewal planned; global platform date does not establish NA delivery timing.",
+        "forward_milestone": "Orders converted to deliveries with backlog, fleet pricing and repeat purchases.",
+        "pricing_cannibalization_dependency": "ProMaster City may substitute; fleet contracts and service costs need separate economics.",
+        "confidence": "High on trajectory; low on mechanisms.",
+        "next_falsifier": "Available vehicles fail to gain orders despite competitive ownership cost.",
+        "source_refs": [
+          "annual_latest",
+          "history",
+          "current_sales",
+          "launches",
+          "initiatives"
+        ]
+      },
+      "proposed_forecast": {
+        "id": "promaster",
+        "family": "Ram ProMaster",
+        "classification": "assumed / provisional analyst judgment",
+        "method": "Recent pace",
+        "rationale": "YTD annualized 58,707; Q3 annualized 65,256; 2025 57,591. Base lies inside current annualized paces; old 2023 81,663 is not mechanically restored. Commercial fleet demand matters.",
+        "2025A_units": 57591,
+        "2026_flat_q4_reference_units": 60344,
+        "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+        "2027_units": {
+          "downside": 50000,
+          "base": 60000,
+          "upside": 70000
+        },
+        "2028_units": {
+          "downside": 50000,
+          "base": 63000,
+          "upside": 75000
+        },
+        "2028_base_growth_vs_2025_units": 5409,
+        "2028_base_growth_vs_2026_reference_units": 2656,
+        "2028_base_growth_vs_2027_units": 3000,
+        "share_2028_base_growth_from_2026_reference_pct": 1.2444361148854424
+      },
+      "new_product_net_incremental_units": null,
+      "net_incremental_limitation": "No measured owner migration/cannibalization matrix. Family portfolio scenarios incorporate overlap qualitatively; gross launch sales are not independent additive company uplift."
+    },
+    {
+      "id": "promaster_city",
+      "family": "Ram ProMaster City",
+      "source_names": [
+        "ProMaster City"
+      ],
+      "annual_and_quarterly_sales_units": {
+        "2018A": 13788,
+        "2019A": 12920,
+        "2025A": 20,
+        "2024Q4A": 1,
+        "2025Q4A": 1,
+        "2025Q1A": null,
+        "2026Q1A": null,
+        "2025Q2A": null,
+        "2026Q2A": null,
+        "2025Q3A": 18,
+        "2026Q3A": 1,
+        "2025YTDQ3A": 19,
+        "2026YTDQ3A": 1,
+        "2023A": 12887,
+        "2024A": 50,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "share_2025_us_pct": 0.0015868683470544548,
+      "share_2026_ytd_us_pct": 0.00010433370928246579,
+      "2023_to_2024_loss_units": 12837,
+      "share_net_us_decline_2024_pct": 5.743110236220472,
+      "qualitative_evidence": {
+        "family": "ProMaster City",
+        "pre_disruption_trajectory": "Old product sold through 2023, then residual volumes; new vehicle is a different-size offer.",
+        "causal_hypotheses": [
+          "Portfolio gap",
+          "Commercial use-case fit",
+          "Import and upfit economics"
+        ],
+        "strongest_support": "Dated plan establishes production/dealer-arrival sequence, unlike an undated concept.",
+        "counterevidence": "Actual SOP, orders and sustainable US demand unverified; predecessor units are not a mature target.",
+        "operational_change_status": "2026 production and Q1 2027 dealer arrival planned; Bursa assembly/Baltimore upfit.",
+        "forward_milestone": "Confirmed arrivals, fleet orders and recurring deliveries.",
+        "pricing_cannibalization_dependency": "Target entry price is not net fleet realization; ProMaster/pickup substitution.",
+        "confidence": "Medium on planned timing; low on volume mechanism.",
+        "next_falsifier": "Delay or poor fleet conversion at announced price/capability.",
+        "source_refs": [
+          "history",
+          "annual_latest",
+          "launch_update",
+          "initiatives"
+        ]
+      },
+      "proposed_forecast": {
+        "id": "promaster_city",
+        "family": "Ram ProMaster City",
+        "classification": "assumed / provisional analyst judgment",
+        "method": "Conditional launch judgment",
+        "rationale": "Dealer arrival is planned Q1 2027; old 2019 nameplate sold 12,920. Base requires 833/month then 1,667/month. Different product/use and launch risks make old sales a scale check, not a causal calibration. This is the least secure included base input.",
+        "2025A_units": 20,
+        "2026_flat_q4_reference_units": 2,
+        "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+        "2027_units": {
+          "downside": 5000,
+          "base": 10000,
+          "upside": 20000
+        },
+        "2028_units": {
+          "downside": 10000,
+          "base": 20000,
+          "upside": 30000
+        },
+        "2028_base_growth_vs_2025_units": 19980,
+        "2028_base_growth_vs_2026_reference_units": 19998,
+        "2028_base_growth_vs_2027_units": 10000,
+        "share_2028_base_growth_from_2026_reference_pct": 9.369816801761703
+      },
+      "new_product_net_incremental_units": null,
+      "net_incremental_limitation": "No measured owner migration/cannibalization matrix. Family portfolio scenarios incorporate overlap qualitatively; gross launch sales are not independent additive company uplift."
+    },
+    {
+      "id": "grand_cherokee",
+      "family": "Jeep Grand Cherokee",
+      "source_names": [
+        "Grand Cherokee"
+      ],
+      "annual_and_quarterly_sales_units": {
+        "2018A": 224908,
+        "2019A": 242969,
+        "2025A": 210082,
+        "2024Q4A": 55209,
+        "2025Q4A": 55861,
+        "2025Q1A": 48465,
+        "2026Q1A": 53482,
+        "2025Q2A": 51203,
+        "2026Q2A": 48255,
+        "2025Q3A": 54553,
+        "2026Q3A": 38027,
+        "2025YTDQ3A": 154221,
+        "2026YTDQ3A": 139764,
+        "2023A": 244594,
+        "2024A": 216148,
+        "2022A_partial": 223345,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "share_2025_us_pct": 16.6686238042947,
+      "share_2026_ytd_us_pct": 14.582096544154547,
+      "2023_to_2024_loss_units": 28446,
+      "share_net_us_decline_2024_pct": 12.726377952755904,
+      "qualitative_evidence": {
+        "family": "Grand Cherokee / L",
+        "pre_disruption_trajectory": "Sales rose in 2023, reversed in 2024 and weakened further thereafter.",
+        "causal_hypotheses": [
+          "Powertrain financing/allocation shifts",
+          "Relative value",
+          "Availability and quality concerns"
+        ],
+        "strongest_support": "Recorded 4xe decomposition explains much of 2024 arithmetic loss; dated commercial changes support mechanisms.",
+        "counterevidence": "Quoted lease terms are unmatched; recalls do not establish the whole decline; retail and total trends differ.",
+        "operational_change_status": "Refresh described; production disruption is a plausible partial explanation, not proven demand.",
+        "forward_milestone": "Post-downtime retail, stock and powertrain/body mix.",
+        "pricing_cannibalization_dependency": "Net payments, channel mix and Cherokee/Durango substitution.",
+        "confidence": "High on decomposition; medium on mechanisms; low on attribution.",
+        "next_falsifier": "Supply returns without improved retail share at sustainable prices.",
+        "source_refs": [
+          "gc_mix",
+          "gc_coverage",
+          "normalization",
+          "management",
+          "launches",
+          "current_sales"
+        ]
+      },
+      "proposed_forecast": {
+        "id": "grand_cherokee",
+        "family": "Jeep Grand Cherokee",
+        "classification": "assumed / provisional analyst judgment",
+        "method": "Partial normalization",
+        "rationale": "2025 210,082; 2024 216,148; current YTD annualized 186,352 and Q3 annualized 152,108. Base assumes planned shutdown/availability effects ease, returning near 2025–24 rather than the 2023 peak. Largest continuing-Jeep supply-versus-demand risk.",
+        "2025A_units": 210082,
+        "2026_flat_q4_reference_units": 177791,
+        "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+        "2027_units": {
+          "downside": 155000,
+          "base": 205000,
+          "upside": 230000
+        },
+        "2028_units": {
+          "downside": 160000,
+          "base": 215000,
+          "upside": 245000
+        },
+        "2028_base_growth_vs_2025_units": 4918,
+        "2028_base_growth_vs_2026_reference_units": 37209,
+        "2028_base_growth_vs_2027_units": 10000,
+        "share_2028_base_growth_from_2026_reference_pct": 17.43381905074263
+      },
+      "new_product_net_incremental_units": null,
+      "net_incremental_limitation": "No measured owner migration/cannibalization matrix. Family portfolio scenarios incorporate overlap qualitatively; gross launch sales are not independent additive company uplift."
+    },
+    {
+      "id": "wrangler",
+      "family": "Jeep Wrangler",
+      "source_names": [
+        "Wrangler"
+      ],
+      "annual_and_quarterly_sales_units": {
+        "2018A": 240032,
+        "2019A": 228032,
+        "2025A": 167322,
+        "2024Q4A": 38085,
+        "2025Q4A": 39268,
+        "2025Q1A": 37944,
+        "2026Q1A": 44461,
+        "2025Q2A": 47660,
+        "2026Q2A": 41793,
+        "2025Q3A": 42450,
+        "2026Q3A": 44757,
+        "2025YTDQ3A": 128054,
+        "2026YTDQ3A": 131011,
+        "2023A": 156581,
+        "2024A": 151163,
+        "2022A_partial": 181409,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "share_2025_us_pct": 13.275899278292275,
+      "share_2026_ytd_us_pct": 13.668863586805124,
+      "2023_to_2024_loss_units": 5418,
+      "share_net_us_decline_2024_pct": 2.4239441660701506,
+      "qualitative_evidence": {
+        "family": "Wrangler",
+        "pre_disruption_trajectory": "Below 2019 by 2023; fell in 2023 and 2024, then recovered in 2025.",
+        "causal_hypotheses": [
+          "Category/competitor pressure",
+          "Relative affordability",
+          "Powertrain mix and availability"
+        ],
+        "strongest_support": "Peer screen shows underperformance against Bronco; official series confirms recent recovery.",
+        "counterevidence": "Both models fell in 2023; peer availability differs. No matched causal payment/stock panel.",
+        "operational_change_status": "Heritage renewal and editions planned; exact redesign date unverified.",
+        "forward_milestone": "Retail retention and turn after current offers normalize.",
+        "pricing_cannibalization_dependency": "Keep 4xe inside family; distinguish incentives and Recon/Gladiator substitution.",
+        "confidence": "Medium on trajectory; low on mechanism weights.",
+        "next_falsifier": "Editions and improved availability fail to sustain relative retail share.",
+        "source_refs": [
+          "annual_latest",
+          "peers",
+          "launches",
+          "exits",
+          "current_sales"
+        ]
+      },
+      "proposed_forecast": {
+        "id": "wrangler",
+        "family": "Jeep Wrangler",
+        "classification": "assumed / provisional analyst judgment",
+        "method": "Recent pace",
+        "rationale": "YTD annualized 174,681; Q3 annualized 179,028; 2025 167,322. Base holds about current pace for both years; no restoration of 2019 228,032. Bronco and aging/mix competition cap assumed gains.",
+        "2025A_units": 167322,
+        "2026_flat_q4_reference_units": 175768,
+        "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+        "2027_units": {
+          "downside": 155000,
+          "base": 180000,
+          "upside": 190000
+        },
+        "2028_units": {
+          "downside": 155000,
+          "base": 180000,
+          "upside": 200000
+        },
+        "2028_base_growth_vs_2025_units": 12678,
+        "2028_base_growth_vs_2026_reference_units": 4232,
+        "2028_base_growth_vs_2027_units": 0,
+        "share_2028_base_growth_from_2026_reference_pct": 1.9828515204048165
+      },
+      "new_product_net_incremental_units": null,
+      "net_incremental_limitation": "No measured owner migration/cannibalization matrix. Family portfolio scenarios incorporate overlap qualitatively; gross launch sales are not independent additive company uplift."
+    },
+    {
+      "id": "compass",
+      "family": "Jeep Compass",
+      "source_names": [
+        "Compass"
+      ],
+      "annual_and_quarterly_sales_units": {
+        "2018A": 171167,
+        "2019A": 143934,
+        "2025A": 101997,
+        "2024Q4A": 27223,
+        "2025Q4A": 19077,
+        "2025Q1A": 31730,
+        "2026Q1A": 18573,
+        "2025Q2A": 23104,
+        "2026Q2A": 18453,
+        "2025Q3A": 28086,
+        "2026Q3A": 10811,
+        "2025YTDQ3A": 82920,
+        "2026YTDQ3A": 47837,
+        "2023A": 96173,
+        "2024A": 111697,
+        "2022A_partial": 86175,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "share_2025_us_pct": 8.092790539725662,
+      "share_2026_ytd_us_pct": 4.991011650945316,
+      "2023_to_2024_loss_units": -15524,
+      "share_net_us_decline_2024_pct": -6.945239799570508,
+      "qualitative_evidence": {
+        "family": "Compass",
+        "pre_disruption_trajectory": "Below 2019, but grew through 2023–24; weakened in 2025 and sharply in 2026.",
+        "causal_hypotheses": [
+          "Affordable-offer positioning",
+          "Fleet or availability shifts",
+          "Cherokee substitution"
+        ],
+        "strongest_support": "Official growth contradicts blanket Jeep weakness; later decline is observed.",
+        "counterevidence": "No model channel split; annual growth was not proof of household recovery. Substitution remains unmeasured.",
+        "operational_change_status": "New generation planned; North American timing not verified from European rollout.",
+        "forward_milestone": "Retail/fleet split, sellable inventory and dated NA production plan.",
+        "pricing_cannibalization_dependency": "Entry payments versus compact rivals; combined Compass/Cherokee economics.",
+        "confidence": "High on sales; low on cause.",
+        "next_falsifier": "Retail weakness persists with competitive stocked trims and stable supply.",
+        "source_refs": [
+          "annual_latest",
+          "peers",
+          "normalization",
+          "current_sales",
+          "launches"
+        ]
+      },
+      "proposed_forecast": {
+        "id": "compass",
+        "family": "Jeep Compass",
+        "classification": "assumed / provisional analyst judgment",
+        "method": "Constrained partial recovery",
+        "rationale": "YTD annualized 63,783; Q3 annualized 43,244; 2025 101,997. Base starts near the YTD pace, with only limited 2028 recovery. Cherokee expansion and overlapping customers prevent simultaneous full restoration of both nameplates.",
+        "2025A_units": 101997,
+        "2026_flat_q4_reference_units": 58648,
+        "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+        "2027_units": {
+          "downside": 40000,
+          "base": 65000,
+          "upside": 85000
+        },
+        "2028_units": {
+          "downside": 40000,
+          "base": 70000,
+          "upside": 90000
+        },
+        "2028_base_growth_vs_2025_units": -31997,
+        "2028_base_growth_vs_2026_reference_units": 11352,
+        "2028_base_growth_vs_2027_units": 5000,
+        "share_2028_base_growth_from_2026_reference_pct": 5.318839900670009
+      },
+      "new_product_net_incremental_units": null,
+      "net_incremental_limitation": "No measured owner migration/cannibalization matrix. Family portfolio scenarios incorporate overlap qualitatively; gross launch sales are not independent additive company uplift."
+    },
+    {
+      "id": "gladiator",
+      "family": "Jeep Gladiator",
+      "source_names": [
+        "Gladiator"
+      ],
+      "annual_and_quarterly_sales_units": {
+        "2018A": 0,
+        "2019A": 40047,
+        "2025A": 56790,
+        "2024Q4A": 9453,
+        "2025Q4A": 18277,
+        "2025Q1A": 12057,
+        "2026Q1A": 10087,
+        "2025Q2A": 13343,
+        "2026Q2A": 8946,
+        "2025Q3A": 13113,
+        "2026Q3A": 11911,
+        "2025YTDQ3A": 38513,
+        "2026YTDQ3A": 30944,
+        "2023A": 55188,
+        "2024A": 42123,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "share_2025_us_pct": 4.505912671461125,
+      "share_2026_ytd_us_pct": 3.228502300036621,
+      "2023_to_2024_loss_units": 13065,
+      "share_net_us_decline_2024_pct": 5.845114531138154,
+      "qualitative_evidence": {
+        "family": "Gladiator",
+        "pre_disruption_trajectory": "2019 was launch year; 2024 declined from 2023, recovered in 2025, then softened in 2026.",
+        "causal_hypotheses": [
+          "Specialty-pickup appeal",
+          "Payment competitiveness",
+          "Stock/trim mismatch"
+        ],
+        "strongest_support": "Documented MSRP reduction and advertised support coexisted with 2024 volume decline.",
+        "counterevidence": "No constant-availability or matched-payment counterfactual; 2025 rebound argues against permanent rejection.",
+        "operational_change_status": "Heritage renewal planned; precise calendar unspecified.",
+        "forward_milestone": "Repeatable retail growth after incentives and launch comparisons normalize.",
+        "pricing_cannibalization_dependency": "Wrangler and future Ram midsize/compact overlap; lower sticker is not lower net payment.",
+        "confidence": "Medium on commercial evidence; low on causal attribution.",
+        "next_falsifier": "Stock replenishes without retail improvement despite effective affordability gains.",
+        "source_refs": [
+          "history",
+          "annual_latest",
+          "offer",
+          "launches",
+          "current_sales"
+        ]
+      },
+      "proposed_forecast": {
+        "id": "gladiator",
+        "family": "Jeep Gladiator",
+        "classification": "assumed / provisional analyst judgment",
+        "method": "Recent pace",
+        "rationale": "YTD annualized 41,259; Q3 annualized 47,644; 2025 56,790. Base lies within current paces; 2025 rebound is not a reliable full-year new baseline after renewed 2026 decline.",
+        "2025A_units": 56790,
+        "2026_flat_q4_reference_units": 42855,
+        "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+        "2027_units": {
+          "downside": 35000,
+          "base": 43000,
+          "upside": 55000
+        },
+        "2028_units": {
+          "downside": 35000,
+          "base": 45000,
+          "upside": 60000
+        },
+        "2028_base_growth_vs_2025_units": -11790,
+        "2028_base_growth_vs_2026_reference_units": 2145,
+        "2028_base_growth_vs_2027_units": 2000,
+        "share_2028_base_growth_from_2026_reference_pct": 1.0050133533242749
+      },
+      "new_product_net_incremental_units": null,
+      "net_incremental_limitation": "No measured owner migration/cannibalization matrix. Family portfolio scenarios incorporate overlap qualitatively; gross launch sales are not independent additive company uplift."
+    },
+    {
+      "id": "cherokee",
+      "family": "Jeep Cherokee / returning HEV",
+      "source_names": [
+        "Cherokee",
+        "Cherokee HEV"
+      ],
+      "annual_and_quarterly_sales_units": {
+        "2018A": 239437,
+        "2019A": 191397,
+        "2025A": 527,
+        "2024Q4A": 239,
+        "2025Q4A": 90,
+        "2025Q1A": 156,
+        "2026Q1A": 2489,
+        "2025Q2A": 101,
+        "2026Q2A": 8112,
+        "2025Q3A": 131,
+        "2026Q3A": 10344,
+        "2025YTDQ3A": 131,
+        "2026YTDQ3A": 20914,
+        "2023A": 24609,
+        "2024A": 2839,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "share_2025_us_pct": 0.041813980944884886,
+      "share_2026_ytd_us_pct": 2.1820351959334894,
+      "2023_to_2024_loss_units": 21770,
+      "share_net_us_decline_2024_pct": 9.739620615604867,
+      "qualitative_evidence": {
+        "family": "Cherokee",
+        "pre_disruption_trajectory": "Predecessor declined well before shutdown; supply interruptions compounded an already weakening trajectory.",
+        "causal_hypotheses": [
+          "Prior value/appeal weakness",
+          "Chip disruption and offer narrowing",
+          "Current tariff-cost constraints"
+        ],
+        "strongest_support": "Dated disruptions, prior slow turn and management trim restrictions support layered explanation.",
+        "counterevidence": "Chip-to-cheap-trim causation unproved; new-model interest claim lacks conversion data.",
+        "operational_change_status": "HEV selling; Trailhawk orders opened; competitive trims planned H1 2027; localization undated.",
+        "forward_milestone": "Delivered competitive trims and profitable retail conversion.",
+        "pricing_cannibalization_dependency": "Count net Jeep growth after Compass/Grand Cherokee substitution and finance support.",
+        "confidence": "Medium on layered mechanism; low on causal shares.",
+        "next_falsifier": "Broader available trims fail to improve economic sell-through.",
+        "source_refs": [
+          "cherokee_history",
+          "exits",
+          "management",
+          "dodge",
+          "launch_update"
+        ]
+      },
+      "proposed_forecast": {
+        "id": "cherokee",
+        "family": "Jeep Cherokee / returning HEV",
+        "classification": "assumed / provisional analyst judgment",
+        "method": "Conditional launch judgment",
+        "rationale": "Q3 HEV 10,344 = 3,448/month; base requires 5,000/month in 2027 and 6,667 in 2028. H1 2027 competitive trims are a management plan, not measured conversion. Base is conditional on broader profitable availability. Not an independently calibrated launch curve; never restore old 191k peak automatically.",
+        "2025A_units": 527,
+        "2026_flat_q4_reference_units": 31258,
+        "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+        "2027_units": {
+          "downside": 30000,
+          "base": 60000,
+          "upside": 80000
+        },
+        "2028_units": {
+          "downside": 40000,
+          "base": 80000,
+          "upside": 110000
+        },
+        "2028_base_growth_vs_2025_units": 79473,
+        "2028_base_growth_vs_2026_reference_units": 48742,
+        "2028_base_growth_vs_2027_units": 20000,
+        "share_2028_base_growth_from_2026_reference_pct": 22.837464274000844
+      },
+      "new_product_net_incremental_units": null,
+      "net_incremental_limitation": "No measured owner migration/cannibalization matrix. Family portfolio scenarios incorporate overlap qualitatively; gross launch sales are not independent additive company uplift."
+    },
+    {
+      "id": "wagoneer_family",
+      "family": "Jeep Wagoneer / Grand Wagoneer",
+      "source_names": [
+        "Wagoneer",
+        "Grand Wagoneer",
+        "Wagoneer/G. Wagoneer"
+      ],
+      "annual_and_quarterly_sales_units": {
+        "2018A": null,
+        "2019A": null,
+        "2025A": 45040,
+        "2024Q4A": 7570,
+        "2025Q4A": 10368,
+        "2025Q1A": 7249,
+        "2026Q1A": 15242,
+        "2025Q2A": 9523,
+        "2026Q2A": 14905,
+        "2025Q3A": 17900,
+        "2026Q3A": 12495,
+        "2025YTDQ3A": 34672,
+        "2026YTDQ3A": 42642,
+        "2023A": 39767,
+        "2024A": 55084,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "share_2025_us_pct": 3.5736275175666328,
+      "share_2026_ytd_us_pct": 4.4489980312229065,
+      "2023_to_2024_loss_units": -15317,
+      "share_net_us_decline_2024_pct": -6.852630637079455,
+      "qualitative_evidence": {
+        "family": "Wagoneer / Grand Wagoneer",
+        "pre_disruption_trajectory": "Newer family lacks 2019 baseline; combined sales grew in 2024, fell in 2025.",
+        "causal_hypotheses": [
+          "Large-SUV positioning and launch ramp",
+          "Trim/channel mix",
+          "Price and availability"
+        ],
+        "strongest_support": "2024 family growth disproves universal premium-Jeep collapse; 2026 YTD and Q3 directions differ.",
+        "counterevidence": "No matched retail, incentive or model-margin history; aggregation can hide derivative shifts.",
+        "operational_change_status": "Refresh and propulsion expansion planned; naming scope requires reconciliation.",
+        "forward_milestone": "Combined-family retail and stock through refresh and propulsion deliveries.",
+        "pricing_cannibalization_dependency": "Avoid rename double counting; overlap with Grand Cherokee/L, Durango and future Ram SUV.",
+        "confidence": "High on history; low on dominant mechanism.",
+        "next_falsifier": "Refreshed supply increases stock without sustainable family sell-through.",
+        "source_refs": [
+          "history",
+          "annual_latest",
+          "current_sales",
+          "offer",
+          "launches"
+        ]
+      },
+      "proposed_forecast": {
+        "id": "wagoneer_family",
+        "family": "Jeep Wagoneer / Grand Wagoneer",
+        "classification": "assumed / provisional analyst judgment",
+        "method": "Recent pace",
+        "rationale": "YTD annualized 56,856; Q3 annualized 49,980; 2025 combined 45,040. Base broadly holds YTD scale with small additional growth. Label consolidation and high-price demand/incentives remain risks.",
+        "2025A_units": 45040,
+        "2026_flat_q4_reference_units": 55137,
+        "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+        "2027_units": {
+          "downside": 40000,
+          "base": 55000,
+          "upside": 65000
+        },
+        "2028_units": {
+          "downside": 40000,
+          "base": 58000,
+          "upside": 70000
+        },
+        "2028_base_growth_vs_2025_units": 12960,
+        "2028_base_growth_vs_2026_reference_units": 2863,
+        "2028_base_growth_vs_2027_units": 3000,
+        "share_2028_base_growth_from_2026_reference_pct": 1.341423417513939
+      },
+      "new_product_net_incremental_units": null,
+      "net_incremental_limitation": "No measured owner migration/cannibalization matrix. Family portfolio scenarios incorporate overlap qualitatively; gross launch sales are not independent additive company uplift."
+    },
+    {
+      "id": "wagoneer_s",
+      "family": "Jeep Wagoneer S",
+      "source_names": [
+        "Wagoneer S"
+      ],
+      "annual_and_quarterly_sales_units": {
+        "2018A": null,
+        "2019A": null,
+        "2025A": 10864,
+        "2024Q4A": 133,
+        "2025Q4A": 438,
+        "2025Q1A": 2595,
+        "2026Q1A": 175,
+        "2025Q2A": 3668,
+        "2026Q2A": 198,
+        "2025Q3A": 4163,
+        "2026Q3A": 146,
+        "2025YTDQ3A": 10426,
+        "2026YTDQ3A": 519,
+        "2023A": 0,
+        "2024A": 231,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "share_2025_us_pct": 0.86198688611998,
+      "share_2026_ytd_us_pct": 0.05414919511759974,
+      "2023_to_2024_loss_units": -231,
+      "share_net_us_decline_2024_pct": -0.10334645669291338,
+      "qualitative_evidence": {
+        "family": "Wagoneer S / Recon",
+        "pre_disruption_trajectory": "New offers lack pre-disruption baseline; Wagoneer S early growth reversed; Recon reported units remain tiny.",
+        "causal_hypotheses": [
+          "BEV price/use-case fit",
+          "Launch availability",
+          "Jeep-buyer substitution"
+        ],
+        "strongest_support": "Reported sales establish limited current scale; broader propulsion plans acknowledge offer flexibility.",
+        "counterevidence": "Tiny launch cohorts and missing stock/retail data prevent mature-demand inference; models are distinct.",
+        "operational_change_status": "BEV offers reported; Recon ICE planned without precise date.",
+        "forward_milestone": "Verified broad availability, deliveries and continued owner demand.",
+        "pricing_cannibalization_dependency": "Separate models, then deduct own-lineup substitution; incentives and charging costs matter.",
+        "confidence": "High on limited scale; low on mechanism.",
+        "next_falsifier": "Broad supply and competitive payments do not improve repeatable retail.",
+        "source_refs": [
+          "history",
+          "annual_latest",
+          "current_sales",
+          "launches",
+          "launch_update"
+        ]
+      },
+      "proposed_forecast": null,
+      "new_product_net_incremental_units": null,
+      "net_incremental_limitation": "No measured owner migration/cannibalization matrix. Family portfolio scenarios incorporate overlap qualitatively; gross launch sales are not independent additive company uplift."
+    },
+    {
+      "id": "recon",
+      "family": "Jeep Recon",
+      "source_names": [
+        "Recon"
+      ],
+      "annual_and_quarterly_sales_units": {
+        "2018A": null,
+        "2019A": null,
+        "2025A": 56,
+        "2024Q4A": 0,
+        "2025Q4A": 22,
+        "2025Q1A": null,
+        "2026Q1A": null,
+        "2025Q2A": 3,
+        "2026Q2A": 27,
+        "2025Q3A": 14,
+        "2026Q3A": 35,
+        "2025YTDQ3A": 34,
+        "2026YTDQ3A": 82,
+        "2023A": null,
+        "2024A": null,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "share_2025_us_pct": 0.004443231371752474,
+      "share_2026_ytd_us_pct": 0.008555364161162194,
+      "2023_to_2024_loss_units": null,
+      "share_net_us_decline_2024_pct": null,
+      "qualitative_evidence": {
+        "family": "Wagoneer S / Recon",
+        "pre_disruption_trajectory": "New offers lack pre-disruption baseline; Wagoneer S early growth reversed; Recon reported units remain tiny.",
+        "causal_hypotheses": [
+          "BEV price/use-case fit",
+          "Launch availability",
+          "Jeep-buyer substitution"
+        ],
+        "strongest_support": "Reported sales establish limited current scale; broader propulsion plans acknowledge offer flexibility.",
+        "counterevidence": "Tiny launch cohorts and missing stock/retail data prevent mature-demand inference; models are distinct.",
+        "operational_change_status": "BEV offers reported; Recon ICE planned without precise date.",
+        "forward_milestone": "Verified broad availability, deliveries and continued owner demand.",
+        "pricing_cannibalization_dependency": "Separate models, then deduct own-lineup substitution; incentives and charging costs matter.",
+        "confidence": "High on limited scale; low on mechanism.",
+        "next_falsifier": "Broad supply and competitive payments do not improve repeatable retail.",
+        "source_refs": [
+          "history",
+          "annual_latest",
+          "current_sales",
+          "launches",
+          "launch_update"
+        ]
+      },
+      "proposed_forecast": null,
+      "new_product_net_incremental_units": null,
+      "net_incremental_limitation": "No measured owner migration/cannibalization matrix. Family portfolio scenarios incorporate overlap qualitatively; gross launch sales are not independent additive company uplift."
+    },
+    {
+      "id": "minivans",
+      "family": "Chrysler Pacifica / Voyager",
+      "source_names": [
+        "Pacifica",
+        "Voyager"
+      ],
+      "annual_and_quarterly_sales_units": {
+        "2018A": 118322,
+        "2019A": 97705,
+        "2025A": 125798,
+        "2024Q4A": 27003,
+        "2025Q4A": 35625,
+        "2025Q1A": 34728,
+        "2026Q1A": 25416,
+        "2025Q2A": 23028,
+        "2026Q2A": 41704,
+        "2025Q3A": 32417,
+        "2026Q3A": 34491,
+        "2025YTDQ3A": 90173,
+        "2026YTDQ3A": 101611,
+        "2023A": 120554,
+        "2024A": 119389,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "share_2025_us_pct": 9.981243216137816,
+      "share_2026_ytd_us_pct": 10.60145253390063,
+      "2023_to_2024_loss_units": 1165,
+      "share_net_us_decline_2024_pct": 0.5212061560486757,
+      "qualitative_evidence": {
+        "family": "Pacifica / Voyager",
+        "pre_disruption_trajectory": "Pacifica fell in 2019; combined minivans were nearly flat in 2024 and grew in 2025.",
+        "causal_hypotheses": [
+          "Family utility demand",
+          "Affordability and channel mix",
+          "Reporting/naming transfers"
+        ],
+        "strongest_support": "Combining Voyager changes the apparent 2024 Pacifica decline materially.",
+        "counterevidence": "No consistent retail/fleet or powertrain split; standalone nameplate changes can mislead.",
+        "operational_change_status": "Refresh/variants described; current offering verified, additional rollout milestones unproved.",
+        "forward_milestone": "Comparable combined-family retail and refresh delivery evidence.",
+        "pricing_cannibalization_dependency": "Include finance support and future Chrysler crossover substitution; reconcile current reporting.",
+        "confidence": "High on classification caveat; low on causal explanation.",
+        "next_falsifier": "Combined retail weakens despite refreshed stock and competitive payments.",
+        "source_refs": [
+          "annual_latest",
+          "history",
+          "current_sales",
+          "launch_update",
+          "initiatives"
+        ]
+      },
+      "proposed_forecast": {
+        "id": "minivans",
+        "family": "Chrysler Pacifica / Voyager",
+        "classification": "assumed / provisional analyst judgment",
+        "method": "Recent pace",
+        "rationale": "2025 Pacifica+Voyager 125,798; current YTD annualized 135,481 and Q3 annualized 137,964. Base stays close to current pace, then grows modestly. This includes fleet and depends on the apparent Voyager reporting consolidation.",
+        "2025A_units": 125798,
+        "2026_flat_q4_reference_units": 136102,
+        "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+        "2027_units": {
+          "downside": 115000,
+          "base": 140000,
+          "upside": 150000
+        },
+        "2028_units": {
+          "downside": 115000,
+          "base": 145000,
+          "upside": 160000
+        },
+        "2028_base_growth_vs_2025_units": 19202,
+        "2028_base_growth_vs_2026_reference_units": 8898,
+        "2028_base_growth_vs_2027_units": 5000,
+        "share_2028_base_growth_from_2026_reference_pct": 4.169048399943776
+      },
+      "new_product_net_incremental_units": null,
+      "net_incremental_limitation": "No measured owner migration/cannibalization matrix. Family portfolio scenarios incorporate overlap qualitatively; gross launch sales are not independent additive company uplift."
+    },
+    {
+      "id": "charger_family",
+      "family": "Dodge Charger / Challenger transition family",
+      "source_names": [
+        "Charger",
+        "Charger ICE",
+        "Charger BEV",
+        "Challenger"
+      ],
+      "annual_and_quarterly_sales_units": {
+        "2018A": 146942,
+        "2019A": 157932,
+        "2025A": 11362,
+        "2024Q4A": 4956,
+        "2025Q4A": 696,
+        "2025Q1A": 3921,
+        "2026Q1A": 1957,
+        "2025Q2A": 3509,
+        "2026Q2A": 3243,
+        "2025Q3A": 3014,
+        "2026Q3A": 3679,
+        "2025YTDQ3A": 8943,
+        "2026YTDQ3A": 8796,
+        "2023A": 120858,
+        "2024A": 61810,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "share_2025_us_pct": 0.9014999079616358,
+      "share_2026_ytd_us_pct": 0.917719306848569,
+      "2023_to_2024_loss_units": 59048,
+      "share_net_us_decline_2024_pct": 26.417322834645667,
+      "qualitative_evidence": {
+        "family": "Charger / Challenger family",
+        "pre_disruption_trajectory": "Both broadly stable in 2020–22, then declined in 2023 before production cessation.",
+        "causal_hypotheses": [
+          "Replacement gap and slippage",
+          "Powertrain appeal",
+          "Relative payment/positioning"
+        ],
+        "strongest_support": "Documented ICE timing slippage; current ICE growth accompanies BEV contraction.",
+        "counterevidence": "Bridge stock and discounts existed; combined YTD sales remain weak. Prior profitability unknown.",
+        "operational_change_status": "Multi-energy Charger selling; retain legacy/current family distinctions.",
+        "forward_milestone": "Sustained combined retail across offered body styles and powertrains.",
+        "pricing_cannibalization_dependency": "ICE/BEV substitution and incentives; former Challenger buyers are not guaranteed returnees.",
+        "confidence": "Medium on gap mechanism; low on recoverable demand.",
+        "next_falsifier": "Broad availability fails to produce net family recovery at sustainable realization.",
+        "source_refs": [
+          "exits",
+          "dodge",
+          "launch_update",
+          "current_sales"
+        ]
+      },
+      "proposed_forecast": {
+        "id": "charger_family",
+        "family": "Dodge Charger / Challenger transition family",
+        "classification": "assumed / provisional analyst judgment",
+        "method": "Conditional launch judgment",
+        "rationale": "Q3 new ICE+BEV 3,679 = 1,226/month. Base requires about 1,667/month then 2,500/month, supported directionally by ICE rollout but not by order data. Gasoline growth currently offsets BEV decline; old Charger+Challenger 120,858 in 2023 is not assumed recoverable.",
+        "2025A_units": 11362,
+        "2026_flat_q4_reference_units": 12475,
+        "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+        "2027_units": {
+          "downside": 10000,
+          "base": 20000,
+          "upside": 30000
+        },
+        "2028_units": {
+          "downside": 12000,
+          "base": 30000,
+          "upside": 45000
+        },
+        "2028_base_growth_vs_2025_units": 18638,
+        "2028_base_growth_vs_2026_reference_units": 17525,
+        "2028_base_growth_vs_2027_units": 10000,
+        "share_2028_base_growth_from_2026_reference_pct": 8.211123084852176
+      },
+      "new_product_net_incremental_units": null,
+      "net_incremental_limitation": "No measured owner migration/cannibalization matrix. Family portfolio scenarios incorporate overlap qualitatively; gross launch sales are not independent additive company uplift."
+    },
+    {
+      "id": "durango",
+      "family": "Dodge Durango",
+      "source_names": [
+        "Durango"
+      ],
+      "annual_and_quarterly_sales_units": {
+        "2018A": 65947,
+        "2019A": 67599,
+        "2025A": 81168,
+        "2024Q4A": 12487,
+        "2025Q4A": 26751,
+        "2025Q1A": 13701,
+        "2026Q1A": 20300,
+        "2025Q2A": 20698,
+        "2026Q2A": 18275,
+        "2025Q3A": 20018,
+        "2026Q3A": 22755,
+        "2025YTDQ3A": 54417,
+        "2026YTDQ3A": 61330,
+        "2023A": 69196,
+        "2024A": 59357,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "share_2025_us_pct": 6.440146499685801,
+      "share_2026_ytd_us_pct": 6.398786390293626,
+      "2023_to_2024_loss_units": 9839,
+      "share_net_us_decline_2024_pct": 4.401843235504653,
+      "qualitative_evidence": {
+        "family": "Durango",
+        "pre_disruption_trajectory": "2019 broadly exceeded 2018; fell in 2024, then rebounded strongly in 2025.",
+        "causal_hypotheses": [
+          "Performance-SUV differentiation",
+          "Variant availability",
+          "Channel and incentive support"
+        ],
+        "strongest_support": "Current total and retail growth support continuing-family resilience.",
+        "counterevidence": "No model contribution-margin or incentive series; favorable comparisons do not prove sustained demand.",
+        "operational_change_status": "R/T 392 production milestone verified; full refresh timing remains insufficiently dated.",
+        "forward_milestone": "Sustained retail growth and stock turn after derivative launch.",
+        "pricing_cannibalization_dependency": "Derivatives stay inside family; Jeep SUV/future Ram SUV substitution and net payment matter.",
+        "confidence": "High on recovery; low on incremental causal effect.",
+        "next_falsifier": "Growth reverses as launch support falls or inventory normalizes.",
+        "source_refs": [
+          "annual_latest",
+          "history",
+          "current_sales",
+          "launch_update",
+          "initiatives"
+        ]
+      },
+      "proposed_forecast": {
+        "id": "durango",
+        "family": "Dodge Durango",
+        "classification": "assumed / provisional analyst judgment",
+        "method": "Recent pace",
+        "rationale": "2025 81,168; YTD annualized 81,773; Q3 annualized 91,020. Base is near current scale in both years. New V8 derivatives sit inside this family, not additive launch forecasts; age and price constrain sustained gains.",
+        "2025A_units": 81168,
+        "2026_flat_q4_reference_units": 84085,
+        "2026_reference_definition": "YTD actual + Q3 repeated as hypothetical Q4; not a FY actual or approved forecast",
+        "2027_units": {
+          "downside": 70000,
+          "base": 85000,
+          "upside": 100000
+        },
+        "2028_units": {
+          "downside": 70000,
+          "base": 85000,
+          "upside": 105000
+        },
+        "2028_base_growth_vs_2025_units": 3832,
+        "2028_base_growth_vs_2026_reference_units": 915,
+        "2028_base_growth_vs_2027_units": 0,
+        "share_2028_base_growth_from_2026_reference_pct": 0.4287119898795858
+      },
+      "new_product_net_incremental_units": null,
+      "net_incremental_limitation": "No measured owner migration/cannibalization matrix. Family portfolio scenarios incorporate overlap qualitatively; gross launch sales are not independent additive company uplift."
+    },
+    {
+      "id": "hornet",
+      "family": "Dodge Hornet",
+      "source_names": [
+        "Hornet"
+      ],
+      "annual_and_quarterly_sales_units": {
+        "2018A": null,
+        "2019A": null,
+        "2025A": 9365,
+        "2024Q4A": 4993,
+        "2025Q4A": 879,
+        "2025Q1A": 4108,
+        "2026Q1A": 417,
+        "2025Q2A": 1539,
+        "2026Q2A": 300,
+        "2025Q3A": 2839,
+        "2026Q3A": 85,
+        "2025YTDQ3A": 8486,
+        "2026YTDQ3A": 802,
+        "2023A": 9336,
+        "2024A": 20559,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "share_2025_us_pct": 0.7430511035082485,
+      "share_2026_ytd_us_pct": 0.08367563484453755,
+      "2023_to_2024_loss_units": -11223,
+      "share_net_us_decline_2024_pct": -5.021027201145312,
+      "qualitative_evidence": {
+        "family": "Hornet",
+        "pre_disruption_trajectory": "Recent launch: 2024 grew from small 2023 base; 2025–26 contracted sharply.",
+        "causal_hypotheses": [
+          "Positioning or payment mismatch",
+          "Supply/channel changes",
+          "Powertrain suitability"
+        ],
+        "strongest_support": "Official sales collapse and management entry-performance repositioning identify a problem needing repair.",
+        "counterevidence": "No matched stock/payment or shopper evidence distinguishes weak demand from curtailed supply.",
+        "operational_change_status": "GLH appears on plan; replacement relationship and SOP unverified. Omission is not cancellation proof.",
+        "forward_milestone": "Firm successor identity/date and repeatable orders at competitive payments.",
+        "pricing_cannibalization_dependency": "GLH may replace Hornet; do not forecast two independent additions.",
+        "confidence": "High on trajectory; low on mechanism.",
+        "next_falsifier": "Continued weak retail after viable supply/price reset.",
+        "source_refs": [
+          "history",
+          "annual_latest",
+          "current_sales",
+          "launches",
+          "initiatives"
+        ]
+      },
+      "proposed_forecast": null,
+      "new_product_net_incremental_units": null,
+      "net_incremental_limitation": "No measured owner migration/cannibalization matrix. Family portfolio scenarios incorporate overlap qualitatively; gross launch sales are not independent additive company uplift."
+    },
+    {
+      "id": "renegade",
+      "family": "Jeep Renegade runoff",
+      "source_names": [
+        "Renegade"
+      ],
+      "annual_and_quarterly_sales_units": {
+        "2018A": 97062,
+        "2019A": 76885,
+        "2025A": 721,
+        "2024Q4A": 664,
+        "2025Q4A": 27,
+        "2025Q1A": 370,
+        "2026Q1A": 23,
+        "2025Q2A": 220,
+        "2026Q2A": 10,
+        "2025Q3A": null,
+        "2026Q3A": null,
+        "2025YTDQ3A": null,
+        "2026YTDQ3A": null,
+        "2023A": 26011,
+        "2024A": 8440,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "share_2025_us_pct": 0.0572066039113131,
+      "share_2026_ytd_us_pct": null,
+      "2023_to_2024_loss_units": 17571,
+      "share_net_us_decline_2024_pct": 7.86104151753758,
+      "qualitative_evidence": {
+        "family": "Other / runoff",
+        "pre_disruption_trajectory": "Includes discontinued legacy products and continuing niche brands; historical losses are heterogeneous.",
+        "causal_hypotheses": [
+          "Intentional exits",
+          "Product gaps",
+          "Niche-brand value or distribution constraints"
+        ],
+        "strongest_support": "Official tables document runoff; management singled out some exits, not all products, as unprofitable.",
+        "counterevidence": "Missing current rows do not equal zero; surviving Fiat/Alfa models are not automatically runoff.",
+        "operational_change_status": "Separate discontinued residuals from continuing offers; no aggregate relaunch thesis established.",
+        "forward_milestone": "Product-specific NA availability and reconciled reporting scope.",
+        "pricing_cannibalization_dependency": "Customer migration to other group brands unknown; avoid recovery of discontinued volumes by default.",
+        "confidence": "Medium on classification; low on common mechanism.",
+        "next_falsifier": "Confirmed new offer or owner migration contradicts assumed permanent loss.",
+        "source_refs": [
+          "history",
+          "annual_latest",
+          "current_sales",
+          "exits",
+          "launches"
+        ]
+      },
+      "proposed_forecast": null,
+      "new_product_net_incremental_units": null,
+      "net_incremental_limitation": "No measured owner migration/cannibalization matrix. Family portfolio scenarios incorporate overlap qualitatively; gross launch sales are not independent additive company uplift."
+    },
+    {
+      "id": "chrysler_300",
+      "family": "Chrysler 300 runoff",
+      "source_names": [
+        "300"
+      ],
+      "annual_and_quarterly_sales_units": {
+        "2018A": 46593,
+        "2019A": 29213,
+        "2025A": 574,
+        "2024Q4A": 626,
+        "2025Q4A": 15,
+        "2025Q1A": null,
+        "2026Q1A": null,
+        "2025Q2A": null,
+        "2026Q2A": null,
+        "2025Q3A": null,
+        "2026Q3A": null,
+        "2025YTDQ3A": null,
+        "2026YTDQ3A": null,
+        "2023A": 13169,
+        "2024A": 5295,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "share_2025_us_pct": 0.045543121560462856,
+      "share_2026_ytd_us_pct": null,
+      "2023_to_2024_loss_units": 7874,
+      "share_net_us_decline_2024_pct": 3.5227272727272725,
+      "qualitative_evidence": {
+        "family": "Other / runoff",
+        "pre_disruption_trajectory": "Includes discontinued legacy products and continuing niche brands; historical losses are heterogeneous.",
+        "causal_hypotheses": [
+          "Intentional exits",
+          "Product gaps",
+          "Niche-brand value or distribution constraints"
+        ],
+        "strongest_support": "Official tables document runoff; management singled out some exits, not all products, as unprofitable.",
+        "counterevidence": "Missing current rows do not equal zero; surviving Fiat/Alfa models are not automatically runoff.",
+        "operational_change_status": "Separate discontinued residuals from continuing offers; no aggregate relaunch thesis established.",
+        "forward_milestone": "Product-specific NA availability and reconciled reporting scope.",
+        "pricing_cannibalization_dependency": "Customer migration to other group brands unknown; avoid recovery of discontinued volumes by default.",
+        "confidence": "Medium on classification; low on common mechanism.",
+        "next_falsifier": "Confirmed new offer or owner migration contradicts assumed permanent loss.",
+        "source_refs": [
+          "history",
+          "annual_latest",
+          "current_sales",
+          "exits",
+          "launches"
+        ]
+      },
+      "proposed_forecast": null,
+      "new_product_net_incremental_units": null,
+      "net_incremental_limitation": "No measured owner migration/cannibalization matrix. Family portfolio scenarios incorporate overlap qualitatively; gross launch sales are not independent additive company uplift."
+    },
+    {
+      "id": "other_legacy",
+      "family": "Other named legacy models",
+      "source_names": [
+        "Patriot",
+        "Town & Country",
+        "Dart",
+        "Viper",
+        "Journey",
+        "Caravan",
+        "200",
+        "Avenger"
+      ],
+      "annual_and_quarterly_sales_units": {
+        "2018A": 248105,
+        "2019A": 197435,
+        "2025A": 32,
+        "2024Q4A": 0,
+        "2025Q4A": 0,
+        "2025Q1A": null,
+        "2026Q1A": null,
+        "2025Q2A": null,
+        "2026Q2A": null,
+        "2025Q3A": null,
+        "2026Q3A": null,
+        "2025YTDQ3A": null,
+        "2026YTDQ3A": null,
+        "2023A": 71,
+        "2024A": 4,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "share_2025_us_pct": 0.002538989355287128,
+      "share_2026_ytd_us_pct": null,
+      "2023_to_2024_loss_units": 67,
+      "share_net_us_decline_2024_pct": 0.029974946313528993,
+      "qualitative_evidence": {
+        "family": "Other / runoff",
+        "pre_disruption_trajectory": "Includes discontinued legacy products and continuing niche brands; historical losses are heterogeneous.",
+        "causal_hypotheses": [
+          "Intentional exits",
+          "Product gaps",
+          "Niche-brand value or distribution constraints"
+        ],
+        "strongest_support": "Official tables document runoff; management singled out some exits, not all products, as unprofitable.",
+        "counterevidence": "Missing current rows do not equal zero; surviving Fiat/Alfa models are not automatically runoff.",
+        "operational_change_status": "Separate discontinued residuals from continuing offers; no aggregate relaunch thesis established.",
+        "forward_milestone": "Product-specific NA availability and reconciled reporting scope.",
+        "pricing_cannibalization_dependency": "Customer migration to other group brands unknown; avoid recovery of discontinued volumes by default.",
+        "confidence": "Medium on classification; low on common mechanism.",
+        "next_falsifier": "Confirmed new offer or owner migration contradicts assumed permanent loss.",
+        "source_refs": [
+          "history",
+          "annual_latest",
+          "current_sales",
+          "exits",
+          "launches"
+        ]
+      },
+      "proposed_forecast": null,
+      "new_product_net_incremental_units": null,
+      "net_incremental_limitation": "No measured owner migration/cannibalization matrix. Family portfolio scenarios incorporate overlap qualitatively; gross launch sales are not independent additive company uplift."
+    },
+    {
+      "id": "fiat_alfa",
+      "family": "Fiat and Alfa Romeo",
+      "source_names": [
+        "FIAT BRAND",
+        "ALFA ROMEO"
+      ],
+      "annual_and_quarterly_sales_units": {
+        "2018A": 39321,
+        "2019A": 27492,
+        "2025A": 6973,
+        "2024Q4A": 2781,
+        "2025Q4A": 958,
+        "2025Q1A": 2474,
+        "2026Q1A": 1074,
+        "2025Q2A": 1606,
+        "2026Q2A": 910,
+        "2025Q3A": 1935,
+        "2026Q3A": 623,
+        "2025YTDQ3A": 6015,
+        "2026YTDQ3A": 2607,
+        "2023A": 11503,
+        "2024A": 10393,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "share_2025_us_pct": 0.5532616492005358,
+      "share_2026_ytd_us_pct": 0.27199798009938825,
+      "2023_to_2024_loss_units": 1110,
+      "share_net_us_decline_2024_pct": 0.4965998568360773,
+      "qualitative_evidence": {
+        "family": "Other / runoff",
+        "pre_disruption_trajectory": "Includes discontinued legacy products and continuing niche brands; historical losses are heterogeneous.",
+        "causal_hypotheses": [
+          "Intentional exits",
+          "Product gaps",
+          "Niche-brand value or distribution constraints"
+        ],
+        "strongest_support": "Official tables document runoff; management singled out some exits, not all products, as unprofitable.",
+        "counterevidence": "Missing current rows do not equal zero; surviving Fiat/Alfa models are not automatically runoff.",
+        "operational_change_status": "Separate discontinued residuals from continuing offers; no aggregate relaunch thesis established.",
+        "forward_milestone": "Product-specific NA availability and reconciled reporting scope.",
+        "pricing_cannibalization_dependency": "Customer migration to other group brands unknown; avoid recovery of discontinued volumes by default.",
+        "confidence": "Medium on classification; low on common mechanism.",
+        "next_falsifier": "Confirmed new offer or owner migration contradicts assumed permanent loss.",
+        "source_refs": [
+          "history",
+          "annual_latest",
+          "current_sales",
+          "exits",
+          "launches"
+        ]
+      },
+      "proposed_forecast": null,
+      "new_product_net_incremental_units": null,
+      "net_incremental_limitation": "No measured owner migration/cannibalization matrix. Family portfolio scenarios incorporate overlap qualitatively; gross launch sales are not independent additive company uplift."
+    }
+  ],
+  "reconciliation": {
+    "reported_totals": {
+      "2018A": 2235204,
+      "2019A": 2203663,
+      "2025A": 1260344,
+      "2024Q4A": 320743,
+      "2025Q4A": 332321,
+      "2025Q1A": 293225,
+      "2026Q1A": 305902,
+      "2025Q2A": 309973,
+      "2026Q2A": 328284,
+      "2025Q3A": 324825,
+      "2026Q3A": 324277,
+      "2025YTDQ3A": 928023,
+      "2026YTDQ3A": 958463,
+      "2023A": 1527090,
+      "2024A": 1303570,
+      "2022A_partial": null,
+      "2024Q1A": null,
+      "2024Q2A": null,
+      "2024Q3A": null
+    },
+    "coverage_residuals": {
+      "2018A": 0,
+      "2019A": 0,
+      "2025A": 3,
+      "2024Q4A": 0,
+      "2025Q4A": 0,
+      "2025Q1A": 360,
+      "2026Q1A": 46,
+      "2025Q2A": 152,
+      "2026Q2A": 6,
+      "2025Q3A": 475,
+      "2026Q3A": 46,
+      "2025YTDQ3A": 3317,
+      "2026YTDQ3A": 225,
+      "2023A": 4,
+      "2024A": -1,
+      "2022A_partial": null,
+      "2024Q1A": null,
+      "2024Q2A": null,
+      "2024Q3A": null
+    },
+    "ram_pickup_2024_loss_units": 71806,
+    "ram_pickup_share_2024_net_decline_pct": 32.12508947745169,
+    "2026_q2_published_h1_minus_original_q1_plus_q2": 159,
+    "2026_q3_ytd_minus_original_q1_q2_q3": 0,
+    "2026_q3_ytd_minus_published_h1_plus_q3": -159,
+    "2025_minivan_q3_comparative_pacifica_minus_old_pacifica_ytd": 11809,
+    "2025_voyager_ytd_from_fy_less_q4": 11809,
+    "2026_q1_minivan_combined": 25416,
+    "2026_q2_h1_minivan_less_q2": 25416,
+    "2026_q3_charger_combined_yoy_pct": 22.063702720637025,
+    "2026_ytd_charger_combined_yoy_pct": -1.6437437101643693,
+    "2026_q3_jeep_delta": -32022,
+    "2026_q3_cherokee_compass_gc_delta": -23588,
+    "2026_ytd_us_delta": 30440,
+    "2026_ytd_ram_ld_delta": 58883,
+    "2026_ytd_ex_ram_ld_delta": -28443,
+    "2026_ytd_ex_ram_ld_growth_pct": -3.6244248234171272
+  },
+  "qualitative_sources": {
+    "history": {
+      "file": "outputs/full-us-model-decomposition.json",
+      "locator": "rows and limitations",
+      "url": "https://www.prnewswire.com/news-releases/fca-us-reports-fourth-quarter-and-full-year-2024-sales-results-302342164.html",
+      "frozen_research_snapshot": "support/2023-2024-model-sales.json"
+    },
+    "annual_latest": {
+      "file": "stla-repository/research/volume-recovery-2026-10-14/sales-source-tables.json",
+      "locator": "fy_2019 and fy_2025",
+      "url": "https://www.prnewswire.com/news-releases/fca-us-fourth-quarter-total-sales-increase-4-year-over-year-reports-full-year-2025-us-sales-results-302652833.html"
+    },
+    "current_sales": {
+      "file": "stla-repository/research/volume-recovery-2026-10-14/sales-source-tables.json",
+      "locator": "q3_2026",
+      "url": "https://www.prnewswire.com/news-releases/stellantis-reports-q3-sales-302896446.html"
+    },
+    "peers": {
+      "file": "outputs/model-peer-comparison.json",
+      "locator": "rows, selected_baskets and interpretation",
+      "url": "https://www.prnewswire.com/news-releases/fca-reports-fourth-quarter-and-full-year-2023-sales-results-302025792.html",
+      "frozen_research_snapshot": "support/historical-peer-comparison.json"
+    },
+    "ram_split": {
+      "file": "outputs/ram-official-family-recovery.json",
+      "locator": "finding, limitations and mechanism_priorities",
+      "frozen_research_snapshot": "support/prior/ram-official-family-recovery.json"
+    },
+    "ram_transition": {
+      "file": "outputs/ram-family-split-audit.json",
+      "locator": "family_assessment; Canadian evidence must retain geography",
+      "frozen_research_snapshot": "support/prior/ram-family-split-audit.json"
+    },
+    "ram_demand": {
+      "file": "outputs/ram-recovery-bounded-check.json",
+      "locator": "result, observations and model_implication",
+      "frozen_research_snapshot": "support/prior/ram-recovery-bounded-check.json"
+    },
+    "offer": {
+      "file": "outputs/offer-product-rebound-audit.json",
+      "locator": "findings, including Ram trim availability and Gladiator pricing; underlying sources differ in quality",
+      "frozen_research_snapshot": "support/prior/offer-product-rebound-audit.json"
+    },
+    "gc_mix": {
+      "file": "outputs/grand-cherokee-mix-drivers-audit.json",
+      "locator": "hypothesis_updates and model_use; lender quotations and anecdotes are not national transaction observations",
+      "frozen_research_snapshot": "support/prior/grand-cherokee-mix-drivers-audit.json"
+    },
+    "gc_coverage": {
+      "file": "outputs/model-research-coverage-recap.json",
+      "locator": "grand_cherokee_status_correction",
+      "frozen_research_snapshot": "support/prior/model-research-coverage-recap.json"
+    },
+    "normalization": {
+      "file": "outputs/normalization-mechanism-gap-audit.json",
+      "locator": "novelty and model_use",
+      "frozen_research_snapshot": "support/prior/normalization-mechanism-gap-audit.json"
+    },
+    "cherokee_history": {
+      "file": "outputs/cherokee-supply-timeline.json",
+      "locator": "revised hypothesis, causal_link_test and bounded_closure_2026_10_09",
+      "frozen_research_snapshot": "support/prior/cherokee-supply-timeline.json"
+    },
+    "exits": {
+      "file": "outputs/discontinuation-powertrain-audit.json",
+      "locator": "units_observed, findings and limitations",
+      "frozen_research_snapshot": "support/prior/discontinuation-powertrain-audit.json"
+    },
+    "dodge": {
+      "file": "outputs/dodge-recovery-audit.json",
+      "locator": "dodge_pre_exit, derived and decision",
+      "frozen_research_snapshot": "support/prior/dodge-recovery-audit.json"
+    },
+    "management": {
+      "file": "outputs/management-driver-review-2026-10-14.json",
+      "locator": "debates M01, M05-M09; management claims distinguished from independent findings",
+      "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events-and-presentations/other-documents/Stellantis-Q2-2026-Financial-Results-Call-Transcript.pdf",
+      "frozen_research_snapshot": "support/prior/management-driver-review-2026-10-14.json"
+    },
+    "initiatives": {
+      "file": "outputs/future-initiatives-register.json",
+      "locator": "initiatives; future plans are not completed actions",
+      "frozen_research_snapshot": "support/prior/future-initiatives-register.json"
+    },
+    "launches": {
+      "file": "stla-repository/research/investor-day-2026-05-21/north-america-launch-register.md",
+      "locator": "model-specific rows; May plan vintage",
+      "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events/stellantis-investor-day-2026/presentation/Stellantis-Investor-Day-2026-FaSTLAne2030-North-America.pdf"
+    },
+    "launch_update": {
+      "file": "stla-repository/research/volume-recovery-2026-10-14/launch-check.json",
+      "locator": "launch_matrix and sources"
+    },
+    "dealer": {
+      "file": "stla-repository/research/volume-recovery-2026-10-14/dealer-demand-check.json",
+      "locator": "judgment, model_admission and limitations"
+    }
+  },
+  "forecast_totals": {
+    "2027": {
+      "downside": 1110000,
+      "base": 1408000,
+      "upside": 1615000
+    },
+    "2028": {
+      "downside": 1142000,
+      "base": 1491000,
+      "upside": 1760000
+    },
+    "2025_comparable_actual": 1231756,
+    "2026_comparable_flat_q4_reference": 1277570,
+    "2025_us_sales_coverage_pct": 97.73173038472036,
+    "2026_ytd_us_sales_coverage_pct": 99.55814674118876
+  }
+}

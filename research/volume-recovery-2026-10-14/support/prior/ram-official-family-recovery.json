@@ -1,0 +1,36 @@
+{
+  "as_of": "2026-10-13",
+  "decision": "User asks stop perfectionism/time-expensive reconciliation. ParkWA mismatchandexact2023allocation; pursuemodelmechanisms and recovery withqualifiedevidence.",
+  "primary_source": "https://s3.amazonaws.com/chryslermedia.iconicweb.com/mediasite/attachments/FCAUS_2025_FY_Salesht2l2lr0to4ifflqee1b89lie7.pdf",
+  "source_title": "FCA US LLC Sales Summary Q4 2025, CYTD columns; page1",
+  "rows": [
+    {
+      "category": "Ram LD PU",
+      "2024": 187013,
+      "2025": 204139,
+      "change": 17126,
+      "change_pct": 9.157652141829713
+    },
+    {
+      "category": "Ram HD PU",
+      "2024": 186107,
+      "2025": 169920,
+      "change": -16187,
+      "change_pct": -8.697684665273202
+    }
+  ],
+  "finding": "Officiallight-duty/heavy-dutysplit2024and2025nowverified. LDgain17126offsetbyHDloss16187;net939. Pooledflatpickupvolumeconcealsopposingfamilytrends.",
+  "limitations": [
+    "2023familycountsunrecovered,so2024loss71806stillnotexactlyallocated.",
+    "ReportdoesnotseparateClassicfromnew1500or2500from3500.",
+    "Totalcustomerretail+fleetsales,notconsumer-only;LD/HDdetailedcoverageincludingchassiscabsnotfullydefinedhere."
+  ],
+  "previous_candidate_status": "Official2024LD187013differsfromsecondaryJATO-attributed200006;donotsplice. PreferofficialLD/HDseriesfor2024/25recovery.",
+  "wa_extension": "work/wa-ram-family-history.json covers2019-25samefilters. Allfamiliesdeclined2022/23;1500fell2023to2024whileHDrebounded. Provisionaltitleproxywithunresolvedcoverage,notnationalcounts.",
+  "mechanism_priorities": [
+    "1500:availabilityandtrimpriceladderversusenginepreference;HEMIremovalnotsoleexplanationforpre2024aggregateweakness.",
+    "Classic:winddownandaffordableofferingreplacement,do notassumesalesdisappearone-for-onefrombrand.",
+    "HD:2025declineandrefreshavailability;cannotassumeunaffectedbasedonWA2024growth."
+  ],
+  "next_step": "Test1500recoveryagainsttrimavailability,transactionincentivesandretailgrowth;HD2025refreshseparately. No furtherWA reconciliationunlessconcretecheaplead."
+}

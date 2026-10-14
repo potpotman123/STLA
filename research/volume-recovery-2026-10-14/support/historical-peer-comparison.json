@@ -1,0 +1,432 @@
+{
+  "as_of": "2026-10-08",
+  "question": "When and where did selected Jeep/Ram nameplates underperform peers in2023/24, and what pricing evidence helps explain the gaps?",
+  "unit": "US calendar-year total vehicle sales including retail and fleet; not wholesale shipments",
+  "scope": "2022 baseline and2023/2024 comparisons, not a complete recovery assessment through2026",
+  "selection": "Candidate sets from prior user discussion. Compact screen narrowed to Toyota/Honda/Ford to contain scope; Kia/Hyundai not evaluated. No claim of statistically matched consumer cross-shopping cohorts.",
+  "rows": [
+    {
+      "group": "Pickups",
+      "model": "Ram pickups",
+      "units": {
+        "2022": 468344,
+        "2023": 444926,
+        "2024": 373120
+      },
+      "growth_2023_pct": -5.0001708146149015,
+      "growth_2024_pct": -16.138863541352944,
+      "sources": [
+        "stla23",
+        "stla24"
+      ],
+      "notes": "Light and heavy duty combined; not Ram1500 alone."
+    },
+    {
+      "group": "Pickups",
+      "model": "Ford F-Series",
+      "units": {
+        "2022": 653957,
+        "2023": 750789,
+        "2024": 765649
+      },
+      "growth_2023_pct": 14.807089762782578,
+      "growth_2024_pct": 1.979251161111839,
+      "sources": [
+        "ford23",
+        "ford24"
+      ],
+      "notes": "Includes Lightning; do not add it again. Pickup family including Super Duty."
+    },
+    {
+      "group": "Pickups",
+      "model": "Chevrolet Silverado LD plus HD",
+      "units": {
+        "2022": 513354,
+        "2023": 543319,
+        "2024": 542517
+      },
+      "growth_2023_pct": 5.837102662100624,
+      "growth_2024_pct": -0.14761125600245562,
+      "sources": [
+        "gm23",
+        "gm24"
+      ],
+      "notes": "Derived LD+HD; excludes medium duty and separately disclosed EV. All-powertrain sensitivity adds EV."
+    },
+    {
+      "group": "Pickups",
+      "model": "GMC Sierra LD plus HD",
+      "units": {
+        "2022": 241522,
+        "2023": 295737,
+        "2024": 322946
+      },
+      "growth_2023_pct": 22.447230480039092,
+      "growth_2024_pct": 9.200404413380813,
+      "sources": [
+        "gm23",
+        "gm24"
+      ],
+      "notes": "Derived LD+HD; excludes separately disclosed EV."
+    },
+    {
+      "group": "Pickups",
+      "model": "Toyota Tundra",
+      "units": {
+        "2022": 104246,
+        "2023": 125185,
+        "2024": 159528
+      },
+      "growth_2023_pct": 20.086142393952766,
+      "growth_2024_pct": 27.4337979789911,
+      "sources": [
+        "toyota23",
+        "toyota24"
+      ],
+      "notes": "Light-duty only; includes hybrid. Additional competitor, not perfectly matched pickup family."
+    },
+    {
+      "group": "Off-road SUVs",
+      "model": "Jeep Wrangler",
+      "units": {
+        "2022": 181409,
+        "2023": 156581,
+        "2024": 151163
+      },
+      "growth_2023_pct": -13.686200794888892,
+      "growth_2024_pct": -3.460189933644564,
+      "sources": [
+        "stla23",
+        "stla24"
+      ],
+      "notes": "Includes4xe; unlike Bronco powertrain mix."
+    },
+    {
+      "group": "Off-road SUVs",
+      "model": "Ford Bronco",
+      "units": {
+        "2022": 117057,
+        "2023": 105665,
+        "2024": 109172
+      },
+      "growth_2023_pct": -9.732010900672316,
+      "growth_2024_pct": 3.3189797946339805,
+      "sources": [
+        "ford23",
+        "ford24"
+      ],
+      "notes": "Excludes Bronco Sport.2023 strike affects availability."
+    },
+    {
+      "group": "Midsize SUV screen",
+      "model": "Jeep Grand Cherokee",
+      "units": {
+        "2022": 223345,
+        "2023": 244594,
+        "2024": 216148
+      },
+      "growth_2023_pct": 9.513980612953056,
+      "growth_2024_pct": -11.62988462513389,
+      "sources": [
+        "stla23",
+        "stla24"
+      ],
+      "notes": "Two and three rows combined; no body-style split."
+    },
+    {
+      "group": "Midsize SUV screen",
+      "model": "Ford Explorer",
+      "units": {
+        "2022": 207673,
+        "2023": 186799,
+        "2024": 194094
+      },
+      "growth_2023_pct": -10.051378850404246,
+      "growth_2024_pct": 3.90526715881776,
+      "sources": [
+        "ford23",
+        "ford24"
+      ],
+      "notes": "Three-row; not matched to entire Grand Cherokee series."
+    },
+    {
+      "group": "Midsize SUV screen",
+      "model": "Honda Pilot",
+      "units": {
+        "2022": 99567,
+        "2023": 110298,
+        "2024": 141245
+      },
+      "growth_2023_pct": 10.777667299406435,
+      "growth_2024_pct": 28.057625704908528,
+      "sources": [
+        "honda"
+      ],
+      "notes": "Three-row; 2022 supply-constrained baseline."
+    },
+    {
+      "group": "Midsize SUV screen",
+      "model": "Toyota Highlander",
+      "units": {
+        "2022": 222805,
+        "2023": 169543,
+        "2024": 89658
+      },
+      "growth_2023_pct": -23.905208590471496,
+      "growth_2024_pct": -47.117840311897275,
+      "sources": [
+        "toyota23",
+        "toyota24"
+      ],
+      "notes": "Read with Grand Highlander to avoid portfolio substitution error."
+    },
+    {
+      "group": "Midsize SUV screen",
+      "model": "Toyota Grand Highlander",
+      "units": {
+        "2022": 0,
+        "2023": 48036,
+        "2024": 71721
+      },
+      "growth_2023_pct": null,
+      "growth_2024_pct": 49.30676992255809,
+      "sources": [
+        "toyota23",
+        "toyota24"
+      ],
+      "notes": "New2023 model;2024 recall/stop-sale. Not a clean demand control."
+    },
+    {
+      "group": "Compact SUV screen",
+      "model": "Jeep Compass",
+      "units": {
+        "2022": 86175,
+        "2023": 96173,
+        "2024": 111697
+      },
+      "growth_2023_pct": 11.60197272991006,
+      "growth_2024_pct": 16.141744564482764,
+      "sources": [
+        "stla23",
+        "stla24"
+      ],
+      "notes": "Smaller/different configurations than some comparison vehicles; broad category screen."
+    },
+    {
+      "group": "Compact SUV screen",
+      "model": "Toyota RAV4",
+      "units": {
+        "2022": 399941,
+        "2023": 434943,
+        "2024": 475193
+      },
+      "growth_2023_pct": 8.75179088915614,
+      "growth_2024_pct": 9.254086167612762,
+      "sources": [
+        "toyota23",
+        "toyota24"
+      ],
+      "notes": "All powertrains; no hybrid double counting."
+    },
+    {
+      "group": "Compact SUV screen",
+      "model": "Honda CR-V",
+      "units": {
+        "2022": 238155,
+        "2023": 361457,
+        "2024": 402791
+      },
+      "growth_2023_pct": 51.77384476496398,
+      "growth_2024_pct": 11.435385121881714,
+      "sources": [
+        "honda"
+      ],
+      "notes": "Derived sums of nonhybrid and hybrid columns:190205+47950;164140+197317;199367+203424."
+    },
+    {
+      "group": "Compact SUV screen",
+      "model": "Ford Escape",
+      "units": {
+        "2022": 137370,
+        "2023": 140968,
+        "2024": 146859
+      },
+      "growth_2023_pct": 2.6192036106864602,
+      "growth_2024_pct": 4.1789626014414605,
+      "sources": [
+        "ford23",
+        "ford24"
+      ],
+      "notes": "All powertrains."
+    }
+  ],
+  "selected_baskets": [
+    {
+      "target": "Ram pickups",
+      "peers": [
+        "Ford F-Series",
+        "Chevrolet Silverado LD plus HD",
+        "GMC Sierra LD plus HD",
+        "Toyota Tundra"
+      ],
+      "peer_units": {
+        "2022": 1513079,
+        "2023": 1715030,
+        "2024": 1790640
+      },
+      "peer_growth_2023_pct": 13.347022858687474,
+      "peer_growth_2024_pct": 4.408669236106655,
+      "target_share_selected_basket_pct": {
+        "2022": 23.636749951928486,
+        "2023": 20.598845532038617,
+        "2024": 17.24405664214146
+      }
+    },
+    {
+      "target": "Jeep Wrangler",
+      "peers": [
+        "Ford Bronco"
+      ],
+      "peer_units": {
+        "2022": 117057,
+        "2023": 105665,
+        "2024": 109172
+      },
+      "peer_growth_2023_pct": -9.732010900672316,
+      "peer_growth_2024_pct": 3.3189797946339805,
+      "target_share_selected_basket_pct": {
+        "2022": 60.78045740553363,
+        "2023": 59.70767904944213,
+        "2024": 58.064801121631746
+      }
+    },
+    {
+      "target": "Jeep Grand Cherokee",
+      "peers": [
+        "Ford Explorer",
+        "Honda Pilot",
+        "Toyota Highlander",
+        "Toyota Grand Highlander"
+      ],
+      "peer_units": {
+        "2022": 530045,
+        "2023": 514676,
+        "2024": 496718
+      },
+      "peer_growth_2023_pct": -2.899565131262438,
+      "peer_growth_2024_pct": -3.489185429279784,
+      "target_share_selected_basket_pct": {
+        "2022": 29.645336412747714,
+        "2023": 32.214363796804825,
+        "2024": 30.320985991757215
+      }
+    },
+    {
+      "target": "Jeep Compass",
+      "peers": [
+        "Toyota RAV4",
+        "Honda CR-V",
+        "Ford Escape"
+      ],
+      "peer_units": {
+        "2022": 775466,
+        "2023": 937368,
+        "2024": 1024843
+      },
+      "peer_growth_2023_pct": 20.87802688963798,
+      "peer_growth_2024_pct": 9.331980609536483,
+      "target_share_selected_basket_pct": {
+        "2022": 10.001265028010506,
+        "2023": 9.305194472207683,
+        "2024": 9.82781072377567
+      }
+    }
+  ],
+  "sources": {
+    "stla23": "https://www.prnewswire.com/news-releases/fca-reports-fourth-quarter-and-full-year-2023-sales-results-302025792.html",
+    "stla24": "https://www.prnewswire.com/news-releases/fca-us-reports-fourth-quarter-and-full-year-2024-sales-results-302342164.html",
+    "ford23": "https://s205.q4cdn.com/882619693/files/doc_news/2024/Jan/04/q4-2023-sales-final.pdf",
+    "ford24": "https://evrider.tv/wp-content/uploads/2025/01/Ford-U-S-Q4-2024-Sales-Release.pdf",
+    "gm23": "https://investor.gm.com/static-files/be64d2c4-adee-41e8-9c97-fa478654e9e7",
+    "gm24": "https://investor.gm.com/static-files/e1bb38a4-aaf9-4141-b44a-4c61c1f2ec54",
+    "toyota23": "https://www.prnewswire.com/news-releases/toyota-motor-north-america-reports-2023-us-sales-results-302025453.html",
+    "toyota24": "https://www.prnewswire.com/news-releases/toyota-motor-north-america-reports-2024-us-sales-results-302341917.html",
+    "honda": "https://www.honda.com/-/media/Honda-Homepage/PDF/DFB_2025_FINAL_CONSUMER.pdf",
+    "cox_stla": "https://www.coxautoinc.com/insights/cox-automotive-analysis-stellantis-q4-2023-market-performance/",
+    "cox_ford": "https://www.coxautoinc.com/insights/cox-automotive-analysis-ford-motor-companys-q4-2023-u-s-market-performance/",
+    "cox_aug24": "https://www.coxautoinc.com/insights/august-2024-atp-report/",
+    "pricing_jan25": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events-and-presentations/other-documents/Stellantis-Q4-2024-Shipments-Pre-Close-Call-Transcript-20250116.pdf",
+    "gh_recall": "https://static.nhtsa.gov/odi/rcl/2024/RCMN-24V461-2034.pdf"
+  },
+  "source_notes": {
+    "ford24": "Original Ford press release mirrored at EVrider; primary CDN returned403. FordAuthority excludes Lightning in one F-Series row; use original release inclusive definition.",
+    "gm": "Harmonized LD+HD instead of changing TOTAL Silverado definitions across releases. Sensitivity EV volumes:Silverado2023=461,2024=7428;Sierra2024=1788;not added twice.",
+    "honda": "2025 Digital FactBook section3.3 PDFpage9. Hybrid separate columns summed, not treated as inclusive totals.",
+    "cox": "Stellantis Q42023 prose and slide disagree on exact Ram-brand incentive value6129 vs6192. Exact value excluded; broad increase corroborated."
+  },
+  "pricing_evidence": [
+    {
+      "period": "Q42023 vsQ42022",
+      "observation": "Ram pickup ATP69369 USD, +8%; Ford F-Series67010 USD,+1%. Same-quarter Ram pickup units112486 vs105255(+6.9%), Ford177419 vs186650(-4.9%). Annual Ram-5% versus Ford+14.8% must not be described as the same-period price-volume tradeoff.",
+      "status": "Observed third-party estimates; composition and incentives prevent causal price interpretation.",
+      "sources": [
+        "cox_stla",
+        "cox_ford",
+        "stla23",
+        "ford23"
+      ]
+    },
+    {
+      "period": "August2024",
+      "observation": "Jeep/Ram incentives moved above industry average; general market incentive growth.",
+      "status": "Brand-level only; not matched model/trim effective-payment series.",
+      "sources": [
+        "cox_aug24"
+      ]
+    },
+    {
+      "period": "End2024 management statement Jan16 2025",
+      "observation": "NA customer-facing transaction prices at least1500 USD below3-year average after entering2024 at least2000 above.",
+      "status": "Management assertion at regional level; benchmark and mix not controlled. Not an exact3500 same-vehicle price cut.",
+      "sources": [
+        "pricing_jan25"
+      ]
+    }
+  ],
+  "retail_crosscheck": {
+    "period": "Q42024 vsQ42023",
+    "Grand_Cherokee_total_pct": -10.553602384848437,
+    "Grand_Cherokee_retail_reported_pct": 17,
+    "source": "stla24",
+    "implication": "Same-model retail and total growth can diverge materially. Total-sales screening remains provisional."
+  },
+  "interpretation": [
+    "Ram strongest persistent relative underperformance within selected set.",
+    "Wrangler underperforms Bronco but both down2023; broad category/availability matters.",
+    "Grand Cherokee gained2023 then reversed2024; peers mixed and Toyota not clean control.",
+    "Compass grewbothyears; cannot generalize all Stellantis models were shrinking."
+  ],
+  "model_status": "Historical sales/growth and basket shares usable descriptively. No causal weights, elasticity, normalized retail estimates or forecast revisions.",
+  "next_step": "Prioritize Ram: isolate1500 vsHD if readily available, align quarterly effective prices/incentives and sales with2025MY product transition and inventory composition. Keep matched-model price-volume claim unresolved.",
+  "coverage_audit": {
+    "basis": "2024 US total vehicle unit sales, not revenue/profit or retail-only",
+    "selected_us_units": 852128,
+    "total_us_units": 1303570,
+    "per_model_us_share_pct": {
+      "Ram pickups": 28.622935477189564,
+      "Jeep Wrangler": 11.596078461455848,
+      "Jeep Grand Cherokee": 16.581234609572174,
+      "Jeep Compass": 8.568546376489179
+    },
+    "north_america_total_units_rounded": 1527000,
+    "scope_note": "US units studied divided by whole NA sales is a geographic coverage measure, not these models full NA share. Canadian/Mexican sales of selected models have not been added. Maserati excluded from NA segment denominator.",
+    "selected_2023_us_units": 942274,
+    "total_2023_us_units": 1527090,
+    "annual_report_source": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/financial-reports/Stellantis-NV-20241231-Annual-Report.pdf",
+    "us_share_pct": 65.36879492470676,
+    "us_observations_as_pct_na_sales": 55.804060248853965,
+    "selected_net_decline": 90146,
+    "us_total_decline": 223520,
+    "share_of_us_net_decline_pct": 40.330171796707226
+  }
+}

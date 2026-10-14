@@ -1,0 +1,317 @@
+{
+  "as_of": "2026-10-13",
+  "question": "Did HEMI removal cause the 2024 Ram 1500 weakness, and does the 2025 LD rebound / HD decline represent a change in consumer demand?",
+  "scope": "Bounded continuation using saved evidence, official quarterly releases, a direct management interview, a dealer forum offer, a contemporary incentive guide and a supplier SEC-filed transcript. No bulk scraping, paid data, outreach or new registration reconciliation.",
+  "method": "Extract US quarterly reported LD/HD total sales and separately stated retail growth; compute same-quarter changes; reconcile quarterly sums to official full-year figures. Align these observations with dated production, engine and incentive events. Temporal ordering tests competing explanations but does not identify causal weights.",
+  "sources": {
+    "q1": {
+      "url": "https://www.nasdaq.com/press-release/fca-us-reports-first-quarter-2025-us-sales-results-2025-04-01",
+      "date": "2025-04-01",
+      "type": "OEM sales release syndicated by Nasdaq",
+      "locator": "Ram retail bullets and LD PU / HD PU table rows"
+    },
+    "q2": {
+      "url": "https://www.prnewswire.com/news-releases/fca-us-reports-second-quarter-2025-us-sales-results-302496258.html",
+      "date": "2025-07-01",
+      "type": "OEM sales release",
+      "locator": "Ram highlights and quarterly / CYTD table"
+    },
+    "q3": {
+      "url": "https://www.prnewswire.com/news-releases/fca-us-total-sales-rise-6-year-over-year-in-us-third-quarter-report-302573083.html",
+      "date": "2025-10-01",
+      "type": "OEM sales release",
+      "locator": "Ram highlights and quarterly / CYTD table"
+    },
+    "q4": {
+      "url": "https://www.prnewswire.com/news-releases/fca-us-fourth-quarter-total-sales-increase-4-year-over-year-reports-full-year-2025-us-sales-results-302652833.html",
+      "date": "2026-01-05",
+      "type": "OEM sales release",
+      "locator": "Ram highlights and quarterly / CYTD table; original attachment also in ram-official-family-recovery.json"
+    },
+    "launch": {
+      "url": "https://www.wardsauto.com/news/fixing-ram-brand-starts-at-the-top/799058/",
+      "date": "2025-01-14",
+      "type": "Direct interview with Ram CEO, reported by WardsAuto",
+      "locator": "Kuniskis comments on simultaneous changes, production ramp and trim mix"
+    },
+    "hemi_timing": {
+      "url": "https://www.stellantis.com/content/dam/stellantis-corporate/news/press-releases/2025/july/29-07-25/fr/FR-20250729-Stellantis-H12025-Results.pdf",
+      "date": "2025-07-29",
+      "type": "OEM H1 results release, bilingual",
+      "locator": "PDF page 5 English product update: first returning HEMI trucks to dealers H2 2025"
+    },
+    "dealer_offer": {
+      "url": "https://www.ramforum.com/threads/2024-1500s-in-stock-update-mark-dodge.207122/",
+      "date": "2024-02-14",
+      "type": "Self-identified Mark Dodge dealer vendor advertisement on owner forum",
+      "locator": "Opening post, Laramie / Limited rebates and regional Big Horn financing"
+    },
+    "january_offers": {
+      "url": "https://www.jdpower.com/cars/shopping-guides/best-popular-truck-deals-in-january-2025",
+      "date": "2025-01",
+      "type": "Contemporary secondary compilation of advertised offers",
+      "locator": "2024 Classic, 2024 1500 and 2025 1500; offers expire February 3, 2025"
+    },
+    "hd_supplier": {
+      "url": "https://barchart.websol.barchart.com/?accession_num=0001104659-25-044225&cik=1062231&lang=en&module=secFilings&override=1&symbol=AXL&type=CONVPDF",
+      "date": "2025-05-02",
+      "type": "American Axle earnings transcript filed as SEC DEFA14A; Barchart mirror",
+      "locator": "PDF page 8, Chris May response to Justin: low Ram HD production during next-generation transition"
+    },
+    "july_management": {
+      "local_file": "../work/archive-selected/Stellantis N.V._Earnings Call_2024-07-25_English.pdf",
+      "date": "2024-07-25",
+      "type": "User-provided transcript, background only for public-source assignment",
+      "locator": "Pages 7-8"
+    },
+    "classic": {
+      "url": "https://www.kbb.com/car-news/ram-1500-classic-production-to-end-in-september/",
+      "date": "2024-08-06",
+      "type": "Previously reviewed contemporary report citing company",
+      "locator": "Planned September production end and inventory sales into 2025"
+    }
+  },
+  "quarterly_total_sales": [
+    {
+      "period": "Q1",
+      "source": "q1",
+      "LD": {
+        "2024_units": 53031,
+        "2025_units": 47067,
+        "change_units": -5964,
+        "change_pct": -11.246
+      },
+      "HD": {
+        "2024_units": 36386,
+        "2025_units": 31781,
+        "change_units": -4605,
+        "change_pct": -12.656
+      }
+    },
+    {
+      "period": "Q2",
+      "source": "q2",
+      "LD": {
+        "2024_units": 44405,
+        "2025_units": 51848,
+        "change_units": 7443,
+        "change_pct": 16.762
+      },
+      "HD": {
+        "2024_units": 45704,
+        "2025_units": 43624,
+        "change_units": -2080,
+        "change_pct": -4.551
+      }
+    },
+    {
+      "period": "Q3",
+      "source": "q3",
+      "LD": {
+        "2024_units": 40265,
+        "2025_units": 44349,
+        "change_units": 4084,
+        "change_pct": 10.143
+      },
+      "HD": {
+        "2024_units": 48875,
+        "2025_units": 43717,
+        "change_units": -5158,
+        "change_pct": -10.553
+      }
+    },
+    {
+      "period": "Q4",
+      "source": "q4",
+      "LD": {
+        "2024_units": 49312,
+        "2025_units": 60875,
+        "change_units": 11563,
+        "change_pct": 23.449
+      },
+      "HD": {
+        "2024_units": 55142,
+        "2025_units": 50798,
+        "change_units": -4344,
+        "change_pct": -7.878
+      }
+    }
+  ],
+  "population": "US reported sales, retail plus fleet. Not North American wholesale shipments or revenue. LD is the reported family, not an isolated new-generation 1500 series; Classic is not separately disclosed. HD table coverage versus separately discussed chassis cab is not fully specified.",
+  "retail_disclosures": [
+    {
+      "period": "Q1 2025",
+      "family": "1500",
+      "yoy_pct": 14,
+      "source": "q1"
+    },
+    {
+      "period": "Q1 2025",
+      "family": "HD 2500/3500",
+      "yoy_pct": 18,
+      "source": "q1"
+    },
+    {
+      "period": "Q2 2025",
+      "family": "1500",
+      "yoy_pct": 68,
+      "source": "q2"
+    },
+    {
+      "period": "Q2 2025",
+      "family": "2500 only",
+      "yoy_pct": 1,
+      "source": "q2"
+    },
+    {
+      "period": "Q3 2025",
+      "family": "Ram brand, includes vans",
+      "yoy_pct": 26,
+      "source": "q3"
+    },
+    {
+      "period": "FY 2025",
+      "family": "Ram brand, includes vans",
+      "yoy_pct": 17,
+      "source": "q4"
+    }
+  ],
+  "excluded_disclosure": {
+    "source": "q4",
+    "values": "LD retail +27%, HD +7%, chassis cab +11%, ProMaster +9%",
+    "reason": "Bullet does not explicitly identify month, quarter or year amid mixed-period release. Do not promote to annual family retail growth without clarification."
+  },
+  "timeline": [
+    {
+      "period": "2022-2023",
+      "observed": "Total Ram pickup sales fell from 468,344 to 444,926 before the new-generation engine switch.",
+      "source": "ram-affordability-audit.json",
+      "inference": "The HEMI change cannot explain the entire earlier decline; families and channels not separated."
+    },
+    {
+      "period": "February 2024",
+      "observed": "Dealer offered 10% OEM retail rebates on outgoing Laramie and higher trims plus dealer discounts. Some Big Horn regional offers included 0% for 72 months instead of cash rebates.",
+      "source": "dealer_offer",
+      "limitation": "Single dealer advertisement, not executed prices or a national incentive average; clearance is an alternative explanation."
+    },
+    {
+      "period": "July 2024",
+      "observed": "Management described delayed high-output and upper-trim 1500 availability, wrong inventory mix and customers dropping out on high advertised sticker prices.",
+      "source": "july_management",
+      "limitation": "Management account; use public interview for submission support."
+    },
+    {
+      "period": "Late 2024 / early 2025",
+      "observed": "Classic wind-down did not remove all dealer stock immediately; January offers still covered 2024 Classic and 1500.",
+      "source": [
+        "classic",
+        "january_offers"
+      ],
+      "limitation": "No exact US Classic sales or substitution rate."
+    },
+    {
+      "period": "January 2025",
+      "observed": "Kuniskis attributed the failed 1500 launch to simultaneous vehicle, electrical and powertrain changes; said production rate and trim mix remained inadequate, citing two weeks of Tungsten supply and 40 days of Rebel.",
+      "source": "launch",
+      "limitation": "Firsthand management explanation, not independent measurement of lost sales. Other claims in article, including van volume, not used."
+    },
+    {
+      "period": "Q1-Q2 2025",
+      "observed": "1500 retail grew 14% and 68%; company connected early retail momentum to pricing and incentive actions introduced in late 2024. Returning HEMI production reached dealers only in H2.",
+      "source": [
+        "q1",
+        "q2",
+        "hemi_timing"
+      ],
+      "limitation": "Pre-return recovery can include outgoing HEMI stock and weak prior-year comparisons. No engine/model-year retail split."
+    },
+    {
+      "period": "Q1-May 2025",
+      "observed": "HD refresh reached stores in Q1. American Axle confirmed low HD production through the transition and an ongoing ramp.",
+      "source": [
+        "q1",
+        "hd_supplier"
+      ],
+      "limitation": "Supplier corroborates production, not household demand or fleet allocation."
+    },
+    {
+      "period": "Q3 2025",
+      "observed": "Company reported initial returning HEMI units sold in five days on average and orders exceeded production.",
+      "source": "q3",
+      "limitation": "Selected launch units / backlog, unspecified sample and engine volumes. Does not estimate incremental brand demand."
+    }
+  ],
+  "offer_detail": {
+    "source": "january_offers",
+    "2024_Classic_and_1500": "Cash offers up to 15% below MSRP; financing as low as 0.9% for 72 months.",
+    "2025_1500": "Up to $4,000 cash; up to $2,000 Ford-owner conquest cash; financing as low as 4.9% for 72 months.",
+    "limitations": "Regional/eligibility conditions; do not assume all offers stack. These are advertised maxima/minima, not realized national transaction prices."
+  },
+  "mechanism_assessment": [
+    {
+      "mechanism": "1500 production and trim availability disruption",
+      "evidence_strength": "Strong evidence the disruption occurred; unquantified sales effect.",
+      "interpretation": "A model refresh can reduce sales through missing configurations even when other configurations are overstocked.",
+      "reversal": "Retail recovery is consistent with improvement, but no continuous trim-availability panel verifies completion."
+    },
+    {
+      "mechanism": "Affordability and incentive support",
+      "evidence_strength": "Moderate: dated offers plus management attribution.",
+      "interpretation": "Recovery may be a response to lower effective prices rather than renewed ability to sell at old margins.",
+      "reversal": "Purchase terms improved; sustainable incentive-independent demand not established."
+    },
+    {
+      "mechanism": "HEMI preference mismatch",
+      "evidence_strength": "Plausible, with company acknowledgment and selected launch sell-through; incremental effect unknown.",
+      "interpretation": "Cannot explain all pre-2024 weakness or initiate the pre-H2-2025 rebound. That rebound also does not prove Hurricane acceptance because old HEMI stock was still available.",
+      "reversal": "Engine option restored in H2 2025; net added sales versus substitution unresolved."
+    },
+    {
+      "mechanism": "Classic loss of an alternative offering",
+      "evidence_strength": "Wind-down documented, consumer substitution unknown.",
+      "interpretation": "Separate from the refreshed 1500 engine story; does not imply every Classic sale permanently leaves Ram.",
+      "reversal": "Not assessed quantitatively; no national Classic split."
+    },
+    {
+      "mechanism": "HD 2025 changeover and sales-channel mix",
+      "evidence_strength": "Production disruption corroborated; early retail/total divergence observed.",
+      "interpretation": "Q1 HD reported total fell 12.656% while 2500/3500 retail rose 18%. Fleet and/or category coverage must matter; do not treat total decline as household demand decline.",
+      "reversal": "Total HD remained lower in Q3 and Q4, so an isolated Q1 interruption is not a full-year explanation."
+    }
+  ],
+  "checks": {
+    "quarter_sum_to_fy": "Passed for both LD and HD, 2024 and 2025.",
+    "family_sum_to_pickups": "2024 373120; 2025 374059; net +939.",
+    "independent_validation": "American Axle supplies independent participant corroboration of HD production transition, not independent validation of retail percentages.",
+    "channel_residual": "No exact fleet decline calculated: retail base units and matching family definitions absent."
+  },
+  "model_consequences": {
+    "admit": [
+      "Observed LD/HD quarterly and annual US total sales as descriptive volume history.",
+      "Reported period-specific retail growth with its stated coverage.",
+      "Separate recovery volume assumptions from incentive / net-price / margin assumptions."
+    ],
+    "do_not_admit": [
+      "Numerical lost-sales weights by HEMI, price, launch or Classic.",
+      "Claim that HD household demand declined throughout 2025.",
+      "Claim that H1 recovery proves new-engine acceptance.",
+      "US sales counts as North American wholesale revenue."
+    ]
+  },
+  "next_step": "For the forward recovery test, compare 2026 family retail growth against dealer stock and dated incentive intensity using a few contemporaneous observations. Keep engine-level effects unallocated unless a clean public split appears; do not reopen Washington or 2023 allocation.",
+  "chip_vs_launch_clarification": {
+    "recorded_date": "2026-10-13",
+    "user_question": "Do Cherokee chip shortages coincide with Tungsten/Rebel shortages, and are such disruptions normal?",
+    "finding": "Separate the 2021-2022 industry chip shock, including documented 2021 Cherokee shutdowns, from the 2024 refreshed Ram 1500 launch whose trim shortages persisted in January 2025. Evidence does not establish a common semiconductor cause.",
+    "sources": [
+      "https://www.federalreserve.gov/econres/notes/feds-notes/when-the-chips-went-down-motor-vehicle-production-and-the-2021-2022-semiconductor-shortages-20260928.html",
+      "https://www.assemblymag.com/articles/96660-jeep-assembly-plant-in-illinois-to-be-down-through-rest-of-october",
+      "https://www.commerce.gov/news/blog/2022/01/secretary-raimondo-announces-results-request-information-semiconductor-supply",
+      "https://www.wardsauto.com/news/fixing-ram-brand-starts-at-the-top/799058/"
+    ],
+    "mechanisms": "Pandemic closures and changed chip demand met constrained supply. Ram management instead described too many simultaneous engineering changes, missed production rates and wrong trim mix. Exact defective or missing components have not been independently identified.",
+    "normality": "Planned retooling and gradual production ramp are ordinary lifecycle processes; sustained failure to meet the planned ramp is an execution shortfall. No peer-adjusted estimate of normal launch disruption is established.",
+    "causal_boundary": "Low days supply alone does not demonstrate a supply failure; stronger demand can reduce that ratio. Use production evidence, not inventory ratios alone. Neither the global shock nor Ram launch account proves cost cutting caused the issue.",
+    "model_implication": "Treat external supply normalization and company execution improvements separately; do not assume constrained sales were all deferred household purchases."
+  }
+}

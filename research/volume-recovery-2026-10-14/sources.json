@@ -1,0 +1,287 @@
+{
+  "as_of": "2026-10-14",
+  "sources": [
+    {
+      "id": "q3_2026",
+      "url": "https://www.prnewswire.com/news-releases/stellantis-reports-q3-sales-302896446.html",
+      "publication_date": "2026-10-01",
+      "retrieved": "2026-10-14",
+      "locator": "company sales table; current/prior quarter and CYTD columns",
+      "geography": "US",
+      "population": "reported customer retail plus fleet; excludes Maserati",
+      "units": "vehicles",
+      "classification": "observed",
+      "frozen_file": "sales-source-tables.json",
+      "period": "q3_2026",
+      "status": "new retrieval / historical reconciliation"
+    },
+    {
+      "id": "q2_2026",
+      "url": "https://www.prnewswire.com/news-releases/stellantis-reports-us-sales-gains-in-first-half-2026-302816096.html",
+      "publication_date": "2026-07-01",
+      "retrieved": "2026-10-14",
+      "locator": "company sales table; current/prior quarter and CYTD columns",
+      "geography": "US",
+      "population": "reported customer retail plus fleet; excludes Maserati",
+      "units": "vehicles",
+      "classification": "observed",
+      "frozen_file": "sales-source-tables.json",
+      "period": "q2_2026",
+      "status": "new retrieval / historical reconciliation"
+    },
+    {
+      "id": "q1_2026",
+      "url": "https://www.prnewswire.com/news-releases/fca-us-first-quarter-sales-increase-4-year-over-year-302731747.html",
+      "publication_date": "2026-04-01",
+      "retrieved": "2026-10-14",
+      "locator": "company sales table; current/prior quarter and CYTD columns",
+      "geography": "US",
+      "population": "reported customer retail plus fleet; excludes Maserati",
+      "units": "vehicles",
+      "classification": "observed",
+      "frozen_file": "sales-source-tables.json",
+      "period": "q1_2026",
+      "status": "new retrieval / historical reconciliation"
+    },
+    {
+      "id": "fy_2019",
+      "url": "https://www.prnewswire.com/news-releases/fca-us-reports-fourth-quarter-and-full-year-2019-sales-300980866.html",
+      "publication_date": "2020-01-03",
+      "retrieved": "2026-10-14",
+      "locator": "company sales table; current/prior quarter and CYTD columns",
+      "geography": "US",
+      "population": "reported customer retail plus fleet; excludes Maserati",
+      "units": "vehicles",
+      "classification": "observed",
+      "frozen_file": "sales-source-tables.json",
+      "period": "fy_2019",
+      "status": "new retrieval / historical reconciliation"
+    },
+    {
+      "id": "fy_2025",
+      "url": "https://www.prnewswire.com/news-releases/fca-us-fourth-quarter-total-sales-increase-4-year-over-year-reports-full-year-2025-us-sales-results-302652833.html",
+      "publication_date": "2026-01-05",
+      "retrieved": "2026-10-14",
+      "locator": "company sales table; current/prior quarter and CYTD columns",
+      "geography": "US",
+      "population": "reported customer retail plus fleet; excludes Maserati",
+      "units": "vehicles",
+      "classification": "observed",
+      "frozen_file": "sales-source-tables.json",
+      "period": "fy_2025",
+      "status": "new retrieval / historical reconciliation"
+    },
+    {
+      "id": "AR25",
+      "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/financial-reports/Stellantis-NV-20251231-Annual-Report.pdf",
+      "publication_date": null,
+      "publication_note": "FY2025 report; exact filing date not rechecked in this pass",
+      "locator": "printed p17 North America Sales and Competition; p39 shipments and inventories",
+      "observation_period": "FY2023/FY2024/FY2025",
+      "geography": "US/Canada/Mexico and NA",
+      "units": "thousands of customer sales; percentages of market",
+      "classification": "observed company disclosures; market shares are company estimates",
+      "access": "reused local text cache /tmp/stla-ar-pages.json, p17 index16",
+      "country_observations": {
+        "Canada": {
+          "2023": 158,
+          "2024": 130,
+          "2025": 115
+        },
+        "Mexico": {
+          "2023": 97,
+          "2024": 94,
+          "2025": 91
+        }
+      },
+      "scope_note": "excludes Maserati; financial regional reporting adds Maserati from 2026, so maintain scope reconciliation"
+    },
+    {
+      "id": "Q326_SHIP",
+      "url": "https://www.stellantis.com/en/news/press-releases/2026/october/stellantis-reports-q3-2026-estimated-consolidated-shipments-of-1-3-million-units-down-1-percent-year-over-year",
+      "publication_date": "2026-10-13",
+      "locator": "North America paragraph and shipments table",
+      "observation_period": "Q3 2026 vs Q3 2025",
+      "geography": "North America",
+      "units": "thousand wholesale shipments",
+      "classification": "observed preliminary company disclosure; causal explanation is management attribution",
+      "observations": {
+        "NA_2026": 357,
+        "NA_2025": 404,
+        "GC_change_about": -25,
+        "Compass_change_about": -25,
+        "Ram_change_about": 17
+      },
+      "status": "new source check"
+    },
+    {
+      "id": "Q226_CALL",
+      "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events-and-presentations/other-documents/Stellantis-Q2-2026-Financial-Results-Call-Transcript.pdf",
+      "publication_date": "2026-07-30",
+      "locator": "pp12–14 Cherokee economics/trim plans and US dealer stock",
+      "geography": "NA/US as stated",
+      "classification": "observed management testimony; plans are not completed actions",
+      "status": "reused and selectively rechecked",
+      "frozen_research": "support/prior/management-driver-review-2026-10-14.json"
+    },
+    {
+      "id": "FORD_Q326",
+      "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000184/exhibit99q32026salesrele.htm",
+      "publication_date": "2026-10-01",
+      "locator": "Q3 sales release and highlights",
+      "geography": "US",
+      "classification": "observed issuer sales; issuer industry estimates separate",
+      "observations": {
+        "q3_total": 509764,
+        "q3_yoy_pct": -6.6,
+        "ytd_Explorer": 189210,
+        "ytd_Explorer_yoy_pct": 17.6,
+        "q3_Bronco": 38020
+      },
+      "use": "context: peer phaseouts and product cycles prevent a blanket healthy-peers claim; no 2026 matched-basket share calculated",
+      "limitation": "Full current segment denominator not assembled; historical peer panel is used for the audited comparison"
+    },
+    {
+      "id": "COX_AUG26",
+      "url": "https://www.coxautoinc.com/insights/august-2026-new-vehicle-inventory/",
+      "publication_date": "2026-09-10",
+      "locator": "article and primary brand days-supply chart",
+      "observation_period": "August 2026",
+      "geography": "US",
+      "classification": "proxy stock-to-sales measure; Jeep lower bound derived",
+      "details_file": "dealer-demand-check.json"
+    },
+    {
+      "id": "ASBURY_Q226",
+      "url": "https://www.sec.gov/Archives/edgar/data/1144980/000114498026000089/a2026q2ex991.htm",
+      "publication_date": "2026-07-28",
+      "locator": "new-vehicle brand mix and inventory tables",
+      "observation_period": "Q2 2026 vs Q2 2025",
+      "geography": "US consolidated dealer portfolio",
+      "classification": "observed revenue share, excluded from same-store demand calibration",
+      "details_file": "dealer-demand-check.json"
+    }
+  ],
+  "additional_source_registers": [
+    "launch-check.json",
+    "dealer-demand-check.json",
+    "model-mechanisms.json",
+    "support/historical-peer-comparison.json"
+  ],
+  "prior_research_snapshots": [
+    {
+      "source_key": "history",
+      "original_workspace_file": "outputs/full-us-model-decomposition.json",
+      "frozen_file": "support/2023-2024-model-sales.json",
+      "sha256": "2a962fc05fbd1d0d38ef089d9926ac11f9d7a0d1850dc6882deed42fe40a9795",
+      "status": "reused authored research; original sources and limitations remain in the snapshot; not a new independent observation"
+    },
+    {
+      "source_key": "peers",
+      "original_workspace_file": "outputs/model-peer-comparison.json",
+      "frozen_file": "support/historical-peer-comparison.json",
+      "sha256": "bb7074a47e20c5578aaac81b73aa366bffc393a778ffc79ee7413a827b39d97f",
+      "status": "reused authored research; original sources and limitations remain in the snapshot; not a new independent observation"
+    },
+    {
+      "source_key": "ram_split",
+      "original_workspace_file": "outputs/ram-official-family-recovery.json",
+      "frozen_file": "support/prior/ram-official-family-recovery.json",
+      "sha256": "ba87b15e2f1213b704b53accc4a764fce718625b28364ee378475f35ddd2a3fc",
+      "status": "reused authored research; original sources and limitations remain in the snapshot; not a new independent observation"
+    },
+    {
+      "source_key": "ram_transition",
+      "original_workspace_file": "outputs/ram-family-split-audit.json",
+      "frozen_file": "support/prior/ram-family-split-audit.json",
+      "sha256": "8b1100bc083286d77933edded68abaa974b114a28c22b43dd7e890d446c2a178",
+      "status": "reused authored research; original sources and limitations remain in the snapshot; not a new independent observation"
+    },
+    {
+      "source_key": "ram_demand",
+      "original_workspace_file": "outputs/ram-recovery-bounded-check.json",
+      "frozen_file": "support/prior/ram-recovery-bounded-check.json",
+      "sha256": "62541f23dfcb3f45b1dc48d166995b13aa9c49a378a52529481c4e4f7b900466",
+      "status": "reused authored research; original sources and limitations remain in the snapshot; not a new independent observation"
+    },
+    {
+      "source_key": "offer",
+      "original_workspace_file": "outputs/offer-product-rebound-audit.json",
+      "frozen_file": "support/prior/offer-product-rebound-audit.json",
+      "sha256": "d8d495ac514a3eb12c8d5f6303f908034c65f0b38c9164d3e7b23d4f2d2cba2b",
+      "status": "reused authored research; original sources and limitations remain in the snapshot; not a new independent observation"
+    },
+    {
+      "source_key": "gc_mix",
+      "original_workspace_file": "outputs/grand-cherokee-mix-drivers-audit.json",
+      "frozen_file": "support/prior/grand-cherokee-mix-drivers-audit.json",
+      "sha256": "1595b707e6e8d71cce0f6a9a5fd925b5e83f70554193ca2e2f3034b65a371336",
+      "status": "reused authored research; original sources and limitations remain in the snapshot; not a new independent observation"
+    },
+    {
+      "source_key": "gc_coverage",
+      "original_workspace_file": "outputs/model-research-coverage-recap.json",
+      "frozen_file": "support/prior/model-research-coverage-recap.json",
+      "sha256": "785a1e4e2e514795a64172f149647572fbcedda0449b81576f496e8147d001e1",
+      "status": "reused authored research; original sources and limitations remain in the snapshot; not a new independent observation"
+    },
+    {
+      "source_key": "normalization",
+      "original_workspace_file": "outputs/normalization-mechanism-gap-audit.json",
+      "frozen_file": "support/prior/normalization-mechanism-gap-audit.json",
+      "sha256": "174e95cfedef84e1eae4d100fe58b62b42efae30f2b128f47f77d266406a7a8d",
+      "status": "reused authored research; original sources and limitations remain in the snapshot; not a new independent observation"
+    },
+    {
+      "source_key": "cherokee_history",
+      "original_workspace_file": "outputs/cherokee-supply-timeline.json",
+      "frozen_file": "support/prior/cherokee-supply-timeline.json",
+      "sha256": "4339192efad31cb1e75d3ec5c4c3a69c9f823200147918d4c6edc6a4f4a08f01",
+      "status": "reused authored research; original sources and limitations remain in the snapshot; not a new independent observation"
+    },
+    {
+      "source_key": "exits",
+      "original_workspace_file": "outputs/discontinuation-powertrain-audit.json",
+      "frozen_file": "support/prior/discontinuation-powertrain-audit.json",
+      "sha256": "05120acd9d659aebf424e6945117a30402dfd0efc833ba3bde4519217f43c670",
+      "status": "reused authored research; original sources and limitations remain in the snapshot; not a new independent observation"
+    },
+    {
+      "source_key": "dodge",
+      "original_workspace_file": "outputs/dodge-recovery-audit.json",
+      "frozen_file": "support/prior/dodge-recovery-audit.json",
+      "sha256": "6345a3455c1b9215062d0de05ff8fcd54c774ddf350613c2ebf57312a6403a54",
+      "status": "reused authored research; original sources and limitations remain in the snapshot; not a new independent observation"
+    },
+    {
+      "source_key": "management",
+      "original_workspace_file": "outputs/management-driver-review-2026-10-14.json",
+      "frozen_file": "support/prior/management-driver-review-2026-10-14.json",
+      "sha256": "77e5396de980f78577b43393d6499677b6620cc870fa87b41c2e16f39dc2a340",
+      "status": "reused authored research; original sources and limitations remain in the snapshot; not a new independent observation"
+    },
+    {
+      "source_key": "initiatives",
+      "original_workspace_file": "outputs/future-initiatives-register.json",
+      "frozen_file": "support/prior/future-initiatives-register.json",
+      "sha256": "fd97444adf03166efe9dd008da8eabefb8cef19aab7b532aeb8d4210d15d3305",
+      "status": "reused authored research; original sources and limitations remain in the snapshot; not a new independent observation"
+    }
+  ],
+  "transformations": [
+    "sum nonoverlapping nameplates into stable families",
+    "preserve raw quarters and YTD vintages separately",
+    "reported total minus listed families gives an explicit unlisted/reporting residual",
+    "loss contribution = 2023 units minus 2024 units divided by 223520 net US decline",
+    "flat-Q4 reference = YTD Q3 2026 actual plus Q3 actual, explicitly hypothetical",
+    "scenario growth contribution = 2028 assumed family volume minus family reference; sums reconcile"
+  ],
+  "classification_rules": {
+    "observed": "reported counts or testimony, with testimony distinguished from independently verified facts",
+    "derived": "arithmetic from specified observations",
+    "proxy": "search/consideration/stock-to-sales or other imperfect signal",
+    "assumed": "forecast judgment, no claim of causal estimation",
+    "unknown": "do not fill missing information with zero or manufactured precision"
+  },
+  "stopping_rule": "No new search without a concrete discriminating lead. Missing dealer order economics and new-launch customer timing require specific future observations; broad additional commentary or bulk extraction has low expected value."
+}

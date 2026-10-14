@@ -1,0 +1,1029 @@
+{
+  "classification": "observed; values copied from source tables, without vintage adjustment",
+  "tables": {
+    "q3_2026": {
+      "Compass": {
+        "quarter_current": 10811,
+        "quarter_prior": 28086,
+        "ytd_current": 47837,
+        "ytd_prior": 82920
+      },
+      "Wrangler": {
+        "quarter_current": 44757,
+        "quarter_prior": 42450,
+        "ytd_current": 131011,
+        "ytd_prior": 128054
+      },
+      "Gladiator": {
+        "quarter_current": 11911,
+        "quarter_prior": 13113,
+        "ytd_current": 30944,
+        "ytd_prior": 38513
+      },
+      "Recon": {
+        "quarter_current": 35,
+        "quarter_prior": 14,
+        "ytd_current": 82,
+        "ytd_prior": 34
+      },
+      "Cherokee HEV": {
+        "quarter_current": 10344,
+        "quarter_prior": 131,
+        "ytd_current": 20914,
+        "ytd_prior": 131
+      },
+      "Grand Cherokee": {
+        "quarter_current": 38027,
+        "quarter_prior": 54553,
+        "ytd_current": 139764,
+        "ytd_prior": 154221
+      },
+      "Wagoneer S": {
+        "quarter_current": 146,
+        "quarter_prior": 4163,
+        "ytd_current": 519,
+        "ytd_prior": 10426
+      },
+      "Wagoneer/G. Wagoneer": {
+        "quarter_current": 12495,
+        "quarter_prior": 17900,
+        "ytd_current": 42642,
+        "ytd_prior": 34672
+      },
+      "JEEP BRAND": {
+        "quarter_current": 128542,
+        "quarter_prior": 160564,
+        "ytd_current": 413793,
+        "ytd_prior": 449973
+      },
+      "Ram LD PU": {
+        "quarter_current": 76650,
+        "quarter_prior": 44349,
+        "ytd_current": 202147,
+        "ytd_prior": 143264
+      },
+      "Ram HD PU": {
+        "quarter_current": 41107,
+        "quarter_prior": 43717,
+        "ytd_current": 123201,
+        "ytd_prior": 119122
+      },
+      "ProMaster Van": {
+        "quarter_current": 16314,
+        "quarter_prior": 15633,
+        "ytd_current": 44030,
+        "ytd_prior": 45296
+      },
+      "ProMaster City": {
+        "quarter_current": 1,
+        "quarter_prior": 18,
+        "ytd_current": 1,
+        "ytd_prior": 19
+      },
+      "RAM BRAND": {
+        "quarter_current": 134072,
+        "quarter_prior": 103717,
+        "ytd_current": 369379,
+        "ytd_prior": 307701
+      },
+      "Pacifica": {
+        "quarter_current": 34491,
+        "quarter_prior": 32417,
+        "ytd_current": 101611,
+        "ytd_prior": 90173
+      },
+      "CHRYSLER BRAND": {
+        "quarter_current": 34494,
+        "quarter_prior": 32489,
+        "ytd_current": 101627,
+        "ytd_prior": 90733
+      },
+      "Hornet": {
+        "quarter_current": 85,
+        "quarter_prior": 2839,
+        "ytd_current": 802,
+        "ytd_prior": 8486
+      },
+      "Charger ICE": {
+        "quarter_current": 3446,
+        "quarter_prior": 238,
+        "ytd_current": 8029,
+        "ytd_prior": 1868
+      },
+      "Charger BEV": {
+        "quarter_current": 233,
+        "quarter_prior": 2776,
+        "ytd_current": 767,
+        "ytd_prior": 7075
+      },
+      "Durango": {
+        "quarter_current": 22755,
+        "quarter_prior": 20018,
+        "ytd_current": 61330,
+        "ytd_prior": 54417
+      },
+      "DODGE BRAND": {
+        "quarter_current": 26546,
+        "quarter_prior": 26120,
+        "ytd_current": 71057,
+        "ytd_prior": 73601
+      },
+      "500e": {
+        "quarter_current": 52,
+        "quarter_prior": 288,
+        "ytd_current": 211,
+        "ytd_prior": 1076
+      },
+      "500X": {
+        "quarter_current": 2,
+        "quarter_prior": 31,
+        "ytd_current": 73,
+        "ytd_prior": 158
+      },
+      "FIAT BRAND": {
+        "quarter_current": 54,
+        "quarter_prior": 321,
+        "ytd_current": 291,
+        "ytd_prior": 1237
+      },
+      "Giulia": {
+        "quarter_current": 151,
+        "quarter_prior": 286,
+        "ytd_current": 670,
+        "ytd_prior": 1168
+      },
+      "Stelvio": {
+        "quarter_current": 219,
+        "quarter_prior": 375,
+        "ytd_current": 953,
+        "ytd_prior": 1501
+      },
+      "Tonale": {
+        "quarter_current": 199,
+        "quarter_prior": 953,
+        "ytd_current": 693,
+        "ytd_prior": 2109
+      },
+      "ALFA ROMEO": {
+        "quarter_current": 569,
+        "quarter_prior": 1614,
+        "ytd_current": 2316,
+        "ytd_prior": 4778
+      },
+      "STELLANTIS US": {
+        "quarter_current": 324277,
+        "quarter_prior": 324825,
+        "ytd_current": 958463,
+        "ytd_prior": 928023
+      }
+    },
+    "q2_2026": {
+      "Compass": {
+        "quarter_current": 18453,
+        "quarter_prior": 23104,
+        "ytd_current": 37026,
+        "ytd_prior": 54834
+      },
+      "Wrangler": {
+        "quarter_current": 41793,
+        "quarter_prior": 47660,
+        "ytd_current": 86254,
+        "ytd_prior": 85604
+      },
+      "Gladiator": {
+        "quarter_current": 8946,
+        "quarter_prior": 13343,
+        "ytd_current": 19033,
+        "ytd_prior": 25400
+      },
+      "Recon": {
+        "quarter_current": 27,
+        "quarter_prior": 3,
+        "ytd_current": 47,
+        "ytd_prior": 20
+      },
+      "Cherokee": {
+        "quarter_current": 11,
+        "quarter_prior": 101,
+        "ytd_current": 174,
+        "ytd_prior": 257
+      },
+      "Cherokee HEV": {
+        "quarter_current": 8101,
+        "quarter_prior": 0,
+        "ytd_current": 10570,
+        "ytd_prior": 0
+      },
+      "Grand Cherokee": {
+        "quarter_current": 48255,
+        "quarter_prior": 51203,
+        "ytd_current": 101737,
+        "ytd_prior": 99668
+      },
+      "Renegade": {
+        "quarter_current": 10,
+        "quarter_prior": 220,
+        "ytd_current": 33,
+        "ytd_prior": 590
+      },
+      "Wagoneer S": {
+        "quarter_current": 198,
+        "quarter_prior": 3668,
+        "ytd_current": 373,
+        "ytd_prior": 6263
+      },
+      "Wagoneer/G. Wagoneer": {
+        "quarter_current": 14905,
+        "quarter_prior": 9523,
+        "ytd_current": 30147,
+        "ytd_prior": 16772
+      },
+      "JEEP BRAND": {
+        "quarter_current": 140699,
+        "quarter_prior": 148826,
+        "ytd_current": 285394,
+        "ytd_prior": 289409
+      },
+      "Ram LD PU": {
+        "quarter_current": 65669,
+        "quarter_prior": 51848,
+        "ytd_current": 125522,
+        "ytd_prior": 98915
+      },
+      "Ram HD PU": {
+        "quarter_current": 43497,
+        "quarter_prior": 43624,
+        "ytd_current": 82094,
+        "ytd_prior": 75405
+      },
+      "TOTAL Ram PU": {
+        "quarter_current": 109166,
+        "quarter_prior": 95472,
+        "ytd_current": 207616,
+        "ytd_prior": 174320
+      },
+      "ProMaster Van": {
+        "quarter_current": 13981,
+        "quarter_prior": 15144,
+        "ytd_current": 27716,
+        "ytd_prior": 29663
+      },
+      "RAM BRAND": {
+        "quarter_current": 123147,
+        "quarter_prior": 110616,
+        "ytd_current": 235332,
+        "ytd_prior": 203984
+      },
+      "Pacifica": {
+        "quarter_current": 41704,
+        "quarter_prior": 23028,
+        "ytd_current": 67120,
+        "ytd_prior": 57756
+      },
+      "CHRYSLER BRAND": {
+        "quarter_current": 41710,
+        "quarter_prior": 23175,
+        "ytd_current": 67133,
+        "ytd_prior": 58244
+      },
+      "Hornet": {
+        "quarter_current": 300,
+        "quarter_prior": 1539,
+        "ytd_current": 717,
+        "ytd_prior": 5647
+      },
+      "Charger": {
+        "quarter_current": 2911,
+        "quarter_prior": 578,
+        "ytd_current": 4583,
+        "ytd_prior": 1630
+      },
+      "Charger BEV": {
+        "quarter_current": 294,
+        "quarter_prior": 2352,
+        "ytd_current": 534,
+        "ytd_prior": 4299
+      },
+      "Challenger": {
+        "quarter_current": 38,
+        "quarter_prior": 579,
+        "ytd_current": 83,
+        "ytd_prior": 1501
+      },
+      "Durango": {
+        "quarter_current": 18275,
+        "quarter_prior": 20698,
+        "ytd_current": 38575,
+        "ytd_prior": 34399
+      },
+      "DODGE BRAND": {
+        "quarter_current": 21818,
+        "quarter_prior": 25750,
+        "ytd_current": 44511,
+        "ytd_prior": 47481
+      },
+      "500e": {
+        "quarter_current": 81,
+        "quarter_prior": 340,
+        "ytd_current": 150,
+        "ytd_prior": 788
+      },
+      "FIAT BRAND": {
+        "quarter_current": 82,
+        "quarter_prior": 394,
+        "ytd_current": 228,
+        "ytd_prior": 916
+      },
+      "Giulia": {
+        "quarter_current": 267,
+        "quarter_prior": 341,
+        "ytd_current": 519,
+        "ytd_prior": 882
+      },
+      "Stelvio": {
+        "quarter_current": 305,
+        "quarter_prior": 440,
+        "ytd_current": 734,
+        "ytd_prior": 1126
+      },
+      "Tonale": {
+        "quarter_current": 256,
+        "quarter_prior": 431,
+        "ytd_current": 494,
+        "ytd_prior": 1156
+      },
+      "ALFA ROMEO": {
+        "quarter_current": 828,
+        "quarter_prior": 1212,
+        "ytd_current": 1747,
+        "ytd_prior": 3164
+      },
+      "Stellantis": {
+        "quarter_current": 328284,
+        "quarter_prior": 309973,
+        "ytd_current": 634345,
+        "ytd_prior": 603198
+      }
+    },
+    "q1_2026": {
+      "Compass": {
+        "quarter_current": 18573,
+        "quarter_prior": 31730,
+        "ytd_current": 18573,
+        "ytd_prior": 31730
+      },
+      "Wrangler": {
+        "quarter_current": 44461,
+        "quarter_prior": 37944,
+        "ytd_current": 44461,
+        "ytd_prior": 37944
+      },
+      "Gladiator": {
+        "quarter_current": 10087,
+        "quarter_prior": 12057,
+        "ytd_current": 10087,
+        "ytd_prior": 12057
+      },
+      "Cherokee": {
+        "quarter_current": 2489,
+        "quarter_prior": 156,
+        "ytd_current": 2489,
+        "ytd_prior": 156
+      },
+      "Grand Cherokee": {
+        "quarter_current": 53482,
+        "quarter_prior": 48465,
+        "ytd_current": 53482,
+        "ytd_prior": 48465
+      },
+      "Renegade": {
+        "quarter_current": 23,
+        "quarter_prior": 370,
+        "ytd_current": 23,
+        "ytd_prior": 370
+      },
+      "Wagoneer": {
+        "quarter_current": 1068,
+        "quarter_prior": 5400,
+        "ytd_current": 1068,
+        "ytd_prior": 5400
+      },
+      "Wagoneer S": {
+        "quarter_current": 175,
+        "quarter_prior": 2595,
+        "ytd_current": 175,
+        "ytd_prior": 2595
+      },
+      "Grand Wagoneer": {
+        "quarter_current": 14174,
+        "quarter_prior": 1849,
+        "ytd_current": 14174,
+        "ytd_prior": 1849
+      },
+      "JEEP BRAND": {
+        "quarter_current": 144552,
+        "quarter_prior": 140583,
+        "ytd_current": 144552,
+        "ytd_prior": 140583
+      },
+      "Ram LD PU": {
+        "quarter_current": 59828,
+        "quarter_prior": 47067,
+        "ytd_current": 59828,
+        "ytd_prior": 47067
+      },
+      "Ram HD PU": {
+        "quarter_current": 38597,
+        "quarter_prior": 31781,
+        "ytd_current": 38597,
+        "ytd_prior": 31781
+      },
+      "TOTAL Ram PU": {
+        "quarter_current": 98425,
+        "quarter_prior": 78848,
+        "ytd_current": 98425,
+        "ytd_prior": 78848
+      },
+      "ProMaster Van": {
+        "quarter_current": 13735,
+        "quarter_prior": 14519,
+        "ytd_current": 13735,
+        "ytd_prior": 14519
+      },
+      "RAM BRAND": {
+        "quarter_current": 112160,
+        "quarter_prior": 93368,
+        "ytd_current": 112160,
+        "ytd_prior": 93368
+      },
+      "Voyager": {
+        "quarter_current": 3612,
+        "quarter_prior": 2319,
+        "ytd_current": 3612,
+        "ytd_prior": 2319
+      },
+      "Pacifica": {
+        "quarter_current": 21804,
+        "quarter_prior": 32409,
+        "ytd_current": 21804,
+        "ytd_prior": 32409
+      },
+      "CHRYSLER BRAND": {
+        "quarter_current": 25423,
+        "quarter_prior": 35069,
+        "ytd_current": 25423,
+        "ytd_prior": 35069
+      },
+      "Hornet": {
+        "quarter_current": 417,
+        "quarter_prior": 4108,
+        "ytd_current": 417,
+        "ytd_prior": 4108
+      },
+      "Charger": {
+        "quarter_current": 1672,
+        "quarter_prior": 1052,
+        "ytd_current": 1672,
+        "ytd_prior": 1052
+      },
+      "Charger BEV": {
+        "quarter_current": 240,
+        "quarter_prior": 1947,
+        "ytd_current": 240,
+        "ytd_prior": 1947
+      },
+      "Challenger": {
+        "quarter_current": 45,
+        "quarter_prior": 922,
+        "ytd_current": 45,
+        "ytd_prior": 922
+      },
+      "Durango": {
+        "quarter_current": 20300,
+        "quarter_prior": 13701,
+        "ytd_current": 20300,
+        "ytd_prior": 13701
+      },
+      "DODGE BRAND": {
+        "quarter_current": 22693,
+        "quarter_prior": 21731,
+        "ytd_current": 22693,
+        "ytd_prior": 21731
+      },
+      "500e": {
+        "quarter_current": 68,
+        "quarter_prior": 448,
+        "ytd_current": 68,
+        "ytd_prior": 448
+      },
+      "500X": {
+        "quarter_current": 71,
+        "quarter_prior": 74,
+        "ytd_current": 71,
+        "ytd_prior": 74
+      },
+      "FIAT BRAND": {
+        "quarter_current": 155,
+        "quarter_prior": 522,
+        "ytd_current": 155,
+        "ytd_prior": 522
+      },
+      "Giulia": {
+        "quarter_current": 252,
+        "quarter_prior": 541,
+        "ytd_current": 252,
+        "ytd_prior": 541
+      },
+      "Stelvio": {
+        "quarter_current": 429,
+        "quarter_prior": 686,
+        "ytd_current": 429,
+        "ytd_prior": 686
+      },
+      "Tonale": {
+        "quarter_current": 238,
+        "quarter_prior": 725,
+        "ytd_current": 238,
+        "ytd_prior": 725
+      },
+      "ALFA ROMEO": {
+        "quarter_current": 919,
+        "quarter_prior": 1952,
+        "ytd_current": 919,
+        "ytd_prior": 1952
+      },
+      "FCA US LLC": {
+        "quarter_current": 305902,
+        "quarter_prior": 293225,
+        "ytd_current": 305902,
+        "ytd_prior": 293225
+      }
+    },
+    "fy_2019": {
+      "Compass": {
+        "quarter_current": 33263,
+        "quarter_prior": 38493,
+        "ytd_current": 143934,
+        "ytd_prior": 171167
+      },
+      "Patriot": {
+        "quarter_current": 6,
+        "quarter_prior": 22,
+        "ytd_current": 27,
+        "ytd_prior": 621
+      },
+      "Wrangler": {
+        "quarter_current": 52012,
+        "quarter_prior": 49081,
+        "ytd_current": 228032,
+        "ytd_prior": 240032
+      },
+      "Gladiator": {
+        "quarter_current": 16663,
+        "quarter_prior": 0,
+        "ytd_current": 40047,
+        "ytd_prior": 0
+      },
+      "Cherokee": {
+        "quarter_current": 42048,
+        "quarter_prior": 59694,
+        "ytd_current": 191397,
+        "ytd_prior": 239437
+      },
+      "Grand Cherokee": {
+        "quarter_current": 57929,
+        "quarter_prior": 58255,
+        "ytd_current": 242969,
+        "ytd_prior": 224908
+      },
+      "Renegade": {
+        "quarter_current": 19615,
+        "quarter_prior": 21488,
+        "ytd_current": 76885,
+        "ytd_prior": 97062
+      },
+      "JEEP BRAND": {
+        "quarter_current": 221536,
+        "quarter_prior": 227033,
+        "ytd_current": 923291,
+        "ytd_prior": 973227
+      },
+      "Ram P/U": {
+        "quarter_current": 172579,
+        "quarter_prior": 161397,
+        "ytd_current": 633694,
+        "ytd_prior": 536980
+      },
+      "ProMaster Van": {
+        "quarter_current": 15108,
+        "quarter_prior": 15009,
+        "ytd_current": 56409,
+        "ytd_prior": 46600
+      },
+      "ProMaster City": {
+        "quarter_current": 2968,
+        "quarter_prior": 4301,
+        "ytd_current": 12920,
+        "ytd_prior": 13788
+      },
+      "RAM BRAND": {
+        "quarter_current": 190655,
+        "quarter_prior": 180707,
+        "ytd_current": 703023,
+        "ytd_prior": 597368
+      },
+      "200": {
+        "quarter_current": 3,
+        "quarter_prior": 43,
+        "ytd_current": 48,
+        "ytd_prior": 1043
+      },
+      "300": {
+        "quarter_current": 5520,
+        "quarter_prior": 12038,
+        "ytd_current": 29213,
+        "ytd_prior": 46593
+      },
+      "Town & Country": {
+        "quarter_current": 1,
+        "quarter_prior": 0,
+        "ytd_current": 5,
+        "ytd_prior": 6
+      },
+      "Pacifica": {
+        "quarter_current": 27481,
+        "quarter_prior": 26727,
+        "ytd_current": 97705,
+        "ytd_prior": 118322
+      },
+      "CHRYSLER BRAND": {
+        "quarter_current": 33005,
+        "quarter_prior": 38808,
+        "ytd_current": 126971,
+        "ytd_prior": 165964
+      },
+      "Dart": {
+        "quarter_current": 2,
+        "quarter_prior": 10,
+        "ytd_current": 15,
+        "ytd_prior": 389
+      },
+      "Avenger": {
+        "quarter_current": 0,
+        "quarter_prior": 0,
+        "ytd_current": 1,
+        "ytd_prior": 4
+      },
+      "Charger": {
+        "quarter_current": 25829,
+        "quarter_prior": 20918,
+        "ytd_current": 96935,
+        "ytd_prior": 80226
+      },
+      "Challenger": {
+        "quarter_current": 14298,
+        "quarter_prior": 14403,
+        "ytd_current": 60997,
+        "ytd_prior": 66716
+      },
+      "Viper": {
+        "quarter_current": 0,
+        "quarter_prior": 4,
+        "ytd_current": 5,
+        "ytd_prior": 19
+      },
+      "Journey": {
+        "quarter_current": 12290,
+        "quarter_prior": 16863,
+        "ytd_current": 74686,
+        "ytd_prior": 94096
+      },
+      "Caravan": {
+        "quarter_current": 23245,
+        "quarter_prior": 30992,
+        "ytd_current": 122648,
+        "ytd_prior": 151927
+      },
+      "Durango": {
+        "quarter_current": 14977,
+        "quarter_prior": 16406,
+        "ytd_current": 67599,
+        "ytd_prior": 65947
+      },
+      "DODGE BRAND": {
+        "quarter_current": 90641,
+        "quarter_prior": 99596,
+        "ytd_current": 422886,
+        "ytd_prior": 459324
+      },
+      "500": {
+        "quarter_current": 699,
+        "quarter_prior": 1653,
+        "ytd_current": 3267,
+        "ytd_prior": 5370
+      },
+      "500L": {
+        "quarter_current": 166,
+        "quarter_prior": 182,
+        "ytd_current": 771,
+        "ytd_prior": 1413
+      },
+      "500X": {
+        "quarter_current": 442,
+        "quarter_prior": 1002,
+        "ytd_current": 2518,
+        "ytd_prior": 5223
+      },
+      "Spider": {
+        "quarter_current": 430,
+        "quarter_prior": 600,
+        "ytd_current": 2644,
+        "ytd_prior": 3515
+      },
+      "FIAT BRAND": {
+        "quarter_current": 1737,
+        "quarter_prior": 3437,
+        "ytd_current": 9200,
+        "ytd_prior": 15521
+      },
+      "Giulia": {
+        "quarter_current": 2328,
+        "quarter_prior": 2586,
+        "ytd_current": 8704,
+        "ytd_prior": 11519
+      },
+      "Alfa 4C": {
+        "quarter_current": 17,
+        "quarter_prior": 55,
+        "ytd_current": 144,
+        "ytd_prior": 238
+      },
+      "Stelvio": {
+        "quarter_current": 2600,
+        "quarter_prior": 2999,
+        "ytd_current": 9444,
+        "ytd_prior": 12043
+      },
+      "ALFA ROMEO": {
+        "quarter_current": 4945,
+        "quarter_prior": 5640,
+        "ytd_current": 18292,
+        "ytd_prior": 23800
+      },
+      "FCA US LLC": {
+        "quarter_current": 542519,
+        "quarter_prior": 555221,
+        "ytd_current": 2203663,
+        "ytd_prior": 2235204
+      }
+    },
+    "fy_2025": {
+      "Compass": {
+        "quarter_current": 19077,
+        "quarter_prior": 27223,
+        "ytd_current": 101997,
+        "ytd_prior": 111697
+      },
+      "Wrangler": {
+        "quarter_current": 39268,
+        "quarter_prior": 38085,
+        "ytd_current": 167322,
+        "ytd_prior": 151163
+      },
+      "Gladiator": {
+        "quarter_current": 18277,
+        "quarter_prior": 9453,
+        "ytd_current": 56790,
+        "ytd_prior": 42123
+      },
+      "Recon": {
+        "quarter_current": 22,
+        "quarter_prior": 0,
+        "ytd_current": 56,
+        "ytd_prior": 0
+      },
+      "Cherokee": {
+        "quarter_current": 90,
+        "quarter_prior": 239,
+        "ytd_current": 527,
+        "ytd_prior": 2839
+      },
+      "Grand Cherokee": {
+        "quarter_current": 55861,
+        "quarter_prior": 55209,
+        "ytd_current": 210082,
+        "ytd_prior": 216148
+      },
+      "Renegade": {
+        "quarter_current": 27,
+        "quarter_prior": 664,
+        "ytd_current": 721,
+        "ytd_prior": 8440
+      },
+      "Wagoneer": {
+        "quarter_current": 9694,
+        "quarter_prior": 5796,
+        "ytd_current": 39907,
+        "ytd_prior": 43125
+      },
+      "Wagoneer S": {
+        "quarter_current": 438,
+        "quarter_prior": 133,
+        "ytd_current": 10864,
+        "ytd_prior": 231
+      },
+      "Grand Wagoneer": {
+        "quarter_current": 674,
+        "quarter_prior": 1774,
+        "ytd_current": 5133,
+        "ytd_prior": 11959
+      },
+      "JEEP BRAND": {
+        "quarter_current": 143428,
+        "quarter_prior": 138576,
+        "ytd_current": 593401,
+        "ytd_prior": 587725
+      },
+      "Ram LD PU": {
+        "quarter_current": 60875,
+        "quarter_prior": 49312,
+        "ytd_current": 204139,
+        "ytd_prior": 187013
+      },
+      "Ram HD PU": {
+        "quarter_current": 50798,
+        "quarter_prior": 55142,
+        "ytd_current": 169920,
+        "ytd_prior": 186107
+      },
+      "TOTAL Ram PU": {
+        "quarter_current": 111673,
+        "quarter_prior": 104454,
+        "ytd_current": 374059,
+        "ytd_prior": 373120
+      },
+      "ProMaster Van": {
+        "quarter_current": 12295,
+        "quarter_prior": 24866,
+        "ytd_current": 57591,
+        "ytd_prior": 65869
+      },
+      "ProMaster City": {
+        "quarter_current": 1,
+        "quarter_prior": 1,
+        "ytd_current": 20,
+        "ytd_prior": 50
+      },
+      "RAM BRAND": {
+        "quarter_current": 123969,
+        "quarter_prior": 129321,
+        "ytd_current": 431670,
+        "ytd_prior": 439039
+      },
+      "300": {
+        "quarter_current": 15,
+        "quarter_prior": 626,
+        "ytd_current": 574,
+        "ytd_prior": 5295
+      },
+      "Voyager": {
+        "quarter_current": 3983,
+        "quarter_prior": 1266,
+        "ytd_current": 15792,
+        "ytd_prior": 12033
+      },
+      "Pacifica": {
+        "quarter_current": 31642,
+        "quarter_prior": 25737,
+        "ytd_current": 110006,
+        "ytd_prior": 107356
+      },
+      "CHRYSLER BRAND": {
+        "quarter_current": 35640,
+        "quarter_prior": 27629,
+        "ytd_current": 126373,
+        "ytd_prior": 124683
+      },
+      "Dart": {
+        "quarter_current": 0,
+        "quarter_prior": 0,
+        "ytd_current": 6,
+        "ytd_prior": 1
+      },
+      "Viper": {
+        "quarter_current": 0,
+        "quarter_prior": 0,
+        "ytd_current": 0,
+        "ytd_prior": 1
+      },
+      "Hornet": {
+        "quarter_current": 879,
+        "quarter_prior": 4993,
+        "ytd_current": 9365,
+        "ytd_prior": 20559
+      },
+      "Charger": {
+        "quarter_current": 273,
+        "quarter_prior": 2774,
+        "ytd_current": 2141,
+        "ytd_prior": 34754
+      },
+      "Charger BEV": {
+        "quarter_current": 346,
+        "quarter_prior": 0,
+        "ytd_current": 7421,
+        "ytd_prior": 0
+      },
+      "Challenger": {
+        "quarter_current": 77,
+        "quarter_prior": 2182,
+        "ytd_current": 1800,
+        "ytd_prior": 27056
+      },
+      "Journey": {
+        "quarter_current": 0,
+        "quarter_prior": 0,
+        "ytd_current": 17,
+        "ytd_prior": 0
+      },
+      "Caravan": {
+        "quarter_current": 0,
+        "quarter_prior": 0,
+        "ytd_current": 9,
+        "ytd_prior": 2
+      },
+      "Durango": {
+        "quarter_current": 26751,
+        "quarter_prior": 12487,
+        "ytd_current": 81168,
+        "ytd_prior": 59357
+      },
+      "DODGE BRAND": {
+        "quarter_current": 28326,
+        "quarter_prior": 22436,
+        "ytd_current": 101927,
+        "ytd_prior": 141730
+      },
+      "500": {
+        "quarter_current": 66,
+        "quarter_prior": 531,
+        "ytd_current": 1141,
+        "ytd_prior": 970
+      },
+      "500L": {
+        "quarter_current": 0,
+        "quarter_prior": 0,
+        "ytd_current": 2,
+        "ytd_prior": 0
+      },
+      "500X": {
+        "quarter_current": 18,
+        "quarter_prior": 211,
+        "ytd_current": 176,
+        "ytd_prior": 558
+      },
+      "FIAT BRAND": {
+        "quarter_current": 84,
+        "quarter_prior": 742,
+        "ytd_current": 1321,
+        "ytd_prior": 1528
+      },
+      "Giulia": {
+        "quarter_current": 198,
+        "quarter_prior": 596,
+        "ytd_current": 1366,
+        "ytd_prior": 2320
+      },
+      "Alfa 4C": {
+        "quarter_current": 0,
+        "quarter_prior": 0,
+        "ytd_current": 0,
+        "ytd_prior": 0
+      },
+      "Stelvio": {
+        "quarter_current": 371,
+        "quarter_prior": 797,
+        "ytd_current": 1872,
+        "ytd_prior": 3162
+      },
+      "Tonale": {
+        "quarter_current": 305,
+        "quarter_prior": 646,
+        "ytd_current": 2414,
+        "ytd_prior": 3383
+      },
+      "ALFA ROMEO": {
+        "quarter_current": 874,
+        "quarter_prior": 2039,
+        "ytd_current": 5652,
+        "ytd_prior": 8865
+      },
+      "FCA US LLC": {
+        "quarter_current": 332321,
+        "quarter_prior": 320743,
+        "ytd_current": 1260344,
+        "ytd_prior": 1303570
+      }
+    }
+  }
+}

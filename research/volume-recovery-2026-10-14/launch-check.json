@@ -1,0 +1,207 @@
+{
+  "as_of": "2026-10-14",
+  "scope": "Selective launch check; US sales anchors versus North American management plans; not approved forecast",
+  "method": "Read existing register/notes and outputs first; three targeted primary search families; selective direct reads of primary dated releases and brand pages. No scraping, dealer census or workbook change. Stop at missing individual SOP/capacity/price information.",
+  "sources": {
+    "ID": {
+      "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events/stellantis-investor-day-2026/presentation/Stellantis-Investor-Day-2026-FaSTLAne2030-North-America.pdf",
+      "date": "2026-05-21",
+      "locator": "Existing visually verified launch register; D42 platform SOP, D66/69/72/75/79, public Q&A",
+      "status": "Reused prior primary-source extraction; see ../investor-day-2026-05-21/north-america-launch-register.md"
+    },
+    "Q2CALL": {
+      "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events-and-presentations/other-documents/Stellantis-Q2-2026-Financial-Results-Call-Transcript.pdf",
+      "date": "2026-07-30",
+      "locator": "PDF p13, Cherokee response",
+      "status": "Reread primary source on 2026-10-14"
+    },
+    "USQ3": {
+      "url": "https://www.prnewswire.com/news-releases/stellantis-reports-q3-sales-302896446.html",
+      "date": "2026-10-01",
+      "locator": "Model table and launch highlights",
+      "status": "Stellantis-issued release, reread on 2026-10-14"
+    },
+    "TRAILHAWK": {
+      "url": "https://www.prnewswire.com/news-releases/2027-jeep-cherokee-trailhawk-off-road-prowess-adventure-and-efficiency-all-come-standard-302893832.html",
+      "date": "2026-09-30",
+      "locator": "Availability paragraph",
+      "status": "Stellantis-issued release, newly verified"
+    },
+    "CITY": {
+      "url": "https://www.ramtrucks.com/news/2027-ram-promaster-city.html",
+      "date": "2026-03-11",
+      "locator": "Availability and manufacturing paragraphs",
+      "status": "Reverified planned timing; not verified actual SOP"
+    },
+    "CHEROKEE_WEB": {
+      "url": "https://www.jeep.com/cherokee.html",
+      "date": null,
+      "locator": "Current 2026 vehicle page",
+      "status": "Dynamic official page observed 2026-10-14; not proof of dealer inventory"
+    },
+    "CHARGER_WEB": {
+      "url": "https://www.dodge.com/charger.html",
+      "date": null,
+      "locator": "Scat Pack, R/T and body styles",
+      "status": "Dynamic official page observed 2026-10-14; no trim-level delivery evidence"
+    },
+    "PACIFICA_WEB": {
+      "url": "https://www.chrysler.com/pacifica.html",
+      "date": null,
+      "locator": "Current 2026 model page",
+      "status": "Dynamic official page observed 2026-10-14; not proof of refresh completion"
+    }
+  },
+  "launch_matrix": [
+    {
+      "family": "Jeep Cherokee HEV",
+      "launch_status": "Observed sales; broader competitive trims planned H1 2027; no Belvidere start date disclosed in July call",
+      "2027_treatment": "Use existing 2026 sales base plus conditional trim/ramp growth",
+      "2028_treatment": "Continue family forecast; localization date remains unknown",
+      "q3_2026_us_units": 10344,
+      "ytd_2026_us_units": 20914,
+      "substitution": "Compass and Grand Cherokee overlap; cannot infer all Cherokee buyers are conquest",
+      "source_ids": [
+        "Q2CALL",
+        "USQ3",
+        "CHEROKEE_WEB"
+      ],
+      "q3_times_four_scale_units": 41376,
+      "ytd_times_four_thirds_scale_units": 27885.33
+    },
+    {
+      "family": "Jeep Cherokee Trailhawk",
+      "launch_status": "Orders open Sept30 2026; Toluca production planned later in 2026; starting price $44,625 including $1,995 destination",
+      "2027_treatment": "Derivative inside Cherokee total; not evidence H1 competitive-trim milestone achieved",
+      "2028_treatment": "Inside Cherokee total",
+      "q3_2026_us_units": null,
+      "substitution": "Other Cherokee trims and Jeep off-road models",
+      "source_ids": [
+        "TRAILHAWK"
+      ]
+    },
+    {
+      "family": "Jeep Recon BEV",
+      "launch_status": "Q3 reported 35 US units; 82 YTD; no broad retail availability verified",
+      "2027_treatment": "Separate low-base ramp with no material run-rate assumption established",
+      "2028_treatment": "ICE timing unspecified; do not count full separate nameplate twice",
+      "q3_2026_us_units": 35,
+      "ytd_2026_us_units": 82,
+      "substitution": "Wrangler and other Jeep SUVs",
+      "source_ids": [
+        "ID",
+        "USQ3"
+      ],
+      "q3_times_four_scale_units": 140,
+      "ytd_times_four_thirds_scale_units": 109.33
+    },
+    {
+      "family": "Ram Rampage-based compact pickup",
+      "launch_status": "NA platform SOP 2028 in existing verified May deck; no later NA-specific milestone established in bounded check",
+      "2027_treatment": "Zero launch sales is conservative timing assumption, not management volume guidance",
+      "2028_treatment": "Partial-year ramp; quarter, production capacity, US price and sales target unknown",
+      "q3_2026_us_units": null,
+      "substitution": "Ram 1500, Dakota and Jeep Gladiator; South America sales are not US demand",
+      "source_ids": [
+        "ID"
+      ]
+    },
+    {
+      "family": "Ram Dakota midsize pickup",
+      "launch_status": "NA platform SOP 2028 in existing verified May deck; no later NA-specific milestone established",
+      "2027_treatment": "Zero launch sales is conservative timing assumption, not management volume guidance",
+      "2028_treatment": "Partial-year ramp; quarter and volume unknown",
+      "q3_2026_us_units": null,
+      "substitution": "Ram 1500, compact Ram and Gladiator; Brazil/Argentina launch not NA launch",
+      "source_ids": [
+        "ID"
+      ]
+    },
+    {
+      "family": "Ram ProMaster City",
+      "launch_status": "March release plans H2 2026 orders, 2026 production, Q1 2027 dealer arrival; Bursa production and Baltimore upfit; target under $40,000",
+      "2027_treatment": "First-year ramp justified by dated plan, actual start/order intake still unverified",
+      "2028_treatment": "Potential first full post-launch year; no unit target",
+      "q3_2026_us_units": null,
+      "substitution": "ProMaster and pickup/fleet alternatives; old residual sale not new-model delivery",
+      "source_ids": [
+        "CITY"
+      ]
+    },
+    {
+      "family": "Dodge Charger ICE plus BEV",
+      "launch_status": "Sales observed in both powertrains; website advertises R/T and Scat Pack plus two/four doors",
+      "2027_treatment": "Aggregate family before powertrain/body splits",
+      "2028_treatment": "Forecast combined family; no mature-volume target",
+      "q3_2026_us_units": 3679,
+      "ytd_2026_us_units": 8796,
+      "q3_2025_us_units": 3014,
+      "ytd_2025_us_units": 8943,
+      "substitution": "ICE replacing BEV demand; discontinued nameplate/family comparisons require consistent scope",
+      "source_ids": [
+        "USQ3",
+        "CHARGER_WEB"
+      ],
+      "q3_times_four_scale_units": 14716,
+      "ytd_times_four_thirds_scale_units": 11728.0
+    },
+    {
+      "family": "Dodge Durango",
+      "launch_status": "Q3 release confirms R/T 392 Launch Edition production celebration; full refresh/new-generation timing not tightened",
+      "2027_treatment": "Existing family recovery plus derivative mix; no additive new family",
+      "2028_treatment": "Do not assign a full new generation without separate dated evidence",
+      "q3_2026_us_units": 22755,
+      "ytd_2026_us_units": 61330,
+      "substitution": "Other Durango trims, Jeep Grand Cherokee/L and future Ram SUV",
+      "source_ids": [
+        "USQ3",
+        "ID"
+      ],
+      "q3_times_four_scale_units": 91020,
+      "ytd_times_four_thirds_scale_units": 81773.33
+    },
+    {
+      "family": "Chrysler Pacifica/minivans",
+      "launch_status": "Existing 2026 offer and sales verified; no additional refresh production milestone established",
+      "2027_treatment": "Defend/grow existing family base; preserve reported Pacifica/Voyager scope",
+      "2028_treatment": "Minivan forecast remains separate from crossovers",
+      "q3_2026_us_units": 34491,
+      "ytd_2026_us_units": 101611,
+      "substitution": "Voyager/Pacifica naming and channel transfers; future crossovers",
+      "source_ids": [
+        "USQ3",
+        "PACIFICA_WEB",
+        "ID"
+      ],
+      "q3_times_four_scale_units": 137964,
+      "ytd_times_four_thirds_scale_units": 135481.33
+    },
+    {
+      "family": "Chrysler Airflow, Arrow, Arrow Cross",
+      "launch_status": "May 2030 map and broad 2028 expansion narrative; no individual SOP or dealer-arrival date established",
+      "2027_treatment": "No evidence-based launch units established",
+      "2028_treatment": "Explicit scenario only; do not treat three names as three mature volumes",
+      "q3_2026_us_units": null,
+      "substitution": "Sibling crossovers, Jeep Compass/Cherokee and Chrysler minivans",
+      "source_ids": [
+        "ID"
+      ]
+    }
+  ],
+  "derived_checks": {
+    "Charger_q3_family_growth_pct": 22.063702720637025,
+    "Charger_ytd_family_growth_pct": -1.6437437101643693,
+    "Cherokee_Compass_GrandCherokee_q3_change_units": -23588,
+    "Jeep_q3_change_units": -32022
+  },
+  "model_gate": "Dates and actual US sales can enter evidence ledger. Annualizations are scale comparisons, not forecasts or incremental units. No numerical 2027–28 pickup/crossover volume forecast justified by this check.",
+  "sensitivity_example": {
+    "status": "Illustrative arithmetic, not a demand forecast",
+    "assumed_mature_annual_units_per_model": 60000,
+    "assumed_months_on_sale": 6,
+    "assumed_average_ramp_fraction": 0.5,
+    "derived_launch_year_units": 15000,
+    "substitution_not_yet_deducted": true,
+    "formula": "60000 * 6/12 * 0.5"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "as_of": "2026-10-13",
+  "question": "Does subsequent Ram retail growth coexist with stable or falling inventory and no greater incentive intensity?",
+  "scope": "Six discovery queries followed by selective source reading. Q2 2026 retail sales aligned with June 2026 advertised offers and end-June inventory context. No paid data, VIN scraping or additional agents.",
+  "result": "Retail recovery confirmed for 1500; the joint test of inventory normalization and reduced incentive dependence remains unproven. Close bounded Ram investigation with this limitation.",
+  "sources": {
+    "sales": {
+      "url": "https://www.prnewswire.com/news-releases/stellantis-reports-us-sales-gains-in-first-half-2026-302816096.html",
+      "date": "2026-07-01",
+      "type": "Official OEM release",
+      "locator": "Michael Orange quotation and Ram sales highlights"
+    },
+    "offers25": {
+      "url": "https://www.jdpower.com/cars/shopping-guides/best-popular-truck-deals-in-june-2025",
+      "period": "June 2025; expires June 30",
+      "type": "Contemporary advertised-offer compilation, not realized spending",
+      "locator": "Ram 1500 and Ram Heavy Duty sections"
+    },
+    "offers26": {
+      "url": "https://www.jdpower.com/cars/shopping-guides/best-popular-truck-deals-in-june-2026",
+      "period": "June 2026; expires June 30",
+      "type": "Contemporary advertised-offer compilation, not realized spending",
+      "locator": "Ram 1500 and Ram Heavy Duty sections"
+    },
+    "inventory26": {
+      "url": "https://www.coxautoinc.com/insights/june-2026-new-vehicle-inventory/",
+      "date": "2026-07-16",
+      "period": "End June / entering July 2026",
+      "type": "Primary data provider vAuto Live Market View",
+      "locator": "Inventory Is Still a Brand-Level Story"
+    },
+    "inventory_dec25": {
+      "url": "https://www.coxautoinc.com/insights/dec-2025-new-vehicle-inventory/",
+      "period": "2026-01-01",
+      "type": "Primary data provider",
+      "locator": "Brand Divergence Intensifies"
+    },
+    "inventory_download": {
+      "url": "https://www.coxautoinc.com/wp-content/uploads/2026/07/vAuto-Live-Market-View-Monthly-New-Retail-Inventory-Data-File.June26.csv",
+      "local_file": "../work/cox-june2026-inventory.csv",
+      "limitation": "Downloaded header shows monthly industry inventory, days supply, sales and listing prices. No model dimension; not a Ram inventory panel."
+    }
+  },
+  "observations": [
+    {
+      "metric": "1500 US retail sales growth",
+      "period": "Q2 2026 versus Q2 2025",
+      "value_pct": 9,
+      "status": "Observed company disclosure",
+      "source": "sales"
+    },
+    {
+      "metric": "Ram total pickup sales growth",
+      "period": "Q2 2026 versus Q2 2025",
+      "value_pct": 14,
+      "status": "Observed company disclosure; retail plus fleet and includes HD",
+      "source": "sales"
+    },
+    {
+      "metric": "Ram brand days supply",
+      "period": "2026-01-01",
+      "value": 115,
+      "industry_comparison": 76,
+      "status": "Observed brand-wide context, includes vans; not a 1500-specific statistic",
+      "source": "inventory_dec25"
+    },
+    {
+      "metric": "Ram inventory assessment",
+      "period": "End June 2026",
+      "value": "Cox identifies Ram among Stellantis brands with elevated inventory.",
+      "status": "Qualitative primary-provider observation; cannot infer inventory unit change or 1500 overstock from brand statement",
+      "source": "inventory26"
+    }
+  ],
+  "offer_comparison": {
+    "1500_June2025": {
+      "employee_pricing": "Listed, dollar benefit not specified",
+      "cash_max_usd": 3000,
+      "lease_loyalty_max_usd": 2000,
+      "finance": "As low as 1.9% APR / 72 months, excludes RHO",
+      "source": "offers25"
+    },
+    "1500_June2026": {
+      "cash_max_usd": 3500,
+      "finance": "As low as 0% / 60 months, 2.9% / 72 months, 4.9% / 84 months; excludes RHO",
+      "source": "offers26"
+    },
+    "HD_June2025": {
+      "2024_model": "Employee pricing and cash up to $1,000 on select trims",
+      "2025_model": "Cash up to $1,000",
+      "source": "offers25"
+    },
+    "HD_June2026": {
+      "cash": "Up to $1,000",
+      "finance": "As low as 5.9% / 84 months",
+      "source": "offers26"
+    },
+    "interpretation": "Promotional support persists. Cash maxima alone suggest +$500 for 1500, but 2025 employee pricing and different loan terms prevent ranking total offer generosity. Same 72-month promotional APR is higher in 2026. No defensible average incentive-spending change can be calculated.",
+    "limitations": [
+      "Offers are maxima/minima, not realized averages.",
+      "Eligibility, geography, trim, model year and credit quality may differ.",
+      "Do not assume cash, employee pricing, loyalty and subsidized APR all stack.",
+      "Model-year coverage is not explicit in 2026 offer heading.",
+      "Presence of 0% financing does not prove demand failure or increasing subsidy cost."
+    ]
+  },
+  "checks_and_limits": [
+    "Retail +9% is distinct from total pickup +14%; no substitution of fleet-inclusive growth for consumer growth.",
+    "June offers coincide with quarter-end but do not measure the full-quarter weighted incentive burden.",
+    "Brand inventory and model retail populations differ; cannot treat this as a fully matched panel.",
+    "Days supply combines inventory and recent selling pace; it does not by itself establish inventory accumulation.",
+    "June Cox example of incentives at 6.7% of ATP belongs to Jeep, not Ram; excluded from Ram inference.",
+    "No matched national 1500 inventory-unit series or incentive/transaction-price panel retrieved.",
+    "No latest-period HD retail growth verified in this pass.",
+    "A secondary report was used only to locate the original Cox release. Reddit snippets were not used as validated results."
+  ],
+  "model_implication": "Observed retail growth supports volume recovery. Do not infer restored pricing power, a normalized dealer stock position, or a launch-only explanation. Keep volume and net-price/margin assumptions separate; no new numerical forecast calibration from these offer snapshots.",
+  "stopping_decision": "Close the Ram discovery pass. Resume only for new clean model-level evidence or a specific modeling need; otherwise proceed to another model."
+}

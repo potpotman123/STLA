@@ -1,0 +1,140 @@
+{
+  "as_of": "2026-10-13",
+  "denominators": {
+    "2024": 1303570,
+    "Jan_Sep_2026": 958463,
+    "scope": "Reported US vehicle sales including retail and fleet, excluding Maserati. Not North America-wide units or revenue. Different period lengths used for within-period shares, not direct volume growth."
+  },
+  "rows": [
+    {
+      "group": "Ram light duty / 1500 including Classic",
+      "depth": "deeper",
+      "units_2024": 187013,
+      "share_2024_pct": 14.346218461609272,
+      "units_ytd2026": 202147,
+      "share_ytd2026_pct": 21.09074633032261
+    },
+    {
+      "group": "Ram heavy duty",
+      "depth": "deeper",
+      "units_2024": 186107,
+      "share_2024_pct": 14.27671701558029,
+      "units_ytd2026": 123201,
+      "share_ytd2026_pct": 12.854017317309067
+    },
+    {
+      "group": "Cherokee",
+      "depth": "deeper",
+      "units_2024": 2839,
+      "share_2024_pct": 0.21778654004004386,
+      "units_ytd2026": 20914,
+      "share_ytd2026_pct": 2.1820351959334894
+    },
+    {
+      "group": "Charger / Challenger; current Charger ICE + BEV",
+      "depth": "deeper",
+      "units_2024": 61810,
+      "share_2024_pct": 4.741594237363548,
+      "units_ytd2026": 8796,
+      "share_ytd2026_pct": 0.917719306848569
+    },
+    {
+      "group": "Grand Cherokee",
+      "depth": "preliminary",
+      "units_2024": 216148,
+      "share_2024_pct": 16.581234609572174,
+      "units_ytd2026": 139764,
+      "share_ytd2026_pct": 14.582096544154547
+    },
+    {
+      "group": "Wrangler",
+      "depth": "preliminary",
+      "units_2024": 151163,
+      "share_2024_pct": 11.596078461455848,
+      "units_ytd2026": 131011,
+      "share_ytd2026_pct": 13.668863586805124
+    },
+    {
+      "group": "Compass",
+      "depth": "preliminary",
+      "units_2024": 111697,
+      "share_2024_pct": 8.568546376489179,
+      "units_ytd2026": 47837,
+      "share_ytd2026_pct": 4.991011650945316
+    },
+    {
+      "group": "Renegade / Chrysler 300",
+      "depth": "exit review",
+      "units_2024": 13735,
+      "share_2024_pct": 1.0536449902958798,
+      "units_ytd2026": null,
+      "share_ytd2026_pct": null
+    }
+  ],
+  "coverage": {
+    "deeper": {
+      "2024_units": 437769,
+      "2024_share_pct": 33.58231625459315,
+      "ytd2026_explicitly_reported_units": 355058,
+      "ytd2026_share_pct": 37.04451815041374
+    },
+    "deeper_plus_preliminary": {
+      "2024_units": 916777,
+      "2024_share_pct": 70.32817570211036,
+      "ytd2026_explicitly_reported_units": 673670,
+      "ytd2026_share_pct": 70.28648993231872
+    },
+    "including_exit_review": {
+      "2024_units": 930512,
+      "2024_share_pct": 71.38182069240624,
+      "ytd2026_explicitly_reported_units": 673670,
+      "ytd2026_share_pct": 70.28648993231872
+    }
+  },
+  "core_2024_net_decline_contribution": {
+    "units": 152624,
+    "share_pct": 68.28203292770222,
+    "meaning": "Observed contribution, not percent of decline causally explained."
+  },
+  "sources": [
+    "https://www.prnewswire.com/news-releases/fca-us-reports-fourth-quarter-and-full-year-2024-sales-results-302342164.html",
+    "https://www.prnewswire.com/news-releases/fca-us-fourth-quarter-total-sales-increase-4-year-over-year-reports-full-year-2025-us-sales-results-302652833.html",
+    "https://www.prnewswire.com/news-releases/stellantis-reports-q3-sales-302896446.html"
+  ],
+  "limitations": [
+    "Classic not separately allocated from reported LD family; HD 2500/3500 not individually allocated.",
+    "2026 Charger row combines ICE and BEV; Challenger, Renegade and 300 are not separately listed in latest table. Do not equate missing rows to exact zero.",
+    "2024 official model rows have previously recorded residual of -1 unit versus total; retain official denominator.",
+    "Coverage measures research scope, not completed causal identification.",
+    "4xe is included in respective nameplates and must not be counted again."
+  ],
+  "research_files": [
+    "ram-transition-mechanism-audit.json",
+    "ram-recovery-bounded-check.json",
+    "cherokee-supply-timeline.json",
+    "dodge-recovery-audit.json",
+    "discontinuation-powertrain-audit.json",
+    "model-peer-comparison.json"
+  ],
+  "latest_updates": {
+    "Ram1500_Q32026_retail_yoy_pct": 42,
+    "RamHD_YTD2026_total_units": 123201,
+    "RamHD_YTD2025_total_units": 119122,
+    "note": "Q3 retail disclosure reinforces prior Q2 1500 growth; HD YTD total modestly positive does not establish HD retail normalization."
+  },
+  "next_priority": "Grand Cherokee: large continuing share and incomplete causal diligence. Then Wrangler; minivan family remains a major gap.",
+  "grand_cherokee_status_correction": {
+    "date": "2026-10-13",
+    "finding": "Prior recap understated work completed: preliminary peer comparison PLUS a saved annual and quarterly 4xe/non-4xe decomposition and recall-timing screen. Mechanistic cause still unproven.",
+    "2024_loss_units": 28446,
+    "4xe_loss_units": 18094,
+    "4xe_share_of_loss_pct": 63.60824017436546,
+    "non4xe_loss_units": 10352,
+    "source_files": [
+      "discovery-calculations.json",
+      "stellantis-discovery-brief.md",
+      "model-peer-comparison.json"
+    ],
+    "next_test": "Explain Q2-Q3 2024 4xe deterioration using effective price/incentives, availability and recall or stop-sale chronology; retain retail/fleet controls and non-4xe comparison."
+  }
+}

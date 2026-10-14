@@ -1,0 +1,43 @@
+{
+  "as_of": "2026-10-14",
+  "report": "dealer-demand-check.md",
+  "judgment": "Operational dealer repair supported; sustainable profitable national replenishment and its causal volume contribution not established.",
+  "new_primary_verification": {
+    "source": "https://www.coxautoinc.com/insights/august-2026-new-vehicle-inventory/",
+    "chart": "https://www.coxautoinc.com/wp-content/uploads/2026/09/Aug-2026-new-vehicle-inventory-chart.jpg?w=1024",
+    "published": "2026-09-10",
+    "period": "August 2026 month-end",
+    "geography": "US",
+    "population": "Brand new-vehicle inventory; includes dealer inventory and in-transit/pipeline",
+    "method": "Primary chart visually inspected in browser 2026-10-14",
+    "days_supply_observed": {"industry": 73, "Chrysler": 104, "Ram": 127, "Dodge": 133},
+    "Jeep": {"reported": "at least twice industry average", "derived_lower_bound_using_rounded_industry_figure": 146, "exact_value": null},
+    "change_from_previous_audit": "Replaces secondary Ram/Dodge verification; adds Chrysler; explicitly preserves pipeline scope. No October current-stock inference."
+  },
+  "new_nonadmitted_observation": {
+    "source": "https://www.sec.gov/Archives/edgar/data/1144980/000114498026000089/a2026q2ex991.htm",
+    "published": "2026-07-28",
+    "population": "Asbury consolidated new-vehicle revenue, US portfolio",
+    "CDJR_share_Q2_2026_pct": 6,
+    "CDJR_share_Q2_2025_pct": 9,
+    "status": "Observed rounded revenue shares, not same-store unit demand",
+    "excluded_inferences": ["33 percent decline in CDJR household demand", "All-brand days supply is CDJR days supply", "Domestic GPU is CDJR GPU"]
+  },
+  "additional_context": {
+    "source": "https://www.coxautoinc.com/insights/q3-2026-cadsi/",
+    "published": "2026-09-08",
+    "survey_window": "2026-07-22 through 2026-08-05",
+    "population": "929 US franchised and independent dealers; no CDJR breakout verified",
+    "finding": "Softer traffic/new-sales sentiment and affordability pressure; earlier subjective survey is not directly comparable with later August observed sales pace."
+  },
+  "model_admission": {
+    "allow": ["Dated reported sales, shipments, net-price bridges and inventory with exact source scope", "Dealer testimony as mechanism and scenario-trigger evidence"],
+    "do_not_add": ["National dealer-repair volume uplift", "Bonus program elasticity", "Assumed profitable replenishment", "Aggregate dealer-group metrics assigned to CDJR"]
+  },
+  "decisive_transcript_requests": [
+    {"source": "Asbury Q2 2026 earnings call, 2026-07-28", "target": "CDJR same-store units, stock/age, GPU, order acceptance and effects of portfolio changes"},
+    {"source": "One Q3 2026 repeat CDJR operator interview, preferably same prior operator", "condition": "Ordering/financial decision-maker with dated receipts/reorders, fresh-stock retail turns and earned bonus economics; generic sentiment insufficient"}
+  ],
+  "search_scope": {"queries": 3, "families": ["Asbury Q2 2026", "Lithia Q2 2026", "Cox August 2026 inventory"], "bulk_collection": false, "paid_collection": false},
+  "limitations": ["Lithia investor-results URL failed to open; no 2026 brand-specific finding inferred", "Cox data download failed; primary chart visually verified instead", "No matched current CDJR dealer-margin/order/stock panel", "No original current national incentive bulletin or payout series"]
+}

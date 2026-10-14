@@ -1,0 +1,261 @@
+{
+  "as_of": "2026-10-13",
+  "question": "Which unresolved mechanisms explain disproportionate Stellantis exposure to normalization, and what changes the recovery assessment?",
+  "request": "/Users/kwu/.codex/attachments/cc38a255-a7d9-4c7c-a6cc-10a75b2159f9/Pasted text.txt",
+  "method": {
+    "access": "Existing audits first; six discovery queries and one narrowly justified coupon follow-up. Selective HTML/PDF text reads. No agents, paid data, OCR, bulk scraping or fitting.",
+    "extraction": "Model- and period-specific program passages, reported shopping outcomes, two pricing rows and quarterly OEM figures.",
+    "transformations": "Difference arithmetic and channel identity, not causal regression.",
+    "alternatives": "A full national trim-payment/stock panel would be more representative but not accessible in this bounded pass. Anecdotes identify possible mechanisms, not frequencies.",
+    "checks": "Compass quarterly sums reconcile to annual totals; pricing arithmetic checked separately from source authenticity; source independence and population differences explicit."
+  },
+  "baseline_files": [
+    "stla-supply-cycle-audit.json",
+    "affordability-causal-sequence-audit.json",
+    "grand-cherokee-mix-drivers-audit.json",
+    "grand-cherokee-q2-2024-mechanism-audit.json",
+    "ram-transition-mechanism-audit.json",
+    "asbury-2024-timeline-audit.json",
+    "model-peer-comparison.json",
+    "research-decision-log.json"
+  ],
+  "sources": [
+    {
+      "id": "nov_memo",
+      "url": "https://www.jlwranglerforums.com/forum/attachments/11_08_23-2024my-jeep-pricing-action-dmail-pdf.813513/",
+      "date": "2023-11-06",
+      "locator": "One-page exhibit, WLJH74 and WLJP74; effective November 8 shipments",
+      "type": "Purported OEM bulletin mirrored on forum",
+      "novelty": "Existing source, new trim-level bridge",
+      "limit": "Authenticity not independently verified; MSRP only, wholesale prices referred to separate code guides. Screenshot cache miss; text table read."
+    },
+    {
+      "id": "jan_cut",
+      "url": "https://www.carsdirect.com/automotive-news/2024-jeep-grand-cherokee-prices-cut-by-up-to-4-000",
+      "date": "2024-02-09",
+      "event": "2024-01-31",
+      "type": "Original reporting with company confirmation",
+      "novelty": "Existing source, new arithmetic",
+      "limit": "Some prior rebates removed; no matched transaction or effective dealer-cost change."
+    },
+    {
+      "id": "complaint",
+      "url": "https://static.blbglaw.com/docs/March%2031,%202025%20-%20Amended%20Complaint_Stellantis.pdf",
+      "date": "2025-03-31",
+      "locator": "Paragraphs 61-63, 70-71, 100-102, 105; PDF pages 25-28,38-40",
+      "type": "Plaintiff-authored securities complaint with anonymous attributed accounts",
+      "novelty": "New source family and internal decision-mechanism allegations",
+      "summary": "Attributed former Jeep product staff describe margin targets constraining price reductions. A former employee relays dealers saying allocation acceptance earned coupons; another dealer account describes a floorplan financing limit preventing desired orders.",
+      "limit": "Not adjudicated findings; interviews not independently verified; coupon account partly secondhand. Quoted Asbury material elsewhere is not independent evidence. Do not adopt allegations of illegality or fraud."
+    },
+    {
+      "id": "fiat_coupon",
+      "url": "https://www.carsdirect.com/deals-articles/2024-fiat-500e-discount-exceeds-30-off-msrp",
+      "date": "2024-09-25",
+      "type": "Original pricing reporting citing Stellantis",
+      "novelty": "Independent operational example of finite dealer-specific coupon support",
+      "finding": "500e program: $500 coupons, up to six per vehicle, finite dealer allotments, combinable with $7500 SFS lease credit.",
+      "limit": "Different model; does not establish Ram/Jeep allocation conditions, national prevalence, or margin impact."
+    },
+    {
+      "id": "gc_buyer",
+      "url": "https://forum.leasehackr.com/t/deal-check-2024-jeep-gc-4xe-anniversary-edition/550597",
+      "date": "2024-04-25 to 2024-04-27",
+      "locator": "Initial quote and final buyer update, posts 1 and 13",
+      "type": "Self-reported negotiation outcome, not independently verified contract",
+      "novelty": "Same-shopper cross-dealer quote dispersion after April lender change",
+      "finding": "Colorado shopper reports $606/month, zero down,27 months,10k miles/year, and $19600 rebates; competing quotes on same vehicle reportedly $780 and over $900.",
+      "limit": "Exact competing upfront terms, credit, taxes, fees, incentive components and lender not verified. Colorado support and shipment from another state make it nonrepresentative. Forum SFS breakdown is conjectural; no validation of an interest-rate or national credit change."
+    },
+    {
+      "id": "ram_buyer",
+      "url": "https://www.ramforum.com/threads/2024-invoice-prices.205519/",
+      "date": "2023-12-18 to 2023-12-23",
+      "locator": "Posts 1,6,11",
+      "type": "Self-reported consumer case plus dealer vendor reply",
+      "novelty": "Customer path around early order cutoff",
+      "finding": "Rebel G/T shopper could not factory order after MY2024 order closure, found near match in Ohio for shipment to New York.",
+      "limit": "Not lost Ram sale; no evidence of national prevalence or exact transaction economics."
+    },
+    {
+      "id": "compass_price",
+      "url": "https://www.carsdirect.com/deals-articles/2024-jeep-compass-base-price-cut-by-2-500",
+      "date": "2024-02-27",
+      "type": "Pricing report",
+      "novelty": "Found in interrupted prior pass, now reconciled with quarterly sales",
+      "finding": "MY2024 starting price reduced $2500 to $27495 including destination; reduction by trim differs.",
+      "limit": "No verified net-offer or invoice series; reported timing is late February, not exact effective date."
+    },
+    {
+      "id": "compass_product",
+      "url": "https://www.prnewswire.com/news-releases/2023-jeep-compass-4x4-newly-equipped-with-standard-advanced-2-0-liter-turbocharged-engine-for-optimal-performance-301685418.html",
+      "date": "2022-11-22",
+      "type": "OEM announcement",
+      "novelty": "Prior interrupted-pass lead; product-change control",
+      "finding": "MY2023 turbo engine and standard 4x4; not an unchanged vehicle across the whole scarcity period."
+    },
+    {
+      "id": "q1",
+      "url": "https://www.prnewswire.com/news-releases/fca-reports-first-quarter-2024-us-sales-results-302107281.html",
+      "type": "OEM sales table",
+      "novelty": "Existing source, new Compass quarterly reconciliation"
+    },
+    {
+      "id": "q2",
+      "url": "https://www.prnewswire.com/news-releases/fca-reports-second-quarter-2024-us-sales-results-302188464.html",
+      "type": "OEM sales table",
+      "novelty": "Existing source, new Compass quarterly reconciliation"
+    },
+    {
+      "id": "q3",
+      "url": "https://www.prnewswire.com/news-releases/fca-reports-q3-2024-total-us-sales-302265584.html",
+      "type": "OEM sales table",
+      "novelty": "Existing source, new Compass quarterly reconciliation"
+    },
+    {
+      "id": "q4",
+      "url": "https://www.prnewswire.com/news-releases/fca-us-reports-fourth-quarter-and-full-year-2024-sales-results-302342164.html",
+      "type": "OEM sales release",
+      "locator": "Grand Cherokee retail bullet and total-model table",
+      "novelty": "Existing source; Q4 retail +17% newly incorporated in channel calculation"
+    }
+  ],
+  "calculations": {
+    "compass_quarters": [
+      {
+        "quarter": "Q1",
+        "units_2023": 23209,
+        "units_2024": 27647,
+        "change": 4438,
+        "growth_pct": 19.121892369339477
+      },
+      {
+        "quarter": "Q2",
+        "units_2023": 28083,
+        "units_2024": 22195,
+        "change": -5888,
+        "growth_pct": -20.966420966420962
+      },
+      {
+        "quarter": "Q3",
+        "units_2023": 20268,
+        "units_2024": 34632,
+        "change": 14364,
+        "growth_pct": 70.87033747779752
+      },
+      {
+        "quarter": "Q4",
+        "units_2023": 24613,
+        "units_2024": 27223,
+        "change": 2610,
+        "growth_pct": 10.604152277251867
+      }
+    ],
+    "compass_fy_change": 15524,
+    "compass_q3_share_of_net_fy_increase_pct": 92.52769904663747,
+    "compass_h1_growth_pct": -2.826951571395153,
+    "gc_q4": {
+      "total_2023": 61723,
+      "total_2024": 55209,
+      "change": -6514,
+      "total_growth_pct": -10.553602384848437,
+      "retail_growth_pct_reported_rounded": 17,
+      "fleet_identity": "Delta fleet = -6514 - Delta retail. Positive retail growth requires fleet contraction greater than 6514 vehicles, assuming comparable populations and classification.",
+      "limit": "No absolute retail base, 4xe channel split, or inference of consumer substitution."
+    },
+    "gc_sticker_bridge_usd_ex_destination": [
+      {
+        "model": "MY2024 Grand Cherokee two-row Laredo 4x4",
+        "before_nov8_derived": 39035,
+        "nov8_reported": 42035,
+        "jan31_cut_reported": 2000,
+        "after_jan31_derived": 40035,
+        "net_change": 1000
+      },
+      {
+        "model": "MY2024 Grand Cherokee two-row Limited 4x4",
+        "before_nov8_derived": 48405,
+        "nov8_reported": 51405,
+        "jan31_cut_reported": 3500,
+        "after_jan31_derived": 47905,
+        "net_change": -500
+      }
+    ]
+  },
+  "hypothesis_updates": {
+    "wholesale_pricing": "Effective wholesale cost relative to rivals remains unmeasured. Sticker bridge strengthens timing mismatch; not invoice proof.",
+    "dealer_programs": "Finite allocation of support has independent other-model example; inventory-conditioning details remain testimonial.",
+    "gc_channel": "Strong new derived qualification: Q4 whole-model net total decline was in fleet while retail rose, conditional on comparable definitions. Not transferable to 4xe.",
+    "gc_customer_offer": "Dealer dispersion case strengthens distribution/negotiation mechanism; no national matched payment trend.",
+    "ram_supply": "Configuration friction can end in a completed sale; do not equate order cutoff with lost demand.",
+    "compass": "Growing annual total is not a clean price-cut response: H1 negative; Q3 supplies92.5% of net annual gain; household/fleet mix unresolved."
+  },
+  "novelty": {
+    "new_sources": [
+      "Complaint attributed internal accounts",
+      "GC same-shopper dealer comparison",
+      "Ram order-cutoff purchase path",
+      "Finite Fiat coupon-program example"
+    ],
+    "new_derived_from_existing_sources": [
+      "GC November/January sticker bridge",
+      "GC Q4 retail-versus-total fleet identity",
+      "Compass quarter concentration"
+    ],
+    "not_resolved": [
+      "Effective dealer cost and actual payments versus rivals",
+      "4xe lender penetration and powertrain-channel sales",
+      "Compass retail/fleet breakdown",
+      "Model-level dealer GPU and aged sellable stock",
+      "Causal shares and price elasticity"
+    ]
+  },
+  "low_yield_and_exclusions": [
+    "Two Compass fleet searches returned no model-level channel split; stop repeating general searches.",
+    "Ram invoice query found consumer path, not actual effective invoice panel.",
+    "No matching historical primary lender bulletins recovered; existing prior failures not repeated.",
+    "Annual-report SEC HTML fetch too large; no bulk retrieval to reprove baseline.",
+    "Dealer price memo screenshot cache miss; no visual verification claimed.",
+    "Canadian fleet programs, July2025 residual guide, current dealer pages and suspicious undated deal content excluded from2024US comparisons.",
+    "Complaint quotations of public Asbury call not treated as independent corroboration.",
+    "Fiat coupon program not assigned to Jeep/Ram without evidence."
+  ],
+  "model_use": {
+    "historical": [
+      "Quarterly total units",
+      "Reported whole-model Q4 retail growth",
+      "Conditional fleet-direction identity"
+    ],
+    "scenario": [
+      "Competitive offer improvement",
+      "Dealer support accessibility",
+      "Available configuration recovery"
+    ],
+    "exclude": [
+      "Anonymous internal claims as verified numbers",
+      "National elasticity inferred from one deal",
+      "Historical MSRP bridge as net acquisition cost",
+      "Annual Compass growth as proven household recovery"
+    ]
+  },
+  "stop_reason": "Further causal precision requires program bulletins, model-channel data or deal-level cost/offer records; further broad narrative searches would recycle evidence.",
+  "next_requests": [
+    {
+      "priority": 1,
+      "source": "AlphaSense expert call with former Jeep pricing/product marketing or CDJR dealer principal/finance manager active2023-24",
+      "period": "Late2022 to mid2024; prioritize discussion of February-November2023 price decisions and2024 stock acceptance",
+      "ask": "Which model/trim offers could be changed, what constrained cuts, exact coupon allocation/expiry, cost support and pass-through? Seek dated examples rather than general opinions."
+    },
+    {
+      "priority": 2,
+      "source": "CCAP and SFS March-June2024 Grand Cherokee4xe program bulletins or informed auto-finance expert",
+      "ask": "Same ZIP/trim/term/credit tier; credit, money factor,residual,eligibility and actual lender penetration. Could dealer switch lender? Why did terms change?"
+    },
+    {
+      "priority": 3,
+      "source": "CapIQ/AlphaSense reports citing S&P Global Mobility,Experian or Motor Intelligence model registrations",
+      "period": "Quarterly2023-2024",
+      "ask": "US Grand Cherokee gasoline/4xe and Compass retail,rental,commercial/government split. Accept public partial disclosures; do not buy datasets without approval."
+    }
+  ]
+}

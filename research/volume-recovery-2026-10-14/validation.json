@@ -1,0 +1,82 @@
+{
+  "status": "passed arithmetic and schema checks; not independent forecast validation",
+  "checks": {
+    "reported_totals": {
+      "2018A": 2235204,
+      "2019A": 2203663,
+      "2025A": 1260344,
+      "2024Q4A": 320743,
+      "2025Q4A": 332321,
+      "2025Q1A": 293225,
+      "2026Q1A": 305902,
+      "2025Q2A": 309973,
+      "2026Q2A": 328284,
+      "2025Q3A": 324825,
+      "2026Q3A": 324277,
+      "2025YTDQ3A": 928023,
+      "2026YTDQ3A": 958463,
+      "2023A": 1527090,
+      "2024A": 1303570,
+      "2022A_partial": null,
+      "2024Q1A": null,
+      "2024Q2A": null,
+      "2024Q3A": null
+    },
+    "coverage_residuals": {
+      "2018A": 0,
+      "2019A": 0,
+      "2025A": 3,
+      "2024Q4A": 0,
+      "2025Q4A": 0,
+      "2025Q1A": 360,
+      "2026Q1A": 46,
+      "2025Q2A": 152,
+      "2026Q2A": 6,
+      "2025Q3A": 475,
+      "2026Q3A": 46,
+      "2025YTDQ3A": 3317,
+      "2026YTDQ3A": 225,
+      "2023A": 4,
+      "2024A": -1,
+      "2022A_partial": null,
+      "2024Q1A": null,
+      "2024Q2A": null,
+      "2024Q3A": null
+    },
+    "ram_pickup_2024_loss_units": 71806,
+    "ram_pickup_share_2024_net_decline_pct": 32.12508947745169,
+    "2026_q2_published_h1_minus_original_q1_plus_q2": 159,
+    "2026_q3_ytd_minus_original_q1_q2_q3": 0,
+    "2026_q3_ytd_minus_published_h1_plus_q3": -159,
+    "2025_minivan_q3_comparative_pacifica_minus_old_pacifica_ytd": 11809,
+    "2025_voyager_ytd_from_fy_less_q4": 11809,
+    "2026_q1_minivan_combined": 25416,
+    "2026_q2_h1_minivan_less_q2": 25416,
+    "2026_q3_charger_combined_yoy_pct": 22.063702720637025,
+    "2026_ytd_charger_combined_yoy_pct": -1.6437437101643693,
+    "2026_q3_jeep_delta": -32022,
+    "2026_q3_cherokee_compass_gc_delta": -23588,
+    "2026_ytd_us_delta": 30440,
+    "2026_ytd_ram_ld_delta": 58883,
+    "2026_ytd_ex_ram_ld_delta": -28443,
+    "2026_ytd_ex_ram_ld_growth_pct": -3.6244248234171272
+  },
+  "forecast_totals": {
+    "2027": {
+      "downside": 1110000,
+      "base": 1408000,
+      "upside": 1615000
+    },
+    "2028": {
+      "downside": 1142000,
+      "base": 1491000,
+      "upside": 1760000
+    },
+    "2025_comparable_actual": 1231756,
+    "2026_comparable_flat_q4_reference": 1277570,
+    "2025_us_sales_coverage_pct": 97.73173038472036,
+    "2026_ytd_us_sales_coverage_pct": 99.55814674118876
+  },
+  "all_scenarios_ordered": true,
+  "growth_contributions_reconcile": true
+}

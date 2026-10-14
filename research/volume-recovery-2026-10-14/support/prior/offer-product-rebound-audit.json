@@ -1,0 +1,107 @@
+{
+  "as_of": "2026-10-13",
+  "question": "Why did Stellantis offers and available products fail to generate the peer rebound?",
+  "method": "Checked saved model, dealer and launch audits; six targeted discovery queries across OEM, practitioner, listing-data and consumer/automotive source families, then selective strongest-source follow-up. No agents, paid data, scraping, OCR or fitting. New price/stock data access failures retained.",
+  "sources": {
+    "gm_sales": "https://investor.gm.com/static-files/e1bb38a4-aaf9-4141-b44a-4c61c1f2ec54",
+    "gm_2023_portfolio": "https://investor.gm.com/static-files/9013b36e-1bb8-4c26-a35f-ba015ff632d7",
+    "gm_q1_2024_deck": "https://investor.gm.com/static-files/86b876b4-58b9-4a51-9c37-a9a753b69db1",
+    "gladiator_price": "https://www.prnewswire.com/news-releases/jeep-brand-announces-starting-prices-for-2024-gladiator-lineup-302065358.html",
+    "gladiator_ads": "https://www.autoblog.com/carbuying/jeep-gladiator-discount-price-savings",
+    "ram_interview": "https://www.wardsauto.com/news/fixing-ram-brand-starts-at-the-top/799058/",
+    "fca_sales": "https://www.prnewswire.com/news-releases/fca-us-reports-fourth-quarter-and-full-year-2024-sales-results-302342164.html"
+  },
+  "new_derived_evidence": {
+    "gm_volume_inputs": {
+      "Trax": [
+        109382,
+        200689
+      ],
+      "Envista": [
+        13302,
+        51316
+      ],
+      "GM total": [
+        2594698,
+        2705080
+      ]
+    },
+    "trax_envista_net_gain": 129321,
+    "gm_net_gain": 110382,
+    "rest_of_gm_net_change": -18939,
+    "trax_envista_share_net_gain_pct": 117.15768875360114,
+    "jeep_small_and_compact_nameplate_basket": {
+      "models": [
+        "Compass",
+        "Cherokee",
+        "Renegade"
+      ],
+      "units_2023": 146793,
+      "units_2024": 122976,
+      "change": -23817,
+      "change_pct": -16.224888107743563
+    },
+    "jeep_premium_counterexample": {
+      "models": [
+        "Wagoneer",
+        "Grand Wagoneer"
+      ],
+      "units_2023": 39767,
+      "units_2024": 55084,
+      "change": 15317,
+      "change_pct": 38.51686071365705
+    }
+  },
+  "findings": [
+    {
+      "mechanism": "Portfolio coverage where affordability demand was recovering",
+      "new_evidence": "GM Trax and Envista jointly added129321 US units in2024 versus GM total gain110382. Remaining GM models netted\u221218939. GM Q12024 deck p7 reports Trax incentives about95% below small-SUV segment and Envista85% below its segment average. GM2023 portfolio p4 reports69% Envista buyers new to Buick, citing early-buyer study.",
+      "interpretation": "Rivals growth was partly new lower-priced product availability, not just heavier discounts. Jeep Compass growth did not offset Cherokee/Renegade contraction.",
+      "limits": "Total units include fleet; first full sales year and supply ramp contribute. New to Buick is not necessarily new to GM or conquest from Jeep. Baskets are not identical price/size/configuration competitors. Shares of net growth are arithmetic, not causal or profit weights. Manufacturer incentive comparisons not independently validated."
+    },
+    {
+      "mechanism": "Inventory composition and launch execution",
+      "evidence_status": "Previously identified; primary interview reread",
+      "finding": "Ram CEO describes simultaneous architecture/powertrain/vehicle changes preventing targeted production and trim mix; Tungsten/Rebel limited stock coexisted with broader excess inventory.",
+      "interpretation": "Discounting available inventory cannot fully substitute for missing desired configurations.",
+      "limits": "Management attribution; no observed number of lost sales or independent trim panel. Do not generalize all premium trucks lacked demand. Article cargo-van figure conflicts with official data and is excluded."
+    },
+    {
+      "mechanism": "Price and appeal interaction, rather than a price-only solution",
+      "new_evidence": "Jeep February2024 announcement lowered Gladiator starting MSRP by1725 to37895 before1895 destination. Contemporary September2023 reporting documented10% manufacturer offer and large individual dealer markdowns.2024 model sales42123 versus55188 in2023 (\u221223.7%).",
+      "interpretation": "Documented pricing action did not coincide with annual volume recovery. Product positioning or insufficient effective affordability remains plausible.",
+      "limits": "No matched transaction/financing series, constant availability or counterfactual. Advertised offers not actual averages;23MY clearance and24MY starting MSRP not comparable. Does not prove discounts ineffective or structural rejection."
+    },
+    {
+      "mechanism": "Dealer support did not reach every offer equally",
+      "evidence_status": "Existing Asbury audit; no new national corroboration",
+      "finding": "Asbury Q32024 described inventory-conditioned coupons and opting out, while reporting competitive disadvantage.",
+      "interpretation": "Headline average incentive dollars may not describe the price offered by a given dealer.",
+      "limits": "Single dealer group, no prevalence or model-specific causal weight."
+    },
+    {
+      "mechanism": "Some products and channels did recover",
+      "evidence_status": "Existing official model data; new basket arithmetic",
+      "finding": "Compass+16.1%, Wagoneer+47.9%, Grand Wagoneer+12.6% in2024; Grand Cherokee Q4 retail+17% despite falling total sales.",
+      "interpretation": "Reject universal Jeep rejection or universal premium-demand collapse. Net company weakness mixes product exits, product-specific execution and channel changes."
+    }
+  ],
+  "limitations": [
+    "No causal weight or net-payment elasticity estimated.",
+    "No inference that all Stellantis products faced identical customer problems.",
+    "No claim that GM growth was entirely affordable SUVs: net growth concentration offsets gains and losses elsewhere.",
+    "Expected recovery requires viable products at competitive payments and profitable support, not just higher volume."
+  ],
+  "excluded_sources": [
+    {
+      "url": "https://lotlinx.com/wp-content/uploads/Vincensus-April-2024-1.pdf",
+      "reason": "New promising model-stock lead; both direct and www web fetch failed. Search snippet231 for Gladiator cannot establish metric/denominator; do not use."
+    },
+    {
+      "url": "https://fcatadvantage-com.cdn-convertus.com/uploads/sites/224/2024/07/EBC-July-2024-Retail-Incentive-Program-Landscapes-07-03-2024-2.pdf",
+      "reason": "Actual program bulletin but FCA CANADA / Canadian banks. Excluded from US offer analysis."
+    }
+  ],
+  "model_use": "Use volume bridges and product coverage as historical inputs. Use offer access, mix and appeal as qualitative mechanisms/scenarios, not assigned percentages.",
+  "next_step": "Model recovery by restored product coverage, Ram available configurations and realized net offers. A further causal-price test needs a genuinely matched dated US program/transaction series; stop broad normalization searches."
+}

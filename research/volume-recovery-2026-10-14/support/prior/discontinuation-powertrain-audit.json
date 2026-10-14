@@ -1,0 +1,114 @@
+{
+  "as_of": "2026-10-08",
+  "scope": "Bounded discovery, US total model sales, includes fleet. No bulk collection, agents, paid data or causal fitting.",
+  "sources": {
+    "sales2020": "https://www.prnewswire.com/news-releases/fca-us-reports-fourth-quarter-and-full-year-2020-sales-results-301201374.html",
+    "sales2021": "https://www.prnewswire.com/news-releases/fca-us-reports-fourth-quarter-and-full-year-2021-sales-results-301454067.html",
+    "sales2023": "https://www.prnewswire.com/news-releases/fca-reports-fourth-quarter-and-full-year-2023-sales-results-302025792.html",
+    "sales2024": "https://www.prnewswire.com/news-releases/fca-us-reports-fourth-quarter-and-full-year-2024-sales-results-302342164.html",
+    "belvidere": "https://apnews.com/article/ff9165948b93af5c9ecae991b0883b3d",
+    "charger_plan": "https://www.stellantisfleet.com/content/dam/fca-fleet/na/fleet/en_us/news-and-events/fca-news/dodge-delivers-worlds-first-and-only-electric-muscle-car-announces-all-new-dodge-charger-multi-energy-lineup.pdf",
+    "q32025": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events-and-presentations/other-documents/Stellantis-Q32025-Shipments-and-Revenues-Call-Transcript.pdf",
+    "reset2026": "https://www.stellantis.com/en/news/press-releases/2026/february/stellantis-resets-its-business-to-meet-customer-preferences-and-to-support-profitable-growth",
+    "ford2024": "https://evrider.tv/wp-content/uploads/2025/01/Ford-U-S-Q4-2024-Sales-Release.pdf",
+    "loyalty_product": "https://www.spglobal.com/mobility/en/products/automotive-loyalty-conquest-analytics.html",
+    "cherokee_hybrid": "https://www.jeep.com/cherokee/faq.html",
+    "fy2025": "https://www.stellantis.com/en/news/press-releases/2026/february/full-year-2025-results",
+    "phev_exit_report": "https://www.caranddriver.com/news/a69958232/stellantis-traditional-plug-in-hybrids-discontinued-2026/"
+  },
+  "units_observed": {
+    "Cherokee": {
+      "2019": 191397,
+      "2020": 135855,
+      "2021": 89126,
+      "2022": 40322,
+      "2023": 24609,
+      "2024": 2839
+    },
+    "Charger": {
+      "2019": 96935,
+      "2020": 77425,
+      "2021": 78389,
+      "2022": 80074,
+      "2023": 75898,
+      "2024": 34754
+    },
+    "Challenger": {
+      "2019": 60997,
+      "2020": 52955,
+      "2021": 54314,
+      "2022": 55060,
+      "2023": 44960,
+      "2024": 27056
+    }
+  },
+  "vintage": "2019/20 from 2020 release, 2021 from 2021 release, 2022 from 2023 release, 2023/24 from 2024 release. Original 2023 Charger75920 revised comparative75898; not silently mixed.",
+  "derived": {
+    "cherokee_2019_2022_change_pct": -78.93279413992904,
+    "charger_2020_2022_change_pct": 3.42137552470132,
+    "challenger_2020_2022_change_pct": 3.97507317533754,
+    "mustang_2023_2024": [
+      48605,
+      44003
+    ]
+  },
+  "findings": [
+    {
+      "claim": "Cherokee decline predates production stop; healthy pre-exit retail demand not established.",
+      "evidence": "Sales 191397 in2019 to40322 in2022. Belvidere stopped February28 2023. Semiconductor constraints confound realized sales.",
+      "status": "Observed trend; demand/supply decomposition unknown."
+    },
+    {
+      "claim": "Belvidere rationale included funding/absorbing EV transition costs and footprint optimization.",
+      "evidence": "Tavares remarks reported contemporaneously by AP February28 2023.",
+      "status": "Management rationale, not proof Cherokee unprofitable."
+    },
+    {
+      "claim": "Charger/Challenger held up better in2020\u201322, both fell2023.",
+      "evidence": "Official sales time series.",
+      "status": "Does not establish healthy margins, incentives or retail mix."
+    },
+    {
+      "claim": "Gas Charger was in plan by March2024; do not describe entire strategy as permanent EV-only replacement.",
+      "evidence": "March5 2024 announcement scheduled ICE SIXPACK Q12025. Oct30 2025 call still described production as forthcoming.",
+      "status": "Documented slippage; model/trims and deliveries distinct."
+    },
+    {
+      "claim": "Some Dodge inventory was deliberately built as a bridge.",
+      "evidence": "User-provided July25 2024 call p8; October31 2024 call p13 corroborates same management account.",
+      "status": "Management assertion; no model inventory quantity or adequacy established."
+    },
+    {
+      "claim": "Renegade unprofitability explicitly stated; cannot transfer statement to Cherokee.",
+      "evidence": "User-provided July25 2024 call p14.",
+      "status": "Management assertion for Renegade only."
+    },
+    {
+      "claim": "Customer destinations unresolved.",
+      "evidence": "Public loyalty search did not yield model owner transition matrix. Mustang fell9.5%2024.",
+      "status": "Mustang decline challenges simple absorption story, does not rule out gross conquest."
+    },
+    {
+      "claim": "2025\u201326 strategy restores ICE choice and introduces conventional hybrid Cherokee; planned Ram BEV canceled.",
+      "evidence": "Official2026 reset and FY2025 release.",
+      "status": "Product action is not proof of sustainable retail recovery."
+    }
+  ],
+  "powertrain_definitions": {
+    "ICE": "Combustion engine, gasoline or diesel; V8 to turbo I6 is still ICE.",
+    "MHEV": "Small electric assist; not equivalent to full hybrid.",
+    "HEV": "Full hybrid engine plus motor; no external charging. New Cherokee.",
+    "PHEV": "Engine plus rechargeable battery allowing electric driving; historical Wrangler/GrandCherokee4xe and PacificaHybrid.",
+    "BEV": "Battery and motors only; needs charging. ChargerDaytona.",
+    "EREV": "Electric wheel drive with combustion generator extending range; plug-in architecture, not BEV."
+  },
+  "limitations": [
+    "No matched model incentive/transaction-price history; no model contribution margins.",
+    "No public owner-level migration dataset obtained; online anecdotes not quantified.",
+    "Chip shortages and allocation can depress sales before discontinuation.",
+    "Last Call effects and final-year discounts remain unmeasured.",
+    "Powertrain outcomes require net STLA retail accounting, avoiding internal cannibalization and dealer refill.",
+    "Contemporary2026 PHEV withdrawal report surfaced; avoid treating historic4xe lineup as unchanged current availability."
+  ],
+  "next_step": "Highest information gain: owner return-to-market destination table for Cherokee, Charger, Challenger (brand/model, new/used, retail, time period, denominators) if available through existing subscriptions; paired pre-exit model incentives/inventory to distinguish healthy demand from clearance. No purchase authorized."
+}

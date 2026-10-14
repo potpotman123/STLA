@@ -1,0 +1,438 @@
+{
+  "as_of": "2026-10-08",
+  "scope": "Calendar-year US reported vehicle sales, retail plus fleet, FCA US brands excluding Maserati. Not North America-wide, revenue or wholesale shipments.",
+  "sources": [
+    {
+      "url": "https://www.prnewswire.com/news-releases/fca-us-reports-fourth-quarter-and-full-year-2024-sales-results-302342164.html",
+      "location": "CYTD current/prior-year columns of full model table",
+      "accessed": "2026-10-08"
+    },
+    {
+      "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/financial-reports/Stellantis-NV-20241231-Annual-Report.pdf",
+      "location": "North America segment performance, printed page 58",
+      "use": "Management identifies discontinued Charger, Challenger, 300, Cherokee and Renegade as shipment headwinds."
+    }
+  ],
+  "rows": [
+    {
+      "brand": "Jeep",
+      "model": "Compass",
+      "units_2023": 96173,
+      "units_2024": 111697,
+      "change": 15524,
+      "change_pct": 16.141744564482764,
+      "previously_compared": true,
+      "share_of_reported_net_unit_decline_pct": -6.945239799570508
+    },
+    {
+      "brand": "Jeep",
+      "model": "Patriot",
+      "units_2023": 1,
+      "units_2024": 0,
+      "change": -1,
+      "change_pct": -100.0,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": 0.00044738725841088047
+    },
+    {
+      "brand": "Jeep",
+      "model": "Wrangler",
+      "units_2023": 156581,
+      "units_2024": 151163,
+      "change": -5418,
+      "change_pct": -3.460189933644564,
+      "previously_compared": true,
+      "share_of_reported_net_unit_decline_pct": 2.4239441660701506
+    },
+    {
+      "brand": "Jeep",
+      "model": "Gladiator",
+      "units_2023": 55188,
+      "units_2024": 42123,
+      "change": -13065,
+      "change_pct": -23.673624701021957,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": 5.845114531138154
+    },
+    {
+      "brand": "Jeep",
+      "model": "Cherokee",
+      "units_2023": 24609,
+      "units_2024": 2839,
+      "change": -21770,
+      "change_pct": -88.46357023853062,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": 9.739620615604867
+    },
+    {
+      "brand": "Jeep",
+      "model": "Grand Cherokee",
+      "units_2023": 244594,
+      "units_2024": 216148,
+      "change": -28446,
+      "change_pct": -11.62988462513389,
+      "previously_compared": true,
+      "share_of_reported_net_unit_decline_pct": 12.726377952755904
+    },
+    {
+      "brand": "Jeep",
+      "model": "Renegade",
+      "units_2023": 26011,
+      "units_2024": 8440,
+      "change": -17571,
+      "change_pct": -67.5521894583061,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": 7.86104151753758
+    },
+    {
+      "brand": "Jeep",
+      "model": "Wagoneer",
+      "units_2023": 29149,
+      "units_2024": 43125,
+      "change": 13976,
+      "change_pct": 47.94675632097156,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": -6.252684323550466
+    },
+    {
+      "brand": "Jeep",
+      "model": "Wagoneer S",
+      "units_2023": 0,
+      "units_2024": 231,
+      "change": 231,
+      "change_pct": null,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": -0.10334645669291338
+    },
+    {
+      "brand": "Jeep",
+      "model": "Grand Wagoneer",
+      "units_2023": 10618,
+      "units_2024": 11959,
+      "change": 1341,
+      "change_pct": 12.629497080429463,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": -0.5999463135289906
+    },
+    {
+      "brand": "Ram",
+      "model": "Ram pickups",
+      "units_2023": 444926,
+      "units_2024": 373120,
+      "change": -71806,
+      "change_pct": -16.138863541352944,
+      "previously_compared": true,
+      "share_of_reported_net_unit_decline_pct": 32.12508947745169
+    },
+    {
+      "brand": "Ram",
+      "model": "ProMaster",
+      "units_2023": 81663,
+      "units_2024": 65869,
+      "change": -15794,
+      "change_pct": -19.340460183926623,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": 7.066034359341446
+    },
+    {
+      "brand": "Ram",
+      "model": "ProMaster City",
+      "units_2023": 12887,
+      "units_2024": 50,
+      "change": -12837,
+      "change_pct": -99.61201210522232,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": 5.743110236220472
+    },
+    {
+      "brand": "Chrysler",
+      "model": "300",
+      "units_2023": 13169,
+      "units_2024": 5295,
+      "change": -7874,
+      "change_pct": -59.79193560634823,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": 3.5227272727272725
+    },
+    {
+      "brand": "Chrysler",
+      "model": "Town & Country",
+      "units_2023": 2,
+      "units_2024": 0,
+      "change": -2,
+      "change_pct": -100.0,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": 0.0008947745168217609
+    },
+    {
+      "brand": "Chrysler",
+      "model": "Voyager",
+      "units_2023": 0,
+      "units_2024": 12033,
+      "change": 12033,
+      "change_pct": null,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": -5.383410880458125
+    },
+    {
+      "brand": "Chrysler",
+      "model": "Pacifica",
+      "units_2023": 120554,
+      "units_2024": 107356,
+      "change": -13198,
+      "change_pct": -10.947791031405018,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": 5.9046170365068
+    },
+    {
+      "brand": "Dodge",
+      "model": "Dart",
+      "units_2023": 3,
+      "units_2024": 1,
+      "change": -2,
+      "change_pct": -66.66666666666667,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": 0.0008947745168217609
+    },
+    {
+      "brand": "Dodge",
+      "model": "Viper",
+      "units_2023": 2,
+      "units_2024": 1,
+      "change": -1,
+      "change_pct": -50.0,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": 0.00044738725841088047
+    },
+    {
+      "brand": "Dodge",
+      "model": "Hornet",
+      "units_2023": 9336,
+      "units_2024": 20559,
+      "change": 11223,
+      "change_pct": 120.2120822622108,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": -5.021027201145312
+    },
+    {
+      "brand": "Dodge",
+      "model": "Charger",
+      "units_2023": 75898,
+      "units_2024": 34754,
+      "change": -41144,
+      "change_pct": -54.20959709083244,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": 18.407301360057264
+    },
+    {
+      "brand": "Dodge",
+      "model": "Challenger",
+      "units_2023": 44960,
+      "units_2024": 27056,
+      "change": -17904,
+      "change_pct": -39.822064056939496,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": 8.010021474588404
+    },
+    {
+      "brand": "Dodge",
+      "model": "Journey",
+      "units_2023": 36,
+      "units_2024": 0,
+      "change": -36,
+      "change_pct": -100.0,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": 0.016105941302791697
+    },
+    {
+      "brand": "Dodge",
+      "model": "Caravan",
+      "units_2023": 27,
+      "units_2024": 2,
+      "change": -25,
+      "change_pct": -92.5925925925926,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": 0.011184681460272012
+    },
+    {
+      "brand": "Dodge",
+      "model": "Durango",
+      "units_2023": 69196,
+      "units_2024": 59357,
+      "change": -9839,
+      "change_pct": -14.2190300017342,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": 4.401843235504653
+    },
+    {
+      "brand": "Fiat",
+      "model": "500",
+      "units_2023": 12,
+      "units_2024": 970,
+      "change": 958,
+      "change_pct": 7983.333333333333,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": -0.4285969935576235
+    },
+    {
+      "brand": "Fiat",
+      "model": "500L",
+      "units_2023": 7,
+      "units_2024": 0,
+      "change": -7,
+      "change_pct": -100.0,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": 0.0031317108088761633
+    },
+    {
+      "brand": "Fiat",
+      "model": "500X",
+      "units_2023": 554,
+      "units_2024": 558,
+      "change": 4,
+      "change_pct": 0.7220216606498298,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": -0.0017895490336435219
+    },
+    {
+      "brand": "Fiat",
+      "model": "Spider",
+      "units_2023": 32,
+      "units_2024": 0,
+      "change": -32,
+      "change_pct": -100.0,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": 0.014316392269148175
+    },
+    {
+      "brand": "Alfa Romeo",
+      "model": "Giulia",
+      "units_2023": 3461,
+      "units_2024": 2320,
+      "change": -1141,
+      "change_pct": -32.96735047674083,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": 0.5104688618468146
+    },
+    {
+      "brand": "Alfa Romeo",
+      "model": "4C",
+      "units_2023": 1,
+      "units_2024": 0,
+      "change": -1,
+      "change_pct": -100.0,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": 0.00044738725841088047
+    },
+    {
+      "brand": "Alfa Romeo",
+      "model": "Stelvio",
+      "units_2023": 5340,
+      "units_2024": 3162,
+      "change": -2178,
+      "change_pct": -40.78651685393259,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": 0.9744094488188977
+    },
+    {
+      "brand": "Alfa Romeo",
+      "model": "Tonale",
+      "units_2023": 2096,
+      "units_2024": 3383,
+      "change": 1287,
+      "change_pct": 61.40267175572518,
+      "previously_compared": false,
+      "share_of_reported_net_unit_decline_pct": -0.5757874015748032
+    }
+  ],
+  "reported_brand_totals": {
+    "Jeep": {
+      "2024": 587725,
+      "2023": 642924
+    },
+    "Ram": {
+      "2024": 439039,
+      "2023": 539476
+    },
+    "Chrysler": {
+      "2024": 124683,
+      "2023": 133729
+    },
+    "Dodge": {
+      "2024": 141730,
+      "2023": 199458
+    },
+    "Fiat": {
+      "2024": 1528,
+      "2023": 605
+    },
+    "Alfa Romeo": {
+      "2024": 8865,
+      "2023": 10898
+    }
+  },
+  "reported_us_totals": {
+    "2023": 1527090,
+    "2024": 1303570
+  },
+  "reported_brand_minus_model_sums": {
+    "Jeep": {
+      "2024": 0,
+      "2023": 0
+    },
+    "Ram": {
+      "2024": 0,
+      "2023": 0
+    },
+    "Chrysler": {
+      "2024": -1,
+      "2023": 4
+    },
+    "Dodge": {
+      "2024": 0,
+      "2023": 0
+    },
+    "Fiat": {
+      "2024": 0,
+      "2023": 0
+    },
+    "Alfa Romeo": {
+      "2024": 0,
+      "2023": 0
+    }
+  },
+  "reported_us_minus_model_sums": {
+    "2023": 4,
+    "2024": -1
+  },
+  "selected_totals": {
+    "2023": 942274,
+    "2024": 852128
+  },
+  "omitted_totals": {
+    "2023": 584816,
+    "2024": 451442
+  },
+  "omitted_2024_share_pct": 34.63120507529323,
+  "omitted_share_net_decline_pct": 59.669828203292774,
+  "five_discontinuation_exposed_nameplates": {
+    "models": [
+      "300",
+      "Challenger",
+      "Charger",
+      "Cherokee",
+      "Renegade"
+    ],
+    "net_unit_decline": 106263,
+    "share_of_total_net_decline_pct": 47.54071224051539,
+    "interpretation": "Descriptive concentration, not causal attribution. Charger row may include next-generation sales; cessation itself may reflect earlier weak economics."
+  },
+  "limitations": [
+    "Source model rows do not precisely sum to published brand/US totals. Retain residual rather than silently change values.",
+    "2023 comparatives use 2024 release vintage, may differ from original 2023 release.",
+    "Voyager separately reported as 12033 in 2024 versus zero in comparative; do not infer organic growth without classification verification. Pacifica+Voyager combined decreases 1165, or 0.966%.",
+    "No uniform model-level retail/fleet split; commercial vans especially cannot be assumed to share company retail mix.",
+    "Availability, pricing, incentives and consumer preferences not causally separated."
+  ],
+  "next_step": "Prioritize replacement-gap timing and predecessor demand; test Gladiator and ProMaster against segment peers; reconcile Pacifica/Voyager classification before treating standalone Pacifica decline as lost customers."
+}
