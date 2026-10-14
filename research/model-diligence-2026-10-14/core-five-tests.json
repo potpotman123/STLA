@@ -1,0 +1,107 @@
+{
+  "as_of": "2026-10-14",
+  "scope": "US customer sales, retail plus fleet; not NA wholesale or revenue",
+  "method": "Reused frozen issuer ledger, compared YTD/latest-quarter/trailing-four-quarter pace, then bounded discovery across issuer competitors, dealer program listings and a dated broker offer. Annualizations are diagnostics, not seasonally adjusted forecasts. No new agents or bulk collection.",
+  "rows": [
+    {
+      "id": "ram_ld",
+      "family": "Ram light-duty pickups",
+      "actual_2025": 204139,
+      "ytd_2026": 202147,
+      "ytd_annualized": 269529.3333333333,
+      "q3_annualized": 306600,
+      "trailing_four_quarters": 263022,
+      "proposed_2028": 300000,
+      "required_monthly": 25000.0,
+      "change_vs_trailing_pct": 14.058900015968256
+    },
+    {
+      "id": "ram_hd",
+      "family": "Ram heavy-duty pickups",
+      "actual_2025": 169920,
+      "ytd_2026": 123201,
+      "ytd_annualized": 164268.0,
+      "q3_annualized": 164428,
+      "trailing_four_quarters": 173999,
+      "proposed_2028": 170000,
+      "required_monthly": 14166.666666666666,
+      "change_vs_trailing_pct": -2.2982890706268466
+    },
+    {
+      "id": "grand_cherokee",
+      "family": "Jeep Grand Cherokee",
+      "actual_2025": 210082,
+      "ytd_2026": 139764,
+      "ytd_annualized": 186352.0,
+      "q3_annualized": 152108,
+      "trailing_four_quarters": 195625,
+      "proposed_2028": 205000,
+      "required_monthly": 17083.333333333332,
+      "change_vs_trailing_pct": 4.792332268370614
+    },
+    {
+      "id": "wrangler",
+      "family": "Jeep Wrangler",
+      "actual_2025": 167322,
+      "ytd_2026": 131011,
+      "ytd_annualized": 174681.33333333334,
+      "q3_annualized": 179028,
+      "trailing_four_quarters": 170279,
+      "proposed_2028": 180000,
+      "required_monthly": 15000.0,
+      "change_vs_trailing_pct": 5.7088660375031575
+    },
+    {
+      "id": "minivans",
+      "family": "Chrysler Pacifica / Voyager",
+      "actual_2025": 125798,
+      "ytd_2026": 101611,
+      "ytd_annualized": 135481.33333333334,
+      "q3_annualized": 137964,
+      "trailing_four_quarters": 137236,
+      "proposed_2028": 140000,
+      "required_monthly": 11666.666666666666,
+      "change_vs_trailing_pct": 2.0140487918621996
+    }
+  ],
+  "concentration": {
+    "2025_units": 877261,
+    "2025_us_total": 1260344,
+    "2026_ytd_units": 697734,
+    "2026_ytd_us_total": 958463
+  },
+  "lease_check": {
+    "recomputed_payment": 368.38683333333336,
+    "effective_advertised_payment_before_tax": 480.25,
+    "hypothetical_monthly_increase_if_5250_support_removed_all_else_equal": 228.6725
+  },
+  "sources": [
+    {
+      "id": "F1",
+      "type": "primary issuer",
+      "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000184/exhibit99q32026salesrele.htm",
+      "finding": "Explorer YTD +17.6% to 189210; Bronco Q3 38020 and YTD 114956. Super Duty figure is production, not sales."
+    },
+    {
+      "id": "T1",
+      "type": "primary issuer",
+      "url": "https://www.prnewswire.com/news-releases/toyota-motor-north-america-reports-september-third-quarter-2026-us-sales-results-302896251.html",
+      "finding": "Sienna model-table YTD 84770 versus 75876. Use model table, not slightly different hybrid subtotal."
+    },
+    {
+      "id": "G1",
+      "type": "broker commercial offer; not executed transaction",
+      "url": "https://www.reddit.com/r/autocompanion/comments/1x2kikf/jeep_grand_cherokee_lease_deals_finance_rates/",
+      "finding": "October 9 Northeast Laredo Altitude example: MSRP48000, dealer discount4800, bonus1000, regional lease cash5250, cap36950, residual31200, MF.00189,24months,7500mi/year; advertised368/month,3062DAS including first payment."
+    },
+    {
+      "id": "W1",
+      "type": "dealer advertised manufacturer programs; compatibility unverified",
+      "url": "https://www.cabledahmercdjr.com/manufacturer-specials.aspx?make=Jeep&model=Wrangler&sc=1&sf=1&type=cash&year=2026",
+      "finding": "2026 Wrangler select-inventory bonus41CTU3 $7000 requires sales code49H; other codes carry different amounts. No stacking, age or national average inferred."
+    }
+  ],
+  "input_sha256": "4770bdacf764fddcc76cce95adb4f31b2d3adeff94d16e8a8ab53773c004c8e8",
+  "forecast_changed": false,
+  "workbook_changed": false
+}
