@@ -24,7 +24,10 @@
     "NA_employees_yearend_consolidated": 80247,
     "global_employees_yearend_consolidated": 258668,
     "global_blue_collar_yearend_ESG_broader_scope": 179990,
-    "global_employees_yearend_ESG_broader_scope": 259206
+    "global_employees_yearend_ESG_broader_scope": 259206,
+    "global_plant_machinery_equipment_depreciation_2025": 3.361,
+    "global_buildings_depreciation_2025": 0.594,
+    "global_energy_consumption_MWh_2025_broader_than_plants": 12577752
   },
   "derived": {
     "NA_shipments_share": 0.2684172137126185,
@@ -138,6 +141,7 @@
     "Annual modeled savings divided equally by four; no implementation curve.",
     "Regional allocation ratios are explicit hypothetical sensitivity inputs, not empirically estimated bounds.",
     "Use warranty provision additions less known AOI exclusions as expense proxy, not closing liability or cash settlements.",
-    "Do not count disappearing AOI-excluded charges as future AOI savings."
+    "Do not count disappearing AOI-excluded charges as future AOI savings.",
+    "Manufacturing payroll is only a partial anchor; include eligible maintenance, energy, overhead and plant D&A in full transformation mapping. Apply distinct savings mechanisms; do not haircut D&A mechanically using OPE."
   ]
 }

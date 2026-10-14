@@ -82,3 +82,7 @@ For each eventual approved pool: annual base × achievable reduction × applicab
 ## Next evidence with the highest value
 
 Target a procurement/vehicle-cost source for NA component cost per vehicle versus Europe/rest, and a VCP disclosure separating manufacturing and logistics denominators. For warranty, seek regional ordinary accruals / cost-per-vehicle cohort data. These are specific missing facts; more broad earnings-call reading is unlikely to produce all four. No paid data, bulk scraping or expert outreach initiated.
+
+## Manufacturing scope correction and component follow-up
+
+See [transformation cost follow-up](transformation-cost-follow-up.md): machinery/building depreciation and energy anchors now identified; labor-only estimate must not stand in for the complete transformation cost base. The 2024 supplier map does not establish annual NA consumption.
