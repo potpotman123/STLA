@@ -145,6 +145,18 @@ A classification refinement is needed before workbook population: direct-materia
 
 **Highest-value next evidence:** an actual NA VCP bridge by material/quality/manufacturing/logistics, supplier price-versus-engineering decomposition, and warranty accrual per vehicle by cohort. A purchasing or plant-finance expert who can distinguish booked invoice savings from volume absorption is more useful than another generic turnaround interview. Without those records, retain ranges rather than expanding into weak proxy collection.
 
+## Memo-readiness review: mechanistic support still required
+
+User follow-up, 14 October 2026: explain and substantiate the economic mechanism behind each denominator, eligible share and saving rate. A lower analyst scenario alone does not demonstrate that management's target is unrealistic. No numbers changed in this review.
+
+| Component input | What actually supports it today | Evidence needed to defend the selected number |
+|---|---|---|
+| €35bn NA purchase/expense proxy | Global purchases above €88bn; shipment-weighted allocation with an assumed 1.8x NA/rest component-cost ratio. Equal cost per vehicle yields €23.6bn; a 1.5x ratio gives €31.2bn. | Model/powertrain-weighted purchased bill of materials, regional direct-material consumption or a credible comparable-cost benchmark; reconcile purchases with expense and geographic perimeter. |
+| €21bn addressable | €35bn multiplied by an assumed 60%. Management's review coverage and supplier lead times constrain the concept, but do not measure the excluded €14bn. | Spend by component family and feasible intervention, contract/rebid dates, sole-source/tooling constraints and validation/launch timing. Do not claim a measured exclusion list exists. |
+| 7% reduction | Judgmental three-year commercial-plus-technical scenario. The illustrative three-point/four-point decomposition was not independently estimated. | Price-concession evidence on the correct negotiable denominator, plus quantified engineering projects weighted by affected spend; deduct compensation, tooling/validation expense and overlap. |
+
+The improved method should calculate savings by component family and mechanism, then derive an effective aggregate eligible share and rate. Commodity pass-through, supplier conversion value and technical material-use changes are different economic objects. The same part can support more than one intervention; assign each saving once. Preserve constant performance, volume and mix when attributing benefits to VCP. Independent evidence may support a higher or lower result than the current scenario. This is a research priority, not a retrospective justification of 60% or 7%.
+
 ## Source provenance
 
 All accessed/rechecked 14 October 2026. Reported facts are distinguished above from derived arithmetic, peer/supplier observations and analyst assumptions. Original licensed transcripts remain local; no full licensed text is republished.
