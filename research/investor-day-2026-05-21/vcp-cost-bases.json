@@ -143,5 +143,23 @@
     "Use warranty provision additions less known AOI exclusions as expense proxy, not closing liability or cash settlements.",
     "Do not count disappearing AOI-excluded charges as future AOI savings.",
     "Manufacturing payroll is only a partial anchor; include eligible maintenance, energy, overhead and plant D&A in full transformation mapping. Apply distinct savings mechanisms; do not haircut D&A mechanically using OPE."
-  ]
+  ],
+  "approved_manufacturing_structure": {
+    "approved_date": "2026-10-14",
+    "subgroups": [
+      "Plant labor",
+      "Maintenance, energy and other cash plant costs",
+      "Depreciation"
+    ],
+    "row_fields": [
+      "global_annual_addressable_base",
+      "NA_allocation_assumption",
+      "NA_annual_addressable_base",
+      "achievable_annual_reduction",
+      "annual_savings_recognized",
+      "quarterly_savings_annual_divided_by_four",
+      "incremental_year_over_year_savings"
+    ],
+    "approval_scope": "Structure only; no numerical bases, allocation multipliers or savings rates approved."
+  }
 }

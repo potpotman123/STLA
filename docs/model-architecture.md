@@ -54,7 +54,19 @@ Model wholesale prices and incentive costs are generally estimates, not disclose
 
 ## 4 VCP savings
 
-Three categories: direct materials; manufacturing/transformation; logistics/distribution.
+Four management workstreams: components/direct materials; manufacturing/transformation; quality/warranty; logistics/indirect costs.
+
+User-approved manufacturing subgroups (14 October 2026):
+
+| Subgroup | Annual cost base | Reduction assumption / recognition |
+|---|---|---|
+| Plant labor | Eligible production staff, supervisors, plant engineering, contractor labor and overtime | Sustainable reduction in actual expense; payroll anchor alone is not reported factory labor cost |
+| Maintenance, energy and other cash plant costs | External maintenance, spare parts, utilities, consumables and eligible site overhead | Separately assessed reduction for this combined subgroup; exclude labor already above and costs assigned to other VCP workstreams |
+| Depreciation | Eligible annual factory equipment, buildings and tooling depreciation | Recognize reductions only with an identifiable asset/depreciation mechanism; no automatic efficiency haircut |
+
+Use the five rows below for each subgroup, then sum their recognized savings into one manufacturing subtotal. Show global base, NA allocation assumption and resulting NA base, with source/status attached to each. Unsupported bases remain blank / not estimated, not zero. The disclosed global machinery and building depreciation amounts are research anchors, not approved factory-only or NA inputs. Maintenance employee costs belong in labor once; external servicing and replacement parts belong in cash plant costs once.
+
+Machinery purchases are capital expenditure, not an immediate AOI expense reduction. Higher-volume fixed-cost absorption is tracked separately from VCP same-volume efficiency. Do not translate the OPE improvement into an equivalent percentage cost reduction.
 
 For each category and forecast year:
 
