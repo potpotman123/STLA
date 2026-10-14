@@ -2,6 +2,8 @@
 
 14 October 2026. Bounded first pass. EUR billions. No forecast workbook assumptions changed.
 
+> Subsequent proposal: [three-other-vcp-bases.md](three-other-vcp-bases.md) selects rounded NA components35bn, quality3bn and logistics/indirect2.5bn as provisional analyst assumptions. These do not convert the original unknowns into disclosed costs. Manufacturing cash subpool1.5bn is separate from labor/depreciation.
+
 ## Decision
 
 We can anchor components to disclosed purchases and quality to adjusted provision additions. Manufacturing has an observable payroll anchor but no complete addressable expense denominator. Logistics/indirect remains unidentified. Regional allocations below are transparent sensitivities, not reported regional costs or statistically estimated confidence intervals. Do not present four completed bases as established facts.

@@ -161,5 +161,13 @@
       "incremental_year_over_year_savings"
     ],
     "approval_scope": "Structure only; no numerical bases, allocation multipliers or savings rates approved."
+  },
+  "latest_provisional_annual_NA_proposals": {
+    "source": "three-other-vcp-bases.json",
+    "components": 35,
+    "quality": 3,
+    "logistics_indirect": 2.5,
+    "manufacturing_cash_subpool_only": 1.5,
+    "status": "Researchproposal, no workbookchanges or savingsrates"
   }
 }

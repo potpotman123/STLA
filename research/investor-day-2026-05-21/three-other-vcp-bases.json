@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-14",
+  "basis": "NorthAmerica annual2025reference EURbn, analystestimates not reported",
+  "model_changed": false,
+  "components": {
+    "base": 35,
+    "sensitivity": [
+      30,
+      40
+    ],
+    "global_purchase_floor_proxy": 88,
+    "na_units_m": 1.472,
+    "other_units_m": 4.0120000000000005,
+    "selected_share": 0.3977272727272727,
+    "implied_na_rest_cost_premium": 1.7998872026251027,
+    "confidence": "Low-moderate; regionalcontentpremium notcalibrated"
+  },
+  "quality": {
+    "base": 3,
+    "sensitivity": [
+      2.5,
+      3.5
+    ],
+    "global_residual_proxy": 5.623,
+    "assumed_na_rest_residual_cost_premium": 1.5,
+    "derived_residual_na": 1.9960745980707395,
+    "na_current_cohort_remeasurement_rounded": 0.9,
+    "gm_net_expense_USDbn": 7.866,
+    "gm_wholesales_m": 3.799,
+    "gm_scaled_check_EURbn": 2.697205366107057,
+    "confidence": "Moderate scale; exactrecurringscope low-moderate"
+  },
+  "logistics_indirect": {
+    "base": 2.5,
+    "sensitivity": [
+      1.5,
+      3.5
+    ],
+    "na_revenue": 60.962,
+    "tata_freight_revenue_share_observed": 0.02,
+    "selected_logistics_revenue_share_assumed": 0.025,
+    "rounded_logistics": 1.5,
+    "tata_IT_revenue_share_observed": 0.012,
+    "IT_scaled_proxy": 0.7315440000000001,
+    "rounded_eligible_indirect": 1,
+    "remaining_indirect_allowance_assumed": 0.2684559999999999,
+    "confidence": "Low; peerbenchmarkwithscopeallowances"
+  },
+  "sources_note": "three-other-vcp-bases.md",
+  "manufacturing_warning": "Prior1.5cashplantsubpool isnotwholemanufacturing; laborandDAremainseparate/unvalidated",
+  "savings_rates": "Notselected"
+}
