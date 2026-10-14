@@ -1,0 +1,76 @@
+{
+  "as_of": "2026-10-14",
+  "units": "EUR billion unless a fraction is specified",
+  "reference": "Annual 2025 North America; constant volume, model mix, FX, input prices and warranty coverage",
+  "status": "Proposed analyst scenarios for review, not reported actuals or approved workbook inputs",
+  "workbook_changed": false,
+  "years": [2026, 2027, 2028],
+  "formula": "base * end_2028_addressable_share * eligible_cost_reduction * annual_recognition_fraction - incremental_AOI_expense_allowance",
+  "recognition_definition": "Annual-average benefit as a fraction of the mature gross saving; covers implementation timing and inventory/provision recognition, not probability or expense offsets. No quarterly curve.",
+  "expense_allowance_definition": "Assumed incremental expense within AOI for validation, supplier support, training, software and transition/service preservation. Neither disclosed cash spend nor a forecast of adjusted-out restructuring charges. Not deducted again elsewhere.",
+  "drivers": {
+    "components": {
+      "base": 35.0, "base_range": [30.0, 40.0], "confidence": "Low numerical confidence; supported mechanisms",
+      "downside": {"addressable": 0.45, "reduction": 0.04, "recognition": [0.20, 0.50, 0.80], "AOI_expense_allowance": [0.015, 0.025, 0.020]},
+      "base_case": {"addressable": 0.60, "reduction": 0.07, "recognition": [0.25, 0.60, 0.90], "AOI_expense_allowance": [0.020, 0.040, 0.030]},
+      "upside": {"addressable": 0.75, "reduction": 0.10, "recognition": [0.30, 0.70, 0.95], "AOI_expense_allowance": [0.030, 0.060, 0.050]},
+      "sources": ["S1", "S3", "S5", "S6"]
+    },
+    "plant_labor": {
+      "base": 5.5, "base_range": [4.195, 6.825], "confidence": "Low; base and actual paid-cost removal unvalidated",
+      "downside": {"addressable": 0.35, "reduction": 0.05, "recognition": [0.10, 0.40, 0.80], "AOI_expense_allowance": [0.005, 0.010, 0.010]},
+      "base_case": {"addressable": 0.50, "reduction": 0.10, "recognition": [0.15, 0.55, 0.90], "AOI_expense_allowance": [0.010, 0.015, 0.015]},
+      "upside": {"addressable": 0.60, "reduction": 0.12, "recognition": [0.20, 0.65, 0.95], "AOI_expense_allowance": [0.015, 0.025, 0.025]},
+      "sources": ["S2", "S3", "S7", "S8", "S9"]
+    },
+    "cash_plant_costs": {
+      "base": 1.5, "base_range": [1.0, 2.0], "confidence": "Low; partial anchors plus residual base estimate",
+      "downside": {"addressable": 0.60, "reduction": 0.08, "recognition": [0.10, 0.40, 0.80], "AOI_expense_allowance": [0.003, 0.005, 0.005]},
+      "base_case": {"addressable": 0.70, "reduction": 0.12, "recognition": [0.15, 0.55, 0.90], "AOI_expense_allowance": [0.005, 0.010, 0.005]},
+      "upside": {"addressable": 0.75, "reduction": 0.14, "recognition": [0.20, 0.65, 0.95], "AOI_expense_allowance": [0.008, 0.012, 0.010]},
+      "sources": ["S2", "S3"]
+    },
+    "manufacturing_depreciation": {
+      "base": 1.8, "base_range": [1.38, 2.18], "confidence": "No demonstrated VCP expense-reduction mechanism",
+      "downside": {"addressable": 0.0, "reduction": 0.0, "recognition": [0.0, 0.0, 0.0], "AOI_expense_allowance": [0.0, 0.0, 0.0]},
+      "base_case": {"addressable": 0.0, "reduction": 0.0, "recognition": [0.0, 0.0, 0.0], "AOI_expense_allowance": [0.0, 0.0, 0.0]},
+      "upside": {"addressable": 0.0, "reduction": 0.0, "recognition": [0.0, 0.0, 0.0], "AOI_expense_allowance": [0.0, 0.0, 0.0]},
+      "sources": ["S2", "S4"]
+    },
+    "quality": {
+      "base": 3.0, "base_range": [2.5, 3.5], "excluded_remeasurement_pool": 0.9, "confidence": "Low savings precision; early-quality direction observed",
+      "downside": {"addressable": 0.30, "reduction": 0.15, "recognition": [0.15, 0.35, 0.65], "AOI_expense_allowance": [0.010, 0.015, 0.015]},
+      "base_case": {"addressable": 0.50, "reduction": 0.25, "recognition": [0.20, 0.55, 0.85], "AOI_expense_allowance": [0.010, 0.015, 0.015]},
+      "upside": {"addressable": 0.60, "reduction": 0.30, "recognition": [0.25, 0.65, 0.90], "AOI_expense_allowance": [0.015, 0.020, 0.020]},
+      "sources": ["S3", "S4", "S11"]
+    },
+    "logistics_indirect": {
+      "base": 2.5, "base_range": [1.5, 3.5], "confidence": "Low; NA implementation corroborated, saving rate undisclosed",
+      "downside": {"addressable": 0.40, "reduction": 0.08, "recognition": [0.15, 0.40, 0.80], "AOI_expense_allowance": [0.010, 0.010, 0.010]},
+      "base_case": {"addressable": 0.60, "reduction": 0.12, "recognition": [0.20, 0.60, 0.90], "AOI_expense_allowance": [0.010, 0.015, 0.010]},
+      "upside": {"addressable": 0.65, "reduction": 0.14, "recognition": [0.25, 0.65, 0.95], "AOI_expense_allowance": [0.015, 0.020, 0.015]},
+      "sources": ["S3", "S10", "S12"]
+    }
+  },
+  "accounting_normalization": {
+    "potential_NA_2025_AOI_remeasurement_nonrecurrence": 0.9,
+    "booked_in_all_cases": [0.0, 0.0, 0.0],
+    "separate_sensitivity": [0.0, 0.45, 0.9],
+    "reason": "Updated expected per-vehicle claims can persist. Nonrecurrence of a separately labelled charge is not proof that expense falls; no automatic VCP credit. Any later credit must exclude cost improvement already booked in quality."
+  },
+  "external_offset_illustrations": {
+    "NA_2025_net_revenue": 60.962,
+    "US_loaded_labor_pool_assumed": 4.14,
+    "US_wage_sensitive_share_assumed": [0.55, 0.65],
+    "US_general_wage_rate": {"pre_September_2025": 1.0, "September_2025": 1.03, "September_2026": 1.0609, "September_2027_held_in_2028": 1.113945},
+    "not_forecast_or_deducted_from_operational_savings": ["commodity price inflation", "FX", "tariffs", "wage/benefit inflation", "longer warranty coverage", "net-price or incentive giveback", "higher capex and related depreciation"],
+    "warning": "Zero automatic deduction means not estimated in this task, not an assumption that these headwinds are zero. Final AOI forecast must include them separately."
+  },
+  "guidance_comparison_only": {
+    "global_2028_annual_run_rate": 6.0,
+    "NA_2028_target_greater_than": 3.0,
+    "global_2027_expected_AOI_benefit": 2.4,
+    "initiative_implementation_by_end_2026": 0.4,
+    "not_used_to_solve_assumptions": true
+  }
+}

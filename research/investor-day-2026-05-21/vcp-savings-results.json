@@ -1,0 +1,565 @@
+{
+  "as_of": "2026-10-14",
+  "units": "EUR billion unless a fraction is specified",
+  "cases": {
+    "downside": {
+      "drivers": {
+        "components": {
+          "eligible_cost": 15.75,
+          "mature_gross_annual_saving": 0.63,
+          "annual_gross_recognized": {
+            "2026": 0.126,
+            "2027": 0.315,
+            "2028": 0.504
+          },
+          "annual_AOI_expense_allowance": {
+            "2026": 0.015,
+            "2027": 0.025,
+            "2028": 0.02
+          },
+          "annual_recognized_net_AOI_benefit_vs_2025": {
+            "2026": 0.111,
+            "2027": 0.29,
+            "2028": 0.484
+          },
+          "effective_net_savings_rate_on_entire_base": {
+            "2026": 0.003171,
+            "2027": 0.008286,
+            "2028": 0.013829
+          }
+        },
+        "plant_labor": {
+          "eligible_cost": 1.925,
+          "mature_gross_annual_saving": 0.09625,
+          "annual_gross_recognized": {
+            "2026": 0.009625,
+            "2027": 0.0385,
+            "2028": 0.077
+          },
+          "annual_AOI_expense_allowance": {
+            "2026": 0.005,
+            "2027": 0.01,
+            "2028": 0.01
+          },
+          "annual_recognized_net_AOI_benefit_vs_2025": {
+            "2026": 0.004625,
+            "2027": 0.0285,
+            "2028": 0.067
+          },
+          "effective_net_savings_rate_on_entire_base": {
+            "2026": 0.000841,
+            "2027": 0.005182,
+            "2028": 0.012182
+          }
+        },
+        "cash_plant_costs": {
+          "eligible_cost": 0.9,
+          "mature_gross_annual_saving": 0.072,
+          "annual_gross_recognized": {
+            "2026": 0.0072,
+            "2027": 0.0288,
+            "2028": 0.0576
+          },
+          "annual_AOI_expense_allowance": {
+            "2026": 0.003,
+            "2027": 0.005,
+            "2028": 0.005
+          },
+          "annual_recognized_net_AOI_benefit_vs_2025": {
+            "2026": 0.0042,
+            "2027": 0.0238,
+            "2028": 0.0526
+          },
+          "effective_net_savings_rate_on_entire_base": {
+            "2026": 0.0028,
+            "2027": 0.015867,
+            "2028": 0.035067
+          }
+        },
+        "manufacturing_depreciation": {
+          "eligible_cost": 0.0,
+          "mature_gross_annual_saving": 0.0,
+          "annual_gross_recognized": {
+            "2026": 0.0,
+            "2027": 0.0,
+            "2028": 0.0
+          },
+          "annual_AOI_expense_allowance": {
+            "2026": 0.0,
+            "2027": 0.0,
+            "2028": 0.0
+          },
+          "annual_recognized_net_AOI_benefit_vs_2025": {
+            "2026": 0.0,
+            "2027": 0.0,
+            "2028": 0.0
+          },
+          "effective_net_savings_rate_on_entire_base": {
+            "2026": 0.0,
+            "2027": 0.0,
+            "2028": 0.0
+          }
+        },
+        "quality": {
+          "eligible_cost": 0.9,
+          "mature_gross_annual_saving": 0.135,
+          "annual_gross_recognized": {
+            "2026": 0.02025,
+            "2027": 0.04725,
+            "2028": 0.08775
+          },
+          "annual_AOI_expense_allowance": {
+            "2026": 0.01,
+            "2027": 0.015,
+            "2028": 0.015
+          },
+          "annual_recognized_net_AOI_benefit_vs_2025": {
+            "2026": 0.01025,
+            "2027": 0.03225,
+            "2028": 0.07275
+          },
+          "effective_net_savings_rate_on_entire_base": {
+            "2026": 0.003417,
+            "2027": 0.01075,
+            "2028": 0.02425
+          }
+        },
+        "logistics_indirect": {
+          "eligible_cost": 1.0,
+          "mature_gross_annual_saving": 0.08,
+          "annual_gross_recognized": {
+            "2026": 0.012,
+            "2027": 0.032,
+            "2028": 0.064
+          },
+          "annual_AOI_expense_allowance": {
+            "2026": 0.01,
+            "2027": 0.01,
+            "2028": 0.01
+          },
+          "annual_recognized_net_AOI_benefit_vs_2025": {
+            "2026": 0.002,
+            "2027": 0.022,
+            "2028": 0.054
+          },
+          "effective_net_savings_rate_on_entire_base": {
+            "2026": 0.0008,
+            "2027": 0.0088,
+            "2028": 0.0216
+          }
+        }
+      },
+      "mature_gross_annual_saving": 1.01325,
+      "annual_AOI_expense_allowance": {
+        "2026": 0.043,
+        "2027": 0.065,
+        "2028": 0.06
+      },
+      "annual_recognized_net_AOI_benefit_vs_2025": {
+        "2026": 0.132075,
+        "2027": 0.39655,
+        "2028": 0.73035
+      },
+      "incremental_net_AOI_benefit_YoY": {
+        "2026": 0.132075,
+        "2027": 0.264475,
+        "2028": 0.3338
+      },
+      "each_quarter_net_AOI_benefit_vs_corresponding_2025_quarter": {
+        "2026": 0.033019,
+        "2027": 0.099138,
+        "2028": 0.182588
+      },
+      "each_quarter_incremental_net_AOI_benefit_YoY": {
+        "2026": 0.033019,
+        "2027": 0.066119,
+        "2028": 0.08345
+      }
+    },
+    "base_case": {
+      "drivers": {
+        "components": {
+          "eligible_cost": 21.0,
+          "mature_gross_annual_saving": 1.47,
+          "annual_gross_recognized": {
+            "2026": 0.3675,
+            "2027": 0.882,
+            "2028": 1.323
+          },
+          "annual_AOI_expense_allowance": {
+            "2026": 0.02,
+            "2027": 0.04,
+            "2028": 0.03
+          },
+          "annual_recognized_net_AOI_benefit_vs_2025": {
+            "2026": 0.3475,
+            "2027": 0.842,
+            "2028": 1.293
+          },
+          "effective_net_savings_rate_on_entire_base": {
+            "2026": 0.009929,
+            "2027": 0.024057,
+            "2028": 0.036943
+          }
+        },
+        "plant_labor": {
+          "eligible_cost": 2.75,
+          "mature_gross_annual_saving": 0.275,
+          "annual_gross_recognized": {
+            "2026": 0.04125,
+            "2027": 0.15125,
+            "2028": 0.2475
+          },
+          "annual_AOI_expense_allowance": {
+            "2026": 0.01,
+            "2027": 0.015,
+            "2028": 0.015
+          },
+          "annual_recognized_net_AOI_benefit_vs_2025": {
+            "2026": 0.03125,
+            "2027": 0.13625,
+            "2028": 0.2325
+          },
+          "effective_net_savings_rate_on_entire_base": {
+            "2026": 0.005682,
+            "2027": 0.024773,
+            "2028": 0.042273
+          }
+        },
+        "cash_plant_costs": {
+          "eligible_cost": 1.05,
+          "mature_gross_annual_saving": 0.126,
+          "annual_gross_recognized": {
+            "2026": 0.0189,
+            "2027": 0.0693,
+            "2028": 0.1134
+          },
+          "annual_AOI_expense_allowance": {
+            "2026": 0.005,
+            "2027": 0.01,
+            "2028": 0.005
+          },
+          "annual_recognized_net_AOI_benefit_vs_2025": {
+            "2026": 0.0139,
+            "2027": 0.0593,
+            "2028": 0.1084
+          },
+          "effective_net_savings_rate_on_entire_base": {
+            "2026": 0.009267,
+            "2027": 0.039533,
+            "2028": 0.072267
+          }
+        },
+        "manufacturing_depreciation": {
+          "eligible_cost": 0.0,
+          "mature_gross_annual_saving": 0.0,
+          "annual_gross_recognized": {
+            "2026": 0.0,
+            "2027": 0.0,
+            "2028": 0.0
+          },
+          "annual_AOI_expense_allowance": {
+            "2026": 0.0,
+            "2027": 0.0,
+            "2028": 0.0
+          },
+          "annual_recognized_net_AOI_benefit_vs_2025": {
+            "2026": 0.0,
+            "2027": 0.0,
+            "2028": 0.0
+          },
+          "effective_net_savings_rate_on_entire_base": {
+            "2026": 0.0,
+            "2027": 0.0,
+            "2028": 0.0
+          }
+        },
+        "quality": {
+          "eligible_cost": 1.5,
+          "mature_gross_annual_saving": 0.375,
+          "annual_gross_recognized": {
+            "2026": 0.075,
+            "2027": 0.20625,
+            "2028": 0.31875
+          },
+          "annual_AOI_expense_allowance": {
+            "2026": 0.01,
+            "2027": 0.015,
+            "2028": 0.015
+          },
+          "annual_recognized_net_AOI_benefit_vs_2025": {
+            "2026": 0.065,
+            "2027": 0.19125,
+            "2028": 0.30375
+          },
+          "effective_net_savings_rate_on_entire_base": {
+            "2026": 0.021667,
+            "2027": 0.06375,
+            "2028": 0.10125
+          }
+        },
+        "logistics_indirect": {
+          "eligible_cost": 1.5,
+          "mature_gross_annual_saving": 0.18,
+          "annual_gross_recognized": {
+            "2026": 0.036,
+            "2027": 0.108,
+            "2028": 0.162
+          },
+          "annual_AOI_expense_allowance": {
+            "2026": 0.01,
+            "2027": 0.015,
+            "2028": 0.01
+          },
+          "annual_recognized_net_AOI_benefit_vs_2025": {
+            "2026": 0.026,
+            "2027": 0.093,
+            "2028": 0.152
+          },
+          "effective_net_savings_rate_on_entire_base": {
+            "2026": 0.0104,
+            "2027": 0.0372,
+            "2028": 0.0608
+          }
+        }
+      },
+      "mature_gross_annual_saving": 2.426,
+      "annual_AOI_expense_allowance": {
+        "2026": 0.055,
+        "2027": 0.095,
+        "2028": 0.075
+      },
+      "annual_recognized_net_AOI_benefit_vs_2025": {
+        "2026": 0.48365,
+        "2027": 1.3218,
+        "2028": 2.08965
+      },
+      "incremental_net_AOI_benefit_YoY": {
+        "2026": 0.48365,
+        "2027": 0.83815,
+        "2028": 0.76785
+      },
+      "each_quarter_net_AOI_benefit_vs_corresponding_2025_quarter": {
+        "2026": 0.120913,
+        "2027": 0.33045,
+        "2028": 0.522413
+      },
+      "each_quarter_incremental_net_AOI_benefit_YoY": {
+        "2026": 0.120913,
+        "2027": 0.209538,
+        "2028": 0.191963
+      }
+    },
+    "upside": {
+      "drivers": {
+        "components": {
+          "eligible_cost": 26.25,
+          "mature_gross_annual_saving": 2.625,
+          "annual_gross_recognized": {
+            "2026": 0.7875,
+            "2027": 1.8375,
+            "2028": 2.49375
+          },
+          "annual_AOI_expense_allowance": {
+            "2026": 0.03,
+            "2027": 0.06,
+            "2028": 0.05
+          },
+          "annual_recognized_net_AOI_benefit_vs_2025": {
+            "2026": 0.7575,
+            "2027": 1.7775,
+            "2028": 2.44375
+          },
+          "effective_net_savings_rate_on_entire_base": {
+            "2026": 0.021643,
+            "2027": 0.050786,
+            "2028": 0.069821
+          }
+        },
+        "plant_labor": {
+          "eligible_cost": 3.3,
+          "mature_gross_annual_saving": 0.396,
+          "annual_gross_recognized": {
+            "2026": 0.0792,
+            "2027": 0.2574,
+            "2028": 0.3762
+          },
+          "annual_AOI_expense_allowance": {
+            "2026": 0.015,
+            "2027": 0.025,
+            "2028": 0.025
+          },
+          "annual_recognized_net_AOI_benefit_vs_2025": {
+            "2026": 0.0642,
+            "2027": 0.2324,
+            "2028": 0.3512
+          },
+          "effective_net_savings_rate_on_entire_base": {
+            "2026": 0.011673,
+            "2027": 0.042255,
+            "2028": 0.063855
+          }
+        },
+        "cash_plant_costs": {
+          "eligible_cost": 1.125,
+          "mature_gross_annual_saving": 0.1575,
+          "annual_gross_recognized": {
+            "2026": 0.0315,
+            "2027": 0.102375,
+            "2028": 0.149625
+          },
+          "annual_AOI_expense_allowance": {
+            "2026": 0.008,
+            "2027": 0.012,
+            "2028": 0.01
+          },
+          "annual_recognized_net_AOI_benefit_vs_2025": {
+            "2026": 0.0235,
+            "2027": 0.090375,
+            "2028": 0.139625
+          },
+          "effective_net_savings_rate_on_entire_base": {
+            "2026": 0.015667,
+            "2027": 0.06025,
+            "2028": 0.093083
+          }
+        },
+        "manufacturing_depreciation": {
+          "eligible_cost": 0.0,
+          "mature_gross_annual_saving": 0.0,
+          "annual_gross_recognized": {
+            "2026": 0.0,
+            "2027": 0.0,
+            "2028": 0.0
+          },
+          "annual_AOI_expense_allowance": {
+            "2026": 0.0,
+            "2027": 0.0,
+            "2028": 0.0
+          },
+          "annual_recognized_net_AOI_benefit_vs_2025": {
+            "2026": 0.0,
+            "2027": 0.0,
+            "2028": 0.0
+          },
+          "effective_net_savings_rate_on_entire_base": {
+            "2026": 0.0,
+            "2027": 0.0,
+            "2028": 0.0
+          }
+        },
+        "quality": {
+          "eligible_cost": 1.8,
+          "mature_gross_annual_saving": 0.54,
+          "annual_gross_recognized": {
+            "2026": 0.135,
+            "2027": 0.351,
+            "2028": 0.486
+          },
+          "annual_AOI_expense_allowance": {
+            "2026": 0.015,
+            "2027": 0.02,
+            "2028": 0.02
+          },
+          "annual_recognized_net_AOI_benefit_vs_2025": {
+            "2026": 0.12,
+            "2027": 0.331,
+            "2028": 0.466
+          },
+          "effective_net_savings_rate_on_entire_base": {
+            "2026": 0.04,
+            "2027": 0.110333,
+            "2028": 0.155333
+          }
+        },
+        "logistics_indirect": {
+          "eligible_cost": 1.625,
+          "mature_gross_annual_saving": 0.2275,
+          "annual_gross_recognized": {
+            "2026": 0.056875,
+            "2027": 0.147875,
+            "2028": 0.216125
+          },
+          "annual_AOI_expense_allowance": {
+            "2026": 0.015,
+            "2027": 0.02,
+            "2028": 0.015
+          },
+          "annual_recognized_net_AOI_benefit_vs_2025": {
+            "2026": 0.041875,
+            "2027": 0.127875,
+            "2028": 0.201125
+          },
+          "effective_net_savings_rate_on_entire_base": {
+            "2026": 0.01675,
+            "2027": 0.05115,
+            "2028": 0.08045
+          }
+        }
+      },
+      "mature_gross_annual_saving": 3.946,
+      "annual_AOI_expense_allowance": {
+        "2026": 0.083,
+        "2027": 0.137,
+        "2028": 0.12
+      },
+      "annual_recognized_net_AOI_benefit_vs_2025": {
+        "2026": 1.007075,
+        "2027": 2.55915,
+        "2028": 3.6017
+      },
+      "incremental_net_AOI_benefit_YoY": {
+        "2026": 1.007075,
+        "2027": 1.552075,
+        "2028": 1.04255
+      },
+      "each_quarter_net_AOI_benefit_vs_corresponding_2025_quarter": {
+        "2026": 0.251769,
+        "2027": 0.639787,
+        "2028": 0.900425
+      },
+      "each_quarter_incremental_net_AOI_benefit_YoY": {
+        "2026": 0.251769,
+        "2027": 0.388019,
+        "2028": 0.260638
+      }
+    }
+  },
+  "base_2028_sensitivities_EURbn": {
+    "components_eligible_reduction_plus_minus_1pp": 0.189,
+    "components_addressable_share_plus_minus_10pp": 0.2205,
+    "components_cost_base_plus_minus_5bn": 0.189,
+    "components_annual_recognition_plus_minus_10pp": 0.147,
+    "quality_eligible_reduction_plus_minus_10pp": 0.1275,
+    "logistics_cost_base_plus_minus_1bn": 0.0648,
+    "all_2028_AOI_expense_allowances_doubled": -0.075,
+    "one_pp_net_price_decline_on_2025_revenue_external": -0.60962,
+    "ten_percent_VCP_giveback_in_price_external": -0.208965
+  },
+  "illustrative_US_wage_offsets_only_not_deducted": {
+    "annual_average_GWI_vs_2025": {
+      "2026": 0.03,
+      "2027": 0.067903,
+      "2028": 0.102916
+    },
+    "2028_cost_headwind_range_at_unchanged_paid_hours": [
+      0.234339,
+      0.276947
+    ],
+    "warning": "Excludes COLA, progression, benefits, profit sharing, new bargaining and Canada/Mexico. Under actual labor savings apply inflation to remaining wage-sensitive hours to avoid cross-term double count."
+  },
+  "accounting_normalization": {
+    "potential_NA_2025_AOI_remeasurement_nonrecurrence": 0.9,
+    "booked_in_all_cases": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "separate_sensitivity": [
+      0.0,
+      0.45,
+      0.9
+    ],
+    "reason": "Updated expected per-vehicle claims can persist. Nonrecurrence of a separately labelled charge is not proof that expense falls; no automatic VCP credit. Any later credit must exclude cost improvement already booked in quality."
+  }
+}
