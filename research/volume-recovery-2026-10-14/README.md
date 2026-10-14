@@ -4,6 +4,8 @@ Research cutoff: **14 October 2026**. This package proposes assumptions; it does
 
 **Position:** a partial volume recovery is defensible, but a broad household-demand recovery is not yet established. Ram light-duty provides the clearest current evidence. Grand Cherokee supply normalization and a commercially viable Cherokee rollout are the largest additional Jeep opportunities. Dealer repair helps execution, but high stock and incomplete dealer-profit evidence prevent treating it as an independently measurable volume uplift. Old discontinued sales and pre-pandemic peaks should not automatically return.
 
+**Clarification after the user's management-comparison challenge:** this is not a demonstrated bearish volume forecast versus management. Our covered-US-family base implies 21.0% growth over 2025–28 (6.6% annually), versus management's displayed NA American-brand endpoints implying 34.5% over 2025–30 (6.1% annually). Geography, coverage and horizon differ. Also, ex-Jeep US sales grew 13.9% YTD; excluding both Jeep and Ram LD they grew 2.3%. The ex-Ram-LD decline below is real but should not imply generalized non-Ram weakness. Management itself assumes a flat industry and growth from product/segment expansion. Uncertainty about timing, conquest and profitable conversion does not establish that the strategy fails. [Arithmetic, scope and revised interpretation](management-comparison-correction.json). No forecast values changed.
+
 ## What changed in this pass
 
 | Finding | Meaning for the forecast |

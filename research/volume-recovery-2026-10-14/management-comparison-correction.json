@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-14",
+  "classification": "derived arithmetic and revised interpretation; no forecast values changed",
+  "user_intervention": "Challenge whether we actually reject management volume recovery and whether macro weakness explains continuing non-Jeep performance.",
+  "correction": "Previous emphasis on ex-Ram-LD decline was accurate but incomplete: it hid the concentration of weakness in Jeep and could imply generalized non-Ram demand failure. The numerical forecast is not a demonstrated management haircut.",
+  "current_sales": {
+    "Q3": {
+      "all_US": {
+        "2026_units": 324277,
+        "2025_units": 324825,
+        "change_units": -548,
+        "growth_pct": -0.16870622642961575
+      },
+      "excluding_Jeep": {
+        "2026_units": 195735,
+        "2025_units": 164261,
+        "change_units": 31474,
+        "growth_pct": 19.16096943279293
+      },
+      "excluding_Jeep_and_Ram_LD": {
+        "2026_units": 119085,
+        "2025_units": 119912,
+        "change_units": -827,
+        "growth_pct": -0.6896724264460641
+      }
+    },
+    "YTD": {
+      "all_US": {
+        "2026_units": 958463,
+        "2025_units": 928023,
+        "change_units": 30440,
+        "growth_pct": 3.2800911184313275
+      },
+      "excluding_Jeep": {
+        "2026_units": 544670,
+        "2025_units": 478050,
+        "change_units": 66620,
+        "growth_pct": 13.93578077606945
+      },
+      "excluding_Jeep_and_Ram_LD": {
+        "2026_units": 342523,
+        "2025_units": 334786,
+        "change_units": 7737,
+        "growth_pct": 2.3110285376329864
+      }
+    }
+  },
+  "brands": {
+    "RAM BRAND": {
+      "2026_ytd": 369379,
+      "2025_ytd": 307701,
+      "growth_pct": 20.044783734859493
+    },
+    "CHRYSLER BRAND": {
+      "2026_ytd": 101627,
+      "2025_ytd": 90733,
+      "growth_pct": 12.006656894404454
+    },
+    "JEEP BRAND": {
+      "2026_ytd": 413793,
+      "2025_ytd": 449973,
+      "growth_pct": -8.040482428945738
+    },
+    "DODGE BRAND": {
+      "2026_ytd": 71057,
+      "2025_ytd": 73601,
+      "growth_pct": -3.456474776157936
+    },
+    "FIAT BRAND": {
+      "2026_ytd": 291,
+      "2025_ytd": 1237,
+      "growth_pct": -76.47534357316087
+    },
+    "ALFA ROMEO": {
+      "2026_ytd": 2316,
+      "2025_ytd": 4778,
+      "growth_pct": -51.52783591460862
+    }
+  },
+  "management": {
+    "scope": "North American American brands, customer sales, 2025\u20132030",
+    "2025_units": 1431000,
+    "2030_units": 1925000,
+    "growth_pct": 34.5213137665968,
+    "cagr_pct": 6.1104655624322435,
+    "brand_targets_k": {
+      "Ram": [
+        517,
+        825
+      ],
+      "Chrysler": [
+        143,
+        225
+      ],
+      "Jeep": [
+        645,
+        740
+      ],
+      "Dodge": [
+        126,
+        135
+      ]
+    },
+    "industry_assumption": "flat industry through 2030; growth from share/segment expansion",
+    "source": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events/stellantis-investor-day-2026/presentation/Stellantis-Investor-Day-2026-FaSTLAne2030-North-America.pdf",
+    "publication_date": "2026-05-21",
+    "locators": "printed slides16,19,22,25,31"
+  },
+  "research_forecast": {
+    "scope": "13 US families, customer sales, 2025\u20132028; not full future product portfolio",
+    "2025_units": 1231756,
+    "2028_units": 1491000,
+    "growth_pct": 21.046700807627495,
+    "cagr_pct": 6.573931137851297,
+    "comparison_limit": "Different geography, family/brand coverage and end-year. Similar annualized rates show no established bearish haircut, but do not prove matched forecasts agree."
+  },
+  "macro": {
+    "source": "https://www.coxautoinc.com/insights/august-2026-new-vehicle-inventory/",
+    "publication_date": "2026-09-10",
+    "period": "August2026",
+    "observed": "Industry sales pace +3.3% MoM; inventory down YoY. Vehicles <=30k:54days supply; >60k:over90. Affordability pressure and healthy aggregate demand coexist.",
+    "inference": "Post-shortage supply restoration does not by itself restore attractive consumer payments or competitive positioning. No evidence here establishes a broad current macro contraction causing all STLA brands to decline.",
+    "limitation": "Price-band stock-to-sales differences do not estimate demand elasticity; no matched financing/price/retail panel."
+  },
+  "revised_position": "Buy the plausibility of selective recovery and broader affordable offerings. Unresolved issues are launch timing, external customer conquest versus own-lineup substitution, competitive pricing and retained profit. Absence of mature launch evidence is uncertainty, not proof of failure. Current weak level versus historic peaks is distinct from current growth rate.",
+  "workbook_changed": false,
+  "forecast_values_changed": false
+}
