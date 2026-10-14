@@ -1,0 +1,34 @@
+{
+  "as_of": "2026-10-14",
+  "status": "Historical comparison and hypothetical reference transfer; not approved forecast rates",
+  "architecture": "One effective cumulative annual rate per full reference cost pool; no extra eligibility or recognition multiplier",
+  "inputs": {
+    "STLA_global_direct_material_purchase_floor_EURbn": 88,
+    "STLA_global_consolidated_shipments_m": 5.484,
+    "STLA_NA_component_pool_assumed_EURbn": 35,
+    "STLA_NA_reference_shipments_m": 1.472,
+    "Renault_2025_achieved_variable_COGS_reduction_EUR_per_vehicle": 400,
+    "Toyota_FY2025_cost_of_products_sold_JPYm": 35510157,
+    "Toyota_FY2025_consolidated_vehicle_sales_k": 9362
+  },
+  "derived": {
+    "STLA_global_purchase_ratio_EUR_per_shipment": 16046.681254558716,
+    "STLA_NA_assumed_purchase_ratio_EUR_per_shipment": 23777.17391304348,
+    "Toyota_broad_products_cost_ratio_JPY_per_unit_NOT_COMPONENTS": 3793009.720145268
+  },
+  "reference_case": {
+    "scope": "Broad variable COGS; do not allocate wholly to components or add overlapping driver savings",
+    "assumption": "Transfer and repeat EUR400 incremental per-vehicle outcome each year, holding STLA reference units fixed",
+    "year_1_annual_benefit_EURbn": 0.5888,
+    "year_2_annual_benefit_EURbn": 1.1776,
+    "year_3_annual_benefit_EURbn": 1.7664,
+    "model_admissible_as_components_rate": false
+  },
+  "unestablished": {
+    "Toyota_comparable_component_cost_per_vehicle": null,
+    "Nissan_comparable_component_cost_per_vehicle": null,
+    "STLA_vs_peer_adjusted_component_cost_gap": null,
+    "new_calibrated_driver_savings_rates": null
+  },
+  "source_register": "vcp-historical-benchmark-replacement.md"
+}

@@ -2,6 +2,8 @@
 
 14 October 2026. Proposed assumptions for review; **no workbook or preserved AI baseline changed**. EUR billions unless stated otherwise.
 
+**Subsequent method change:** The user has approved one effective rate per full cost pool and requested historical/peer calibration. The two-factor scenarios below are preserved research history, not current recommended inputs. See [replacement benchmark assessment](vcp-historical-benchmark-replacement.md) and the revised model architecture. Changing the formula does not independently validate these old rates.
+
 ## Conclusion and model admission
 
 Our conditional base case is **€2.1bn of annual operational AOI benefit recognized in 2028 versus 2025**, with €0.7bn downside and €3.6bn upside. This is after assumed program-related AOI expenses, but **before separately modeled wage/material inflation, tariffs, FX, changes in warranty coverage, volume/mix and net pricing**. It is not a forecast that reported NA AOI rises by exactly €2.1bn.

@@ -1,6 +1,6 @@
 # Stellantis model architecture
 
-Agreed with the user on 14 October 2026. This is the implementation specification for the research-informed model, not a populated forecast. It supersedes earlier proposals for configuration splits, country inventory schedules, target days' supply and VCP implementation curves.
+Agreed with the user on 14 October 2026; VCP method revised at the user's direction the same day. This is the implementation specification for the research-informed model, not a populated forecast. It supersedes earlier proposals for configuration splits, country inventory schedules, target days' supply, VCP implementation curves and unsupported addressable-share × eligible-reduction assumptions.
 
 ## Scope and conventions
 
@@ -64,17 +64,25 @@ User-approved manufacturing subgroups (14 October 2026):
 | Maintenance, energy and other cash plant costs | External maintenance, spare parts, utilities, consumables and eligible site overhead | Separately assessed reduction for this combined subgroup; exclude labor already above and costs assigned to other VCP workstreams |
 | Depreciation | Eligible annual factory equipment, buildings and tooling depreciation | Recognize reductions only with an identifiable asset/depreciation mechanism; no automatic efficiency haircut |
 
-Use the five rows below for each subgroup, then sum their recognized savings into one manufacturing subtotal. Show global base, NA allocation assumption and resulting NA base, with source/status attached to each. Unsupported bases remain blank / not estimated, not zero. The disclosed global machinery and building depreciation amounts are research anchors, not approved factory-only or NA inputs. Maintenance employee costs belong in labor once; external servicing and replacement parts belong in cash plant costs once.
+Use the seven rows below for each subgroup, then sum their recognized savings into one manufacturing subtotal. The workbook uses the annual NA reference cost pool; global anchors and NA allocation calculations remain in research support, with source/status attached. Unsupported bases remain blank / not estimated, not zero. The disclosed global machinery and building depreciation amounts are research anchors, not approved factory-only or NA inputs. Maintenance employee costs belong in labor once; external servicing and replacement parts belong in cash plant costs once.
 
 Machinery purchases are capital expenditure, not an immediate AOI expense reduction. Higher-volume fixed-cost absorption is tracked separately from VCP same-volume efficiency. Do not translate the OPE improvement into an equivalent percentage cost reduction.
 
 For each category and forecast year:
 
-1. Addressable annual cost base.
-2. Achievable reduction recognized in that year.
-3. Annual savings recognized = addressable cost base times achievable reduction.
-4. Quarterly savings recognized = annual savings divided by four.
-5. Incremental year-over-year savings = current-period savings minus comparable prior-period savings.
+1. Total annual NA reference cost pool, with a consistent baseline year (initially 2025).
+2. Effective cumulative operational reduction recognized in that year, as a percentage of the entire reference pool.
+3. Annual operational saving = reference pool times effective reduction.
+4. Incremental execution/transition expense recognized in AOI, if not already included in the effective rate.
+5. Annual recognized net saving = operational saving minus execution expense.
+6. Quarterly recognized net saving = annual recognized net saving divided by four.
+7. Incremental year-over-year saving = current-period net saving minus comparable prior-period net saving.
+
+One effective rate per cost pool is the approved default. Do not use the same rate across different workstreams. The rate already incorporates annual delivery and accounting recognition; do not multiply it again by an addressable share, implementation fraction or recognition haircut. Two-stage decomposition may remain in research support only if the two inputs have distinct evidence. Merely converting the old components assumption of 60% × 7% to 4.2% does not validate it.
+
+Anchor replacement rates to comparable achieved historical outcomes, with explicit judgments for scope, starting efficiency, product mix, existing supplier relationships and execution capability. Preserve reported versus targeted, gross versus net, annual versus cumulative, and cost-pool versus revenue denominators. Do not treat an old turnaround outlier as an industry average. Peer cost-per-vehicle comparisons must match purchasing/expense scope, production versus wholesale units, currency/period, vehicle content and make-versus-buy boundaries. Missing comparable component costs remain unknown; broader COGS is not a substitute.
+
+Rates can be presented as cumulative full-year effects relative to 2025. A 2028 rate of 5% means a 5% saving against the reference pool in that year, not an additional 5% cut on top of 2027. If a benchmark is already net of execution costs, identify that status and do not deduct those expenses again. Accounting normalization and external wage/material inflation, tariffs, FX and selling-price/incentive changes remain outside operational VCP rates.
 
 No implementation curve, quarterly cost-exposure weighting, seasonality or separate annualized-run-rate forecast schedule. Annual reduction assumptions may differ across years. Equal quarterly allocation is an explicit simplification, not management guidance.
 
@@ -97,7 +105,7 @@ Rows:
 11. Current-quarter AOI = prior-year AOI plus bridge movements.
 12. AOI margin = AOI divided by revenue.
 
-Use the reported bridge categories, not an invented detailed regional expense statement. Volume/mix profit effects still require contribution assumptions even though model mix already affects revenue. Pricing/incentive effects must be consistent with Tab 3. Incremental VCP savings enter Industrial once; other Industrial effects remain separately explainable.
+Use the reported bridge categories, not an invented detailed regional expense statement. Volume/mix profit effects still require contribution assumptions even though model mix already affects revenue. Pricing/incentive effects must be consistent with Tab 3. Map incremental VCP savings once by expense nature: materials, manufacturing, warranty and relevant logistics generally enter Industrial; eligible back-office/IT savings may enter SG&A. Do not also place those indirect savings in Industrial. Other bridge effects remain separately explainable.
 
 The June 2026 6-K provides revenue reconciliation and net-profit-to-AOI reconciliation, not a full NA revenue-to-AOI expense breakdown. Its Q2 NA revenue is EUR18,193m and AOI EUR284m. Their difference, EUR17,909m, is a derived net adjusted operating-cost residual, not disclosed materials, manufacturing, logistics, SG&A or R&D expense. SG&A/R&D in the year-over-year AOI bridge are movements, not absolute costs.
 

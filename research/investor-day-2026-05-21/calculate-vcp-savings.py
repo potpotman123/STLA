@@ -1,4 +1,7 @@
-"""Reproduce proposed NA VCP scenarios. No network, workbook or third-party packages."""
+"""Reproduce superseded two-factor scenarios for audit history, not current model inputs.
+See vcp-historical-benchmark-replacement.md and docs/model-architecture.md.
+No network, workbook or third-party packages.
+"""
 import json
 from pathlib import Path
 
