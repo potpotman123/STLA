@@ -1,4 +1,6 @@
-# Provisional NA VCP underwriting position
+# Historical, withdrawn NA VCP underwriting position
+
+**WITHDRAWN after user challenge, 14 October 2026.** The selected3% components rate, its2%/5% alternatives and€1.886bn subtotal are not current recommendations. The discount from Nissan was not quantitatively supported. Retained below only for the AI/user revision audit. Current references and working theses are in `vcp-driver-thesis-register.md`.
 
 14 October 2026. User explicitly directed completion of a position using Nissan purchasing history and Renault as a broader cross-check, with annual opportunity size separate from delivery timing. This note supersedes the chat's unsettled €2.306bn total and direct use of Renault €400 as a materials-only saving. It is an analyst-selected working position, not empirically calibrated or user-approved final inputs. No workbook changed.
 

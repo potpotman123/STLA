@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-14",
+  "purpose": "Preserve benchmark numbers and form cross-driver theses before deeper validation",
+  "drivers": [
+    {
+      "driver": "components",
+      "assumed_pool_EURbn": 35,
+      "reference_rate": 0.09,
+      "reference_annual_saving_EURbn": 3.15,
+      "historical_period": "Nissan FY2001 single-year purchasing reduction",
+      "status": "Transfer scenario, not forecast",
+      "additional_reference": {
+        "two_year_cumulative_rate": 0.2,
+        "annual_saving_once_achieved_EURbn": 7
+      }
+    },
+    {
+      "driver": "manufacturing",
+      "assumed_cash_pool_EURbn": 7,
+      "reference_rate": 0.083,
+      "reference_annual_saving_EURbn": 0.581,
+      "historical_period": "Nissan three-year NISSAN180",
+      "status": "Scope and utilization transfer unresolved"
+    },
+    {
+      "driver": "logistics_and_indirect",
+      "assumed_logistics_pool_EURbn": 1.5,
+      "reference_rates": [
+        0.17,
+        0.2
+      ],
+      "reference_annual_savings_EURbn": [
+        0.255,
+        0.3
+      ],
+      "assumed_indirect_pool_EURbn": 1,
+      "indirect_savings": null,
+      "status": "Selected logistics projects; whole-network applicability and timing unresolved"
+    },
+    {
+      "driver": "quality_warranty",
+      "assumed_pool_EURbn": 3,
+      "reference_rate": null,
+      "reference_annual_saving_EURbn": null,
+      "status": "Positive mechanism from3MIS; financial conversion unquantified"
+    }
+  ],
+  "approved_forecast_total": null,
+  "timing_selected": false,
+  "withdrawn": [
+    "3% components selection",
+    "2%/5% components sensitivity bounds as recommendations",
+    "1.05bn selected components estimate",
+    "1.886bn base subtotal",
+    "5\u201310% warranty as calibrated base range"
+  ],
+  "renault_reference": "400EUR/vehicle achieved annual broad variableCOGS reduction; cross-check only, not additive or materials-only",
+  "workbook_changed": false
+}

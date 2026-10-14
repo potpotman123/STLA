@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "status": "Provisional analyst position; no approved final forecast or workbook edits",
+  "status": "WITHDRAWN: unsupported components haircut; preserve historical arithmetic only",
   "basis": "Annual recurring operational opportunity at reference volume, not annual incremental saving",
   "components": {
     "assumed_base_EURbn": 35,
@@ -52,5 +52,7 @@
     "Renault is cross-check only, not additional savings",
     "Execution, inflation and pricing offsets not deducted"
   ],
-  "note": "vcp-provisional-position.md"
+  "note": "vcp-provisional-position.md",
+  "withdrawal_reason": "User correctly challenged unsupported3% selection. Do not use1.886bn as current base case.",
+  "superseded_by": "vcp-driver-thesis-register.json"
 }
