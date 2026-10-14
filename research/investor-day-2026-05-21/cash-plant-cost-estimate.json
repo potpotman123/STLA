@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-14",
+  "scope": "NA maintenance energy other cash plant costs;2025-reference",
+  "annual_cost_base_EURbn": 1.5,
+  "sensitivity_EURbn": [
+    1,
+    2
+  ],
+  "status": "Proposed analyst assumption; low confidence; not reported or independently validated; no workbook changed",
+  "rounded_support_EURbn": {
+    "utilities": 0.3,
+    "purchased_repairs": 0.3,
+    "residual_analyst_allowance": 0.9
+  },
+  "allowance_calibration_judgment_EURbn": {
+    "refuse_site_taxes": 0.1,
+    "technical_support": 0.05,
+    "eligible_other_services": 0.6,
+    "consumables": 0.15
+  },
+  "census_benchmarks": [
+    {
+      "year": "2019",
+      "field": "PCHRPR",
+      "source_total_USD_thousands": 1720958.0,
+      "source_employees": 377538.0,
+      "derived_USD_per_employee": 4558.370283256255,
+      "conditional_EURbn_at_63000_staff_and_1_13_FX": 0.2541392281815434
+    },
+    {
+      "year": "2019",
+      "field": "PCHRFUS",
+      "source_total_USD_thousands": 229569.0,
+      "source_employees": 377538.0,
+      "derived_USD_per_employee": 608.0685917708946,
+      "conditional_EURbn_at_63000_staff_and_1_13_FX": 0.03390116927572245
+    },
+    {
+      "year": "2019",
+      "field": "PCHTAX",
+      "source_total_USD_thousands": 526567.0,
+      "source_employees": 377538.0,
+      "derived_USD_per_employee": 1394.739072623153,
+      "conditional_EURbn_at_63000_staff_and_1_13_FX": 0.07775978900465368
+    },
+    {
+      "year": "2019",
+      "field": "PCHPRTE",
+      "source_total_USD_thousands": 1577653.0,
+      "source_employees": 377538.0,
+      "derived_USD_per_employee": 4178.792598360959,
+      "conditional_EURbn_at_63000_staff_and_1_13_FX": 0.23297693247499157
+    },
+    {
+      "year": "2019",
+      "field": "PCHOEXP",
+      "source_total_USD_thousands": 13704600.0,
+      "source_employees": 377538.0,
+      "derived_USD_per_employee": 36299.92212704416,
+      "conditional_EURbn_at_63000_staff_and_1_13_FX": 2.0238009681449403
+    },
+    {
+      "year": "2021",
+      "field": "PCHRPR",
+      "source_total_USD_thousands": 1587205.0,
+      "source_employees": 365836.0,
+      "derived_USD_per_employee": 4338.569741632863,
+      "conditional_EURbn_at_63000_staff_and_1_13_FX": 0.2418848617016552
+    },
+    {
+      "year": "2021",
+      "field": "PCHRFUS",
+      "source_total_USD_thousands": 201486.0,
+      "source_employees": 365836.0,
+      "derived_USD_per_employee": 550.7549831071847,
+      "conditional_EURbn_at_63000_staff_and_1_13_FX": 0.030705808792701454
+    },
+    {
+      "year": "2021",
+      "field": "PCHTAX",
+      "source_total_USD_thousands": 494982.0,
+      "source_employees": 365836.0,
+      "derived_USD_per_employee": 1353.0161055773626,
+      "conditional_EURbn_at_63000_staff_and_1_13_FX": 0.07543364128440164
+    },
+    {
+      "year": "2021",
+      "field": "PCHPRTE",
+      "source_total_USD_thousands": 1480607.0,
+      "source_employees": 365836.0,
+      "derived_USD_per_employee": 4047.1878109316744,
+      "conditional_EURbn_at_63000_staff_and_1_13_FX": 0.2256396744147748
+    },
+    {
+      "year": "2021",
+      "field": "PCHOEXP",
+      "source_total_USD_thousands": 12132633.0,
+      "source_employees": 365836.0,
+      "derived_USD_per_employee": 33164.13092205251,
+      "conditional_EURbn_at_63000_staff_and_1_13_FX": 1.848973670875494
+    }
+  ],
+  "historical_MRO_ratio": 0.03,
+  "historical_ratio_source": "EPA2009 citing Sierra2007 Chrysler estimate; not independently verified",
+  "NA_net_adjusted_operating_expense_EURbn": 62.854,
+  "not_cost_of_sales": true,
+  "note": "cash-plant-cost-estimate.md"
+}

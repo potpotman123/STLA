@@ -59,3 +59,7 @@ Exclude finance-fleet depreciation and R&D amortization; do not add separately d
 - https://www.eia.gov/energyexplained/electricity/prices-and-factors-affecting-prices.php
 
 Discovery covered filings, historical regional sustainability records, company bargaining materials, union coverage and energy statistics; followed the concrete energy/workforce leads. Stop before expensive plant-by-plant collection or weak proxy multiplication. Highest-value missing evidence: NA transformation cost breakdown or plant purchased-services spend; NA manufacturing D&A; actual average plant FTE and loaded payroll. Target those facts in existing expert-call materials rather than broad sentiment research. No outreach or paid collection initiated.
+
+## Whole cash-pool estimate following user request
+
+See [cash-plant-cost-estimate.md](cash-plant-cost-estimate.md): proposes one rounded EUR1.5bn annual cash-plant base, with1.0/2.0bn sensitivities. This replaces the no-estimate status for planning only; no reported total discovered. Labor remains unvalidated; workbook unchanged.

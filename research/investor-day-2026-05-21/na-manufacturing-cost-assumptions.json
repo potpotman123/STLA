@@ -110,7 +110,9 @@
     ],
     "rounded_energy_working_central_EURbn": 0.3,
     "maintenance_purchased_services_and_other_overhead": null,
-    "confidence": "Energy estimate low; full subgroup not estimated"
+    "confidence": "Energy estimate low; full subgroup not estimated",
+    "proposed_total_annual_EURbn": 1.5,
+    "total_status": "New low-confidence proposal in cash-plant-cost-estimate.md; not observed actual or approved workbook input"
   },
   "depreciation": {
     "observed_global_machinery_plus_buildings_EURbn": 3.955,
