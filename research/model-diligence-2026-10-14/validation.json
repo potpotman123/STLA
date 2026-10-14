@@ -1,0 +1,154 @@
+{
+  "brand_reconciliation": [
+    {
+      "brand": "Ram",
+      "2026Q3": {
+        "named": 134072,
+        "unlisted_residual": 0,
+        "reported": 134072
+      },
+      "2026YTD": {
+        "named": 369379,
+        "unlisted_residual": 0,
+        "reported": 369379
+      }
+    },
+    {
+      "brand": "Jeep",
+      "2026Q3": {
+        "named": 128526,
+        "unlisted_residual": 16,
+        "reported": 128542
+      },
+      "2026YTD": {
+        "named": 413713,
+        "unlisted_residual": 80,
+        "reported": 413793
+      }
+    },
+    {
+      "brand": "Chrysler",
+      "2026Q3": {
+        "named": 34491,
+        "unlisted_residual": 3,
+        "reported": 34494
+      },
+      "2026YTD": {
+        "named": 101611,
+        "unlisted_residual": 16,
+        "reported": 101627
+      }
+    },
+    {
+      "brand": "Dodge",
+      "2026Q3": {
+        "named": 26519,
+        "unlisted_residual": 27,
+        "reported": 26546
+      },
+      "2026YTD": {
+        "named": 70928,
+        "unlisted_residual": 129,
+        "reported": 71057
+      }
+    },
+    {
+      "brand": "Fiat",
+      "2026Q3": {
+        "named": 54,
+        "unlisted_residual": 0,
+        "reported": 54
+      },
+      "2026YTD": {
+        "named": 284,
+        "unlisted_residual": 7,
+        "reported": 291
+      }
+    },
+    {
+      "brand": "Alfa",
+      "2026Q3": {
+        "named": 569,
+        "unlisted_residual": 0,
+        "reported": 569
+      },
+      "2026YTD": {
+        "named": 2316,
+        "unlisted_residual": 0,
+        "reported": 2316
+      }
+    }
+  ],
+  "q3_brand_sum": 324277,
+  "q3_reported_us": 324277,
+  "ytd_brand_sum": 958463,
+  "ytd_reported_us": 958463,
+  "historical_vintage_adjustments": {
+    "reported_totals": {
+      "2018A": 2235204,
+      "2019A": 2203663,
+      "2025A": 1260344,
+      "2024Q4A": 320743,
+      "2025Q4A": 332321,
+      "2025Q1A": 293225,
+      "2026Q1A": 305902,
+      "2025Q2A": 309973,
+      "2026Q2A": 328284,
+      "2025Q3A": 324825,
+      "2026Q3A": 324277,
+      "2025YTDQ3A": 928023,
+      "2026YTDQ3A": 958463,
+      "2023A": 1527090,
+      "2024A": 1303570,
+      "2022A_partial": null,
+      "2024Q1A": null,
+      "2024Q2A": null,
+      "2024Q3A": null
+    },
+    "coverage_residuals": {
+      "2018A": 0,
+      "2019A": 0,
+      "2025A": 3,
+      "2024Q4A": 0,
+      "2025Q4A": 0,
+      "2025Q1A": 360,
+      "2026Q1A": 46,
+      "2025Q2A": 152,
+      "2026Q2A": 6,
+      "2025Q3A": 475,
+      "2026Q3A": 46,
+      "2025YTDQ3A": 3317,
+      "2026YTDQ3A": 225,
+      "2023A": 4,
+      "2024A": -1,
+      "2022A_partial": null,
+      "2024Q1A": null,
+      "2024Q2A": null,
+      "2024Q3A": null
+    },
+    "ram_pickup_2024_loss_units": 71806,
+    "ram_pickup_share_2024_net_decline_pct": 32.12508947745169,
+    "2026_q2_published_h1_minus_original_q1_plus_q2": 159,
+    "2026_q3_ytd_minus_original_q1_q2_q3": 0,
+    "2026_q3_ytd_minus_published_h1_plus_q3": -159,
+    "2025_minivan_q3_comparative_pacifica_minus_old_pacifica_ytd": 11809,
+    "2025_voyager_ytd_from_fy_less_q4": 11809,
+    "2026_q1_minivan_combined": 25416,
+    "2026_q2_h1_minivan_less_q2": 25416,
+    "2026_q3_charger_combined_yoy_pct": 22.063702720637025,
+    "2026_ytd_charger_combined_yoy_pct": -1.6437437101643693,
+    "2026_q3_jeep_delta": -32022,
+    "2026_q3_cherokee_compass_gc_delta": -23588,
+    "2026_ytd_us_delta": 30440,
+    "2026_ytd_ram_ld_delta": 58883,
+    "2026_ytd_ex_ram_ld_delta": -28443,
+    "2026_ytd_ex_ram_ld_growth_pct": -3.6244248234171272
+  },
+  "cherokee_prior_quarters_minus_latest_ytd": 31,
+  "quarter_forecast_policy": "2026 actual YTD plus Q4F exactly. Forecast years2027/28 are annual because seasonality/launch timing insufficient; no implicit quarterly model. For quarterly workbook later, explicit mechanical allocation may be approved; not done here.",
+  "charger_2026_quarters_sum_exact": true,
+  "all_brand_reconcile": true,
+  "scenarios_ordered": true,
+  "q4_to_annual_exact": true,
+  "growth_bridge_exact": true
+}

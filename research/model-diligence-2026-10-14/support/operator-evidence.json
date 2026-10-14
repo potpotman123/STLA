@@ -1,0 +1,109 @@
+{
+  "classification": "reused prior public-call observations and practitioner methodology; no licensed full text",
+  "as_of": "2026-10-14",
+  "operator_observations": [
+    {
+      "id": "A1",
+      "status": "observed management testimony",
+      "source": {
+        "path": "/Users/kwu/Downloads/Asbury Automotive Group Inc._Earnings Call_2025-01-30_English.pdf",
+        "pages": [
+          11,
+          12
+        ]
+      },
+      "finding": "Q4 2024 clearance focused on poorly matched inventory with heavy incentives and very low gross profit per unit. By January management said allocation restrictions were beginning to lift, enabling orders for consumer-preferred options.",
+      "limits": "No specific configurations, date of policy change, actual reorder quantities or incentive payouts disclosed. Prediction that Q4 was margin trough is a forecast."
+    },
+    {
+      "id": "A2",
+      "status": "reported",
+      "source": {
+        "path": "/Users/kwu/Downloads/Asbury Automotive Group Inc._Earnings Call_2025-04-29_English.pdf",
+        "pages": [
+          5
+        ]
+      },
+      "finding": "In same-store YoY discussion, Stellantis volume up 3%; continued Stellantis profit headwind. All-brand new GPU $3449 and days supply 44.",
+      "limits": "Transcript says PBR for estimated $125 headwind; metric not independently resolved. Do not assign all-brand GPU or stock to Stellantis."
+    },
+    {
+      "id": "A3",
+      "status": "reported",
+      "source": {
+        "path": "/Users/kwu/Downloads/Asbury Automotive Group Inc._Earnings Call_2025-07-29_English.pdf",
+        "pages": [
+          5
+        ]
+      },
+      "finding": "In same-store YoY discussion, Stellantis volume up 15.6%. All-brand new GPU $3611 and days supply 59.",
+      "limits": "No Stellantis-specific margin, stock or bonus payout disclosed. National sales comparator may differ in retail/fleet coverage; prior-year CDK disruption and tariff-related timing can confound growth."
+    },
+    {
+      "id": "L1",
+      "status": "observed management testimony",
+      "source": {
+        "path": "/Users/kwu/Downloads/Lithia Motors Inc._Earnings Call_2025-04-23_English.pdf",
+        "pages": [
+          14,
+          15
+        ]
+      },
+      "finding": "Quarter-end manufacturer money described as typical; improving incentive and lease support discussed without Stellantis attribution.",
+      "limits": "Cannot treat as evidence of Stellantis bonus transition."
+    },
+    {
+      "id": "L2",
+      "status": "observed management testimony",
+      "source": {
+        "path": "/Users/kwu/Downloads/Lithia Motors Inc._Earnings Call_2025-07-29_English.pdf",
+        "pages": [
+          10
+        ]
+      },
+      "finding": "CEO still described Stellantis as struggling and brand exposure as a contributor to new-sales underperformance; geography also matters.",
+      "limits": "No quantified Stellantis sales or margin series; does not disprove Asbury improvement."
+    }
+  ],
+  "assessment": {
+    "supported": "Asbury Stellantis sales improved in H1 2025. Better ability to order desirable configurations is an additional plausible mechanism beyond bonuses.",
+    "not_established": [
+      "Change in sales-target formula or 200% threshold",
+      "Dealer bonus attainment or payout time series",
+      "Stellantis-specific profitable inventory replenishment",
+      "Causal effect of retail bonuses on sales",
+      "Uniform recovery across dealership groups"
+    ],
+    "causal_caution": "Ordering improvements were reported by Jan30, before previously identified Feb1 Ram RRoS start. Timing prevents attributing all recovery to that program, but does not rule out other retail incentives.",
+    "model_use": "Use Asbury sales observations and ordering testimony as supporting evidence. Do not extrapolate to national growth or assign bonus-driven recovery percentages."
+  },
+  "ordering_sources": {
+    "nada": "https://www.nada.org/media/3077/download?inline=",
+    "vauto": "https://www.vauto.com/wp-content/uploads/2025/07/cheat-sheet-conquest-market-days-supply.pdf",
+    "trax": "https://news.chevrolet.com/newsroom.detail.html/Pages/news/us/en/2022/oct/1012-trax.html",
+    "envista": "https://news.buick.com/newsroom.detail.html/Pages/news/us/en/2023/apr/0417-envista.html",
+    "buick_campaign": "https://news.gm.com/home.detail.html/Pages/news/us/en/2024/feb/0227-buick.html",
+    "trax_campaign": "https://news.gm.com/home.detail.html/Pages/news/us/en/2023/apr/0424-dream.html"
+  },
+  "ordering_findings": [
+    {
+      "topic": "Dealer ordering",
+      "observed": "NADA2010 Inventory Planner printed pp1 and4 combines sales forecasts, desired stock, on-hand inventory, transit and commitments; recommends model/configuration history, lost-sales review, regional comparison and weekly reassessment. Order ratings permit build, maintain or no stock orders.",
+      "limits": "Recommended practice, not empirical proof every dealer follows it. Suggested45days adaptable, not universal. Source days-supply parenthetical omits a time conversion; do not copy it as a dimensionally correct formula."
+    },
+    {
+      "topic": "Operational demand measurement",
+      "observed": "vAuto defines market days supply as market units of an exact configuration divided by average daily retail sales over preceding45days.",
+      "limits": "Current vendor method, not proof STLA dealers used this exact method in2024. Sales rate depends on price and availability, not pure latent preference. CRM leads/appointments/deposits useful candidate forward signals, not verified here as universal ordering inputs."
+    },
+    {
+      "topic": "Accounting distinction",
+      "finding": "Published model-sales table measures end-customer deliveries including fleet; dealer purchases feed wholesale shipments and inventory, not mechanically the same series. Simplified receipts = customer deliveries + change in dealer stock, adjusting transfers and timing. Orders precede receipts and need not be fulfilled.",
+      "hypothetical": "20 customer sales plus inventory falling60to45 implies5 receipts, ignoring other movements. Stable customer sales can coexist with lower wholesale shipments."
+    }
+  ],
+  "source_sha256": {
+    "dealer-2025-followthrough-audit.json": "a660644676c0f3a656404ecb2b5536e048a0dd9da09121535fd45ba64a6883d8",
+    "dealer-ordering-and-gm-launch-audit.json": "f5fe0bde90adf764a7639323135ffd35f47da0c7e303daef547c0e84893fbacf"
+  }
+}

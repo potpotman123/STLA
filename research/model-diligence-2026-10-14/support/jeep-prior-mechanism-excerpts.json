@@ -1,0 +1,278 @@
+{
+  "as_of": "2026-10-14",
+  "purpose": "Portable excerpts supporting Jeep diligence J02 and J22. Exact upstream authored fields are preserved; they are reused research, not independent new observations. Original public source URLs and limitations remain in each excerpt.",
+  "excerpts": {
+    "grand_cherokee_mechanisms": {
+      "original_workspace_file": "outputs/grand-cherokee-q2-2024-mechanism-audit.json",
+      "original_sha256": "0ec0e90e6504e7f1e3822f8a735e6006564ef447a3423d3bc389844ccdf142fa",
+      "copied_fields": [
+        "as_of",
+        "question",
+        "units",
+        "half_year",
+        "annual_decomposition",
+        "channel_check",
+        "q4_channel_followup_2026_10_13",
+        "model_status",
+        "sources"
+      ],
+      "excerpt": {
+        "as_of": "2026-10-13",
+        "question": "What changed around Q2 2024 that disproportionately hurt US Grand Cherokee 4xe sales, and what does that imply for sustainable retail recovery?",
+        "units": "US vehicles reported sold, calendar quarters; not shipments, North American revenue or retail-only registrations.",
+        "half_year": [
+          {
+            "period": "H1",
+            "series": "GC_4xe",
+            "2023": 17983,
+            "2024": 19120,
+            "delta": 1137,
+            "yoy_pct": 6.322638047044427,
+            "status": "derived"
+          },
+          {
+            "period": "H1",
+            "series": "GC_other",
+            "2023": 106973,
+            "2024": 87631,
+            "delta": -19342,
+            "yoy_pct": -18.081198059323377,
+            "status": "derived"
+          },
+          {
+            "period": "H2",
+            "series": "GC_4xe",
+            "2023": 27701,
+            "2024": 8470,
+            "delta": -19231,
+            "yoy_pct": -69.42348651673225,
+            "status": "derived"
+          },
+          {
+            "period": "H2",
+            "series": "GC_other",
+            "2023": 91937,
+            "2024": 100927,
+            "delta": 8990,
+            "yoy_pct": 9.778435232822469,
+            "status": "derived"
+          }
+        ],
+        "annual_decomposition": {
+          "GC_total_loss_units": 28446,
+          "GC_4xe_loss_units": 18094,
+          "GC_other_loss_units": 10352,
+          "4xe_share_total_unit_loss_pct": 63.60824017436546,
+          "limit": "Arithmetic allocation, not causal attribution or revenue contribution."
+        },
+        "channel_check": {
+          "Q2_vs_Q1_2024_GC_retail_pct_reported": 12,
+          "Q2_vs_Q1_2024_GC_total_pct_derived": -3.9647415297034194,
+          "Q2_vs_Q1_total_unit_change": -2159,
+          "interpretation": "With consistent channel definitions, fleet must fall because total falls while retail rises. No absolute retail base or 4xe channel allocation disclosed."
+        },
+        "q4_channel_followup_2026_10_13": {
+          "total_2023": 61723,
+          "total_2024": 55209,
+          "change": -6514,
+          "total_growth_pct": -10.553602384848437,
+          "retail_growth_pct_reported_rounded": 17,
+          "fleet_identity": "Delta fleet = -6514 - Delta retail. Positive retail growth requires fleet contraction greater than 6514 vehicles, assuming comparable populations and classification.",
+          "limit": "No absolute retail base, 4xe channel split, or inference of consumer substitution.",
+          "source": "https://www.prnewswire.com/news-releases/fca-us-reports-fourth-quarter-and-full-year-2024-sales-results-302342164.html",
+          "novelty": "Previously held release, retail bullet newly incorporated. See normalization-mechanism-gap-audit.json."
+        },
+        "model_status": {
+          "ready": "Quarterly and half-year variant unit decomposition; distinguish recovery of non4xe from rebound of entire brand or PHEV.",
+          "not_ready": "Causal weights, retail-only elasticity, or recovery forecast assuming return of all lost4xe units.",
+          "decision": "Do not label the entire year as uniform Grand Cherokee demand collapse or assume launch/production repair alone restores demand.",
+          "recovery_tests": [
+            "If retail non4xe already displaced4xe, adding all lost4xe units to a recovery scenario double-counts customers.",
+            "Recoverable supply blockage requires evidence of unsatisfied demand at viable price once units become sellable.",
+            "Incentive-dependent volume must be evaluated alongside manufacturer/dealer margin and residual support."
+          ]
+        },
+        "sources": {
+          "q124": {
+            "title": "FCA Q12024 US sales",
+            "url": "https://www.prnewswire.com/news-releases/fca-reports-first-quarter-2024-us-sales-results-302107281.html",
+            "published": "2024-04-03",
+            "accessed": "2026-10-08",
+            "extraction_location": "4xe units; retail plus fleet",
+            "limitation": "4xe units; retail plus fleet",
+            "evidence_use": "Mechanism/timing follow-up; descriptive only"
+          },
+          "q224": {
+            "title": "FCA Q22024 US sales",
+            "url": "https://www.prnewswire.com/news-releases/fca-reports-second-quarter-2024-us-sales-results-302188464.html",
+            "published": "2024-07-02",
+            "accessed": "2026-10-08",
+            "extraction_location": "4xe units; retail plus fleet",
+            "limitation": "4xe units; retail plus fleet",
+            "evidence_use": "Mechanism/timing follow-up; descriptive only"
+          },
+          "sales23": {
+            "title": "FCA US 2023 sales",
+            "url": "https://www.prnewswire.com/news-releases/fca-reports-fourth-quarter-and-full-year-2023-sales-results-302025792.html",
+            "published": "2024-01-03",
+            "accessed": "2026-10-08",
+            "extraction_location": "CYTD table and 4xe bullets",
+            "evidence_use": "Historical model and powertrain totals",
+            "limitation": "US retail plus fleet; cannot infer household demand from totals.",
+            "family": "OEM"
+          },
+          "sales24": {
+            "title": "FCA US 2024 sales",
+            "url": "https://www.prnewswire.com/news-releases/fca-us-reports-fourth-quarter-and-full-year-2024-sales-results-302342164.html",
+            "published": "2025-01-03",
+            "accessed": "2026-10-08",
+            "extraction_location": "CYTD table, 4xe and Q4 retail bullets",
+            "evidence_use": "Model and powertrain decomposition",
+            "limitation": "Model, channel, period and powertrain measures are different. No transaction-price control.",
+            "family": "OEM"
+          }
+        }
+      }
+    },
+    "household_relative_value": {
+      "original_workspace_file": "outputs/household-demand-relative-value-audit.json",
+      "original_sha256": "9c9c2fd408408fad487170fc9f21cb6d77e7efd52b01697b475ce0a2ec2a68a0",
+      "copied_fields": [
+        "as_of",
+        "question",
+        "price_definition",
+        "observations",
+        "judgment",
+        "model_use",
+        "sources"
+      ],
+      "excerpt": {
+        "as_of": "2026-10-13",
+        "question": "Does household-demand evidence support persistent brand inferiority or a subsequent loss of relative value?",
+        "price_definition": "KBB US manufacturer-group average transaction prices exclude applied consumer incentives. Mix varies across groups and periods. December 2019 is context, not a seasonally matched comparison.",
+        "observations": [
+          {
+            "status": "observed proxy",
+            "finding": "KBB Q4 2019 Ram 1500 shopping +32% QoQ; Grand Cherokee consideration +33%; both top-ten most-shopped non-luxury vehicles. Ram first on six of twelve perception factors. Survey and shopping evidence, not willingness-to-pay or population-wide brand preference."
+          },
+          {
+            "status": "derived",
+            "finding": "March 2023 to March 2024 Stellantis-versus-Ford average price gap shifted from -451 to +3991 dollars: +4442. Mix and incentives prevent like-for-like overpricing interpretation."
+          },
+          {
+            "status": "observed",
+            "finding": "December 2024 Jeep ATP -6.3% YoY; Ram -1.6%; Ram incentives over 13% of ATP. This is a monthly snapshot."
+          },
+          {
+            "status": "observed",
+            "finding": "Q2 2025 Ram 1500 retail +68% YoY, total +17%; Grand Cherokee retail +5%. Company-wide total US sales still -10%. Low base, supply recovery, offers and mix confound attribution."
+          },
+          {
+            "status": "derived from prior audit",
+            "finding": "H2 2024 Grand Cherokee non-4xe sales +9.78%, 4xe -69.42%. Retail plus fleet. Inconsistent with uniform nameplate rejection; not proof of financing causality.",
+            "artifact": "outputs/grand-cherokee-q2-2024-mechanism-audit.json"
+          }
+        ],
+        "judgment": "Blanket always-second-tier hypothesis is too broad. Relative price/product mismatch is plausible and directionally supported; an enduring household customer base existed for major models, but sustainable profitable recovery remains unproven.",
+        "model_use": "Use verified actual sales and price observations descriptively. Do not fit elasticity, causal contribution weights or recoverable-volume forecast from these aggregates.",
+        "sources": {
+          "2019_prices": "https://mediaroom.kbb.com/2020-01-03-Average-New-Vehicle-Prices-Up-Nearly-2-Year-Over-Year-in-December-2019-According-to-Kelley-Blue-Book",
+          "2024_prices": "https://www.coxautoinc.com/wp-content/uploads/2024/04/March-2024-Kelley-Blue-Book-Average-Transaction-Price-tables.pdf",
+          "2019_consideration": "https://www.coxautoinc.com/insights/q4-2019-kelley-blue-book-brand-watch-report-ram-scores-big-in-shopping-consideration-consumer-perception/",
+          "2024_correction": "https://www.coxautoinc.com/insights/december-2024-atp-report/",
+          "2025_retail": "https://www.prnewswire.com/news-releases/fca-us-reports-second-quarter-2025-us-sales-results-302496258.html"
+        }
+      }
+    },
+    "comparative_launches": {
+      "original_workspace_file": "outputs/comparative-launch-study.json",
+      "original_sha256": "06eeb50661aed42c8bcc37f27287cefe1ee3a728b7d2bf95da8683d23a491aff",
+      "copied_fields": [
+        "as_of",
+        "scope",
+        "cases",
+        "limitations",
+        "forecast_rules",
+        "sources"
+      ],
+      "excerpt": {
+        "as_of": "2026-10-13",
+        "scope": "US2023-24 launch comparison, bounded pilot",
+        "cases": [
+          {
+            "model": "Chevrolet Trax",
+            "classification": "Strong volume recovery; long-run profitability not established",
+            "launch": "Redesign of existing nameplate, spring 2023 US launch, MY2024",
+            "entry_price_usd": 21495,
+            "price_basis": "Launch MSRP including destination; not net transaction",
+            "product": "More room and standard safety/technology at low starting price; all five trim starting prices below25000. Old/new sales comparison confounded by supply and transition.",
+            "advertising": "April2023 Lead Dream Chaser social promotion; aspirations and accessible lifestyle. Not a complete advertising inventory.",
+            "units_2023": 109382,
+            "units_2024": 200689,
+            "q4_2023": 44127,
+            "q4_2024": 50927,
+            "support": "GM Q12024: incentive estimate about95% below small-SUV segment average. Point-in-time management claim, not annual audited cost.",
+            "mechanism": "Practical offering at affordable entry price; production ramp and fuller-year exposure contribute.",
+            "disconfirm": "Without ad reach and comparable supply, cannot assign growth to advertising or product changes alone.",
+            "annual_yoy_pct": 83.475343292315,
+            "q4_yoy_pct": 15.410066399256683
+          },
+          {
+            "model": "Buick Envista",
+            "classification": "Strong launch growth; durability/profitability not established",
+            "launch": "New US nameplate, summer2023",
+            "entry_price_usd": 23495,
+            "price_basis": "Launch MSRP including destination; not net transaction",
+            "product": "Design and cabin presentation at accessible price; FWD turbo three-cylinder rather than high-performance AWD proposition.",
+            "advertising": "Exceptional by design launchedFeb27 2024; brand-level digital video and owned channels, not Envista-only spending.",
+            "units_2023": 13302,
+            "units_2024": 51316,
+            "q4_2023": 7917,
+            "q4_2024": 12426,
+            "support": "GM Q12024: incentives about85% below segment average; management claim.",
+            "mechanism": "Low entry price plus styling; first full year materially boosts annual comparison.",
+            "disconfirm": "Named2024campaign postdates2023sales; cannot explain initial adoption. New-to-Buick is not necessarily conquest from other OEMs.",
+            "annual_yoy_pct": 285.77657495113516,
+            "q4_yoy_pct": 56.953391436150056
+          }
+        ],
+        "limitations": [
+          "Purposive four-case study, not representative matched sample. Two successful GM small SUVs are related product programs, not independent experiments; Ram is a mechanism case in another segment.",
+          "Calendar Q4 comparisons reduce partial-year distortion for three2023launches but do not align exact months since launch or remove supply ramps. No complete monthly launch-age panel.",
+          "New-car total sales include fleet, and dealer listings are proxies; no uniform consumer-only panel.",
+          "No comparable campaign spending, reach, brand lift, lead conversion or incremental sales data. Presence of a campaign does not establish equal ad intensity or effectiveness.",
+          "CarGurus p20 numeric chart recovered through indexed primary-source search text; PDF chart screenshot failed, direct download DNS failed. Report p33 definitions verified: MDS uses month-end inventory relative to45-day rolling sales.397.2 is not age. Minimum5000listing threshold; national coverage is provider sample.",
+          "CarEdge historicalPDF404 and updated iSeeCars studies excluded. Canadian incentives and foreign-market ads excluded."
+        ],
+        "forecast_rules": [
+          {
+            "test": "Affordable product coverage",
+            "forecast_condition": "Model fills a price/use-case gap and can be supplied in meaningful affordable configurations.",
+            "require": "Net payments, actual trim availability and several quarters of sell-through; deduct cannibalization."
+          },
+          {
+            "test": "Product-positioning mismatch",
+            "forecast_condition": "High stock persists despite availability and substantial marketing.",
+            "require": "Test price/payment, practical features and cross-shopping; no automatic rebound on ad launch."
+          },
+          {
+            "test": "Launch execution",
+            "forecast_condition": "Wanted variants were unavailable and become consistently deliverable.",
+            "require": "Sales improve with stock normalization; distinguish pipeline refill from customer demand."
+          },
+          {
+            "test": "Advertising",
+            "forecast_condition": "Exposure changes precede qualified interest and purchases after price/stock controls.",
+            "require": "Incremental lift or comparable geography/time variation. Without it, no separate numerical ad uplift."
+          }
+        ],
+        "sources": {
+          "trax": "https://news.chevrolet.com/newsroom.detail.html/Pages/news/us/en/2022/oct/1012-trax.html",
+          "envista": "https://news.buick.com/newsroom.detail.html/Pages/news/us/en/2023/apr/0417-envista.html",
+          "gm_sales": "https://investor.gm.com/static-files/e1bb38a4-aaf9-4141-b44a-4c61c1f2ec54",
+          "gm_incentives": "https://investor.gm.com/static-files/86b876b4-58b9-4a51-9c37-a9a753b69db1"
+        }
+      }
+    }
+  }
+}

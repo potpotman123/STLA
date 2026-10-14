@@ -1,0 +1,17 @@
+{
+  "as_of": "2026-10-14",
+  "request_file": "/Users/kwu/.codex/attachments/0a62b743-076f-4847-88a7-2bd1236c725e/Pasted text.txt",
+  "request_sha256": "8e3a58414066a489adc9c97d94e9c4f2fc2ff1051f6153e52c9a391b4e9eb566",
+  "prior_base_commit": "e82bc34",
+  "input_sha256": {
+    "docs/model-architecture.md": "0dd6765b75c9de1e68f90b8c3c85ddef21efe092314fc421588ef93e37c09637",
+    "research/volume-recovery-2026-10-14/historical-sales-ledger.json": "4770bdacf764fddcc76cce95adb4f31b2d3adeff94d16e8a8ab53773c004c8e8",
+    "research/volume-recovery-2026-10-14/normalized-source-observations.json": "46dc9d2bed0c8d54ac9412561bca05c8115afc39700fd1e633ff6a772be3704c",
+    "research/volume-recovery-2026-10-14/proposed-volume-inputs.json": "91fe79bb4d922040e3901b6d59e562cb9caa82f7eb1b66e94fdea99132238cb6",
+    "research/investor-day-2026-05-21/north-america-launch-register.md": "4d3c5b10bab9143644b3bd43d3a9bcf8878aaf2290934e0dfcd639358d2caaa4"
+  },
+  "architecture_status": "Pre-existing modified file read only, not edited or staged by this research pass",
+  "reproduce": "python3 research/model-diligence-2026-10-14/build-forecast-inputs.py",
+  "workbook_changed": false,
+  "independent_ai_baseline_changed": false
+}

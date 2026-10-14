@@ -1,0 +1,66 @@
+{
+  "frozen_at": "2026-10-14",
+  "purpose": "Portable excerpts of earlier workspace research relied on by Ram diligence. These are reused authored research, not newly collected or independent evidence.",
+  "excerpts": [
+    {
+      "original_workspace_filename": "ram-affordability-audit.json",
+      "original_sha256": "89719cd6a82ded5ec3ce9b2847c07d47486aa73cf1e668207f1947c6ce3061e1",
+      "original_as_of": "2026-10-13",
+      "selection": "Only public-source findings relevant to this Ram supplement; unrelated analyses and local document paths omitted.",
+      "sources": {
+        "hemi_return": "https://www.prnewswire.com/news-releases/the-legend-returns-2026-ram-1500-offers-5-7-liter-hemi-v-8-etorque-engine-with-proven-performance-and-capability-302474035.html",
+        "trim_prices": "https://www.motortrend.com/news/2025-ram-1500-pickup-price-msrp-trim-levels",
+        "classic": "https://www.kbb.com/car-news/ram-1500-classic-production-to-end-in-september/"
+      },
+      "findings": [
+        {
+          "topic": "Persistent relative weakness",
+          "observed": "Ram pickups 468344 in2022,444926 in2023,373120 in2024;2024 loss71806,32.125%of reported USnetloss. Selected pickup peers +4.41%2024 versus Ram-16.14%.",
+          "caveat": "US retail+fleet,1500+HD; peer basket not complete market or matched customers. Pre2024 deterioration rules out2025MYengine change as sole original cause."
+        },
+        {
+          "topic": "Price ladder",
+          "observed": "Feb22 2024 MotorTrend quotes MY2025 base MSRP incl destination:Tradesman42270,BigHorn47175,Laramie62320,Limited77445,Longhorn78440,Tungsten89315. Reports BigHorn down modestly,Limited upover9000,Longhorn up13000; engines/equipment changed.",
+          "caveat": "Contemporary secondary report, not matched-config transaction inflation; cannot transfer full increase to same truck."
+        },
+        {
+          "topic": "Engine preference",
+          "observed": "June5 2025 UScompanyrelease acknowledges droppingHEMI mistake and restores option forMY2026 afterMY2025six-cylinder switch; ordersopen and summerdeliveriesplanned.",
+          "inference": "Preference mismatch plausible; return is not quantified lost-sales or incremental-recovery proof. Other engines remain. Earlier2023decline has other causes."
+        },
+        {
+          "topic": "Classic transition",
+          "observed": "August6 2024KBB reports planned SeptemberClassic productionend, citingcompany; dealer inventoryexpectedtosellinto2025.",
+          "caveat": "Not immediate retail disappearance; Classic at40700 not automaticallycheapest comparedwithcompetitorF150XL38060 inreport,configdifferences. Exactenddate notconfirmedhere."
+        }
+      ]
+    },
+    {
+      "original_workspace_filename": "dealer-ordering-and-gm-launch-audit.json",
+      "original_sha256": "f5fe0bde90adf764a7639323135ffd35f47da0c7e303daef547c0e84893fbacf",
+      "original_as_of": "2026-10-13",
+      "selection": "Only public-source findings relevant to this Ram supplement; unrelated analyses and local document paths omitted.",
+      "sources": {
+        "nada": "https://www.nada.org/media/3077/download?inline=",
+        "vauto": "https://www.vauto.com/wp-content/uploads/2025/07/cheat-sheet-conquest-market-days-supply.pdf"
+      },
+      "findings": [
+        {
+          "topic": "Dealer ordering",
+          "observed": "NADA2010 Inventory Planner printed pp1 and4 combines sales forecasts, desired stock, on-hand inventory, transit and commitments; recommends model/configuration history, lost-sales review, regional comparison and weekly reassessment. Order ratings permit build, maintain or no stock orders.",
+          "limits": "Recommended practice, not empirical proof every dealer follows it. Suggested45days adaptable, not universal. Source days-supply parenthetical omits a time conversion; do not copy it as a dimensionally correct formula."
+        },
+        {
+          "topic": "Operational demand measurement",
+          "observed": "vAuto defines market days supply as market units of an exact configuration divided by average daily retail sales over preceding45days.",
+          "limits": "Current vendor method, not proof STLA dealers used this exact method in2024. Sales rate depends on price and availability, not pure latent preference. CRM leads/appointments/deposits useful candidate forward signals, not verified here as universal ordering inputs."
+        },
+        {
+          "topic": "Accounting distinction",
+          "finding": "Published model-sales table measures end-customer deliveries including fleet; dealer purchases feed wholesale shipments and inventory, not mechanically the same series. Simplified receipts = customer deliveries + change in dealer stock, adjusting transfers and timing. Orders precede receipts and need not be fulfilled.",
+          "hypothetical": "20 customer sales plus inventory falling60to45 implies5 receipts, ignoring other movements. Stable customer sales can coexist with lower wholesale shipments."
+        }
+      ]
+    }
+  ]
+}

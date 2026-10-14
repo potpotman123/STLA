@@ -1,0 +1,1762 @@
+{
+  "as_of": "2026-10-14",
+  "status": "Provisional independent research revisions; not approved or workbook-adopted",
+  "scope": "US issuer retail plus fleet sales, excluding Maserati. Maserati financial segment/reclassification scope must be handled separately in the regional financial reconciliation.",
+  "rows": [
+    {
+      "id": "ram_ld",
+      "family": "Ram light-duty pickups including Classic",
+      "brand": "Ram",
+      "historical_actual_units": {
+        "2018A": null,
+        "2019A": null,
+        "2025A": 204139,
+        "2024Q4A": 49312,
+        "2025Q4A": 60875,
+        "2025Q1A": 47067,
+        "2026Q1A": 59828,
+        "2025Q2A": 51848,
+        "2026Q2A": 65669,
+        "2025Q3A": 44349,
+        "2026Q3A": 76650,
+        "2025YTDQ3A": 143264,
+        "2026YTDQ3A": 202147,
+        "2023A": null,
+        "2024A": 187013,
+        "2022A_partial": null,
+        "2024Q1A": 53031,
+        "2024Q2A": 44405,
+        "2024Q3A": 40265
+      },
+      "2026Q4F_units": {
+        "downside": 65000,
+        "base": 75000,
+        "upside": 85000
+      },
+      "2026FY_A_plus_F_units": {
+        "downside": 267147,
+        "base": 277147,
+        "upside": 287147
+      },
+      "2027F_units": {
+        "downside": 250000,
+        "base": 300000,
+        "upside": 330000
+      },
+      "2028F_units": {
+        "downside": 240000,
+        "base": 300000,
+        "upside": 350000
+      },
+      "2026FY_yoy_pct": {
+        "downside": 30.86524377997344,
+        "base": 35.76386677704897,
+        "upside": 40.6624897741245
+      },
+      "2027_yoy_pct": {
+        "downside": -6.4185635623832615,
+        "base": 8.245804573024419,
+        "upside": 14.923715030977158
+      },
+      "2028_yoy_pct": {
+        "downside": -4.0000000000000036,
+        "base": 0.0,
+        "upside": 6.060606060606055
+      },
+      "2028_base_delta_vs_2026_base": 22853,
+      "2028_base_delta_vs_2025": 95861,
+      "prior_2027_base": 310000,
+      "prior_2028_base": 320000,
+      "revision_2027_base": -10000,
+      "revision_2028_base": -20000,
+      "pricing_incentive_mix": "Base assumes ongoing competitive support and no automatic same-configuration net-price improvement. Affordable entry/fleet mix can dilute average realization while performance derivatives enrich it; net balance unknown. The July $14k\u2013$21k figures combine OEM and dealer money and cannot be subtracted wholesale from manufacturer RPU. No manufacturer actual RPU, invoice margin or matched transaction-price trend is established.",
+      "thesis": "A genuine level recovery, with engine choice, availability and effective payments working together. Q3 strength does not establish a further structural growth slope or recovered manufacturer pricing power.",
+      "method": "Q4 base75000 closely holds Q3; downside65000 nearQ2, upside85000 requires repeat retail/order conversion. Reject mechanical 2024/25 Q4 multipliers because both years contain launch/mix disruptions. 2027 base300000=25000/month approximates currentQ3 monthly25550, slightly lower to allow comparison normalization. 2028 base holds300000; no calibrated coefficient supports further growth. Downside250000/240000 means some recovered buyers were pulled forward and smaller trucks substitute; upside330000/350000 requires sustained retail share plus viable replenishment. These are judgment scenarios, not intervals.",
+      "confidence": "high on observed sales; medium on interacting mechanisms; low-medium on level; low on price/mix magnitude",
+      "falsifier": "Following HEMI anniversary, comparable retail pace and fresh order completions fall despite available configurations, or stable sales require rising manufacturer support/aged stock. Conversely several quarters of low inventory and matched retail/share gains would justify upward revision.",
+      "dossier": "ram-diligence.md",
+      "classification": "Actual source counts; forecast/price direction analyst judgments; null means not allocated",
+      "source_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R05",
+        "R12",
+        "R13",
+        "R15",
+        "R18",
+        "R19",
+        "R21",
+        "R22",
+        "R23",
+        "R24",
+        "R11"
+      ],
+      "share_quantified_2026_base_pct": 21.300223034156044,
+      "share_quantified_2028_base_pct": 20.964360587002094
+    },
+    {
+      "id": "ram_hd",
+      "family": "Ram heavy-duty pickups;2500/3500, chassis scope unresolved",
+      "brand": "Ram",
+      "historical_actual_units": {
+        "2018A": null,
+        "2019A": null,
+        "2025A": 169920,
+        "2024Q4A": 55142,
+        "2025Q4A": 50798,
+        "2025Q1A": 31781,
+        "2026Q1A": 38597,
+        "2025Q2A": 43624,
+        "2026Q2A": 43497,
+        "2025Q3A": 43717,
+        "2026Q3A": 41107,
+        "2025YTDQ3A": 119122,
+        "2026YTDQ3A": 123201,
+        "2023A": null,
+        "2024A": 186107,
+        "2022A_partial": null,
+        "2024Q1A": 36386,
+        "2024Q2A": 45704,
+        "2024Q3A": 48875
+      },
+      "2026Q4F_units": {
+        "downside": 41000,
+        "base": 47000,
+        "upside": 52000
+      },
+      "2026FY_A_plus_F_units": {
+        "downside": 164201,
+        "base": 170201,
+        "upside": 175201
+      },
+      "2027F_units": {
+        "downside": 155000,
+        "base": 170000,
+        "upside": 185000
+      },
+      "2028F_units": {
+        "downside": 150000,
+        "base": 170000,
+        "upside": 195000
+      },
+      "2026FY_yoy_pct": {
+        "downside": -3.3657015065913343,
+        "base": 0.16537193973633624,
+        "upside": 3.1079331450094116
+      },
+      "2027_yoy_pct": {
+        "downside": -5.603498151655595,
+        "base": -0.11809566336272725,
+        "upside": 5.593004606138097
+      },
+      "2028_yoy_pct": {
+        "downside": -3.2258064516129004,
+        "base": 0.0,
+        "upside": 5.405405405405395
+      },
+      "2028_base_delta_vs_2026_base": -201,
+      "2028_base_delta_vs_2025": 80,
+      "prior_2027_base": 175000,
+      "prior_2028_base": 180000,
+      "revision_2027_base": -5000,
+      "revision_2028_base": -10000,
+      "pricing_incentive_mix": "Base requires competitive business purchase/financing support, with no automatic diesel or premium mix uplift. Diesel capability can justify a price premium only for relevant jobs. Manufacturer net realization and actual dealer margin unknown. Treat2500/3500 plus potential chassis-cab coverage consistently with reportedHDPU; no extra4500/5500 volume added without scope confirmation.",
+      "thesis": "Hold approximately the current annual level; engineering improvements are relevant, but a persistent post-transition sales gap and selective high-trim clearance do not justify automatic normalization.",
+      "method": "Q4 base47000 uses the mean of observed2024/25 HDQ4:Q3 ratios(1.128,1.162) applied to41107, rounded; both years disrupted, so use only a broad seasonal check. Down41000 holdsQ3, up52000 near2025Q4. 2027/28 base170000=14167/month near2025 level and2026 forecast; downside155000/150000, upside185000/195000 needs stronger post-refresh commercial demand. No empirical demand coefficient.",
+      "confidence": "high on totals; medium on supply transition; low on channel mix and forward level",
+      "falsifier": "Post-refresh family retail and commercial contract deliveries fail while peerHD recovers; or matched stock/discount data show faster turn and sustained growth, supporting upside.",
+      "dossier": "ram-diligence.md",
+      "classification": "Actual source counts; forecast/price direction analyst judgments; null means not allocated",
+      "source_ids": [
+        "R01",
+        "R02",
+        "R06",
+        "R09",
+        "R10",
+        "R11",
+        "R14"
+      ],
+      "share_quantified_2026_base_pct": 13.080853340055612,
+      "share_quantified_2028_base_pct": 11.87980433263452
+    },
+    {
+      "id": "promaster",
+      "family": "Ram Pro Master large van",
+      "brand": "Ram",
+      "historical_actual_units": {
+        "2018A": 46600,
+        "2019A": 56409,
+        "2025A": 57591,
+        "2024Q4A": 24866,
+        "2025Q4A": 12295,
+        "2025Q1A": 14519,
+        "2026Q1A": 13735,
+        "2025Q2A": 15144,
+        "2026Q2A": 13981,
+        "2025Q3A": 15633,
+        "2026Q3A": 16314,
+        "2025YTDQ3A": 45296,
+        "2026YTDQ3A": 44030,
+        "2023A": 81663,
+        "2024A": 65869,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "2026Q4F_units": {
+        "downside": 12000,
+        "base": 15000,
+        "upside": 18000
+      },
+      "2026FY_A_plus_F_units": {
+        "downside": 56030,
+        "base": 59030,
+        "upside": 62030
+      },
+      "2027F_units": {
+        "downside": 50000,
+        "base": 60000,
+        "upside": 68000
+      },
+      "2028F_units": {
+        "downside": 48000,
+        "base": 60000,
+        "upside": 70000
+      },
+      "2026FY_yoy_pct": {
+        "downside": -2.7104929589692794,
+        "base": 2.4986543036238373,
+        "upside": 7.707801566216954
+      },
+      "2027_yoy_pct": {
+        "downside": -10.76209173656969,
+        "base": 1.6432322547857092,
+        "upside": 9.62437530227309
+      },
+      "2028_yoy_pct": {
+        "downside": -4.0000000000000036,
+        "base": 0.0,
+        "upside": 2.941176470588225
+      },
+      "2028_base_delta_vs_2026_base": 970,
+      "2028_base_delta_vs_2025": 2409,
+      "prior_2027_base": 60000,
+      "prior_2028_base": 63000,
+      "revision_2027_base": 0,
+      "revision_2028_base": -3000,
+      "pricing_incentive_mix": "Base volume assumes ongoing fleet competitiveness, broadly stable comparable-configuration net realization rather than a pricing recovery. Mix across body sizes, fleet agreements and EV/ICE could dominate familyRPU, currently unknown. Upfit revenue need not accrue toStellantis; do not count third-party body cost as OEMvehicle revenue.",
+      "thesis": "Defend roughly60 k annual sales; a functional fleet product, not an automatic return to the 2023 peak.",
+      "method": "Q4base15000 nearYTDquarterly14677; down12000 near2025Q4,up18000 requires currentQ3 improvement to continue. Two highly differentQ4 observations do not establish stable van seasonality. 2027/28base60000=5000/month; downside50000/48000,up68000/70000. Keep combinedProMaster+Citybase75000 in2028 versuslargeProMasteralone81663 in2023 as scale check, not demand proof.",
+      "confidence": "high on totals; medium on functional fit; low on channel/pricing mechanism",
+      "falsifier": "Fleet renewals and upfit completions fall or City cannibalizes more large-van demand; conversely repeat orders with matched turn and net pricing would support growth.",
+      "dossier": "ram-diligence.md",
+      "classification": "Actual source counts; forecast/price direction analyst judgments; null means not allocated",
+      "source_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R09",
+        "R11",
+        "R16",
+        "R17"
+      ],
+      "share_quantified_2026_base_pct": 4.5367698936168575,
+      "share_quantified_2028_base_pct": 4.1928721174004195
+    },
+    {
+      "id": "promaster_city",
+      "family": "Ram Pro Master City old runoff and returning midsize van",
+      "brand": "Ram",
+      "historical_actual_units": {
+        "2018A": 13788,
+        "2019A": 12920,
+        "2025A": 20,
+        "2024Q4A": 1,
+        "2025Q4A": 1,
+        "2025Q1A": null,
+        "2026Q1A": null,
+        "2025Q2A": null,
+        "2026Q2A": null,
+        "2025Q3A": 18,
+        "2026Q3A": 1,
+        "2025YTDQ3A": 19,
+        "2026YTDQ3A": 1,
+        "2023A": 12887,
+        "2024A": 50,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "2026Q4F_units": {
+        "downside": 0,
+        "base": 0,
+        "upside": 2
+      },
+      "2026FY_A_plus_F_units": {
+        "downside": 1,
+        "base": 1,
+        "upside": 3
+      },
+      "2027F_units": {
+        "downside": 0,
+        "base": 10000,
+        "upside": 20000
+      },
+      "2028F_units": {
+        "downside": 5000,
+        "base": 15000,
+        "upside": 25000
+      },
+      "2026FY_yoy_pct": null,
+      "2027_yoy_pct": null,
+      "2028_yoy_pct": {
+        "downside": null,
+        "base": 50.0,
+        "upside": 25.0
+      },
+      "2028_base_delta_vs_2026_base": 14999,
+      "2028_base_delta_vs_2025": 14980,
+      "prior_2027_base": 10000,
+      "prior_2028_base": 20000,
+      "revision_2027_base": 0,
+      "revision_2028_base": -5000,
+      "pricing_incentive_mix": "CargoMSRP39995/41495includingdestination; passenger42695/44195. Effective fleet concessions, localconversion cost, freight/tariff burden andmanufacturer realization unknown. Lower price thanlargevanmayimprovecustomerTCO butdilutecompanymix; not count anadditionalmix uplift. Noassumed zero incentives.",
+      "thesis": "A credible commercial white-space proposition with confirmed announced pricing, but delivery execution and US customer contracts remain unverified.",
+      "method": "Q4zero new-generation sales undercurrentarrivalplan; oldrunoff0\u20132scenario.2027base10000=833/month averagedyear,2028base15000=1250/month; requiresQ1arrival, functioningupfitprocess andrepeatcommercialorders. Down0/5000allowsdelay orweakconversion;up20000/25000needsdemonstratedconquest. Noempirical launchcoefficient supports these rates; explicit scenario sizes only.",
+      "confidence": "high onannouncedprice;mediumonplannedtiming;lowon USsales scale",
+      "falsifier": "CitymissesQ1arrival oruptakefailsdespitecompleteupfits; converselyfundedfleetcontractsandreorders above1000/monthwouldsupportlarger2028volume.",
+      "dossier": "ram-diligence.md",
+      "classification": "Actual source counts; forecast/price direction analyst judgments; null means not allocated",
+      "source_ids": [
+        "R03",
+        "R04",
+        "R07",
+        "R08",
+        "R09",
+        "R17"
+      ],
+      "growth_note": "Returning different product; percentage growth from one runoff unit is not economically useful.",
+      "share_quantified_2026_base_pct": 7.685532599723628e-05,
+      "share_quantified_2028_base_pct": 1.0482180293501049
+    },
+    {
+      "id": "ram_dakota",
+      "family": "Ram Dakota North American midsize pickup",
+      "brand": "Ram",
+      "historical_actual_units": {},
+      "2026Q4F_units": null,
+      "2026FY_A_plus_F_units": null,
+      "2027F_units": null,
+      "2028F_units": null,
+      "2026FY_yoy_pct": null,
+      "2027_yoy_pct": null,
+      "2028_yoy_pct": null,
+      "2028_base_delta_vs_2026_base": null,
+      "2028_base_delta_vs_2025": null,
+      "prior_2027_base": null,
+      "prior_2028_base": null,
+      "revision_2027_base": null,
+      "revision_2028_base": null,
+      "pricing_incentive_mix": "Entry pickups may reduce average company vehicle price; the large SUV may enrich it but overlaps continuing SUVs. Manufacturer net realization is unknown.",
+      "thesis": "North American 2028 SOP is a plan, not mature 2028 sales.",
+      "method": "Leave units null and unallocated. No identified 2027 customer launch; only partial-year potential in 2028. A dated delivery window and US price are needed for a unit ramp. Missing information is not numerical zero.",
+      "confidence": "Low; management plan without customer-delivery verification.",
+      "falsifier": "A dated US order opening, manufacturing milestone and price could justify a partial-year ramp. A delay beyond 2028 removes within-horizon contribution.",
+      "dossier": "ram-diligence.md",
+      "classification": "Actual source counts; forecast/price direction analyst judgments; null means not allocated",
+      "source_ids": [
+        "R17"
+      ]
+    },
+    {
+      "id": "ram_compact",
+      "family": "Ram compact / Rampage-based North American pickup",
+      "brand": "Ram",
+      "historical_actual_units": {},
+      "2026Q4F_units": null,
+      "2026FY_A_plus_F_units": null,
+      "2027F_units": null,
+      "2028F_units": null,
+      "2026FY_yoy_pct": null,
+      "2027_yoy_pct": null,
+      "2028_yoy_pct": null,
+      "2028_base_delta_vs_2026_base": null,
+      "2028_base_delta_vs_2025": null,
+      "prior_2027_base": null,
+      "prior_2028_base": null,
+      "revision_2027_base": null,
+      "revision_2028_base": null,
+      "pricing_incentive_mix": "Entry pickups may reduce average company vehicle price; the large SUV may enrich it but overlaps continuing SUVs. Manufacturer net realization is unknown.",
+      "thesis": "A smaller entry pickup can fill a genuine price/size gap; LatinAmericansales do notvalidateUS demand.",
+      "method": "Leave units null and unallocated. No identified 2027 customer launch; only partial-year potential in 2028. A dated delivery window and US price are needed for a unit ramp. Missing information is not numerical zero.",
+      "confidence": "Low; management plan without customer-delivery verification.",
+      "falsifier": "A dated US order opening, manufacturing milestone and price could justify a partial-year ramp. A delay beyond 2028 removes within-horizon contribution.",
+      "dossier": "ram-diligence.md",
+      "classification": "Actual source counts; forecast/price direction analyst judgments; null means not allocated",
+      "source_ids": [
+        "R17"
+      ]
+    },
+    {
+      "id": "ram_suv",
+      "family": "Ram large SUV / Ramcharger on2030map",
+      "brand": "Ram",
+      "historical_actual_units": {},
+      "2026Q4F_units": null,
+      "2026FY_A_plus_F_units": null,
+      "2027F_units": null,
+      "2028F_units": null,
+      "2026FY_yoy_pct": null,
+      "2027_yoy_pct": null,
+      "2028_yoy_pct": null,
+      "2028_base_delta_vs_2026_base": null,
+      "2028_base_delta_vs_2025": null,
+      "prior_2027_base": null,
+      "prior_2028_base": null,
+      "revision_2027_base": null,
+      "revision_2028_base": null,
+      "pricing_incentive_mix": "Entry pickups may reduce average company vehicle price; the large SUV may enrich it but overlaps continuing SUVs. Manufacturer net realization is unknown.",
+      "thesis": "Do not confuse the plannedfull-size Ram SUVwitharange-extended1500 pickup. Noverified 2028 customeravailability.",
+      "method": "Leave units null and unallocated. No identified 2027 customer launch; only partial-year potential in 2028. A dated delivery window and US price are needed for a unit ramp. Missing information is not numerical zero.",
+      "confidence": "Low; management plan without customer-delivery verification.",
+      "falsifier": "A dated US order opening, manufacturing milestone and price could justify a partial-year ramp. A delay beyond 2028 removes within-horizon contribution.",
+      "dossier": "ram-diligence.md",
+      "classification": "Actual source counts; forecast/price direction analyst judgments; null means not allocated",
+      "source_ids": [
+        "R17"
+      ]
+    },
+    {
+      "id": "grand_cherokee",
+      "family": "Grand Cherokee including L and 4xe",
+      "brand": "Jeep",
+      "historical_actual_units": {
+        "2018A": 224908,
+        "2019A": 242969,
+        "2025A": 210082,
+        "2024Q4A": 55209,
+        "2025Q4A": 55861,
+        "2025Q1A": 48465,
+        "2026Q1A": 53482,
+        "2025Q2A": 51203,
+        "2026Q2A": 48255,
+        "2025Q3A": 54553,
+        "2026Q3A": 38027,
+        "2025YTDQ3A": 154221,
+        "2026YTDQ3A": 139764,
+        "2023A": 244594,
+        "2024A": 216148,
+        "2022A_partial": 223345,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "2026Q4F_units": {
+        "downside": 35000,
+        "base": 45000,
+        "upside": 55000
+      },
+      "2026FY_A_plus_F_units": {
+        "downside": 174764,
+        "base": 184764,
+        "upside": 194764
+      },
+      "2027F_units": {
+        "downside": 155000,
+        "base": 200000,
+        "upside": 230000
+      },
+      "2028F_units": {
+        "downside": 155000,
+        "base": 205000,
+        "upside": 240000
+      },
+      "2026FY_yoy_pct": {
+        "downside": -16.81153073561752,
+        "base": -12.051484658371493,
+        "upside": -7.2914385811254645
+      },
+      "2027_yoy_pct": {
+        "downside": -11.308965233114376,
+        "base": 8.24619514624061,
+        "upside": 18.09163911195086
+      },
+      "2028_yoy_pct": {
+        "downside": 0.0,
+        "base": 2.499999999999991,
+        "upside": 4.347826086956519
+      },
+      "2028_base_delta_vs_2026_base": 20236,
+      "2028_base_delta_vs_2025": -5082,
+      "prior_2027_base": 205000,
+      "prior_2028_base": 215000,
+      "revision_2027_base": -5000,
+      "revision_2028_base": -10000,
+      "pricing_incentive_mix": "Base volume requires competitive financing and affordable configuration availability; lower 4xe share and Laredo mix can lower family average invoice before incentives. Rich L/Summit or SRT mix is an upside, not an automatic offset. No verified OEM realized dollars/unit; no positive price assumption solely from refresh.",
+      "thesis": "Recover a competitive gasoline family, not the entire historical plug-in peak. A temporary Q3 factory effect is plausible, but premium-payment pressure, ended PHEV production and internal Cherokee substitution cap restoration.",
+      "method": "Partial recovery anchored to H1 2026\u2248203k annualized and 2024 non-4xe 188558, not 2023 total 244594. Q4 scenarios 35/45/55k mean 11.7/15/18.3k per month versus Q3 12.7k and H1 17.0k; the upper end needs restored sellable supply. 2027/28 base 200/205k retains most H1 scale with modest growth, downside persistent value/quality friction, upside strong refill and retention. No fitted seasonality.",
+      "confidence": "Medium mechanism / low-to-medium forecast",
+      "falsifier": "Two quarters above \u224817k monthly at stable effective payments and acceptable fresh-stock turns support upside; continued \u224813k monthly despite available Laredo/Limited supply rejects base. Need sales by powertrain/channel and delivered configuration, not another factory announcement.",
+      "dossier": "jeep-diligence.md",
+      "classification": "Actual source counts; forecast/price direction analyst judgments; null means not allocated",
+      "source_ids": [
+        "J01",
+        "J02",
+        "J03",
+        "J05",
+        "J07",
+        "J09",
+        "J10",
+        "J11",
+        "J14",
+        "J15",
+        "J22"
+      ],
+      "share_quantified_2026_base_pct": 14.200097452553365,
+      "share_quantified_2028_base_pct": 14.3256464011181
+    },
+    {
+      "id": "wrangler",
+      "family": "Wrangler including former 4xe",
+      "brand": "Jeep",
+      "historical_actual_units": {
+        "2018A": 240032,
+        "2019A": 228032,
+        "2025A": 167322,
+        "2024Q4A": 38085,
+        "2025Q4A": 39268,
+        "2025Q1A": 37944,
+        "2026Q1A": 44461,
+        "2025Q2A": 47660,
+        "2026Q2A": 41793,
+        "2025Q3A": 42450,
+        "2026Q3A": 44757,
+        "2025YTDQ3A": 128054,
+        "2026YTDQ3A": 131011,
+        "2023A": 156581,
+        "2024A": 151163,
+        "2022A_partial": 181409,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "2026Q4F_units": {
+        "downside": 37000,
+        "base": 43000,
+        "upside": 48000
+      },
+      "2026FY_A_plus_F_units": {
+        "downside": 168011,
+        "base": 174011,
+        "upside": 179011
+      },
+      "2027F_units": {
+        "downside": 155000,
+        "base": 180000,
+        "upside": 190000
+      },
+      "2028F_units": {
+        "downside": 150000,
+        "base": 180000,
+        "upside": 200000
+      },
+      "2026FY_yoy_pct": {
+        "downside": 0.41178087758932946,
+        "base": 3.9976811178446425,
+        "upside": 6.985931318057403
+      },
+      "2027_yoy_pct": {
+        "downside": -7.744135800632101,
+        "base": 3.4417364419490726,
+        "upside": 6.138728904927637
+      },
+      "2028_yoy_pct": {
+        "downside": -3.2258064516129004,
+        "base": 0.0,
+        "upside": 5.263157894736836
+      },
+      "2028_base_delta_vs_2026_base": 5989,
+      "2028_base_delta_vs_2025": 12678,
+      "prior_2027_base": 180000,
+      "prior_2028_base": 180000,
+      "revision_2027_base": 0,
+      "revision_2028_base": 0,
+      "pricing_incentive_mix": "Competitive cash/lease support remains necessary. Lower 4xe mix can reduce sticker average while also changing manufacturer support; net margin direction cannot be inferred. Limited editions can aid mix only at real turn, not stock accumulation.",
+      "thesis": "An already recovering differentiated franchise; defend about current pace rather than restore 2018\u201319 volumes. Observed 2026 growth coexists with now-ended 4xe production; the undated cessation notice and remaining dealer stock do not establish the sequence or prove post-exit retention.",
+      "method": "Recent pace: 2026 YTD annualized 174681, Q3 annualized 179028. Base 180k both years. Q4 37/43/48k surrounds recent 14.9k/month with seasonal caution: 2024/25 Q4 were 38.1/39.3k; no fixed multiplier fitted. Upside requires retention/conquest; downside payment or reputation erosion.",
+      "confidence": "Medium relative to other Jeep rows",
+      "falsifier": "Base fails if normal available gasoline stock cannot sustain \u224815k/month without increasing support/age; upside requires durable conquest rather than edition mix or fleet batching.",
+      "dossier": "jeep-diligence.md",
+      "classification": "Actual source counts; forecast/price direction analyst judgments; null means not allocated",
+      "source_ids": [
+        "J01",
+        "J05",
+        "J08",
+        "J09",
+        "J10",
+        "J16",
+        "J17"
+      ],
+      "share_quantified_2026_base_pct": 13.373672132105083,
+      "share_quantified_2028_base_pct": 12.578616352201259
+    },
+    {
+      "id": "gladiator",
+      "family": "Gladiator",
+      "brand": "Jeep",
+      "historical_actual_units": {
+        "2018A": 0,
+        "2019A": 40047,
+        "2025A": 56790,
+        "2024Q4A": 9453,
+        "2025Q4A": 18277,
+        "2025Q1A": 12057,
+        "2026Q1A": 10087,
+        "2025Q2A": 13343,
+        "2026Q2A": 8946,
+        "2025Q3A": 13113,
+        "2026Q3A": 11911,
+        "2025YTDQ3A": 38513,
+        "2026YTDQ3A": 30944,
+        "2023A": 55188,
+        "2024A": 42123,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "2026Q4F_units": {
+        "downside": 9000,
+        "base": 12000,
+        "upside": 17000
+      },
+      "2026FY_A_plus_F_units": {
+        "downside": 39944,
+        "base": 42944,
+        "upside": 47944
+      },
+      "2027F_units": {
+        "downside": 35000,
+        "base": 43000,
+        "upside": 55000
+      },
+      "2028F_units": {
+        "downside": 30000,
+        "base": 45000,
+        "upside": 60000
+      },
+      "2026FY_yoy_pct": {
+        "downside": -29.66367318189822,
+        "base": -24.381053002289132,
+        "upside": -15.57668603627399
+      },
+      "2027_yoy_pct": {
+        "downside": -12.377328259563392,
+        "base": 0.1304023845007496,
+        "upside": 14.717170031703652
+      },
+      "2028_yoy_pct": {
+        "downside": -14.28571428571429,
+        "base": 4.651162790697683,
+        "upside": 9.090909090909083
+      },
+      "2028_base_delta_vs_2026_base": 2056,
+      "2028_base_delta_vs_2025": -11790,
+      "prior_2027_base": 43000,
+      "prior_2028_base": 45000,
+      "revision_2027_base": 0,
+      "revision_2028_base": 0,
+      "pricing_incentive_mix": "Base needs continued affordability support; a volume rebound with richer trims and fewer discounts simultaneously is unproven. Lower-priced variants or sustained support could lift units but must be charged once to net realization/cost.",
+      "thesis": "Treat as a smaller lifestyle-pickup franchise requiring competitive payments, not a broad midsize-truck share recovery.",
+      "method": "Q3 12k scale and 2026 YTD annualized 41.3k support 43k then 45k bases. Q4 9/12/17k spans recent pace and highly variable prior Q4; upside reaches 55/60k only with effective value and repeat orders. Downside 2028 reduced to 30k for potential internal launch overlap.",
+      "confidence": "Medium-low",
+      "falsifier": "Fresh model-year Gladiators repeatedly selling at \u22484k/month with unchanged support would justify higher base; strong retail discounts plus continued age accumulation reject profitable recovery.",
+      "dossier": "jeep-diligence.md",
+      "classification": "Actual source counts; forecast/price direction analyst judgments; null means not allocated",
+      "source_ids": [
+        "J01",
+        "J05",
+        "J08",
+        "J14",
+        "J16",
+        "J17"
+      ],
+      "share_quantified_2026_base_pct": 3.300475119625315,
+      "share_quantified_2028_base_pct": 3.1446540880503147
+    },
+    {
+      "id": "compass",
+      "family": "Compass",
+      "brand": "Jeep",
+      "historical_actual_units": {
+        "2018A": 171167,
+        "2019A": 143934,
+        "2025A": 101997,
+        "2024Q4A": 27223,
+        "2025Q4A": 19077,
+        "2025Q1A": 31730,
+        "2026Q1A": 18573,
+        "2025Q2A": 23104,
+        "2026Q2A": 18453,
+        "2025Q3A": 28086,
+        "2026Q3A": 10811,
+        "2025YTDQ3A": 82920,
+        "2026YTDQ3A": 47837,
+        "2023A": 96173,
+        "2024A": 111697,
+        "2022A_partial": 86175,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "2026Q4F_units": {
+        "downside": 9000,
+        "base": 15000,
+        "upside": 21000
+      },
+      "2026FY_A_plus_F_units": {
+        "downside": 56837,
+        "base": 62837,
+        "upside": 68837
+      },
+      "2027F_units": {
+        "downside": 40000,
+        "base": 65000,
+        "upside": 85000
+      },
+      "2028F_units": {
+        "downside": 35000,
+        "base": 70000,
+        "upside": 90000
+      },
+      "2026FY_yoy_pct": {
+        "downside": -44.27581203368727,
+        "base": -38.39328607704148,
+        "upside": -32.5107601203957
+      },
+      "2027_yoy_pct": {
+        "downside": -29.623308760138645,
+        "base": 3.44223944491302,
+        "upside": 23.480105175995458
+      },
+      "2028_yoy_pct": {
+        "downside": -12.5,
+        "base": 7.692307692307687,
+        "upside": 5.882352941176472
+      },
+      "2028_base_delta_vs_2026_base": 7163,
+      "2028_base_delta_vs_2025": -31997,
+      "prior_2027_base": 65000,
+      "prior_2028_base": 70000,
+      "revision_2027_base": 0,
+      "revision_2028_base": 0,
+      "pricing_incentive_mix": "Base needs better affordable availability and price separation from Cherokee. Lower mix and/or continuing support are likely conditions of volume, not a simultaneous margin-free gain. No national incentive estimate available.",
+      "thesis": "Partial recovery is possible, but summer downtime cannot explain the whole decline; this is also a continuing affordability, availability and portfolio-positioning problem.",
+      "method": "Q4 9/15/21k implies 3/5/7k monthly versus Q3 3.6k and H1 6.2k. Base 65/70k in 2027/28 is a partial normalization near 2026 H1 annualized 74k, materially below 2024/25; downside continued erosion, upside fuller supply with a viable payment gap. Portfolio-check jointly with Cherokee.",
+      "confidence": "Low-to-medium",
+      "falsifier": "Base requires \u22485.4k/month 2027 with stable dealer economics. Available stock still selling \u22483.6k/month would reject normalization; confirmed new US generation/low-price availability could lift upside.",
+      "dossier": "jeep-diligence.md",
+      "classification": "Actual source counts; forecast/price direction analyst judgments; null means not allocated",
+      "source_ids": [
+        "J01",
+        "J05",
+        "J06",
+        "J07",
+        "J08",
+        "J14",
+        "J15",
+        "J22"
+      ],
+      "share_quantified_2026_base_pct": 4.829358119688337,
+      "share_quantified_2028_base_pct": 4.8916841369671555
+    },
+    {
+      "id": "cherokee",
+      "family": "Cherokee / returning HEV",
+      "brand": "Jeep",
+      "historical_actual_units": {
+        "2018A": 239437,
+        "2019A": 191397,
+        "2025A": 527,
+        "2024Q4A": 239,
+        "2025Q4A": 90,
+        "2025Q1A": 156,
+        "2026Q1A": 2489,
+        "2025Q2A": 101,
+        "2026Q2A": 8112,
+        "2025Q3A": 131,
+        "2026Q3A": 10344,
+        "2025YTDQ3A": 131,
+        "2026YTDQ3A": 20914,
+        "2023A": 24609,
+        "2024A": 2839,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "2026Q4F_units": {
+        "downside": 9000,
+        "base": 13000,
+        "upside": 17000
+      },
+      "2026FY_A_plus_F_units": {
+        "downside": 29914,
+        "base": 33914,
+        "upside": 37914
+      },
+      "2027F_units": {
+        "downside": 35000,
+        "base": 55000,
+        "upside": 75000
+      },
+      "2028F_units": {
+        "downside": 40000,
+        "base": 70000,
+        "upside": 100000
+      },
+      "2026FY_yoy_pct": {
+        "downside": 5576.280834914612,
+        "base": 6335.2941176470595,
+        "upside": 7094.307400379506
+      },
+      "2027_yoy_pct": {
+        "downside": 17.002072608143347,
+        "base": 62.17491301527394,
+        "upside": 97.81611014401012
+      },
+      "2028_yoy_pct": {
+        "downside": 14.28571428571428,
+        "base": 27.27272727272727,
+        "upside": 33.33333333333333
+      },
+      "2028_base_delta_vs_2026_base": 36086,
+      "2028_base_delta_vs_2025": 69473,
+      "prior_2027_base": 60000,
+      "prior_2028_base": 80000,
+      "revision_2027_base": -5000,
+      "revision_2028_base": -10000,
+      "pricing_incentive_mix": "Volume acceleration must accompany lower average trim/payment or cost improvement. Lower-priced trims can dilute family price while adding contribution; tariff/production savings spent on affordability cannot also be fully retained in AOI. No verified OEM landed cost or net revenue per unit.",
+      "thesis": "A real segment re-entry with useful hybrid utility; profitable affordable configurations and dealer conversion, rather than nameplate nostalgia, determine scale.",
+      "method": "Constrained ramp: Q4 9/13/17k; base 4.3k/month versus Q3 3.45k, before promised H1 2027 value actions. 2027 35/55/75k and 2028 40/70/100k require base 4.6k then 5.8k monthly, not old 191k. Downside trims stay uneconomic; upside timely broad offer and conquest. No mechanically borrowed Trax ramp.",
+      "confidence": "Medium product mechanism / low forecast",
+      "falsifier": "Profitable delivered entry/Laredo inventory plus \u22485k monthly through 2027 supports base; persistent \u22483.5k despite inventory, rising incentives or delayed H1 2027 offer rejects it. Need actual trim deliveries and earned dealer support, not website starting price.",
+      "dossier": "jeep-diligence.md",
+      "classification": "Actual source counts; forecast/price direction analyst judgments; null means not allocated",
+      "source_ids": [
+        "J01",
+        "J04",
+        "J05",
+        "J06",
+        "J08",
+        "J12",
+        "J13",
+        "J14",
+        "J21",
+        "J22"
+      ],
+      "share_quantified_2026_base_pct": 2.6064715258702713,
+      "share_quantified_2028_base_pct": 4.8916841369671555
+    },
+    {
+      "id": "wagoneer_family",
+      "family": "Wagoneer / Grand Wagoneer combined",
+      "brand": "Jeep",
+      "historical_actual_units": {
+        "2018A": null,
+        "2019A": null,
+        "2025A": 45040,
+        "2024Q4A": 7570,
+        "2025Q4A": 10368,
+        "2025Q1A": 7249,
+        "2026Q1A": 15242,
+        "2025Q2A": 9523,
+        "2026Q2A": 14905,
+        "2025Q3A": 17900,
+        "2026Q3A": 12495,
+        "2025YTDQ3A": 34672,
+        "2026YTDQ3A": 42642,
+        "2023A": 39767,
+        "2024A": 55084,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "2026Q4F_units": {
+        "downside": 10000,
+        "base": 14000,
+        "upside": 18000
+      },
+      "2026FY_A_plus_F_units": {
+        "downside": 52642,
+        "base": 56642,
+        "upside": 60642
+      },
+      "2027F_units": {
+        "downside": 40000,
+        "base": 55000,
+        "upside": 65000
+      },
+      "2028F_units": {
+        "downside": 40000,
+        "base": 58000,
+        "upside": 70000
+      },
+      "2026FY_yoy_pct": {
+        "downside": 16.87833037300177,
+        "base": 25.759325044404967,
+        "upside": 34.64031971580817
+      },
+      "2027_yoy_pct": {
+        "downside": -24.015045021085825,
+        "base": -2.8989089368313237,
+        "upside": 7.186438442003884
+      },
+      "2028_yoy_pct": {
+        "downside": 0.0,
+        "base": 5.454545454545445,
+        "upside": 7.692307692307687
+      },
+      "2028_base_delta_vs_2026_base": 1358,
+      "2028_base_delta_vs_2025": 12960,
+      "prior_2027_base": 55000,
+      "prior_2028_base": 58000,
+      "revision_2027_base": 0,
+      "revision_2028_base": 0,
+      "pricing_incentive_mix": "Lower entry configurations may support volume while diluting former Grand-name mix. Forecast combined family price; no apparent mix upgrade solely from transferring Wagoneer labels. Premium and REEV upside needs actual transactions and costs.",
+      "thesis": "Hold a rebuilt full-size-SUV base; naming consolidation and more accessible Grand entry cannot justify luxury-mix uplift by themselves.",
+      "method": "Current pace 55k then 58k base, not two additive nameplates. Q4 10/14/18k brackets recent 4.2\u20135.0k monthly and variable prior Q4. Upside 65/70k needs sustained conquest and economics, downside 40k reverts toward pre-recovery scale.",
+      "confidence": "Medium-low",
+      "falsifier": "\u22484.6\u20134.8k monthly at stable support and inventory age supports base. Declining fresh-stock turn despite revised offer rejects recovery; sustained high end transactions, not naming, establish favorable mix.",
+      "dossier": "jeep-diligence.md",
+      "classification": "Actual source counts; forecast/price direction analyst judgments; null means not allocated",
+      "source_ids": [
+        "J01",
+        "J05",
+        "J08",
+        "J14",
+        "J18"
+      ],
+      "share_quantified_2026_base_pct": 4.353239375135458,
+      "share_quantified_2028_base_pct": 4.053109713487072
+    },
+    {
+      "id": "wagoneer_s",
+      "family": "Wagoneer S BEV",
+      "brand": "Jeep",
+      "historical_actual_units": {
+        "2018A": null,
+        "2019A": null,
+        "2025A": 10864,
+        "2024Q4A": 133,
+        "2025Q4A": 438,
+        "2025Q1A": 2595,
+        "2026Q1A": 175,
+        "2025Q2A": 3668,
+        "2026Q2A": 198,
+        "2025Q3A": 4163,
+        "2026Q3A": 146,
+        "2025YTDQ3A": 10426,
+        "2026YTDQ3A": 519,
+        "2023A": 0,
+        "2024A": 231,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "2026Q4F_units": null,
+      "2026FY_A_plus_F_units": null,
+      "2027F_units": null,
+      "2028F_units": null,
+      "2026FY_yoy_pct": null,
+      "2027_yoy_pct": null,
+      "2028_yoy_pct": null,
+      "2028_base_delta_vs_2026_base": null,
+      "2028_base_delta_vs_2025": null,
+      "prior_2027_base": null,
+      "prior_2028_base": null,
+      "revision_2027_base": null,
+      "revision_2028_base": null,
+      "pricing_incentive_mix": "Likely support-intensive relaunch; do not use MSRP as net realization. No baseline high-margin EV mix contribution.",
+      "thesis": "An interrupted, expensive launch with product and payment constraints; evidence does not support either a mature zero-demand verdict or an automatic 2027 recovery.",
+      "method": "Leave annual and Q4 units unallocated pending dated restart, supply and payment evidence. Tiny Q3 pace is not mature potential; no fabricated ramp.",
+      "confidence": "Low",
+      "falsifier": "Confirmed broad 2027 deliveries and several economically viable reorder cycles can admit a ramp; continued old-stock discounting without new configuration supply cannot.",
+      "dossier": "jeep-diligence.md",
+      "classification": "Actual source counts; forecast/price direction analyst judgments; null means not allocated",
+      "source_ids": [
+        "J01",
+        "J05",
+        "J19"
+      ]
+    },
+    {
+      "id": "recon",
+      "family": "Recon BEV / possible later ICE",
+      "brand": "Jeep",
+      "historical_actual_units": {
+        "2018A": null,
+        "2019A": null,
+        "2025A": 56,
+        "2024Q4A": 0,
+        "2025Q4A": 22,
+        "2025Q1A": null,
+        "2026Q1A": null,
+        "2025Q2A": 3,
+        "2026Q2A": 27,
+        "2025Q3A": 14,
+        "2026Q3A": 35,
+        "2025YTDQ3A": 34,
+        "2026YTDQ3A": 82,
+        "2023A": null,
+        "2024A": null,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "2026Q4F_units": null,
+      "2026FY_A_plus_F_units": null,
+      "2027F_units": null,
+      "2028F_units": null,
+      "2026FY_yoy_pct": null,
+      "2027_yoy_pct": null,
+      "2028_yoy_pct": null,
+      "2028_base_delta_vs_2026_base": null,
+      "2028_base_delta_vs_2025": null,
+      "prior_2027_base": null,
+      "prior_2028_base": null,
+      "revision_2027_base": null,
+      "revision_2028_base": null,
+      "pricing_incentive_mix": "Premium sticker and potential finance support; no margin or transaction calibration. BEV/ICE must share one family; Wrangler substitution belongs in portfolio scenarios.",
+      "thesis": "Early limited supply in a differentiated niche; demand and timing are too unobserved for a defensible numeric ramp.",
+      "method": "Unallocated through 2028 until production/delivered-stock and payment evidence establish a ramp; do not silently treat as zero potential.",
+      "confidence": "Low",
+      "falsifier": "Broad available dealer stock, sustained qualified conversions and voluntary orders would permit numerical ramp; absence of these is uncertainty, not cancellation.",
+      "dossier": "jeep-diligence.md",
+      "classification": "Actual source counts; forecast/price direction analyst judgments; null means not allocated",
+      "source_ids": [
+        "J01",
+        "J08",
+        "J20"
+      ]
+    },
+    {
+      "id": "renegade",
+      "family": "Jeep discontinued runoff / Renegade",
+      "brand": "Jeep",
+      "historical_actual_units": {
+        "2018A": 97062,
+        "2019A": 76885,
+        "2025A": 721,
+        "2024Q4A": 664,
+        "2025Q4A": 27,
+        "2025Q1A": 370,
+        "2026Q1A": 23,
+        "2025Q2A": 220,
+        "2026Q2A": 10,
+        "2025Q3A": null,
+        "2026Q3A": null,
+        "2025YTDQ3A": null,
+        "2026YTDQ3A": null,
+        "2023A": 26011,
+        "2024A": 8440,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "2026Q4F_units": null,
+      "2026FY_A_plus_F_units": null,
+      "2027F_units": null,
+      "2028F_units": null,
+      "2026FY_yoy_pct": null,
+      "2027_yoy_pct": null,
+      "2028_yoy_pct": null,
+      "2028_base_delta_vs_2026_base": null,
+      "2028_base_delta_vs_2025": null,
+      "prior_2027_base": null,
+      "prior_2028_base": null,
+      "revision_2027_base": null,
+      "revision_2028_base": null,
+      "pricing_incentive_mix": "Clearance may be heavily discounted but is financially immaterial at current units; do not apply discount rate nationally.",
+      "thesis": "Runoff should fade, with unlisted legacy sales retained in reconciliation rather than falsely set to zero.",
+      "method": "No standalone forecast assigned; preserve Jeep other/unlisted residual. Operational runoff approaches zero, but numeric zero is not an observed value.",
+      "confidence": "High direction / low exact units",
+      "falsifier": "A newly dated US product or material reported sales changes treatment.",
+      "dossier": "jeep-diligence.md",
+      "classification": "Actual source counts; forecast/price direction analyst judgments; null means not allocated",
+      "source_ids": [
+        "J01",
+        "J08"
+      ]
+    },
+    {
+      "id": "minivans",
+      "family": "Chrysler Pacifica / Voyager / Pacifica LX",
+      "brand": "Chrysler",
+      "historical_actual_units": {
+        "2018A": 118322,
+        "2019A": 97705,
+        "2025A": 125798,
+        "2024Q4A": 27003,
+        "2025Q4A": 35625,
+        "2025Q1A": 34728,
+        "2026Q1A": 25416,
+        "2025Q2A": 23028,
+        "2026Q2A": 41704,
+        "2025Q3A": 32417,
+        "2026Q3A": 34491,
+        "2025YTDQ3A": 90173,
+        "2026YTDQ3A": 101611,
+        "2023A": 120554,
+        "2024A": 119389,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "2026Q4F_units": {
+        "downside": 30000,
+        "base": 35000,
+        "upside": 40000
+      },
+      "2026FY_A_plus_F_units": {
+        "downside": 131611,
+        "base": 136611,
+        "upside": 141611
+      },
+      "2027F_units": {
+        "downside": 125000,
+        "base": 140000,
+        "upside": 155000
+      },
+      "2028F_units": {
+        "downside": 120000,
+        "base": 140000,
+        "upside": 160000
+      },
+      "2026FY_yoy_pct": {
+        "downside": 4.620900173293685,
+        "base": 8.595526160988243,
+        "upside": 12.570152148682801
+      },
+      "2027_yoy_pct": {
+        "downside": -5.02313636398174,
+        "base": 2.480766556133829,
+        "upside": 9.454773993545707
+      },
+      "2028_yoy_pct": {
+        "downside": -4.0000000000000036,
+        "base": 0.0,
+        "upside": 3.2258064516129004
+      },
+      "2028_base_delta_vs_2026_base": 3389,
+      "2028_base_delta_vs_2025": 14202,
+      "prior_2027_base": 140000,
+      "prior_2028_base": 145000,
+      "revision_2027_base": 0,
+      "revision_2028_base": -5000,
+      "pricing_incentive_mix": "Entry LX $41,495 plus $1,995 destination = $43,490 MSRP; this is a price anchor, not OEM RPU. Cheaper configurations and PHEV exit may lower family mix; reduced bundling can improve affordability without a nominal base-price cut. Competitive incentives remain in base case; no automatic discount withdrawal or positive net-price uplift.",
+      "thesis": "Defend and modestly grow an existing franchise; no large depressed-base rebound. Keep one combined family so renaming cannot create units.",
+      "method": "Q3 annual scale 137,964 and YTD annual scale 135,481 anchor roughly 140k. Base holds that level into 2028, rather than adding growth solely because of a refresh. Q4 base35k near Q3 and prior Q4 combined35,625. Down/up represent ownership-cost pressure versus broader conversion at acceptable offers.",
+      "confidence": "Medium on product/status mechanism; low to medium on numerical trajectory",
+      "falsifier": "Two normal-stock quarters above38\u201340k with stable incentives and genuine household growth would warrant upside. Persistent sub-30k quarters with aged stock despite refresh would undermine base.",
+      "dossier": "chrysler-dodge-diligence.md",
+      "classification": "Actual source counts; forecast/price direction analyst judgments; null means not allocated",
+      "source_ids": [
+        "CD01",
+        "CD02",
+        "CD03",
+        "CD04",
+        "CD14",
+        "CD15",
+        "CD16"
+      ],
+      "share_quantified_2026_base_pct": 10.499282939808447,
+      "share_quantified_2028_base_pct": 9.783368273934311
+    },
+    {
+      "id": "durango",
+      "family": "Dodge Durango",
+      "brand": "Dodge",
+      "historical_actual_units": {
+        "2018A": 65947,
+        "2019A": 67599,
+        "2025A": 81168,
+        "2024Q4A": 12487,
+        "2025Q4A": 26751,
+        "2025Q1A": 13701,
+        "2026Q1A": 20300,
+        "2025Q2A": 20698,
+        "2026Q2A": 18275,
+        "2025Q3A": 20018,
+        "2026Q3A": 22755,
+        "2025YTDQ3A": 54417,
+        "2026YTDQ3A": 61330,
+        "2023A": 69196,
+        "2024A": 59357,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "2026Q4F_units": {
+        "downside": 20000,
+        "base": 24000,
+        "upside": 27000
+      },
+      "2026FY_A_plus_F_units": {
+        "downside": 81330,
+        "base": 85330,
+        "upside": 88330
+      },
+      "2027F_units": {
+        "downside": 75000,
+        "base": 90000,
+        "upside": 100000
+      },
+      "2028F_units": {
+        "downside": 70000,
+        "base": 90000,
+        "upside": 105000
+      },
+      "2026FY_yoy_pct": {
+        "downside": 0.1995860437610908,
+        "base": 5.127636506997835,
+        "upside": 8.823674354425393
+      },
+      "2027_yoy_pct": {
+        "downside": -7.783105864994466,
+        "base": 5.472870033985711,
+        "upside": 13.21181931393638
+      },
+      "2028_yoy_pct": {
+        "downside": -6.666666666666665,
+        "base": 0.0,
+        "upside": 5.000000000000004
+      },
+      "2028_base_delta_vs_2026_base": 4670,
+      "2028_base_delta_vs_2025": 8832,
+      "prior_2027_base": 85000,
+      "prior_2028_base": 85000,
+      "revision_2027_base": 5000,
+      "revision_2028_base": 5000,
+      "pricing_incentive_mix": "Value improves through content and engine repositioning; do not equate unchanged advertised R/T price with unchanged production cost or net margin. Assume continued competitive support. Mix can favor V8 while per-content economics worsen; no extra aggregate mix uplift on top of model weights.",
+      "thesis": "A healthier existing business merits roughly holding the recent better pace, not another huge rebound to make up losses that have already reversed.",
+      "method": "Q3\u00d74=91,020, versus YTD\u00d74/3=81,773. Base90k assumes current quarter can be broadly sustained with new configuration availability; upside100/105k needs repeat evidence, downside75/70k loses the step-up. Q4 base24k lies between Q3 and Q4 2025 26,751.",
+      "confidence": "Medium on product/status mechanism; low to medium on numerical trajectory",
+      "falsifier": "If normal availability plus content reset cannot maintain roughly20\u201323k/quarter without ever-deeper support, lower90k. Stable25k+ quarters with healthy dealer economics support upside.",
+      "dossier": "chrysler-dodge-diligence.md",
+      "classification": "Actual source counts; forecast/price direction analyst judgments; null means not allocated",
+      "source_ids": [
+        "CD05",
+        "CD06",
+        "CD14",
+        "CD15",
+        "CD16"
+      ],
+      "share_quantified_2026_base_pct": 6.558064967344173,
+      "share_quantified_2028_base_pct": 6.289308176100629
+    },
+    {
+      "id": "charger",
+      "family": "Dodge Charger gasoline plus Daytona BEV",
+      "brand": "Dodge",
+      "historical_actual_units": {
+        "2018A": 80226,
+        "2019A": 96935,
+        "2025A": 9562,
+        "2024Q4A": 2774,
+        "2025Q4A": 619,
+        "2025Q1A": 2999,
+        "2026Q1A": 1912,
+        "2025Q2A": 2930,
+        "2026Q2A": 3205,
+        "2025Q3A": 3014,
+        "2026Q3A": 3679,
+        "2025YTDQ3A": 8943,
+        "2026YTDQ3A": 8796,
+        "2023A": 75898,
+        "2024A": 34754,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "2026Q4F_units": {
+        "downside": 3000,
+        "base": 4500,
+        "upside": 6500
+      },
+      "2026FY_A_plus_F_units": {
+        "downside": 11796,
+        "base": 13296,
+        "upside": 15296
+      },
+      "2027F_units": {
+        "downside": 12000,
+        "base": 20000,
+        "upside": 30000
+      },
+      "2028F_units": {
+        "downside": 12000,
+        "base": 25000,
+        "upside": 40000
+      },
+      "2026FY_yoy_pct": {
+        "downside": 23.36331311441122,
+        "base": 39.0504078644635,
+        "upside": 59.96653419786655
+      },
+      "2027_yoy_pct": {
+        "downside": 1.729399796541209,
+        "base": 50.42117930204573,
+        "upside": 96.1297071129707
+      },
+      "2028_yoy_pct": {
+        "downside": 0.0,
+        "base": 25.0,
+        "upside": 33.33333333333333
+      },
+      "2028_base_delta_vs_2026_base": 11704,
+      "2028_base_delta_vs_2025": 15438,
+      "prior_2027_base": 20000,
+      "prior_2028_base": 30000,
+      "revision_2027_base": 0,
+      "revision_2028_base": -5000,
+      "pricing_incentive_mix": "Announced R/T delivered MSRP $51,990 two-door/$53,990 four-door; this is not former entry-level pricing. Growth likely needs continuing payment support and more base-engine/body mix, so forecast no pure premium-mix windfall. Falling BEV share may change average price and cost simultaneously.",
+      "thesis": "Modest recovery is plausible as the gasoline lineup fills out. A return to old combined Charger/Challenger volume is not supported by today\u2019s price ladder or selling pace.",
+      "method": "Q3\u00d74=14,716. 2027 base20k requires5k/quarter (+36% versusQ3), 2028 base25k requires6.25k/quarter. These are explicit execution assumptions, not fitted elasticities. Downcase12/12k stagnates; up30/40k requires materially faster conversion and broader appealing variants.",
+      "confidence": "Medium on product/status mechanism; low to medium on numerical trajectory",
+      "falsifier": "Two quarters above6k with controlled incentives support higher volume. Persistent3k quarters after broad R/T availability, or order deferral for a different engine, undermine20k/25k.",
+      "dossier": "chrysler-dodge-diligence.md",
+      "classification": "Actual source counts; forecast/price direction analyst judgments; null means not allocated",
+      "source_ids": [
+        "CD07",
+        "CD08",
+        "CD09",
+        "CD14",
+        "CD15"
+      ],
+      "share_quantified_2026_base_pct": 1.0218684144592536,
+      "share_quantified_2028_base_pct": 1.7470300489168415
+    },
+    {
+      "id": "hornet",
+      "family": "Dodge Hornet",
+      "brand": "Dodge",
+      "historical_actual_units": {
+        "2018A": null,
+        "2019A": null,
+        "2025A": 9365,
+        "2024Q4A": 4993,
+        "2025Q4A": 879,
+        "2025Q1A": 4108,
+        "2026Q1A": 417,
+        "2025Q2A": 1539,
+        "2026Q2A": 300,
+        "2025Q3A": 2839,
+        "2026Q3A": 85,
+        "2025YTDQ3A": 8486,
+        "2026YTDQ3A": 802,
+        "2023A": 9336,
+        "2024A": 20559,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "2026Q4F_units": {
+        "downside": 0,
+        "base": 100,
+        "upside": 300
+      },
+      "2026FY_A_plus_F_units": {
+        "downside": 802,
+        "base": 902,
+        "upside": 1102
+      },
+      "2027F_units": {
+        "downside": 0,
+        "base": 100,
+        "upside": 500
+      },
+      "2028F_units": {
+        "downside": 0,
+        "base": 0,
+        "upside": 100
+      },
+      "2026FY_yoy_pct": {
+        "downside": -91.43619861185263,
+        "base": -90.36839295248265,
+        "upside": -88.23278163374266
+      },
+      "2027_yoy_pct": {
+        "downside": -100.0,
+        "base": -88.91352549889136,
+        "upside": -54.627949183303095
+      },
+      "2028_yoy_pct": {
+        "downside": null,
+        "base": -100.0,
+        "upside": -80.0
+      },
+      "2028_base_delta_vs_2026_base": -902,
+      "2028_base_delta_vs_2025": -9365,
+      "prior_2027_base": null,
+      "prior_2028_base": null,
+      "revision_2027_base": null,
+      "revision_2028_base": null,
+      "pricing_incentive_mix": "Clearance incentives and low realization are appropriate risk; do not infer permanent OEM RPU from a fire-sale listing. Remove old-stock pricing from assumptions for an unpriced GLH successor.",
+      "thesis": "Treat existing Hornet as runoff, with any successor independently gated. Earlier excess inventory supports weak positioning before the pause; current collapse is not clean consumer-demand evidence.",
+      "method": "Q4 base100 close to latest85. 2027 base100 residual stock;2028 base0 explicitly assumes no production restart, not observed future zero. Upper cases allow a small stock tail only; a verified restart requires a new forecast.",
+      "confidence": "Medium on product/status mechanism; low to medium on numerical trajectory",
+      "falsifier": "New production/order bulletin with dealer deliveries would invalidate runoff treatment. Consumer clearance alone would not.",
+      "dossier": "chrysler-dodge-diligence.md",
+      "classification": "Actual source counts; forecast/price direction analyst judgments; null means not allocated",
+      "source_ids": [
+        "CD10",
+        "CD11",
+        "CD12",
+        "CD13",
+        "CD14",
+        "CD15"
+      ],
+      "share_quantified_2026_base_pct": 0.06932350404950713,
+      "share_quantified_2028_base_pct": 0.0
+    },
+    {
+      "id": "fiat_alfa",
+      "family": "Other US brands Fiat and Alfa Romeo",
+      "brand": "Other",
+      "historical_actual_units": {
+        "2018A": 39321,
+        "2019A": 27492,
+        "2025A": 6973,
+        "2024Q4A": 2781,
+        "2025Q4A": 958,
+        "2025Q1A": 2474,
+        "2026Q1A": 1074,
+        "2025Q2A": 1606,
+        "2026Q2A": 910,
+        "2025Q3A": 1935,
+        "2026Q3A": 623,
+        "2025YTDQ3A": 6015,
+        "2026YTDQ3A": 2607,
+        "2023A": 11503,
+        "2024A": 10393,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "2026Q4F_units": {
+        "downside": 500,
+        "base": 750,
+        "upside": 1000
+      },
+      "2026FY_A_plus_F_units": {
+        "downside": 3107,
+        "base": 3357,
+        "upside": 3607
+      },
+      "2027F_units": {
+        "downside": 2000,
+        "base": 3000,
+        "upside": 5000
+      },
+      "2028F_units": {
+        "downside": 1500,
+        "base": 3000,
+        "upside": 6000
+      },
+      "2026FY_yoy_pct": {
+        "downside": -55.442420765810986,
+        "base": -51.85716334432813,
+        "upside": -48.27190592284526
+      },
+      "2027_yoy_pct": {
+        "downside": -35.6292243321532,
+        "base": -10.634495084897233,
+        "upside": 38.619351261436094
+      },
+      "2028_yoy_pct": {
+        "downside": -25.0,
+        "base": 0.0,
+        "upside": 19.999999999999996
+      },
+      "2028_base_delta_vs_2026_base": -357,
+      "2028_base_delta_vs_2025": -3973,
+      "prior_2027_base": null,
+      "prior_2028_base": null,
+      "revision_2027_base": null,
+      "revision_2028_base": null,
+      "pricing_incentive_mix": "Promotional pressure likely remains a risk given sales trend; manufacturer netRPU and model-specific transaction series unknown. Do not treat low volume itself as proof of any exact discount.",
+      "thesis": "Use a small stabilizing residual, not a turnaround needed to close the company forecast.",
+      "method": "LatestQ3 annualscale2,492 andYTDannualscale3,476 bracket a rounded3k base; scenarios broad relative to small footprint.",
+      "confidence": "Medium on product/status mechanism; low to medium on numerical trajectory",
+      "falsifier": "Sustained deliveries above1.25k/quarter from a verified new offer would warrant more than5kannual; further franchise/product exits support downside.",
+      "dossier": "chrysler-dodge-diligence.md",
+      "classification": "Actual source counts; forecast/price direction analyst judgments; null means not allocated",
+      "source_ids": [
+        "CD14",
+        "CD15"
+      ],
+      "share_quantified_2026_base_pct": 0.2580033293727222,
+      "share_quantified_2028_base_pct": 0.20964360587002098
+    },
+    {
+      "id": "chrysler_new",
+      "family": "Chrysler Airflow Arrow Arrow Cross; legacy residual separate",
+      "brand": "Chrysler",
+      "historical_actual_units": {},
+      "2026Q4F_units": null,
+      "2026FY_A_plus_F_units": null,
+      "2027F_units": null,
+      "2028F_units": null,
+      "2026FY_yoy_pct": null,
+      "2027_yoy_pct": null,
+      "2028_yoy_pct": null,
+      "2028_base_delta_vs_2026_base": null,
+      "2028_base_delta_vs_2025": null,
+      "prior_2027_base": null,
+      "prior_2028_base": null,
+      "revision_2027_base": null,
+      "revision_2028_base": null,
+      "pricing_incentive_mix": "Affordable newcomers can increase units while lowering weighted vehicle realization. No assigned OEMRPU, margin or conquest percentage.",
+      "thesis": "Crossovers could matter materially, but no model-specific numeric launch forecast passes the evidence gate today. Keep disclosed potential visible alongside a separately quantified existing portfolio.",
+      "method": "Launch equation requires verified months-on-sale, achievable selling pace and ramp. Missing inputs remainnull; legacy residual separately approacheszero. Do not insert2030matureunits in 2028.",
+      "confidence": "Medium on product/status mechanism; low to medium on numerical trajectory",
+      "falsifier": "Individual calendar, order guide, delivered pricing and early orders convert this from optionality to numerical launch case.",
+      "dossier": "chrysler-dodge-diligence.md",
+      "classification": "Actual source counts; forecast/price direction analyst judgments; null means not allocated",
+      "source_ids": [
+        "CD13",
+        "CD14",
+        "CD15"
+      ]
+    },
+    {
+      "id": "dodge_other",
+      "family": "Dodge legacy runoff only; GLH remains unallocated",
+      "brand": "Dodge",
+      "historical_actual_units": {
+        "2025A": 1832,
+        "2026Q3A": 27,
+        "2026YTDQ3A": 129
+      },
+      "2026Q4F_units": {
+        "downside": 0,
+        "base": 30,
+        "upside": 100
+      },
+      "2026FY_A_plus_F_units": {
+        "downside": 129,
+        "base": 159,
+        "upside": 229
+      },
+      "2027F_units": {
+        "downside": 0,
+        "base": 50,
+        "upside": 200
+      },
+      "2028F_units": {
+        "downside": 0,
+        "base": 0,
+        "upside": 100
+      },
+      "2026FY_yoy_pct": {
+        "downside": -92.95851528384279,
+        "base": -91.32096069868996,
+        "upside": -87.5
+      },
+      "2027_yoy_pct": {
+        "downside": -100.0,
+        "base": -68.55345911949686,
+        "upside": -12.66375545851528
+      },
+      "2028_yoy_pct": {
+        "downside": null,
+        "base": -100.0,
+        "upside": -50.0
+      },
+      "2028_base_delta_vs_2026_base": -159,
+      "2028_base_delta_vs_2025": -1832,
+      "prior_2027_base": null,
+      "prior_2028_base": null,
+      "revision_2027_base": null,
+      "revision_2028_base": null,
+      "pricing_incentive_mix": "Runoffprices are distressed/collector-dependent and notvalid successorRPU. NewGLH pricing unknown.",
+      "thesis": "Separate legacy tailfromnew Charger; future GLH remainsunallocated to avoid doublingHornet replacements.",
+      "method": "Residual numerical row models onlysmalllegacy tail; new GLHnull until milestones. No resurrection of the old 157kcombinedmuscle-carpeak.",
+      "confidence": "Medium on product/status mechanism; low to medium on numerical trajectory",
+      "falsifier": "Verified GLH orders / production and prices justify a distinct successor forecast, net of Hornet replacement.",
+      "dossier": "chrysler-dodge-diligence.md",
+      "classification": "Actual source counts; forecast/price direction analyst judgments; null means not allocated",
+      "source_ids": [
+        "CD10",
+        "CD13",
+        "CD14",
+        "CD15"
+      ],
+      "share_quantified_2026_base_pct": 0.012219996833560568,
+      "share_quantified_2028_base_pct": 0.0
+    }
+  ],
+  "requested_row_mapping": [
+    {
+      "requested_row": "Pacifica",
+      "treatment": "Use combined minivans family"
+    },
+    {
+      "requested_row": "Voyager",
+      "treatment": "Included in minivans; standalone forward cell null/included, never added again"
+    },
+    {
+      "requested_row": "Jeep other/new",
+      "treatment": "Wagoneer S and Recon unallocated; legacy/unlisted residual kept separately"
+    },
+    {
+      "requested_row": "Ram other/new",
+      "treatment": "City quantified; Dakota, compact and SUV separately unallocated"
+    },
+    {
+      "requested_row": "Dodge other/runoff",
+      "treatment": "Small legacy-tail scenario; GLH unallocated alongside, not included in legacy count"
+    },
+    {
+      "requested_row": "Chrysler other/new/runoff",
+      "treatment": "New crossovers unallocated; 16-unit YTD brand residual separately preserved"
+    }
+  ],
+  "totals": {
+    "quantified_2026": {
+      "downside": 1238266,
+      "base": 1301146,
+      "upside": 1363668
+    },
+    "quantified_2027": {
+      "downside": 1129000,
+      "base": 1391150,
+      "upside": 1593700
+    },
+    "quantified_2028": {
+      "downside": 1096500,
+      "base": 1431000,
+      "upside": 1711200
+    },
+    "core_13_2026": {
+      "downside": 1234228,
+      "base": 1296728,
+      "upside": 1358730
+    },
+    "core_13_2027": {
+      "downside": 1127000,
+      "base": 1388000,
+      "upside": 1588000
+    },
+    "core_13_2028": {
+      "downside": 1095000,
+      "base": 1428000,
+      "upside": 1705000
+    },
+    "quantified_2025_actual": 1248126,
+    "quantified_2026YTD_actual": 957766,
+    "all_reported_2025": 1260344,
+    "all_reported_2026YTD": 958463,
+    "warning": "Quantified subtotal excludes future unallocated launches and selected EVs; scenario sums are common-condition stresses, not confidence intervals or a complete company forecast. Core comparison moves Challenger from old transition family to runoff.",
+    "quantified_2025_coverage_pct": 99.03058212678444,
+    "quantified_2026YTD_coverage_pct": 99.92727940463013
+  },
+  "growth_bridge": [
+    {
+      "bucket": "continuing_partial_recovery",
+      "ids": [
+        "ram_ld",
+        "grand_cherokee",
+        "compass",
+        "gladiator",
+        "charger"
+      ],
+      "2026_base": 580988,
+      "2028_base": 645000,
+      "change": 64012
+    },
+    {
+      "bucket": "defend_recovered_or_stable_level",
+      "ids": [
+        "ram_hd",
+        "promaster",
+        "wrangler",
+        "minivans",
+        "wagoneer_family",
+        "durango",
+        "fiat_alfa"
+      ],
+      "2026_base": 685182,
+      "2028_base": 701000,
+      "change": 15818
+    },
+    {
+      "bucket": "returning_product_ramps",
+      "ids": [
+        "cherokee",
+        "promaster_city"
+      ],
+      "2026_base": 33915,
+      "2028_base": 85000,
+      "change": 51085
+    },
+    {
+      "bucket": "runoff",
+      "ids": [
+        "hornet",
+        "dodge_other"
+      ],
+      "2026_base": 1061,
+      "2028_base": 0,
+      "change": -1061
+    }
+  ],
+  "country_rows": [
+    {
+      "country": "Canada",
+      "2023A_rounded": 158000,
+      "2024A_rounded": 130000,
+      "2025A_rounded": 115000,
+      "2027_base_placeholder": 115000,
+      "2028_base_placeholder": 115000,
+      "assumption": "0% versus last verified FY country baseline; flat convention only, replace with 2026 country exit before workbook admission"
+    },
+    {
+      "country": "Mexico",
+      "2023A_rounded": 97000,
+      "2024A_rounded": 94000,
+      "2025A_rounded": 91000,
+      "2027_base_placeholder": 91000,
+      "2028_base_placeholder": 91000,
+      "assumption": "same flat convention; full reported country scope, not US-brand-only Mexico sales"
+    }
+  ],
+  "country_caveat": "Canada115k/Mexico91k remain flat rounded2025-baseline conventions;2026actual exit unrefreshed. Do not label them a new calibrated NA forecast. Customer sales and wholesale shipments remain separate.",
+  "unallocated": [
+    "Wagoneer S",
+    "Recon",
+    "Jeep legacy/unlisted residual",
+    "Chrysler legacy/unlisted residual",
+    "Dakota",
+    "compact Ram/Rampage-based",
+    "Ram SUV",
+    "Chrysler Airflow/Arrow/Arrow Cross",
+    "GLH successor"
+  ],
+  "price_input_gate": "Directions and dated offers supported; numerical OEM pre-incentive RPU, incentive cost and within-family mix assumptions remain explicit analyst inputs pending regional reconciliation. No model-level actual price inferred.",
+  "checks_file": "validation.json"
+}

@@ -1,0 +1,880 @@
+{
+  "as_of": "2026-10-14",
+  "status": "research scenarios, not approved forecast; no workbook/baseline edits",
+  "scope": "US reportedcustomer sales retail+fleet; noCanada/Mexicofamilyextrapolation; regionalwholesaleseparate",
+  "method": "Recovered prioraudits; six targeteddiscoveryqueries acrossOEMproduct, supplier, fleetlessorandbuyer/dealer sources; followedconcretedealerlinks. No bulkcollection, paiddata, OCR, fittedelasticities or newagents. Mechanism-first scenarioaudit.",
+  "families": [
+    {
+      "id": "ram_ld",
+      "family": "Ram light-duty pickups including Classic",
+      "thesis": "A genuine level recovery, with engine choice, availability and effective payments working together. Q3 strength does not establish a further structural growth slope or recovered manufacturer pricing power.",
+      "historical_sequence": [
+        "2018/19 combined pickups536980/633694; no reliable US LD/Classic/DT allocation. Two-generation breadth and product cycle make peak total an unsuitable LD target.",
+        "Pandemic supply stress is background; pre 2024 total pickup decline to468344 in 2022 and444926 in 2023 predates the Hurricane switch. No family-specific pandemic lost-sales allocation established.",
+        "2024 LD187013; refreshed1500 launch and upper-trim availability failed to ramp cleanly; Classic wind-down also removed a separate value proposition. Neither explains every lost sale.",
+        "2025 LD 204139 (+9.2%); early retail recovery predates returning HEMI deliveries, so HEMI is an additional repair rather than sole cause.",
+        "2026 Q1/Q2/Q3 59828/65669/76650; Q3 total +72.8% versus retail +42%. Strong recent pace includes channel effects."
+      ],
+      "customer_mechanism": "Customers choose among full-size F-150/Silverado/Sierra/Tundra, used pickups, smaller trucks or delaying replacement. Ram offers cabin/ride/trim choice and restored V8 identity; buyers need not prefer the highest-output engine. Express and Tradesman address entry payments, while missing premium trims previously obstructed different buyers. Warranty limits uncovered repair exposure for eligible first owners but leaves lost time uncovered and does not directly follow the truck into resale. Anecdotes show both Hurricane acceptance and eTorque concerns; no engine-level demand share or failure rate is inferred.",
+      "dealer_mechanism": "Fresh factory-order solicitation with deposits and initially no OEM rebates is evidence at least one dealer seeks future units, beyond clearing old stock. A factory-sold configuration reduces speculative stock/markdown exposure, but no completion or margin is observed. March order-lockable payment support helps convert payment-sensitive buyers and protects them from lead-time offer risk. July clearance support demonstrates stock selling still requires meaningful concessions at that dealer. Dealer-funded discount and OEM rebate are distinct costs. Faster retail turn can reduce holding expense; nationwide profitable voluntary replenishment remains unproved.",
+      "supporting_evidence_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R05",
+        "R12",
+        "R13",
+        "R15",
+        "R18",
+        "R19",
+        "R21",
+        "R22",
+        "R23",
+        "R24",
+        "R11"
+      ],
+      "counterevidence": [
+        "Q3 total growth exceeds retail growth; fleet mix or scope can account for part of the increment.",
+        "Brand inventory remained elevated in June; not an LD-specific measurement.",
+        "Returning HEMI and discounting coexist; neither identifies incremental engine demand.",
+        "Fresh-order dealer is a self-described volume specialist, not representative of all franchises."
+      ],
+      "action_status": {
+        "HEMI": "implemented; H2 2025 customer sales reported in prior official audit",
+        "Express": "listed current MY26; exact dealer trim penetration unknown",
+        "MY2027_orders": "dealer solicitation June18 and intermediary OPEN July7; not nationwide deliveries",
+        "Rumble_Bee": "orders/initial allocation reported sold out; Q4 2026 dealer arrival planned; included in LD",
+        "TRX_REEV_next_generation": "retain within family; no separately verified mature delivery pace"
+      },
+      "pricing_mix_view": "Base assumes ongoing competitive support and no automatic same-configuration net-price improvement. Affordable entry/fleet mix can dilute average realization while performance derivatives enrich it; net balance unknown. The July $14k\u2013$21k figures combine OEM and dealer money and cannot be subtracted wholesale from manufacturer RPU. No manufacturer actual RPU, invoice margin or matched transaction-price trend is established.",
+      "forecast_method": "Q4 base75000 closely holds Q3; downside65000 nearQ2, upside85000 requires repeat retail/order conversion. Reject mechanical 2024/25 Q4 multipliers because both years contain launch/mix disruptions. 2027 base300000=25000/month approximates currentQ3 monthly25550, slightly lower to allow comparison normalization. 2028 base holds300000; no calibrated coefficient supports further growth. Downside250000/240000 means some recovered buyers were pulled forward and smaller trucks substitute; upside330000/350000 requires sustained retail share plus viable replenishment. These are judgment scenarios, not intervals.",
+      "q4_2026_units_down_base_up": {
+        "downside": 65000,
+        "base": 75000,
+        "upside": 85000
+      },
+      "scenario_2027_units_down_base_up": {
+        "downside": 250000,
+        "base": 300000,
+        "upside": 330000
+      },
+      "scenario_2028_units_down_base_up": {
+        "downside": 240000,
+        "base": 300000,
+        "upside": 350000
+      },
+      "changes_from_prior": {
+        "reason": "Reduce prior310k/320k to300k/300k: customer recovery is real, but explicit ongoing support, channel divergence and new smaller-truck overlap argue against an unexplained growth increment. No coefficient converts these observations to exactly10k/20k; rounding is deliberate.",
+        "prior_2027": {
+          "downside": 250000,
+          "base": 310000,
+          "upside": 350000
+        },
+        "prior_2028": {
+          "downside": 260000,
+          "base": 320000,
+          "upside": 370000
+        },
+        "base_unit_revision_2027": -10000,
+        "base_unit_revision_2028": -20000
+      },
+      "confidence": "high on observed sales; medium on interacting mechanisms; low-medium on level; low on price/mix magnitude",
+      "falsifier": "Following HEMI anniversary, comparable retail pace and fresh order completions fall despite available configurations, or stable sales require rising manufacturer support/aged stock. Conversely several quarters of low inventory and matched retail/share gains would justify upward revision.",
+      "historical_sales_units": {
+        "2018A": null,
+        "2019A": null,
+        "2025A": 204139,
+        "2024Q4A": 49312,
+        "2025Q4A": 60875,
+        "2025Q1A": 47067,
+        "2026Q1A": 59828,
+        "2025Q2A": 51848,
+        "2026Q2A": 65669,
+        "2025Q3A": 44349,
+        "2026Q3A": 76650,
+        "2025YTDQ3A": 143264,
+        "2026YTDQ3A": 202147,
+        "2023A": null,
+        "2024A": 187013,
+        "2022A_partial": null,
+        "2024Q1A": 53031,
+        "2024Q2A": 44405,
+        "2024Q3A": 40265
+      },
+      "2026_full_year_scenarios_units": {
+        "downside": 267147,
+        "base": 277147,
+        "upside": 287147
+      },
+      "2026_base_yoy_pct": 35.76,
+      "2027_base_yoy_pct": 8.25,
+      "2028_base_yoy_pct": 0.0,
+      "2028_base_growth_vs_2026_base_units": 22853
+    },
+    {
+      "id": "ram_hd",
+      "family": "Ram heavy-duty pickups;2500/3500, chassis scope unresolved",
+      "thesis": "Hold approximately the current annual level; engineering improvements are relevant, but a persistent post-transition sales gap and selective high-trim clearance do not justify automatic normalization.",
+      "historical_sequence": [
+        "Pre 2024 national HD split unavailable; Canada and Washington proxies cannot allocate US losses.",
+        "2024 HD186107 versus 2025 169920(-8.7%). Q1 supplier transition confirms a supply problem, but all four 2025 quarters were below 2024; not just one quarter.",
+        "Q12025 HD retail+18% while total-12.7% shows channel/coverage effects.",
+        "2026 Q1 38597,Q2 43497,Q3 41107; YTD+3.4% but Q3-6.0%."
+      ],
+      "customer_mechanism": "Commercial towing/upfit buyers and recreational towing households face different use cases. Diesel torque, smoother gear spacing, cold starts and easier service matter to load-bearing work; a lighter-duty or gasoline truck can have lower acquisition/maintenance expense if capacity is unnecessary. Cummins confirms top-access filters and software servicing changes, but actual shop hours saved and fuel-cost advantage are unmeasured. Ford Super Duty and GM HD compete for the same jobs; brand/service relationships and correct axle/body/payload matter more than peak horsepower alone. Pickup and chassis-cab ratings differ.",
+      "dealer_mechanism": "Dealer reordering depends on exact cab/axle/diesel/upfit orders and fleet scheduling. More predictable order windows can reduce unwanted inventory; a contract-backed unit differs from a speculative premium diesel. July schedule lists orders open and12\u201314weeks; not filled orders. August21k premium-HD ad warns that high MSRP does not guarantee dealer gross. Invoice, holdback, dealer cash, fleet concessions and completed sale margins are unavailable. Serviceability can strengthen repeat commercial relationships, without proving lower warranty claims.",
+      "supporting_evidence_ids": [
+        "R01",
+        "R02",
+        "R06",
+        "R09",
+        "R10",
+        "R11",
+        "R14"
+      ],
+      "counterevidence": [
+        "Q3 decline persists long after initial 2025 changeover.",
+        "Supply schedule still has lead time and may be stale; not proof every configuration is freely available.",
+        "Large selective discounts do not establish all HD demand weakness.",
+        "Warranty is not downtime insurance and first-owner retail terms cannot be applied indiscriminately to fleets."
+      ],
+      "action_status": {
+        "2025_refresh": "implemented and selling; supplier specifications confirmed",
+        "2027_orders": "open in July7 intermediary table; July20 SOP scheduled, execution not separately audited",
+        "new_generation": "planned within 2030; no exact 2028 customer launch assumed"
+      },
+      "pricing_mix_view": "Base requires competitive business purchase/financing support, with no automatic diesel or premium mix uplift. Diesel capability can justify a price premium only for relevant jobs. Manufacturer net realization and actual dealer margin unknown. Treat2500/3500 plus potential chassis-cab coverage consistently with reportedHDPU; no extra4500/5500 volume added without scope confirmation.",
+      "forecast_method": "Q4 base47000 uses the mean of observed2024/25 HDQ4:Q3 ratios(1.128,1.162) applied to41107, rounded; both years disrupted, so use only a broad seasonal check. Down41000 holdsQ3, up52000 near2025Q4. 2027/28 base170000=14167/month near2025 level and2026 forecast; downside155000/150000, upside185000/195000 needs stronger post-refresh commercial demand. No empirical demand coefficient.",
+      "q4_2026_units_down_base_up": {
+        "downside": 41000,
+        "base": 47000,
+        "upside": 52000
+      },
+      "scenario_2027_units_down_base_up": {
+        "downside": 155000,
+        "base": 170000,
+        "upside": 185000
+      },
+      "scenario_2028_units_down_base_up": {
+        "downside": 150000,
+        "base": 170000,
+        "upside": 195000
+      },
+      "changes_from_prior": {
+        "reason": "Reduce prior175k/180k to170k/170k. Supplier changes strengthen the customer rationale, but no measured operating saving or demand acceleration supports automatic5k/year recovery.",
+        "prior_2027": {
+          "downside": 155000,
+          "base": 175000,
+          "upside": 190000
+        },
+        "prior_2028": {
+          "downside": 155000,
+          "base": 180000,
+          "upside": 200000
+        },
+        "base_unit_revision_2027": -5000,
+        "base_unit_revision_2028": -10000
+      },
+      "confidence": "high on totals; medium on supply transition; low on channel mix and forward level",
+      "falsifier": "Post-refresh family retail and commercial contract deliveries fail while peerHD recovers; or matched stock/discount data show faster turn and sustained growth, supporting upside.",
+      "historical_sales_units": {
+        "2018A": null,
+        "2019A": null,
+        "2025A": 169920,
+        "2024Q4A": 55142,
+        "2025Q4A": 50798,
+        "2025Q1A": 31781,
+        "2026Q1A": 38597,
+        "2025Q2A": 43624,
+        "2026Q2A": 43497,
+        "2025Q3A": 43717,
+        "2026Q3A": 41107,
+        "2025YTDQ3A": 119122,
+        "2026YTDQ3A": 123201,
+        "2023A": null,
+        "2024A": 186107,
+        "2022A_partial": null,
+        "2024Q1A": 36386,
+        "2024Q2A": 45704,
+        "2024Q3A": 48875
+      },
+      "2026_full_year_scenarios_units": {
+        "downside": 164201,
+        "base": 170201,
+        "upside": 175201
+      },
+      "2026_base_yoy_pct": 0.17,
+      "2027_base_yoy_pct": -0.12,
+      "2028_base_yoy_pct": 0.0,
+      "2028_base_growth_vs_2026_base_units": -201
+    },
+    {
+      "id": "promaster",
+      "family": "Ram Pro Master large van",
+      "thesis": "Defend roughly60 k annual sales; a functional fleet product, not an automatic return to the 2023 peak.",
+      "historical_sequence": [
+        "2018/19 sales46600/56409.",
+        "2023 81663, then 2024 65869 and 2025 57591. Public work has not identified whether the 2023 peak reflected fleet batch timing, temporary availability or lasting demand; do not assign causality.",
+        "2026 YTD44030(-2.8%);Q3 16314(+4.4%) shows stabilization, not a proven new growth cycle."
+      ],
+      "customer_mechanism": "Operators optimize delivered/upfitted price, usable load space, entry effort, route accessibility, downtime and resale. Low loadfloor and wide cargo area can reduce physical work per delivery; large van capacity avoids repeated trips. Ford Transit, Mercedes Sprinter, used vans and smaller vans are relevant by route/upfit, not merely brand. City will fit some lower-volume urban routes better; big ProMaster retains a capacity use case. EV economics depend on depot charging and route duty cycle; no verified fleet saving supports a separate EV volume premium.",
+      "dealer_mechanism": "Commercial dealer should order against route/upfit needs and credible fleet replacement schedules. Factory supply, bodybuilder completion and customer acceptance all affect cash-cycle length. Merchants lists ICE variants andBEV open with12\u201314week planning leadtimes, supporting orderability but not demand. Aftermarket body/parts availability and workshop uptime support repeat business; none of these imply measured dealer unit margin. Avoid speculative volume merely to fill commercial stock.",
+      "supporting_evidence_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R09",
+        "R11",
+        "R16",
+        "R17"
+      ],
+      "counterevidence": [
+        "2023 high has not persisted;2026 YTD still lower.",
+        "City can replace some smaller large-van purchases.",
+        "No transparent contract backlog, retail/fleet split or matched incentive data.",
+        "Vehicle warranty repair coverage is not compensation for interrupted routes."
+      ],
+      "action_status": {
+        "2027_model": "orderable per July schedule; not a wholly new generation",
+        "City": "companion launch Q1 2027 planned",
+        "next_generation": "no verified 2028 availability; globallargevan 2029 SOP does not establish NA timing"
+      },
+      "pricing_mix_view": "Base volume assumes ongoing fleet competitiveness, broadly stable comparable-configuration net realization rather than a pricing recovery. Mix across body sizes, fleet agreements and EV/ICE could dominate familyRPU, currently unknown. Upfit revenue need not accrue toStellantis; do not count third-party body cost as OEMvehicle revenue.",
+      "forecast_method": "Q4base15000 nearYTDquarterly14677; down12000 near2025Q4,up18000 requires currentQ3 improvement to continue. Two highly differentQ4 observations do not establish stable van seasonality. 2027/28base60000=5000/month; downside50000/48000,up68000/70000. Keep combinedProMaster+Citybase75000 in2028 versuslargeProMasteralone81663 in2023 as scale check, not demand proof.",
+      "q4_2026_units_down_base_up": {
+        "downside": 12000,
+        "base": 15000,
+        "upside": 18000
+      },
+      "scenario_2027_units_down_base_up": {
+        "downside": 50000,
+        "base": 60000,
+        "upside": 68000
+      },
+      "scenario_2028_units_down_base_up": {
+        "downside": 48000,
+        "base": 60000,
+        "upside": 70000
+      },
+      "changes_from_prior": {
+        "reason": "Retain 2027 base60 k but remove unsupported 2028+3 k. Product economics support a stable franchise; no contract or new-generation evidence supports a rising slope while City arrives.",
+        "prior_2027": {
+          "downside": 50000,
+          "base": 60000,
+          "upside": 70000
+        },
+        "prior_2028": {
+          "downside": 50000,
+          "base": 63000,
+          "upside": 75000
+        },
+        "base_unit_revision_2027": 0,
+        "base_unit_revision_2028": -3000
+      },
+      "confidence": "high on totals; medium on functional fit; low on channel/pricing mechanism",
+      "falsifier": "Fleet renewals and upfit completions fall or City cannibalizes more large-van demand; conversely repeat orders with matched turn and net pricing would support growth.",
+      "historical_sales_units": {
+        "2018A": 46600,
+        "2019A": 56409,
+        "2025A": 57591,
+        "2024Q4A": 24866,
+        "2025Q4A": 12295,
+        "2025Q1A": 14519,
+        "2026Q1A": 13735,
+        "2025Q2A": 15144,
+        "2026Q2A": 13981,
+        "2025Q3A": 15633,
+        "2026Q3A": 16314,
+        "2025YTDQ3A": 45296,
+        "2026YTDQ3A": 44030,
+        "2023A": 81663,
+        "2024A": 65869,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "2026_full_year_scenarios_units": {
+        "downside": 56030,
+        "base": 59030,
+        "upside": 62030
+      },
+      "2026_base_yoy_pct": 2.5,
+      "2027_base_yoy_pct": 1.64,
+      "2028_base_yoy_pct": 0.0,
+      "2028_base_growth_vs_2026_base_units": 970
+    },
+    {
+      "id": "promaster_city",
+      "family": "Ram Pro Master City old runoff and returning midsize van",
+      "thesis": "A credible commercial white-space proposition with confirmed announced pricing, but delivery execution and US customer contracts remain unverified.",
+      "historical_sequence": [
+        "Old City13788 in 2018 and12920 in 2019;12887 in 2023 then50 in 2024 and20 in 2025.",
+        "2026YTD1 is old residual/reporting runoff, not evidence the newCity launched.",
+        "March11 launch plan;August27 actual announced price improves evidence beyond earlier targetedprice;Q12027 arrival still a plan."
+      ],
+      "customer_mechanism": "Urban trades and delivery businesses can obtain enclosed tool/cargo security and garage access without paying for excess full-size-van capacity. NewCity is larger/different from its predecessor;167cuft and2,000lb-rated payload serve a distinct task. Alternatives includeusedTransitConnect/oldCity, small pickups with caps, minivans, and downsized full-size fleet purchases. Competitor exits can create opportunity or signal weak small-van economics; absence of another new midsizevan is not measured unmet demand. At$39995entry this is not a revival of historic low purchase prices.",
+      "dealer_mechanism": "An established commercial franchise can cross-sell/upfitCity to existing accounts, but stocking is rational only with believable route demand and delivery dates. Bursa assembly, ocean shipment andBaltimore conversion/upfit create sequential execution dependencies. Published schedule has noCityorder-open field; do not call the statedH2orderwindow an observed opening. Initialdealerstock andfleetdemonstrators are not repeat customer orders. No supplier price, tariff incidence, dealer acquisition cost or fleetmargin established.",
+      "supporting_evidence_ids": [
+        "R03",
+        "R04",
+        "R07",
+        "R08",
+        "R09",
+        "R17"
+      ],
+      "counterevidence": [
+        "No verified deposits/orderbook or delivered units.",
+        "$39995 is announced MSRP includingdestination, not effective fleet price.",
+        "Historical City demand was onlyabout13 k anddifferentproduct; does not calibrate newmarket.",
+        "Some grosssales may replace Pro Master orother STLAvehicles."
+      ],
+      "action_status": {
+        "announcement": "March11 2026",
+        "price": "August27 2026 announced39995 includingdestination; replaces targetedprice status",
+        "orders": "H22026 planned;actualopening notverified",
+        "SOP": "Q42026 scheduled byintermediary;actual notverified",
+        "dealer_arrival": "Q12027 planned",
+        "mature_pace": "unknown"
+      },
+      "pricing_mix_view": "CargoMSRP39995/41495includingdestination; passenger42695/44195. Effective fleet concessions, localconversion cost, freight/tariff burden andmanufacturer realization unknown. Lower price thanlargevanmayimprovecustomerTCO butdilutecompanymix; not count anadditionalmix uplift. Noassumed zero incentives.",
+      "forecast_method": "Q4zero new-generation sales undercurrentarrivalplan; oldrunoff0\u20132scenario.2027base10000=833/month averagedyear,2028base15000=1250/month; requiresQ1arrival, functioningupfitprocess andrepeatcommercialorders. Down0/5000allowsdelay orweakconversion;up20000/25000needsdemonstratedconquest. Noempirical launchcoefficient supports these rates; explicit scenario sizes only.",
+      "q4_2026_units_down_base_up": {
+        "downside": 0,
+        "base": 0,
+        "upside": 2
+      },
+      "scenario_2027_units_down_base_up": {
+        "downside": 0,
+        "base": 10000,
+        "upside": 20000
+      },
+      "scenario_2028_units_down_base_up": {
+        "downside": 5000,
+        "base": 15000,
+        "upside": 25000
+      },
+      "changes_from_prior": {
+        "reason": "Retain conditional 2027 base10 k; reduce 2028 from20 k to15 k to avoidunsupported automaticdoubling. Pricecertainty improves; volumecertainty doesnot. Downside 2027 revised5 kto0 forlaunchrisk.",
+        "prior_2027": {
+          "downside": 5000,
+          "base": 10000,
+          "upside": 20000
+        },
+        "prior_2028": {
+          "downside": 10000,
+          "base": 20000,
+          "upside": 30000
+        },
+        "base_unit_revision_2027": 0,
+        "base_unit_revision_2028": -5000
+      },
+      "confidence": "high onannouncedprice;mediumonplannedtiming;lowon USsales scale",
+      "falsifier": "CitymissesQ1arrival oruptakefailsdespitecompleteupfits; converselyfundedfleetcontractsandreorders above1000/monthwouldsupportlarger2028volume.",
+      "historical_sales_units": {
+        "2018A": 13788,
+        "2019A": 12920,
+        "2025A": 20,
+        "2024Q4A": 1,
+        "2025Q4A": 1,
+        "2025Q1A": null,
+        "2026Q1A": null,
+        "2025Q2A": null,
+        "2026Q2A": null,
+        "2025Q3A": 18,
+        "2026Q3A": 1,
+        "2025YTDQ3A": 19,
+        "2026YTDQ3A": 1,
+        "2023A": 12887,
+        "2024A": 50,
+        "2022A_partial": null,
+        "2024Q1A": null,
+        "2024Q2A": null,
+        "2024Q3A": null
+      },
+      "2026_full_year_scenarios_units": {
+        "downside": 1,
+        "base": 1,
+        "upside": 3
+      },
+      "2026_base_yoy_pct": -95.0,
+      "2027_base_yoy_pct": null,
+      "2028_base_yoy_pct": 50.0,
+      "2028_base_growth_vs_2026_base_units": 14999,
+      "growth_rate_note": "New-generation launch against one old-model runoff unit; percentage growth is not economically meaningful."
+    },
+    {
+      "id": "ram_dakota",
+      "family": "Ram Dakota North American midsize pickup",
+      "thesis": "North American 2028 SOP is a plan, not mature 2028 sales.",
+      "historical_sequence": [
+        "May 21, 2026 management showroom/platform plan; no US deliveries established by the cutoff."
+      ],
+      "customer_mechanism": "Midsize body/cost andutility can attract buyers who find1500too large or costly; Tacoma,Ranger,Colorado/Canyon andGladiator are relevant byjob.",
+      "dealer_mechanism": "Dealers need final prices, specifications, reliable production allocation and local orders before stocking. Initial allocation is not proof of voluntary replenishment. No completed orders or unit margins are established.",
+      "supporting_evidence_ids": [
+        "R17"
+      ],
+      "counterevidence": [
+        "No verified US price, customer availability month, capacity or conquest share.",
+        "Internal substitution is possible; no measured cannibalization coefficient."
+      ],
+      "action_status": {
+        "announcement": "managementplan",
+        "SOP": "2028 NAplatform plan",
+        "orders_production_delivery": "notverified"
+      },
+      "pricing_mix_view": "Entry pickups may reduce average company vehicle price; the large SUV may enrich it but overlaps continuing SUVs. Manufacturer net realization is unknown.",
+      "forecast_method": "Leave units null and unallocated. No identified 2027 customer launch; only partial-year potential in 2028. A dated delivery window and US price are needed for a unit ramp. Missing information is not numerical zero.",
+      "q4_2026_units_down_base_up": null,
+      "scenario_2027_units_down_base_up": null,
+      "scenario_2028_units_down_base_up": null,
+      "changes_from_prior": {
+        "reason": "Prior unallocated status retained; customer, dealer and substitution mechanisms now explicit."
+      },
+      "confidence": "Low; management plan without customer-delivery verification.",
+      "falsifier": "A dated US order opening, manufacturing milestone and price could justify a partial-year ramp. A delay beyond 2028 removes within-horizon contribution.",
+      "model_admission": "unallocated potential; not a numerical zero and not included in continuing-family scenario sum"
+    },
+    {
+      "id": "ram_compact",
+      "family": "Ram compact / Rampage-based North American pickup",
+      "thesis": "A smaller entry pickup can fill a genuine price/size gap; LatinAmericansales do notvalidateUS demand.",
+      "historical_sequence": [
+        "May 21, 2026 management showroom/platform plan; no US deliveries established by the cutoff."
+      ],
+      "customer_mechanism": "Maverick-type urbanutility buyers may want smallerdimensions andlowerpayment; actual USpowertrain,price,capabilityandconfiguration availabilityremainunverified.",
+      "dealer_mechanism": "Dealers need final prices, specifications, reliable production allocation and local orders before stocking. Initial allocation is not proof of voluntary replenishment. No completed orders or unit margins are established.",
+      "supporting_evidence_ids": [
+        "R17"
+      ],
+      "counterevidence": [
+        "No verified US price, customer availability month, capacity or conquest share.",
+        "Internal substitution is possible; no measured cannibalization coefficient."
+      ],
+      "action_status": {
+        "announcement": "managementplan",
+        "SOP": "2028 NAplatform plan",
+        "orders_production_delivery": "notverified"
+      },
+      "pricing_mix_view": "Entry pickups may reduce average company vehicle price; the large SUV may enrich it but overlaps continuing SUVs. Manufacturer net realization is unknown.",
+      "forecast_method": "Leave units null and unallocated. No identified 2027 customer launch; only partial-year potential in 2028. A dated delivery window and US price are needed for a unit ramp. Missing information is not numerical zero.",
+      "q4_2026_units_down_base_up": null,
+      "scenario_2027_units_down_base_up": null,
+      "scenario_2028_units_down_base_up": null,
+      "changes_from_prior": {
+        "reason": "Prior unallocated status retained; customer, dealer and substitution mechanisms now explicit."
+      },
+      "confidence": "Low; management plan without customer-delivery verification.",
+      "falsifier": "A dated US order opening, manufacturing milestone and price could justify a partial-year ramp. A delay beyond 2028 removes within-horizon contribution.",
+      "model_admission": "unallocated potential; not a numerical zero and not included in continuing-family scenario sum"
+    },
+    {
+      "id": "ram_suv",
+      "family": "Ram large SUV / Ramcharger on2030map",
+      "thesis": "Do not confuse the plannedfull-size Ram SUVwitharange-extended1500 pickup. Noverified 2028 customeravailability.",
+      "historical_sequence": [
+        "May 21, 2026 management showroom/platform plan; no US deliveries established by the cutoff."
+      ],
+      "customer_mechanism": "Could extendRamtruck brandpreferences to enclosedfamily/towinguse; competeswithfull-sizeSUVsandSTLAWagoneer/GrandWagoneer/Durango.",
+      "dealer_mechanism": "Dealers need final prices, specifications, reliable production allocation and local orders before stocking. Initial allocation is not proof of voluntary replenishment. No completed orders or unit margins are established.",
+      "supporting_evidence_ids": [
+        "R17"
+      ],
+      "counterevidence": [
+        "No verified US price, customer availability month, capacity or conquest share.",
+        "Internal substitution is possible; no measured cannibalization coefficient."
+      ],
+      "action_status": {
+        "announcement": "managementplan",
+        "SOP": "undated through 2030",
+        "orders_production_delivery": "notverified"
+      },
+      "pricing_mix_view": "Entry pickups may reduce average company vehicle price; the large SUV may enrich it but overlaps continuing SUVs. Manufacturer net realization is unknown.",
+      "forecast_method": "Leave units null and unallocated. No identified 2027 customer launch; only partial-year potential in 2028. A dated delivery window and US price are needed for a unit ramp. Missing information is not numerical zero.",
+      "q4_2026_units_down_base_up": null,
+      "scenario_2027_units_down_base_up": null,
+      "scenario_2028_units_down_base_up": null,
+      "changes_from_prior": {
+        "reason": "Prior unallocated status retained; customer, dealer and substitution mechanisms now explicit."
+      },
+      "confidence": "Low; management plan without customer-delivery verification.",
+      "falsifier": "A dated US order opening, manufacturing milestone and price could justify a partial-year ramp. A delay beyond 2028 removes within-horizon contribution.",
+      "model_admission": "unallocated potential; not a numerical zero and not included in continuing-family scenario sum"
+    }
+  ],
+  "source_registry": [
+    {
+      "id": "R01",
+      "url": "https://www.prnewswire.com/news-releases/stellantis-reports-q3-sales-302896446.html",
+      "publication_date": "2026-10-01",
+      "locator": "Ram highlights, Michael Orange quotation, Ram LD/HD/van rows",
+      "new_or_reused": "reused; reread",
+      "classification": "observed OEM customer sales; retail plus fleet in table",
+      "observation": "Q3 LD 76650, retail +42%; HD 41107; Pro Master 16314; City1. YTD Ram369379.",
+      "observation_period": "Q3 and YTD 2026",
+      "geography": "US",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "id": "R02",
+      "url": "https://www.prnewswire.com/news-releases/fca-us-fourth-quarter-total-sales-increase-4-year-over-year-reports-full-year-2025-us-sales-results-302652833.html",
+      "publication_date": "2026-01-05",
+      "locator": "Ram family rows; original attachment referenced in prior audit",
+      "new_or_reused": "reused",
+      "classification": "observed OEM sales",
+      "observation": "2024/25 LD187013/204139; HD186107/169920.",
+      "observation_period": "2024 and 2025",
+      "geography": "US",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "id": "R03",
+      "url": "https://www.prnewswire.com/news-releases/fca-us-reports-fourth-quarter-and-full-year-2019-sales-300980866.html",
+      "publication_date": "2020-01-03",
+      "locator": "CYTD and prior-year Ram rows; saved sales-source-tables.json",
+      "new_or_reused": "reused",
+      "classification": "observed OEM sales",
+      "observation": "2018/19 pickups536980/633694; ProMaster46600/56409; City13788/12920.",
+      "observation_period": "2018 and 2019",
+      "geography": "US",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "id": "R04",
+      "url": "https://www.prnewswire.com/news-releases/fca-us-reports-fourth-quarter-and-full-year-2024-sales-results-302342164.html",
+      "publication_date": "2025-01-03",
+      "locator": "Ram rows; saved historical ledger",
+      "new_or_reused": "reused",
+      "classification": "observed OEM sales",
+      "observation": "2023/24 pickups444926/373120; ProMaster81663/65869; City12887/50.",
+      "observation_period": "2023 and 2024",
+      "geography": "US",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "id": "R05",
+      "url": "https://www.wardsauto.com/news/fixing-ram-brand-starts-at-the-top/799058/",
+      "publication_date": "2025-01-14",
+      "locator": "Kuniskis interview; production rates and trim availability",
+      "new_or_reused": "reused",
+      "classification": "firsthand management explanation, not independent lost-sales estimate",
+      "observation": "Simultaneous engineering changes and incomplete trim ramp; prior audit excludes conflicting van number.",
+      "observation_period": "2024 launch to January 2025",
+      "geography": "US",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "id": "R06",
+      "url": "https://barchart.websol.barchart.com/?accession_num=0001104659-25-044225&cik=1062231&lang=en&module=secFilings&override=1&symbol=AXL&type=CONVPDF",
+      "publication_date": "2025-05-02",
+      "locator": "PDF p8 Chris May reply on Ram HD; retained in prior quarterly-history source register",
+      "new_or_reused": "reused",
+      "classification": "supplier corroboration of production transition",
+      "observation": "American Axle reported low Ram HD production through changeover and ongoing ramp.",
+      "observation_period": "Q1 2025",
+      "geography": "US",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "id": "R07",
+      "url": "https://www.ramtrucks.com/news/2027-promaster-city-pricing-announced.html",
+      "publication_date": "2026-08-27",
+      "locator": "Pricing bullets and specifications; text lines45\u201369 and82\u201389",
+      "new_or_reused": "new",
+      "classification": "observed announced US MSRP; future arrival plan",
+      "observation": "Tradesman cargo $39995 including $2595 destination; SLT cargo $41495; passenger $42695/$44195. Q1 2027 arrival still planned.",
+      "observation_period": "MY 2027 plan",
+      "geography": "US",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "id": "R08",
+      "url": "https://www.ramtrucks.com/news/2027-ram-promaster-city.html",
+      "publication_date": "2026-03-11",
+      "locator": "Availability and Manufacturing sections",
+      "new_or_reused": "reused; reread",
+      "classification": "management launch plan",
+      "observation": "H2 2026 orders, 2026 production, Q1 2027 dealer arrival; Bursa assembly and Baltimore upfit.",
+      "observation_period": "2026\u201327 launch plan",
+      "geography": "US",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "id": "R09",
+      "url": "https://www.merchantsfleet.com/manufacturers-information/ram-2027/",
+      "publication_date": null,
+      "locator": "2027 build/start table rows; July7 update for LD/HD/ProMaster, April9 for City",
+      "new_or_reused": "new",
+      "classification": "commercial intermediary planning schedule; not executed production or delivery",
+      "observation": "LD/HD/ProMaster listed OPEN; 12\u201314 week lead times. July/August2026 SOP dates scheduled. City Q4 2026 SOP, Q1 2027 delivery; City order-open field blank.",
+      "observation_period": "row vintages 2026-04-09 and 2026-07-07",
+      "geography": "US",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "id": "R10",
+      "url": "https://investor.cummins.com/news/detail/664/cummins-launches-next-generation-6-7l-turbo-diesel-pickup",
+      "publication_date": "2025-01-07",
+      "locator": "Engine and serviceability paragraphs, text268\u2013278",
+      "new_or_reused": "new",
+      "classification": "supplier specification and claimed improvement",
+      "observation": "New 8-speed integration; top-access oil/fuel filters, in-cab software updates and glow-plug cold-start changes. 430hp/1075lb-ft pickup versus360hp/800lb-ft chassis cab. No measured fleet TCO savings.",
+      "observation_period": "MY 2025 and subsequent",
+      "geography": "US",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "id": "R11",
+      "url": "https://www.mopar.com/content/dam/mopar/pdf/warranty/Ram_2026MY_10-100_Limited_Powertrain_Warranty-Jun17v2.pdf",
+      "publication_date": "2025-06",
+      "locator": "Both pages; original-owner/retail purchase, excluded damages, transferability",
+      "new_or_reused": "new",
+      "classification": "contract terms; June 2025 revision date, exact publication day unknown",
+      "observation": "10yr/100000mi extension excludes BEVs, original retail owner; no lost-use/revenue compensation. Subsequent owners retain ordinary warranty.",
+      "observation_period": "MY 2026 coverage",
+      "geography": "US",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "id": "R12",
+      "url": "https://www.ramforum.com/threads/stack-2-9-apr-w-rebates-mark-dodge-discount.223312/",
+      "publication_date": "2026-03-05",
+      "locator": "Opening dealer post, regional APR and factory-order lock",
+      "new_or_reused": "new",
+      "classification": "single dealer program advertisement, not completed transactions",
+      "observation": "Selected regions 2.9% through72 months for qualified buyers; Midwest4.9%; dealer says rebates and dealer discounts stack and terms lock to factory orders.",
+      "observation_period": "March 2026 offer; not October quote",
+      "geography": "US",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "id": "R13",
+      "url": "https://www.ramforum.com/threads/14k-21k-off-ram-1500s-mark-dodge-in-stock.226171/",
+      "publication_date": "2026-07-08",
+      "locator": "Opening dealer post, MY26 crewcab4 x4 offers and exclusions",
+      "new_or_reused": "new",
+      "classification": "single dealer advertisement",
+      "observation": "Combined dealer/OEM reduction: BigHorn14k, Rebel16k, Laramie17k, upper trims21k. Standalone rebate excludes promo APR/coupons; fees and taxes extra.",
+      "observation_period": "July 2026 offer; not October quote",
+      "geography": "US",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "id": "R14",
+      "url": "https://www.ramforum.com/threads/21k-off-msrp-2026-instock-limited-longhorn-6-7ls-mark-dodge.226634/",
+      "publication_date": "2026-08-08",
+      "locator": "Opening post and title; in-stock2500/3500 diesel Limited/Longhorn",
+      "new_or_reused": "new",
+      "classification": "single dealer advertisement",
+      "observation": "21k headline discount; standalone support can combine with specified TX/affiliate eligibility but not promotional APR/coupons/military. No actual margin data.",
+      "observation_period": "August 2026 offer; not October quote",
+      "geography": "US",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "id": "R15",
+      "url": "https://www.ramforum.com/threads/2027-ram-1500s-open-mark-dodge.225859/",
+      "publication_date": "2026-06-18",
+      "locator": "Opening post edited Sep10; June22 reply quotes original pricing; Jun19 TRX reply",
+      "new_or_reused": "new",
+      "classification": "single dealer order solicitation and revised advertising",
+      "observation": "MY27 fresh orders offered; $1000 deposit credited to order; initially no OEM rebates. Quoted original dealer reductions11.5\u201312.5%; pricing later removed citing MAAP effective Oct1.",
+      "observation_period": "June18\u2013September10 2026; not a current price quote",
+      "geography": "US",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "id": "R16",
+      "url": "https://www.stellantisfleet.com/ramtrucks/promaster.html",
+      "publication_date": null,
+      "locator": "2027 Pro Master capability and loading sections",
+      "new_or_reused": "new",
+      "classification": "dynamic OEM specification page observed at cutoff",
+      "observation": "Maximum cargo524 cuft, low loadfloor21 in, FWD; configuration-dependent maxima not same vehicle.",
+      "observation_period": "MY 2027 page observed 2026-10-14",
+      "geography": "US",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "id": "R17",
+      "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events/stellantis-investor-day-2026/presentation/Stellantis-Investor-Day-2026-FaSTLAne2030-North-America.pdf",
+      "publication_date": "2026-05-21",
+      "locator": "NA24\u201325 and29; prior verified combined deck D42,D75,D79 and transcript register",
+      "new_or_reused": "reused",
+      "classification": "management plan",
+      "observation": "Compact and Dakota NA platform SOP 2028; Ram SUV by 2030 date unspecified; next-generation Pro Master not established by 2028.",
+      "observation_period": "plan to 2030",
+      "geography": "North America",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "id": "R18",
+      "url": "https://www.prnewswire.com/news-releases/stellantis-reports-us-sales-gains-in-first-half-2026-302816096.html",
+      "publication_date": "2026-07-01",
+      "locator": "Ram retail highlights and model table",
+      "new_or_reused": "reused",
+      "classification": "observed OEM sales",
+      "observation": "Q2 1500 retail +9%; retain separately from total LD and total pickups.",
+      "observation_period": "Q2/H1 2026",
+      "geography": "US",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "id": "R19",
+      "url": "https://www.coxautoinc.com/insights/june-2026-new-vehicle-inventory/",
+      "publication_date": "2026-07-16",
+      "locator": "Inventory Is Still a Brand-Level Story",
+      "new_or_reused": "reused",
+      "classification": "primary-provider brand inventory context",
+      "observation": "Ram among brands with elevated inventory; no model-level stock-change series.",
+      "observation_period": "end June 2026",
+      "geography": "US",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "id": "R20",
+      "url": "https://www.jdpower.com/cars/shopping-guides/best-popular-truck-deals-in-june-2026",
+      "publication_date": "2026-06",
+      "locator": "Ram1500 and HD sections; prior bounded audit",
+      "new_or_reused": "reused",
+      "classification": "advertised offers; maxima and qualification conditions",
+      "observation": "Support persists; cannot rank total generosity against 2025 employee pricing from cash maxima alone.",
+      "observation_period": "June 2026",
+      "geography": "US",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "id": "R21",
+      "url": "https://www.reddit.com/r/ram_trucks/comments/1umhbf3/price_drops_on_2026_1500_hemis/",
+      "publication_date": null,
+      "locator": "Opening post and comments about e Torque, Hurricane purchases and discounts",
+      "new_or_reused": "new",
+      "classification": "self-selected customer anecdotes, unverified; diagnostic only",
+      "observation": "Contrasting buyer preferences and service-downtime worries; no complaint prevalence, reliability rate, transaction sample or technical verification.",
+      "observation_period": "Approximately July 2026 per rendered relative date; exact timestamp not recovered",
+      "geography": "US",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "id": "R22",
+      "url": "https://www.kbb.com/car-news/ram-1500-classic-production-to-end-in-september/",
+      "publication_date": "2024-08-06",
+      "locator": "Company-cited planned Classic cessation and inventory runoff",
+      "new_or_reused": "reused",
+      "classification": "secondary report citing OEM",
+      "observation": "Classic production cessation planned September 2024; dealer sales could continue 2025.",
+      "observation_period": "2024\u201325",
+      "geography": "US",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "id": "R23",
+      "url": "https://www.prnewswire.com/news-releases/the-legend-returns-2026-ram-1500-offers-5-7-liter-hemi-v-8-etorque-engine-with-proven-performance-and-capability-302474035.html",
+      "publication_date": "2025-06-05",
+      "locator": "HEMI order/availability announcement",
+      "new_or_reused": "reused",
+      "classification": "OEM corrective action",
+      "observation": "HEMI return announced for MY26; actual H2 arrival supported by 2025 sales releases in prior audit.",
+      "observation_period": "2025\u201326",
+      "geography": "US",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "id": "R24",
+      "url": "https://www.ramtrucks.com/ram-1500.html",
+      "publication_date": null,
+      "locator": "Current trim price ladder",
+      "new_or_reused": "new",
+      "classification": "dynamic MSRP, destination treatment not recovered here",
+      "observation": "Displayed Tradesman42025, Express44150, Big Horn47280, Laramie61480, Tungsten88800. Not matched-config ATP or manufacturer revenue.",
+      "observation_period": "observed 2026-10-14",
+      "geography": "US",
+      "retrieved": "2026-10-14"
+    }
+  ],
+  "calculations": {
+    "conditional_Q3_fleet_increment_lower_bound": {
+      "formula": "(76650-44349)-0.42*44349",
+      "units": 13674.42,
+      "share_LD_increment_pct": 42.33,
+      "classification": "conditional derived bound; not observed fleet units",
+      "assumption": "1500 retailgrowth covers exactsame LDpopulation, rounded42% treatedasexact; usequalitativelyunlessdefinitionsclarified",
+      "implication": "Even ifallpriorLDsaleswereretail,retailgrowthcouldnotexplainfulltotalincrement; fleet/channel contribution matters."
+    },
+    "HD_Q4_seasonal_check": {
+      "formula": "41107*((55142/48875+50798/43717)/2)",
+      "units": 47071.598299817575,
+      "qualification": "Two disruptedyears; rounded47000 scenario,notestimatedstable seasonalcoefficient"
+    }
+  },
+  "checks": {
+    "Q3_Ram_family_sum": 134072,
+    "Q3_reported_brand": 134072,
+    "YTD_Ram_family_sum": 369379,
+    "YTD_reported_brand": 369379,
+    "2024_LD_HD_sum": 373120,
+    "2025_LD_HD_sum": 374059,
+    "family_actual_quarters_reconcile": "LD,HD,Pro Master 2026 Q1+Q2+Q3 equalreported YTD;Cityunreportedearlierquartersnotfabricated"
+  },
+  "regional_wholesale_boundary": "NA Q32026 preliminary357 k versus404 k; Ramshipmentincreaseabout17 k is regionalwholesale, not USmodelcustomersales. Do not derive modelinventoryor RPUfromtheir unmatched difference.",
+  "remaining_gaps": [
+    "Matched LDretail/fleetunitsandnetrealization afterHEMIanniversary; engine-levelsales absent.",
+    "Completedfreshdealerordersandstockturnbyconfiguration withOEM/dealerfundingsplit; exactdealerunitmarginsunknown.",
+    "Cityfunded USorders,actual SOP,Baltimoreconversionthroughputanddealerarrivaldate."
+  ],
+  "stopping_rule": "No further broadRamsearch. Sourceandcustomer/dealerspecific evidenceimprovesmechanisms; exactnationalmarginsandcausalcoefficientswouldrequirematchedlicensed/private data. Requestspecificdocumentonlyifdecisionneedwarrants.",
+  "provenance": {
+    "reused_local": [
+      "docs/model-architecture.md",
+      "research/volume-recovery-2026-10-14/historical-sales-ledger.json",
+      "research/volume-recovery-2026-10-14/support/ram-quarterly-history.json",
+      "research/volume-recovery-2026-10-14/proposed-volume-inputs.json",
+      "research/investor-day-2026-05-21/north-america-launch-register.md",
+      "research/model-diligence-2026-10-14/support/ram-reused-evidence.json",
+      "research/volume-recovery-2026-10-14/support/prior/offer-product-rebound-audit.json"
+    ],
+    "new_findings": [
+      "Cityannouncedpricing",
+      "freshvsstockdealerprogramswithstackingrules",
+      "MAAPadvertisingedit",
+      "supplier HDservicechanges",
+      "fleetlessorschedule",
+      "warrantyownership/downtimeboundaries"
+    ],
+    "not_established": [
+      "nationaldealerprofit",
+      "modelactualmanufacturer RPU",
+      "enginepreferenceelasticity",
+      "nationalreliabilityrate",
+      "Citycannibalizationpercentage"
+    ],
+    "excluded_or_unusable": [
+      "Ramconsumer Pro Masterpagefetcherror; officialfleetpageusedinstead.",
+      "Reddit HDthreaddateonlyrelativeandmixedengines; noquantitativeuse.",
+      "Canadianwarrantysearchresultsnotappliedto US.",
+      "Undateddealer/customerforumpricesnotpresentedasOctoberquotations."
+    ],
+    "local_path_convention": "All reused_local paths are relative to the Git repository root. Frozen evidence excerpts preserve original audit filename, source URLs and SHA-256; original workspace files are not required.",
+    "portable_excerpt_locator": "research/model-diligence-2026-10-14/support/ram-reused-evidence.json: excerpts selected by original_workspace_filename"
+  },
+  "quantified_subtotal": {
+    "2026": {
+      "downside": 487379,
+      "base": 506379,
+      "upside": 524381
+    },
+    "2027": {
+      "downside": 455000,
+      "base": 540000,
+      "upside": 603000
+    },
+    "2028": {
+      "downside": 443000,
+      "base": 545000,
+      "upside": 640000
+    }
+  },
+  "model_admission": "Observed sales and verified specifications can enter historical inputs; scenarios require analyst judgment. Unknown future rows remain unallocated. No wholesale RPU, actual model inventory or dealer margin has been estimated."
+}
