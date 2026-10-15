@@ -111,7 +111,7 @@ Model sales weights already produce the model-mix effect. Do not add a second ar
 
 ## 7. VCP: what the research actually supports
 
-The `VCP Build` input area is blank. Contrary to an earlier conversational summary, the latest saved research does not contain a selected four-driver forecast or approved total.
+The `VCP Build` input area was blank at the last workbook audit. A new [AI-proposed benchmark-transfer schedule](../research/vcp-schedule-2026-10-14/README.md) now supplies working assumptions: components 9%, manufacturing 8.3%, logistics 17% by 2028; warranty and other indirect unestimated with zero credited. Quantified terminal subtotal EUR3.986bn. Proposed recognition is 10%/40%/100% in 2026/27/28 (2026 is a weak analyst placeholder; 2028 full-year recognition is an explicit assumption). Annual benefits EUR398.6m/1,594.4m/3,986m; YoY bridge benefits EUR1,195.8m in 2027 and EUR2,391.6m in 2028. See schedule for sensitivities, effective annual rates and double-counting controls. This is not user-approved or a fully underwritten four-driver base case; no workbook changed. The historical reference table below remains evidence, not separate additive inputs.
 
 | Workstream | Estimated annual NA reference pool | Historical benchmark | Conditional arithmetic, not an adopted forecast |
 |---|---:|---|---:|
@@ -134,7 +134,7 @@ Populate the existing blocks as follows:
 - Logistics: rows 44–49. Explicitly resolve whether other indirect costs are excluded or mapped into this workstream; do not silently relabel the €1.5bn logistics pool as covering all indirect costs.
 - Total savings row 51; same-period prior-year savings row 52; incremental YoY savings row 53; SG&A/industrial allocation rows 56–58.
 
-Select total attainable savings separately from recognition timing. The user suggested applying management's delivery shape to the independently estimated scale, but no numerical calendar schedule is selected in the current register. Verify whether guidance is an annual realized saving, exit run rate, or cumulative benefit. Annual benefit is not automatically earned in full in every earlier year. If plotting a savings rate over time, its area is cumulative savings, not the final annual run rate. Use a transparent even quarterly split within an annual assumption where finer evidence is unavailable.
+Select total attainable savings separately from recognition timing. The user suggested applying management's delivery shape to the independently estimated scale, and a numerical AI proposal is now provided in the schedule linked above; it remains subject to the stated transfer/timing assumptions. Verify whether guidance is an annual realized saving, exit run rate, or cumulative benefit. Annual benefit is not automatically earned in full in every earlier year. If plotting a savings rate over time, its area is cumulative savings, not the final annual run rate. Use a transparent even quarterly split within an annual assumption where finer evidence is unavailable.
 
 Execution/transition costs require their own explicit assumption. Avoid including the same charge both here and in the IS restructuring/other-industrial lines. Factory utilization benefits already in volume contribution must not be counted again in VCP. Feed **incremental YoY** savings into the YoY AOI bridge, not the entire recurring saving every year.
 

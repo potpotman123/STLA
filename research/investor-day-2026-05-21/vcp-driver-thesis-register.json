@@ -55,5 +55,7 @@
     "5\u201310% warranty as calibrated base range"
   ],
   "renault_reference": "400EUR/vehicle achieved annual broad variableCOGS reduction; cross-check only, not additive or materials-only",
-  "workbook_changed": false
+  "workbook_changed": false,
+  "latest_proposal": "../vcp-schedule-2026-10-14/schedule.json",
+  "latest_proposal_status": "AI conditional benchmark-transfer proposal; not user-approved; original benchmark references below preserved"
 }

@@ -1,0 +1,116 @@
+{
+  "status": "AI-proposed conditional benchmark-transfer case, not user-approved or independently underwritten base case",
+  "baseline": "Frozen estimated 2025 NA cost pools and comparable output/content; no automatic volume scaling",
+  "factors": {
+    "2026": 0.1,
+    "2027": 0.4,
+    "2028": 1.0
+  },
+  "drivers": [
+    {
+      "driver": "components",
+      "pool_eurm": 35000,
+      "terminal_rate": 0.09,
+      "terminal_credited_savings_eurm": 3150.0,
+      "rationale": "Nissan FY2001 purchasing result transferred to STLA components",
+      "annual_recognized_savings_eurm": {
+        "2026": 315.0,
+        "2027": 1260.0,
+        "2028": 3150.0
+      },
+      "quarterly_recognized_savings_eurm": {
+        "2026": 78.75,
+        "2027": 315.0,
+        "2028": 787.5
+      }
+    },
+    {
+      "driver": "manufacturing_cash",
+      "pool_eurm": 7000,
+      "terminal_rate": 0.083,
+      "terminal_credited_savings_eurm": 581.0,
+      "rationale": "Nissan 180 three-year result transferred to cash plant/labor",
+      "annual_recognized_savings_eurm": {
+        "2026": 58.1,
+        "2027": 232.4,
+        "2028": 581.0
+      },
+      "quarterly_recognized_savings_eurm": {
+        "2026": 14.525,
+        "2027": 58.1,
+        "2028": 145.25
+      }
+    },
+    {
+      "driver": "logistics",
+      "pool_eurm": 1500,
+      "terminal_rate": 0.17,
+      "terminal_credited_savings_eurm": 255.00000000000003,
+      "rationale": "4flow selected inbound project extended to logistics pool",
+      "annual_recognized_savings_eurm": {
+        "2026": 25.5,
+        "2027": 102.0,
+        "2028": 255.0
+      },
+      "quarterly_recognized_savings_eurm": {
+        "2026": 6.375,
+        "2027": 25.5,
+        "2028": 63.75
+      }
+    },
+    {
+      "driver": "other_indirect",
+      "pool_eurm": 1000,
+      "terminal_rate": null,
+      "terminal_credited_savings_eurm": 0,
+      "rationale": "Unestimated; zero credited, not zero expected",
+      "annual_recognized_savings_eurm": {
+        "2026": 0.0,
+        "2027": 0.0,
+        "2028": 0.0
+      },
+      "quarterly_recognized_savings_eurm": {
+        "2026": 0.0,
+        "2027": 0.0,
+        "2028": 0.0
+      }
+    },
+    {
+      "driver": "warranty",
+      "pool_eurm": 3000,
+      "terminal_rate": null,
+      "terminal_credited_savings_eurm": 0,
+      "rationale": "Unestimated; zero credited, not zero expected",
+      "annual_recognized_savings_eurm": {
+        "2026": 0.0,
+        "2027": 0.0,
+        "2028": 0.0
+      },
+      "quarterly_recognized_savings_eurm": {
+        "2026": 0.0,
+        "2027": 0.0,
+        "2028": 0.0
+      }
+    }
+  ],
+  "annual_total_eurm": {
+    "2026": 398.6,
+    "2027": 1594.4,
+    "2028": 3986.0
+  },
+  "annual_yoy_aoi_increment_eurm": {
+    "2027": 1195.8,
+    "2028": 2391.6
+  },
+  "quarterly_yoy_aoi_increment_eurm": {
+    "2027": 298.95,
+    "2028": 597.9
+  },
+  "two_year_cumulative_recognized_2027_2028_eurm": 5580.4,
+  "timing_sensitivity": {
+    "2026_credit_zero_yoy2027_eurm": 1594.4,
+    "2026_credit_20pct_yoy2027_eurm": 797.2,
+    "2028_recognition_70pct_eurm": 2790.2,
+    "2028_recognition_70pct_yoy_eurm": 1195.7999999999997
+  }
+}

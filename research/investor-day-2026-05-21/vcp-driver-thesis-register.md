@@ -1,5 +1,7 @@
 # VCP driver references and working theses
 
+**Latest proposal:** [14 October benchmark-transfer schedule](../vcp-schedule-2026-10-14/README.md) adds a conditional EUR3.986bn quantified opportunity and 2026–28 timing proposal. It is not user-approved; warranty/indirect remain unestimated, with zero credited. The register below preserves the earlier reference-only state and limitations.
+
 14 October 2026. Current research handoff. User requests saving numbers to GitHub and forming views across drivers before deeply interrogating each. Preserve management's four cost workstreams: components, manufacturing, quality, logistics/indirect. Do not confuse these with the broader model's three pillars (volume, mix/net pricing, cost savings). No further research expansion in this save-only step.
 
 ## Reference numbers, not approved forecasts
