@@ -1,5 +1,7 @@
 # Proposed NA VCP schedule: benchmark transfer, not validated base case
 
+**Other three drivers:** [plausibility update](other-three-plausibility.md) distinguishes the manufacturing historical anchor, aggressive whole-pool logistics transfer, and unestimated warranty benefit. Adds Renault maintenance and DHL/Vitesco mechanism evidence plus Ford's quality-versus-warranty-accrual countercheck. No numerical change.
+
 **Component plausibility update:** [supplier-side evidence](component-nine-percent-plausibility.md) supports recurring part-price reductions and a roughly 3.1%-per-year equivalent for 9% over three years. Retain as an ambitious gross assumption; supplier coverage exclusions and ordinary-productivity double counting remain important. No numerical change.
 
 **Analogue audit:** [Nissan starting conditions and mechanisms](nissan-analogue.md). Nissan was a mature OEM, but newly centralized procurement and alliance integration differ from Stellantis after prior merger synergies. The 9% transfer remains conditional; no percentage changed after this user challenge.
