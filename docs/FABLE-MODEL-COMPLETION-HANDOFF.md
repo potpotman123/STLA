@@ -45,6 +45,8 @@ D098 supersedes D097 as the current volume research proposal. It is not an appro
 
 ## 4. Volume: available assumptions and unresolved choices
 
+**New AI working proposal, 14 October:** US shipment/customer-sales ratio 98% in 2027 and 100% in 2028; Canada/Mexico 100% both years. On current country volumes, the blended NA ratios are 98.264% and 100%. Calculate the blend rather than hardcoding it. This assumes roughly 27,099 US vehicles of destocking in 2027 and flat inventory in 2028; it is not observed data or user-approved final input. See [assumptions, inventory scale check and scope limitations](../research/wholesale-sales-working-assumptions-2026-10-14.md). No workbook changed.
+
 Scope of US observations: reported customer deliveries, including retail and fleet, excluding Maserati in line with the issuer sales table. These are not wholesale shipments or pure household retail demand.
 
 Current research historical controls:
