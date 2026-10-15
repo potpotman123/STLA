@@ -2,6 +2,10 @@
 
 Prepared 14 October 2026. Information cutoff: 14 October 2026.
 
+## Latest support and AI variance-tab package
+
+Import the current NA evidence/calculations using [the single-tab support package](../research/fable-support-pack-2026-10-14/README.md). Build the independent-baseline comparison using [AI Forecast Bridge](AI-FORECAST-BRIDGE-TAB.md). These packages preserve input provenance and distinguish AI-proposed numbers from analyst direction. They do not imply that the workbook has been changed or recalculated.
+
 ## 1. Assignment and boundaries
 
 Complete the user's Stellantis investment-case workbook through FY2028, using its existing architecture and this repository's research. The required outputs are a consolidated income statement, a separate North American revenue build and AOI bridge, and an explainable variance against the preserved independent AI first pass. This handoff records a read-only audit of `FINAL KW STLA MODEL.xlsx`, not an authorization to treat every research proposal as an approved forecast.

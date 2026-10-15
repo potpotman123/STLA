@@ -1,0 +1,34 @@
+[
+  {
+    "section": "CURRENT_CASE",
+    "source": "research/forecast-resolution-2026-10-14/proposal.json",
+    "sha256": "8aa59aed837cdf6d0125d970ae6d050a2204edc93a76a97babc3953ab646734a",
+    "evidence": "research/forecast-resolution-2026-10-14/README.md",
+    "calculation": "research/forecast-resolution-2026-10-14/calculate.py",
+    "status": "Current proposed implementation; mixed reported/derived/assumed. Read inputs.source_types."
+  },
+  {
+    "section": "VCP",
+    "source": "research/vcp-schedule-2026-10-14/schedule.json",
+    "sha256": "e98860ffc5a8888c2fb5a1d59859efc7d919563f75cd5f021d4eb26b22190b39",
+    "evidence": "research/vcp-schedule-2026-10-14/README.md",
+    "calculation": "research/vcp-schedule-2026-10-14/calculate.py",
+    "status": "Estimated pools and transferred historical benchmarks; not STLA guidance."
+  },
+  {
+    "section": "RPU_CALIBRATION",
+    "source": "research/rpu-working-assumptions-2026-10-14.json",
+    "sha256": "b97e6a7e6932507663c4f6c93269f7cea0cb36ff97a95ae778f05b36a0dc2189",
+    "evidence": "docs/RPU-WORKING-ASSUMPTIONS.md",
+    "calculation": "research/build-rpu-working-case.py",
+    "status": "Calibrated effective RPUs, not observed manufacturer revenue by model. Gross volumes superseded by CURRENT_CASE net volumes."
+  },
+  {
+    "section": "VOLUME_EVIDENCE",
+    "source": "research/forecast-audit-2026-10-14/proposed-forecast-inputs.json",
+    "sha256": "1afd71b7579ebe0c1144baaf43b1847bb38cd0a3c847d50d586b7a3496834068",
+    "evidence": "research/forecast-audit-2026-10-14",
+    "calculation": "",
+    "status": "Gross model forecasts and evidence; apply CURRENT_CASE donor deductions once."
+  }
+]
