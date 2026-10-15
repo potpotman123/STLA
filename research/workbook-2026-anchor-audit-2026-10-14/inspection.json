@@ -1,0 +1,3214 @@
+{
+  "source": "/Users/kwu/Downloads/FINAL KW STLA MODEL.xlsx",
+  "sha256": "b30afe31bac76bcd0fd59d8976cce8e1ba77e951115e0d72f96a2073224c13dc",
+  "read_only_verified": true,
+  "cache_warning": "Cached workbook values inspected; selected equations independently rebuilt. No Excel recalculation or full formula-engine validation.",
+  "summary": {
+    "2026": {
+      "revenue_eurm": 65834.06691866944,
+      "shipments": 1580625,
+      "aoi_eurm": -546.575,
+      "margin": -0.008302312550054545
+    },
+    "2027": {
+      "revenue_eurm": 62871.774,
+      "shipments": 1533850.9999999998,
+      "aoi_eurm": -248.57050000000004,
+      "margin": -0.003953610407112102
+    },
+    "2028": {
+      "revenue_eurm": 66526.225,
+      "shipments": 1636700,
+      "aoi_eurm": 2963.525,
+      "margin": 0.04454671823029189
+    }
+  },
+  "checks_and_sensitivities": {
+    "F31_rebuilt": -610.35,
+    "G31_rebuilt": -483.225,
+    "2027_aoi_delta_eurm": 298.0045,
+    "annual_us_shipments_2027_cached": 1331427.2798295908,
+    "annual_us_shipments_2027_sum_quarters": 1327851.0,
+    "annual_us_shipments_2027_error": 3576.279829590814,
+    "wagoneer_S_annual_revenue_overallocation_2028_eurm": 7.8,
+    "wagoneer_S_annual_revenue_overallocation_2027_eurm": 7.644,
+    "H2_2026_cached_aoi_eurm": -1093.575,
+    "H2_2026_shipments": 756625,
+    "H2_2026_sequential_constant_economics_test_eurm": 210.125,
+    "anchor_method_gap_eurm": 1303.7,
+    "2028_AOI_if_only_anchor_method_changed_eurm": 4267.225,
+    "2028_margin_if_only_anchor_method_changed": 0.06414350130343334
+  },
+  "snapshot": {
+    "NA AOI Bridge": {
+      "D6": {
+        "formula_or_input": "=IS!D5",
+        "cached_value": 16114
+      },
+      "E6": {
+        "formula_or_input": "=IS!E5",
+        "cached_value": 18193
+      },
+      "F6": {
+        "formula_or_input": "='NA RPU Build'!F249",
+        "cached_value": 14889.826918669434
+      },
+      "G6": {
+        "formula_or_input": "='NA RPU Build'!G249",
+        "cached_value": 16637.24
+      },
+      "H6": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(D6)),NOT(ISNUMBER(E6)),NOT(ISNUMBER(F6)),NOT(ISNUMBER(G6))),\"\",SUM(D6,E6,F6,G6))",
+        "cached_value": 65834.06691866944
+      },
+      "I6": {
+        "formula_or_input": "='NA RPU Build'!I249",
+        "cached_value": 14269.547367711124
+      },
+      "J6": {
+        "formula_or_input": "='NA RPU Build'!J249",
+        "cached_value": 15446.742875690077
+      },
+      "K6": {
+        "formula_or_input": "='NA RPU Build'!K249",
+        "cached_value": 16338.221331622757
+      },
+      "L6": {
+        "formula_or_input": "='NA RPU Build'!L249",
+        "cached_value": 16817.26242497604
+      },
+      "M6": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I6)),NOT(ISNUMBER(J6)),NOT(ISNUMBER(K6)),NOT(ISNUMBER(L6))),\"\",SUM(I6,J6,K6,L6))",
+        "cached_value": 62871.774
+      },
+      "N6": {
+        "formula_or_input": "='NA RPU Build'!N249",
+        "cached_value": 14929.901132087112
+      },
+      "O6": {
+        "formula_or_input": "='NA RPU Build'!O249",
+        "cached_value": 16217.902191212044
+      },
+      "P6": {
+        "formula_or_input": "='NA RPU Build'!P249",
+        "cached_value": 17272.038665084725
+      },
+      "Q6": {
+        "formula_or_input": "='NA RPU Build'!Q249",
+        "cached_value": 18106.383011616123
+      },
+      "R6": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(N6)),NOT(ISNUMBER(O6)),NOT(ISNUMBER(P6)),NOT(ISNUMBER(Q6))),\"\",SUM(N6,O6,P6,Q6))",
+        "cached_value": 66526.225
+      },
+      "D7": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(D6)),\"\",D6/14469-1)",
+        "cached_value": 0.11369134010643434
+      },
+      "E7": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(E6)),\"\",E6/13834-1)",
+        "cached_value": 0.3150932485181437
+      },
+      "F7": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(F6)),\"\",F6/16087-1)",
+        "cached_value": -0.07441866608631598
+      },
+      "G7": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(G6)),\"\",G6/16775-1)",
+        "cached_value": -0.008212220566318873
+      },
+      "H7": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(H6)),NOT(ISNUMBER(C6))),\"\",IF(C6=0,\"\",H6/C6-1))",
+        "cached_value": 0.07633559909538867
+      },
+      "I7": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I6)),NOT(ISNUMBER(D6))),\"\",IF(D6=0,\"\",I6/D6-1))",
+        "cached_value": -0.11446274247789967
+      },
+      "J7": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(J6)),NOT(ISNUMBER(E6))),\"\",IF(E6=0,\"\",J6/E6-1))",
+        "cached_value": -0.15095130678337398
+      },
+      "K7": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(K6)),NOT(ISNUMBER(F6))),\"\",IF(F6=0,\"\",K6/F6-1))",
+        "cached_value": 0.09727409330307735
+      },
+      "L7": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(L6)),NOT(ISNUMBER(G6))),\"\",IF(G6=0,\"\",L6/G6-1))",
+        "cached_value": 0.010820450085232913
+      },
+      "M7": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(M6)),NOT(ISNUMBER(H6))),\"\",IF(H6=0,\"\",M6/H6-1))",
+        "cached_value": -0.044996353063361916
+      },
+      "N7": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(N6)),NOT(ISNUMBER(I6))),\"\",IF(I6=0,\"\",N6/I6-1))",
+        "cached_value": 0.04627713461116678
+      },
+      "O7": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(O6)),NOT(ISNUMBER(J6))),\"\",IF(J6=0,\"\",O6/J6-1))",
+        "cached_value": 0.04992374908600383
+      },
+      "P7": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(P6)),NOT(ISNUMBER(K6))),\"\",IF(K6=0,\"\",P6/K6-1))",
+        "cached_value": 0.05715538518593566
+      },
+      "Q7": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(Q6)),NOT(ISNUMBER(L6))),\"\",IF(L6=0,\"\",Q6/L6-1))",
+        "cached_value": 0.07665460370800625
+      },
+      "R7": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(R6)),NOT(ISNUMBER(M6))),\"\",IF(M6=0,\"\",R6/M6-1))",
+        "cached_value": 0.058125463423379875
+      },
+      "D8": {
+        "formula_or_input": "='NA Volume Build'!D77",
+        "cached_value": 379000
+      },
+      "E8": {
+        "formula_or_input": "='NA Volume Build'!E77",
+        "cached_value": 445000
+      },
+      "F8": {
+        "formula_or_input": "='NA Volume Build'!F77",
+        "cached_value": 357000
+      },
+      "G8": {
+        "formula_or_input": "='NA Volume Build'!G77",
+        "cached_value": 399625
+      },
+      "H8": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(D8)),NOT(ISNUMBER(E8)),NOT(ISNUMBER(F8)),NOT(ISNUMBER(G8))),\"\",SUM(D8,E8,F8,G8))",
+        "cached_value": 1580625
+      },
+      "I8": {
+        "formula_or_input": "='NA Volume Build'!I77",
+        "cached_value": 354670.72339763236
+      },
+      "J8": {
+        "formula_or_input": "='NA Volume Build'!J77",
+        "cached_value": 376749.6165739438
+      },
+      "K8": {
+        "formula_or_input": "='NA Volume Build'!K77",
+        "cached_value": 392036.8543712239
+      },
+      "L8": {
+        "formula_or_input": "='NA Volume Build'!L77",
+        "cached_value": 410393.8056571999
+      },
+      "M8": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I8)),NOT(ISNUMBER(J8)),NOT(ISNUMBER(K8)),NOT(ISNUMBER(L8))),\"\",SUM(I8,J8,K8,L8))",
+        "cached_value": 1533850.9999999998
+      },
+      "N8": {
+        "formula_or_input": "='NA Volume Build'!N77",
+        "cached_value": 372550.2503715722
+      },
+      "O8": {
+        "formula_or_input": "='NA Volume Build'!O77",
+        "cached_value": 398061.3219808645
+      },
+      "P8": {
+        "formula_or_input": "='NA Volume Build'!P77",
+        "cached_value": 418185.26433833485
+      },
+      "Q8": {
+        "formula_or_input": "='NA Volume Build'!Q77",
+        "cached_value": 447903.1633092284
+      },
+      "R8": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(N8)),NOT(ISNUMBER(O8)),NOT(ISNUMBER(P8)),NOT(ISNUMBER(Q8))),\"\",SUM(N8,O8,P8,Q8))",
+        "cached_value": 1636700
+      },
+      "D9": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(D8)),\"\",D8/325000-1)",
+        "cached_value": 0.1661538461538461
+      },
+      "E9": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(E8)),\"\",E8/323000-1)",
+        "cached_value": 0.3777089783281733
+      },
+      "F9": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(F8)),\"\",F8/404000-1)",
+        "cached_value": -0.11633663366336633
+      },
+      "G9": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(G8)),\"\",G8/422000-1)",
+        "cached_value": -0.05302132701421802
+      },
+      "H9": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(H8)),NOT(ISNUMBER(C8))),\"\",IF(C8=0,\"\",H8/C8-1))",
+        "cached_value": 0.0723371777476256
+      },
+      "I9": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I8)),NOT(ISNUMBER(D8))),\"\",IF(D8=0,\"\",I8/D8-1))",
+        "cached_value": -0.0641933419587537
+      },
+      "J9": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(J8)),NOT(ISNUMBER(E8))),\"\",IF(E8=0,\"\",J8/E8-1))",
+        "cached_value": -0.15337164814844084
+      },
+      "K9": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(K8)),NOT(ISNUMBER(F8))),\"\",IF(F8=0,\"\",K8/F8-1))",
+        "cached_value": 0.09814244921911452
+      },
+      "L9": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(L8)),NOT(ISNUMBER(G8))),\"\",IF(G8=0,\"\",L8/G8-1))",
+        "cached_value": 0.026947277215389143
+      },
+      "M9": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(M8)),NOT(ISNUMBER(H8))),\"\",IF(H8=0,\"\",M8/H8-1))",
+        "cached_value": -0.02959209173586408
+      },
+      "N9": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(N8)),NOT(ISNUMBER(I8))),\"\",IF(I8=0,\"\",N8/I8-1))",
+        "cached_value": 0.050411623498719305
+      },
+      "O9": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(O8)),NOT(ISNUMBER(J8))),\"\",IF(J8=0,\"\",O8/J8-1))",
+        "cached_value": 0.056567291562824806
+      },
+      "P9": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(P8)),NOT(ISNUMBER(K8))),\"\",IF(K8=0,\"\",P8/K8-1))",
+        "cached_value": 0.06669885669052622
+      },
+      "Q9": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(Q8)),NOT(ISNUMBER(L8))),\"\",IF(L8=0,\"\",Q8/L8-1))",
+        "cached_value": 0.09139844981812395
+      },
+      "R9": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(R8)),NOT(ISNUMBER(M8))),\"\",IF(M8=0,\"\",R8/M8-1))",
+        "cached_value": 0.06705279717521462
+      },
+      "D10": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(D6)),NOT(ISNUMBER(D8))),\"\",IF(D8=0,\"\",D6*1000000/D8))",
+        "cached_value": 42517.150395778364
+      },
+      "E10": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(E6)),NOT(ISNUMBER(E8))),\"\",IF(E8=0,\"\",E6*1000000/E8))",
+        "cached_value": 40883.14606741573
+      },
+      "F10": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(F6)),NOT(ISNUMBER(F8))),\"\",IF(F8=0,\"\",F6*1000000/F8))",
+        "cached_value": 41708.19865173511
+      },
+      "G10": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(G6)),NOT(ISNUMBER(G8))),\"\",IF(G8=0,\"\",G6*1000000/G8))",
+        "cached_value": 41632.13012198937
+      },
+      "H10": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(H6)),NOT(ISNUMBER(H8))),\"\",IF(H8=0,\"\",H6*1000000/H8))",
+        "cached_value": 41650.655227311625
+      },
+      "I10": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I6)),NOT(ISNUMBER(I8))),\"\",IF(I8=0,\"\",I6*1000000/I8))",
+        "cached_value": 40233.22599343248
+      },
+      "J10": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(J6)),NOT(ISNUMBER(J8))),\"\",IF(J8=0,\"\",J6*1000000/J8))",
+        "cached_value": 41000.022816634715
+      },
+      "K10": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(K6)),NOT(ISNUMBER(K8))),\"\",IF(K8=0,\"\",K6*1000000/K8))",
+        "cached_value": 41675.21790222284
+      },
+      "L10": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(L6)),NOT(ISNUMBER(L8))),\"\",IF(L8=0,\"\",L6*1000000/L8))",
+        "cached_value": 40978.353457467696
+      },
+      "M10": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(M6)),NOT(ISNUMBER(M8))),\"\",IF(M8=0,\"\",M6*1000000/M8))",
+        "cached_value": 40989.49246048019
+      },
+      "N10": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(N6)),NOT(ISNUMBER(N8))),\"\",IF(N8=0,\"\",N6*1000000/N8))",
+        "cached_value": 40074.86538311652
+      },
+      "O10": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(O6)),NOT(ISNUMBER(O8))),\"\",IF(O8=0,\"\",O6*1000000/O8))",
+        "cached_value": 40742.22059683474
+      },
+      "P10": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(P6)),NOT(ISNUMBER(P8))),\"\",IF(P8=0,\"\",P6*1000000/P8))",
+        "cached_value": 41302.36079076832
+      },
+      "Q10": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(Q6)),NOT(ISNUMBER(Q8))),\"\",IF(Q8=0,\"\",Q6*1000000/Q8))",
+        "cached_value": 40424.77145694021
+      },
+      "R10": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(R6)),NOT(ISNUMBER(R8))),\"\",IF(R8=0,\"\",R6*1000000/R8))",
+        "cached_value": 40646.56015152441
+      },
+      "D13": {
+        "formula_or_input": -542,
+        "cached_value": -542
+      },
+      "E13": {
+        "formula_or_input": -440,
+        "cached_value": -440
+      },
+      "F13": {
+        "formula_or_input": -475,
+        "cached_value": -475
+      },
+      "G13": {
+        "formula_or_input": -471,
+        "cached_value": -471
+      },
+      "H13": {
+        "formula_or_input": "=C31",
+        "cached_value": -1928
+      },
+      "I13": {
+        "formula_or_input": "=D31",
+        "cached_value": 263
+      },
+      "J13": {
+        "formula_or_input": "=E31",
+        "cached_value": 284
+      },
+      "K13": {
+        "formula_or_input": "=F31",
+        "cached_value": -610.35
+      },
+      "L13": {
+        "formula_or_input": "=G31",
+        "cached_value": -483.225
+      },
+      "M13": {
+        "formula_or_input": "=H31",
+        "cached_value": -546.575
+      },
+      "N13": {
+        "formula_or_input": "=I31",
+        "cached_value": 288.5989561266352
+      },
+      "O13": {
+        "formula_or_input": "=J31",
+        "cached_value": 79.40505040016185
+      },
+      "P13": {
+        "formula_or_input": "=K31",
+        "cached_value": -306.75802233809907
+      },
+      "Q13": {
+        "formula_or_input": "=L31",
+        "cached_value": -309.81648418869804
+      },
+      "R13": {
+        "formula_or_input": "=M31",
+        "cached_value": -248.57050000000004
+      },
+      "D15": {
+        "formula_or_input": 640,
+        "cached_value": 640
+      },
+      "E15": {
+        "formula_or_input": 409,
+        "cached_value": 409
+      },
+      "F15": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!G15)),\"\",'Model Assumptions'!G15)",
+        "cached_value": -235
+      },
+      "G15": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!H15)),\"\",'Model Assumptions'!H15)",
+        "cached_value": -111.875
+      },
+      "H15": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(D15)),NOT(ISNUMBER(E15)),NOT(ISNUMBER(F15)),NOT(ISNUMBER(G15))),\"\",SUM(D15,E15,F15,G15))",
+        "cached_value": 702.125
+      },
+      "I15": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!J15)),\"\",'Model Assumptions'!J15)",
+        "cached_value": -121.64638301183818
+      },
+      "J15": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!K15)),\"\",'Model Assumptions'!K15)",
+        "cached_value": -341.2519171302809
+      },
+      "K15": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!L15)),\"\",'Model Assumptions'!L15)",
+        "cached_value": 175.18427185611947
+      },
+      "L15": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!M15)),\"\",'Model Assumptions'!M15)",
+        "cached_value": 53.84402828599937
+      },
+      "M15": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I15)),NOT(ISNUMBER(J15)),NOT(ISNUMBER(K15)),NOT(ISNUMBER(L15))),\"\",SUM(I15,J15,K15,L15))",
+        "cached_value": -233.8700000000002
+      },
+      "N15": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!O15)),\"\",'Model Assumptions'!O15)",
+        "cached_value": 89.39763486969926
+      },
+      "O15": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!P15)),\"\",'Model Assumptions'!P15)",
+        "cached_value": 106.55852703460346
+      },
+      "P15": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!Q15)),\"\",'Model Assumptions'!Q15)",
+        "cached_value": 130.74204983555478
+      },
+      "Q15": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!R15)),\"\",'Model Assumptions'!R15)",
+        "cached_value": 187.5467882601425
+      },
+      "R15": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(N15)),NOT(ISNUMBER(O15)),NOT(ISNUMBER(P15)),NOT(ISNUMBER(Q15))),\"\",SUM(N15,O15,P15,Q15))",
+        "cached_value": 514.245
+      },
+      "D16": {
+        "formula_or_input": 182,
+        "cached_value": 182
+      },
+      "E16": {
+        "formula_or_input": -59,
+        "cached_value": -59
+      },
+      "F16": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!G16)),\"\",'Model Assumptions'!G16)",
+        "cached_value": 0
+      },
+      "G16": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!H16)),\"\",'Model Assumptions'!H16)",
+        "cached_value": 0
+      },
+      "H16": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(D16)),NOT(ISNUMBER(E16)),NOT(ISNUMBER(F16)),NOT(ISNUMBER(G16))),\"\",SUM(D16,E16,F16,G16))",
+        "cached_value": 123
+      },
+      "I16": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!J16)),\"\",'Model Assumptions'!J16)",
+        "cached_value": -151.7046608615267
+      },
+      "J16": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!K16)),\"\",'Model Assumptions'!K16)",
+        "cached_value": -162.2930324695573
+      },
+      "K16": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!L16)),\"\",'Model Assumptions'!L16)",
+        "cached_value": -170.5422941942186
+      },
+      "L16": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!M16)),\"\",'Model Assumptions'!M16)",
+        "cached_value": -179.38551247469738
+      },
+      "M16": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I16)),NOT(ISNUMBER(J16)),NOT(ISNUMBER(K16)),NOT(ISNUMBER(L16))),\"\",SUM(I16,J16,K16,L16))",
+        "cached_value": -663.9254999999999
+      },
+      "N16": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!O16)),\"\",'Model Assumptions'!O16)",
+        "cached_value": 71.38244868727838
+      },
+      "O16": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!P16)),\"\",'Model Assumptions'!P16)",
+        "cached_value": 75.81858988304846
+      },
+      "P16": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!Q16)),\"\",'Model Assumptions'!Q16)",
+        "cached_value": 78.73404460533159
+      },
+      "Q16": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!R16)),\"\",'Model Assumptions'!R16)",
+        "cached_value": 80.31541682434157
+      },
+      "R16": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(N16)),NOT(ISNUMBER(O16)),NOT(ISNUMBER(P16)),NOT(ISNUMBER(Q16))),\"\",SUM(N16,O16,P16,Q16))",
+        "cached_value": 306.2505
+      },
+      "D19": {
+        "formula_or_input": "n/s/d",
+        "cached_value": "n/s/d"
+      },
+      "E19": {
+        "formula_or_input": "n/s/d",
+        "cached_value": "n/s/d"
+      },
+      "F19": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('VCP Build'!C57)),\"\",'VCP Build'!C57)",
+        "cached_value": 99.65
+      },
+      "G19": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('VCP Build'!D57)),\"\",'VCP Build'!D57)",
+        "cached_value": 99.65
+      },
+      "H19": {
+        "formula_or_input": "n/d (H1 n/s/d)",
+        "cached_value": "n/d (H1 n/s/d)"
+      },
+      "I19": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('VCP Build'!F57)),\"\",'VCP Build'!F57)",
+        "cached_value": 298.95000000000005
+      },
+      "J19": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('VCP Build'!G57)),\"\",'VCP Build'!G57)",
+        "cached_value": 298.95000000000005
+      },
+      "K19": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('VCP Build'!H57)),\"\",'VCP Build'!H57)",
+        "cached_value": 298.95000000000005
+      },
+      "L19": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('VCP Build'!I57)),\"\",'VCP Build'!I57)",
+        "cached_value": 298.95000000000005
+      },
+      "M19": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I19)),NOT(ISNUMBER(J19)),NOT(ISNUMBER(K19)),NOT(ISNUMBER(L19))),\"\",SUM(I19,J19,K19,L19))",
+        "cached_value": 1195.8000000000002
+      },
+      "N19": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('VCP Build'!K57)),\"\",'VCP Build'!K57)",
+        "cached_value": 597.9
+      },
+      "O19": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('VCP Build'!L57)),\"\",'VCP Build'!L57)",
+        "cached_value": 597.9
+      },
+      "P19": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('VCP Build'!M57)),\"\",'VCP Build'!M57)",
+        "cached_value": 597.9
+      },
+      "Q19": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('VCP Build'!N57)),\"\",'VCP Build'!N57)",
+        "cached_value": 597.9
+      },
+      "R19": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(N19)),NOT(ISNUMBER(O19)),NOT(ISNUMBER(P19)),NOT(ISNUMBER(Q19))),\"\",SUM(N19,O19,P19,Q19))",
+        "cached_value": 2391.6
+      },
+      "D20": {
+        "formula_or_input": "n/s/d",
+        "cached_value": "n/s/d"
+      },
+      "E20": {
+        "formula_or_input": "n/s/d",
+        "cached_value": "n/s/d"
+      },
+      "F20": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!G17)),\"\",'Model Assumptions'!G17)",
+        "cached_value": 0
+      },
+      "G20": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!H17)),\"\",'Model Assumptions'!H17)",
+        "cached_value": 0
+      },
+      "H20": {
+        "formula_or_input": "n/d (H1 n/s/d)",
+        "cached_value": "n/d (H1 n/s/d)"
+      },
+      "I20": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!J17)),\"\",'Model Assumptions'!J17)",
+        "cached_value": 0
+      },
+      "J20": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!K17)),\"\",'Model Assumptions'!K17)",
+        "cached_value": 0
+      },
+      "K20": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!L17)),\"\",'Model Assumptions'!L17)",
+        "cached_value": 0
+      },
+      "L20": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!M17)),\"\",'Model Assumptions'!M17)",
+        "cached_value": 0
+      },
+      "M20": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I20)),NOT(ISNUMBER(J20)),NOT(ISNUMBER(K20)),NOT(ISNUMBER(L20))),\"\",SUM(I20,J20,K20,L20))",
+        "cached_value": 0
+      },
+      "N20": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!O17)),\"\",'Model Assumptions'!O17)",
+        "cached_value": 0
+      },
+      "O20": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!P17)),\"\",'Model Assumptions'!P17)",
+        "cached_value": 0
+      },
+      "P20": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!Q17)),\"\",'Model Assumptions'!Q17)",
+        "cached_value": 0
+      },
+      "Q20": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!R17)),\"\",'Model Assumptions'!R17)",
+        "cached_value": 0
+      },
+      "R20": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(N20)),NOT(ISNUMBER(O20)),NOT(ISNUMBER(P20)),NOT(ISNUMBER(Q20))),\"\",SUM(N20,O20,P20,Q20))",
+        "cached_value": 0
+      },
+      "D21": {
+        "formula_or_input": 142,
+        "cached_value": 142
+      },
+      "E21": {
+        "formula_or_input": 603,
+        "cached_value": 603
+      },
+      "F21": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(F19)),NOT(ISNUMBER(F20))),\"\",F19+F20)",
+        "cached_value": 99.65
+      },
+      "G21": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(G19)),NOT(ISNUMBER(G20))),\"\",G19+G20)",
+        "cached_value": 99.65
+      },
+      "H21": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(D21)),NOT(ISNUMBER(E21)),NOT(ISNUMBER(F21)),NOT(ISNUMBER(G21))),\"\",SUM(D21,E21,F21,G21))",
+        "cached_value": 944.3
+      },
+      "I21": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I19)),NOT(ISNUMBER(I20))),\"\",I19+I20)",
+        "cached_value": 298.95000000000005
+      },
+      "J21": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(J19)),NOT(ISNUMBER(J20))),\"\",J19+J20)",
+        "cached_value": 298.95000000000005
+      },
+      "K21": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(K19)),NOT(ISNUMBER(K20))),\"\",K19+K20)",
+        "cached_value": 298.95000000000005
+      },
+      "L21": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(L19)),NOT(ISNUMBER(L20))),\"\",L19+L20)",
+        "cached_value": 298.95000000000005
+      },
+      "M21": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I21)),NOT(ISNUMBER(J21)),NOT(ISNUMBER(K21)),NOT(ISNUMBER(L21))),\"\",SUM(I21,J21,K21,L21))",
+        "cached_value": 1195.8000000000002
+      },
+      "N21": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(N19)),NOT(ISNUMBER(N20))),\"\",N19+N20)",
+        "cached_value": 597.9
+      },
+      "O21": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(O19)),NOT(ISNUMBER(O20))),\"\",O19+O20)",
+        "cached_value": 597.9
+      },
+      "P21": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(P19)),NOT(ISNUMBER(P20))),\"\",P19+P20)",
+        "cached_value": 597.9
+      },
+      "Q21": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(Q19)),NOT(ISNUMBER(Q20))),\"\",Q19+Q20)",
+        "cached_value": 597.9
+      },
+      "R21": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(N21)),NOT(ISNUMBER(O21)),NOT(ISNUMBER(P21)),NOT(ISNUMBER(Q21))),\"\",SUM(N21,O21,P21,Q21))",
+        "cached_value": 2391.6
+      },
+      "D24": {
+        "formula_or_input": "n/s/d",
+        "cached_value": "n/s/d"
+      },
+      "E24": {
+        "formula_or_input": "n/s/d",
+        "cached_value": "n/s/d"
+      },
+      "F24": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('VCP Build'!C56)),\"\",'VCP Build'!C56)",
+        "cached_value": 0
+      },
+      "G24": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('VCP Build'!D56)),\"\",'VCP Build'!D56)",
+        "cached_value": 0
+      },
+      "H24": {
+        "formula_or_input": "n/d (H1 n/s/d)",
+        "cached_value": "n/d (H1 n/s/d)"
+      },
+      "I24": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('VCP Build'!F56)),\"\",'VCP Build'!F56)",
+        "cached_value": 0
+      },
+      "J24": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('VCP Build'!G56)),\"\",'VCP Build'!G56)",
+        "cached_value": 0
+      },
+      "K24": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('VCP Build'!H56)),\"\",'VCP Build'!H56)",
+        "cached_value": 0
+      },
+      "L24": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('VCP Build'!I56)),\"\",'VCP Build'!I56)",
+        "cached_value": 0
+      },
+      "M24": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I24)),NOT(ISNUMBER(J24)),NOT(ISNUMBER(K24)),NOT(ISNUMBER(L24))),\"\",SUM(I24,J24,K24,L24))",
+        "cached_value": 0
+      },
+      "N24": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('VCP Build'!K56)),\"\",'VCP Build'!K56)",
+        "cached_value": 0
+      },
+      "O24": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('VCP Build'!L56)),\"\",'VCP Build'!L56)",
+        "cached_value": 0
+      },
+      "P24": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('VCP Build'!M56)),\"\",'VCP Build'!M56)",
+        "cached_value": 0
+      },
+      "Q24": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('VCP Build'!N56)),\"\",'VCP Build'!N56)",
+        "cached_value": 0
+      },
+      "R24": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(N24)),NOT(ISNUMBER(O24)),NOT(ISNUMBER(P24)),NOT(ISNUMBER(Q24))),\"\",SUM(N24,O24,P24,Q24))",
+        "cached_value": 0
+      },
+      "D25": {
+        "formula_or_input": "n/s/d",
+        "cached_value": "n/s/d"
+      },
+      "E25": {
+        "formula_or_input": "n/s/d",
+        "cached_value": "n/s/d"
+      },
+      "F25": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!G18)),\"\",'Model Assumptions'!G18)",
+        "cached_value": 0
+      },
+      "G25": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!H18)),\"\",'Model Assumptions'!H18)",
+        "cached_value": 0
+      },
+      "H25": {
+        "formula_or_input": "n/d (H1 n/s/d)",
+        "cached_value": "n/d (H1 n/s/d)"
+      },
+      "I25": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!J18)),\"\",'Model Assumptions'!J18)",
+        "cached_value": 0
+      },
+      "J25": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!K18)),\"\",'Model Assumptions'!K18)",
+        "cached_value": 0
+      },
+      "K25": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!L18)),\"\",'Model Assumptions'!L18)",
+        "cached_value": 0
+      },
+      "L25": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!M18)),\"\",'Model Assumptions'!M18)",
+        "cached_value": 0
+      },
+      "M25": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I25)),NOT(ISNUMBER(J25)),NOT(ISNUMBER(K25)),NOT(ISNUMBER(L25))),\"\",SUM(I25,J25,K25,L25))",
+        "cached_value": 0
+      },
+      "N25": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!O18)),\"\",'Model Assumptions'!O18)",
+        "cached_value": 0
+      },
+      "O25": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!P18)),\"\",'Model Assumptions'!P18)",
+        "cached_value": 0
+      },
+      "P25": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!Q18)),\"\",'Model Assumptions'!Q18)",
+        "cached_value": 0
+      },
+      "Q25": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!R18)),\"\",'Model Assumptions'!R18)",
+        "cached_value": 0
+      },
+      "R25": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(N25)),NOT(ISNUMBER(O25)),NOT(ISNUMBER(P25)),NOT(ISNUMBER(Q25))),\"\",SUM(N25,O25,P25,Q25))",
+        "cached_value": 0
+      },
+      "D26": {
+        "formula_or_input": -71,
+        "cached_value": -71
+      },
+      "E26": {
+        "formula_or_input": -158,
+        "cached_value": -158
+      },
+      "F26": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(F24)),NOT(ISNUMBER(F25))),\"\",F24+F25)",
+        "cached_value": 0
+      },
+      "G26": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(G24)),NOT(ISNUMBER(G25))),\"\",G24+G25)",
+        "cached_value": 0
+      },
+      "H26": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(D26)),NOT(ISNUMBER(E26)),NOT(ISNUMBER(F26)),NOT(ISNUMBER(G26))),\"\",SUM(D26,E26,F26,G26))",
+        "cached_value": -229
+      },
+      "I26": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I24)),NOT(ISNUMBER(I25))),\"\",I24+I25)",
+        "cached_value": 0
+      },
+      "J26": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(J24)),NOT(ISNUMBER(J25))),\"\",J24+J25)",
+        "cached_value": 0
+      },
+      "K26": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(K24)),NOT(ISNUMBER(K25))),\"\",K24+K25)",
+        "cached_value": 0
+      },
+      "L26": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(L24)),NOT(ISNUMBER(L25))),\"\",L24+L25)",
+        "cached_value": 0
+      },
+      "M26": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I26)),NOT(ISNUMBER(J26)),NOT(ISNUMBER(K26)),NOT(ISNUMBER(L26))),\"\",SUM(I26,J26,K26,L26))",
+        "cached_value": 0
+      },
+      "N26": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(N24)),NOT(ISNUMBER(N25))),\"\",N24+N25)",
+        "cached_value": 0
+      },
+      "O26": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(O24)),NOT(ISNUMBER(O25))),\"\",O24+O25)",
+        "cached_value": 0
+      },
+      "P26": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(P24)),NOT(ISNUMBER(P25))),\"\",P24+P25)",
+        "cached_value": 0
+      },
+      "Q26": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(Q24)),NOT(ISNUMBER(Q25))),\"\",Q24+Q25)",
+        "cached_value": 0
+      },
+      "R26": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(N26)),NOT(ISNUMBER(O26)),NOT(ISNUMBER(P26)),NOT(ISNUMBER(Q26))),\"\",SUM(N26,O26,P26,Q26))",
+        "cached_value": 0
+      },
+      "D28": {
+        "formula_or_input": -71,
+        "cached_value": -71
+      },
+      "E28": {
+        "formula_or_input": -101,
+        "cached_value": -101
+      },
+      "F28": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!G19)),\"\",'Model Assumptions'!G19)",
+        "cached_value": 0
+      },
+      "G28": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!H19)),\"\",'Model Assumptions'!H19)",
+        "cached_value": 0
+      },
+      "H28": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(D28)),NOT(ISNUMBER(E28)),NOT(ISNUMBER(F28)),NOT(ISNUMBER(G28))),\"\",SUM(D28,E28,F28,G28))",
+        "cached_value": -172
+      },
+      "I28": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!J19)),\"\",'Model Assumptions'!J19)",
+        "cached_value": 0
+      },
+      "J28": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!K19)),\"\",'Model Assumptions'!K19)",
+        "cached_value": 0
+      },
+      "K28": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!L19)),\"\",'Model Assumptions'!L19)",
+        "cached_value": 0
+      },
+      "L28": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!M19)),\"\",'Model Assumptions'!M19)",
+        "cached_value": 0
+      },
+      "M28": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I28)),NOT(ISNUMBER(J28)),NOT(ISNUMBER(K28)),NOT(ISNUMBER(L28))),\"\",SUM(I28,J28,K28,L28))",
+        "cached_value": 0
+      },
+      "N28": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!O19)),\"\",'Model Assumptions'!O19)",
+        "cached_value": 0
+      },
+      "O28": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!P19)),\"\",'Model Assumptions'!P19)",
+        "cached_value": 0
+      },
+      "P28": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!Q19)),\"\",'Model Assumptions'!Q19)",
+        "cached_value": 0
+      },
+      "Q28": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!R19)),\"\",'Model Assumptions'!R19)",
+        "cached_value": 0
+      },
+      "R28": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(N28)),NOT(ISNUMBER(O28)),NOT(ISNUMBER(P28)),NOT(ISNUMBER(Q28))),\"\",SUM(N28,O28,P28,Q28))",
+        "cached_value": 0
+      },
+      "D29": {
+        "formula_or_input": -17,
+        "cached_value": -17
+      },
+      "E29": {
+        "formula_or_input": 30,
+        "cached_value": 30
+      },
+      "F29": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!G20)),\"\",'Model Assumptions'!G20)",
+        "cached_value": 0
+      },
+      "G29": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!H20)),\"\",'Model Assumptions'!H20)",
+        "cached_value": 0
+      },
+      "H29": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(D29)),NOT(ISNUMBER(E29)),NOT(ISNUMBER(F29)),NOT(ISNUMBER(G29))),\"\",SUM(D29,E29,F29,G29))",
+        "cached_value": 13
+      },
+      "I29": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!J20)),\"\",'Model Assumptions'!J20)",
+        "cached_value": 0
+      },
+      "J29": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!K20)),\"\",'Model Assumptions'!K20)",
+        "cached_value": 0
+      },
+      "K29": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!L20)),\"\",'Model Assumptions'!L20)",
+        "cached_value": 0
+      },
+      "L29": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!M20)),\"\",'Model Assumptions'!M20)",
+        "cached_value": 0
+      },
+      "M29": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I29)),NOT(ISNUMBER(J29)),NOT(ISNUMBER(K29)),NOT(ISNUMBER(L29))),\"\",SUM(I29,J29,K29,L29))",
+        "cached_value": 0
+      },
+      "N29": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!O20)),\"\",'Model Assumptions'!O20)",
+        "cached_value": 0
+      },
+      "O29": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!P20)),\"\",'Model Assumptions'!P20)",
+        "cached_value": 0
+      },
+      "P29": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!Q20)),\"\",'Model Assumptions'!Q20)",
+        "cached_value": 0
+      },
+      "Q29": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('Model Assumptions'!R20)),\"\",'Model Assumptions'!R20)",
+        "cached_value": 0
+      },
+      "R29": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(N29)),NOT(ISNUMBER(O29)),NOT(ISNUMBER(P29)),NOT(ISNUMBER(Q29))),\"\",SUM(N29,O29,P29,Q29))",
+        "cached_value": 0
+      },
+      "D31": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(D13)),NOT(ISNUMBER(D15)),NOT(ISNUMBER(D16)),NOT(ISNUMBER(D21)),NOT(ISNUMBER(D26)),NOT(ISNUMBER(D28)),NOT(ISNUMBER(D29))),\"\",D13+D15+D16+D21+D26+D28+D29)",
+        "cached_value": 263
+      },
+      "E31": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(E13)),NOT(ISNUMBER(E15)),NOT(ISNUMBER(E16)),NOT(ISNUMBER(E21)),NOT(ISNUMBER(E26)),NOT(ISNUMBER(E28)),NOT(ISNUMBER(E29))),\"\",E13+E15+E16+E21+E26+E28+E29)",
+        "cached_value": 284
+      },
+      "F31": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(F13)),NOT(ISNUMBER(F15)),NOT(ISNUMBER(F16)),NOT(ISNUMBER(F21)),NOT(ISNUMBER(F26)),NOT(ISNUMBER(F28)),NOT(ISNUMBER(F29))),\"\",F13+F15+F16+F21+F26+F28+F29)",
+        "cached_value": -610.35
+      },
+      "G31": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(G13)),NOT(ISNUMBER(G15)),NOT(ISNUMBER(G16)),NOT(ISNUMBER(G21)),NOT(ISNUMBER(G26)),NOT(ISNUMBER(G28)),NOT(ISNUMBER(G29))),\"\",G13+G15+G16+G21+G26+G28+G29)",
+        "cached_value": -483.225
+      },
+      "H31": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(D31)),NOT(ISNUMBER(E31)),NOT(ISNUMBER(F31)),NOT(ISNUMBER(G31))),\"\",SUM(D31,E31,F31,G31))",
+        "cached_value": -546.575
+      },
+      "I31": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I13)),NOT(ISNUMBER(I15)),NOT(ISNUMBER(I16)),NOT(ISNUMBER(I21)),NOT(ISNUMBER(I26)),NOT(ISNUMBER(I28)),NOT(ISNUMBER(I29))),\"\",I13+I15+I16+I21+I26+I28+I29)",
+        "cached_value": 288.5989561266352
+      },
+      "J31": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(J13)),NOT(ISNUMBER(J15)),NOT(ISNUMBER(J16)),NOT(ISNUMBER(J21)),NOT(ISNUMBER(J26)),NOT(ISNUMBER(J28)),NOT(ISNUMBER(J29))),\"\",J13+J15+J16+J21+J26+J28+J29)",
+        "cached_value": 79.40505040016185
+      },
+      "K31": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(K13)),NOT(ISNUMBER(K15)),NOT(ISNUMBER(K16)),NOT(ISNUMBER(K21)),NOT(ISNUMBER(K26)),NOT(ISNUMBER(K28)),NOT(ISNUMBER(K29))),\"\",K13+K15+K16+K21+K26+K28+K29)",
+        "cached_value": -306.75802233809907
+      },
+      "L31": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(L13)),NOT(ISNUMBER(L15)),NOT(ISNUMBER(L16)),NOT(ISNUMBER(L21)),NOT(ISNUMBER(L26)),NOT(ISNUMBER(L28)),NOT(ISNUMBER(L29))),\"\",L13+L15+L16+L21+L26+L28+L29)",
+        "cached_value": -309.81648418869804
+      },
+      "M31": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I31)),NOT(ISNUMBER(J31)),NOT(ISNUMBER(K31)),NOT(ISNUMBER(L31))),\"\",SUM(I31,J31,K31,L31))",
+        "cached_value": -248.57050000000004
+      },
+      "N31": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(N13)),NOT(ISNUMBER(N15)),NOT(ISNUMBER(N16)),NOT(ISNUMBER(N21)),NOT(ISNUMBER(N26)),NOT(ISNUMBER(N28)),NOT(ISNUMBER(N29))),\"\",N13+N15+N16+N21+N26+N28+N29)",
+        "cached_value": 1047.2790396836128
+      },
+      "O31": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(O13)),NOT(ISNUMBER(O15)),NOT(ISNUMBER(O16)),NOT(ISNUMBER(O21)),NOT(ISNUMBER(O26)),NOT(ISNUMBER(O28)),NOT(ISNUMBER(O29))),\"\",O13+O15+O16+O21+O26+O28+O29)",
+        "cached_value": 859.6821673178138
+      },
+      "P31": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(P13)),NOT(ISNUMBER(P15)),NOT(ISNUMBER(P16)),NOT(ISNUMBER(P21)),NOT(ISNUMBER(P26)),NOT(ISNUMBER(P28)),NOT(ISNUMBER(P29))),\"\",P13+P15+P16+P21+P26+P28+P29)",
+        "cached_value": 500.61807210278727
+      },
+      "Q31": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(Q13)),NOT(ISNUMBER(Q15)),NOT(ISNUMBER(Q16)),NOT(ISNUMBER(Q21)),NOT(ISNUMBER(Q26)),NOT(ISNUMBER(Q28)),NOT(ISNUMBER(Q29))),\"\",Q13+Q15+Q16+Q21+Q26+Q28+Q29)",
+        "cached_value": 555.945720895786
+      },
+      "R31": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(N31)),NOT(ISNUMBER(O31)),NOT(ISNUMBER(P31)),NOT(ISNUMBER(Q31))),\"\",SUM(N31,O31,P31,Q31))",
+        "cached_value": 2963.525
+      },
+      "D32": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(D31)),NOT(ISNUMBER(D6))),\"\",IF(D6=0,\"\",D31/D6))",
+        "cached_value": 0.016321211368995905
+      },
+      "E32": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(E31)),NOT(ISNUMBER(E6))),\"\",IF(E6=0,\"\",E31/E6))",
+        "cached_value": 0.01561039960424339
+      },
+      "F32": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(F31)),NOT(ISNUMBER(F6))),\"\",IF(F6=0,\"\",F31/F6))",
+        "cached_value": -0.04099107419675375
+      },
+      "G32": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(G31)),NOT(ISNUMBER(G6))),\"\",IF(G6=0,\"\",G31/G6))",
+        "cached_value": -0.029044781466156643
+      },
+      "H32": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(H31)),NOT(ISNUMBER(H6))),\"\",IF(H6=0,\"\",H31/H6))",
+        "cached_value": -0.008302312550054545
+      },
+      "I32": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I31)),NOT(ISNUMBER(I6))),\"\",IF(I6=0,\"\",I31/I6))",
+        "cached_value": 0.020224815033703995
+      },
+      "J32": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(J31)),NOT(ISNUMBER(J6))),\"\",IF(J6=0,\"\",J31/J6))",
+        "cached_value": 0.0051405691827193355
+      },
+      "K32": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(K31)),NOT(ISNUMBER(K6))),\"\",IF(K6=0,\"\",K31/K6))",
+        "cached_value": -0.018775484559287153
+      },
+      "L32": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(L31)),NOT(ISNUMBER(L6))),\"\",IF(L6=0,\"\",L31/L6))",
+        "cached_value": -0.018422527778871798
+      },
+      "M32": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(M31)),NOT(ISNUMBER(M6))),\"\",IF(M6=0,\"\",M31/M6))",
+        "cached_value": -0.003953610407112102
+      },
+      "N32": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(N31)),NOT(ISNUMBER(N6))),\"\",IF(N6=0,\"\",N31/N6))",
+        "cached_value": 0.07014641493055952
+      },
+      "O32": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(O31)),NOT(ISNUMBER(O6))),\"\",IF(O6=0,\"\",O31/O6))",
+        "cached_value": 0.05300822246810982
+      },
+      "P32": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(P31)),NOT(ISNUMBER(P6))),\"\",IF(P6=0,\"\",P31/P6))",
+        "cached_value": 0.02898430705315536
+      },
+      "Q32": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(Q31)),NOT(ISNUMBER(Q6))),\"\",IF(Q6=0,\"\",Q31/Q6))",
+        "cached_value": 0.030704405211086052
+      },
+      "R32": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(R31)),NOT(ISNUMBER(R6))),\"\",IF(R6=0,\"\",R31/R6))",
+        "cached_value": 0.04454671823029189
+      }
+    },
+    "NA Volume Build": {
+      "D67": {
+        "formula_or_input": "=IF(OR(D16=\"\",D35=\"\",D46=\"\",D59=\"\",D63=\"\"),\"\",SUM(D16,D35,D46,D59,D63))",
+        "cached_value": 305902
+      },
+      "E67": {
+        "formula_or_input": "=IF(OR(E16=\"\",E35=\"\",E46=\"\",E59=\"\",E63=\"\"),\"\",SUM(E16,E35,E46,E59,E63))",
+        "cached_value": 328284
+      },
+      "F67": {
+        "formula_or_input": "=IF(OR(F16=\"\",F35=\"\",F46=\"\",F59=\"\",F63=\"\"),\"\",SUM(F16,F35,F46,F59,F63))",
+        "cached_value": 324277
+      },
+      "G67": {
+        "formula_or_input": "=IF(OR(G16=\"\",G35=\"\",G46=\"\",G59=\"\",G63=\"\"),\"\",SUM(G16,G35,G46,G59,G63))",
+        "cached_value": 343400
+      },
+      "H67": {
+        "formula_or_input": "=IF(OR(H16=\"\",H35=\"\",H46=\"\",H59=\"\",H63=\"\"),\"\",SUM(H16,H35,H46,H59,H63))",
+        "cached_value": 1301863
+      },
+      "I67": {
+        "formula_or_input": "=IF(OR(I16=\"\",I35=\"\",I46=\"\",I59=\"\",I63=\"\"),\"\",SUM(I16,I35,I46,I59,I63))",
+        "cached_value": 309601.34869699326
+      },
+      "J67": {
+        "formula_or_input": "=IF(OR(J16=\"\",J35=\"\",J46=\"\",J59=\"\",J63=\"\"),\"\",SUM(J16,J35,J46,J59,J63))",
+        "cached_value": 331210.27034603537
+      },
+      "K67": {
+        "formula_or_input": "=IF(OR(K16=\"\",K35=\"\",K46=\"\",K59=\"\",K63=\"\"),\"\",SUM(K16,K35,K46,K59,K63))",
+        "cached_value": 348045.4983555482
+      },
+      "L67": {
+        "formula_or_input": "=IF(OR(L16=\"\",L35=\"\",L46=\"\",L59=\"\",L63=\"\"),\"\",SUM(L16,L35,L46,L59,L63))",
+        "cached_value": 366092.8826014232
+      },
+      "M67": {
+        "formula_or_input": "=IF(OR(M16=\"\",M35=\"\",M46=\"\",M59=\"\",M63=\"\"),\"\",SUM(M16,M35,M46,M59,M63))",
+        "cached_value": 1354950
+      },
+      "N67": {
+        "formula_or_input": "=IF(OR(N16=\"\",N35=\"\",N46=\"\",N59=\"\",N63=\"\"),\"\",SUM(N16,N35,N46,N59,N63))",
+        "cached_value": 321288.84869699326
+      },
+      "O67": {
+        "formula_or_input": "=IF(OR(O16=\"\",O35=\"\",O46=\"\",O59=\"\",O63=\"\"),\"\",SUM(O16,O35,O46,O59,O63))",
+        "cached_value": 345897.77034603537
+      },
+      "P67": {
+        "formula_or_input": "=IF(OR(P16=\"\",P35=\"\",P46=\"\",P59=\"\",P63=\"\"),\"\",SUM(P16,P35,P46,P59,P63))",
+        "cached_value": 367232.9983555482
+      },
+      "Q67": {
+        "formula_or_input": "=IF(OR(Q16=\"\",Q35=\"\",Q46=\"\",Q59=\"\",Q63=\"\"),\"\",SUM(Q16,Q35,Q46,Q59,Q63))",
+        "cached_value": 396280.3826014232
+      },
+      "R67": {
+        "formula_or_input": "=IF(OR(R16=\"\",R35=\"\",R46=\"\",R59=\"\",R63=\"\"),\"\",SUM(R16,R35,R46,R59,R63))",
+        "cached_value": 1430700
+      },
+      "D68": {
+        "formula_or_input": "=IF(OR(IF(OR(NOT(ISNUMBER('NA Volume Inputs'!C6)),NOT(ISNUMBER('NA Volume Inputs'!C7)),NOT(ISNUMBER('NA Volume Inputs'!C8)),NOT(ISNUMBER('NA Volume Inputs'!C9)),NOT(ISNUMBER('NA Volume Inputs'!C12)),NOT(ISNUMBER('NA Volume Inputs'!C13)),NOT(ISNUMBER('NA Volume Inputs'!C14)),NOT(ISNUMBER('NA Volume Inputs'!C15)),NOT(ISNUMBER('NA Volume Inputs'!C16)),NOT(ISNUMBER('NA Volume Inputs'!C17)),NOT(ISNUMBER('NA Volume Inputs'!C18)),NOT(ISNUMBER('NA Volume Inputs'!C21)),NOT(ISNUMBER('NA Volume Inputs'!C22)),NOT(ISNUMBER('NA Volume Inputs'!C23)),NOT(ISNUMBER('NA Volume Inputs'!C26)),NOT(ISNUMBER('NA Volume Inputs'!C27)),NOT(ISNUMBER('NA Volume Inputs'!C28)),NOT(ISNUMBER('NA Volume Inputs'!C29)),NOT(ISNUMBER('NA Volume Inputs'!C32))),\"\",'NA Volume Inputs'!C6+'NA Volume Inputs'!C7+'NA Volume Inputs'!C8+'NA Volume Inputs'!C9+'NA Volume Inputs'!C12+'NA Volume Inputs'!C13+'NA Volume Inputs'!C14+'NA Volume Inputs'!C15+'NA Volume Inputs'!C16+'NA Volume Inputs'!C17+'NA Volume Inputs'!C18+'NA Volume Inputs'!C21+'NA Volume Inputs'!C22+'NA Volume Inputs'!C23+'NA Volume Inputs'!C26+'NA Volume Inputs'!C27+'NA Volume Inputs'!C28+'NA Volume Inputs'!C29+'NA Volume Inputs'!C32)=\"\",NOT(ISNUMBER(D67))),\"\",IF(IF(OR(NOT(ISNUMBER('NA Volume Inputs'!C6)),NOT(ISNUMBER('NA Volume Inputs'!C7)),NOT(ISNUMBER('NA Volume Inputs'!C8)),NOT(ISNUMBER('NA Volume Inputs'!C9)),NOT(ISNUMBER('NA Volume Inputs'!C12)),NOT(ISNUMBER('NA Volume Inputs'!C13)),NOT(ISNUMBER('NA Volume Inputs'!C14)),NOT(ISNUMBER('NA Volume Inputs'!C15)),NOT(ISNUMBER('NA Volume Inputs'!C16)),NOT(ISNUMBER('NA Volume Inputs'!C17)),NOT(ISNUMBER('NA Volume Inputs'!C18)),NOT(ISNUMBER('NA Volume Inputs'!C21)),NOT(ISNUMBER('NA Volume Inputs'!C22)),NOT(ISNUMBER('NA Volume Inputs'!C23)),NOT(ISNUMBER('NA Volume Inputs'!C26)),NOT(ISNUMBER('NA Volume Inputs'!C27)),NOT(ISNUMBER('NA Volume Inputs'!C28)),NOT(ISNUMBER('NA Volume Inputs'!C29)),NOT(ISNUMBER('NA Volume Inputs'!C32))),\"\",'NA Volume Inputs'!C6+'NA Volume Inputs'!C7+'NA Volume Inputs'!C8+'NA Volume Inputs'!C9+'NA Volume Inputs'!C12+'NA Volume Inputs'!C13+'NA Volume Inputs'!C14+'NA Volume Inputs'!C15+'NA Volume Inputs'!C16+'NA Volume Inputs'!C17+'NA Volume Inputs'!C18+'NA Volume Inputs'!C21+'NA Volume Inputs'!C22+'NA Volume Inputs'!C23+'NA Volume Inputs'!C26+'NA Volume Inputs'!C27+'NA Volume Inputs'!C28+'NA Volume Inputs'!C29+'NA Volume Inputs'!C32)=0,\"\",D67/IF(OR(NOT(ISNUMBER('NA Volume Inputs'!C6)),NOT(ISNUMBER('NA Volume Inputs'!C7)),NOT(ISNUMBER('NA Volume Inputs'!C8)),NOT(ISNUMBER('NA Volume Inputs'!C9)),NOT(ISNUMBER('NA Volume Inputs'!C12)),NOT(ISNUMBER('NA Volume Inputs'!C13)),NOT(ISNUMBER('NA Volume Inputs'!C14)),NOT(ISNUMBER('NA Volume Inputs'!C15)),NOT(ISNUMBER('NA Volume Inputs'!C16)),NOT(ISNUMBER('NA Volume Inputs'!C17)),NOT(ISNUMBER('NA Volume Inputs'!C18)),NOT(ISNUMBER('NA Volume Inputs'!C21)),NOT(ISNUMBER('NA Volume Inputs'!C22)),NOT(ISNUMBER('NA Volume Inputs'!C23)),NOT(ISNUMBER('NA Volume Inputs'!C26)),NOT(ISNUMBER('NA Volume Inputs'!C27)),NOT(ISNUMBER('NA Volume Inputs'!C28)),NOT(ISNUMBER('NA Volume Inputs'!C29)),NOT(ISNUMBER('NA Volume Inputs'!C32))),\"\",'NA Volume Inputs'!C6+'NA Volume Inputs'!C7+'NA Volume Inputs'!C8+'NA Volume Inputs'!C9+'NA Volume Inputs'!C12+'NA Volume Inputs'!C13+'NA Volume Inputs'!C14+'NA Volume Inputs'!C15+'NA Volume Inputs'!C16+'NA Volume Inputs'!C17+'NA Volume Inputs'!C18+'NA Volume Inputs'!C21+'NA Volume Inputs'!C22+'NA Volume Inputs'!C23+'NA Volume Inputs'!C26+'NA Volume Inputs'!C27+'NA Volume Inputs'!C28+'NA Volume Inputs'!C29+'NA Volume Inputs'!C32)-1))",
+        "cached_value": 0.04323301219200282
+      },
+      "E68": {
+        "formula_or_input": "=IF(OR(IF(OR(NOT(ISNUMBER('NA Volume Inputs'!D6)),NOT(ISNUMBER('NA Volume Inputs'!D7)),NOT(ISNUMBER('NA Volume Inputs'!D8)),NOT(ISNUMBER('NA Volume Inputs'!D9)),NOT(ISNUMBER('NA Volume Inputs'!D12)),NOT(ISNUMBER('NA Volume Inputs'!D13)),NOT(ISNUMBER('NA Volume Inputs'!D14)),NOT(ISNUMBER('NA Volume Inputs'!D15)),NOT(ISNUMBER('NA Volume Inputs'!D16)),NOT(ISNUMBER('NA Volume Inputs'!D17)),NOT(ISNUMBER('NA Volume Inputs'!D18)),NOT(ISNUMBER('NA Volume Inputs'!D21)),NOT(ISNUMBER('NA Volume Inputs'!D22)),NOT(ISNUMBER('NA Volume Inputs'!D23)),NOT(ISNUMBER('NA Volume Inputs'!D26)),NOT(ISNUMBER('NA Volume Inputs'!D27)),NOT(ISNUMBER('NA Volume Inputs'!D28)),NOT(ISNUMBER('NA Volume Inputs'!D29)),NOT(ISNUMBER('NA Volume Inputs'!D32))),\"\",'NA Volume Inputs'!D6+'NA Volume Inputs'!D7+'NA Volume Inputs'!D8+'NA Volume Inputs'!D9+'NA Volume Inputs'!D12+'NA Volume Inputs'!D13+'NA Volume Inputs'!D14+'NA Volume Inputs'!D15+'NA Volume Inputs'!D16+'NA Volume Inputs'!D17+'NA Volume Inputs'!D18+'NA Volume Inputs'!D21+'NA Volume Inputs'!D22+'NA Volume Inputs'!D23+'NA Volume Inputs'!D26+'NA Volume Inputs'!D27+'NA Volume Inputs'!D28+'NA Volume Inputs'!D29+'NA Volume Inputs'!D32)=\"\",NOT(ISNUMBER(E67))),\"\",IF(IF(OR(NOT(ISNUMBER('NA Volume Inputs'!D6)),NOT(ISNUMBER('NA Volume Inputs'!D7)),NOT(ISNUMBER('NA Volume Inputs'!D8)),NOT(ISNUMBER('NA Volume Inputs'!D9)),NOT(ISNUMBER('NA Volume Inputs'!D12)),NOT(ISNUMBER('NA Volume Inputs'!D13)),NOT(ISNUMBER('NA Volume Inputs'!D14)),NOT(ISNUMBER('NA Volume Inputs'!D15)),NOT(ISNUMBER('NA Volume Inputs'!D16)),NOT(ISNUMBER('NA Volume Inputs'!D17)),NOT(ISNUMBER('NA Volume Inputs'!D18)),NOT(ISNUMBER('NA Volume Inputs'!D21)),NOT(ISNUMBER('NA Volume Inputs'!D22)),NOT(ISNUMBER('NA Volume Inputs'!D23)),NOT(ISNUMBER('NA Volume Inputs'!D26)),NOT(ISNUMBER('NA Volume Inputs'!D27)),NOT(ISNUMBER('NA Volume Inputs'!D28)),NOT(ISNUMBER('NA Volume Inputs'!D29)),NOT(ISNUMBER('NA Volume Inputs'!D32))),\"\",'NA Volume Inputs'!D6+'NA Volume Inputs'!D7+'NA Volume Inputs'!D8+'NA Volume Inputs'!D9+'NA Volume Inputs'!D12+'NA Volume Inputs'!D13+'NA Volume Inputs'!D14+'NA Volume Inputs'!D15+'NA Volume Inputs'!D16+'NA Volume Inputs'!D17+'NA Volume Inputs'!D18+'NA Volume Inputs'!D21+'NA Volume Inputs'!D22+'NA Volume Inputs'!D23+'NA Volume Inputs'!D26+'NA Volume Inputs'!D27+'NA Volume Inputs'!D28+'NA Volume Inputs'!D29+'NA Volume Inputs'!D32)=0,\"\",E67/IF(OR(NOT(ISNUMBER('NA Volume Inputs'!D6)),NOT(ISNUMBER('NA Volume Inputs'!D7)),NOT(ISNUMBER('NA Volume Inputs'!D8)),NOT(ISNUMBER('NA Volume Inputs'!D9)),NOT(ISNUMBER('NA Volume Inputs'!D12)),NOT(ISNUMBER('NA Volume Inputs'!D13)),NOT(ISNUMBER('NA Volume Inputs'!D14)),NOT(ISNUMBER('NA Volume Inputs'!D15)),NOT(ISNUMBER('NA Volume Inputs'!D16)),NOT(ISNUMBER('NA Volume Inputs'!D17)),NOT(ISNUMBER('NA Volume Inputs'!D18)),NOT(ISNUMBER('NA Volume Inputs'!D21)),NOT(ISNUMBER('NA Volume Inputs'!D22)),NOT(ISNUMBER('NA Volume Inputs'!D23)),NOT(ISNUMBER('NA Volume Inputs'!D26)),NOT(ISNUMBER('NA Volume Inputs'!D27)),NOT(ISNUMBER('NA Volume Inputs'!D28)),NOT(ISNUMBER('NA Volume Inputs'!D29)),NOT(ISNUMBER('NA Volume Inputs'!D32))),\"\",'NA Volume Inputs'!D6+'NA Volume Inputs'!D7+'NA Volume Inputs'!D8+'NA Volume Inputs'!D9+'NA Volume Inputs'!D12+'NA Volume Inputs'!D13+'NA Volume Inputs'!D14+'NA Volume Inputs'!D15+'NA Volume Inputs'!D16+'NA Volume Inputs'!D17+'NA Volume Inputs'!D18+'NA Volume Inputs'!D21+'NA Volume Inputs'!D22+'NA Volume Inputs'!D23+'NA Volume Inputs'!D26+'NA Volume Inputs'!D27+'NA Volume Inputs'!D28+'NA Volume Inputs'!D29+'NA Volume Inputs'!D32)-1))",
+        "cached_value": 0.0590728869933832
+      },
+      "F68": {
+        "formula_or_input": "=IF(OR(IF(OR(NOT(ISNUMBER('NA Volume Inputs'!E6)),NOT(ISNUMBER('NA Volume Inputs'!E7)),NOT(ISNUMBER('NA Volume Inputs'!E8)),NOT(ISNUMBER('NA Volume Inputs'!E9)),NOT(ISNUMBER('NA Volume Inputs'!E12)),NOT(ISNUMBER('NA Volume Inputs'!E13)),NOT(ISNUMBER('NA Volume Inputs'!E14)),NOT(ISNUMBER('NA Volume Inputs'!E15)),NOT(ISNUMBER('NA Volume Inputs'!E16)),NOT(ISNUMBER('NA Volume Inputs'!E17)),NOT(ISNUMBER('NA Volume Inputs'!E18)),NOT(ISNUMBER('NA Volume Inputs'!E21)),NOT(ISNUMBER('NA Volume Inputs'!E22)),NOT(ISNUMBER('NA Volume Inputs'!E23)),NOT(ISNUMBER('NA Volume Inputs'!E26)),NOT(ISNUMBER('NA Volume Inputs'!E27)),NOT(ISNUMBER('NA Volume Inputs'!E28)),NOT(ISNUMBER('NA Volume Inputs'!E29)),NOT(ISNUMBER('NA Volume Inputs'!E32))),\"\",'NA Volume Inputs'!E6+'NA Volume Inputs'!E7+'NA Volume Inputs'!E8+'NA Volume Inputs'!E9+'NA Volume Inputs'!E12+'NA Volume Inputs'!E13+'NA Volume Inputs'!E14+'NA Volume Inputs'!E15+'NA Volume Inputs'!E16+'NA Volume Inputs'!E17+'NA Volume Inputs'!E18+'NA Volume Inputs'!E21+'NA Volume Inputs'!E22+'NA Volume Inputs'!E23+'NA Volume Inputs'!E26+'NA Volume Inputs'!E27+'NA Volume Inputs'!E28+'NA Volume Inputs'!E29+'NA Volume Inputs'!E32)=\"\",NOT(ISNUMBER(F67))),\"\",IF(IF(OR(NOT(ISNUMBER('NA Volume Inputs'!E6)),NOT(ISNUMBER('NA Volume Inputs'!E7)),NOT(ISNUMBER('NA Volume Inputs'!E8)),NOT(ISNUMBER('NA Volume Inputs'!E9)),NOT(ISNUMBER('NA Volume Inputs'!E12)),NOT(ISNUMBER('NA Volume Inputs'!E13)),NOT(ISNUMBER('NA Volume Inputs'!E14)),NOT(ISNUMBER('NA Volume Inputs'!E15)),NOT(ISNUMBER('NA Volume Inputs'!E16)),NOT(ISNUMBER('NA Volume Inputs'!E17)),NOT(ISNUMBER('NA Volume Inputs'!E18)),NOT(ISNUMBER('NA Volume Inputs'!E21)),NOT(ISNUMBER('NA Volume Inputs'!E22)),NOT(ISNUMBER('NA Volume Inputs'!E23)),NOT(ISNUMBER('NA Volume Inputs'!E26)),NOT(ISNUMBER('NA Volume Inputs'!E27)),NOT(ISNUMBER('NA Volume Inputs'!E28)),NOT(ISNUMBER('NA Volume Inputs'!E29)),NOT(ISNUMBER('NA Volume Inputs'!E32))),\"\",'NA Volume Inputs'!E6+'NA Volume Inputs'!E7+'NA Volume Inputs'!E8+'NA Volume Inputs'!E9+'NA Volume Inputs'!E12+'NA Volume Inputs'!E13+'NA Volume Inputs'!E14+'NA Volume Inputs'!E15+'NA Volume Inputs'!E16+'NA Volume Inputs'!E17+'NA Volume Inputs'!E18+'NA Volume Inputs'!E21+'NA Volume Inputs'!E22+'NA Volume Inputs'!E23+'NA Volume Inputs'!E26+'NA Volume Inputs'!E27+'NA Volume Inputs'!E28+'NA Volume Inputs'!E29+'NA Volume Inputs'!E32)=0,\"\",F67/IF(OR(NOT(ISNUMBER('NA Volume Inputs'!E6)),NOT(ISNUMBER('NA Volume Inputs'!E7)),NOT(ISNUMBER('NA Volume Inputs'!E8)),NOT(ISNUMBER('NA Volume Inputs'!E9)),NOT(ISNUMBER('NA Volume Inputs'!E12)),NOT(ISNUMBER('NA Volume Inputs'!E13)),NOT(ISNUMBER('NA Volume Inputs'!E14)),NOT(ISNUMBER('NA Volume Inputs'!E15)),NOT(ISNUMBER('NA Volume Inputs'!E16)),NOT(ISNUMBER('NA Volume Inputs'!E17)),NOT(ISNUMBER('NA Volume Inputs'!E18)),NOT(ISNUMBER('NA Volume Inputs'!E21)),NOT(ISNUMBER('NA Volume Inputs'!E22)),NOT(ISNUMBER('NA Volume Inputs'!E23)),NOT(ISNUMBER('NA Volume Inputs'!E26)),NOT(ISNUMBER('NA Volume Inputs'!E27)),NOT(ISNUMBER('NA Volume Inputs'!E28)),NOT(ISNUMBER('NA Volume Inputs'!E29)),NOT(ISNUMBER('NA Volume Inputs'!E32))),\"\",'NA Volume Inputs'!E6+'NA Volume Inputs'!E7+'NA Volume Inputs'!E8+'NA Volume Inputs'!E9+'NA Volume Inputs'!E12+'NA Volume Inputs'!E13+'NA Volume Inputs'!E14+'NA Volume Inputs'!E15+'NA Volume Inputs'!E16+'NA Volume Inputs'!E17+'NA Volume Inputs'!E18+'NA Volume Inputs'!E21+'NA Volume Inputs'!E22+'NA Volume Inputs'!E23+'NA Volume Inputs'!E26+'NA Volume Inputs'!E27+'NA Volume Inputs'!E28+'NA Volume Inputs'!E29+'NA Volume Inputs'!E32)-1))",
+        "cached_value": -0.0016870622642961575
+      },
+      "G68": {
+        "formula_or_input": "=IF(OR(IF(OR(NOT(ISNUMBER('NA Volume Inputs'!F6)),NOT(ISNUMBER('NA Volume Inputs'!F7)),NOT(ISNUMBER('NA Volume Inputs'!F8)),NOT(ISNUMBER('NA Volume Inputs'!F9)),NOT(ISNUMBER('NA Volume Inputs'!F12)),NOT(ISNUMBER('NA Volume Inputs'!F13)),NOT(ISNUMBER('NA Volume Inputs'!F14)),NOT(ISNUMBER('NA Volume Inputs'!F15)),NOT(ISNUMBER('NA Volume Inputs'!F16)),NOT(ISNUMBER('NA Volume Inputs'!F17)),NOT(ISNUMBER('NA Volume Inputs'!F18)),NOT(ISNUMBER('NA Volume Inputs'!F21)),NOT(ISNUMBER('NA Volume Inputs'!F22)),NOT(ISNUMBER('NA Volume Inputs'!F23)),NOT(ISNUMBER('NA Volume Inputs'!F26)),NOT(ISNUMBER('NA Volume Inputs'!F27)),NOT(ISNUMBER('NA Volume Inputs'!F28)),NOT(ISNUMBER('NA Volume Inputs'!F29)),NOT(ISNUMBER('NA Volume Inputs'!F32))),\"\",'NA Volume Inputs'!F6+'NA Volume Inputs'!F7+'NA Volume Inputs'!F8+'NA Volume Inputs'!F9+'NA Volume Inputs'!F12+'NA Volume Inputs'!F13+'NA Volume Inputs'!F14+'NA Volume Inputs'!F15+'NA Volume Inputs'!F16+'NA Volume Inputs'!F17+'NA Volume Inputs'!F18+'NA Volume Inputs'!F21+'NA Volume Inputs'!F22+'NA Volume Inputs'!F23+'NA Volume Inputs'!F26+'NA Volume Inputs'!F27+'NA Volume Inputs'!F28+'NA Volume Inputs'!F29+'NA Volume Inputs'!F32)=\"\",NOT(ISNUMBER(G67))),\"\",IF(IF(OR(NOT(ISNUMBER('NA Volume Inputs'!F6)),NOT(ISNUMBER('NA Volume Inputs'!F7)),NOT(ISNUMBER('NA Volume Inputs'!F8)),NOT(ISNUMBER('NA Volume Inputs'!F9)),NOT(ISNUMBER('NA Volume Inputs'!F12)),NOT(ISNUMBER('NA Volume Inputs'!F13)),NOT(ISNUMBER('NA Volume Inputs'!F14)),NOT(ISNUMBER('NA Volume Inputs'!F15)),NOT(ISNUMBER('NA Volume Inputs'!F16)),NOT(ISNUMBER('NA Volume Inputs'!F17)),NOT(ISNUMBER('NA Volume Inputs'!F18)),NOT(ISNUMBER('NA Volume Inputs'!F21)),NOT(ISNUMBER('NA Volume Inputs'!F22)),NOT(ISNUMBER('NA Volume Inputs'!F23)),NOT(ISNUMBER('NA Volume Inputs'!F26)),NOT(ISNUMBER('NA Volume Inputs'!F27)),NOT(ISNUMBER('NA Volume Inputs'!F28)),NOT(ISNUMBER('NA Volume Inputs'!F29)),NOT(ISNUMBER('NA Volume Inputs'!F32))),\"\",'NA Volume Inputs'!F6+'NA Volume Inputs'!F7+'NA Volume Inputs'!F8+'NA Volume Inputs'!F9+'NA Volume Inputs'!F12+'NA Volume Inputs'!F13+'NA Volume Inputs'!F14+'NA Volume Inputs'!F15+'NA Volume Inputs'!F16+'NA Volume Inputs'!F17+'NA Volume Inputs'!F18+'NA Volume Inputs'!F21+'NA Volume Inputs'!F22+'NA Volume Inputs'!F23+'NA Volume Inputs'!F26+'NA Volume Inputs'!F27+'NA Volume Inputs'!F28+'NA Volume Inputs'!F29+'NA Volume Inputs'!F32)=0,\"\",G67/IF(OR(NOT(ISNUMBER('NA Volume Inputs'!F6)),NOT(ISNUMBER('NA Volume Inputs'!F7)),NOT(ISNUMBER('NA Volume Inputs'!F8)),NOT(ISNUMBER('NA Volume Inputs'!F9)),NOT(ISNUMBER('NA Volume Inputs'!F12)),NOT(ISNUMBER('NA Volume Inputs'!F13)),NOT(ISNUMBER('NA Volume Inputs'!F14)),NOT(ISNUMBER('NA Volume Inputs'!F15)),NOT(ISNUMBER('NA Volume Inputs'!F16)),NOT(ISNUMBER('NA Volume Inputs'!F17)),NOT(ISNUMBER('NA Volume Inputs'!F18)),NOT(ISNUMBER('NA Volume Inputs'!F21)),NOT(ISNUMBER('NA Volume Inputs'!F22)),NOT(ISNUMBER('NA Volume Inputs'!F23)),NOT(ISNUMBER('NA Volume Inputs'!F26)),NOT(ISNUMBER('NA Volume Inputs'!F27)),NOT(ISNUMBER('NA Volume Inputs'!F28)),NOT(ISNUMBER('NA Volume Inputs'!F29)),NOT(ISNUMBER('NA Volume Inputs'!F32))),\"\",'NA Volume Inputs'!F6+'NA Volume Inputs'!F7+'NA Volume Inputs'!F8+'NA Volume Inputs'!F9+'NA Volume Inputs'!F12+'NA Volume Inputs'!F13+'NA Volume Inputs'!F14+'NA Volume Inputs'!F15+'NA Volume Inputs'!F16+'NA Volume Inputs'!F17+'NA Volume Inputs'!F18+'NA Volume Inputs'!F21+'NA Volume Inputs'!F22+'NA Volume Inputs'!F23+'NA Volume Inputs'!F26+'NA Volume Inputs'!F27+'NA Volume Inputs'!F28+'NA Volume Inputs'!F29+'NA Volume Inputs'!F32)-1))",
+        "cached_value": 0.033338248259965564
+      },
+      "H68": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(C67)),NOT(ISNUMBER(H67))),\"\",IF(C67=0,\"\",H67/C67-1))",
+        "cached_value": 0.03294259345067685
+      },
+      "I68": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(D67)),NOT(ISNUMBER(I67))),\"\",IF(D67=0,\"\",I67/D67-1))",
+        "cached_value": 0.012093247827713594
+      },
+      "J68": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(E67)),NOT(ISNUMBER(J67))),\"\",IF(E67=0,\"\",J67/E67-1))",
+        "cached_value": 0.008913837853917306
+      },
+      "K68": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(F67)),NOT(ISNUMBER(K67))),\"\",IF(F67=0,\"\",K67/F67-1))",
+        "cached_value": 0.07329689850204657
+      },
+      "L68": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(G67)),NOT(ISNUMBER(L67))),\"\",IF(G67=0,\"\",L67/G67-1))",
+        "cached_value": 0.06608294292784844
+      },
+      "M68": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(H67)),NOT(ISNUMBER(M67))),\"\",IF(H67=0,\"\",M67/H67-1))",
+        "cached_value": 0.040777716242031525
+      },
+      "N68": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I67)),NOT(ISNUMBER(N67))),\"\",IF(I67=0,\"\",N67/I67-1))",
+        "cached_value": 0.037750158548044865
+      },
+      "O68": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(J67)),NOT(ISNUMBER(O67))),\"\",IF(J67=0,\"\",O67/J67-1))",
+        "cached_value": 0.04434494131071198
+      },
+      "P68": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(K67)),NOT(ISNUMBER(P67))),\"\",IF(K67=0,\"\",P67/K67-1))",
+        "cached_value": 0.05512928651758875
+      },
+      "Q68": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(L67)),NOT(ISNUMBER(Q67))),\"\",IF(L67=0,\"\",Q67/L67-1))",
+        "cached_value": 0.08245858205570755
+      },
+      "R68": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(M67)),NOT(ISNUMBER(R67))),\"\",IF(M67=0,\"\",R67/M67-1))",
+        "cached_value": 0.05590612199712175
+      },
+      "D70": {
+        "formula_or_input": 30278,
+        "cached_value": 30278
+      },
+      "E70": {
+        "formula_or_input": 32166,
+        "cached_value": 32166
+      },
+      "F70": {
+        "formula_or_input": 28380,
+        "cached_value": 28380
+      },
+      "G70": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER('NA Volume Inputs'!F35)),NOT(ISNUMBER('NA Volume Inputs'!C43))),\"\",'NA Volume Inputs'!F35*(1+'NA Volume Inputs'!C43))",
+        "cached_value": 27340
+      },
+      "H70": {
+        "formula_or_input": "=IF(OR(D70=\"\",E70=\"\",F70=\"\",G70=\"\"),\"\",SUM(D70,E70,F70,G70))",
+        "cached_value": 118164
+      },
+      "I70": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(D70)),NOT(ISNUMBER('NA Volume Inputs'!D43))),\"\",D70*(1+'NA Volume Inputs'!D43))",
+        "cached_value": 29467.26583392573
+      },
+      "J70": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(E70)),NOT(ISNUMBER('NA Volume Inputs'!D43))),\"\",E70*(1+'NA Volume Inputs'!D43))",
+        "cached_value": 31304.712095054332
+      },
+      "K70": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(F70)),NOT(ISNUMBER('NA Volume Inputs'!D43))),\"\",F70*(1+'NA Volume Inputs'!D43))",
+        "cached_value": 27620.08733624454
+      },
+      "L70": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(G70)),NOT(ISNUMBER('NA Volume Inputs'!D43))),\"\",G70*(1+'NA Volume Inputs'!D43))",
+        "cached_value": 26607.934734775397
+      },
+      "M70": {
+        "formula_or_input": "=IF(OR(I70=\"\",J70=\"\",K70=\"\",L70=\"\"),\"\",SUM(I70,J70,K70,L70))",
+        "cached_value": 115000
+      },
+      "N70": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I70)),NOT(ISNUMBER('NA Volume Inputs'!E43))),\"\",I70*(1+'NA Volume Inputs'!E43))",
+        "cached_value": 29467.26583392573
+      },
+      "O70": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(J70)),NOT(ISNUMBER('NA Volume Inputs'!E43))),\"\",J70*(1+'NA Volume Inputs'!E43))",
+        "cached_value": 31304.712095054332
+      },
+      "P70": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(K70)),NOT(ISNUMBER('NA Volume Inputs'!E43))),\"\",K70*(1+'NA Volume Inputs'!E43))",
+        "cached_value": 27620.08733624454
+      },
+      "Q70": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(L70)),NOT(ISNUMBER('NA Volume Inputs'!E43))),\"\",L70*(1+'NA Volume Inputs'!E43))",
+        "cached_value": 26607.934734775397
+      },
+      "R70": {
+        "formula_or_input": "=IF(OR(N70=\"\",O70=\"\",P70=\"\",Q70=\"\"),\"\",SUM(N70,O70,P70,Q70))",
+        "cached_value": 115000
+      },
+      "D71": {
+        "formula_or_input": 25166,
+        "cached_value": 25166
+      },
+      "E71": {
+        "formula_or_input": 24086,
+        "cached_value": 24086
+      },
+      "F71": {
+        "formula_or_input": 26942,
+        "cached_value": 26942
+      },
+      "G71": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER('NA Volume Inputs'!F36)),NOT(ISNUMBER('NA Volume Inputs'!C44))),\"\",'NA Volume Inputs'!F36*(1+'NA Volume Inputs'!C44))",
+        "cached_value": 28885
+      },
+      "H71": {
+        "formula_or_input": "=IF(OR(D71=\"\",E71=\"\",F71=\"\",G71=\"\"),\"\",SUM(D71,E71,F71,G71))",
+        "cached_value": 105079
+      },
+      "I71": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(D71)),NOT(ISNUMBER('NA Volume Inputs'!D44))),\"\",D71*(1+'NA Volume Inputs'!D44))",
+        "cached_value": 21794.135840653224
+      },
+      "J71": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(E71)),NOT(ISNUMBER('NA Volume Inputs'!D44))),\"\",E71*(1+'NA Volume Inputs'!D44))",
+        "cached_value": 20858.839539774835
+      },
+      "K71": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(F71)),NOT(ISNUMBER('NA Volume Inputs'!D44))),\"\",F71*(1+'NA Volume Inputs'!D44))",
+        "cached_value": 23332.178646542125
+      },
+      "L71": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(G71)),NOT(ISNUMBER('NA Volume Inputs'!D44))),\"\",G71*(1+'NA Volume Inputs'!D44))",
+        "cached_value": 25014.845973029816
+      },
+      "M71": {
+        "formula_or_input": "=IF(OR(I71=\"\",J71=\"\",K71=\"\",L71=\"\"),\"\",SUM(I71,J71,K71,L71))",
+        "cached_value": 91000
+      },
+      "N71": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I71)),NOT(ISNUMBER('NA Volume Inputs'!E44))),\"\",I71*(1+'NA Volume Inputs'!E44))",
+        "cached_value": 21794.135840653224
+      },
+      "O71": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(J71)),NOT(ISNUMBER('NA Volume Inputs'!E44))),\"\",J71*(1+'NA Volume Inputs'!E44))",
+        "cached_value": 20858.839539774835
+      },
+      "P71": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(K71)),NOT(ISNUMBER('NA Volume Inputs'!E44))),\"\",K71*(1+'NA Volume Inputs'!E44))",
+        "cached_value": 23332.178646542125
+      },
+      "Q71": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(L71)),NOT(ISNUMBER('NA Volume Inputs'!E44))),\"\",L71*(1+'NA Volume Inputs'!E44))",
+        "cached_value": 25014.845973029816
+      },
+      "R71": {
+        "formula_or_input": "=IF(OR(N71=\"\",O71=\"\",P71=\"\",Q71=\"\"),\"\",SUM(N71,O71,P71,Q71))",
+        "cached_value": 91000
+      },
+      "D72": {
+        "formula_or_input": "=IF(OR(D67=\"\",D70=\"\",D71=\"\"),\"\",SUM(D67,D70,D71))",
+        "cached_value": 361346
+      },
+      "E72": {
+        "formula_or_input": "=IF(OR(E67=\"\",E70=\"\",E71=\"\"),\"\",SUM(E67,E70,E71))",
+        "cached_value": 384536
+      },
+      "F72": {
+        "formula_or_input": "=IF(OR(F67=\"\",F70=\"\",F71=\"\"),\"\",SUM(F67,F70,F71))",
+        "cached_value": 379599
+      },
+      "G72": {
+        "formula_or_input": "=IF(OR(G67=\"\",G70=\"\",G71=\"\"),\"\",SUM(G67,G70,G71))",
+        "cached_value": 399625
+      },
+      "H72": {
+        "formula_or_input": "=IF(OR(H67=\"\",H70=\"\",H71=\"\"),\"\",SUM(H67,H70,H71))",
+        "cached_value": 1525106
+      },
+      "I72": {
+        "formula_or_input": "=IF(OR(I67=\"\",I70=\"\",I71=\"\"),\"\",SUM(I67,I70,I71))",
+        "cached_value": 360862.7503715722
+      },
+      "J72": {
+        "formula_or_input": "=IF(OR(J67=\"\",J70=\"\",J71=\"\"),\"\",SUM(J67,J70,J71))",
+        "cached_value": 383373.8219808645
+      },
+      "K72": {
+        "formula_or_input": "=IF(OR(K67=\"\",K70=\"\",K71=\"\"),\"\",SUM(K67,K70,K71))",
+        "cached_value": 398997.76433833485
+      },
+      "L72": {
+        "formula_or_input": "=IF(OR(L67=\"\",L70=\"\",L71=\"\"),\"\",SUM(L67,L70,L71))",
+        "cached_value": 417715.6633092284
+      },
+      "M72": {
+        "formula_or_input": "=IF(OR(M67=\"\",M70=\"\",M71=\"\"),\"\",SUM(M67,M70,M71))",
+        "cached_value": 1560950
+      },
+      "N72": {
+        "formula_or_input": "=IF(OR(N67=\"\",N70=\"\",N71=\"\"),\"\",SUM(N67,N70,N71))",
+        "cached_value": 372550.2503715722
+      },
+      "O72": {
+        "formula_or_input": "=IF(OR(O67=\"\",O70=\"\",O71=\"\"),\"\",SUM(O67,O70,O71))",
+        "cached_value": 398061.3219808645
+      },
+      "P72": {
+        "formula_or_input": "=IF(OR(P67=\"\",P70=\"\",P71=\"\"),\"\",SUM(P67,P70,P71))",
+        "cached_value": 418185.26433833485
+      },
+      "Q72": {
+        "formula_or_input": "=IF(OR(Q67=\"\",Q70=\"\",Q71=\"\"),\"\",SUM(Q67,Q70,Q71))",
+        "cached_value": 447903.1633092284
+      },
+      "R72": {
+        "formula_or_input": "=IF(OR(R67=\"\",R70=\"\",R71=\"\"),\"\",SUM(R67,R70,R71))",
+        "cached_value": 1636700
+      },
+      "D73": {
+        "formula_or_input": "=IF(OR(IF(OR(NOT(ISNUMBER('NA Volume Inputs'!C6)),NOT(ISNUMBER('NA Volume Inputs'!C7)),NOT(ISNUMBER('NA Volume Inputs'!C8)),NOT(ISNUMBER('NA Volume Inputs'!C9)),NOT(ISNUMBER('NA Volume Inputs'!C12)),NOT(ISNUMBER('NA Volume Inputs'!C13)),NOT(ISNUMBER('NA Volume Inputs'!C14)),NOT(ISNUMBER('NA Volume Inputs'!C15)),NOT(ISNUMBER('NA Volume Inputs'!C16)),NOT(ISNUMBER('NA Volume Inputs'!C17)),NOT(ISNUMBER('NA Volume Inputs'!C18)),NOT(ISNUMBER('NA Volume Inputs'!C21)),NOT(ISNUMBER('NA Volume Inputs'!C22)),NOT(ISNUMBER('NA Volume Inputs'!C23)),NOT(ISNUMBER('NA Volume Inputs'!C26)),NOT(ISNUMBER('NA Volume Inputs'!C27)),NOT(ISNUMBER('NA Volume Inputs'!C28)),NOT(ISNUMBER('NA Volume Inputs'!C29)),NOT(ISNUMBER('NA Volume Inputs'!C32)),NOT(ISNUMBER('NA Volume Inputs'!C35)),NOT(ISNUMBER('NA Volume Inputs'!C36))),\"\",'NA Volume Inputs'!C6+'NA Volume Inputs'!C7+'NA Volume Inputs'!C8+'NA Volume Inputs'!C9+'NA Volume Inputs'!C12+'NA Volume Inputs'!C13+'NA Volume Inputs'!C14+'NA Volume Inputs'!C15+'NA Volume Inputs'!C16+'NA Volume Inputs'!C17+'NA Volume Inputs'!C18+'NA Volume Inputs'!C21+'NA Volume Inputs'!C22+'NA Volume Inputs'!C23+'NA Volume Inputs'!C26+'NA Volume Inputs'!C27+'NA Volume Inputs'!C28+'NA Volume Inputs'!C29+'NA Volume Inputs'!C32+'NA Volume Inputs'!C35+'NA Volume Inputs'!C36)=\"\",NOT(ISNUMBER(D72))),\"\",IF(IF(OR(NOT(ISNUMBER('NA Volume Inputs'!C6)),NOT(ISNUMBER('NA Volume Inputs'!C7)),NOT(ISNUMBER('NA Volume Inputs'!C8)),NOT(ISNUMBER('NA Volume Inputs'!C9)),NOT(ISNUMBER('NA Volume Inputs'!C12)),NOT(ISNUMBER('NA Volume Inputs'!C13)),NOT(ISNUMBER('NA Volume Inputs'!C14)),NOT(ISNUMBER('NA Volume Inputs'!C15)),NOT(ISNUMBER('NA Volume Inputs'!C16)),NOT(ISNUMBER('NA Volume Inputs'!C17)),NOT(ISNUMBER('NA Volume Inputs'!C18)),NOT(ISNUMBER('NA Volume Inputs'!C21)),NOT(ISNUMBER('NA Volume Inputs'!C22)),NOT(ISNUMBER('NA Volume Inputs'!C23)),NOT(ISNUMBER('NA Volume Inputs'!C26)),NOT(ISNUMBER('NA Volume Inputs'!C27)),NOT(ISNUMBER('NA Volume Inputs'!C28)),NOT(ISNUMBER('NA Volume Inputs'!C29)),NOT(ISNUMBER('NA Volume Inputs'!C32)),NOT(ISNUMBER('NA Volume Inputs'!C35)),NOT(ISNUMBER('NA Volume Inputs'!C36))),\"\",'NA Volume Inputs'!C6+'NA Volume Inputs'!C7+'NA Volume Inputs'!C8+'NA Volume Inputs'!C9+'NA Volume Inputs'!C12+'NA Volume Inputs'!C13+'NA Volume Inputs'!C14+'NA Volume Inputs'!C15+'NA Volume Inputs'!C16+'NA Volume Inputs'!C17+'NA Volume Inputs'!C18+'NA Volume Inputs'!C21+'NA Volume Inputs'!C22+'NA Volume Inputs'!C23+'NA Volume Inputs'!C26+'NA Volume Inputs'!C27+'NA Volume Inputs'!C28+'NA Volume Inputs'!C29+'NA Volume Inputs'!C32+'NA Volume Inputs'!C35+'NA Volume Inputs'!C36)=0,\"\",D72/IF(OR(NOT(ISNUMBER('NA Volume Inputs'!C6)),NOT(ISNUMBER('NA Volume Inputs'!C7)),NOT(ISNUMBER('NA Volume Inputs'!C8)),NOT(ISNUMBER('NA Volume Inputs'!C9)),NOT(ISNUMBER('NA Volume Inputs'!C12)),NOT(ISNUMBER('NA Volume Inputs'!C13)),NOT(ISNUMBER('NA Volume Inputs'!C14)),NOT(ISNUMBER('NA Volume Inputs'!C15)),NOT(ISNUMBER('NA Volume Inputs'!C16)),NOT(ISNUMBER('NA Volume Inputs'!C17)),NOT(ISNUMBER('NA Volume Inputs'!C18)),NOT(ISNUMBER('NA Volume Inputs'!C21)),NOT(ISNUMBER('NA Volume Inputs'!C22)),NOT(ISNUMBER('NA Volume Inputs'!C23)),NOT(ISNUMBER('NA Volume Inputs'!C26)),NOT(ISNUMBER('NA Volume Inputs'!C27)),NOT(ISNUMBER('NA Volume Inputs'!C28)),NOT(ISNUMBER('NA Volume Inputs'!C29)),NOT(ISNUMBER('NA Volume Inputs'!C32)),NOT(ISNUMBER('NA Volume Inputs'!C35)),NOT(ISNUMBER('NA Volume Inputs'!C36))),\"\",'NA Volume Inputs'!C6+'NA Volume Inputs'!C7+'NA Volume Inputs'!C8+'NA Volume Inputs'!C9+'NA Volume Inputs'!C12+'NA Volume Inputs'!C13+'NA Volume Inputs'!C14+'NA Volume Inputs'!C15+'NA Volume Inputs'!C16+'NA Volume Inputs'!C17+'NA Volume Inputs'!C18+'NA Volume Inputs'!C21+'NA Volume Inputs'!C22+'NA Volume Inputs'!C23+'NA Volume Inputs'!C26+'NA Volume Inputs'!C27+'NA Volume Inputs'!C28+'NA Volume Inputs'!C29+'NA Volume Inputs'!C32+'NA Volume Inputs'!C35+'NA Volume Inputs'!C36)-1))",
+        "cached_value": 0.060704619774206936
+      },
+      "E73": {
+        "formula_or_input": "=IF(OR(IF(OR(NOT(ISNUMBER('NA Volume Inputs'!D6)),NOT(ISNUMBER('NA Volume Inputs'!D7)),NOT(ISNUMBER('NA Volume Inputs'!D8)),NOT(ISNUMBER('NA Volume Inputs'!D9)),NOT(ISNUMBER('NA Volume Inputs'!D12)),NOT(ISNUMBER('NA Volume Inputs'!D13)),NOT(ISNUMBER('NA Volume Inputs'!D14)),NOT(ISNUMBER('NA Volume Inputs'!D15)),NOT(ISNUMBER('NA Volume Inputs'!D16)),NOT(ISNUMBER('NA Volume Inputs'!D17)),NOT(ISNUMBER('NA Volume Inputs'!D18)),NOT(ISNUMBER('NA Volume Inputs'!D21)),NOT(ISNUMBER('NA Volume Inputs'!D22)),NOT(ISNUMBER('NA Volume Inputs'!D23)),NOT(ISNUMBER('NA Volume Inputs'!D26)),NOT(ISNUMBER('NA Volume Inputs'!D27)),NOT(ISNUMBER('NA Volume Inputs'!D28)),NOT(ISNUMBER('NA Volume Inputs'!D29)),NOT(ISNUMBER('NA Volume Inputs'!D32)),NOT(ISNUMBER('NA Volume Inputs'!D35)),NOT(ISNUMBER('NA Volume Inputs'!D36))),\"\",'NA Volume Inputs'!D6+'NA Volume Inputs'!D7+'NA Volume Inputs'!D8+'NA Volume Inputs'!D9+'NA Volume Inputs'!D12+'NA Volume Inputs'!D13+'NA Volume Inputs'!D14+'NA Volume Inputs'!D15+'NA Volume Inputs'!D16+'NA Volume Inputs'!D17+'NA Volume Inputs'!D18+'NA Volume Inputs'!D21+'NA Volume Inputs'!D22+'NA Volume Inputs'!D23+'NA Volume Inputs'!D26+'NA Volume Inputs'!D27+'NA Volume Inputs'!D28+'NA Volume Inputs'!D29+'NA Volume Inputs'!D32+'NA Volume Inputs'!D35+'NA Volume Inputs'!D36)=\"\",NOT(ISNUMBER(E72))),\"\",IF(IF(OR(NOT(ISNUMBER('NA Volume Inputs'!D6)),NOT(ISNUMBER('NA Volume Inputs'!D7)),NOT(ISNUMBER('NA Volume Inputs'!D8)),NOT(ISNUMBER('NA Volume Inputs'!D9)),NOT(ISNUMBER('NA Volume Inputs'!D12)),NOT(ISNUMBER('NA Volume Inputs'!D13)),NOT(ISNUMBER('NA Volume Inputs'!D14)),NOT(ISNUMBER('NA Volume Inputs'!D15)),NOT(ISNUMBER('NA Volume Inputs'!D16)),NOT(ISNUMBER('NA Volume Inputs'!D17)),NOT(ISNUMBER('NA Volume Inputs'!D18)),NOT(ISNUMBER('NA Volume Inputs'!D21)),NOT(ISNUMBER('NA Volume Inputs'!D22)),NOT(ISNUMBER('NA Volume Inputs'!D23)),NOT(ISNUMBER('NA Volume Inputs'!D26)),NOT(ISNUMBER('NA Volume Inputs'!D27)),NOT(ISNUMBER('NA Volume Inputs'!D28)),NOT(ISNUMBER('NA Volume Inputs'!D29)),NOT(ISNUMBER('NA Volume Inputs'!D32)),NOT(ISNUMBER('NA Volume Inputs'!D35)),NOT(ISNUMBER('NA Volume Inputs'!D36))),\"\",'NA Volume Inputs'!D6+'NA Volume Inputs'!D7+'NA Volume Inputs'!D8+'NA Volume Inputs'!D9+'NA Volume Inputs'!D12+'NA Volume Inputs'!D13+'NA Volume Inputs'!D14+'NA Volume Inputs'!D15+'NA Volume Inputs'!D16+'NA Volume Inputs'!D17+'NA Volume Inputs'!D18+'NA Volume Inputs'!D21+'NA Volume Inputs'!D22+'NA Volume Inputs'!D23+'NA Volume Inputs'!D26+'NA Volume Inputs'!D27+'NA Volume Inputs'!D28+'NA Volume Inputs'!D29+'NA Volume Inputs'!D32+'NA Volume Inputs'!D35+'NA Volume Inputs'!D36)=0,\"\",E72/IF(OR(NOT(ISNUMBER('NA Volume Inputs'!D6)),NOT(ISNUMBER('NA Volume Inputs'!D7)),NOT(ISNUMBER('NA Volume Inputs'!D8)),NOT(ISNUMBER('NA Volume Inputs'!D9)),NOT(ISNUMBER('NA Volume Inputs'!D12)),NOT(ISNUMBER('NA Volume Inputs'!D13)),NOT(ISNUMBER('NA Volume Inputs'!D14)),NOT(ISNUMBER('NA Volume Inputs'!D15)),NOT(ISNUMBER('NA Volume Inputs'!D16)),NOT(ISNUMBER('NA Volume Inputs'!D17)),NOT(ISNUMBER('NA Volume Inputs'!D18)),NOT(ISNUMBER('NA Volume Inputs'!D21)),NOT(ISNUMBER('NA Volume Inputs'!D22)),NOT(ISNUMBER('NA Volume Inputs'!D23)),NOT(ISNUMBER('NA Volume Inputs'!D26)),NOT(ISNUMBER('NA Volume Inputs'!D27)),NOT(ISNUMBER('NA Volume Inputs'!D28)),NOT(ISNUMBER('NA Volume Inputs'!D29)),NOT(ISNUMBER('NA Volume Inputs'!D32)),NOT(ISNUMBER('NA Volume Inputs'!D35)),NOT(ISNUMBER('NA Volume Inputs'!D36))),\"\",'NA Volume Inputs'!D6+'NA Volume Inputs'!D7+'NA Volume Inputs'!D8+'NA Volume Inputs'!D9+'NA Volume Inputs'!D12+'NA Volume Inputs'!D13+'NA Volume Inputs'!D14+'NA Volume Inputs'!D15+'NA Volume Inputs'!D16+'NA Volume Inputs'!D17+'NA Volume Inputs'!D18+'NA Volume Inputs'!D21+'NA Volume Inputs'!D22+'NA Volume Inputs'!D23+'NA Volume Inputs'!D26+'NA Volume Inputs'!D27+'NA Volume Inputs'!D28+'NA Volume Inputs'!D29+'NA Volume Inputs'!D32+'NA Volume Inputs'!D35+'NA Volume Inputs'!D36)-1))",
+        "cached_value": 0.06020694846139629
+      },
+      "F73": {
+        "formula_or_input": "=IF(OR(IF(OR(NOT(ISNUMBER('NA Volume Inputs'!E6)),NOT(ISNUMBER('NA Volume Inputs'!E7)),NOT(ISNUMBER('NA Volume Inputs'!E8)),NOT(ISNUMBER('NA Volume Inputs'!E9)),NOT(ISNUMBER('NA Volume Inputs'!E12)),NOT(ISNUMBER('NA Volume Inputs'!E13)),NOT(ISNUMBER('NA Volume Inputs'!E14)),NOT(ISNUMBER('NA Volume Inputs'!E15)),NOT(ISNUMBER('NA Volume Inputs'!E16)),NOT(ISNUMBER('NA Volume Inputs'!E17)),NOT(ISNUMBER('NA Volume Inputs'!E18)),NOT(ISNUMBER('NA Volume Inputs'!E21)),NOT(ISNUMBER('NA Volume Inputs'!E22)),NOT(ISNUMBER('NA Volume Inputs'!E23)),NOT(ISNUMBER('NA Volume Inputs'!E26)),NOT(ISNUMBER('NA Volume Inputs'!E27)),NOT(ISNUMBER('NA Volume Inputs'!E28)),NOT(ISNUMBER('NA Volume Inputs'!E29)),NOT(ISNUMBER('NA Volume Inputs'!E32)),NOT(ISNUMBER('NA Volume Inputs'!E35)),NOT(ISNUMBER('NA Volume Inputs'!E36))),\"\",'NA Volume Inputs'!E6+'NA Volume Inputs'!E7+'NA Volume Inputs'!E8+'NA Volume Inputs'!E9+'NA Volume Inputs'!E12+'NA Volume Inputs'!E13+'NA Volume Inputs'!E14+'NA Volume Inputs'!E15+'NA Volume Inputs'!E16+'NA Volume Inputs'!E17+'NA Volume Inputs'!E18+'NA Volume Inputs'!E21+'NA Volume Inputs'!E22+'NA Volume Inputs'!E23+'NA Volume Inputs'!E26+'NA Volume Inputs'!E27+'NA Volume Inputs'!E28+'NA Volume Inputs'!E29+'NA Volume Inputs'!E32+'NA Volume Inputs'!E35+'NA Volume Inputs'!E36)=\"\",NOT(ISNUMBER(F72))),\"\",IF(IF(OR(NOT(ISNUMBER('NA Volume Inputs'!E6)),NOT(ISNUMBER('NA Volume Inputs'!E7)),NOT(ISNUMBER('NA Volume Inputs'!E8)),NOT(ISNUMBER('NA Volume Inputs'!E9)),NOT(ISNUMBER('NA Volume Inputs'!E12)),NOT(ISNUMBER('NA Volume Inputs'!E13)),NOT(ISNUMBER('NA Volume Inputs'!E14)),NOT(ISNUMBER('NA Volume Inputs'!E15)),NOT(ISNUMBER('NA Volume Inputs'!E16)),NOT(ISNUMBER('NA Volume Inputs'!E17)),NOT(ISNUMBER('NA Volume Inputs'!E18)),NOT(ISNUMBER('NA Volume Inputs'!E21)),NOT(ISNUMBER('NA Volume Inputs'!E22)),NOT(ISNUMBER('NA Volume Inputs'!E23)),NOT(ISNUMBER('NA Volume Inputs'!E26)),NOT(ISNUMBER('NA Volume Inputs'!E27)),NOT(ISNUMBER('NA Volume Inputs'!E28)),NOT(ISNUMBER('NA Volume Inputs'!E29)),NOT(ISNUMBER('NA Volume Inputs'!E32)),NOT(ISNUMBER('NA Volume Inputs'!E35)),NOT(ISNUMBER('NA Volume Inputs'!E36))),\"\",'NA Volume Inputs'!E6+'NA Volume Inputs'!E7+'NA Volume Inputs'!E8+'NA Volume Inputs'!E9+'NA Volume Inputs'!E12+'NA Volume Inputs'!E13+'NA Volume Inputs'!E14+'NA Volume Inputs'!E15+'NA Volume Inputs'!E16+'NA Volume Inputs'!E17+'NA Volume Inputs'!E18+'NA Volume Inputs'!E21+'NA Volume Inputs'!E22+'NA Volume Inputs'!E23+'NA Volume Inputs'!E26+'NA Volume Inputs'!E27+'NA Volume Inputs'!E28+'NA Volume Inputs'!E29+'NA Volume Inputs'!E32+'NA Volume Inputs'!E35+'NA Volume Inputs'!E36)=0,\"\",F72/IF(OR(NOT(ISNUMBER('NA Volume Inputs'!E6)),NOT(ISNUMBER('NA Volume Inputs'!E7)),NOT(ISNUMBER('NA Volume Inputs'!E8)),NOT(ISNUMBER('NA Volume Inputs'!E9)),NOT(ISNUMBER('NA Volume Inputs'!E12)),NOT(ISNUMBER('NA Volume Inputs'!E13)),NOT(ISNUMBER('NA Volume Inputs'!E14)),NOT(ISNUMBER('NA Volume Inputs'!E15)),NOT(ISNUMBER('NA Volume Inputs'!E16)),NOT(ISNUMBER('NA Volume Inputs'!E17)),NOT(ISNUMBER('NA Volume Inputs'!E18)),NOT(ISNUMBER('NA Volume Inputs'!E21)),NOT(ISNUMBER('NA Volume Inputs'!E22)),NOT(ISNUMBER('NA Volume Inputs'!E23)),NOT(ISNUMBER('NA Volume Inputs'!E26)),NOT(ISNUMBER('NA Volume Inputs'!E27)),NOT(ISNUMBER('NA Volume Inputs'!E28)),NOT(ISNUMBER('NA Volume Inputs'!E29)),NOT(ISNUMBER('NA Volume Inputs'!E32)),NOT(ISNUMBER('NA Volume Inputs'!E35)),NOT(ISNUMBER('NA Volume Inputs'!E36))),\"\",'NA Volume Inputs'!E6+'NA Volume Inputs'!E7+'NA Volume Inputs'!E8+'NA Volume Inputs'!E9+'NA Volume Inputs'!E12+'NA Volume Inputs'!E13+'NA Volume Inputs'!E14+'NA Volume Inputs'!E15+'NA Volume Inputs'!E16+'NA Volume Inputs'!E17+'NA Volume Inputs'!E18+'NA Volume Inputs'!E21+'NA Volume Inputs'!E22+'NA Volume Inputs'!E23+'NA Volume Inputs'!E26+'NA Volume Inputs'!E27+'NA Volume Inputs'!E28+'NA Volume Inputs'!E29+'NA Volume Inputs'!E32+'NA Volume Inputs'!E35+'NA Volume Inputs'!E36)-1))",
+        "cached_value": 0.013972882297632383
+      },
+      "G73": {
+        "formula_or_input": "=IF(OR(IF(OR(NOT(ISNUMBER('NA Volume Inputs'!F6)),NOT(ISNUMBER('NA Volume Inputs'!F7)),NOT(ISNUMBER('NA Volume Inputs'!F8)),NOT(ISNUMBER('NA Volume Inputs'!F9)),NOT(ISNUMBER('NA Volume Inputs'!F12)),NOT(ISNUMBER('NA Volume Inputs'!F13)),NOT(ISNUMBER('NA Volume Inputs'!F14)),NOT(ISNUMBER('NA Volume Inputs'!F15)),NOT(ISNUMBER('NA Volume Inputs'!F16)),NOT(ISNUMBER('NA Volume Inputs'!F17)),NOT(ISNUMBER('NA Volume Inputs'!F18)),NOT(ISNUMBER('NA Volume Inputs'!F21)),NOT(ISNUMBER('NA Volume Inputs'!F22)),NOT(ISNUMBER('NA Volume Inputs'!F23)),NOT(ISNUMBER('NA Volume Inputs'!F26)),NOT(ISNUMBER('NA Volume Inputs'!F27)),NOT(ISNUMBER('NA Volume Inputs'!F28)),NOT(ISNUMBER('NA Volume Inputs'!F29)),NOT(ISNUMBER('NA Volume Inputs'!F32)),NOT(ISNUMBER('NA Volume Inputs'!F35)),NOT(ISNUMBER('NA Volume Inputs'!F36))),\"\",'NA Volume Inputs'!F6+'NA Volume Inputs'!F7+'NA Volume Inputs'!F8+'NA Volume Inputs'!F9+'NA Volume Inputs'!F12+'NA Volume Inputs'!F13+'NA Volume Inputs'!F14+'NA Volume Inputs'!F15+'NA Volume Inputs'!F16+'NA Volume Inputs'!F17+'NA Volume Inputs'!F18+'NA Volume Inputs'!F21+'NA Volume Inputs'!F22+'NA Volume Inputs'!F23+'NA Volume Inputs'!F26+'NA Volume Inputs'!F27+'NA Volume Inputs'!F28+'NA Volume Inputs'!F29+'NA Volume Inputs'!F32+'NA Volume Inputs'!F35+'NA Volume Inputs'!F36)=\"\",NOT(ISNUMBER(G72))),\"\",IF(IF(OR(NOT(ISNUMBER('NA Volume Inputs'!F6)),NOT(ISNUMBER('NA Volume Inputs'!F7)),NOT(ISNUMBER('NA Volume Inputs'!F8)),NOT(ISNUMBER('NA Volume Inputs'!F9)),NOT(ISNUMBER('NA Volume Inputs'!F12)),NOT(ISNUMBER('NA Volume Inputs'!F13)),NOT(ISNUMBER('NA Volume Inputs'!F14)),NOT(ISNUMBER('NA Volume Inputs'!F15)),NOT(ISNUMBER('NA Volume Inputs'!F16)),NOT(ISNUMBER('NA Volume Inputs'!F17)),NOT(ISNUMBER('NA Volume Inputs'!F18)),NOT(ISNUMBER('NA Volume Inputs'!F21)),NOT(ISNUMBER('NA Volume Inputs'!F22)),NOT(ISNUMBER('NA Volume Inputs'!F23)),NOT(ISNUMBER('NA Volume Inputs'!F26)),NOT(ISNUMBER('NA Volume Inputs'!F27)),NOT(ISNUMBER('NA Volume Inputs'!F28)),NOT(ISNUMBER('NA Volume Inputs'!F29)),NOT(ISNUMBER('NA Volume Inputs'!F32)),NOT(ISNUMBER('NA Volume Inputs'!F35)),NOT(ISNUMBER('NA Volume Inputs'!F36))),\"\",'NA Volume Inputs'!F6+'NA Volume Inputs'!F7+'NA Volume Inputs'!F8+'NA Volume Inputs'!F9+'NA Volume Inputs'!F12+'NA Volume Inputs'!F13+'NA Volume Inputs'!F14+'NA Volume Inputs'!F15+'NA Volume Inputs'!F16+'NA Volume Inputs'!F17+'NA Volume Inputs'!F18+'NA Volume Inputs'!F21+'NA Volume Inputs'!F22+'NA Volume Inputs'!F23+'NA Volume Inputs'!F26+'NA Volume Inputs'!F27+'NA Volume Inputs'!F28+'NA Volume Inputs'!F29+'NA Volume Inputs'!F32+'NA Volume Inputs'!F35+'NA Volume Inputs'!F36)=0,\"\",G72/IF(OR(NOT(ISNUMBER('NA Volume Inputs'!F6)),NOT(ISNUMBER('NA Volume Inputs'!F7)),NOT(ISNUMBER('NA Volume Inputs'!F8)),NOT(ISNUMBER('NA Volume Inputs'!F9)),NOT(ISNUMBER('NA Volume Inputs'!F12)),NOT(ISNUMBER('NA Volume Inputs'!F13)),NOT(ISNUMBER('NA Volume Inputs'!F14)),NOT(ISNUMBER('NA Volume Inputs'!F15)),NOT(ISNUMBER('NA Volume Inputs'!F16)),NOT(ISNUMBER('NA Volume Inputs'!F17)),NOT(ISNUMBER('NA Volume Inputs'!F18)),NOT(ISNUMBER('NA Volume Inputs'!F21)),NOT(ISNUMBER('NA Volume Inputs'!F22)),NOT(ISNUMBER('NA Volume Inputs'!F23)),NOT(ISNUMBER('NA Volume Inputs'!F26)),NOT(ISNUMBER('NA Volume Inputs'!F27)),NOT(ISNUMBER('NA Volume Inputs'!F28)),NOT(ISNUMBER('NA Volume Inputs'!F29)),NOT(ISNUMBER('NA Volume Inputs'!F32)),NOT(ISNUMBER('NA Volume Inputs'!F35)),NOT(ISNUMBER('NA Volume Inputs'!F36))),\"\",'NA Volume Inputs'!F6+'NA Volume Inputs'!F7+'NA Volume Inputs'!F8+'NA Volume Inputs'!F9+'NA Volume Inputs'!F12+'NA Volume Inputs'!F13+'NA Volume Inputs'!F14+'NA Volume Inputs'!F15+'NA Volume Inputs'!F16+'NA Volume Inputs'!F17+'NA Volume Inputs'!F18+'NA Volume Inputs'!F21+'NA Volume Inputs'!F22+'NA Volume Inputs'!F23+'NA Volume Inputs'!F26+'NA Volume Inputs'!F27+'NA Volume Inputs'!F28+'NA Volume Inputs'!F29+'NA Volume Inputs'!F32+'NA Volume Inputs'!F35+'NA Volume Inputs'!F36)-1))",
+        "cached_value": 0.02851399834253865
+      },
+      "H73": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(C72)),NOT(ISNUMBER(H72))),\"\",IF(C72=0,\"\",H72/C72-1))",
+        "cached_value": 0.040119922606816294
+      },
+      "I73": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(D72)),NOT(ISNUMBER(I72))),\"\",IF(D72=0,\"\",I72/D72-1))",
+        "cached_value": -0.0013373598391230868
+      },
+      "J73": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(E72)),NOT(ISNUMBER(J72))),\"\",IF(E72=0,\"\",J72/E72-1))",
+        "cached_value": -0.003022286649716821
+      },
+      "K73": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(F72)),NOT(ISNUMBER(K72))),\"\",IF(F72=0,\"\",K72/F72-1))",
+        "cached_value": 0.05110330727513723
+      },
+      "L73": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(G72)),NOT(ISNUMBER(L72))),\"\",IF(G72=0,\"\",L72/G72-1))",
+        "cached_value": 0.04526909805249524
+      },
+      "M73": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(H72)),NOT(ISNUMBER(M72))),\"\",IF(H72=0,\"\",M72/H72-1))",
+        "cached_value": 0.02350262866974484
+      },
+      "N73": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I72)),NOT(ISNUMBER(N72))),\"\",IF(I72=0,\"\",N72/I72-1))",
+        "cached_value": 0.03238765981793801
+      },
+      "O73": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(J72)),NOT(ISNUMBER(O72))),\"\",IF(J72=0,\"\",O72/J72-1))",
+        "cached_value": 0.03831117086740754
+      },
+      "P73": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(K72)),NOT(ISNUMBER(P72))),\"\",IF(K72=0,\"\",P72/K72-1))",
+        "cached_value": 0.04808924188289376
+      },
+      "Q73": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(L72)),NOT(ISNUMBER(Q72))),\"\",IF(L72=0,\"\",Q72/L72-1))",
+        "cached_value": 0.07226805851819984
+      },
+      "R73": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(M72)),NOT(ISNUMBER(R72))),\"\",IF(M72=0,\"\",R72/M72-1))",
+        "cached_value": 0.04852813991479543
+      },
+      "D76": {
+        "formula_or_input": "=IF(OR(D77=\"\",D72=\"\"),\"\",IF(D72=0,\"\",D77/D72))",
+        "cached_value": 1.048856220907385
+      },
+      "E76": {
+        "formula_or_input": "=IF(OR(E77=\"\",E72=\"\"),\"\",IF(E72=0,\"\",E77/E72))",
+        "cached_value": 1.1572388540994862
+      },
+      "F76": {
+        "formula_or_input": "=IF(OR(F77=\"\",F72=\"\"),\"\",IF(F72=0,\"\",F77/F72))",
+        "cached_value": 0.9404661234618638
+      },
+      "G76": {
+        "formula_or_input": "=IF(OR(G67=\"\",G70=\"\",G71=\"\",G72=\"\",NOT(ISNUMBER('Model Assumptions'!H65)),NOT(ISNUMBER('Model Assumptions'!H66)),NOT(ISNUMBER('Model Assumptions'!H67))),\"\",IF(G72=0,\"\",(G67*'Model Assumptions'!H65+G70*'Model Assumptions'!H66+G71*'Model Assumptions'!H67)/G72))",
+        "cached_value": 1
+      },
+      "H76": {
+        "formula_or_input": "=IF(OR(H77=\"\",H72=\"\"),\"\",IF(H72=0,\"\",H77/H72))",
+        "cached_value": 1.03640337130665
+      },
+      "I76": {
+        "formula_or_input": "=IF(OR(I67=\"\",I70=\"\",I71=\"\",I72=\"\",NOT(ISNUMBER('Model Assumptions'!J65)),NOT(ISNUMBER('Model Assumptions'!J66)),NOT(ISNUMBER('Model Assumptions'!J67))),\"\",IF(I72=0,\"\",(I67*'Model Assumptions'!J65+I70*'Model Assumptions'!J66+I71*'Model Assumptions'!J67)/I72))",
+        "cached_value": 0.9828410469976077
+      },
+      "J76": {
+        "formula_or_input": "=IF(OR(J67=\"\",J70=\"\",J71=\"\",J72=\"\",NOT(ISNUMBER('Model Assumptions'!K65)),NOT(ISNUMBER('Model Assumptions'!K66)),NOT(ISNUMBER('Model Assumptions'!K67))),\"\",IF(J72=0,\"\",(J67*'Model Assumptions'!K65+J70*'Model Assumptions'!K66+J71*'Model Assumptions'!K67)/J72))",
+        "cached_value": 0.9827212891775085
+      },
+      "K76": {
+        "formula_or_input": "=IF(OR(K67=\"\",K70=\"\",K71=\"\",K72=\"\",NOT(ISNUMBER('Model Assumptions'!L65)),NOT(ISNUMBER('Model Assumptions'!L66)),NOT(ISNUMBER('Model Assumptions'!L67))),\"\",IF(K72=0,\"\",(K67*'Model Assumptions'!L65+K70*'Model Assumptions'!L66+K71*'Model Assumptions'!L67)/K72))",
+        "cached_value": 0.9825540126054231
+      },
+      "L76": {
+        "formula_or_input": "=IF(OR(L67=\"\",L70=\"\",L71=\"\",L72=\"\",NOT(ISNUMBER('Model Assumptions'!M65)),NOT(ISNUMBER('Model Assumptions'!M66)),NOT(ISNUMBER('Model Assumptions'!M67))),\"\",IF(L72=0,\"\",(L67*'Model Assumptions'!M65+L70*'Model Assumptions'!M66+L71*'Model Assumptions'!M67)/L72))",
+        "cached_value": 0.982471670815446
+      },
+      "M76": {
+        "formula_or_input": "=IF(OR(M77=\"\",M72=\"\"),\"\",IF(M72=0,\"\",M77/M72))",
+        "cached_value": 0.9826394183029564
+      },
+      "N76": {
+        "formula_or_input": "=IF(OR(N67=\"\",N70=\"\",N71=\"\",N72=\"\",NOT(ISNUMBER('Model Assumptions'!O65)),NOT(ISNUMBER('Model Assumptions'!O66)),NOT(ISNUMBER('Model Assumptions'!O67))),\"\",IF(N72=0,\"\",(N67*'Model Assumptions'!O65+N70*'Model Assumptions'!O66+N71*'Model Assumptions'!O67)/N72))",
+        "cached_value": 1
+      },
+      "O76": {
+        "formula_or_input": "=IF(OR(O67=\"\",O70=\"\",O71=\"\",O72=\"\",NOT(ISNUMBER('Model Assumptions'!P65)),NOT(ISNUMBER('Model Assumptions'!P66)),NOT(ISNUMBER('Model Assumptions'!P67))),\"\",IF(O72=0,\"\",(O67*'Model Assumptions'!P65+O70*'Model Assumptions'!P66+O71*'Model Assumptions'!P67)/O72))",
+        "cached_value": 1
+      },
+      "P76": {
+        "formula_or_input": "=IF(OR(P67=\"\",P70=\"\",P71=\"\",P72=\"\",NOT(ISNUMBER('Model Assumptions'!Q65)),NOT(ISNUMBER('Model Assumptions'!Q66)),NOT(ISNUMBER('Model Assumptions'!Q67))),\"\",IF(P72=0,\"\",(P67*'Model Assumptions'!Q65+P70*'Model Assumptions'!Q66+P71*'Model Assumptions'!Q67)/P72))",
+        "cached_value": 1
+      },
+      "Q76": {
+        "formula_or_input": "=IF(OR(Q67=\"\",Q70=\"\",Q71=\"\",Q72=\"\",NOT(ISNUMBER('Model Assumptions'!R65)),NOT(ISNUMBER('Model Assumptions'!R66)),NOT(ISNUMBER('Model Assumptions'!R67))),\"\",IF(Q72=0,\"\",(Q67*'Model Assumptions'!R65+Q70*'Model Assumptions'!R66+Q71*'Model Assumptions'!R67)/Q72))",
+        "cached_value": 1
+      },
+      "R76": {
+        "formula_or_input": "=IF(OR(R77=\"\",R72=\"\"),\"\",IF(R72=0,\"\",R77/R72))",
+        "cached_value": 1
+      },
+      "D77": {
+        "formula_or_input": "=NA_Quarterly!H8*1000",
+        "cached_value": 379000
+      },
+      "E77": {
+        "formula_or_input": "=NA_Quarterly!I8*1000",
+        "cached_value": 445000
+      },
+      "F77": {
+        "formula_or_input": "=NA_Quarterly!J8*1000",
+        "cached_value": 357000
+      },
+      "G77": {
+        "formula_or_input": "=IF(OR(G72=\"\",G76=\"\"),\"\",G72*G76)",
+        "cached_value": 399625
+      },
+      "H77": {
+        "formula_or_input": "=IF(OR(D77=\"\",E77=\"\",F77=\"\",G77=\"\"),\"\",SUM(D77,E77,F77,G77))",
+        "cached_value": 1580625
+      },
+      "I77": {
+        "formula_or_input": "=IF(OR(I72=\"\",I76=\"\"),\"\",I72*I76)",
+        "cached_value": 354670.72339763236
+      },
+      "J77": {
+        "formula_or_input": "=IF(OR(J72=\"\",J76=\"\"),\"\",J72*J76)",
+        "cached_value": 376749.6165739438
+      },
+      "K77": {
+        "formula_or_input": "=IF(OR(K72=\"\",K76=\"\"),\"\",K72*K76)",
+        "cached_value": 392036.8543712239
+      },
+      "L77": {
+        "formula_or_input": "=IF(OR(L72=\"\",L76=\"\"),\"\",L72*L76)",
+        "cached_value": 410393.8056571999
+      },
+      "M77": {
+        "formula_or_input": "=IF(OR(I77=\"\",J77=\"\",K77=\"\",L77=\"\"),\"\",SUM(I77,J77,K77,L77))",
+        "cached_value": 1533850.9999999998
+      },
+      "N77": {
+        "formula_or_input": "=IF(OR(N72=\"\",N76=\"\"),\"\",N72*N76)",
+        "cached_value": 372550.2503715722
+      },
+      "O77": {
+        "formula_or_input": "=IF(OR(O72=\"\",O76=\"\"),\"\",O72*O76)",
+        "cached_value": 398061.3219808645
+      },
+      "P77": {
+        "formula_or_input": "=IF(OR(P72=\"\",P76=\"\"),\"\",P72*P76)",
+        "cached_value": 418185.26433833485
+      },
+      "Q77": {
+        "formula_or_input": "=IF(OR(Q72=\"\",Q76=\"\"),\"\",Q72*Q76)",
+        "cached_value": 447903.1633092284
+      },
+      "R77": {
+        "formula_or_input": "=IF(OR(N77=\"\",O77=\"\",P77=\"\",Q77=\"\"),\"\",SUM(N77,O77,P77,Q77))",
+        "cached_value": 1636700
+      },
+      "D78": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER('NA Volume Inputs'!C39)),NOT(ISNUMBER(D77))),\"\",IF('NA Volume Inputs'!C39=0,\"\",D77/'NA Volume Inputs'!C39-1))",
+        "cached_value": 0.1661538461538461
+      },
+      "E78": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER('NA Volume Inputs'!D39)),NOT(ISNUMBER(E77))),\"\",IF('NA Volume Inputs'!D39=0,\"\",E77/'NA Volume Inputs'!D39-1))",
+        "cached_value": 0.3777089783281733
+      },
+      "F78": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER('NA Volume Inputs'!E39)),NOT(ISNUMBER(F77))),\"\",IF('NA Volume Inputs'!E39=0,\"\",F77/'NA Volume Inputs'!E39-1))",
+        "cached_value": -0.11633663366336633
+      },
+      "G78": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER('NA Volume Inputs'!F39)),NOT(ISNUMBER(G77))),\"\",IF('NA Volume Inputs'!F39=0,\"\",G77/'NA Volume Inputs'!F39-1))",
+        "cached_value": -0.05302132701421802
+      },
+      "H78": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(C77)),NOT(ISNUMBER(H77))),\"\",IF(C77=0,\"\",H77/C77-1))",
+        "cached_value": 0.0723371777476256
+      },
+      "I78": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(D77)),NOT(ISNUMBER(I77))),\"\",IF(D77=0,\"\",I77/D77-1))",
+        "cached_value": -0.0641933419587537
+      },
+      "J78": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(E77)),NOT(ISNUMBER(J77))),\"\",IF(E77=0,\"\",J77/E77-1))",
+        "cached_value": -0.15337164814844084
+      },
+      "K78": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(F77)),NOT(ISNUMBER(K77))),\"\",IF(F77=0,\"\",K77/F77-1))",
+        "cached_value": 0.09814244921911452
+      },
+      "L78": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(G77)),NOT(ISNUMBER(L77))),\"\",IF(G77=0,\"\",L77/G77-1))",
+        "cached_value": 0.026947277215389143
+      },
+      "M78": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(H77)),NOT(ISNUMBER(M77))),\"\",IF(H77=0,\"\",M77/H77-1))",
+        "cached_value": -0.02959209173586408
+      },
+      "N78": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I77)),NOT(ISNUMBER(N77))),\"\",IF(I77=0,\"\",N77/I77-1))",
+        "cached_value": 0.050411623498719305
+      },
+      "O78": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(J77)),NOT(ISNUMBER(O77))),\"\",IF(J77=0,\"\",O77/J77-1))",
+        "cached_value": 0.056567291562824806
+      },
+      "P78": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(K77)),NOT(ISNUMBER(P77))),\"\",IF(K77=0,\"\",P77/K77-1))",
+        "cached_value": 0.06669885669052622
+      },
+      "Q78": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(L77)),NOT(ISNUMBER(Q77))),\"\",IF(L77=0,\"\",Q77/L77-1))",
+        "cached_value": 0.09139844981812395
+      },
+      "R78": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(M77)),NOT(ISNUMBER(R77))),\"\",IF(M77=0,\"\",R77/M77-1))",
+        "cached_value": 0.06705279717521462
+      },
+      "D79": {
+        "formula_or_input": "=IF(OR(D77=\"\",D72=\"\"),\"\",D77-D72)",
+        "cached_value": 17654
+      },
+      "E79": {
+        "formula_or_input": "=IF(OR(E77=\"\",E72=\"\"),\"\",E77-E72)",
+        "cached_value": 60464
+      },
+      "F79": {
+        "formula_or_input": "=IF(OR(F77=\"\",F72=\"\"),\"\",F77-F72)",
+        "cached_value": -22599
+      },
+      "G79": {
+        "formula_or_input": "=IF(OR(G77=\"\",G72=\"\"),\"\",G77-G72)",
+        "cached_value": 0
+      },
+      "H79": {
+        "formula_or_input": "=IF(OR(H77=\"\",H72=\"\"),\"\",H77-H72)",
+        "cached_value": 55519
+      },
+      "I79": {
+        "formula_or_input": "=IF(OR(I77=\"\",I72=\"\"),\"\",I77-I72)",
+        "cached_value": -6192.02697393985
+      },
+      "J79": {
+        "formula_or_input": "=IF(OR(J77=\"\",J72=\"\"),\"\",J77-J72)",
+        "cached_value": -6624.205406920693
+      },
+      "K79": {
+        "formula_or_input": "=IF(OR(K77=\"\",K72=\"\"),\"\",K77-K72)",
+        "cached_value": -6960.909967110958
+      },
+      "L79": {
+        "formula_or_input": "=IF(OR(L77=\"\",L72=\"\"),\"\",L77-L72)",
+        "cached_value": -7321.857652028499
+      },
+      "M79": {
+        "formula_or_input": "=IF(OR(M77=\"\",M72=\"\"),\"\",M77-M72)",
+        "cached_value": -27099.000000000233
+      },
+      "N79": {
+        "formula_or_input": "=IF(OR(N77=\"\",N72=\"\"),\"\",N77-N72)",
+        "cached_value": 0
+      },
+      "O79": {
+        "formula_or_input": "=IF(OR(O77=\"\",O72=\"\"),\"\",O77-O72)",
+        "cached_value": 0
+      },
+      "P79": {
+        "formula_or_input": "=IF(OR(P77=\"\",P72=\"\"),\"\",P77-P72)",
+        "cached_value": 0
+      },
+      "Q79": {
+        "formula_or_input": "=IF(OR(Q77=\"\",Q72=\"\"),\"\",Q77-Q72)",
+        "cached_value": 0
+      },
+      "R79": {
+        "formula_or_input": "=IF(OR(R77=\"\",R72=\"\"),\"\",R77-R72)",
+        "cached_value": 0
+      }
+    },
+    "NA Volume Inputs": {
+      "G49": {
+        "formula_or_input": 75000,
+        "cached_value": 75000
+      },
+      "G50": {
+        "formula_or_input": 47000,
+        "cached_value": 47000
+      },
+      "G51": {
+        "formula_or_input": 15000,
+        "cached_value": 15000
+      },
+      "G52": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "G55": {
+        "formula_or_input": 45000,
+        "cached_value": 45000
+      },
+      "G56": {
+        "formula_or_input": 43000,
+        "cached_value": 43000
+      },
+      "G57": {
+        "formula_or_input": 12000,
+        "cached_value": 12000
+      },
+      "G58": {
+        "formula_or_input": 15000,
+        "cached_value": 15000
+      },
+      "G59": {
+        "formula_or_input": 13000,
+        "cached_value": 13000
+      },
+      "G60": {
+        "formula_or_input": 14000,
+        "cached_value": 14000
+      },
+      "G61": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "G64": {
+        "formula_or_input": "=35000*(1-'NA Volume Inputs'!$C$154)",
+        "cached_value": 30025.96789423985
+      },
+      "G65": {
+        "formula_or_input": "=35000*'NA Volume Inputs'!$C$154",
+        "cached_value": 4974.03210576015
+      },
+      "G66": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "G69": {
+        "formula_or_input": 24000,
+        "cached_value": 24000
+      },
+      "G70": {
+        "formula_or_input": 4500,
+        "cached_value": 4500
+      },
+      "G71": {
+        "formula_or_input": 100,
+        "cached_value": 100
+      },
+      "G72": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "G75": {
+        "formula_or_input": 800,
+        "cached_value": 800
+      },
+      "A181": {
+        "formula_or_input": "4Q26E: D098 gives no 4Q 2026 figures; the D097 4Q26E overrides are retained. 2027/28 quarterly shape: D098 2025-seasonality or explicit launch ramps where supplied (HD, ProMaster, Wrangler, Wagoneer, minivans, Durango, Cherokee, launches); uniform growth (repeating the prior-year shape) where D098 gives annual figures only (Ram LD, Grand Cherokee, Gladiator, Compass, Charger, Other US).",
+        "cached_value": "4Q26E: D098 gives no 4Q 2026 figures; the D097 4Q26E overrides are retained. 2027/28 quarterly shape: D098 2025-seasonality or explicit launch ramps where supplied (HD, ProMaster, Wrangler, Wagoneer, minivans, Durango, Cherokee, launches); uniform growth (repeating the prior-year shape) where D098 gives annual figures only (Ram LD, Grand Cherokee, Gladiator, Compass, Charger, Other US)."
+      },
+      "A182": {
+        "formula_or_input": "Canada and Mexico: unchanged flat placeholders (115k / 91k; D098 country_rows). D098 scope is US customer deliveries incl. fleet, excl. Maserati; it is not a wholesale shipment forecast \u2014 the shipment ratio inputs remain blank.",
+        "cached_value": "Canada and Mexico: unchanged flat placeholders (115k / 91k; D098 country_rows). D098 scope is US customer deliveries incl. fleet, excl. Maserati; it is not a wholesale shipment forecast \u2014 the shipment ratio inputs remain blank."
+      }
+    },
+    "NA RPU Build": {
+      "C255": {
+        "formula_or_input": "=NA_Quarterly!G23",
+        "cached_value": 61165
+      },
+      "D255": {
+        "formula_or_input": "=NA_Quarterly!H23",
+        "cached_value": 16114
+      },
+      "E255": {
+        "formula_or_input": "=NA_Quarterly!I23",
+        "cached_value": 18193
+      },
+      "C256": {
+        "formula_or_input": "=NA_AOI_Bridge!B50",
+        "cached_value": 63749
+      },
+      "D256": {
+        "formula_or_input": "=NA_Quarterly!C23",
+        "cached_value": 14469
+      },
+      "E256": {
+        "formula_or_input": "=NA_Quarterly!D23",
+        "cached_value": 13834
+      },
+      "C257": {
+        "formula_or_input": "=NA_Quarterly!G8*1000",
+        "cached_value": 1474000
+      },
+      "D257": {
+        "formula_or_input": "=NA_Quarterly!H8*1000",
+        "cached_value": 379000
+      },
+      "E257": {
+        "formula_or_input": "=NA_Quarterly!I8*1000",
+        "cached_value": 445000
+      },
+      "C258": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(C255)),NOT(ISNUMBER(C257))),\"\",IF(C257=0,\"\",C255*1000000/C257))",
+        "cached_value": 41495.929443690635
+      },
+      "D258": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(D255)),NOT(ISNUMBER(D257))),\"\",IF(D257=0,\"\",D255*1000000/D257))",
+        "cached_value": 42517.150395778364
+      },
+      "E258": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(E255)),NOT(ISNUMBER(E257))),\"\",IF(E257=0,\"\",E255*1000000/E257))",
+        "cached_value": 40883.14606741573
+      },
+      "C260": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(C249)),NOT(ISNUMBER(C255))),\"\",C249-C255)",
+        "cached_value": -496.53383632992336
+      },
+      "D260": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(D249)),NOT(ISNUMBER(D255))),\"\",D249-D255)",
+        "cached_value": -358.83702600831384
+      },
+      "E260": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(E249)),NOT(ISNUMBER(E255))),\"\",E249-E255)",
+        "cached_value": 310.4039140678651
+      },
+      "F283": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(F220)),NOT(ISNUMBER(F13)),NOT(ISNUMBER(F24)),NOT(ISNUMBER(F35)),NOT(ISNUMBER(F46)),NOT(ISNUMBER(F58)),NOT(ISNUMBER(F69)),NOT(ISNUMBER(F80)),NOT(ISNUMBER(F91)),NOT(ISNUMBER(F102)),NOT(ISNUMBER(F113)),NOT(ISNUMBER(F124)),NOT(ISNUMBER(F136)),NOT(ISNUMBER(F147)),NOT(ISNUMBER(F158)),NOT(ISNUMBER(F170)),NOT(ISNUMBER(F181)),NOT(ISNUMBER(F192)),NOT(ISNUMBER(F203)),NOT(ISNUMBER(F215))),\"\",F9*F13+F20*F24+F31*F35+F42*F46+F54*F58+F65*F69+F76*F80+F87*F91+F98*F102+F109*F113+F120*F124+F132*F136+F143*F147+F154*F158+F166*F170+F177*F181+F188*F192+F199*F203+F211*F215)",
+        "cached_value": 0
+      },
+      "G283": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(G220)),NOT(ISNUMBER(G13)),NOT(ISNUMBER(G24)),NOT(ISNUMBER(G35)),NOT(ISNUMBER(G46)),NOT(ISNUMBER(G58)),NOT(ISNUMBER(G69)),NOT(ISNUMBER(G80)),NOT(ISNUMBER(G91)),NOT(ISNUMBER(G102)),NOT(ISNUMBER(G113)),NOT(ISNUMBER(G124)),NOT(ISNUMBER(G136)),NOT(ISNUMBER(G147)),NOT(ISNUMBER(G158)),NOT(ISNUMBER(G170)),NOT(ISNUMBER(G181)),NOT(ISNUMBER(G192)),NOT(ISNUMBER(G203)),NOT(ISNUMBER(G215))),\"\",G9*G13+G20*G24+G31*G35+G42*G46+G54*G58+G65*G69+G76*G80+G87*G91+G98*G102+G109*G113+G120*G124+G132*G136+G143*G147+G154*G158+G166*G170+G177*G181+G188*G192+G199*G203+G211*G215)",
+        "cached_value": 0
+      },
+      "H283": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(H220)),NOT(ISNUMBER(H13)),NOT(ISNUMBER(H24)),NOT(ISNUMBER(H35)),NOT(ISNUMBER(H46)),NOT(ISNUMBER(H58)),NOT(ISNUMBER(H69)),NOT(ISNUMBER(H80)),NOT(ISNUMBER(H91)),NOT(ISNUMBER(H102)),NOT(ISNUMBER(H113)),NOT(ISNUMBER(H124)),NOT(ISNUMBER(H136)),NOT(ISNUMBER(H147)),NOT(ISNUMBER(H158)),NOT(ISNUMBER(H170)),NOT(ISNUMBER(H181)),NOT(ISNUMBER(H192)),NOT(ISNUMBER(H203)),NOT(ISNUMBER(H215))),\"\",H9*H13+H20*H24+H31*H35+H42*H46+H54*H58+H65*H69+H76*H80+H87*H91+H98*H102+H109*H113+H120*H124+H132*H136+H143*H147+H154*H158+H166*H170+H177*H181+H188*H192+H199*H203+H211*H215)",
+        "cached_value": null
+      },
+      "I283": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I220)),NOT(ISNUMBER(I13)),NOT(ISNUMBER(I24)),NOT(ISNUMBER(I35)),NOT(ISNUMBER(I46)),NOT(ISNUMBER(I58)),NOT(ISNUMBER(I69)),NOT(ISNUMBER(I80)),NOT(ISNUMBER(I91)),NOT(ISNUMBER(I102)),NOT(ISNUMBER(I113)),NOT(ISNUMBER(I124)),NOT(ISNUMBER(I136)),NOT(ISNUMBER(I147)),NOT(ISNUMBER(I158)),NOT(ISNUMBER(I170)),NOT(ISNUMBER(I181)),NOT(ISNUMBER(I192)),NOT(ISNUMBER(I203)),NOT(ISNUMBER(I215))),\"\",I9*I13+I20*I24+I31*I35+I42*I46+I54*I58+I65*I69+I76*I80+I87*I91+I98*I102+I109*I113+I120*I124+I132*I136+I143*I147+I154*I158+I166*I170+I177*I181+I188*I192+I199*I203+I211*I215)",
+        "cached_value": 499.99999999999994
+      },
+      "J283": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(J220)),NOT(ISNUMBER(J13)),NOT(ISNUMBER(J24)),NOT(ISNUMBER(J35)),NOT(ISNUMBER(J46)),NOT(ISNUMBER(J58)),NOT(ISNUMBER(J69)),NOT(ISNUMBER(J80)),NOT(ISNUMBER(J91)),NOT(ISNUMBER(J102)),NOT(ISNUMBER(J113)),NOT(ISNUMBER(J124)),NOT(ISNUMBER(J136)),NOT(ISNUMBER(J147)),NOT(ISNUMBER(J158)),NOT(ISNUMBER(J170)),NOT(ISNUMBER(J181)),NOT(ISNUMBER(J192)),NOT(ISNUMBER(J203)),NOT(ISNUMBER(J215))),\"\",J9*J13+J20*J24+J31*J35+J42*J46+J54*J58+J65*J69+J76*J80+J87*J91+J98*J102+J109*J113+J120*J124+J132*J136+J143*J147+J154*J158+J166*J170+J177*J181+J188*J192+J199*J203+J211*J215)",
+        "cached_value": 499.99999999999983
+      },
+      "K283": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(K220)),NOT(ISNUMBER(K13)),NOT(ISNUMBER(K24)),NOT(ISNUMBER(K35)),NOT(ISNUMBER(K46)),NOT(ISNUMBER(K58)),NOT(ISNUMBER(K69)),NOT(ISNUMBER(K80)),NOT(ISNUMBER(K91)),NOT(ISNUMBER(K102)),NOT(ISNUMBER(K113)),NOT(ISNUMBER(K124)),NOT(ISNUMBER(K136)),NOT(ISNUMBER(K147)),NOT(ISNUMBER(K158)),NOT(ISNUMBER(K170)),NOT(ISNUMBER(K181)),NOT(ISNUMBER(K192)),NOT(ISNUMBER(K203)),NOT(ISNUMBER(K215))),\"\",K9*K13+K20*K24+K31*K35+K42*K46+K54*K58+K65*K69+K76*K80+K87*K91+K98*K102+K109*K113+K120*K124+K132*K136+K143*K147+K154*K158+K166*K170+K177*K181+K188*K192+K199*K203+K211*K215)",
+        "cached_value": 499.99999999999994
+      },
+      "L283": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(L220)),NOT(ISNUMBER(L13)),NOT(ISNUMBER(L24)),NOT(ISNUMBER(L35)),NOT(ISNUMBER(L46)),NOT(ISNUMBER(L58)),NOT(ISNUMBER(L69)),NOT(ISNUMBER(L80)),NOT(ISNUMBER(L91)),NOT(ISNUMBER(L102)),NOT(ISNUMBER(L113)),NOT(ISNUMBER(L124)),NOT(ISNUMBER(L136)),NOT(ISNUMBER(L147)),NOT(ISNUMBER(L158)),NOT(ISNUMBER(L170)),NOT(ISNUMBER(L181)),NOT(ISNUMBER(L192)),NOT(ISNUMBER(L203)),NOT(ISNUMBER(L215))),\"\",L9*L13+L20*L24+L31*L35+L42*L46+L54*L58+L65*L69+L76*L80+L87*L91+L98*L102+L109*L113+L120*L124+L132*L136+L143*L147+L154*L158+L166*L170+L177*L181+L188*L192+L199*L203+L211*L215)",
+        "cached_value": 500.0000000000001
+      },
+      "M283": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(M220)),NOT(ISNUMBER(M13)),NOT(ISNUMBER(M24)),NOT(ISNUMBER(M35)),NOT(ISNUMBER(M46)),NOT(ISNUMBER(M58)),NOT(ISNUMBER(M69)),NOT(ISNUMBER(M80)),NOT(ISNUMBER(M91)),NOT(ISNUMBER(M102)),NOT(ISNUMBER(M113)),NOT(ISNUMBER(M124)),NOT(ISNUMBER(M136)),NOT(ISNUMBER(M147)),NOT(ISNUMBER(M158)),NOT(ISNUMBER(M170)),NOT(ISNUMBER(M181)),NOT(ISNUMBER(M192)),NOT(ISNUMBER(M203)),NOT(ISNUMBER(M215))),\"\",M9*M13+M20*M24+M31*M35+M42*M46+M54*M58+M65*M69+M76*M80+M87*M91+M98*M102+M109*M113+M120*M124+M132*M136+M143*M147+M154*M158+M166*M170+M177*M181+M188*M192+M199*M203+M211*M215)",
+        "cached_value": null
+      },
+      "N283": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(N220)),NOT(ISNUMBER(N13)),NOT(ISNUMBER(N24)),NOT(ISNUMBER(N35)),NOT(ISNUMBER(N46)),NOT(ISNUMBER(N58)),NOT(ISNUMBER(N69)),NOT(ISNUMBER(N80)),NOT(ISNUMBER(N91)),NOT(ISNUMBER(N102)),NOT(ISNUMBER(N113)),NOT(ISNUMBER(N124)),NOT(ISNUMBER(N136)),NOT(ISNUMBER(N147)),NOT(ISNUMBER(N158)),NOT(ISNUMBER(N170)),NOT(ISNUMBER(N181)),NOT(ISNUMBER(N192)),NOT(ISNUMBER(N203)),NOT(ISNUMBER(N215))),\"\",N9*N13+N20*N24+N31*N35+N42*N46+N54*N58+N65*N69+N76*N80+N87*N91+N98*N102+N109*N113+N120*N124+N132*N136+N143*N147+N154*N158+N166*N170+N177*N181+N188*N192+N199*N203+N211*N215)",
+        "cached_value": 250
+      },
+      "O283": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(O220)),NOT(ISNUMBER(O13)),NOT(ISNUMBER(O24)),NOT(ISNUMBER(O35)),NOT(ISNUMBER(O46)),NOT(ISNUMBER(O58)),NOT(ISNUMBER(O69)),NOT(ISNUMBER(O80)),NOT(ISNUMBER(O91)),NOT(ISNUMBER(O102)),NOT(ISNUMBER(O113)),NOT(ISNUMBER(O124)),NOT(ISNUMBER(O136)),NOT(ISNUMBER(O147)),NOT(ISNUMBER(O158)),NOT(ISNUMBER(O170)),NOT(ISNUMBER(O181)),NOT(ISNUMBER(O192)),NOT(ISNUMBER(O203)),NOT(ISNUMBER(O215))),\"\",O9*O13+O20*O24+O31*O35+O42*O46+O54*O58+O65*O69+O76*O80+O87*O91+O98*O102+O109*O113+O120*O124+O132*O136+O143*O147+O154*O158+O166*O170+O177*O181+O188*O192+O199*O203+O211*O215)",
+        "cached_value": 249.99999999999997
+      },
+      "P283": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(P220)),NOT(ISNUMBER(P13)),NOT(ISNUMBER(P24)),NOT(ISNUMBER(P35)),NOT(ISNUMBER(P46)),NOT(ISNUMBER(P58)),NOT(ISNUMBER(P69)),NOT(ISNUMBER(P80)),NOT(ISNUMBER(P91)),NOT(ISNUMBER(P102)),NOT(ISNUMBER(P113)),NOT(ISNUMBER(P124)),NOT(ISNUMBER(P136)),NOT(ISNUMBER(P147)),NOT(ISNUMBER(P158)),NOT(ISNUMBER(P170)),NOT(ISNUMBER(P181)),NOT(ISNUMBER(P192)),NOT(ISNUMBER(P203)),NOT(ISNUMBER(P215))),\"\",P9*P13+P20*P24+P31*P35+P42*P46+P54*P58+P65*P69+P76*P80+P87*P91+P98*P102+P109*P113+P120*P124+P132*P136+P143*P147+P154*P158+P166*P170+P177*P181+P188*P192+P199*P203+P211*P215)",
+        "cached_value": 249.99999999999994
+      },
+      "Q283": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(Q220)),NOT(ISNUMBER(Q13)),NOT(ISNUMBER(Q24)),NOT(ISNUMBER(Q35)),NOT(ISNUMBER(Q46)),NOT(ISNUMBER(Q58)),NOT(ISNUMBER(Q69)),NOT(ISNUMBER(Q80)),NOT(ISNUMBER(Q91)),NOT(ISNUMBER(Q102)),NOT(ISNUMBER(Q113)),NOT(ISNUMBER(Q124)),NOT(ISNUMBER(Q136)),NOT(ISNUMBER(Q147)),NOT(ISNUMBER(Q158)),NOT(ISNUMBER(Q170)),NOT(ISNUMBER(Q181)),NOT(ISNUMBER(Q192)),NOT(ISNUMBER(Q203)),NOT(ISNUMBER(Q215))),\"\",Q9*Q13+Q20*Q24+Q31*Q35+Q42*Q46+Q54*Q58+Q65*Q69+Q76*Q80+Q87*Q91+Q98*Q102+Q109*Q113+Q120*Q124+Q132*Q136+Q143*Q147+Q154*Q158+Q166*Q170+Q177*Q181+Q188*Q192+Q199*Q203+Q211*Q215)",
+        "cached_value": 250.00000000000003
+      },
+      "R283": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(R220)),NOT(ISNUMBER(R13)),NOT(ISNUMBER(R24)),NOT(ISNUMBER(R35)),NOT(ISNUMBER(R46)),NOT(ISNUMBER(R58)),NOT(ISNUMBER(R69)),NOT(ISNUMBER(R80)),NOT(ISNUMBER(R91)),NOT(ISNUMBER(R102)),NOT(ISNUMBER(R113)),NOT(ISNUMBER(R124)),NOT(ISNUMBER(R136)),NOT(ISNUMBER(R147)),NOT(ISNUMBER(R158)),NOT(ISNUMBER(R170)),NOT(ISNUMBER(R181)),NOT(ISNUMBER(R192)),NOT(ISNUMBER(R203)),NOT(ISNUMBER(R215))),\"\",R9*R13+R20*R24+R31*R35+R42*R46+R54*R58+R65*R69+R76*R80+R87*R91+R98*R102+R109*R113+R120*R124+R132*R136+R143*R147+R154*R158+R166*R170+R177*R181+R188*R192+R199*R203+R211*R215)",
+        "cached_value": null
+      },
+      "F284": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(F283)),\"\",-F283)",
+        "cached_value": 0
+      },
+      "G284": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(G283)),\"\",-G283)",
+        "cached_value": 0
+      },
+      "H284": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(H283)),\"\",-H283)",
+        "cached_value": null
+      },
+      "I284": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(I283)),\"\",-I283)",
+        "cached_value": -499.99999999999994
+      },
+      "J284": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(J283)),\"\",-J283)",
+        "cached_value": -499.99999999999983
+      },
+      "K284": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(K283)),\"\",-K283)",
+        "cached_value": -499.99999999999994
+      },
+      "L284": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(L283)),\"\",-L283)",
+        "cached_value": -500.0000000000001
+      },
+      "M284": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(M283)),\"\",-M283)",
+        "cached_value": null
+      },
+      "N284": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(N283)),\"\",-N283)",
+        "cached_value": -250
+      },
+      "O284": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(O283)),\"\",-O283)",
+        "cached_value": -249.99999999999997
+      },
+      "P284": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(P283)),\"\",-P283)",
+        "cached_value": -249.99999999999994
+      },
+      "Q284": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(Q283)),\"\",-Q283)",
+        "cached_value": -250.00000000000003
+      },
+      "R284": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(R283)),\"\",-R283)",
+        "cached_value": null
+      },
+      "F285": {
+        "formula_or_input": "=IF(ISNUMBER('Model Assumptions'!G65),IF(NOT(ISNUMBER(F229)),\"\",F229*'Model Assumptions'!G65),IF(OR(NOT(ISNUMBER(F242)),NOT(ISNUMBER(F233))),\"\",F242*F233))",
+        "cached_value": 304971.5331178428
+      },
+      "G285": {
+        "formula_or_input": "=IF(ISNUMBER('Model Assumptions'!H65),IF(NOT(ISNUMBER(G229)),\"\",G229*'Model Assumptions'!H65),IF(OR(NOT(ISNUMBER(G242)),NOT(ISNUMBER(G233))),\"\",G242*G233))",
+        "cached_value": 343400
+      },
+      "H285": {
+        "formula_or_input": "=IF(ISNUMBER('Model Assumptions'!I65),IF(NOT(ISNUMBER(H229)),\"\",H229*'Model Assumptions'!I65),IF(OR(NOT(ISNUMBER(H242)),NOT(ISNUMBER(H233))),\"\",H242*H233))",
+        "cached_value": 1349255.2021793895
+      },
+      "I285": {
+        "formula_or_input": "=IF(ISNUMBER('Model Assumptions'!J65),IF(NOT(ISNUMBER(I229)),\"\",I229*'Model Assumptions'!J65),IF(OR(NOT(ISNUMBER(I242)),NOT(ISNUMBER(I233))),\"\",I242*I233))",
+        "cached_value": 303409.3217230534
+      },
+      "J285": {
+        "formula_or_input": "=IF(ISNUMBER('Model Assumptions'!K65),IF(NOT(ISNUMBER(J229)),\"\",J229*'Model Assumptions'!K65),IF(OR(NOT(ISNUMBER(J242)),NOT(ISNUMBER(J233))),\"\",J242*J233))",
+        "cached_value": 324586.0649391147
+      },
+      "K285": {
+        "formula_or_input": "=IF(ISNUMBER('Model Assumptions'!L65),IF(NOT(ISNUMBER(K229)),\"\",K229*'Model Assumptions'!L65),IF(OR(NOT(ISNUMBER(K242)),NOT(ISNUMBER(K233))),\"\",K242*K233))",
+        "cached_value": 341084.58838843723
+      },
+      "L285": {
+        "formula_or_input": "=IF(ISNUMBER('Model Assumptions'!M65),IF(NOT(ISNUMBER(L229)),\"\",L229*'Model Assumptions'!M65),IF(OR(NOT(ISNUMBER(L242)),NOT(ISNUMBER(L233))),\"\",L242*L233))",
+        "cached_value": 358771.0249493947
+      },
+      "M285": {
+        "formula_or_input": "=IF(ISNUMBER('Model Assumptions'!N65),IF(NOT(ISNUMBER(M229)),\"\",M229*'Model Assumptions'!N65),IF(OR(NOT(ISNUMBER(M242)),NOT(ISNUMBER(M233))),\"\",M242*M233))",
+        "cached_value": 1331427.2798295908
+      },
+      "N285": {
+        "formula_or_input": "=IF(ISNUMBER('Model Assumptions'!O65),IF(NOT(ISNUMBER(N229)),\"\",N229*'Model Assumptions'!O65),IF(OR(NOT(ISNUMBER(N242)),NOT(ISNUMBER(N233))),\"\",N242*N233))",
+        "cached_value": 321288.84869699326
+      },
+      "O285": {
+        "formula_or_input": "=IF(ISNUMBER('Model Assumptions'!P65),IF(NOT(ISNUMBER(O229)),\"\",O229*'Model Assumptions'!P65),IF(OR(NOT(ISNUMBER(O242)),NOT(ISNUMBER(O233))),\"\",O242*O233))",
+        "cached_value": 345897.77034603537
+      },
+      "P285": {
+        "formula_or_input": "=IF(ISNUMBER('Model Assumptions'!Q65),IF(NOT(ISNUMBER(P229)),\"\",P229*'Model Assumptions'!Q65),IF(OR(NOT(ISNUMBER(P242)),NOT(ISNUMBER(P233))),\"\",P242*P233))",
+        "cached_value": 367232.9983555482
+      },
+      "Q285": {
+        "formula_or_input": "=IF(ISNUMBER('Model Assumptions'!R65),IF(NOT(ISNUMBER(Q229)),\"\",Q229*'Model Assumptions'!R65),IF(OR(NOT(ISNUMBER(Q242)),NOT(ISNUMBER(Q233))),\"\",Q242*Q233))",
+        "cached_value": 396280.3826014232
+      },
+      "R285": {
+        "formula_or_input": "=IF(ISNUMBER('Model Assumptions'!S65),IF(NOT(ISNUMBER(R229)),\"\",R229*'Model Assumptions'!S65),IF(OR(NOT(ISNUMBER(R242)),NOT(ISNUMBER(R233))),\"\",R242*R233))",
+        "cached_value": 1430700
+      },
+      "F286": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(F285)),NOT(ISNUMBER(F284))),\"\",F285*F284/1000000)",
+        "cached_value": 0
+      },
+      "G286": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(G285)),NOT(ISNUMBER(G284))),\"\",G285*G284/1000000)",
+        "cached_value": 0
+      },
+      "H286": {
+        "formula_or_input": "=IF(COUNT(D286:G286)<4,\"\",SUM(D286:G286))",
+        "cached_value": 0
+      },
+      "I286": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I285)),NOT(ISNUMBER(I284)),NOT(ISNUMBER(D285)),NOT(ISNUMBER(D284))),\"\",(I285*I284-D285*D284)/1000000)",
+        "cached_value": -151.7046608615267
+      },
+      "J286": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(J285)),NOT(ISNUMBER(J284)),NOT(ISNUMBER(E285)),NOT(ISNUMBER(E284))),\"\",(J285*J284-E285*E284)/1000000)",
+        "cached_value": -162.2930324695573
+      },
+      "K286": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(K285)),NOT(ISNUMBER(K284)),NOT(ISNUMBER(F285)),NOT(ISNUMBER(F284))),\"\",(K285*K284-F285*F284)/1000000)",
+        "cached_value": -170.5422941942186
+      },
+      "L286": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(L285)),NOT(ISNUMBER(L284)),NOT(ISNUMBER(G285)),NOT(ISNUMBER(G284))),\"\",(L285*L284-G285*G284)/1000000)",
+        "cached_value": -179.38551247469738
+      },
+      "M286": {
+        "formula_or_input": "=IF(COUNT(I286:L286)<4,\"\",SUM(I286:L286))",
+        "cached_value": -663.9254999999999
+      },
+      "N286": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(N285)),NOT(ISNUMBER(N284)),NOT(ISNUMBER(I285)),NOT(ISNUMBER(I284))),\"\",(N285*N284-I285*I284)/1000000)",
+        "cached_value": 71.38244868727838
+      },
+      "O286": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(O285)),NOT(ISNUMBER(O284)),NOT(ISNUMBER(J285)),NOT(ISNUMBER(J284))),\"\",(O285*O284-J285*J284)/1000000)",
+        "cached_value": 75.81858988304846
+      },
+      "P286": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(P285)),NOT(ISNUMBER(P284)),NOT(ISNUMBER(K285)),NOT(ISNUMBER(K284))),\"\",(P285*P284-K285*K284)/1000000)",
+        "cached_value": 78.73404460533159
+      },
+      "Q286": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(Q285)),NOT(ISNUMBER(Q284)),NOT(ISNUMBER(L285)),NOT(ISNUMBER(L284))),\"\",(Q285*Q284-L285*L284)/1000000)",
+        "cached_value": 80.31541682434157
+      },
+      "R286": {
+        "formula_or_input": "=IF(COUNT(N286:Q286)<4,\"\",SUM(N286:Q286))",
+        "cached_value": 306.2505
+      }
+    },
+    "Model Assumptions": {
+      "G7": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "H7": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "I7": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "J7": {
+        "formula_or_input": 500,
+        "cached_value": 500
+      },
+      "K7": {
+        "formula_or_input": 500,
+        "cached_value": 500
+      },
+      "L7": {
+        "formula_or_input": 500,
+        "cached_value": 500
+      },
+      "M7": {
+        "formula_or_input": 500,
+        "cached_value": 500
+      },
+      "N7": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "O7": {
+        "formula_or_input": 250,
+        "cached_value": 250
+      },
+      "P7": {
+        "formula_or_input": 250,
+        "cached_value": 250
+      },
+      "Q7": {
+        "formula_or_input": 250,
+        "cached_value": 250
+      },
+      "R7": {
+        "formula_or_input": 250,
+        "cached_value": 250
+      },
+      "S7": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "G8": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "H8": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "I8": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "J8": {
+        "formula_or_input": 500,
+        "cached_value": 500
+      },
+      "K8": {
+        "formula_or_input": 500,
+        "cached_value": 500
+      },
+      "L8": {
+        "formula_or_input": 500,
+        "cached_value": 500
+      },
+      "M8": {
+        "formula_or_input": 500,
+        "cached_value": 500
+      },
+      "N8": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "O8": {
+        "formula_or_input": 250,
+        "cached_value": 250
+      },
+      "P8": {
+        "formula_or_input": 250,
+        "cached_value": 250
+      },
+      "Q8": {
+        "formula_or_input": 250,
+        "cached_value": 250
+      },
+      "R8": {
+        "formula_or_input": 250,
+        "cached_value": 250
+      },
+      "S8": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "G9": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "H9": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "I9": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "J9": {
+        "formula_or_input": 500,
+        "cached_value": 500
+      },
+      "K9": {
+        "formula_or_input": 500,
+        "cached_value": 500
+      },
+      "L9": {
+        "formula_or_input": 500,
+        "cached_value": 500
+      },
+      "M9": {
+        "formula_or_input": 500,
+        "cached_value": 500
+      },
+      "N9": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "O9": {
+        "formula_or_input": 250,
+        "cached_value": 250
+      },
+      "P9": {
+        "formula_or_input": 250,
+        "cached_value": 250
+      },
+      "Q9": {
+        "formula_or_input": 250,
+        "cached_value": 250
+      },
+      "R9": {
+        "formula_or_input": 250,
+        "cached_value": 250
+      },
+      "S9": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "G10": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "H10": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "I10": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "J10": {
+        "formula_or_input": 500,
+        "cached_value": 500
+      },
+      "K10": {
+        "formula_or_input": 500,
+        "cached_value": 500
+      },
+      "L10": {
+        "formula_or_input": 500,
+        "cached_value": 500
+      },
+      "M10": {
+        "formula_or_input": 500,
+        "cached_value": 500
+      },
+      "N10": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "O10": {
+        "formula_or_input": 250,
+        "cached_value": 250
+      },
+      "P10": {
+        "formula_or_input": 250,
+        "cached_value": 250
+      },
+      "Q10": {
+        "formula_or_input": 250,
+        "cached_value": 250
+      },
+      "R10": {
+        "formula_or_input": 250,
+        "cached_value": 250
+      },
+      "S10": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "G11": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "H11": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "I11": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "J11": {
+        "formula_or_input": 500,
+        "cached_value": 500
+      },
+      "K11": {
+        "formula_or_input": 500,
+        "cached_value": 500
+      },
+      "L11": {
+        "formula_or_input": 500,
+        "cached_value": 500
+      },
+      "M11": {
+        "formula_or_input": 500,
+        "cached_value": 500
+      },
+      "N11": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "O11": {
+        "formula_or_input": 250,
+        "cached_value": 250
+      },
+      "P11": {
+        "formula_or_input": 250,
+        "cached_value": 250
+      },
+      "Q11": {
+        "formula_or_input": 250,
+        "cached_value": 250
+      },
+      "R11": {
+        "formula_or_input": 250,
+        "cached_value": 250
+      },
+      "S11": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "G13": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER('NA AOI Bridge'!F8)),NOT(ISNUMBER(404000))),\"\",'NA AOI Bridge'!F8-404000)",
+        "cached_value": -47000
+      },
+      "H13": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER('NA AOI Bridge'!G8)),NOT(ISNUMBER(422000))),\"\",'NA AOI Bridge'!G8-422000)",
+        "cached_value": -22375
+      },
+      "I13": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "J13": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER('NA AOI Bridge'!I8)),NOT(ISNUMBER('NA AOI Bridge'!D8))),\"\",'NA AOI Bridge'!I8-'NA AOI Bridge'!D8)",
+        "cached_value": -24329.276602367638
+      },
+      "K13": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER('NA AOI Bridge'!J8)),NOT(ISNUMBER('NA AOI Bridge'!E8))),\"\",'NA AOI Bridge'!J8-'NA AOI Bridge'!E8)",
+        "cached_value": -68250.38342605619
+      },
+      "L13": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER('NA AOI Bridge'!K8)),NOT(ISNUMBER('NA AOI Bridge'!F8))),\"\",'NA AOI Bridge'!K8-'NA AOI Bridge'!F8)",
+        "cached_value": 35036.85437122389
+      },
+      "M13": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER('NA AOI Bridge'!L8)),NOT(ISNUMBER('NA AOI Bridge'!G8))),\"\",'NA AOI Bridge'!L8-'NA AOI Bridge'!G8)",
+        "cached_value": 10768.805657199875
+      },
+      "N13": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "O13": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER('NA AOI Bridge'!N8)),NOT(ISNUMBER('NA AOI Bridge'!I8))),\"\",'NA AOI Bridge'!N8-'NA AOI Bridge'!I8)",
+        "cached_value": 17879.52697393985
+      },
+      "P13": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER('NA AOI Bridge'!O8)),NOT(ISNUMBER('NA AOI Bridge'!J8))),\"\",'NA AOI Bridge'!O8-'NA AOI Bridge'!J8)",
+        "cached_value": 21311.705406920693
+      },
+      "Q13": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER('NA AOI Bridge'!P8)),NOT(ISNUMBER('NA AOI Bridge'!K8))),\"\",'NA AOI Bridge'!P8-'NA AOI Bridge'!K8)",
+        "cached_value": 26148.409967110958
+      },
+      "R13": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER('NA AOI Bridge'!Q8)),NOT(ISNUMBER('NA AOI Bridge'!L8))),\"\",'NA AOI Bridge'!Q8-'NA AOI Bridge'!L8)",
+        "cached_value": 37509.3576520285
+      },
+      "S13": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "G14": {
+        "formula_or_input": 5000,
+        "cached_value": 5000
+      },
+      "H14": {
+        "formula_or_input": 5000,
+        "cached_value": 5000
+      },
+      "I14": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "J14": {
+        "formula_or_input": 5000,
+        "cached_value": 5000
+      },
+      "K14": {
+        "formula_or_input": 5000,
+        "cached_value": 5000
+      },
+      "L14": {
+        "formula_or_input": 5000,
+        "cached_value": 5000
+      },
+      "M14": {
+        "formula_or_input": 5000,
+        "cached_value": 5000
+      },
+      "N14": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "O14": {
+        "formula_or_input": 5000,
+        "cached_value": 5000
+      },
+      "P14": {
+        "formula_or_input": 5000,
+        "cached_value": 5000
+      },
+      "Q14": {
+        "formula_or_input": 5000,
+        "cached_value": 5000
+      },
+      "R14": {
+        "formula_or_input": 5000,
+        "cached_value": 5000
+      },
+      "S14": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "G15": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(G13)),NOT(ISNUMBER(G14))),\"\",G13*G14/1000000)",
+        "cached_value": -235
+      },
+      "H15": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(H13)),NOT(ISNUMBER(H14))),\"\",H13*H14/1000000)",
+        "cached_value": -111.875
+      },
+      "I15": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "J15": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(J13)),NOT(ISNUMBER(J14))),\"\",J13*J14/1000000)",
+        "cached_value": -121.64638301183818
+      },
+      "K15": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(K13)),NOT(ISNUMBER(K14))),\"\",K13*K14/1000000)",
+        "cached_value": -341.2519171302809
+      },
+      "L15": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(L13)),NOT(ISNUMBER(L14))),\"\",L13*L14/1000000)",
+        "cached_value": 175.18427185611947
+      },
+      "M15": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(M13)),NOT(ISNUMBER(M14))),\"\",M13*M14/1000000)",
+        "cached_value": 53.84402828599937
+      },
+      "N15": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "O15": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(O13)),NOT(ISNUMBER(O14))),\"\",O13*O14/1000000)",
+        "cached_value": 89.39763486969926
+      },
+      "P15": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(P13)),NOT(ISNUMBER(P14))),\"\",P13*P14/1000000)",
+        "cached_value": 106.55852703460346
+      },
+      "Q15": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(Q13)),NOT(ISNUMBER(Q14))),\"\",Q13*Q14/1000000)",
+        "cached_value": 130.74204983555478
+      },
+      "R15": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(R13)),NOT(ISNUMBER(R14))),\"\",R13*R14/1000000)",
+        "cached_value": 187.5467882601425
+      },
+      "S15": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "G16": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('NA RPU Build'!F286)),\"\",'NA RPU Build'!F286)",
+        "cached_value": 0
+      },
+      "H16": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('NA RPU Build'!G286)),\"\",'NA RPU Build'!G286)",
+        "cached_value": 0
+      },
+      "I16": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "J16": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('NA RPU Build'!I286)),\"\",'NA RPU Build'!I286)",
+        "cached_value": -151.7046608615267
+      },
+      "K16": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('NA RPU Build'!J286)),\"\",'NA RPU Build'!J286)",
+        "cached_value": -162.2930324695573
+      },
+      "L16": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('NA RPU Build'!K286)),\"\",'NA RPU Build'!K286)",
+        "cached_value": -170.5422941942186
+      },
+      "M16": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('NA RPU Build'!L286)),\"\",'NA RPU Build'!L286)",
+        "cached_value": -179.38551247469738
+      },
+      "N16": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "O16": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('NA RPU Build'!N286)),\"\",'NA RPU Build'!N286)",
+        "cached_value": 71.38244868727838
+      },
+      "P16": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('NA RPU Build'!O286)),\"\",'NA RPU Build'!O286)",
+        "cached_value": 75.81858988304846
+      },
+      "Q16": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('NA RPU Build'!P286)),\"\",'NA RPU Build'!P286)",
+        "cached_value": 78.73404460533159
+      },
+      "R16": {
+        "formula_or_input": "=IF(NOT(ISNUMBER('NA RPU Build'!Q286)),\"\",'NA RPU Build'!Q286)",
+        "cached_value": 80.31541682434157
+      },
+      "S16": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "G17": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "H17": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "I17": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "J17": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "K17": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "L17": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "M17": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "N17": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "O17": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "P17": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "Q17": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "R17": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "S17": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "G18": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "H18": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "I18": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "J18": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "K18": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "L18": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "M18": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "N18": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "O18": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "P18": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "Q18": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "R18": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "S18": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "G19": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "H19": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "I19": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "J19": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "K19": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "L19": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "M19": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "N19": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "O19": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "P19": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "Q19": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "R19": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "S19": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "G20": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "H20": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "I20": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "J20": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "K20": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "L20": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "M20": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "N20": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "O20": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "P20": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "Q20": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "R20": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "S20": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "H65": {
+        "formula_or_input": 1,
+        "cached_value": 1
+      },
+      "I65": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "J65": {
+        "formula_or_input": 0.98,
+        "cached_value": 0.98
+      },
+      "K65": {
+        "formula_or_input": 0.98,
+        "cached_value": 0.98
+      },
+      "L65": {
+        "formula_or_input": 0.98,
+        "cached_value": 0.98
+      },
+      "M65": {
+        "formula_or_input": 0.98,
+        "cached_value": 0.98
+      },
+      "N65": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "O65": {
+        "formula_or_input": 1,
+        "cached_value": 1
+      },
+      "P65": {
+        "formula_or_input": 1,
+        "cached_value": 1
+      },
+      "Q65": {
+        "formula_or_input": 1,
+        "cached_value": 1
+      },
+      "R65": {
+        "formula_or_input": 1,
+        "cached_value": 1
+      },
+      "S65": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "H66": {
+        "formula_or_input": 1,
+        "cached_value": 1
+      },
+      "I66": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "J66": {
+        "formula_or_input": 1,
+        "cached_value": 1
+      },
+      "K66": {
+        "formula_or_input": 1,
+        "cached_value": 1
+      },
+      "L66": {
+        "formula_or_input": 1,
+        "cached_value": 1
+      },
+      "M66": {
+        "formula_or_input": 1,
+        "cached_value": 1
+      },
+      "N66": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "O66": {
+        "formula_or_input": 1,
+        "cached_value": 1
+      },
+      "P66": {
+        "formula_or_input": 1,
+        "cached_value": 1
+      },
+      "Q66": {
+        "formula_or_input": 1,
+        "cached_value": 1
+      },
+      "R66": {
+        "formula_or_input": 1,
+        "cached_value": 1
+      },
+      "S66": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "H67": {
+        "formula_or_input": 1,
+        "cached_value": 1
+      },
+      "I67": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "J67": {
+        "formula_or_input": 1,
+        "cached_value": 1
+      },
+      "K67": {
+        "formula_or_input": 1,
+        "cached_value": 1
+      },
+      "L67": {
+        "formula_or_input": 1,
+        "cached_value": 1
+      },
+      "M67": {
+        "formula_or_input": 1,
+        "cached_value": 1
+      },
+      "N67": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      },
+      "O67": {
+        "formula_or_input": 1,
+        "cached_value": 1
+      },
+      "P67": {
+        "formula_or_input": 1,
+        "cached_value": 1
+      },
+      "Q67": {
+        "formula_or_input": 1,
+        "cached_value": 1
+      },
+      "R67": {
+        "formula_or_input": 1,
+        "cached_value": 1
+      },
+      "S67": {
+        "formula_or_input": "\u2013",
+        "cached_value": "\u2013"
+      }
+    },
+    "VCP Build": {
+      "C51": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(C11)),NOT(ISNUMBER(C33)),NOT(ISNUMBER(C41)),NOT(ISNUMBER(C49))),\"\",C11+C33+C41+C49)",
+        "cached_value": 99.65
+      },
+      "D51": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(D11)),NOT(ISNUMBER(D33)),NOT(ISNUMBER(D41)),NOT(ISNUMBER(D49))),\"\",D11+D33+D41+D49)",
+        "cached_value": 99.65
+      },
+      "E51": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(E11)),NOT(ISNUMBER(E33)),NOT(ISNUMBER(E41)),NOT(ISNUMBER(E49))),\"\",E11+E33+E41+E49)",
+        "cached_value": 199.3
+      },
+      "F51": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(F11)),NOT(ISNUMBER(F33)),NOT(ISNUMBER(F41)),NOT(ISNUMBER(F49))),\"\",F11+F33+F41+F49)",
+        "cached_value": 398.6
+      },
+      "G51": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(G11)),NOT(ISNUMBER(G33)),NOT(ISNUMBER(G41)),NOT(ISNUMBER(G49))),\"\",G11+G33+G41+G49)",
+        "cached_value": 398.6
+      },
+      "H51": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(H11)),NOT(ISNUMBER(H33)),NOT(ISNUMBER(H41)),NOT(ISNUMBER(H49))),\"\",H11+H33+H41+H49)",
+        "cached_value": 398.6
+      },
+      "I51": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I11)),NOT(ISNUMBER(I33)),NOT(ISNUMBER(I41)),NOT(ISNUMBER(I49))),\"\",I11+I33+I41+I49)",
+        "cached_value": 398.6
+      },
+      "J51": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(J11)),NOT(ISNUMBER(J33)),NOT(ISNUMBER(J41)),NOT(ISNUMBER(J49))),\"\",J11+J33+J41+J49)",
+        "cached_value": 1594.4
+      },
+      "K51": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(K11)),NOT(ISNUMBER(K33)),NOT(ISNUMBER(K41)),NOT(ISNUMBER(K49))),\"\",K11+K33+K41+K49)",
+        "cached_value": 996.5
+      },
+      "L51": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(L11)),NOT(ISNUMBER(L33)),NOT(ISNUMBER(L41)),NOT(ISNUMBER(L49))),\"\",L11+L33+L41+L49)",
+        "cached_value": 996.5
+      },
+      "M51": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(M11)),NOT(ISNUMBER(M33)),NOT(ISNUMBER(M41)),NOT(ISNUMBER(M49))),\"\",M11+M33+M41+M49)",
+        "cached_value": 996.5
+      },
+      "N51": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(N11)),NOT(ISNUMBER(N33)),NOT(ISNUMBER(N41)),NOT(ISNUMBER(N49))),\"\",N11+N33+N41+N49)",
+        "cached_value": 996.5
+      },
+      "O51": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(O11)),NOT(ISNUMBER(O33)),NOT(ISNUMBER(O41)),NOT(ISNUMBER(O49))),\"\",O11+O33+O41+O49)",
+        "cached_value": 3986
+      },
+      "C52": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "D52": {
+        "formula_or_input": 0,
+        "cached_value": 0
+      },
+      "E52": {
+        "formula_or_input": "=IF(COUNT(C52:D52)<2,\"\",SUM(C52:D52))",
+        "cached_value": 0
+      },
+      "F52": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(D51)),\"\",D51)",
+        "cached_value": 99.65
+      },
+      "G52": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(D51)),\"\",D51)",
+        "cached_value": 99.65
+      },
+      "H52": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(C51)),\"\",C51)",
+        "cached_value": 99.65
+      },
+      "I52": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(D51)),\"\",D51)",
+        "cached_value": 99.65
+      },
+      "J52": {
+        "formula_or_input": "=IF(COUNT(F52:I52)<4,\"\",SUM(F52:I52))",
+        "cached_value": 398.6
+      },
+      "K52": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(F51)),\"\",F51)",
+        "cached_value": 398.6
+      },
+      "L52": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(G51)),\"\",G51)",
+        "cached_value": 398.6
+      },
+      "M52": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(H51)),\"\",H51)",
+        "cached_value": 398.6
+      },
+      "N52": {
+        "formula_or_input": "=IF(NOT(ISNUMBER(I51)),\"\",I51)",
+        "cached_value": 398.6
+      },
+      "O52": {
+        "formula_or_input": "=IF(COUNT(K52:N52)<4,\"\",SUM(K52:N52))",
+        "cached_value": 1594.4
+      },
+      "C53": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(C51)),NOT(ISNUMBER(C52))),\"\",C51-C52)",
+        "cached_value": 99.65
+      },
+      "D53": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(D51)),NOT(ISNUMBER(D52))),\"\",D51-D52)",
+        "cached_value": 99.65
+      },
+      "E53": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(E51)),NOT(ISNUMBER(E52))),\"\",E51-E52)",
+        "cached_value": 199.3
+      },
+      "F53": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(F51)),NOT(ISNUMBER(F52))),\"\",F51-F52)",
+        "cached_value": 298.95000000000005
+      },
+      "G53": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(G51)),NOT(ISNUMBER(G52))),\"\",G51-G52)",
+        "cached_value": 298.95000000000005
+      },
+      "H53": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(H51)),NOT(ISNUMBER(H52))),\"\",H51-H52)",
+        "cached_value": 298.95000000000005
+      },
+      "I53": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(I51)),NOT(ISNUMBER(I52))),\"\",I51-I52)",
+        "cached_value": 298.95000000000005
+      },
+      "J53": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(J51)),NOT(ISNUMBER(J52))),\"\",J51-J52)",
+        "cached_value": 1195.8000000000002
+      },
+      "K53": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(K51)),NOT(ISNUMBER(K52))),\"\",K51-K52)",
+        "cached_value": 597.9
+      },
+      "L53": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(L51)),NOT(ISNUMBER(L52))),\"\",L51-L52)",
+        "cached_value": 597.9
+      },
+      "M53": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(M51)),NOT(ISNUMBER(M52))),\"\",M51-M52)",
+        "cached_value": 597.9
+      },
+      "N53": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(N51)),NOT(ISNUMBER(N52))),\"\",N51-N52)",
+        "cached_value": 597.9
+      },
+      "O53": {
+        "formula_or_input": "=IF(OR(NOT(ISNUMBER(O51)),NOT(ISNUMBER(O52))),\"\",O51-O52)",
+        "cached_value": 2391.6
+      },
+      "A60": {
+        "formula_or_input": "Reference cost bases are frozen estimated 2025 NA pools (\u20acmm, annual): components 35,000; plant labor 5,500; cash plant 1,500; warranty 3,000; logistics 1,500. No volume scaling.",
+        "cached_value": "Reference cost bases are frozen estimated 2025 NA pools (\u20acmm, annual): components 35,000; plant labor 5,500; cash plant 1,500; warranty 3,000; logistics 1,500. No volume scaling."
+      },
+      "A61": {
+        "formula_or_input": "Effective cumulative savings rates already embed recognition timing (10% / 40% / 100% of terminal in 2026 / 2027 / 2028): components 0.9% \u2192 3.6% \u2192 9.0% (Nissan FY2001); manufacturing 0.83% \u2192 3.32% \u2192 8.3% (Nissan 180); logistics 1.7% \u2192 6.8% \u2192 17% (4flow).",
+        "cached_value": "Effective cumulative savings rates already embed recognition timing (10% / 40% / 100% of terminal in 2026 / 2027 / 2028): components 0.9% \u2192 3.6% \u2192 9.0% (Nissan FY2001); manufacturing 0.83% \u2192 3.32% \u2192 8.3% (Nissan 180); logistics 1.7% \u2192 6.8% \u2192 17% (4flow)."
+      },
+      "A62": {
+        "formula_or_input": "Quarterly operational savings = annual base \u00d7 effective rate \u00f7 4 (even split convention). Annual columns sum quarters; annual rate = annual savings \u00f7 base.",
+        "cached_value": "Quarterly operational savings = annual base \u00d7 effective rate \u00f7 4 (even split convention). Annual columns sum quarters; annual rate = annual savings \u00f7 base."
+      },
+      "A63": {
+        "formula_or_input": "Warranty and depreciation: 0% credited = unestimated, not zero expected (research leaves these open). The separate \u20ac1.0bn other-indirect pool is excluded and uncredited; the 17% is applied to the \u20ac1.5bn logistics pool only.",
+        "cached_value": "Warranty and depreciation: 0% credited = unestimated, not zero expected (research leaves these open). The separate \u20ac1.0bn other-indirect pool is excluded and uncredited; the 17% is applied to the \u20ac1.5bn logistics pool only."
+      },
+      "A64": {
+        "formula_or_input": "Execution & transition costs entered as 0: research does not quantify them and says not to invent a hidden haircut. Add once, here or in IS restructuring, when estimated.",
+        "cached_value": "Execution & transition costs entered as 0: research does not quantify them and says not to invent a hidden haircut. Add once, here or in IS restructuring, when estimated."
+      },
+      "A65": {
+        "formula_or_input": "Same-period prior-year savings: 2026 quarters compare to a 0 baseline (2025). 1Q27E/2Q27E use 4Q26E as a proxy for the off-sheet 1Q26/2Q26 placeholder attribution (same quarterly rate). Annual YoY increments: \u20ac1,195.8m in 2027, \u20ac2,391.6m in 2028.",
+        "cached_value": "Same-period prior-year savings: 2026 quarters compare to a 0 baseline (2025). 1Q27E/2Q27E use 4Q26E as a proxy for the off-sheet 1Q26/2Q26 placeholder attribution (same quarterly rate). Annual YoY increments: \u20ac1,195.8m in 2027, \u20ac2,391.6m in 2028."
+      },
+      "A66": {
+        "formula_or_input": "Allocation: 100% of incremental savings to Industrial; 0 to SG&A (research credits no SG&A/indirect-procurement savings).",
+        "cached_value": "Allocation: 100% of incremental savings to Industrial; 0 to SG&A (research credits no SG&A/indirect-procurement savings)."
+      }
+    },
+    "NA_AOI_Bridge": {
+      "A16": {
+        "formula_or_input": "H1 2026A NA AOI",
+        "cached_value": "H1 2026A NA AOI"
+      },
+      "B16": {
+        "formula_or_input": "=NA_Quarterly!I31",
+        "cached_value": 547
+      },
+      "C16": {
+        "formula_or_input": "Actual (S12)",
+        "cached_value": "Actual (S12)"
+      },
+      "A17": {
+        "formula_or_input": "Volume: (H2 shipments \u2212 H1 shipments) \u00d7 contribution per unit",
+        "cached_value": "Volume: (H2 shipments \u2212 H1 shipments) \u00d7 contribution per unit"
+      },
+      "B17": {
+        "formula_or_input": "=(NA_Quarterly!J8+NA_Quarterly!K8-NA_Quarterly!H8-NA_Quarterly!I8)*Assumptions!$D$7",
+        "cached_value": -396.66
+      },
+      "C17": {
+        "formula_or_input": "=NA_Quarterly!J8+NA_Quarterly!K8-NA_Quarterly!H8-NA_Quarterly!I8",
+        "cached_value": -72.12
+      },
+      "A18": {
+        "formula_or_input": "Mix (nameplate / channel)",
+        "cached_value": "Mix (nameplate / channel)"
+      },
+      "B18": {
+        "formula_or_input": "=Assumptions!$C$29",
+        "cached_value": 100
+      },
+      "C18": {
+        "formula_or_input": "Assumptions",
+        "cached_value": "Assumptions"
+      },
+      "A19": {
+        "formula_or_input": "Net pricing",
+        "cached_value": "Net pricing"
+      },
+      "B19": {
+        "formula_or_input": "=Assumptions!$C$28",
+        "cached_value": 100
+      },
+      "C19": {
+        "formula_or_input": "Assumptions",
+        "cached_value": "Assumptions"
+      },
+      "A20": {
+        "formula_or_input": "Raw-material inflation",
+        "cached_value": "Raw-material inflation"
+      },
+      "B20": {
+        "formula_or_input": "=Assumptions!$C$25",
+        "cached_value": -150
+      },
+      "C20": {
+        "formula_or_input": "Assumptions",
+        "cached_value": "Assumptions"
+      },
+      "A21": {
+        "formula_or_input": "Non-repeat of Q1 IEEPA tariff refund",
+        "cached_value": "Non-repeat of Q1 IEEPA tariff refund"
+      },
+      "B21": {
+        "formula_or_input": "=Assumptions!$C$26",
+        "cached_value": -400
+      },
+      "C21": {
+        "formula_or_input": "Assumptions",
+        "cached_value": "Assumptions"
+      },
+      "A22": {
+        "formula_or_input": "Purchasing / VCP / manufacturing efficiency",
+        "cached_value": "Purchasing / VCP / manufacturing efficiency"
+      },
+      "B22": {
+        "formula_or_input": "=Assumptions!$C$27",
+        "cached_value": 300
+      },
+      "C22": {
+        "formula_or_input": "Assumptions",
+        "cached_value": "Assumptions"
+      },
+      "A23": {
+        "formula_or_input": "SG&A and R&D",
+        "cached_value": "SG&A and R&D"
+      },
+      "B23": {
+        "formula_or_input": "=Assumptions!$C$30",
+        "cached_value": 0
+      },
+      "C23": {
+        "formula_or_input": "Assumptions",
+        "cached_value": "Assumptions"
+      },
+      "A24": {
+        "formula_or_input": "FX & other",
+        "cached_value": "FX & other"
+      },
+      "B24": {
+        "formula_or_input": "=Assumptions!$C$31",
+        "cached_value": 0
+      },
+      "C24": {
+        "formula_or_input": "Assumptions",
+        "cached_value": "Assumptions"
+      },
+      "A25": {
+        "formula_or_input": "H2 2026E NA AOI",
+        "cached_value": "H2 2026E NA AOI"
+      },
+      "B25": {
+        "formula_or_input": "=SUM(B16:B24)",
+        "cached_value": 100.33999999999997
+      },
+      "C25": {
+        "formula_or_input": "Margin:",
+        "cached_value": "Margin:"
+      }
+    }
+  }
+}
