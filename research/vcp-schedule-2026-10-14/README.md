@@ -1,5 +1,7 @@
 # Proposed NA VCP schedule: benchmark transfer, not validated base case
 
+**Component plausibility update:** [supplier-side evidence](component-nine-percent-plausibility.md) supports recurring part-price reductions and a roughly 3.1%-per-year equivalent for 9% over three years. Retain as an ambitious gross assumption; supplier coverage exclusions and ordinary-productivity double counting remain important. No numerical change.
+
 **Analogue audit:** [Nissan starting conditions and mechanisms](nissan-analogue.md). Nissan was a mature OEM, but newly centralized procurement and alliance integration differ from Stellantis after prior merger synergies. The 9% transfer remains conditional; no percentage changed after this user challenge.
 
 14 October 2026. User requested reconciliation and a completed proposal. This is a new AI proposal, not user approval. No workbook or independent AI baseline changed. Earlier unselected rates are not silently revived. The existing EUR5,000 volume/mix assumption remains user-selected.
