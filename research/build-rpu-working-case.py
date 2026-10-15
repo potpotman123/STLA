@@ -40,13 +40,21 @@ def history(cols):
     na_price=us_price*(us+ca*ca_rel+mx*mx_rel)/(us+ca+mx)
     return dict(us_units=us,canada_units=ca,mexico_units=mx,raw_us_rpu=us_price,raw_na_rpu=na_price,
                 workbook_row_sales_snapshot=vols)
-h25=history([3]); h26=history([4,5])
+snapshot=ROOT/'rpu-working-assumptions-2026-10-14-zero-support-baseline.json'
+if snapshot.exists():
+    preserved=json.loads(snapshot.read_text())
+    h25=preserved['history_2025']; h26=preserved['history_H12026']
+else:
+    h25=history([3]); h26=history([4,5])
 target25=61165e6/1474000; target26=34307e6/824000
 f25=target25/h25['raw_na_rpu']; f26=target26/h26['raw_na_rpu']
 ref25={k:v*f25 for k,v in raw.items()}; ref26={k:v*f26 for k,v in raw.items()}
 # Countries held at fixed reference effective RPU after H1 2026, not floated with US model mix.
 ca26=h26['raw_us_rpu']*f26*ca_rel; mx26=h26['raw_us_rpu']*f26*mx_rel
-def forecast(year, prices=None, us_incentive=0, ca_price=ca26, mx_price=mx26):
+support={2027:500,2028:250}
+def forecast(year, prices=None, us_incentive=None, ca_price=ca26, mx_price=mx26):
+    if us_incentive is None:
+        us_incentive=support[year]
     prices=prices or ref26
     us=sum(r[str(year)]['base'] for r in proposal['rows'])
     dollars=sum(r[str(year)]['base']*(prices[r['id']]-us_incentive) for r in proposal['rows'])
@@ -56,8 +64,8 @@ def forecast(year, prices=None, us_incentive=0, ca_price=ca26, mx_price=mx26):
 base={y:forecast(y) for y in [2027,2028]}
 tests=[]
 for delta in [500,1000]:
-    q=forecast(2028,us_incentive=delta)
-    tests.append(dict(test=f'Extra EUR{delta} support per US vehicle',na_rpu=q['na_effective_rpu'],
+    q=forecast(2028,us_incentive=support[2028]+delta)
+    tests.append(dict(test=f'Extra EUR{delta} support per US vehicle ABOVE revised base',na_rpu=q['na_effective_rpu'],
                       change_na_rpu=q['na_effective_rpu']-base[2028]['na_effective_rpu']))
 for group,ids in [('Ram LD and HD',['ram_ld','ram_hd']),('Grand Cherokee and Wrangler',['grand_cherokee','wrangler'])]:
     for shock in [-.1,.1]:
@@ -78,7 +86,9 @@ for r in proposal['rows']:
     k=r['id']
     allrows.append(dict(id=k,model=r['family'],seed_net_price_USD_assumed=usd[k],
                         effective_reference_FY2025_EUR=ref25[k],effective_reference_H12026_EUR=ref26[k],
-                        rounded_2027_2028_RPU_EUR=round(ref26[k]/500)*500,
+                        rounded_reference_before_incremental_support_EUR=rounded[k],
+                        forecast_net_RPU_2027_EUR=rounded[k]-support[2027],
+                        forecast_net_RPU_2028_EUR=rounded[k]-support[2028],
                         forecast_units_2027=r['2027']['base'],forecast_units_2028=r['2028']['base']))
 out=dict(as_of='2026-10-14',status='Recommended practical working case; not observed model wholesale revenue',
          method='All regional revenue allocated to effective RPU; no separately added non-vehicle revenue. Customer mix proxies wholesale mix.',
@@ -91,8 +101,11 @@ out=dict(as_of='2026-10-14',status='Recommended practical working case; not obse
          implied_common_rebase_H12026_vs_2025=f26/f25-1,
          rebase_warning='Composite calibration residual includes FX, channel mix, trim mix and other revenue; NOT identified price or incentive movement; never pass this mechanically into price-only AOI.',
          forecasts=base,rounded_input_forecasts=rounded_forecasts,canada_forecast_rpu=ca26,mexico_forecast_rpu=mx26,model_rows=allrows,tests=tests,
-         annual_same_model_net_price_growth_2027=0,annual_same_model_net_price_growth_2028=0,
-         incremental_incentives_vs_H12026_reference_EUR=0,
+         annual_price_growth_before_incremental_support_2027=0,annual_price_growth_before_incremental_support_2028=0,
+         incremental_incentives_vs_H12026_reference_EUR=support,
+         decision='User approved +EUR500/US vehicle in 2027 and +EUR250 in 2028; practical assumption, not observed program spending. 2028 support remains above embedded reference.',
+         quarterly_policy='Use annual per-vehicle rate in every quarter, not annual rate divided by four; multiply by each quarter affected US shipments.',
+         prior_zero_support_case='rpu-working-assumptions-2026-10-14-zero-support-baseline.json',
          total_brand_incentives_EUR=None,
          other_regional_revenue_EURm=0,
          residual_note='Zero is a modeling allocation convention; other revenues embedded in effective RPU are not economically zero.',
@@ -109,4 +122,4 @@ assert abs(target25*1474000/1e6-61165)<1e-8
 assert abs(target26*824000/1e6-34307)<1e-8
 (ROOT/'rpu-working-assumptions-2026-10-14.json').write_text(json.dumps(out,indent=2)+'\n')
 print(json.dumps({k:out[k] for k in ['reported_effective_rpu_2025','reported_effective_rpu_H12026','calibration_factor_2025','calibration_factor_H12026','implied_common_rebase_H12026_vs_2025','forecasts','canada_forecast_rpu','mexico_forecast_rpu','tests']},indent=2))
-print([(r['id'],r['rounded_2027_2028_RPU_EUR']) for r in allrows])
+print([(r['id'],r['forecast_net_RPU_2027_EUR'],r['forecast_net_RPU_2028_EUR']) for r in allrows])

@@ -4,8 +4,10 @@
 
 ## Use these inputs
 
-- Hold comparable-model net realization flat in 2027 and 2028 relative to the calibrated H1 2026 reference below.
-- Incremental manufacturer incentive cost versus that embedded reference: **€0 per vehicle** in the base case. This means unchanged support, NOT zero incentives. Test €500 and €1,000 additional support per US vehicle.
+- Hold comparable-model pricing before incremental incentive support flat relative to the calibrated H1 2026 reference below.
+- **User-approved incentive revision:** additional manufacturer support versus the embedded reference is **€500 per US vehicle in 2027**, tapering to **€250 in 2028**. This is a pragmatic forecast assumption, not observed program spending. Support remains above the reference in 2028. The rationale is support for throughput and launches followed by partial normalization as inventory and product availability improve.
+- Apply the same per-vehicle amount in each quarter of the relevant year; do not divide it by four. Canada/Mexico assumptions are unchanged. Test €500 and €1,000 additional US support ABOVE this revised base case.
+- Retain [the original unchanged-support case](../research/rpu-working-assumptions-2026-10-14-zero-support-baseline.json) for the assumption-variance bridge. Comparable-model net RPU falls €500 versus reference in 2027 and recovers €250 in 2028, ending €250 below reference. No separate regular-price reduction is assumed; if one is introduced, include it alongside the incentive change so reduced rebates do not create a false margin benefit.
 - Canada effective RPU: **€38,500**; Mexico: **€30,000**, held flat. Country price ratios are judgment, not observed averages.
 - Use one family RPU for Pacifica/Voyager/LX; do not manufacture a separate trim-price forecast from the estimated sales split.
 - New-model effective RPUs are launch scenarios. Recompute the weighted price of each Other/new-model row from its actual constituent volumes. Do not apply a single legacy price to newly added products.
@@ -36,59 +38,59 @@ Source observations and their limitations are in [RPU evidence](../research/rpu-
 
 ## Workbook implementation
 
-1. Treat the table below as the latest effective reference, with 0% subsequent comparable-model price growth and zero incremental incentive change. Historical reported regional revenue/shipments stay actual; historical model-level prices remain estimates or blank, not newly asserted facts.
+1. The table separates the effective reference and net RPU after the approved incentive changes. Enter either the reference plus the separate incentive deduction, OR the already adjusted net RPU; never deduct the same support twice. Historical reported regional revenue/shipments stay actual; historical model-level prices remain estimates or blank, not newly asserted facts.
 2. Label the reference period explicitly. The existing reference column is labeled FY2025; do not paste H1 2026 reference prices into it as FY2025 actual prices. Either use a separate reference input or clearly relabel the assumption while preserving historical actual outputs.
-3. Current brand incentive levels remain unknown. Prefer a control labeled **change in manufacturer support versus embedded reference**, set to zero in the base case. Do not populate total-incentive rows with zero and call that observed spending. If preserving the existing absolute-level design, a separately sourced or explicitly assumed baseline is still required; subtract only changes from it.
+3. Current brand incentive levels remain unknown. Use a control labeled **change in manufacturer support versus embedded reference**, set to €500 for each US brand in 2027 and €250 in 2028. These are additions to embedded spending, not absolute incentive levels. If preserving the existing absolute-level design, a separately sourced or explicitly assumed baseline is still required; subtract only changes from it. For a YoY AOI bridge, the per-unit pricing effect is −€500 in 2027 versus the unchanged-support reference and +€250 in 2028 versus 2027; apply appropriate shipment populations and handle volume interaction consistently.
 4. Use model volumes to calculate mix. Do not add an extra mix uplift or treat aggregate RPU change as pure pricing in the AOI bridge. Do not substitute the hypothetical shipment count used in sensitivity illustrations for the volume forecast.
-5. Round the model inputs to €500, then recompute weighted RPU from the rounded inputs. Keep formula precision in calculations. Expect small differences from the exact calibrated reference.
+5. Round reference model inputs to €500, then deduct the annual support assumption exactly. Do not round away the €250 incentive taper. Recompute weighted RPU from these inputs. Keep formula precision in calculations. Expect small differences from the exact calibrated reference.
 6. Q3/Q4 2026 may use these latest reference prices as forecast assumptions until better financial actuals are available. Do not label such estimates actuals. Use each quarter's model sales weights; annual RPU is shipment-weighted.
 7. Sensitivity calculations use D098 gross customer-volume scenarios, before cannibalization, and proxy shipment mix with customer mix. They do not override the user's selected volumes. Recalculate when the model builder resolves volume differences.
 
 ## Model reference prices and tests
 
-| Model/family | 2027–28 effective RPU, EUR/vehicle |
-|---|---:|
-| Ram light-duty pickups including Classic | 47,000 |
-| Ram heavy-duty pickups;2500/3500, chassis scope unresolved | 57,000 |
-| Grand Cherokee including L and 4xe | 39,500 |
-| Wrangler including former 4xe | 40,000 |
-| Chrysler Pacifica / Voyager / Pacifica LX | 37,500 |
-| Ram Pro Master large van | 37,500 |
-| Gladiator | 36,500 |
-| Compass | 26,000 |
-| Cherokee / returning HEV | 29,000 |
-| Wagoneer / Grand Wagoneer combined | 61,000 |
-| Dodge Durango | 36,500 |
-| Dodge Charger gasoline plus Daytona BEV | 39,500 |
-| Other US brands Fiat and Alfa Romeo | 33,000 |
-| Dodge Hornet | 24,500 |
-| Dodge legacy runoff excluding GLH | 28,000 |
-| Ram Pro Master City old runoff and returning midsize van | 29,000 |
-| Chrysler Airflow / Arrow / Arrow Cross combined | 28,000 |
-| Ram Dakota North American midsize pickup | 32,500 |
-| Ram compact / Rampage-based North American pickup | 26,000 |
-| Ram large SUV / Ramcharger on2030map | 57,000 |
-| Wagoneer S BEV | 48,000 |
-| Recon BEV / possible later ICE | 48,000 |
-| Dodge GLH possible replacement | 26,000 |
-| Legacy Jeep / unlisted residual | 22,500 |
-| Chrysler legacy runoff | 28,000 |
+| Model/family | Reference EUR | 2027 net RPU EUR | 2028 net RPU EUR |
+|---|---:|---:|---:|
+| Ram light-duty pickups including Classic | 47,000 | 46,500 | 46,750 |
+| Ram heavy-duty pickups;2500/3500, chassis scope unresolved | 57,000 | 56,500 | 56,750 |
+| Grand Cherokee including L and 4xe | 39,500 | 39,000 | 39,250 |
+| Wrangler including former 4xe | 40,000 | 39,500 | 39,750 |
+| Chrysler Pacifica / Voyager / Pacifica LX | 37,500 | 37,000 | 37,250 |
+| Ram Pro Master large van | 37,500 | 37,000 | 37,250 |
+| Gladiator | 36,500 | 36,000 | 36,250 |
+| Compass | 26,000 | 25,500 | 25,750 |
+| Cherokee / returning HEV | 29,000 | 28,500 | 28,750 |
+| Wagoneer / Grand Wagoneer combined | 61,000 | 60,500 | 60,750 |
+| Dodge Durango | 36,500 | 36,000 | 36,250 |
+| Dodge Charger gasoline plus Daytona BEV | 39,500 | 39,000 | 39,250 |
+| Other US brands Fiat and Alfa Romeo | 33,000 | 32,500 | 32,750 |
+| Dodge Hornet | 24,500 | 24,000 | 24,250 |
+| Dodge legacy runoff excluding GLH | 28,000 | 27,500 | 27,750 |
+| Ram Pro Master City old runoff and returning midsize van | 29,000 | 28,500 | 28,750 |
+| Chrysler Airflow / Arrow / Arrow Cross combined | 28,000 | 27,500 | 27,750 |
+| Ram Dakota North American midsize pickup | 32,500 | 32,000 | 32,250 |
+| Ram compact / Rampage-based North American pickup | 26,000 | 25,500 | 25,750 |
+| Ram large SUV / Ramcharger on2030map | 57,000 | 56,500 | 56,750 |
+| Wagoneer S BEV | 48,000 | 47,500 | 47,750 |
+| Recon BEV / possible later ICE | 48,000 | 47,500 | 47,750 |
+| Dodge GLH possible replacement | 26,000 | 25,500 | 25,750 |
+| Legacy Jeep / unlisted residual | 22,500 | 22,000 | 22,250 |
+| Chrysler legacy runoff | 28,000 | 27,500 | 27,750 |
 
 ### Weighted result
 
-- 2027: approximately €41,435 per NA shipment using rounded inputs.
-- 2028: approximately €40,860 per NA shipment using rounded inputs.
+- 2027: approximately €41,001 per NA shipment using rounded reference inputs and revised incentives.
+- 2028: approximately €40,642 per NA shipment using rounded reference inputs and revised incentives.
 
-The decline is primarily the modeled expansion of cheaper products; it does not require comparable models to cut price. These are revenue allocation scenarios, not evidence of an observed price trend.
+The cheaper-product mix in 2028 more than offsets the partial incentive recovery. These are revenue allocation scenarios, not observed prices.
 
 ### 2028 sensitivities
 
-Tests below use unrounded reference prices; differences versus rounded implementation are small.
+Changes below are versus the revised base, using unrounded reference prices.
 
 | Test | Change in NA effective RPU, EUR/vehicle |
 |---|---:|
-| Extra EUR500 support per US vehicle | -437 |
-| Extra EUR1000 support per US vehicle | -874 |
+| Extra EUR500 support per US vehicle ABOVE revised base | -437 |
+| Extra EUR1000 support per US vehicle ABOVE revised base | -874 |
 | Ram LD and HD relative RPU -10%; no recalibration | -1,412 |
 | Ram LD and HD relative RPU +10%; no recalibration | +1,412 |
 | Grand Cherokee and Wrangler relative RPU -10%; no recalibration | -886 |
@@ -98,4 +100,4 @@ Tests below use unrounded reference prices; differences versus rounded implement
 | New Chrysler family RPU -20% | -171 |
 | New Chrysler family RPU +20% | +171 |
 
-These are assumption stresses, not statistical confidence intervals. The model-price stresses hold other assumptions fixed without historical recalibration. At a purely illustrative 1.6m NA shipments, each €100 of RPU changes annual revenue by €160m. AOI impact also depends on costs, volume responses and accounting; do not treat every modeled mix change as a 100% profit flow-through.
+These are assumption stresses, not confidence intervals. At an illustrative 1.6m NA shipments, €100 of RPU changes annual revenue by €160m. Actual revenue must use the independently selected shipment forecast. AOI treatment must separate price, volume and mix effects.

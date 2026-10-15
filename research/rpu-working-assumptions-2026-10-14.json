@@ -74,32 +74,32 @@
     "2027": {
       "us_customer_sales": 1354950,
       "na_customer_sales": 1560950,
-      "us_effective_rpu": 42517.312355922666,
-      "na_effective_rpu": 41495.25895698806,
-      "revenue_at_hypothetical_1_6m_na_shipments_EURm": 66392.4143311809
+      "us_effective_rpu": 42017.312355922666,
+      "na_effective_rpu": 41061.24441456197,
+      "revenue_at_hypothetical_1_6m_na_shipments_EURm": 65697.99106329915
     },
     "2028": {
       "us_customer_sales": 1430700,
       "na_customer_sales": 1636700,
-      "us_effective_rpu": 41800.04464269652,
-      "na_effective_rpu": 40915.571554077724,
-      "revenue_at_hypothetical_1_6m_na_shipments_EURm": 65464.91448652436
+      "us_effective_rpu": 41550.04464269652,
+      "na_effective_rpu": 40697.03730833934,
+      "revenue_at_hypothetical_1_6m_na_shipments_EURm": 65115.25969334295
     }
   },
   "rounded_input_forecasts": {
     "2027": {
       "us_customer_sales": 1354950,
       "na_customer_sales": 1560950,
-      "us_effective_rpu": 42452.47057086977,
-      "na_effective_rpu": 41435.32784522246,
-      "revenue_at_hypothetical_1_6m_na_shipments_EURm": 66296.52455235594
+      "us_effective_rpu": 41952.47057086977,
+      "na_effective_rpu": 41001.31330279637,
+      "revenue_at_hypothetical_1_6m_na_shipments_EURm": 65602.10128447419
     },
     "2028": {
       "us_customer_sales": 1430700,
       "na_customer_sales": 1636700,
-      "us_effective_rpu": 41740.82616900818,
-      "na_effective_rpu": 40860.32871020957,
-      "revenue_at_hypothetical_1_6m_na_shipments_EURm": 65376.52593633532
+      "us_effective_rpu": 41490.82616900818,
+      "na_effective_rpu": 40641.79446447119,
+      "revenue_at_hypothetical_1_6m_na_shipments_EURm": 65026.871143153905
     }
   },
   "canada_forecast_rpu": 38557.85217121877,
@@ -111,7 +111,9 @@
       "seed_net_price_USD_assumed": 54000,
       "effective_reference_FY2025_EUR": 47600.58821897152,
       "effective_reference_H12026_EUR": 47199.004523447205,
-      "rounded_2027_2028_RPU_EUR": 47000,
+      "rounded_reference_before_incremental_support_EUR": 47000,
+      "forecast_net_RPU_2027_EUR": 46500,
+      "forecast_net_RPU_2028_EUR": 46750,
       "forecast_units_2027": 285000,
       "forecast_units_2028": 285000
     },
@@ -121,7 +123,9 @@
       "seed_net_price_USD_assumed": 65000,
       "effective_reference_FY2025_EUR": 57297.0043376509,
       "effective_reference_H12026_EUR": 56813.61655600127,
-      "rounded_2027_2028_RPU_EUR": 57000,
+      "rounded_reference_before_incremental_support_EUR": 57000,
+      "forecast_net_RPU_2027_EUR": 56500,
+      "forecast_net_RPU_2028_EUR": 56750,
       "forecast_units_2027": 170000,
       "forecast_units_2028": 170000
     },
@@ -131,7 +135,9 @@
       "seed_net_price_USD_assumed": 45000,
       "effective_reference_FY2025_EUR": 39667.15684914293,
       "effective_reference_H12026_EUR": 39332.50376953934,
-      "rounded_2027_2028_RPU_EUR": 39500,
+      "rounded_reference_before_incremental_support_EUR": 39500,
+      "forecast_net_RPU_2027_EUR": 39000,
+      "forecast_net_RPU_2028_EUR": 39250,
       "forecast_units_2027": 190000,
       "forecast_units_2028": 190000
     },
@@ -141,7 +147,9 @@
       "seed_net_price_USD_assumed": 46000,
       "effective_reference_FY2025_EUR": 40548.649223568325,
       "effective_reference_H12026_EUR": 40206.559408862435,
-      "rounded_2027_2028_RPU_EUR": 40000,
+      "rounded_reference_before_incremental_support_EUR": 40000,
+      "forecast_net_RPU_2027_EUR": 39500,
+      "forecast_net_RPU_2028_EUR": 39750,
       "forecast_units_2027": 175000,
       "forecast_units_2028": 175000
     },
@@ -151,7 +159,9 @@
       "seed_net_price_USD_assumed": 43000,
       "effective_reference_FY2025_EUR": 37904.17210029213,
       "effective_reference_H12026_EUR": 37584.392490893144,
-      "rounded_2027_2028_RPU_EUR": 37500,
+      "rounded_reference_before_incremental_support_EUR": 37500,
+      "forecast_net_RPU_2027_EUR": 37000,
+      "forecast_net_RPU_2028_EUR": 37250,
       "forecast_units_2027": 140000,
       "forecast_units_2028": 140000
     },
@@ -161,7 +171,9 @@
       "seed_net_price_USD_assumed": 43000,
       "effective_reference_FY2025_EUR": 37904.17210029213,
       "effective_reference_H12026_EUR": 37584.392490893144,
-      "rounded_2027_2028_RPU_EUR": 37500,
+      "rounded_reference_before_incremental_support_EUR": 37500,
+      "forecast_net_RPU_2027_EUR": 37000,
+      "forecast_net_RPU_2028_EUR": 37250,
       "forecast_units_2027": 58000,
       "forecast_units_2028": 58000
     },
@@ -171,7 +183,9 @@
       "seed_net_price_USD_assumed": 42000,
       "effective_reference_FY2025_EUR": 37022.679725866736,
       "effective_reference_H12026_EUR": 36710.33685157005,
-      "rounded_2027_2028_RPU_EUR": 36500,
+      "rounded_reference_before_incremental_support_EUR": 36500,
+      "forecast_net_RPU_2027_EUR": 36000,
+      "forecast_net_RPU_2028_EUR": 36250,
       "forecast_units_2027": 45000,
       "forecast_units_2028": 45000
     },
@@ -181,7 +195,9 @@
       "seed_net_price_USD_assumed": 30000,
       "effective_reference_FY2025_EUR": 26444.771232761952,
       "effective_reference_H12026_EUR": 26221.669179692894,
-      "rounded_2027_2028_RPU_EUR": 26000,
+      "rounded_reference_before_incremental_support_EUR": 26000,
+      "forecast_net_RPU_2027_EUR": 25500,
+      "forecast_net_RPU_2028_EUR": 25750,
       "forecast_units_2027": 65000,
       "forecast_units_2028": 65000
     },
@@ -191,7 +207,9 @@
       "seed_net_price_USD_assumed": 33000,
       "effective_reference_FY2025_EUR": 29089.24835603815,
       "effective_reference_H12026_EUR": 28843.836097662184,
-      "rounded_2027_2028_RPU_EUR": 29000,
+      "rounded_reference_before_incremental_support_EUR": 29000,
+      "forecast_net_RPU_2027_EUR": 28500,
+      "forecast_net_RPU_2028_EUR": 28750,
       "forecast_units_2027": 45000,
       "forecast_units_2028": 48000
     },
@@ -201,7 +219,9 @@
       "seed_net_price_USD_assumed": 70000,
       "effective_reference_FY2025_EUR": 61704.46620977789,
       "effective_reference_H12026_EUR": 61183.894752616754,
-      "rounded_2027_2028_RPU_EUR": 61000,
+      "rounded_reference_before_incremental_support_EUR": 61000,
+      "forecast_net_RPU_2027_EUR": 60500,
+      "forecast_net_RPU_2028_EUR": 60750,
       "forecast_units_2027": 55000,
       "forecast_units_2028": 55000
     },
@@ -211,7 +231,9 @@
       "seed_net_price_USD_assumed": 42000,
       "effective_reference_FY2025_EUR": 37022.679725866736,
       "effective_reference_H12026_EUR": 36710.33685157005,
-      "rounded_2027_2028_RPU_EUR": 36500,
+      "rounded_reference_before_incremental_support_EUR": 36500,
+      "forecast_net_RPU_2027_EUR": 36000,
+      "forecast_net_RPU_2028_EUR": 36250,
       "forecast_units_2027": 88000,
       "forecast_units_2028": 88000
     },
@@ -221,7 +243,9 @@
       "seed_net_price_USD_assumed": 45000,
       "effective_reference_FY2025_EUR": 39667.15684914293,
       "effective_reference_H12026_EUR": 39332.50376953934,
-      "rounded_2027_2028_RPU_EUR": 39500,
+      "rounded_reference_before_incremental_support_EUR": 39500,
+      "forecast_net_RPU_2027_EUR": 39000,
+      "forecast_net_RPU_2028_EUR": 39250,
       "forecast_units_2027": 15000,
       "forecast_units_2028": 15000
     },
@@ -231,7 +255,9 @@
       "seed_net_price_USD_assumed": 38000,
       "effective_reference_FY2025_EUR": 33496.710228165146,
       "effective_reference_H12026_EUR": 33214.11429427767,
-      "rounded_2027_2028_RPU_EUR": 33000,
+      "rounded_reference_before_incremental_support_EUR": 33000,
+      "forecast_net_RPU_2027_EUR": 32500,
+      "forecast_net_RPU_2028_EUR": 32750,
       "forecast_units_2027": 3000,
       "forecast_units_2028": 3000
     },
@@ -241,7 +267,9 @@
       "seed_net_price_USD_assumed": 28000,
       "effective_reference_FY2025_EUR": 24681.786483911157,
       "effective_reference_H12026_EUR": 24473.5579010467,
-      "rounded_2027_2028_RPU_EUR": 24500,
+      "rounded_reference_before_incremental_support_EUR": 24500,
+      "forecast_net_RPU_2027_EUR": 24000,
+      "forecast_net_RPU_2028_EUR": 24250,
       "forecast_units_2027": 100,
       "forecast_units_2028": 0
     },
@@ -251,7 +279,9 @@
       "seed_net_price_USD_assumed": 32000,
       "effective_reference_FY2025_EUR": 28207.75598161275,
       "effective_reference_H12026_EUR": 27969.780458339086,
-      "rounded_2027_2028_RPU_EUR": 28000,
+      "rounded_reference_before_incremental_support_EUR": 28000,
+      "forecast_net_RPU_2027_EUR": 27500,
+      "forecast_net_RPU_2028_EUR": 27750,
       "forecast_units_2027": 50,
       "forecast_units_2028": 0
     },
@@ -261,7 +291,9 @@
       "seed_net_price_USD_assumed": 33000,
       "effective_reference_FY2025_EUR": 29089.24835603815,
       "effective_reference_H12026_EUR": 28843.836097662184,
-      "rounded_2027_2028_RPU_EUR": 29000,
+      "rounded_reference_before_incremental_support_EUR": 29000,
+      "forecast_net_RPU_2027_EUR": 28500,
+      "forecast_net_RPU_2028_EUR": 28750,
       "forecast_units_2027": 10000,
       "forecast_units_2028": 13000
     },
@@ -271,7 +303,9 @@
       "seed_net_price_USD_assumed": 32000,
       "effective_reference_FY2025_EUR": 28207.75598161275,
       "effective_reference_H12026_EUR": 27969.780458339086,
-      "rounded_2027_2028_RPU_EUR": 28000,
+      "rounded_reference_before_incremental_support_EUR": 28000,
+      "forecast_net_RPU_2027_EUR": 27500,
+      "forecast_net_RPU_2028_EUR": 27750,
       "forecast_units_2027": 10000,
       "forecast_units_2028": 50000
     },
@@ -281,7 +315,9 @@
       "seed_net_price_USD_assumed": 37000,
       "effective_reference_FY2025_EUR": 32615.21785373974,
       "effective_reference_H12026_EUR": 32340.058654954566,
-      "rounded_2027_2028_RPU_EUR": 32500,
+      "rounded_reference_before_incremental_support_EUR": 32500,
+      "forecast_net_RPU_2027_EUR": 32000,
+      "forecast_net_RPU_2028_EUR": 32250,
       "forecast_units_2027": 0,
       "forecast_units_2028": 20000
     },
@@ -291,7 +327,9 @@
       "seed_net_price_USD_assumed": 30000,
       "effective_reference_FY2025_EUR": 26444.771232761952,
       "effective_reference_H12026_EUR": 26221.669179692894,
-      "rounded_2027_2028_RPU_EUR": 26000,
+      "rounded_reference_before_incremental_support_EUR": 26000,
+      "forecast_net_RPU_2027_EUR": 25500,
+      "forecast_net_RPU_2028_EUR": 25750,
       "forecast_units_2027": 0,
       "forecast_units_2028": 10000
     },
@@ -301,7 +339,9 @@
       "seed_net_price_USD_assumed": 65000,
       "effective_reference_FY2025_EUR": 57297.0043376509,
       "effective_reference_H12026_EUR": 56813.61655600127,
-      "rounded_2027_2028_RPU_EUR": 57000,
+      "rounded_reference_before_incremental_support_EUR": 57000,
+      "forecast_net_RPU_2027_EUR": 56500,
+      "forecast_net_RPU_2028_EUR": 56750,
       "forecast_units_2027": 0,
       "forecast_units_2028": 0
     },
@@ -311,7 +351,9 @@
       "seed_net_price_USD_assumed": 55000,
       "effective_reference_FY2025_EUR": 48482.08059339692,
       "effective_reference_H12026_EUR": 48073.06016277031,
-      "rounded_2027_2028_RPU_EUR": 48000,
+      "rounded_reference_before_incremental_support_EUR": 48000,
+      "forecast_net_RPU_2027_EUR": 47500,
+      "forecast_net_RPU_2028_EUR": 47750,
       "forecast_units_2027": 600,
       "forecast_units_2028": 600
     },
@@ -321,7 +363,9 @@
       "seed_net_price_USD_assumed": 55000,
       "effective_reference_FY2025_EUR": 48482.08059339692,
       "effective_reference_H12026_EUR": 48073.06016277031,
-      "rounded_2027_2028_RPU_EUR": 48000,
+      "rounded_reference_before_incremental_support_EUR": 48000,
+      "forecast_net_RPU_2027_EUR": 47500,
+      "forecast_net_RPU_2028_EUR": 47750,
       "forecast_units_2027": 100,
       "forecast_units_2028": 100
     },
@@ -331,7 +375,9 @@
       "seed_net_price_USD_assumed": 30000,
       "effective_reference_FY2025_EUR": 26444.771232761952,
       "effective_reference_H12026_EUR": 26221.669179692894,
-      "rounded_2027_2028_RPU_EUR": 26000,
+      "rounded_reference_before_incremental_support_EUR": 26000,
+      "forecast_net_RPU_2027_EUR": 25500,
+      "forecast_net_RPU_2028_EUR": 25750,
       "forecast_units_2027": 0,
       "forecast_units_2028": 0
     },
@@ -341,7 +387,9 @@
       "seed_net_price_USD_assumed": 26000,
       "effective_reference_FY2025_EUR": 22918.801735060362,
       "effective_reference_H12026_EUR": 22725.44662240051,
-      "rounded_2027_2028_RPU_EUR": 22500,
+      "rounded_reference_before_incremental_support_EUR": 22500,
+      "forecast_net_RPU_2027_EUR": 22000,
+      "forecast_net_RPU_2028_EUR": 22250,
       "forecast_units_2027": 50,
       "forecast_units_2028": 0
     },
@@ -351,58 +399,66 @@
       "seed_net_price_USD_assumed": 32000,
       "effective_reference_FY2025_EUR": 28207.75598161275,
       "effective_reference_H12026_EUR": 27969.780458339086,
-      "rounded_2027_2028_RPU_EUR": 28000,
+      "rounded_reference_before_incremental_support_EUR": 28000,
+      "forecast_net_RPU_2027_EUR": 27500,
+      "forecast_net_RPU_2028_EUR": 27750,
       "forecast_units_2027": 50,
       "forecast_units_2028": 0
     }
   ],
   "tests": [
     {
-      "test": "Extra EUR500 support per US vehicle",
-      "na_rpu": 40478.50306260097,
-      "change_na_rpu": -437.0684914767553
+      "test": "Extra EUR500 support per US vehicle ABOVE revised base",
+      "na_rpu": 40259.968816862594,
+      "change_na_rpu": -437.068491476748
     },
     {
-      "test": "Extra EUR1000 support per US vehicle",
-      "na_rpu": 40041.43457112422,
+      "test": "Extra EUR1000 support per US vehicle ABOVE revised base",
+      "na_rpu": 39822.90032538584,
       "change_na_rpu": -874.1369829535033
     },
     {
       "test": "Ram LD and HD relative RPU -10%; no recalibration",
-      "change_na_rpu": -1411.9894362865962
+      "change_na_rpu": -1411.989436286589
     },
     {
       "test": "Ram LD and HD relative RPU +10%; no recalibration",
-      "change_na_rpu": 1411.989436286589
+      "change_na_rpu": 1411.9894362865962
     },
     {
       "test": "Grand Cherokee and Wrangler relative RPU -10%; no recalibration",
-      "change_na_rpu": -886.4986627215403
+      "change_na_rpu": -886.498662721533
     },
     {
       "test": "Grand Cherokee and Wrangler relative RPU +10%; no recalibration",
-      "change_na_rpu": 886.498662721533
+      "change_na_rpu": 886.4986627215403
     },
     {
       "test": "Canada and Mexico RPU -10%",
-      "change_na_rpu": -437.66066427892656
+      "change_na_rpu": -437.6606642789193
     },
     {
       "test": "Canada and Mexico RPU +10%",
-      "change_na_rpu": 437.660664278912
+      "change_na_rpu": 437.6606642789193
     },
     {
       "test": "New Chrysler family RPU -20%",
-      "change_na_rpu": -170.89130847644265
+      "change_na_rpu": -170.89130847643537
     },
     {
       "test": "New Chrysler family RPU +20%",
-      "change_na_rpu": 170.89130847643537
+      "change_na_rpu": 170.89130847644265
     }
   ],
-  "annual_same_model_net_price_growth_2027": 0,
-  "annual_same_model_net_price_growth_2028": 0,
-  "incremental_incentives_vs_H12026_reference_EUR": 0,
+  "annual_price_growth_before_incremental_support_2027": 0,
+  "annual_price_growth_before_incremental_support_2028": 0,
+  "incremental_incentives_vs_H12026_reference_EUR": {
+    "2027": 500,
+    "2028": 250
+  },
+  "decision": "User approved +EUR500/US vehicle in 2027 and +EUR250 in 2028; practical assumption, not observed program spending. 2028 support remains above embedded reference.",
+  "quarterly_policy": "Use annual per-vehicle rate in every quarter, not annual rate divided by four; multiply by each quarter affected US shipments.",
+  "prior_zero_support_case": "rpu-working-assumptions-2026-10-14-zero-support-baseline.json",
   "total_brand_incentives_EUR": null,
   "other_regional_revenue_EURm": 0,
   "residual_note": "Zero is a modeling allocation convention; other revenues embedded in effective RPU are not economically zero.",

@@ -1,0 +1,419 @@
+{
+  "as_of": "2026-10-14",
+  "status": "Recommended practical working case; not observed model wholesale revenue",
+  "method": "All regional revenue allocated to effective RPU; no separately added non-vehicle revenue. Customer mix proxies wholesale mix.",
+  "historical_workbook": "/Users/kwu/Downloads/FINAL KW STLA MODEL.xlsx",
+  "source_evidence": "rpu-evidence-2026-10-14.json",
+  "fx_source": "https://data.ecb.europa.eu/data/datasets/EXR/EXR.A.USD.EUR.SP00.A",
+  "FX_note": "1.13 USD/EUR seed conversion cancels in calibrated level. Forecasts hold calibrated EUR prices fixed; not a currency forecast.",
+  "canada_relative_price_assumed": 0.9,
+  "mexico_relative_price_assumed": 0.7,
+  "history_2025": {
+    "us_units": 1260344,
+    "canada_units": 114720,
+    "mexico_units": 91215,
+    "raw_us_rpu": 42792.384284577114,
+    "raw_na_rpu": 41658.96667969566,
+    "workbook_row_sales_snapshot": {
+      "7": 204139,
+      "9": 169920,
+      "11": 57591,
+      "13": 20,
+      "20": 210082,
+      "22": 167322,
+      "24": 56790,
+      "26": 101997,
+      "28": 478,
+      "30": 55904,
+      "32": 828,
+      "43": 575,
+      "50": 81168,
+      "52": 9562,
+      "54": 9365,
+      "56": 1832,
+      "63": 6973,
+      "39": 125798,
+      "41": 0
+    }
+  },
+  "history_H12026": {
+    "us_units": 634186,
+    "canada_units": 62444,
+    "mexico_units": 49252,
+    "raw_us_rpu": 43376.32975490929,
+    "raw_na_rpu": 42153.923997097474,
+    "workbook_row_sales_snapshot": {
+      "7": 125497,
+      "9": 82094,
+      "11": 27716,
+      "13": 0,
+      "20": 101737,
+      "22": 86254,
+      "24": 19033,
+      "26": 37026,
+      "28": 10601,
+      "30": 30520,
+      "32": 80,
+      "43": 13,
+      "50": 38575,
+      "52": 5117,
+      "54": 717,
+      "56": 102,
+      "63": 1984,
+      "39": 67120,
+      "41": 0
+    }
+  },
+  "reported_effective_rpu_2025": 41495.929443690635,
+  "reported_effective_rpu_H12026": 41634.70873786408,
+  "calibration_factor_2025": 0.9960863831007002,
+  "calibration_factor_H12026": 0.9876828724350989,
+  "implied_common_rebase_H12026_vs_2025": -0.00843652800416983,
+  "rebase_warning": "Composite calibration residual includes FX, channel mix, trim mix and other revenue; NOT identified price or incentive movement; never pass this mechanically into price-only AOI.",
+  "forecasts": {
+    "2027": {
+      "us_customer_sales": 1354950,
+      "na_customer_sales": 1560950,
+      "us_effective_rpu": 42517.312355922666,
+      "na_effective_rpu": 41495.25895698806,
+      "revenue_at_hypothetical_1_6m_na_shipments_EURm": 66392.4143311809
+    },
+    "2028": {
+      "us_customer_sales": 1430700,
+      "na_customer_sales": 1636700,
+      "us_effective_rpu": 41800.04464269652,
+      "na_effective_rpu": 40915.571554077724,
+      "revenue_at_hypothetical_1_6m_na_shipments_EURm": 65464.91448652436
+    }
+  },
+  "rounded_input_forecasts": {
+    "2027": {
+      "us_customer_sales": 1354950,
+      "na_customer_sales": 1560950,
+      "us_effective_rpu": 42452.47057086977,
+      "na_effective_rpu": 41435.32784522246,
+      "revenue_at_hypothetical_1_6m_na_shipments_EURm": 66296.52455235594
+    },
+    "2028": {
+      "us_customer_sales": 1430700,
+      "na_customer_sales": 1636700,
+      "us_effective_rpu": 41740.82616900818,
+      "na_effective_rpu": 40860.32871020957,
+      "revenue_at_hypothetical_1_6m_na_shipments_EURm": 65376.52593633532
+    }
+  },
+  "canada_forecast_rpu": 38557.85217121877,
+  "mexico_forecast_rpu": 29989.440577614594,
+  "model_rows": [
+    {
+      "id": "ram_ld",
+      "model": "Ram light-duty pickups including Classic",
+      "seed_net_price_USD_assumed": 54000,
+      "effective_reference_FY2025_EUR": 47600.58821897152,
+      "effective_reference_H12026_EUR": 47199.004523447205,
+      "rounded_2027_2028_RPU_EUR": 47000,
+      "forecast_units_2027": 285000,
+      "forecast_units_2028": 285000
+    },
+    {
+      "id": "ram_hd",
+      "model": "Ram heavy-duty pickups;2500/3500, chassis scope unresolved",
+      "seed_net_price_USD_assumed": 65000,
+      "effective_reference_FY2025_EUR": 57297.0043376509,
+      "effective_reference_H12026_EUR": 56813.61655600127,
+      "rounded_2027_2028_RPU_EUR": 57000,
+      "forecast_units_2027": 170000,
+      "forecast_units_2028": 170000
+    },
+    {
+      "id": "grand_cherokee",
+      "model": "Grand Cherokee including L and 4xe",
+      "seed_net_price_USD_assumed": 45000,
+      "effective_reference_FY2025_EUR": 39667.15684914293,
+      "effective_reference_H12026_EUR": 39332.50376953934,
+      "rounded_2027_2028_RPU_EUR": 39500,
+      "forecast_units_2027": 190000,
+      "forecast_units_2028": 190000
+    },
+    {
+      "id": "wrangler",
+      "model": "Wrangler including former 4xe",
+      "seed_net_price_USD_assumed": 46000,
+      "effective_reference_FY2025_EUR": 40548.649223568325,
+      "effective_reference_H12026_EUR": 40206.559408862435,
+      "rounded_2027_2028_RPU_EUR": 40000,
+      "forecast_units_2027": 175000,
+      "forecast_units_2028": 175000
+    },
+    {
+      "id": "minivans",
+      "model": "Chrysler Pacifica / Voyager / Pacifica LX",
+      "seed_net_price_USD_assumed": 43000,
+      "effective_reference_FY2025_EUR": 37904.17210029213,
+      "effective_reference_H12026_EUR": 37584.392490893144,
+      "rounded_2027_2028_RPU_EUR": 37500,
+      "forecast_units_2027": 140000,
+      "forecast_units_2028": 140000
+    },
+    {
+      "id": "promaster",
+      "model": "Ram Pro Master large van",
+      "seed_net_price_USD_assumed": 43000,
+      "effective_reference_FY2025_EUR": 37904.17210029213,
+      "effective_reference_H12026_EUR": 37584.392490893144,
+      "rounded_2027_2028_RPU_EUR": 37500,
+      "forecast_units_2027": 58000,
+      "forecast_units_2028": 58000
+    },
+    {
+      "id": "gladiator",
+      "model": "Gladiator",
+      "seed_net_price_USD_assumed": 42000,
+      "effective_reference_FY2025_EUR": 37022.679725866736,
+      "effective_reference_H12026_EUR": 36710.33685157005,
+      "rounded_2027_2028_RPU_EUR": 36500,
+      "forecast_units_2027": 45000,
+      "forecast_units_2028": 45000
+    },
+    {
+      "id": "compass",
+      "model": "Compass",
+      "seed_net_price_USD_assumed": 30000,
+      "effective_reference_FY2025_EUR": 26444.771232761952,
+      "effective_reference_H12026_EUR": 26221.669179692894,
+      "rounded_2027_2028_RPU_EUR": 26000,
+      "forecast_units_2027": 65000,
+      "forecast_units_2028": 65000
+    },
+    {
+      "id": "cherokee",
+      "model": "Cherokee / returning HEV",
+      "seed_net_price_USD_assumed": 33000,
+      "effective_reference_FY2025_EUR": 29089.24835603815,
+      "effective_reference_H12026_EUR": 28843.836097662184,
+      "rounded_2027_2028_RPU_EUR": 29000,
+      "forecast_units_2027": 45000,
+      "forecast_units_2028": 48000
+    },
+    {
+      "id": "wagoneer_family",
+      "model": "Wagoneer / Grand Wagoneer combined",
+      "seed_net_price_USD_assumed": 70000,
+      "effective_reference_FY2025_EUR": 61704.46620977789,
+      "effective_reference_H12026_EUR": 61183.894752616754,
+      "rounded_2027_2028_RPU_EUR": 61000,
+      "forecast_units_2027": 55000,
+      "forecast_units_2028": 55000
+    },
+    {
+      "id": "durango",
+      "model": "Dodge Durango",
+      "seed_net_price_USD_assumed": 42000,
+      "effective_reference_FY2025_EUR": 37022.679725866736,
+      "effective_reference_H12026_EUR": 36710.33685157005,
+      "rounded_2027_2028_RPU_EUR": 36500,
+      "forecast_units_2027": 88000,
+      "forecast_units_2028": 88000
+    },
+    {
+      "id": "charger",
+      "model": "Dodge Charger gasoline plus Daytona BEV",
+      "seed_net_price_USD_assumed": 45000,
+      "effective_reference_FY2025_EUR": 39667.15684914293,
+      "effective_reference_H12026_EUR": 39332.50376953934,
+      "rounded_2027_2028_RPU_EUR": 39500,
+      "forecast_units_2027": 15000,
+      "forecast_units_2028": 15000
+    },
+    {
+      "id": "fiat_alfa",
+      "model": "Other US brands Fiat and Alfa Romeo",
+      "seed_net_price_USD_assumed": 38000,
+      "effective_reference_FY2025_EUR": 33496.710228165146,
+      "effective_reference_H12026_EUR": 33214.11429427767,
+      "rounded_2027_2028_RPU_EUR": 33000,
+      "forecast_units_2027": 3000,
+      "forecast_units_2028": 3000
+    },
+    {
+      "id": "hornet",
+      "model": "Dodge Hornet",
+      "seed_net_price_USD_assumed": 28000,
+      "effective_reference_FY2025_EUR": 24681.786483911157,
+      "effective_reference_H12026_EUR": 24473.5579010467,
+      "rounded_2027_2028_RPU_EUR": 24500,
+      "forecast_units_2027": 100,
+      "forecast_units_2028": 0
+    },
+    {
+      "id": "dodge_other",
+      "model": "Dodge legacy runoff excluding GLH",
+      "seed_net_price_USD_assumed": 32000,
+      "effective_reference_FY2025_EUR": 28207.75598161275,
+      "effective_reference_H12026_EUR": 27969.780458339086,
+      "rounded_2027_2028_RPU_EUR": 28000,
+      "forecast_units_2027": 50,
+      "forecast_units_2028": 0
+    },
+    {
+      "id": "promaster_city",
+      "model": "Ram Pro Master City old runoff and returning midsize van",
+      "seed_net_price_USD_assumed": 33000,
+      "effective_reference_FY2025_EUR": 29089.24835603815,
+      "effective_reference_H12026_EUR": 28843.836097662184,
+      "rounded_2027_2028_RPU_EUR": 29000,
+      "forecast_units_2027": 10000,
+      "forecast_units_2028": 13000
+    },
+    {
+      "id": "chrysler_new",
+      "model": "Chrysler Airflow / Arrow / Arrow Cross combined",
+      "seed_net_price_USD_assumed": 32000,
+      "effective_reference_FY2025_EUR": 28207.75598161275,
+      "effective_reference_H12026_EUR": 27969.780458339086,
+      "rounded_2027_2028_RPU_EUR": 28000,
+      "forecast_units_2027": 10000,
+      "forecast_units_2028": 50000
+    },
+    {
+      "id": "ram_dakota",
+      "model": "Ram Dakota North American midsize pickup",
+      "seed_net_price_USD_assumed": 37000,
+      "effective_reference_FY2025_EUR": 32615.21785373974,
+      "effective_reference_H12026_EUR": 32340.058654954566,
+      "rounded_2027_2028_RPU_EUR": 32500,
+      "forecast_units_2027": 0,
+      "forecast_units_2028": 20000
+    },
+    {
+      "id": "ram_compact",
+      "model": "Ram compact / Rampage-based North American pickup",
+      "seed_net_price_USD_assumed": 30000,
+      "effective_reference_FY2025_EUR": 26444.771232761952,
+      "effective_reference_H12026_EUR": 26221.669179692894,
+      "rounded_2027_2028_RPU_EUR": 26000,
+      "forecast_units_2027": 0,
+      "forecast_units_2028": 10000
+    },
+    {
+      "id": "ram_suv",
+      "model": "Ram large SUV / Ramcharger on2030map",
+      "seed_net_price_USD_assumed": 65000,
+      "effective_reference_FY2025_EUR": 57297.0043376509,
+      "effective_reference_H12026_EUR": 56813.61655600127,
+      "rounded_2027_2028_RPU_EUR": 57000,
+      "forecast_units_2027": 0,
+      "forecast_units_2028": 0
+    },
+    {
+      "id": "wagoneer_s",
+      "model": "Wagoneer S BEV",
+      "seed_net_price_USD_assumed": 55000,
+      "effective_reference_FY2025_EUR": 48482.08059339692,
+      "effective_reference_H12026_EUR": 48073.06016277031,
+      "rounded_2027_2028_RPU_EUR": 48000,
+      "forecast_units_2027": 600,
+      "forecast_units_2028": 600
+    },
+    {
+      "id": "recon",
+      "model": "Recon BEV / possible later ICE",
+      "seed_net_price_USD_assumed": 55000,
+      "effective_reference_FY2025_EUR": 48482.08059339692,
+      "effective_reference_H12026_EUR": 48073.06016277031,
+      "rounded_2027_2028_RPU_EUR": 48000,
+      "forecast_units_2027": 100,
+      "forecast_units_2028": 100
+    },
+    {
+      "id": "dodge_glh",
+      "model": "Dodge GLH possible replacement",
+      "seed_net_price_USD_assumed": 30000,
+      "effective_reference_FY2025_EUR": 26444.771232761952,
+      "effective_reference_H12026_EUR": 26221.669179692894,
+      "rounded_2027_2028_RPU_EUR": 26000,
+      "forecast_units_2027": 0,
+      "forecast_units_2028": 0
+    },
+    {
+      "id": "renegade",
+      "model": "Legacy Jeep / unlisted residual",
+      "seed_net_price_USD_assumed": 26000,
+      "effective_reference_FY2025_EUR": 22918.801735060362,
+      "effective_reference_H12026_EUR": 22725.44662240051,
+      "rounded_2027_2028_RPU_EUR": 22500,
+      "forecast_units_2027": 50,
+      "forecast_units_2028": 0
+    },
+    {
+      "id": "chrysler_runoff",
+      "model": "Chrysler legacy runoff",
+      "seed_net_price_USD_assumed": 32000,
+      "effective_reference_FY2025_EUR": 28207.75598161275,
+      "effective_reference_H12026_EUR": 27969.780458339086,
+      "rounded_2027_2028_RPU_EUR": 28000,
+      "forecast_units_2027": 50,
+      "forecast_units_2028": 0
+    }
+  ],
+  "tests": [
+    {
+      "test": "Extra EUR500 support per US vehicle",
+      "na_rpu": 40478.50306260097,
+      "change_na_rpu": -437.0684914767553
+    },
+    {
+      "test": "Extra EUR1000 support per US vehicle",
+      "na_rpu": 40041.43457112422,
+      "change_na_rpu": -874.1369829535033
+    },
+    {
+      "test": "Ram LD and HD relative RPU -10%; no recalibration",
+      "change_na_rpu": -1411.9894362865962
+    },
+    {
+      "test": "Ram LD and HD relative RPU +10%; no recalibration",
+      "change_na_rpu": 1411.989436286589
+    },
+    {
+      "test": "Grand Cherokee and Wrangler relative RPU -10%; no recalibration",
+      "change_na_rpu": -886.4986627215403
+    },
+    {
+      "test": "Grand Cherokee and Wrangler relative RPU +10%; no recalibration",
+      "change_na_rpu": 886.498662721533
+    },
+    {
+      "test": "Canada and Mexico RPU -10%",
+      "change_na_rpu": -437.66066427892656
+    },
+    {
+      "test": "Canada and Mexico RPU +10%",
+      "change_na_rpu": 437.660664278912
+    },
+    {
+      "test": "New Chrysler family RPU -20%",
+      "change_na_rpu": -170.89130847644265
+    },
+    {
+      "test": "New Chrysler family RPU +20%",
+      "change_na_rpu": 170.89130847643537
+    }
+  ],
+  "annual_same_model_net_price_growth_2027": 0,
+  "annual_same_model_net_price_growth_2028": 0,
+  "incremental_incentives_vs_H12026_reference_EUR": 0,
+  "total_brand_incentives_EUR": null,
+  "other_regional_revenue_EURm": 0,
+  "residual_note": "Zero is a modeling allocation convention; other revenues embedded in effective RPU are not economically zero.",
+  "limits": [
+    "FY2025 and H12026 fit by construction, not independent validation.",
+    "Historical Wagoneer workbook grouping includes Wagoneer S; split not reconstructed for this low-materiality calibration.",
+    "Pacifica/Voyager use a common effective family RPU; no invented trim split.",
+    "D098 forecast volumes are gross before launch substitution; these are price tests, not endorsement of final shipment forecasts.",
+    "Customer-sales weighting assumes wholesale mix similarity; country price ratios are judgment.",
+    "Q3/Q4 2026 use H1 reference scenario pending reported financial results, not inferred actuals.",
+    "Round to EUR500 for model entry and recalculate aggregates; exact values retained only to reproduce arithmetic.",
+    "Blank historical model rows for future launches are hypothetical price equivalents, not actual 2025 model revenue."
+  ]
+}
