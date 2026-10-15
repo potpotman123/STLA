@@ -140,7 +140,7 @@ Execution/transition costs require their own explicit assumption. Avoid includin
 
 ## 8. AOI: assumptions beyond VCP
 
-**New AI proposal, 14 October:** use EUR5,000 effective volume/mix AOI contribution per incremental NA shipment for 2027–28 (EUR3,000–8,000 sensitivity). Historical recovery bridges imply EUR4,290 in H2 2025 and EUR5,960 in H1 2026; pooled EUR5,012, rounded. This is not pure marginal profit, and FY2025 negative mix despite rising units demonstrates its limits. See [evidence, calculations and required price/VCP accounting conventions](../research/aoi-volume-contribution-2026-10-14/README.md). At current shipment scenarios, 2028 YoY volume/mix benefit is EUR514m before other bridge effects. No workbook changed; proposal is not yet user-approved.
+**User-selected input, 14 October (originally AI-proposed):** use EUR5,000 effective volume/mix AOI contribution per incremental NA shipment for 2027–28 (EUR3,000–8,000 sensitivity). Historical recovery bridges imply EUR4,290 in H2 2025 and EUR5,960 in H1 2026; pooled EUR5,012, rounded. This is not pure marginal profit, and FY2025 negative mix despite rising units demonstrates its limits. See [evidence, calculations and required price/VCP accounting conventions](../research/aoi-volume-contribution-2026-10-14/README.md). At current shipment scenarios, 2028 YoY volume/mix benefit is EUR514m before other bridge effects. User chose to retain this shortcut after considering a cost-based alternative. Keep the existing AOI-bridge architecture; do not also derive and add the same volume profit from a full cost schedule. Sensitivity endpoints remain AI proposals. No workbook changed.
 
 `Model Assumptions` rows 14 and 16–20 remain blank for forecast periods:
 

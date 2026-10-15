@@ -1,6 +1,6 @@
 # North American volume-to-AOI conversion
 
-14 October 2026. AI working proposal: **EUR5,000 effective volume/mix AOI contribution per incremental shipment in 2027 and 2028**, sensitivity EUR3,000–8,000. No workbook changed. This is not a measured pure marginal contribution or a model-specific margin.
+14 October 2026. User-selected base case (originally proposed by AI): **EUR5,000 effective volume/mix AOI contribution per incremental shipment in 2027 and 2028**, sensitivity EUR3,000–8,000. The user elected to retain this shortcut after discussing a cost-based alternative; that alternative is not the selected architecture. Sensitivities remain AI proposals. No workbook changed. This is not a measured pure marginal contribution or a model-specific margin.
 
 ## Sources and extraction
 
