@@ -1,0 +1,934 @@
+{
+  "inputs": {
+    "status": "AI-recommended implementation case under user instruction to resolve assumptions; judgments remain estimates, not independently observed outcomes",
+    "h1_2026_aoi_eurm": 547,
+    "h1_2026_shipments": 824000,
+    "na_q1_2026_ieepa_adjustment_eurm": 400,
+    "group_H2_vs_H1_2026_raw_material_headwind_eurm": 600,
+    "NA_share_of_incremental_raw_material_headwind": 0.4,
+    "NA_all_in_labor_inflation_2027_and_2028": 0.03,
+    "incremental_SGA_execution_envelope_vs_2026_eurm": {
+      "2027": 200,
+      "2028": 400
+    },
+    "internal_substitution_share_of_four_launch_families": 0.2,
+    "warranty_operational_savings_credited_eurm": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0
+    },
+    "future_tariff_policy_change_beyond_refund_expiry": 0,
+    "additional_post_H2_2026_raw_material_price_inflation": 0,
+    "further_FX_RD_change": 0,
+    "volume_coefficient_eur": 5000,
+    "q3_2026_shipments_preliminary": 357000,
+    "q4_2026_shipments_assumed": 399625,
+    "source_types": {
+      "na_q1_2026_ieepa_adjustment_eurm": "reported NA interim report p20",
+      "group_H2_vs_H1_2026_raw_material_headwind_eurm": "derived from CFO approx1000 combined less400 adjustment",
+      "NA_share_of_incremental_raw_material_headwind": "assumed rounded35/88 purchasing-pool allocation proxy",
+      "NA_all_in_labor_inflation_2027_and_2028": "assumed planning rate, not UAW rate applied to NA payroll",
+      "incremental_SGA_execution_envelope_vs_2026_eurm": "assumed additional spending envelope; scale anchored to management group0.6pp, not regional guidance",
+      "internal_substitution_share_of_four_launch_families": "assumed planning reserve, not measured cannibalization"
+    }
+  },
+  "quarterly_2026": {
+    "Q3": {
+      "shipments": 357000,
+      "normalized_H1_quarter_AOI": 73.5,
+      "sequential_volume": -275.0,
+      "additional_raw_material": -120.0,
+      "aoi": -321.5,
+      "aggregate_reference_rebase_before_raw_material": 408.85,
+      "required_aggregate_other_rebase_in_existing_yoy_bridge": 288.85
+    },
+    "Q4": {
+      "shipments": 399625,
+      "normalized_H1_quarter_AOI": 73.5,
+      "sequential_volume": -61.875,
+      "additional_raw_material": -120.0,
+      "aoi": -108.375,
+      "aggregate_reference_rebase_before_raw_material": 494.85,
+      "required_aggregate_other_rebase_in_existing_yoy_bridge": 374.85
+    }
+  },
+  "annual": {
+    "2026": {
+      "shipments": 1580625,
+      "revenue": 65834.06691866944,
+      "AOI": 117.125,
+      "margin": 0.0017790940994833985
+    },
+    "2027": {
+      "us_customer_sales": 1350950.0,
+      "us_shipments": 1323931.0,
+      "shipments": 1529931.0,
+      "revenue": 62728.4,
+      "AOI": -602.0325,
+      "margin": -0.009597447089356656,
+      "substitution_units": 4000.0,
+      "bridge": {
+        "prior_AOI": 117.125,
+        "volume_mix": -253.47,
+        "price_support": -661.9655,
+        "incremental_VCP": 1195.8000000000002,
+        "refund_nonrepeat": -400,
+        "raw_material_annualization": -240.0,
+        "labor_inflation": -159.52200000000013,
+        "SGA_execution_reinvestment": -200,
+        "AOI_delta": -719.1575
+      },
+      "cumulative_additional_labor_cost": 159.52200000000013,
+      "variance_vs_inspected_workbook_AOI": -353.462
+    },
+    "2028": {
+      "us_customer_sales": 1412100.0,
+      "us_shipments": 1412100.0,
+      "shipments": 1618100.0,
+      "revenue": 65837.075,
+      "AOI": 2191.72585,
+      "margin": 0.033290146167641865,
+      "substitution_units": 18600.0,
+      "bridge": {
+        "prior_AOI": -602.0325,
+        "volume_mix": 440.845,
+        "price_support": 308.94050000000004,
+        "incremental_VCP": 2391.6,
+        "refund_nonrepeat": 0,
+        "raw_material_annualization": 0.0,
+        "labor_inflation": -147.62714999999966,
+        "SGA_execution_reinvestment": -200,
+        "AOI_delta": 2793.75835
+      },
+      "cumulative_additional_labor_cost": 307.1491499999998,
+      "variance_vs_inspected_workbook_AOI": -771.7991500000003
+    }
+  },
+  "model_inputs": {
+    "2027": [
+      {
+        "id": "ram_ld",
+        "gross_customer_sales": 285000,
+        "donor_deduction": 0.0,
+        "net_customer_sales": 285000.0,
+        "net_rpu_eur": 46500
+      },
+      {
+        "id": "ram_hd",
+        "gross_customer_sales": 170000,
+        "donor_deduction": 0,
+        "net_customer_sales": 170000,
+        "net_rpu_eur": 56500
+      },
+      {
+        "id": "grand_cherokee",
+        "gross_customer_sales": 190000,
+        "donor_deduction": 1000.0,
+        "net_customer_sales": 189000.0,
+        "net_rpu_eur": 39000
+      },
+      {
+        "id": "wrangler",
+        "gross_customer_sales": 175000,
+        "donor_deduction": 0,
+        "net_customer_sales": 175000,
+        "net_rpu_eur": 39500
+      },
+      {
+        "id": "minivans",
+        "gross_customer_sales": 140000,
+        "donor_deduction": 0,
+        "net_customer_sales": 140000,
+        "net_rpu_eur": 37000
+      },
+      {
+        "id": "promaster",
+        "gross_customer_sales": 58000,
+        "donor_deduction": 2000.0,
+        "net_customer_sales": 56000.0,
+        "net_rpu_eur": 37000
+      },
+      {
+        "id": "gladiator",
+        "gross_customer_sales": 45000,
+        "donor_deduction": 0,
+        "net_customer_sales": 45000,
+        "net_rpu_eur": 36000
+      },
+      {
+        "id": "compass",
+        "gross_customer_sales": 65000,
+        "donor_deduction": 1000.0,
+        "net_customer_sales": 64000.0,
+        "net_rpu_eur": 25500
+      },
+      {
+        "id": "cherokee",
+        "gross_customer_sales": 45000,
+        "donor_deduction": 0,
+        "net_customer_sales": 45000,
+        "net_rpu_eur": 28500
+      },
+      {
+        "id": "wagoneer_family",
+        "gross_customer_sales": 55000,
+        "donor_deduction": 0,
+        "net_customer_sales": 55000,
+        "net_rpu_eur": 60500
+      },
+      {
+        "id": "durango",
+        "gross_customer_sales": 88000,
+        "donor_deduction": 0,
+        "net_customer_sales": 88000,
+        "net_rpu_eur": 36000
+      },
+      {
+        "id": "charger",
+        "gross_customer_sales": 15000,
+        "donor_deduction": 0,
+        "net_customer_sales": 15000,
+        "net_rpu_eur": 39000
+      },
+      {
+        "id": "fiat_alfa",
+        "gross_customer_sales": 3000,
+        "donor_deduction": 0,
+        "net_customer_sales": 3000,
+        "net_rpu_eur": 32500
+      },
+      {
+        "id": "hornet",
+        "gross_customer_sales": 100,
+        "donor_deduction": 0,
+        "net_customer_sales": 100,
+        "net_rpu_eur": 24000
+      },
+      {
+        "id": "dodge_other",
+        "gross_customer_sales": 50,
+        "donor_deduction": 0,
+        "net_customer_sales": 50,
+        "net_rpu_eur": 27500
+      },
+      {
+        "id": "promaster_city",
+        "gross_customer_sales": 10000,
+        "donor_deduction": 0,
+        "net_customer_sales": 10000,
+        "net_rpu_eur": 28500
+      },
+      {
+        "id": "chrysler_new",
+        "gross_customer_sales": 10000,
+        "donor_deduction": 0,
+        "net_customer_sales": 10000,
+        "net_rpu_eur": 27500
+      },
+      {
+        "id": "ram_dakota",
+        "gross_customer_sales": 0,
+        "donor_deduction": 0,
+        "net_customer_sales": 0,
+        "net_rpu_eur": 32000
+      },
+      {
+        "id": "ram_compact",
+        "gross_customer_sales": 0,
+        "donor_deduction": 0,
+        "net_customer_sales": 0,
+        "net_rpu_eur": 25500
+      },
+      {
+        "id": "ram_suv",
+        "gross_customer_sales": 0,
+        "donor_deduction": 0,
+        "net_customer_sales": 0,
+        "net_rpu_eur": 56500
+      },
+      {
+        "id": "wagoneer_s",
+        "gross_customer_sales": 600,
+        "donor_deduction": 0,
+        "net_customer_sales": 600,
+        "net_rpu_eur": 47500
+      },
+      {
+        "id": "recon",
+        "gross_customer_sales": 100,
+        "donor_deduction": 0,
+        "net_customer_sales": 100,
+        "net_rpu_eur": 47500
+      },
+      {
+        "id": "dodge_glh",
+        "gross_customer_sales": 0,
+        "donor_deduction": 0,
+        "net_customer_sales": 0,
+        "net_rpu_eur": 25500
+      },
+      {
+        "id": "renegade",
+        "gross_customer_sales": 50,
+        "donor_deduction": 0,
+        "net_customer_sales": 50,
+        "net_rpu_eur": 22000
+      },
+      {
+        "id": "chrysler_runoff",
+        "gross_customer_sales": 50,
+        "donor_deduction": 0,
+        "net_customer_sales": 50,
+        "net_rpu_eur": 27500
+      }
+    ],
+    "2028": [
+      {
+        "id": "ram_ld",
+        "gross_customer_sales": 285000,
+        "donor_deduction": 5000.0,
+        "net_customer_sales": 280000.0,
+        "net_rpu_eur": 46750
+      },
+      {
+        "id": "ram_hd",
+        "gross_customer_sales": 170000,
+        "donor_deduction": 0,
+        "net_customer_sales": 170000,
+        "net_rpu_eur": 56750
+      },
+      {
+        "id": "grand_cherokee",
+        "gross_customer_sales": 190000,
+        "donor_deduction": 5000.0,
+        "net_customer_sales": 185000.0,
+        "net_rpu_eur": 39250
+      },
+      {
+        "id": "wrangler",
+        "gross_customer_sales": 175000,
+        "donor_deduction": 0,
+        "net_customer_sales": 175000,
+        "net_rpu_eur": 39750
+      },
+      {
+        "id": "minivans",
+        "gross_customer_sales": 140000,
+        "donor_deduction": 0,
+        "net_customer_sales": 140000,
+        "net_rpu_eur": 37250
+      },
+      {
+        "id": "promaster",
+        "gross_customer_sales": 58000,
+        "donor_deduction": 2600.0,
+        "net_customer_sales": 55400.0,
+        "net_rpu_eur": 37250
+      },
+      {
+        "id": "gladiator",
+        "gross_customer_sales": 45000,
+        "donor_deduction": 0,
+        "net_customer_sales": 45000,
+        "net_rpu_eur": 36250
+      },
+      {
+        "id": "compass",
+        "gross_customer_sales": 65000,
+        "donor_deduction": 6000.0,
+        "net_customer_sales": 59000.0,
+        "net_rpu_eur": 25750
+      },
+      {
+        "id": "cherokee",
+        "gross_customer_sales": 48000,
+        "donor_deduction": 0,
+        "net_customer_sales": 48000,
+        "net_rpu_eur": 28750
+      },
+      {
+        "id": "wagoneer_family",
+        "gross_customer_sales": 55000,
+        "donor_deduction": 0,
+        "net_customer_sales": 55000,
+        "net_rpu_eur": 60750
+      },
+      {
+        "id": "durango",
+        "gross_customer_sales": 88000,
+        "donor_deduction": 0,
+        "net_customer_sales": 88000,
+        "net_rpu_eur": 36250
+      },
+      {
+        "id": "charger",
+        "gross_customer_sales": 15000,
+        "donor_deduction": 0,
+        "net_customer_sales": 15000,
+        "net_rpu_eur": 39250
+      },
+      {
+        "id": "fiat_alfa",
+        "gross_customer_sales": 3000,
+        "donor_deduction": 0,
+        "net_customer_sales": 3000,
+        "net_rpu_eur": 32750
+      },
+      {
+        "id": "hornet",
+        "gross_customer_sales": 0,
+        "donor_deduction": 0,
+        "net_customer_sales": 0,
+        "net_rpu_eur": 24250
+      },
+      {
+        "id": "dodge_other",
+        "gross_customer_sales": 0,
+        "donor_deduction": 0,
+        "net_customer_sales": 0,
+        "net_rpu_eur": 27750
+      },
+      {
+        "id": "promaster_city",
+        "gross_customer_sales": 13000,
+        "donor_deduction": 0,
+        "net_customer_sales": 13000,
+        "net_rpu_eur": 28750
+      },
+      {
+        "id": "chrysler_new",
+        "gross_customer_sales": 50000,
+        "donor_deduction": 0,
+        "net_customer_sales": 50000,
+        "net_rpu_eur": 27750
+      },
+      {
+        "id": "ram_dakota",
+        "gross_customer_sales": 20000,
+        "donor_deduction": 0,
+        "net_customer_sales": 20000,
+        "net_rpu_eur": 32250
+      },
+      {
+        "id": "ram_compact",
+        "gross_customer_sales": 10000,
+        "donor_deduction": 0,
+        "net_customer_sales": 10000,
+        "net_rpu_eur": 25750
+      },
+      {
+        "id": "ram_suv",
+        "gross_customer_sales": 0,
+        "donor_deduction": 0,
+        "net_customer_sales": 0,
+        "net_rpu_eur": 56750
+      },
+      {
+        "id": "wagoneer_s",
+        "gross_customer_sales": 600,
+        "donor_deduction": 0,
+        "net_customer_sales": 600,
+        "net_rpu_eur": 47750
+      },
+      {
+        "id": "recon",
+        "gross_customer_sales": 100,
+        "donor_deduction": 0,
+        "net_customer_sales": 100,
+        "net_rpu_eur": 47750
+      },
+      {
+        "id": "dodge_glh",
+        "gross_customer_sales": 0,
+        "donor_deduction": 0,
+        "net_customer_sales": 0,
+        "net_rpu_eur": 25750
+      },
+      {
+        "id": "renegade",
+        "gross_customer_sales": 0,
+        "donor_deduction": 0,
+        "net_customer_sales": 0,
+        "net_rpu_eur": 22250
+      },
+      {
+        "id": "chrysler_runoff",
+        "gross_customer_sales": 0,
+        "donor_deduction": 0,
+        "net_customer_sales": 0,
+        "net_rpu_eur": 27750
+      }
+    ]
+  },
+  "one_at_a_time_sensitivities": {
+    "zero_substitution": {
+      "2026": {
+        "shipments": 1580625,
+        "revenue": 65834.06691866944,
+        "AOI": 117.125,
+        "margin": 0.0017790940994833985
+      },
+      "2027": {
+        "us_customer_sales": 1354950.0,
+        "us_shipments": 1327851.0,
+        "shipments": 1533851.0,
+        "revenue": 62864.13,
+        "AOI": -584.3925,
+        "margin": -0.009296120060835966,
+        "substitution_units": 0.0,
+        "bridge": {
+          "prior_AOI": 117.125,
+          "volume_mix": -233.87,
+          "price_support": -663.9255,
+          "incremental_VCP": 1195.8000000000002,
+          "refund_nonrepeat": -400,
+          "raw_material_annualization": -240.0,
+          "labor_inflation": -159.52200000000013,
+          "SGA_execution_reinvestment": -200,
+          "AOI_delta": -701.5175
+        },
+        "cumulative_additional_labor_cost": 159.52200000000013,
+        "variance_vs_inspected_workbook_AOI": -335.822
+      },
+      "2028": {
+        "us_customer_sales": 1430700.0,
+        "us_shipments": 1430700.0,
+        "shipments": 1636700.0,
+        "revenue": 66518.425,
+        "AOI": 2280.07585,
+        "margin": 0.03427735773960373,
+        "substitution_units": 0.0,
+        "bridge": {
+          "prior_AOI": -584.3925,
+          "volume_mix": 514.245,
+          "price_support": 306.25050000000005,
+          "incremental_VCP": 2391.6,
+          "refund_nonrepeat": 0,
+          "raw_material_annualization": 0.0,
+          "labor_inflation": -147.62714999999966,
+          "SGA_execution_reinvestment": -200,
+          "AOI_delta": 2864.46835
+        },
+        "cumulative_additional_labor_cost": 307.1491499999998,
+        "variance_vs_inspected_workbook_AOI": -683.4491499999999
+      }
+    },
+    "forty_pct_substitution": {
+      "2026": {
+        "shipments": 1580625,
+        "revenue": 65834.06691866944,
+        "AOI": 117.125,
+        "margin": 0.0017790940994833985
+      },
+      "2027": {
+        "us_customer_sales": 1346950.0,
+        "us_shipments": 1320011.0,
+        "shipments": 1526011.0,
+        "revenue": 62592.67,
+        "AOI": -619.6724999999999,
+        "margin": -0.009900080951970893,
+        "substitution_units": 8000.0,
+        "bridge": {
+          "prior_AOI": 117.125,
+          "volume_mix": -273.07,
+          "price_support": -660.0055,
+          "incremental_VCP": 1195.8000000000002,
+          "refund_nonrepeat": -400,
+          "raw_material_annualization": -240.0,
+          "labor_inflation": -159.52200000000013,
+          "SGA_execution_reinvestment": -200,
+          "AOI_delta": -736.7974999999999
+        },
+        "cumulative_additional_labor_cost": 159.52200000000013,
+        "variance_vs_inspected_workbook_AOI": -371.10199999999986
+      },
+      "2028": {
+        "us_customer_sales": 1393500.0,
+        "us_shipments": 1393500.0,
+        "shipments": 1599500.0,
+        "revenue": 65155.725,
+        "AOI": 2103.3758500000004,
+        "margin": 0.03228228755032655,
+        "substitution_units": 37200.0,
+        "bridge": {
+          "prior_AOI": -619.6724999999999,
+          "volume_mix": 367.445,
+          "price_support": 311.6305,
+          "incremental_VCP": 2391.6,
+          "refund_nonrepeat": 0,
+          "raw_material_annualization": 0.0,
+          "labor_inflation": -147.62714999999966,
+          "SGA_execution_reinvestment": -200,
+          "AOI_delta": 2723.04835
+        },
+        "cumulative_additional_labor_cost": 307.1491499999998,
+        "variance_vs_inspected_workbook_AOI": -860.1491499999997
+      }
+    },
+    "raw_material_NA_share_25pct": {
+      "2026": {
+        "shipments": 1580625,
+        "revenue": 65834.06691866944,
+        "AOI": 207.125,
+        "margin": 0.003146167473686223
+      },
+      "2027": {
+        "us_customer_sales": 1350950.0,
+        "us_shipments": 1323931.0,
+        "shipments": 1529931.0,
+        "revenue": 62728.4,
+        "AOI": -422.0325,
+        "margin": -0.00672793344003673,
+        "substitution_units": 4000.0,
+        "bridge": {
+          "prior_AOI": 207.125,
+          "volume_mix": -253.47,
+          "price_support": -661.9655,
+          "incremental_VCP": 1195.8000000000002,
+          "refund_nonrepeat": -400,
+          "raw_material_annualization": -150.0,
+          "labor_inflation": -159.52200000000013,
+          "SGA_execution_reinvestment": -200,
+          "AOI_delta": -629.1575
+        },
+        "cumulative_additional_labor_cost": 159.52200000000013,
+        "variance_vs_inspected_workbook_AOI": -173.462
+      },
+      "2028": {
+        "us_customer_sales": 1412100.0,
+        "us_shipments": 1412100.0,
+        "shipments": 1618100.0,
+        "revenue": 65837.075,
+        "AOI": 2371.72585,
+        "margin": 0.03602416799348999,
+        "substitution_units": 18600.0,
+        "bridge": {
+          "prior_AOI": -422.0325,
+          "volume_mix": 440.845,
+          "price_support": 308.94050000000004,
+          "incremental_VCP": 2391.6,
+          "refund_nonrepeat": 0,
+          "raw_material_annualization": 0.0,
+          "labor_inflation": -147.62714999999966,
+          "SGA_execution_reinvestment": -200,
+          "AOI_delta": 2793.75835
+        },
+        "cumulative_additional_labor_cost": 307.1491499999998,
+        "variance_vs_inspected_workbook_AOI": -591.7991500000003
+      }
+    },
+    "raw_material_NA_share_55pct": {
+      "2026": {
+        "shipments": 1580625,
+        "revenue": 65834.06691866944,
+        "AOI": 27.125,
+        "margin": 0.0004120207252805736
+      },
+      "2027": {
+        "us_customer_sales": 1350950.0,
+        "us_shipments": 1323931.0,
+        "shipments": 1529931.0,
+        "revenue": 62728.4,
+        "AOI": -782.0325,
+        "margin": -0.01246696073867658,
+        "substitution_units": 4000.0,
+        "bridge": {
+          "prior_AOI": 27.125,
+          "volume_mix": -253.47,
+          "price_support": -661.9655,
+          "incremental_VCP": 1195.8000000000002,
+          "refund_nonrepeat": -400,
+          "raw_material_annualization": -330.0,
+          "labor_inflation": -159.52200000000013,
+          "SGA_execution_reinvestment": -200,
+          "AOI_delta": -809.1575
+        },
+        "cumulative_additional_labor_cost": 159.52200000000013,
+        "variance_vs_inspected_workbook_AOI": -533.462
+      },
+      "2028": {
+        "us_customer_sales": 1412100.0,
+        "us_shipments": 1412100.0,
+        "shipments": 1618100.0,
+        "revenue": 65837.075,
+        "AOI": 2011.72585,
+        "margin": 0.03055612434179374,
+        "substitution_units": 18600.0,
+        "bridge": {
+          "prior_AOI": -782.0325,
+          "volume_mix": 440.845,
+          "price_support": 308.94050000000004,
+          "incremental_VCP": 2391.6,
+          "refund_nonrepeat": 0,
+          "raw_material_annualization": 0.0,
+          "labor_inflation": -147.62714999999966,
+          "SGA_execution_reinvestment": -200,
+          "AOI_delta": 2793.75835
+        },
+        "cumulative_additional_labor_cost": 307.1491499999998,
+        "variance_vs_inspected_workbook_AOI": -951.79915
+      }
+    },
+    "no_further_labor_inflation": {
+      "2026": {
+        "shipments": 1580625,
+        "revenue": 65834.06691866944,
+        "AOI": 117.125,
+        "margin": 0.0017790940994833985
+      },
+      "2027": {
+        "us_customer_sales": 1350950.0,
+        "us_shipments": 1323931.0,
+        "shipments": 1529931.0,
+        "revenue": 62728.4,
+        "AOI": -442.51049999999987,
+        "margin": -0.007054388442874358,
+        "substitution_units": 4000.0,
+        "bridge": {
+          "prior_AOI": 117.125,
+          "volume_mix": -253.47,
+          "price_support": -661.9655,
+          "incremental_VCP": 1195.8000000000002,
+          "refund_nonrepeat": -400,
+          "raw_material_annualization": -240.0,
+          "labor_inflation": 0.0,
+          "SGA_execution_reinvestment": -200,
+          "AOI_delta": -559.6354999999999
+        },
+        "cumulative_additional_labor_cost": 0.0,
+        "variance_vs_inspected_workbook_AOI": -193.93999999999983
+      },
+      "2028": {
+        "us_customer_sales": 1412100.0,
+        "us_shipments": 1412100.0,
+        "shipments": 1618100.0,
+        "revenue": 65837.075,
+        "AOI": 2498.875,
+        "margin": 0.0379554377225902,
+        "substitution_units": 18600.0,
+        "bridge": {
+          "prior_AOI": -442.51049999999987,
+          "volume_mix": 440.845,
+          "price_support": 308.94050000000004,
+          "incremental_VCP": 2391.6,
+          "refund_nonrepeat": 0,
+          "raw_material_annualization": 0.0,
+          "labor_inflation": 0.0,
+          "SGA_execution_reinvestment": -200,
+          "AOI_delta": 2941.3855
+        },
+        "cumulative_additional_labor_cost": 0.0,
+        "variance_vs_inspected_workbook_AOI": -464.6500000000001
+      }
+    },
+    "labor_inflation_5pct": {
+      "2026": {
+        "shipments": 1580625,
+        "revenue": 65834.06691866944,
+        "AOI": 117.125,
+        "margin": 0.0017790940994833985
+      },
+      "2027": {
+        "us_customer_sales": 1350950.0,
+        "us_shipments": 1323931.0,
+        "shipments": 1529931.0,
+        "revenue": 62728.4,
+        "AOI": -708.3805000000001,
+        "margin": -0.011292819520344853,
+        "substitution_units": 4000.0,
+        "bridge": {
+          "prior_AOI": 117.125,
+          "volume_mix": -253.47,
+          "price_support": -661.9655,
+          "incremental_VCP": 1195.8000000000002,
+          "refund_nonrepeat": -400,
+          "raw_material_annualization": -240.0,
+          "labor_inflation": -265.87000000000023,
+          "SGA_execution_reinvestment": -200,
+          "AOI_delta": -825.5055000000001
+        },
+        "cumulative_additional_labor_cost": 265.87000000000023,
+        "variance_vs_inspected_workbook_AOI": -459.81000000000006
+      },
+      "2028": {
+        "us_customer_sales": 1412100.0,
+        "us_shipments": 1412100.0,
+        "shipments": 1618100.0,
+        "revenue": 65837.075,
+        "AOI": 1981.9162499999998,
+        "margin": 0.030103346025017057,
+        "substitution_units": 18600.0,
+        "bridge": {
+          "prior_AOI": -708.3805000000001,
+          "volume_mix": 440.845,
+          "price_support": 308.94050000000004,
+          "incremental_VCP": 2391.6,
+          "refund_nonrepeat": 0,
+          "raw_material_annualization": 0.0,
+          "labor_inflation": -251.0887499999999,
+          "SGA_execution_reinvestment": -200,
+          "AOI_delta": 2690.29675
+        },
+        "cumulative_additional_labor_cost": 516.9587500000001,
+        "variance_vs_inspected_workbook_AOI": -981.6087500000003
+      }
+    },
+    "no_additional_SGA_execution_envelope": {
+      "2026": {
+        "shipments": 1580625,
+        "revenue": 65834.06691866944,
+        "AOI": 117.125,
+        "margin": 0.0017790940994833985
+      },
+      "2027": {
+        "us_customer_sales": 1350950.0,
+        "us_shipments": 1323931.0,
+        "shipments": 1529931.0,
+        "revenue": 62728.4,
+        "AOI": -402.0325,
+        "margin": -0.006409098590112294,
+        "substitution_units": 4000.0,
+        "bridge": {
+          "prior_AOI": 117.125,
+          "volume_mix": -253.47,
+          "price_support": -661.9655,
+          "incremental_VCP": 1195.8000000000002,
+          "refund_nonrepeat": -400,
+          "raw_material_annualization": -240.0,
+          "labor_inflation": -159.52200000000013,
+          "SGA_execution_reinvestment": 0,
+          "AOI_delta": -519.1575
+        },
+        "cumulative_additional_labor_cost": 159.52200000000013,
+        "variance_vs_inspected_workbook_AOI": -153.462
+      },
+      "2028": {
+        "us_customer_sales": 1412100.0,
+        "us_shipments": 1412100.0,
+        "shipments": 1618100.0,
+        "revenue": 65837.075,
+        "AOI": 2591.72585,
+        "margin": 0.039365750225082145,
+        "substitution_units": 18600.0,
+        "bridge": {
+          "prior_AOI": -402.0325,
+          "volume_mix": 440.845,
+          "price_support": 308.94050000000004,
+          "incremental_VCP": 2391.6,
+          "refund_nonrepeat": 0,
+          "raw_material_annualization": 0.0,
+          "labor_inflation": -147.62714999999966,
+          "SGA_execution_reinvestment": 0,
+          "AOI_delta": 2993.75835
+        },
+        "cumulative_additional_labor_cost": 307.1491499999998,
+        "variance_vs_inspected_workbook_AOI": -371.7991500000003
+      }
+    },
+    "further_material_inflation_1pct_annually": {
+      "2026": {
+        "shipments": 1580625,
+        "revenue": 65834.06691866944,
+        "AOI": 117.125,
+        "margin": 0.0017790940994833985
+      },
+      "2027": {
+        "us_customer_sales": 1350950.0,
+        "us_shipments": 1323931.0,
+        "shipments": 1529931.0,
+        "revenue": 62728.4,
+        "AOI": -939.4325000000003,
+        "margin": -0.014976191007581898,
+        "substitution_units": 4000.0,
+        "bridge": {
+          "prior_AOI": 117.125,
+          "volume_mix": -253.47,
+          "price_support": -661.9655,
+          "incremental_VCP": 1195.8000000000002,
+          "refund_nonrepeat": -400,
+          "raw_material_annualization": -577.4000000000003,
+          "labor_inflation": -159.52200000000013,
+          "SGA_execution_reinvestment": -200,
+          "AOI_delta": -1056.5575000000003
+        },
+        "cumulative_additional_labor_cost": 159.52200000000013,
+        "variance_vs_inspected_workbook_AOI": -690.8620000000003
+      },
+      "2028": {
+        "us_customer_sales": 1412100.0,
+        "us_shipments": 1412100.0,
+        "shipments": 1618100.0,
+        "revenue": 65837.075,
+        "AOI": 1551.5408499999999,
+        "margin": 0.02356636970886085,
+        "substitution_units": 18600.0,
+        "bridge": {
+          "prior_AOI": -939.4325000000003,
+          "volume_mix": 440.845,
+          "price_support": 308.94050000000004,
+          "incremental_VCP": 2391.6,
+          "refund_nonrepeat": 0,
+          "raw_material_annualization": -302.78499999999985,
+          "labor_inflation": -147.62714999999966,
+          "SGA_execution_reinvestment": -200,
+          "AOI_delta": 2490.97335
+        },
+        "cumulative_additional_labor_cost": 307.1491499999998,
+        "variance_vs_inspected_workbook_AOI": -1411.9841500000002
+      }
+    },
+    "VCP_2028_recognition_70pct": {
+      "2026": {
+        "shipments": 1580625,
+        "revenue": 65834.06691866944,
+        "AOI": 117.125,
+        "margin": 0.0017790940994833985
+      },
+      "2027": {
+        "us_customer_sales": 1350950.0,
+        "us_shipments": 1323931.0,
+        "shipments": 1529931.0,
+        "revenue": 62728.4,
+        "AOI": -602.0325,
+        "margin": -0.009597447089356656,
+        "substitution_units": 4000.0,
+        "bridge": {
+          "prior_AOI": 117.125,
+          "volume_mix": -253.47,
+          "price_support": -661.9655,
+          "incremental_VCP": 1195.8000000000002,
+          "refund_nonrepeat": -400,
+          "raw_material_annualization": -240.0,
+          "labor_inflation": -159.52200000000013,
+          "SGA_execution_reinvestment": -200,
+          "AOI_delta": -719.1575
+        },
+        "cumulative_additional_labor_cost": 159.52200000000013,
+        "variance_vs_inspected_workbook_AOI": -353.462
+      },
+      "2028": {
+        "us_customer_sales": 1412100.0,
+        "us_shipments": 1412100.0,
+        "shipments": 1618100.0,
+        "revenue": 65837.075,
+        "AOI": 987.585595,
+        "margin": 0.015000447620128933,
+        "substitution_units": 18600.0,
+        "bridge": {
+          "prior_AOI": -602.0325,
+          "volume_mix": 440.845,
+          "price_support": 308.94050000000004,
+          "incremental_VCP": 1195.7999999999997,
+          "refund_nonrepeat": 0,
+          "raw_material_annualization": 0.0,
+          "labor_inflation": -155.96740499999962,
+          "SGA_execution_reinvestment": -200,
+          "AOI_delta": 1589.618095
+        },
+        "cumulative_additional_labor_cost": 315.48940499999975,
+        "variance_vs_inspected_workbook_AOI": -1975.939405
+      }
+    }
+  },
+  "scope": "Research implementation packet only. Workbook unchanged. 2026 quarter rebases are explicitly unallocated aggregate estimates, not identified savings."
+}

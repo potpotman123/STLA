@@ -1,5 +1,7 @@
 # Current workbook: 2026 starting forecast and Fable implementation instructions
 
+**Subsequent resolution:** [new assumption packet](../forecast-resolution-2026-10-14/README.md) supplies the workingcase. It also corrects thisaudit's uncertainty aboutNArefundallocation: Q1interimreport'sNAsection explicitly locates theEUR400mIEEPAadjustment there. Preservebelow asoriginalaudit,notcurrentimplementationguidance.
+
 14 October 2026. **Read-only audit; no spreadsheet edited, saved, exported or recalculated.** User delegates workbook implementation to Fable. This note supersedes the previous claim that the current workbook lacks a2026 starting forecast. The downloaded file has advanced since the earlier audit.
 
 Source: `/Users/kwu/Downloads/FINAL KW STLA MODEL.xlsx`. SHA256 `b30afe31bac76bcd0fd59d8976cce8e1ba77e951115e0d72f96a2073224c13dc`. Hash unchanged before/after inspection. [Selected formulas, inputs and cached values](inspection.json); [read-only extraction and independent arithmetic](inspect_workbook.py). No proprietary source documents or workbook binaries uploaded. If Fable has a different version, locate rows by labels and reconcile differences before applying instructions.

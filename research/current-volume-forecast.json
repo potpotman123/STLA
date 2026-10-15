@@ -6,5 +6,7 @@
   "audit": "forecast-audit-2026-10-14/audit.md",
   "supersedes": "model-diligence-2026-10-14/proposed-forecast-inputs.json",
   "status": "Current research proposal, conditional operating and launch scenarios. Gross portfolio total before unselected internal-substitution deduction. Not approved workbook inputs.",
-  "independent_ai_workbook_changed": false
+  "independent_ai_workbook_changed": false,
+  "implementation_overlay": "forecast-resolution-2026-10-14/proposal.json",
+  "implementation_overlay_note": "D098 remains gross model research. Latest AI-recommended working implementation applies an explicitly assumed20% substitution reserve on four launch families, deducting4000/18600 incumbent USsales in2027/28. Use overlay model_inputs for net implementation and retain original gross cases for variance; no workbook changed."
 }
