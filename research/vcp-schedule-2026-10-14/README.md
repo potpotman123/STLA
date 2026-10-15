@@ -1,5 +1,7 @@
 # Proposed NA VCP schedule: benchmark transfer, not validated base case
 
+**Analogue audit:** [Nissan starting conditions and mechanisms](nissan-analogue.md). Nissan was a mature OEM, but newly centralized procurement and alliance integration differ from Stellantis after prior merger synergies. The 9% transfer remains conditional; no percentage changed after this user challenge.
+
 14 October 2026. User requested reconciliation and a completed proposal. This is a new AI proposal, not user approval. No workbook or independent AI baseline changed. Earlier unselected rates are not silently revived. The existing EUR5,000 volume/mix assumption remains user-selected.
 
 ## Proposed scale
