@@ -1,0 +1,85 @@
+{
+  "status": "Conditional research bridge, not a completed NA AOI forecast; workbook and original assumptions unchanged",
+  "annual": {
+    "2027": {
+      "us_shipments": 1327851.0,
+      "na_shipments": 1533851.0,
+      "revenue_eurm": 62864.13,
+      "effective_rpu_eur": 40984.5089255736,
+      "support_cost_vs_reference_eurm": 663.9255,
+      "recognized_vcp_eurm": 1594.4
+    },
+    "2028": {
+      "us_shipments": 1430700,
+      "na_shipments": 1636700,
+      "revenue_eurm": 66518.425,
+      "effective_rpu_eur": 40641.79446447119,
+      "support_cost_vs_reference_eurm": 357.675,
+      "recognized_vcp_eurm": 3986.0
+    }
+  },
+  "yoy_2028_eurm": {
+    "volume_mix": 514.245,
+    "net_price_support": 306.25050000000005,
+    "vcp": 2391.6,
+    "quantified_subtotal_before_other_changes": 3212.0955
+  },
+  "yoy_2027_formula": "AOI27 = AOI26 + (1,533,851 - NA_shipments26)*0.005 + 1,195.8 - 663.9255 + US_support_cost26_vs_reference + Other_delta27; AOI EURm, shipments units",
+  "cumulative_2026_to_2028_formula": "AOI28 = AOI26 + (1,636,700 - NA_shipments26)*0.005 + 3,587.4 - 357.675 + US_support_cost26_vs_reference + Other_delta27 + Other_delta28",
+  "missing_inputs": [
+    "FY2026 comparable NA AOI and shipments",
+    "Full-year 2026 support deviation from H1 reference",
+    "2027/28 non-VCP industrial, SG&A, R&D and FX/other movements"
+  ],
+  "controls": {
+    "2026_VCP_already_in_starting_AOI_eurm": 398.6,
+    "2028_price_naive_current_units_times_250_eurm": 357.675,
+    "2028_price_volume_interaction_correction_eurm": -51.4245
+  },
+  "sensitivities": {
+    "current_gross_case": {
+      "yoy_2028_aoi_eurm": 3212.0955,
+      "implied_2028_margin_if_2027_margin_2pct": 0.06719007703504705
+    },
+    "2028_VCP_recognition_70pct": {
+      "yoy_2028_aoi_eurm": 2016.2954999999997,
+      "implied_2028_margin_if_2027_margin_2pct": 0.04921310298612752
+    },
+    "remove_all_manufacturing_VCP_in_both_years": {
+      "yoy_2028_aoi_eurm": 2863.4955,
+      "implied_2028_margin_if_2027_margin_2pct": 0.0619494237874694
+    },
+    "remove_all_logistics_VCP_in_both_years": {
+      "yoy_2028_aoi_eurm": 3059.0955,
+      "implied_2028_margin_if_2027_margin_2pct": 0.06488996244273673
+    },
+    "additional_2028_vs_2027_cost_headwind_500m": {
+      "yoy_2028_aoi_eurm": 2712.0955,
+      "implied_2028_margin_if_2027_margin_2pct": 0.05967336268109174
+    },
+    "additional_2028_vs_2027_cost_headwind_1000m": {
+      "yoy_2028_aoi_eurm": 2212.0955,
+      "implied_2028_margin_if_2027_margin_2pct": 0.05215664832713642
+    }
+  },
+  "margin_thresholds": {
+    "0.05": {
+      "required_AOI2027_before_other_changes_eurm": 113.82575000000043,
+      "required_margin2027_before_other_changes": 0.0018106629328998975
+    },
+    "0.08": {
+      "required_AOI2027_before_other_changes_eurm": 2109.3785000000003,
+      "required_margin2027_before_other_changes": 0.03355456442330468
+    },
+    "0.1": {
+      "required_AOI2027_before_other_changes_eurm": 3439.7470000000008,
+      "required_margin2027_before_other_changes": 0.054717165416907874
+    }
+  },
+  "cost_sensitivities_not_forecasts": {
+    "one_pct_inflation_on_post_savings_reference_components_eurm": 318.5,
+    "one_pct_inflation_on_post_savings_reference_plant_labor_eurm": 50.435,
+    "management_group_raw_material_1p4pp_applied_to_our_NA_2028_revenue_scale_only_eurm": 931.25795,
+    "management_group_SGA_0p6pp_applied_to_our_NA_2028_revenue_scale_only_eurm": 399.11055000000005
+  }
+}
