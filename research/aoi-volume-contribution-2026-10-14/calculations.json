@@ -1,0 +1,89 @@
+{
+  "status": "AI working proposal; not user-approved final input; no workbook changes",
+  "observations": [
+    {
+      "period": "H2 2025",
+      "before_k": 594,
+      "after_k": 825,
+      "volume_mix_eurm": 991,
+      "bridge": [
+        -1706,
+        991,
+        626,
+        -672,
+        -6,
+        -136,
+        -38
+      ],
+      "end": -941,
+      "source": "FY2025 p48; original segment scope",
+      "delta_shipments_k": 231,
+      "effective_eur_per_incremental_shipment": 4290.04329004329
+    },
+    {
+      "period": "FY2025",
+      "before_k": 1432,
+      "after_k": 1472,
+      "volume_mix_eurm": -1430,
+      "bridge": [
+        2660,
+        -1430,
+        -883,
+        -1557,
+        -81,
+        -139,
+        -462
+      ],
+      "end": -1892,
+      "source": "FY2025 p43; original segment scope",
+      "delta_shipments_k": 40,
+      "effective_eur_per_incremental_shipment": -35750.0
+    },
+    {
+      "period": "Q2 2026",
+      "before_k": 323,
+      "after_k": 445,
+      "volume_mix_eurm": 409,
+      "bridge": [
+        -440,
+        409,
+        -59,
+        603,
+        -158,
+        -101,
+        30
+      ],
+      "end": 284,
+      "source": "Q2 2026 p25; restated geographic scope",
+      "delta_shipments_k": 122,
+      "effective_eur_per_incremental_shipment": 3352.4590163934427
+    },
+    {
+      "period": "H1 2026",
+      "before_k": 648,
+      "after_k": 824,
+      "volume_mix_eurm": 1049,
+      "bridge": [
+        -982,
+        1049,
+        123,
+        745,
+        -229,
+        -172,
+        13
+      ],
+      "end": 547,
+      "source": "Q2 2026 p27; restated geographic scope",
+      "delta_shipments_k": 176,
+      "effective_eur_per_incremental_shipment": 5960.227272727273
+    }
+  ],
+  "pooled_recovery_eur_per_vehicle": 5012.285012285012,
+  "base_eur_per_vehicle": 5000,
+  "sensitivity_eur_per_vehicle": [
+    3000,
+    8000
+  ],
+  "forecast_2028_shipment_change": 102849,
+  "forecast_2028_volume_mix_effect_eurm": 514.245
+}
