@@ -1,0 +1,43 @@
+{
+  "status": "Proxy sensitivity; no forecast change; original 2025 segment vintage",
+  "source": "2025 Annual Report PDF pp44,60,61,244,316",
+  "shipments_thousands": {
+    "NA": 1472,
+    "global": 5484
+  },
+  "global_purchase_anchor_eur_bn": 88,
+  "qualifier": "Reported purchases exceed 88bn; using floor as point proxy",
+  "rows": [
+    {
+      "basis": "Consolidated net revenue",
+      "na_revenue_eur_m": 60962,
+      "total_revenue_eur_m": 153508,
+      "na_eur_per_shipment": 41414.40217391305,
+      "rest_eur_per_shipment": 23067.298105682952,
+      "na_vs_rest": 1.7953729120841435,
+      "na_vs_global": 1.4795097423048906,
+      "allocated_materials_eur_bn": 34.94707767673346
+    },
+    {
+      "basis": "Vehicle-reporting segments external revenue",
+      "na_revenue_eur_m": 60962,
+      "total_revenue_eur_m": 146896,
+      "na_eur_per_shipment": 41414.40217391305,
+      "rest_eur_per_shipment": 21419.242273180458,
+      "na_vs_rest": 1.9335138771817808,
+      "na_vs_global": 1.5461046013624546,
+      "allocated_materials_eur_bn": 36.52009585012526
+    },
+    {
+      "basis": "Vehicle-reporting segments vehicles and other goods",
+      "na_revenue_eur_m": 59674,
+      "total_revenue_eur_m": 143103,
+      "na_eur_per_shipment": 40539.40217391305,
+      "rest_eur_per_shipment": 20794.865403788634,
+      "na_vs_rest": 1.949490962635764,
+      "na_vs_global": 1.5535529061007747,
+      "allocated_materials_eur_bn": 36.69603013214258
+    }
+  ],
+  "assumption": "Equal material purchases per euro of relevant revenue; revenue allocation is an algebraic identity, not independent cost validation"
+}
