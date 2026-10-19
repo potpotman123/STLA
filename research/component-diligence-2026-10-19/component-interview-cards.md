@@ -4,7 +4,58 @@
 
 ## Opening answer — about 30 seconds
 
-“I looked for ways to remove cost without damaging what customers buy the vehicle for: shape metal more efficiently, consolidate parts, eliminate redundant hardware, and reuse modules across models. I filtered McKinsey's EV framework to remove battery-specific opportunities, then checked mechanisms against Ford, suppliers and engineering studies. The retained seven levers have a 4.9–13.2% illustrative range, midpoint about 9%. I use that as a benchmark-informed assumption, not a measured Stellantis outcome; rollout and existing optimization determine what can be achieved by 2028.”
+“I first broke the vehicle into physical systems—body, powertrain, chassis, thermal, electronics and interior—rather than treating component spending as one reducible lump. For each, I asked what function must be preserved, what drives cost, and what could actually change. Then I matched those systems to specific engineering levers and outside evidence. That supports a roughly 9% benchmark-informed assumption, with explicit uncertainty around transferability and rollout, rather than a claim that every part becomes 9% cheaper.”
+
+## How we decomposed the problem
+
+**Vague question → physical systems → cost drivers and constraints → specific changes → comparable evidence → portfolio-level assumption.**
+
+This is a summary of our existing [24-category system map](system-map.csv), not a newly invented cost allocation. The interview groupings below organize the original categories; they do not imply equal spending weights or independently measured dollar pools.
+
+| System group | What we put inside it | Specific question we could then investigate |
+|---|---|---|
+|**Body, structure and closures** (A1–A3)|Frame/unibody, crash structures, doors, bed, latches, joining and coatings|Can geometry or part consolidation reduce steel and joints while retaining crash, cargo and corrosion performance?|
+|**Combustion engine and emissions** (B1–B3)|Block/head, pistons, fuel injection, turbocharging, exhaust and catalysts|Can casting, machining or materials improve without compromising towing durability or emissions? A smaller engine may add costly boost/cooling equipment.|
+|**Transmission and driveline** (C1–C2)|Gearbox, torque converter, transfer case, differentials and shafts|Can torque-rated modules be shared? Removing four-wheel drive is a content change, not equal-function efficiency.|
+|**Electrified propulsion and batteries** (D1–D5, E1–E2)|Motors, inverters, charging, mild-hybrid equipment, range extender, cells and pack|Which hardware actually exists on this powertrain? Is integration already present, and does a component saving increase cost elsewhere?|
+|**Thermal management** (F1)|Cooling circuits, pumps, valves, radiators and cabin HVAC|Can housings/interfaces be shared or circuits simplified while meeting different temperature requirements?|
+|**Chassis and road contact** (G1–G2)|Suspension, steering, brakes, wheels and tires|Which variants are genuinely needed for payload, ride, handling and stopping performance?|
+|**Electrical distribution and computing** (H1–H2)|Harnesses, electrical centers, controllers, networks and software|Can we reduce harness variants and duplicate controllers while retaining safety and reliability?|
+|**Interior, safety and customer-facing equipment** (I1–I3)|Seats, trim, displays, audio, restraints, ADAS, lights and mirrors|Which hidden parts can be shared, and which visible features drive willingness to pay?|
+|**Residual / scope reconciliation** (J1)|Unmapped items and costs outside a comparable purchased-parts boundary|What did we omit, and have we mixed supplier prices with our own plant costs, tooling or engineering?|
+
+**Important interfaces:** ADAS hardware is recorded under I3 but shares compute with H2; battery thermal hardware connects E2 and F1; range-extender engines connect D5 and B1–B3. These are functional research categories, not yet an audited, mutually exclusive bill of materials. Assign each economic saving to one owner before aggregation.
+
+## What we asked inside every system
+
+- **Function:** What must this part do for the customer, safety or regulation?
+- **Cost driver:** Is the expense metal, precision machining, semiconductor content, supplier scale, unique tooling, or complexity?
+- **Change:** Can we substitute, reshape, integrate, standardize or delete something while retaining the required function?
+- **Evidence:** Is the number a realized result, supplier claim, management target, engineering estimate or our assumption? What is its denominator?
+- **Timing:** Is this a carryover change or a new-platform redesign? What portion of production receives it by 2028?
+- **Accounting:** Does the benefit reduce purchased parts, own-plant conversion costs, warranty, R&D or capex? Where might we count it twice?
+
+**Fixed versus variable:** a purchased component normally scales with vehicles built, but its supplier price also recovers tooling, engineering and capacity. Sharing a module can spread those fixed costs across more units. That does not make all of the supplier's saving an immediate Stellantis purchase-price reduction.
+
+## One worked reasoning chain
+
+**Start with body structure → isolate the strut-top assembly → identify overlapping metal and weld operations → test a single formed part → compare cost at equivalent structural performance → determine which future vehicle programs could adopt it.** The Ricardo example below supplies an engineering comparator. It does not give us a verified Ram saving or permission to apply its percentage to the whole vehicle.
+
+**Systems describe where the money goes; levers describe how the money can be reduced.** Standardization can touch seats, wiring and driveline simultaneously. Conversely, one wiring project can involve design-to-value, complexity reduction and electronics integration. One project is still one saving.
+
+## How this work supports the model—and where it stops
+
+We built a granular **functional and mechanistic map**, not 24 independently verified Stellantis cost pools. System-level purchase prices remain largely unknown. The map helps test whether an industry benchmark makes physical sense, identify exclusions and direct evidence gathering. Our current roughly 9% comes from the filtered McKinsey benchmark below, not from summing 24 measured system-level forecasts.
+
+With complete data, we would sum: **system cost base × achievable reduction × implementation coverage**, using consistent baseline quantities and netting overlaps/offsets. In the current model, the evidence supports an aggregate assumption with rollout uncertainty; it does not justify filling missing subsystem costs with invented precision.
+
+## User direction and how it improved the analysis
+
+- **Start from the physical car:** the user pushed beyond a generic cost-cutting percentage toward essential systems and actual parts.
+- **Broaden beyond an isolated anecdote:** the user challenged repeated emphasis on a $40 electrical project; the research expanded to multiple systems and an aggregate benchmark.
+- **Test applicability:** the user challenged EV-only evidence; we separated common vehicle mechanisms from battery-specific opportunities.
+- **Keep the explanation concrete:** the user requested physical examples and interview-ready reasoning, then asked us to restore the system decomposition to that narrative.
+- **Result:** an inspectable chain from category to mechanism to evidence to assumption, with unknowns retained rather than concealed. These are research decisions and user interventions, not a claim of access to confidential vehicle cost data.
 
 ## Eight concrete examples
 
