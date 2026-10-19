@@ -1,0 +1,108 @@
+{
+  "source": "User-provided McKinsey Exhibit 1 screenshot, 19 October 2026",
+  "units": "percentage points of original EV material-cost denominator",
+  "warning": "Illustrative filtered EV benchmark, not an ICE estimate, expected value, or realized STLA savings. Printed total 9.5\u201325.3%; displayed low rows sum to 9.4%, consistent with rounding. Footnote 1 text is cropped in supplied image.",
+  "ranges": {
+    "1": [
+      2.4,
+      6.4
+    ],
+    "2": [
+      2.3,
+      6.1
+    ],
+    "3": [
+      1.6,
+      4.3
+    ],
+    "4": [
+      0.7,
+      1.9
+    ],
+    "5": [
+      0.6,
+      1.6
+    ],
+    "6": [
+      0.5,
+      1.4
+    ],
+    "7": [
+      0.5,
+      1.4
+    ],
+    "8": [
+      0.3,
+      0.8
+    ],
+    "9": [
+      0.3,
+      0.8
+    ],
+    "10": [
+      0.2,
+      0.6
+    ]
+  },
+  "subtotals": {
+    "all_displayed_rows": {
+      "included": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "low": 9.4,
+      "high": 25.3,
+      "arithmetic_midpoint": 17.35
+    },
+    "broadly_transferable": {
+      "included": [
+        2,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "low": 4.2,
+      "high": 11.3,
+      "arithmetic_midpoint": 7.75
+    },
+    "plus_conditional_system_integration": {
+      "included": [
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "low": 4.9,
+      "high": 13.2,
+      "arithmetic_midpoint": 9.05
+    },
+    "all_except_battery_sizing_and_technology": {
+      "included": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "low": 5.4,
+      "high": 14.6,
+      "arithmetic_midpoint": 10.0
+    }
+  }
+}
