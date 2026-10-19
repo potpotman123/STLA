@@ -1,0 +1,33 @@
+{
+ "status":"Research proposal only. No workbook or forecast changes authorized or made.",
+ "retain_current_numeric_forecast_pending_review":true,
+ "existing_component_pool_EUR":35000000000,
+ "existing_terminal_reduction":0.09,
+ "recommended_evidence_label":"Ambitious aggregate historical-benchmark scenario; not validated project-level STLA cost build",
+ "project_based_replacement_rate":null,
+ "whole_vehicle_component_cost_by_architecture":null,
+ "usable_now":[
+  "€3.15bn corresponds to about€2140 per2025reference NAunit, not an observed Ram cost difference",
+  "Separate review coverage, implementation penetration and eligible expenditure",
+  "Keep supplier manufacturing savings inside invoice price, distinct from OEM plant productivity",
+  "Correct fourVCPworkstream definition to components/manufacturing/quality/logistics-and-indirect",
+  "Ram former pureBEV program is cancelled;currentREVlabel isREEV;check futurepowertrainweighting accordingly"
+ ],
+ "conditional_inputs":[
+  {"project":"Aptiv electrical centers","reported_unit_saving":40,"currency":"USD","price_year":null,"STLA_adoption":null,"forecast_EUR_credit":null},
+  {"project":"STLA L2+ system","management_target_reduction":0.70,"baseline_cost":null,"eligible_2028_sold_units":null,"forecast_EUR_credit":null},
+  {"project":"Battery modeled pathways","reference_file":"electrified/battery-benchmarks.json","actual_STLA_prices":false,"forecast_EUR_credit":null},
+  {"project":"Adient modular seating","supplier_reported_reduction":">30%","denominator":"directfrontrowlabor at JIToperation only","net_supplier_wholechain_saving":null,"OEM_price_capture":null,"forecast_EUR_credit":null}
+ ],
+ "not_admissible_as_parts_cost_reduction":[
+  "Toyota20%development-resource reduction applied to components",
+  "STLA One20%European benchmark applied to allRam/NA",
+  "STLA50%ECUcount reduction treated as50%electronicscost",
+  "IBIS10%efficiencygain treated as10%costsaving",
+  "Adient30%JITlabor reduction applied to entireseat",
+  "Supplieroccupantdetection40%BOM target applied to entireseat",
+  "Weightreduction percentage used as componentcost percentage",
+  "Commoditydeflation added to VCP and thenagain in rawmaterialbridge"
+ ],
+ "required_before_positive_project_credit":["comparablebefore_afterBOM","netinvoicepriceorqualifiedcostmodel","priceyearandcurrency","eligiblemodelandpowertrain","approvedproductiondate","eligiblevehiclesactuallysold","incrementalbaselinecheck","toolingengineeringexpenseandcash","warrantyandcontentoffsets","nonoverlapreview"]
+}

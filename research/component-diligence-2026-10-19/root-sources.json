@@ -1,0 +1,135 @@
+[
+  {
+    "id": "R01",
+    "title": "Stellantis Investor Day2026 Financial Overview",
+    "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/events/stellantis-investor-day-2026/transcript/Stellantis-Investor-Day-2026-FaSTLAne2030-Transcript-Financial-Overview.pdf",
+    "publication_date": "2026-05-21",
+    "locator": "p2, VCP paragraphs",
+    "type": "Management target",
+    "finding": "Four levers include quality. Components75% of new vehicle cost; >80% review coverage in2026 and35% firstwave. Some initiatives >EUR10m recurring AOI. No per-project adopted BOM price disclosed.",
+    "limitation": "Review coverage is not realized implementation; global/regional and vehicle-cost denominators differ.",
+    "independence": "Stellantis management"
+  },
+  {
+    "id": "R02",
+    "title": "EPA/FEV Light-Duty Technology Cost Analysis, additional case studies, revised final",
+    "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100GDM2.TXT",
+    "publication_date": "2013-04",
+    "locator": "Executive summary tableES-0-1; section1.3; sections2.2\u20132.4",
+    "type": "Independent teardown-based engineering estimate",
+    "finding": "TurboGDI3.5L V6 versus5.4L V8 addsUSD846.26; six-speedAT versusfive-speedAT savesUSD105.53; wetDCT versussix-speedAT savesUSD97.34.",
+    "cost_year": "2008/2009",
+    "geography": "North America assumed",
+    "scale": "450000units/year",
+    "scope": "Incremental direct manufacturing costs; supplier markup including scrap,SG&A,profit,ED&T; OEM indirect multipliers outside scope; packaging considered, freight not established",
+    "limitation": "Old component architectures and costs; not realized invoice savings, not currentRam substitutes. No2025EUR conversion or wholevehicle extrapolation.",
+    "independence": "EPA commissioned FEV"
+  },
+  {
+    "id": "R03",
+    "title": "Stellantis Hurricane engine introduction",
+    "url": "https://blog.stellantisnorthamerica.com/2022/03/25/stellantis-debuts-hurricane-twin-turbo-i-6-engine-that-cuts-emissions-increases-fuel-economy-and-is-more-powerful/",
+    "publication_date": "2022-03-25",
+    "locator": "Engine technical description and manufacturing location",
+    "type": "OEM engineering disclosure",
+    "finding": "Existing twin-turbo engine already uses castaluminum block, forgedsteel rotating components, cylinder surface treatment and advanced fuel/thermal hardware; manufactured atSaltilloNorth.",
+    "limitation": "No BOMprice; output variesbyapplication; fuel savings are not component cost savings.",
+    "independence": "Stellantis engineering"
+  },
+  {
+    "id": "R04",
+    "title": "2019Ram1500 official brochure",
+    "url": "https://www.ramtrucks.com/content/dam/fca-brands/na/ramtrucks/en_us/global/pdf/brochure/19MY%20Ram%201500%20DT%20eBrochure.pdf",
+    "publication_date": "2018/2019",
+    "locator": "The strongest Ram1500 ever / frame section",
+    "type": "OEM product disclosure, indexed excerpt",
+    "finding": "98%highstrengthsteel frame and100lbframe weight reduction already advertised for2019DT generation.",
+    "limitation": "Weight not dollars;2019 architecture history not proof every2026part unchanged. Exactpage unavailable.",
+    "independence": "Ram engineering"
+  },
+  {
+    "id": "R05",
+    "title": "DOE FY2021 Budget, vehicle materials goals",
+    "url": "https://www.energy.gov/sites/prod/files/2020/04/f73/doe-fy2021-budget-volume-3-part-1.pdf",
+    "publication_date": "2020",
+    "locator": "Advanced Materials Research, vehicle glider goal",
+    "type": "Government research target, indexed excerpt",
+    "finding": "25%glider weight reduction goal allowed increased cost belowUSD5/lb saved versus2012baseline.",
+    "limitation": "Goal not achieved saving; lightweighting can add cost. Not used as forecastinput.",
+    "independence": "USDOE"
+  },
+  {
+    "id": "R06",
+    "title": "Adient Barclays Global Automotive and Mobility Tech Conference",
+    "url": "https://www.sec.gov/Archives/edgar/data/1670541/000167054123000163/adient-barclaysglobalmob.htm",
+    "publication_date": "2023-11-30",
+    "locator": "slides4,6,7",
+    "type": "Supplier claim, productionFY24 stated",
+    "finding": "Modular assembly reduces direct JITfrontrowlabor by>30%; modules assembled earlier in supply chain.",
+    "limitation": "Not30%total seat or wholechainlabor reduction; upstreamwork, freight and price passthrough unquantified. NoSTLAnamed adoption.",
+    "independence": "Adient"
+  },
+  {
+    "id": "R07",
+    "title": "Ram Pentastar eTorque European launch engineering description",
+    "url": "https://www.media.stellantis.com/es-es/ram/press/ram-anuncia-el-lanzamiento-en-europa-del-motor-pentastar-v-6-de-3-6-litros-con-sistema-etorque-mild-hybrid",
+    "publication_date": "2023-06-08",
+    "locator": "eTorque details paragraph",
+    "type": "OEM engineering disclosure",
+    "finding": "48V430WhNMC battery and3kWDC/DC; conventional12Vstarter retained for coldstart; belt-generator architecture.",
+    "limitation": "European launchsource verifies mechanism not US2025trimavailability orVINtowrating. No cost.",
+    "independence": "Ram engineering"
+  },
+  {
+    "id": "R08",
+    "title": "Nissan FY2001 Business Review",
+    "url": "https://www.nissan-global.com/EN/DOCUMENT/HTML/FINANCIAL/SPEECH/2002/fs_speech20020509.html",
+    "publication_date": "2002-05-09",
+    "locator": "Operating profit variance item1; purchasing discussion",
+    "type": "Management reported historical outcome",
+    "finding": "FY2001purchasing reduction9%, part of20%program, netaccounting effectJPY245bn. Product enrichment/regulatorycostJPY62bn separatelyoffsetprofit.",
+    "limitation": "Global purchasing measure; exact dollarspend denominator and commercial/engineering shares not disclosed here. Do not divide245bnby9%as auditedpurchasebase, or treat as puredesignsaving.",
+    "independence": "Nissan"
+  },
+  {
+    "id": "R09",
+    "title": "Stellantis2023annualreport",
+    "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/financial-reports/Stellantis-NV-20231231-Annual-Report.pdf",
+    "publication_date": "2024",
+    "locator": "printedp24,MergerSynergies",
+    "type": "Reported management synergy measure, indexed excerpt and existing repo review",
+    "finding": "EUR8.4bnnetcashsynergies2023 acrossplatforms/purchasing/SG&A/otherfunctions.",
+    "limitation": "Not allcomponentcost or AOI. Establishes existing sharing/procurement effort, not remaining savings size.",
+    "independence": "Stellantis"
+  },
+  {
+    "id": "R10",
+    "title": "Aptiv SEC commentresponse",
+    "url": "https://www.sec.gov/Archives/edgar/data/1521332/000152133224000043/filename1.htm",
+    "publication_date": "2024-05-13",
+    "locator": "pp3\u20134,annualprice reductions",
+    "type": "Supplier regulatory disclosure, verified prior research",
+    "finding": "Annualperpart reductions customary but negotiated and dependent oncost/volume/jointimprovements.",
+    "limitation": "No universalrate or guaranteedprice path; included in VCPtotalnot addedon top.",
+    "independence": "Aptiv"
+  },
+  {
+    "id": "R11",
+    "title": "Existing NAcomponentpool derivation",
+    "url": "../investor-day-2026-05-21/vcp-global-and-na-bases.md",
+    "publication_date": "2026-10-14",
+    "locator": "section2,2025directmaterialTier1purchases; underlying sustainabilitystatementp114",
+    "type": "Internal derived proxy from disclosure",
+    "finding": "Globalpurchases>EUR88bn; NAunitshare26.84%; materialintensitysensitivities1.5x/2x yield31.24/37.24bn;35bnselectedestimate.",
+    "limitation": "NotreportedNAcomponentexpense; purchases/consumption/COGS differ; intensitynotteardownvalidated.",
+    "independence": "Stellantis disclosure plus analyst assumptions"
+  },
+  {
+    "id": "R12",
+    "title": "2026Ram1500officialUSpayloadandtowingchart",
+    "url": "https://www.ramtrucks.com/content/dam/fca-brands/na/ramtrucks/en_us/towing/towing-capacity-guide/brochure/26MY_Ram_1500_PayTow_2.3.pdf",
+    "locator": "singlepage,Tradesmantables",
+    "type": "OEMconfigurationspecifications",
+    "limitation": "MaximumchartfiguresnotVIN-specificorconcurrentlyattainable;optioncontentnotfullBOM"
+  }
+]

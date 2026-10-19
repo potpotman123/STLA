@@ -1,0 +1,23 @@
+{
+  "status": "illustrative parameterized arithmetic; not proposed forecast",
+  "aptiv_electrical_example": {
+    "reported_USD_per_vehicle": 40,
+    "illustrative_eligible_sold_units": 100000,
+    "annual_savings_USD_before_unreported_rollout_cost": 4000000,
+    "illustrative_upfront_cost_USD": 1000000,
+    "break_even_units_before_discounting_and_other_costs": 25000.0,
+    "price_year": null,
+    "fx_conversion": null,
+    "stla_adoption": "unknown"
+  },
+  "stla_l2_example": {
+    "formula": "0.70 * B * N",
+    "B": "verified comparable baseline L2+system cost per equipped vehicle in a common currency/priceyear",
+    "N": "eligible vehicles sold with replacement system; not all Ram/Jeep vehicles",
+    "per_100000_eligible_vehicles": "70000 * B currencyunits, or0.07 * B million currencyunits",
+    "per_100_currencyunits_of_B_at_100000_units": 7000000.0,
+    "interpretation": "7million for each100currencyunits of verified B; scale ruler, not B assumption",
+    "annual_na_2028_saving": null,
+    "payback": "upfront_cost / (0.70 * B) eligible units, only if0.70B is net recurring comparable cost reduction"
+  }
+}

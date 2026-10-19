@@ -1,0 +1,314 @@
+{
+  "units": "constant2023USD per battery pack",
+  "actual_Stellantis_prices": false,
+  "A_2030_modeled_frontier_vs2026": [
+    {
+      "id": "HEV_1p2",
+      "pack2026_usd": 664.332,
+      "pack2030_usd": 644.46,
+      "annual_unit_saving_if_path_realized_usd": 19.872,
+      "percent_of_pack": 2.9913,
+      "full_vehicle_component_cost": null
+    },
+    {
+      "id": "HEV_1p8",
+      "pack2026_usd": 752.256,
+      "pack2030_usd": 724.932,
+      "annual_unit_saving_if_path_realized_usd": 27.324,
+      "percent_of_pack": 3.6323,
+      "full_vehicle_component_cost": null
+    },
+    {
+      "id": "PHEV18_NMC",
+      "pack2026_usd": 2829.42,
+      "pack2030_usd": 2663.82,
+      "annual_unit_saving_if_path_realized_usd": 165.6,
+      "percent_of_pack": 5.8528,
+      "full_vehicle_component_cost": null
+    },
+    {
+      "id": "PHEV24_NMC",
+      "pack2026_usd": 3453.12,
+      "pack2030_usd": 3193.2,
+      "annual_unit_saving_if_path_realized_usd": 259.92,
+      "percent_of_pack": 7.5271,
+      "full_vehicle_component_cost": null
+    },
+    {
+      "id": "PHEV24_LFP",
+      "pack2026_usd": 3207.6,
+      "pack2030_usd": 2921.28,
+      "annual_unit_saving_if_path_realized_usd": 286.32,
+      "percent_of_pack": 8.9263,
+      "full_vehicle_component_cost": null
+    },
+    {
+      "id": "BEV90_NMC",
+      "pack2026_usd": 10465.2,
+      "pack2030_usd": 9003.6,
+      "annual_unit_saving_if_path_realized_usd": 1461.6,
+      "percent_of_pack": 13.9663,
+      "full_vehicle_component_cost": null
+    },
+    {
+      "id": "BEV90_LFP",
+      "pack2026_usd": 9098.1,
+      "pack2030_usd": 7755.3,
+      "annual_unit_saving_if_path_realized_usd": 1342.8,
+      "percent_of_pack": 14.7591,
+      "full_vehicle_component_cost": null
+    },
+    {
+      "id": "BEV105_NMC",
+      "pack2026_usd": 12023.55,
+      "pack2030_usd": 10408.65,
+      "annual_unit_saving_if_path_realized_usd": 1614.9,
+      "percent_of_pack": 13.4311,
+      "full_vehicle_component_cost": null
+    },
+    {
+      "id": "BEV105_LFP",
+      "pack2026_usd": 10690.05,
+      "pack2030_usd": 8959.65,
+      "annual_unit_saving_if_path_realized_usd": 1730.4,
+      "percent_of_pack": 16.187,
+      "full_vehicle_component_cost": null
+    }
+  ],
+  "B_economic_hurdles": [
+    {
+      "id": "HEV_1p2",
+      "meaning": "Undiscounted max incremental implementation budget for200000 lifetime eligible packs at full supplierprice capture, before any other downside",
+      "assumed_lifetime_eligible_packs": 200000,
+      "investment_ceiling_at2030_unit_saving_usd": 3974400.0,
+      "actual_implementation_investment_usd": null,
+      "validated_payback_years": null
+    },
+    {
+      "id": "HEV_1p8",
+      "meaning": "Undiscounted max incremental implementation budget for200000 lifetime eligible packs at full supplierprice capture, before any other downside",
+      "assumed_lifetime_eligible_packs": 200000,
+      "investment_ceiling_at2030_unit_saving_usd": 5464800.0,
+      "actual_implementation_investment_usd": null,
+      "validated_payback_years": null
+    },
+    {
+      "id": "PHEV18_NMC",
+      "meaning": "Undiscounted max incremental implementation budget for200000 lifetime eligible packs at full supplierprice capture, before any other downside",
+      "assumed_lifetime_eligible_packs": 200000,
+      "investment_ceiling_at2030_unit_saving_usd": 33120000.0,
+      "actual_implementation_investment_usd": null,
+      "validated_payback_years": null
+    },
+    {
+      "id": "PHEV24_NMC",
+      "meaning": "Undiscounted max incremental implementation budget for200000 lifetime eligible packs at full supplierprice capture, before any other downside",
+      "assumed_lifetime_eligible_packs": 200000,
+      "investment_ceiling_at2030_unit_saving_usd": 51984000.0,
+      "actual_implementation_investment_usd": null,
+      "validated_payback_years": null
+    },
+    {
+      "id": "PHEV24_LFP",
+      "meaning": "Undiscounted max incremental implementation budget for200000 lifetime eligible packs at full supplierprice capture, before any other downside",
+      "assumed_lifetime_eligible_packs": 200000,
+      "investment_ceiling_at2030_unit_saving_usd": 57264000.0,
+      "actual_implementation_investment_usd": null,
+      "validated_payback_years": null
+    },
+    {
+      "id": "BEV90_NMC",
+      "meaning": "Undiscounted max incremental implementation budget for200000 lifetime eligible packs at full supplierprice capture, before any other downside",
+      "assumed_lifetime_eligible_packs": 200000,
+      "investment_ceiling_at2030_unit_saving_usd": 292320000.0,
+      "actual_implementation_investment_usd": null,
+      "validated_payback_years": null
+    },
+    {
+      "id": "BEV90_LFP",
+      "meaning": "Undiscounted max incremental implementation budget for200000 lifetime eligible packs at full supplierprice capture, before any other downside",
+      "assumed_lifetime_eligible_packs": 200000,
+      "investment_ceiling_at2030_unit_saving_usd": 268560000.0,
+      "actual_implementation_investment_usd": null,
+      "validated_payback_years": null
+    },
+    {
+      "id": "BEV105_NMC",
+      "meaning": "Undiscounted max incremental implementation budget for200000 lifetime eligible packs at full supplierprice capture, before any other downside",
+      "assumed_lifetime_eligible_packs": 200000,
+      "investment_ceiling_at2030_unit_saving_usd": 322980000.0,
+      "actual_implementation_investment_usd": null,
+      "validated_payback_years": null
+    },
+    {
+      "id": "BEV105_LFP",
+      "meaning": "Undiscounted max incremental implementation budget for200000 lifetime eligible packs at full supplierprice capture, before any other downside",
+      "assumed_lifetime_eligible_packs": 200000,
+      "investment_ceiling_at2030_unit_saving_usd": 346080000.0,
+      "actual_implementation_investment_usd": null,
+      "validated_payback_years": null
+    }
+  ],
+  "C_2028_illustrative_timing_not_company_guidance": [
+    {
+      "id": "HEV_1p2",
+      "assumption": "half of2026-to2030 dollar improvement delivered by2028",
+      "pack2028_usd": 654.396,
+      "saving_per_pack_usd": 9.936,
+      "annual_saving_per10000_eligible_vehicles_usd": 99360.0,
+      "actual_Stellantis_eligible_vehicles": null
+    },
+    {
+      "id": "HEV_1p8",
+      "assumption": "half of2026-to2030 dollar improvement delivered by2028",
+      "pack2028_usd": 738.594,
+      "saving_per_pack_usd": 13.662,
+      "annual_saving_per10000_eligible_vehicles_usd": 136620.0,
+      "actual_Stellantis_eligible_vehicles": null
+    },
+    {
+      "id": "PHEV18_NMC",
+      "assumption": "half of2026-to2030 dollar improvement delivered by2028",
+      "pack2028_usd": 2746.62,
+      "saving_per_pack_usd": 82.8,
+      "annual_saving_per10000_eligible_vehicles_usd": 828000.0,
+      "actual_Stellantis_eligible_vehicles": null
+    },
+    {
+      "id": "PHEV24_NMC",
+      "assumption": "half of2026-to2030 dollar improvement delivered by2028",
+      "pack2028_usd": 3323.16,
+      "saving_per_pack_usd": 129.96,
+      "annual_saving_per10000_eligible_vehicles_usd": 1299600.0,
+      "actual_Stellantis_eligible_vehicles": null
+    },
+    {
+      "id": "PHEV24_LFP",
+      "assumption": "half of2026-to2030 dollar improvement delivered by2028",
+      "pack2028_usd": 3064.44,
+      "saving_per_pack_usd": 143.16,
+      "annual_saving_per10000_eligible_vehicles_usd": 1431600.0,
+      "actual_Stellantis_eligible_vehicles": null
+    },
+    {
+      "id": "BEV90_NMC",
+      "assumption": "half of2026-to2030 dollar improvement delivered by2028",
+      "pack2028_usd": 9734.4,
+      "saving_per_pack_usd": 730.8,
+      "annual_saving_per10000_eligible_vehicles_usd": 7308000.0,
+      "actual_Stellantis_eligible_vehicles": null
+    },
+    {
+      "id": "BEV90_LFP",
+      "assumption": "half of2026-to2030 dollar improvement delivered by2028",
+      "pack2028_usd": 8426.7,
+      "saving_per_pack_usd": 671.4,
+      "annual_saving_per10000_eligible_vehicles_usd": 6714000.0,
+      "actual_Stellantis_eligible_vehicles": null
+    },
+    {
+      "id": "BEV105_NMC",
+      "assumption": "half of2026-to2030 dollar improvement delivered by2028",
+      "pack2028_usd": 11216.1,
+      "saving_per_pack_usd": 807.45,
+      "annual_saving_per10000_eligible_vehicles_usd": 8074500.0,
+      "actual_Stellantis_eligible_vehicles": null
+    },
+    {
+      "id": "BEV105_LFP",
+      "assumption": "half of2026-to2030 dollar improvement delivered by2028",
+      "pack2028_usd": 9824.85,
+      "saving_per_pack_usd": 865.2,
+      "annual_saving_per10000_eligible_vehicles_usd": 8652000.0,
+      "actual_Stellantis_eligible_vehicles": null
+    }
+  ],
+  "D_delay_to_after2028": [
+    {
+      "id": "HEV_1p2",
+      "assumption": "2026 cost persists through2028; no incremental technical step in horizon",
+      "2028_pack_cost_usd": 664.332,
+      "2028_incremental_saving_usd": 0
+    },
+    {
+      "id": "HEV_1p8",
+      "assumption": "2026 cost persists through2028; no incremental technical step in horizon",
+      "2028_pack_cost_usd": 752.256,
+      "2028_incremental_saving_usd": 0
+    },
+    {
+      "id": "PHEV18_NMC",
+      "assumption": "2026 cost persists through2028; no incremental technical step in horizon",
+      "2028_pack_cost_usd": 2829.42,
+      "2028_incremental_saving_usd": 0
+    },
+    {
+      "id": "PHEV24_NMC",
+      "assumption": "2026 cost persists through2028; no incremental technical step in horizon",
+      "2028_pack_cost_usd": 3453.12,
+      "2028_incremental_saving_usd": 0
+    },
+    {
+      "id": "PHEV24_LFP",
+      "assumption": "2026 cost persists through2028; no incremental technical step in horizon",
+      "2028_pack_cost_usd": 3207.6,
+      "2028_incremental_saving_usd": 0
+    },
+    {
+      "id": "BEV90_NMC",
+      "assumption": "2026 cost persists through2028; no incremental technical step in horizon",
+      "2028_pack_cost_usd": 10465.2,
+      "2028_incremental_saving_usd": 0
+    },
+    {
+      "id": "BEV90_LFP",
+      "assumption": "2026 cost persists through2028; no incremental technical step in horizon",
+      "2028_pack_cost_usd": 9098.1,
+      "2028_incremental_saving_usd": 0
+    },
+    {
+      "id": "BEV105_NMC",
+      "assumption": "2026 cost persists through2028; no incremental technical step in horizon",
+      "2028_pack_cost_usd": 12023.55,
+      "2028_incremental_saving_usd": 0
+    },
+    {
+      "id": "BEV105_LFP",
+      "assumption": "2026 cost persists through2028; no incremental technical step in horizon",
+      "2028_pack_cost_usd": 10690.05,
+      "2028_incremental_saving_usd": 0
+    }
+  ],
+  "NA_2028_verified_recurring_saving": null,
+  "NA_2028_missing_inputs": [
+    "eligible soldvehicle counts",
+    "configurationmatch",
+    "supplierinvoice capture",
+    "incremental adoption vs baseline",
+    "OEM implementationexpense",
+    "EUR conversion and priceyear alignment"
+  ],
+  "alternative_2026_chemistry_comparisons_not_additive": [
+    {
+      "from": "PHEV24_NMC",
+      "to": "PHEV24_LFP",
+      "saving_usd": 245.52,
+      "percent": 7.1101,
+      "constraint": "Same modeled energy/power does not prove samevehicle mass,range,packaging,towing or coldperformance; requires vehicleintegration validation."
+    },
+    {
+      "from": "BEV90_NMC",
+      "to": "BEV90_LFP",
+      "saving_usd": 1367.1,
+      "percent": 13.0633,
+      "constraint": "Same modeled energy/power does not prove samevehicle mass,range,packaging,towing or coldperformance; requires vehicleintegration validation."
+    },
+    {
+      "from": "BEV105_NMC",
+      "to": "BEV105_LFP",
+      "saving_usd": 1333.5,
+      "percent": 11.0907,
+      "constraint": "Same modeled energy/power does not prove samevehicle mass,range,packaging,towing or coldperformance; requires vehicleintegration validation."
+    }
+  ]
+}

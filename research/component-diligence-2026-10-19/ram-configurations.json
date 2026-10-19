@@ -1,0 +1,9 @@
+{
+ "status":"Reference configurations for engineering scope; no VIN-level BOM or price quote",
+ "source":"https://www.ramtrucks.com/content/dam/fca-brands/na/ramtrucks/en_us/towing/towing-capacity-guide/brochure/26MY_Ram_1500_PayTow_2.3.pdf",
+ "source_locator":"single-page2026official USpayload/towing guide",
+ "configurations":[
+  {"id":"RAM_ICE","model_year":2026,"model":"Ram1500Tradesman","class":"fullsize lightduty pickup","cab":"CrewCab","bed":"5ft7in","drive":"4x4","engine":"3.0LHurricaneSO twin-turboI6","transmission":"8HP75 eight-speedautomatic","axle_ratio":3.92,"power_hp":420,"torque_lbft":469,"battery":"No tractionbattery; lowvoltage starting/electrical system remains","maximum_chart_tow_lb":11200,"maximum_chart_payload_lb":1840,"seating":"Bench/bucket configuration must be fixed for actual costing;6-seatbench assumed for teaching, not VINverified","options":"No air suspension/premiumaudio/passengerdisplay assumed in teachingreference; actualordercode audit required","limitation":"Tow/payload are chart maxima for configuration, not simultaneous capacity nor certified VINpayload; optionalcontent reduces capability. Source doesnotgivecomponentcost."},
+  {"id":"RAM_48V","model_year":2026,"model":"Ram1500Tradesman","class":"fullsize lightduty pickup","cab":"QuadCab","bed":"6ft4in","drive":"4x4","engine":"3.6LPentastarV6 eTorque","transmission":"850REGen2 eight-speedautomatic","axle_ratio":3.55,"power_hp":305,"torque_lbft":269,"battery_kwh_historical_system_reference":0.43,"battery_voltage":48,"battery_source":"R07:2023eTorqueengineeringrelease;exact2026packunchangednotverified","maximum_chart_tow_lb":7470,"maximum_chart_payload_lb":1770,"seating":"6-seatbench teaching assumption; actualequipmentnotVINverified","options":"Baseconfiguration; no premiumoptiondeletion savingassumed","limitation":"This is not equivalent towing/performance toRAM_ICE. Engine/cabdifferences mean their costdifference is not puremildhybridcost."}
+ ]
+}

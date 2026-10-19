@@ -1,0 +1,33 @@
+{
+  "scope": "Engineering cost-model comparators, not Stellantis purchase prices or adopted forecast inputs",
+  "source_id": "E01",
+  "source_url": "https://publications.anl.gov/anlpubs/2024/01/187177.pdf",
+  "location": "Printed p35/PDF p38, Table18; scale Tables1,8-10; boundary Table19",
+  "currency": "USD",
+  "price_year": 2023,
+  "energy_denominator": "rated kWh, not usable kWh",
+  "geography": "US modeled production",
+  "evidence_type": "independent engineering estimate/forward scenario published January2024",
+  "cost_boundary": {
+    "included": ["cell materials", "purchased pack items", "BMS", "energy", "supplier depreciation", "supplier labor", "supplier overhead", "supplier R&D", "supplier financing", "supplier profit", "supplier warranty allowance"],
+    "not_included_or_not_established": ["complete vehicle engineering and integration", "traction motor/inverter", "onboard charger", "OEM vehicle warranty", "OEM selling expenses", "tariffs", "delivery freight not separately identified"],
+    "tax_credits": "Excluded; do not use report's historical45X scenarios as current policy guidance",
+    "engineering_warning": "SupplierR&D/depreciation in pack price do not establish OEM incremental tooling/validation expenditure. Avoid counting this supplier productivity again as Stellantisplant manufacturing savings."
+  },
+  "scale": {
+    "2026": {"HEV_packs_per_year":200000,"PHEV_packs_per_year":60000,"BEV_packs_per_year":140000,"cell_plant_GWh_per_year":50},
+    "2030": {"HEV_packs_per_year":200000,"PHEV_packs_per_year":100000,"BEV_packs_per_year":250000,"cell_plant_GWh_per_year":70}
+  },
+  "rows": [
+    {"id":"HEV_1p2","architecture":"HEV","energy_rated_kWh":1.2,"power_kW":48,"chemistry_family":"Ni/Mn","usd_per_kWh_2023":567.08,"usd_per_kWh_2026":553.61,"usd_per_kWh_2030":537.05},
+    {"id":"HEV_1p8","architecture":"HEV","energy_rated_kWh":1.8,"power_kW":70,"chemistry_family":"Ni/Mn","usd_per_kWh_2023":430.11,"usd_per_kWh_2026":417.92,"usd_per_kWh_2030":402.74},
+    {"id":"PHEV18_NMC","architecture":"PHEV midsize comparator","energy_rated_kWh":18,"power_kW":150,"chemistry_family":"Ni/Mn","usd_per_kWh_2023":173.12,"usd_per_kWh_2026":157.19,"usd_per_kWh_2030":147.99},
+    {"id":"PHEV24_NMC","architecture":"PHEV midsizeSUV comparator","energy_rated_kWh":24,"power_kW":200,"chemistry_family":"Ni/Mn","usd_per_kWh_2023":159.76,"usd_per_kWh_2026":143.88,"usd_per_kWh_2030":133.05},
+    {"id":"PHEV24_LFP","architecture":"PHEV midsizeSUV comparator","energy_rated_kWh":24,"power_kW":200,"chemistry_family":"LFP","usd_per_kWh_2023":150.03,"usd_per_kWh_2026":133.65,"usd_per_kWh_2030":121.72},
+    {"id":"BEV90_NMC","architecture":"BEV midsizeSUV comparator","energy_rated_kWh":90,"power_kW":200,"chemistry_family":"Ni/Mn","usd_per_kWh_2023":133.28,"usd_per_kWh_2026":116.28,"usd_per_kWh_2030":100.04},
+    {"id":"BEV90_LFP","architecture":"BEV midsizeSUV comparator","energy_rated_kWh":90,"power_kW":200,"chemistry_family":"LFP","usd_per_kWh_2023":125.46,"usd_per_kWh_2026":101.09,"usd_per_kWh_2030":86.17},
+    {"id":"BEV105_NMC","architecture":"BEV pickup comparator","energy_rated_kWh":105,"power_kW":260,"chemistry_family":"Ni/Mn","usd_per_kWh_2023":132.54,"usd_per_kWh_2026":114.51,"usd_per_kWh_2030":99.13},
+    {"id":"BEV105_LFP","architecture":"BEV pickup comparator","energy_rated_kWh":105,"power_kW":260,"chemistry_family":"LFP","usd_per_kWh_2023":123.73,"usd_per_kWh_2026":101.81,"usd_per_kWh_2030":85.33}
+  ],
+  "non_additivity": "Do not add time-path improvements and chemistry-switch savings without reconstructing a common starting and ending pack. Ni/Mn path changes NMC811 to NMC95 plus silicon share, yield,scale and assumed inputprices; it is not pure purchasing or pureengineering. No row is aRam92kWhREEV model."
+}

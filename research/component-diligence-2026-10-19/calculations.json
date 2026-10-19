@@ -1,0 +1,337 @@
+{
+  "reconciliation": {
+    "currency": "EUR",
+    "price_year": "estimated2025pool; frozencomparablevolume/content",
+    "estimated_pool": 35000000000.0,
+    "assumed_cumulative_reduction": 0.09,
+    "terminal_annual_saving": 3150000000.0,
+    "reference_NA_shipments_2025": 1472000,
+    "implied_component_purchase_proxy_per_reference_unit": 23777.17391304348,
+    "required_saving_per_reference_unit": 2139.945652173913,
+    "proposed_NA_shipments_2028": 1618100.0,
+    "target_divided_by2028_units_scale_ruler_not_volume_rescaling": 1946.7276435325382,
+    "implied_NA_to_nonNA_cost_intensity_if_global_purchase_floor88bn_treated_as_point": 1.7998872026251027,
+    "three_equal_annual_reductions_equivalent": 0.030947891656649906,
+    "two_equal_annual_reductions_equivalent": 0.04606079858305434,
+    "coverage_sensitivities": [
+      {
+        "implemented_spend_share_assumed": 1,
+        "required_average_reduction_on_that_spend": 0.09
+      },
+      {
+        "implemented_spend_share_assumed": 0.8,
+        "required_average_reduction_on_that_spend": 0.11249999999999999
+      },
+      {
+        "implemented_spend_share_assumed": 0.5,
+        "required_average_reduction_on_that_spend": 0.18
+      },
+      {
+        "implemented_spend_share_assumed": 0.35,
+        "required_average_reduction_on_that_spend": 0.2571428571428572
+      }
+    ],
+    "warning": "Management35/80percent are reviewcoverage not implementedspend. Sensitivities do not reinterpret them as actualadoption."
+  },
+  "cases": {
+    "A": {
+      "label": "Technical reference subpackage",
+      "project": "Aptiv electrical-center substitution only; retains propulsion/body/otherfunctions",
+      "net_reference_saving_per_vehicle_USD": 40,
+      "price_year": null,
+      "full_vehicle_cost": null,
+      "vehicle_validation": "UnnamedOEMdemonstration,notSTLAcertifiedwholevehicle",
+      "total_frontier_STLA_EUR": null
+    },
+    "B": {
+      "label": "Economic admission test",
+      "net_recurring_unit_saving_USD": 40,
+      "thresholds": [
+        {
+          "remaining_lifetime_units_assumed": 50000,
+          "maximum_undiscounted_incremental_investment_USD_at_full_price_capture": 2000000
+        },
+        {
+          "remaining_lifetime_units_assumed": 100000,
+          "maximum_undiscounted_incremental_investment_USD_at_full_price_capture": 4000000
+        },
+        {
+          "remaining_lifetime_units_assumed": 200000,
+          "maximum_undiscounted_incremental_investment_USD_at_full_price_capture": 8000000
+        }
+      ],
+      "actual_investment": null,
+      "economically_approved_package": null,
+      "caveat": "Deduct validation,transition,integration,warranty,maintenance/repair penalties; applydiscounting. Suppliermayretainpartofbenefit."
+    },
+    "C": {
+      "label": "2028realizable assessment",
+      "verified_stla_eligible_2028_units": null,
+      "verified_net_EUR_per_vehicle": null,
+      "verified_NA_EUR_total": null,
+      "conditional_scale_examples_only": {
+        "ram_ld_plus_grand_cherokee_US": {
+          "assumed_eligible_sold_units": 465000.0,
+          "USD40_if_captured_unchanged_source_price_year_unknown": 18600000.0,
+          "verified_eligibility": false,
+          "EUR_forecast_admission": null
+        },
+        "all_NA_upper_bound_including_ineligible_vehicles": {
+          "assumed_eligible_sold_units": 1618100.0,
+          "USD40_if_captured_unchanged_source_price_year_unknown": 64724000.0,
+          "verified_eligibility": false,
+          "EUR_forecast_admission": null
+        }
+      },
+      "admission": "No incremental change to currentforecast; examplesnotan approvedestimate."
+    },
+    "D": {
+      "label": "Explicit delay scenario, not blanket haircut",
+      "event": "New architecture launches after2028",
+      "2028_vehicles_receiving_that_change": 0,
+      "2028_saving_from_that_change": 0,
+      "existing_architecture_purchasing_savings": "Unchanged/unknown; do notzeroallVCP"
+    }
+  },
+  "NA_weighting": {
+    "US_models": [
+      {
+        "model": "ram_ld",
+        "forecast_US_customer_sales": 280000.0,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "Unknown here except explicitBEVmodels",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      },
+      {
+        "model": "ram_hd",
+        "forecast_US_customer_sales": 170000,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "Unknown here except explicitBEVmodels",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      },
+      {
+        "model": "grand_cherokee",
+        "forecast_US_customer_sales": 185000.0,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "Unknown here except explicitBEVmodels",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      },
+      {
+        "model": "wrangler",
+        "forecast_US_customer_sales": 175000,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "Unknown here except explicitBEVmodels",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      },
+      {
+        "model": "minivans",
+        "forecast_US_customer_sales": 140000,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "Unknown here except explicitBEVmodels",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      },
+      {
+        "model": "promaster",
+        "forecast_US_customer_sales": 55400.0,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "Unknown here except explicitBEVmodels",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      },
+      {
+        "model": "gladiator",
+        "forecast_US_customer_sales": 45000,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "Unknown here except explicitBEVmodels",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      },
+      {
+        "model": "compass",
+        "forecast_US_customer_sales": 59000.0,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "Unknown here except explicitBEVmodels",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      },
+      {
+        "model": "cherokee",
+        "forecast_US_customer_sales": 48000,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "Unknown here except explicitBEVmodels",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      },
+      {
+        "model": "wagoneer_family",
+        "forecast_US_customer_sales": 55000,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "Unknown here except explicitBEVmodels",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      },
+      {
+        "model": "durango",
+        "forecast_US_customer_sales": 88000,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "Unknown here except explicitBEVmodels",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      },
+      {
+        "model": "charger",
+        "forecast_US_customer_sales": 15000,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "Unknown here except explicitBEVmodels",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      },
+      {
+        "model": "fiat_alfa",
+        "forecast_US_customer_sales": 3000,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "Unknown here except explicitBEVmodels",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      },
+      {
+        "model": "hornet",
+        "forecast_US_customer_sales": 0,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "Unknown here except explicitBEVmodels",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      },
+      {
+        "model": "dodge_other",
+        "forecast_US_customer_sales": 0,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "Unknown here except explicitBEVmodels",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      },
+      {
+        "model": "promaster_city",
+        "forecast_US_customer_sales": 13000,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "Unknown here except explicitBEVmodels",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      },
+      {
+        "model": "chrysler_new",
+        "forecast_US_customer_sales": 50000,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "Unknown here except explicitBEVmodels",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      },
+      {
+        "model": "ram_dakota",
+        "forecast_US_customer_sales": 20000,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "Unknown here except explicitBEVmodels",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      },
+      {
+        "model": "ram_compact",
+        "forecast_US_customer_sales": 10000,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "Unknown here except explicitBEVmodels",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      },
+      {
+        "model": "ram_suv",
+        "forecast_US_customer_sales": 0,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "Unknown here except explicitBEVmodels",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      },
+      {
+        "model": "wagoneer_s",
+        "forecast_US_customer_sales": 600,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "BEVmodel; actualbattery/projecteligible2028configurationstillunknown",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      },
+      {
+        "model": "recon",
+        "forecast_US_customer_sales": 100,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "BEVmodel; actualbattery/projecteligible2028configurationstillunknown",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      },
+      {
+        "model": "dodge_glh",
+        "forecast_US_customer_sales": 0,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "Unknown here except explicitBEVmodels",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      },
+      {
+        "model": "renegade",
+        "forecast_US_customer_sales": 0,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "Unknown here except explicitBEVmodels",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      },
+      {
+        "model": "chrysler_runoff",
+        "forecast_US_customer_sales": 0,
+        "forecast_US_wholesale_ratio": 1,
+        "powertrain_split": "Unknown here except explicitBEVmodels",
+        "confirmed_project_fitment_share": null,
+        "confirmed_unit_component_saving_EUR": null,
+        "project_based_annual_saving_EUR": null
+      }
+    ],
+    "Canada_assumed_units": 115000,
+    "Mexico_assumed_units": 91000,
+    "Canada_Mexico_model_powertrain_split": null,
+    "whole_NA_project_based_saving_EUR": null
+  },
+  "coverage": {
+    "system_families_mapped": 24,
+    "priced_complete_Stellantis_BOMs": 0,
+    "verified_projects_with_EURcost_and_NA2028coverage": 0,
+    "project_based_estimate": null,
+    "existing_target_not_substantiated_by_complete_project_build_EUR": 3150000000.0,
+    "interpretation": "Lack of publicprojectcoverage is not proofopportunityzero or upperbound;9percentremainsbenchmarkscenario."
+  }
+}

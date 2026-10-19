@@ -1,0 +1,182 @@
+[
+  {
+    "id": "E01",
+    "title": "Argonne Cost Analysis and Projections for US-Manufactured Automotive Lithium-ion Batteries",
+    "url": "https://publications.anl.gov/anlpubs/2024/01/187177.pdf",
+    "publication_date": "2024-01",
+    "accessed": "2026-10-19",
+    "locations": "printedpp4-8 Tables1-12; p35 Table18; p36 Table19; pp37-40 packbreakdowns",
+    "type": "primary independent engineering model",
+    "limitations": "Forward assumptions datedJanuary2024, not observed2026 prices.2023USD/ratedkWh. Historical45X discussion excluded. Includes technology/scale/inputprice changes together."
+  },
+  {
+    "id": "E02",
+    "title": "Argonne BatPaC parametric sensitivity report",
+    "url": "https://publications.anl.gov/anlpubs/2023/08/183571.pdf",
+    "publication_date": "2023-08",
+    "accessed": "2026-10-19",
+    "locations": "printedpp9-10scale; pp11-13chemistry/Table7; p37TableA2PHEV",
+    "type": "primary independent engineering model",
+    "limitations": "2022BatPaCv5inputs;USDpriceyear not explicitly established in inspected excerpts; nocurrency aggregation. Modeledtechnology not productionresult. Removingfastcharge constraint changes functionality."
+  },
+  {
+    "id": "E03",
+    "title": "2026 Jeep Cherokee US launch description",
+    "url": "https://www.jeep.com/news/2026-jeep-cherokee-adventure.html",
+    "publication_date": null,
+    "accessed": "2026-10-19",
+    "locations": "powertrain;4x4;standardandavailableequipment",
+    "type": "OEM product specifications",
+    "limitations": "Batterycapacity corroborated withMexico sheet; USandMexico trimcontents differ."
+  },
+  {
+    "id": "E04",
+    "title": "Jeep Cherokee2026 Limited4x4 Mexico technical sheet",
+    "url": "https://www.jeep.com.mx/content/dam/cross-regional/nafta/jeep/es_mx/paginas-genericas/archivos-descargables/cherokee/FT_JEEP_CHEROKEE_2026_03FEB2026_V2.pdf",
+    "publication_date": "2026-02-03",
+    "accessed": "2026-10-19",
+    "locations": "PDFp2technicalspecifications",
+    "type": "OEM market-specific specification",
+    "limitations": "400Vlabel,1.08kWhwithoutusable/rateddistinction;385kgpayloadand1587kgtowmarket-specific;do not transferMexicoequipment toUSbasevehicle."
+  },
+  {
+    "id": "E05",
+    "title": "2022 Grand Cherokee global/North American launch specifications",
+    "url": "https://www.media.stellantis.com/em-en/jeep/press/all-new-2022-jeep-grand-cherokee-the-most-technologically-advanced-4x4-capable-and-luxurious-grand-cherokee-yet",
+    "publication_date": "2021-09-29",
+    "accessed": "2026-10-19",
+    "locations": "4xepropulsionsystem",
+    "type": "OEM productionarchitecture",
+    "limitations": "Historicalconfiguration, not2028 eligibility;17kWhrounded;375hp,6000lbtowmaximumsubjectequipment."
+  },
+  {
+    "id": "E06",
+    "title": "Grand Cherokee4xe UK orders open",
+    "url": "https://www.media.stellantis.com/uk-en/jeep/press/uk-orders-open-for-the-all-new-jeep-grand-cherokee-4xe-plug-in-hybrid",
+    "publication_date": "2022",
+    "accessed": "2026-10-19",
+    "locations": "integrateddualchargingmodule andpowerinvertermodule",
+    "type": "OEM architecture",
+    "limitations": "UK performanceunits/dutycycle notNA; usedonlytoestablishcharger+DC/DCintegrationalreadyexists."
+  },
+  {
+    "id": "E07",
+    "title": "2025 WagoneerS Limited launch",
+    "url": "https://blog.stellantisnorthamerica.com/2025/02/06/all-new-all-electric-2025-jeep-wagoneer-s-limited-well-equipped-competitively-priced-and-now-open-for-orders/",
+    "publication_date": "2025-02-06",
+    "accessed": "2026-10-19",
+    "locations": "400V100kWhbattery;Limitedequipment",
+    "type": "OEM product announcement",
+    "limitations": "100kWhrounded;nofactorycosts;notinterchangeablewithRamtruck."
+  },
+  {
+    "id": "E08",
+    "title": "2027 Ram1500REV Canadian product page",
+    "url": "https://www.ramtruck.ca/en/1500rev",
+    "publication_date": null,
+    "accessed": "2026-10-19",
+    "locations": "targetedperformance;92kWhpack;dual400VEDMs",
+    "type": "OEMpreproductiontargets",
+    "limitations": "CurrentREVnameisREEV;targetedmaxima notsimultaneousconfigurationguarantee;upcoming timingnotproofproduction."
+  },
+  {
+    "id": "E09",
+    "title": "Ram electric range and batteries",
+    "url": "https://www.ramtrucks.com/electric/range-and-batteries.html",
+    "publication_date": null,
+    "accessed": "2026-10-19",
+    "locations": "92kWh/130kWgenerator;projected2026availability",
+    "type": "OEMpreproductiontargets",
+    "limitations": "OriginalRamchargerarchitecture;currentREVpage;usableenergyunknownfrompage."
+  },
+  {
+    "id": "E10",
+    "title": "FY2025 AnnualReport",
+    "url": "https://www.stellantis.com/content/dam/stellantis-corporate/investors/financial-reports/Stellantis-NV-20251231-Annual-Report.pdf",
+    "publication_date": "2026-02",
+    "accessed": "2026-10-19",
+    "locations": "PDF/printed pp15 and52-53, cancelled Ram BEV and battery capacity rationalization",
+    "type": "issuerfiling",
+    "limitations": "RamBEVcancellationconfirmed;notusedasPHEVphaseoutconfirmation."
+  },
+  {
+    "id": "E11",
+    "title": "IBIS vehicleprototype realworldtesting",
+    "url": "https://www.media.stellantis.com/at-de/corporate/press/weltpremiere-erstes-prototypenfahrzeug-mit-bahnbrechendem-intelligent-battery-integrated-system-ibis-startet-praxistests-19092025",
+    "publication_date": "2025-09-19",
+    "accessed": "2026-10-19",
+    "locations": "PeugeotE3008prototype;benefits;phase2andnextsteps",
+    "type": "OEM/supplierdemonstratorclaim",
+    "limitations": "Up-to10%efficiency isnot10%cost. ~40kgvehiclevs~10kginverter/chargerremoval aredifferentboundaries. Noquantifiednetcost orNA2028SOP."
+  },
+  {
+    "id": "E12",
+    "title": "STLALarge platform announcement",
+    "url": "https://www.stellantis.com/en/news/press-releases/2024/january/stellantis-unveils-bev-native-stla-large-platform-with-800-km-500-mile-range-and-the-ultimate-flexibility-to-cover-a-wide-spectrum-of-vehicles",
+    "publication_date": "2024-01-19",
+    "accessed": "2026-10-19",
+    "locations": "three-in-oneEDM motor/inverter/reduction",
+    "type": "OEMarchitectureannouncement",
+    "limitations": "Integrationalreadyplanned/inbaseline;noincremental\u20acsaving."
+  },
+  {
+    "id": "E13",
+    "title": "STLAOne modulararchitecture",
+    "url": "https://www.stellantis.com/en/news/press-releases/2026/may/stellantis-unveils-stla-one-global-modular-vehicle-architecture",
+    "publication_date": "2026-05-21",
+    "accessed": "2026-10-19",
+    "locations": "2027launch;20%costefficiency;LFP/cell-to-body",
+    "type": "managementtarget",
+    "limitations": "20%platformtargetisnotbattery-specificorNAfleetwide;noRam/GrandCherokeeeligiblevolume;avoidaddingtocomponentsubprojects."
+  },
+  {
+    "id": "E14",
+    "title": "CATLStellantis LFPSpainJV",
+    "url": "https://www.stellantis.com/en/news/press-releases/2024/december/stellantis-and-calt-to-invest-up-to-4-1-billion-in-joint-venture-for-large-scale-lfp-battery-plant-in-spain",
+    "publication_date": "2024-12-10",
+    "accessed": "2026-10-19",
+    "locations": "EuropeanB/Csegments;end2026target;up-to50GWh",
+    "type": "managementinvestmenttarget",
+    "limitations": "Europe eligibilitydoesnotestablishNAsourcing.2024sustainabilityreportlaterdistinguishesmodule2026/cell2028."
+  },
+  {
+    "id": "E15",
+    "title": "Stellantis Kokomo EDM investment",
+    "url": "https://www.stellantis.com/en/news/press-releases/2023/february/stellantis-announces-155-million-investment-in-three-indiana-plants-to-support-north-american-electrification-goals",
+    "publication_date": "2023-02-28",
+    "accessed": "2026-10-19",
+    "locations": "155mUSDinvestment;inhouseEDMproduction",
+    "type": "managementinvestmenttarget",
+    "limitations": "2023plan,notincremental2026VCPinvestment;OEMmakevsbuyboundarymustfollowactualmanufacturing."
+  },
+  {
+    "id": "E16",
+    "title": "GrandCherokee4xe MY24 technicalsheetFrance",
+    "url": "https://www.media.stellantis.com/fr-fr/download-price-lists/181",
+    "publication_date": "2024",
+    "accessed": "2026-10-19",
+    "locations": "battery17.3kWh",
+    "type": "OEMtechnicalspecification",
+    "limitations": "NotusedtoblendEUrange/towratingswithNAvehicle."
+  },
+  {
+    "id": "E17",
+    "title": "JeepWagoneerS Brussels2026specifications",
+    "url": "https://www.media.stellantis.com/fr-fr/jeep/press/jeep-au-salon-de-l-automobile-de-bruxelles-2026-presentation-de-l-avenger-black-edition-de-la-toute-nouvelle-gamme-compass-et-du-revolutionnaire-wagoneer-s",
+    "publication_date": "2026-01",
+    "accessed": "2026-10-19",
+    "locations": "100.5kWh400V;250kWfrontandbackEDMs",
+    "type": "OEMEuropeproductdescription",
+    "limitations": "600metric-hpEUclaimnotUSLimited500hpbaseline;specificationcomparisononly."
+  },
+  {
+    "id": "E18",
+    "title": "Original Ramcharger architecture announcement",
+    "url": "https://www.stellantisfleet.com/content/dam/fca-fleet/na/fleet/en_us/news-and-events/fca-news/all-new-2025-ram-1500-ramcharger-unveiled-with-class-shattering-unlimited-battery-electric-range.pdf",
+    "publication_date": "2023-11",
+    "accessed": "2026-10-19",
+    "locations": "Powertrain section",
+    "type": "OEM historical preproduction targets",
+    "limitations": "Old model year and some payload targets superseded. Used only for originally announced V6/generator architecture."
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "Jeep_Cherokee_2026_HEV_MX_Limited",
+    "model": "JeepCherokee",
+    "model_year": 2026,
+    "market": "Mexico",
+    "trim": "Limited4x4",
+    "class": "midsizeSUV/crossover;4778mmlength",
+    "propulsion": "1.6LturboI4 + twoelectricmotors,BVT313hybridtransmission;nonplug-inHEV",
+    "drive": "JeepActiveDriveI4x4,rearaxledisconnect",
+    "battery_kWh": 1.08,
+    "battery_energy_basis": "OEMnotexplicitrated/usable",
+    "voltage_label": 400,
+    "seats": 5,
+    "power_hp": 210,
+    "torque_lb_ft": 230,
+    "tow_kg": 1587,
+    "payload_kg": 385,
+    "options_boundary": "MexicoLimitedincludes18inwheels,panoramicsunroof,powerheatedseats;notUSbasecontents",
+    "source_ids": [
+      "E03",
+      "E04"
+    ],
+    "component_procurement_cost": null,
+    "2028_change_adoption": null
+  },
+  {
+    "id": "Jeep_GrandCherokee_2022_4xe",
+    "model": "JeepGrandCherokee4xe",
+    "model_year": 2022,
+    "market": "NorthAmerica",
+    "trim": "Limited4xe/4x4architectureexample",
+    "class": "two-rowSUV,notCherokee",
+    "propulsion": "2.0LturboI4,twoelectricmotors,eight-speedautomatic,PHEV",
+    "drive": "QuadraTracII,two-speedtransfercase",
+    "battery_kWh_rounded": 17,
+    "seats": 5,
+    "power_hp": 375,
+    "torque_lb_ft": 470,
+    "maximum_tow_lb": 6000,
+    "payload": null,
+    "battery_energy_basis": "17kWhroundedOEM;17.3kWhlaterEUtechnicalsheet,usableenergyunverified",
+    "source_ids": [
+      "E05",
+      "E06",
+      "E16"
+    ],
+    "options_boundary": "Noair-suspensionorSummitReserveupgradessavingsassumed",
+    "component_procurement_cost": null,
+    "2028_change_adoption": "Noeligible2028productionverified;historicalarchitecturecomparatoronly"
+  },
+  {
+    "id": "Jeep_WagoneerS_2025_Limited_BEV",
+    "model": "JeepWagoneerS",
+    "model_year": 2025,
+    "market": "US",
+    "trim": "Limited",
+    "class": "tworowBEVSUV,notfullsizeWagoneer",
+    "propulsion": "dualelectricdrivemodules;BEV",
+    "drive": "AWD",
+    "battery_kWh_rounded": 100,
+    "battery_energy_basis": "OEMrounded;100.5kWhEuropeanofficialspecification;usableenergyunverified",
+    "seats": 5,
+    "power_hp": null,
+    "maximum_tow_lb": null,
+    "payload_lb": null,
+    "options_boundary": "600 hp propulsion upgrade optional; base horsepower not verified in selected primary release. Do not combine Limited equipment with Launch Edition contents.",
+    "source_ids": [
+      "E07",
+      "E12",
+      "E17"
+    ],
+    "component_procurement_cost": null,
+    "2028_change_adoption": null
+  },
+  {
+    "id": "Ram1500_REV_2027_REEV",
+    "model": "Ram1500REV(formerRamchargerprogram)",
+    "model_year": 2027,
+    "market": "US/Canada",
+    "trim": "preproductioncrewcab,targetequipmentnotfinal",
+    "class": "fullsizebody-on-framepickup",
+    "propulsion": "Engine-driven 130 kW generator, dual EDMs; REEV. Original Ramcharger release specifies a 3.6L V6; current selected pages do not reconfirm displacement.",
+    "drive": "frontandrearelectricdrive",
+    "battery_kWh": 92,
+    "battery_energy_basis": "OEMnominalpacksize;usableenergyunverifiedinselectedsource",
+    "seats": null,
+    "target_power_hp": 663,
+    "target_torque_lb_ft": 615,
+    "target_max_tow_lb": 14000,
+    "target_max_payload_lb": 2600,
+    "target_zero_to_60mph_seconds": 4.4,
+    "target_total_range_miles": 690,
+    "source_ids": [
+      "E08",
+      "E09",
+      "E18"
+    ],
+    "options_boundary": "Do notcombinealltargetmaximaasasingledeliverableVIN;electricalgenerationaddsengine,fuel,exhaust,coolingcost",
+    "component_procurement_cost": null,
+    "2028_change_adoption": null
+  },
+  {
+    "id": "Ram1500_old_REV_BEV_cancelled",
+    "model": "Ram1500pureBEVformerlyREV",
+    "architecture": "BEV",
+    "status": "CancelledFY2025",
+    "source_ids": [
+      "E10"
+    ],
+    "2028_eligible_units_for_cancelled_program": 0,
+    "note": "Notcurrent2027REVwhichisREEV;do notassign105kWhBatPaCpickupcoststo92kWhREEVasactualRamcost."
+  }
+]
